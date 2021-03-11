@@ -1,0 +1,7 @@
+venv/
+.DS_Store
+*.log
+models
+.vscode
+rasa.*
+events.*

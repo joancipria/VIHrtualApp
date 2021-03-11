@@ -1,0 +1,65 @@
+version: "2.0"
+
+rules:
+
+- rule: Responder a comunes
+  steps:
+  - intent: comunes
+  - action: utter_comunes
+
+- rule: Responder a misc
+  steps:
+  - intent: misc
+  - action: utter_misc
+  
+- rule: Responder a bot
+  steps:
+  - intent: bot
+  - action: utter_bot
+
+- rule: Responder a asistencia
+  steps:
+  - intent: asistencia
+  - action: utter_asistencia
+  
+- rule: Responder a basicas
+  steps:
+  - intent: basicas
+  - action: utter_basicas
+  
+- rule: Responder a origen
+  steps:
+  - intent: origen
+  - action: utter_origen
+  
+- rule: Responder a transmision
+  steps:
+  - intent: transmision
+  - action: utter_transmision
+
+- rule: Responder a sintomas
+  steps:
+  - intent: sintomas
+  - action: utter_sintomas
+  
+- rule: Responder a deteccion
+  steps:
+  - intent: deteccion
+  - action: utter_deteccion
+
+- rule: Responder a tratamiento
+  steps:
+  - intent: tratamiento
+  - action: utter_tratamiento
+
+- rule: Responder a prevencion
+  steps:
+  - intent: prevencion
+  - action: utter_prevencion
+
+- rule: Responder a sida
+  steps:
+  - intent: sida
+  - action: utter_sida
+
+
