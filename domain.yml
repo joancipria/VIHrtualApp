@@ -29,16 +29,6 @@ intents:
     use_entities: true
 - sida:
     use_entities: true
-- mood_unhappy:
-    use_entities: true
-- affirm:
-    use_entities: true
-- greet:
-    use_entities: true
-- mood_great:
-    use_entities: true
-- deny:
-    use_entities: true
 entities: []
 slots: {}
 responses:
