@@ -1,0 +1,373 @@
+Intent,Utterances,Entities,Responses
+comunes/saludar,"Hola
+Buenos días
+Buenas
+Saludos
+Buenas tardes
+Tanto gusto
+Un gusto verlo
+Un gusto verte
+Mucho gusto saludarlo
+Cuánto tiempo
+Tanto tiempo sin verte
+¿Qué pasa?
+Buen día
+Hey
+",,Hola!
+comunes/despedirse,"Nos vemos
+Hasta pronto
+Hasta luego
+Adiós
+Chao
+Me despido
+Me voy
+Hasta la próxima
+Hasta otra
+Bye
+",,Hasta otra!
+comunes/afirmar,"Sí
+Efectivamente
+Afirmo
+Por supuesto
+Correcto
+Sin duda
+Claro
+Obviamente
+Sip
+Estás en lo correcto",,
+comunes/negar,"No
+Nop
+Para nada
+Negativo
+De ninguna manera
+Ni modo
+En absoluto
+Ni por asomo
+Bajo ningún concepto
+Todo lo contrario",,
+comunes/agradecer,"Gracias
+Muchas gracias
+Le agradezco
+Te agradezco
+Mi gratitud
+Me has sido de ayuda
+Me has sido de mucha ayuda
+Mis agradecimientos
+Gracias por la ayuda",,De nada
+comunes/esperar,"Espera
+Un momento
+Disculpa
+Un segundo
+Espera por favor
+Aguanta
+Ahora vuelvo
+Vuelvo en un momento",,Aquí te espero
+misc/retar_bot,"Eres un bot
+Eres un robot
+¿Eres un humano?
+¿Eres una persona?
+¿Eres una máquina?
+Eres un ordenador
+No eres humano
+No eres una persona",,Soy una inteligencia artificial
+bot/preguntar_nombre,"¿Cómo te llamas?
+Tu nombre
+¿Cuál es tu nombre?
+¿Cómo me refiero a ti?
+¿Me puedes decir tu nombre?
+¿Cómo me dirijo a ti?
+Dime tu nombre",,Juan
+bot/preguntar_estado,"¿Cómo estás?
+¿Qué tal?
+¿Qué tal andas?
+¿Cómo te encuentras?
+¿Todo bien?
+¿Todo correcto?
+¿Cómo va todo?",,Genial! Tú que tal?
+bot/preguntar_hobbies,"¿Qué te gusta hacer?
+¿A qué dedicas tu tiempo libre?
+¿Qué haces en tu tiempo libre?
+¿Cuáles son tus aficiones?
+¿En qué empleas tu tiempo libre?
+¿Tus hobbies son?",,Ayudar a la gente
+bot/preguntar_que_puede_hacer,"¿Qué eres capaz de hacer?
+¿Qué puedes hacer?
+¿A qué te dedicas?
+¿Cuáles son tus habilidades?
+¿Qué puedes hacer por mí?",,Puedo responder cualquier pregunta sobre el VIH
+asistencia/pedir_ayuda,"Necesito ayuda
+Ayúdame por favor
+¿Me ayudarías?
+Necesito que me ayudes
+¿Me podrías ayudar?
+¿Me podrías echar una mano?
+Ayúdame",,¿Qué puedo hacer por ti?
+asistencia/querer_preguntar,"Quiero preguntarte algo
+Necesito información
+¿Te podría hacer una pregunta?
+¿Puedo realizarte una pregunta?
+Una consulta",,Adelante! Pregunta
+asistencia/tener_duda,"Tengo una duda
+No estoy seguro sobre un tema",,Pregúntame cualquier cosa
+asistencia/mas_informacion,"¿Donde puedo obtener más información?
+¿Donde puedo encontrar más info?",,"Existen muchas páginas web donde puede informarse sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico."
+basicas/que_significa_vih,¿Qué significa VIH?,,Son las siglas del Virus de la Inmunodeficiencia Humana.
+basicas/cura_vih,¿Existe cura para el VIH?,,"Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
+basicas/como_actua_vih,"¿Cómo actúa el VIH ?
+¿Cómo actúa el VIH en el cuerpo?",,"Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH."
+orgien/cual_es_el_origen,¿Cuál es el origen del VIH?,,Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
+origen/cuando,¿Cuándo se originó el VIH?,,"El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX. "
+origen/donde,"¿Dónde surgió el VIH?
+¿Dónde se originó el VIH?
+¿En qué sitio se concontró el VIH?
+¿De dónde viene el VIH?
+¿De dónde viene el virus?",,En una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
+origen/quien_descubrimiento,"¿Quién descubrió el VIH?
+¿Quién encontró el VIH?
+¿Quién inventó el VIH?
+¿Qué médico descubrió el virus?
+¿Quién encontró el virus?",,"Robert Charles Gallo, un investigador biomédico de origen estadounidense"
+origen/cuando_descubrimiento,"¿Cuándo se descubrió el VIH?
+¿En qué alo se descubrió el VIH?
+¿En qué momento se descubrió el VIH?",,"El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH)."
+transmision/como_contagia,"¿Cómo se contagia el VIH?
+¿Cómo se pega el VIH?
+¿Cómo se transmite VIH?
+¿De que manera se contagia?",,"El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
+transmision/aire,"¿Se contagia el VIH por el aire?
+¿Se contagia a través del aire?
+¿Se puede contagiar con un estornudo?
+¿Es el aire una vía de contagio?
+¿Se transmite por el aire?",,"No. El virus no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna."
+transmision/vertical,"¿Qué es la transmisión vertical?
+¿Que significa transmisión vertical?
+¿Qué es la transmisión perinatal?
+¿En que consiste la transmisión vertical?
+Explícame que es la transmisión vertical
+No sé lo que es la transmisión vertical",,"También se conoce como transmisión perinatal y es la transmisión (contagio) de una infección u otra enfermedad de la madre a su hijo que puede ser antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé."
+transmision/evitar_veritcal,"¿Puede evitarse la transmisión vertical?
+¿Puedo evitar que mi bebé se infecte?
+¿Puedo evitar pasarlo a mis hijos?
+¿Puedo evitar contagiar a mis hijos?
+¿Es evitar el contagio a mi niño?
+¿Puedo evitar la transmisión vertical??",,"Sí. Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
+transmision/fluidos,"¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
+¿Se transmite el VIH por la saliva?
+¿Se transmite el VIH el sudor?
+¿Se transmite el VIH por las lágrimas?
+¿Puedo contagiarme besando?
+¿Se transmite a través de la boca?
+¿Se pega besando?",,"No. El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre)."
+transmision/insectos,"¿Pueden los mosquitos o las garrapatas contagiar el VIH?
+¿Los mosquitos contagian el VIH?
+¿Los mosquitos transmiten el virus?
+¿Las garrapatas transmiten el virus?
+¿Los garrapatas contagian el VIH?
+¿Pueden las pulgas contagiar el virus?
+¿Los insectos chupadores de sangre transmiten el virus?",,No. Los insectos chupadores de sangre no pueden transmitir el VIH.
+transmision/wc,"¿Puedo contagiarme de VIH por usar el mismo WC que una persona con VIH?
+¿Puedo contagiarme si uso el mismo váter que una persona con infectada?
+¿Existe riesgo de contagio si utilizo el mismo inodoro que una persona con VIH?",,"No. El VIH no se contagia usar el mismo inodoro que una persona con VIH. Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
+transmision/tatuajes,"¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
+¿Puedo contraer el VIH por hacerme un tatuaje?
+¿Puedo contagiarme si me hago un tatuaje?
+¿Me puedo contagiar al hacerme un tatoo?",,"Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. Si se quiere hacer un tatuaje o una perforación corporal, debe asegurarse de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados."
+transmision/perforaciones,"¿Puedo contraer el VIH por hacerme una perforación?
+¿Puedo contraer el VIH si me hago un piercing?
+¿Puedo contraer el VIH si me hago un pendiente?
+¿Puedo contagiarme al hacerme una perforación?
+¿Me pueden pegar el virus si me hago un piercing?",,Se puede contraer el VIH por hacerse perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona. Si deseas hacerte una perforación corporal debes asegurarse de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas y demás artículos nuevos o esterilizados.
+transmision/alimentos,"¿Puedo contraer el VIH de los alimentos?
+¿Puedo contagiarme comiendo?
+¿Pueden los alimentos tener VIH?
+¿Puedo infectarme por comer un alimento?
+¿Puedo contraer el virus si la comida tiene VIH?",,"No puede contraer VIH por consumir los alimentos que haya tocado una persona infectada por el VIH. Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus."
+transmision/inyectar_droga,"¿Puedo contraer el VIH por inyectarme drogas?
+¿Puedo contraer el VIH inyectándome droga?
+¿Puedo coger el VIH si me pincho caballo?
+¿Puedo coger el VIH si me pincho heroína?
+¿Puedo contraer el VIH si tomo heroína?
+¿Puedo contraer el VIH si tomo caballo?
+¿Es el consumo de heroína un riesgo?",,"Sí. El riesgo de contraer el VIH es muy alto si usted usa las agujas y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. Además, también tiene un riesgo elevado de contraer otras enfermedades como hepatitis B o C."
+transmision/drogas,"¿Puedo contraer el VIH por usar drogas?
+¿Puedo coger el VIH consumiendo drogas?
+¿Es el VIH un riesgo en el consumo de drogas?
+¿Puedo contagiarme tomando drogas?
+¿Me pueden pegar el VIH si tomo drogas?
+¿Puedo contraer VIH si tomo drogas?",,"El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. Ahora bien, al estar bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo."
+transmision/sexo_oral,"¿Puedo contraer el VIH mediante las relaciones sexuales orales?
+¿Qué probabiliad hay de contagiarse mediante sexo oral?
+¿Me puedo contagiar haciendo sexo oral? 
+¿Se puede transmitir el virus con el sexo oral?
+¿Me puedo infectar realizando sexo oral?",,"Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."
+transmision/carga_viral_indetectable,"¿Una persona con carga viral indetectable puede contagiar el VIH?
+¿Puedo contagiar si tengo una carga viral indetectable?
+¿Es posible transmitir el virus con carga viral indetectable?
+¿Si tengo una carga viral indetectable puedo contagiar?
+¿Es posible infectar a otra persona con una carga vira indetectable?
+Si tengo una crga viral indetectable ¿qué riesgo hay de contagio?",,Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
+sintomas/que_sintomas,¿Qué sintomas muestra el VIH?,,Algunas personas pueden sentirse enfermas como si tuvieran la influenza en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tiene el VIH es hacerse la prueba.
+sintomas/vih_sin_sintomas,"¿Puedo tener VIH y no tener síntomas?
+¿Es posible tener VIH y no sentir nada?
+¿Puedo haberme contagiado y no tener síntomas?",,"Sí. Este virus puede convivir durante años en el organismo sin que el protador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas."
+sintomas/sintomas_externos,"¿Existen signos externos que nos hagan saber si una persona padece VIH?
+¿Hay síntomas externos cuando se tiene VIH?
+¿A simple vista se puede ver si una persona tiene VIH?
+¿Físicamente se ve si alguien tiene VIH?
+¿Existen síntomas externos para saber si me he contagiado?
+Cómo puedo saber a simple vista quién tiene VIH",,No. No es posible saber solo por el aspecto físico si una persona padece VIH.
+deteccion/que_es_estado_sereologico,¿Qué es el estado serológico? ,,"Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico, medidos con un análisis de sangre (una prueba serológica). VIH-seropositivo significa que una persona tiene anticuerpos detectables contra el VIH; seronegativo significa que una persona no tiene anticuerpos detectables contra el VIH"
+deteccion/saber_si_tengo_vih,"¿Cómo puedo saber si tengo VIH?
+Saber si estoy infectado
+¿Cómo se si me he contagiado?
+¿Cómo puedo saber si me he infectado?
+Forma de saber si me he contagiado",,"La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, puede consultar con su médico. Además, en muchos países se venden test de detección en las farmacias."
+deteccion/detectar_tras_contacto,"¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
+¿Cuándo es posible detectar el virus tras una infección?
+¿Qué tiempo hay desde que se producte el contagio hasta que se detecta?
+¿Qué tiempo debe pasar para poder detectar el virus?
+¿Cuánto tiempo tiene que pasar para poder detectar el VIH?",,"Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma."
+tratamiento/existe_tratamiento,"¿Hay tratamiento para el VIH?
+¿Existe tratamiento para el VIH?",," Sí, un tratamiento que cosinste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo."
+tratamiento/en_que_consiste,"¿En qué consiste la terapia contra el virus?
+¿Cuál es la terapia para combatir el virus?
+¿En qué consiste el tratamiento contra el virus?
+¿En qué consiste el tratamiento contra el VIH?
+¿En qué se basa el tratamiento contra el virus?
+¿En qué se basa la terapia para combatir el VIH?",,Es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
+tratamiento/cuando_empezar,"¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?
+¿Cuándo se debe empezar a tomar los medicamentos contra el VIH?
+¿Cuándo debo empezar a tomar las medicinas?
+¿Cuándo debo empezar a medicarme para el VIH?",,Una persona seropositiva debe empezar a tomar la medicación contra el virus lo antes posible.
+tratamiento/cuantos_farmacos,"¿Cuántos fármacos hay aprobados contra el VIH?
+¿Qué tipo de fármacos hay para el VIH?
+¿Cuántos fármacos hay para el VIH?
+¿Cuántos fármacos hay aprobados para el VIH?
+¿Qué fármacos hay para combatir el VIH?
+¿Qué fármacos existen?",,"La FDA, que es el organismo responsable del control de los fármacos en Estados Unidos, ha aprobado 24 principios activos como fármacos contra el VIH desde 1987 hasta 2020. Además de otras 22 combinaciones de estos fármacos en las que en una sola pastilla se pueden tomar varios principios activos."
+tratamiento/cuantos_medicamentos,"¿Cuántos tipos de medicamentos hay contra el VIH?
+¿Qué tipos de medicamentos hay contra el VIH?
+¿Cuántos medicamentos hay aprobados para el VIH?
+¿Qué medicamentos hay para combatir el VIH?
+¿Qué medicación existe?",,"Los fármacos antirretrovirales aprobados contra el VIH pertenecen a siete clases distintas. Esta clasificación se realiza según la forma en que afectan el ciclo de vida de ese virus e incluyen los inhibidores de la transcriptasa inversa análogos de los nucleósidos (ITIN), los inhibidores de la transcriptasa inversa no análogos de los nucleósidos (ITINN), los inhibidores de la proteasa (IP), los inhibidores de la fusión, los antagonistas de CCR5, inhibidores de posfijación, y los inhibidores de la transferencia de cadenas de la integrasa."
+tratamiento/que_es_efectos_secundarios,"¿Qué es un efecto secundario?
+¿Qué son los efectos secundarios?
+¿Qué significa efecto secundario?
+Explícame qué es un efecto secundario
+¿Qué son efectos adversos?
+Explicación efectos secundarios
+No sé lo que es un efecto secundario",,"Los efectos secundarios son efectos no deseados causados por los fármacos. La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. Otros pueden ser más graves y requieren su comunicación a su médico."
+tratamiento/que_es_interaccion_entre_medicamentos,"¿Qué es una interacción entre medicamentos?
+¿Que significa una interacción entre medicamentos?
+¿En qué consiste una interacción entre medicamentos?
+¿Qué es una interacción entre medicinas?
+¿Qué es una interacción medicamentosa?
+Explicame que es una interacción entre medicamentos
+Reacción entre medicamentos
+No sé lo que es una interacción entre medicamentos",,"Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento, una bebida o un suplemento.  Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados."
+prevencion/que_es_prep,"¿Qué es la profilaxis-preexposición (PrEP)?
+¿Qué es la PrEP?
+¿Qué significa PrEP?
+Explícame que es la PrEP
+Explicación PrEP
+No sé lo que es PrEP",,La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de contraer VIH si se toman medicamentos diariamente. La PrEP se administra a personas con un riesgo muy alto de contraer el VIH. 
+prevencion/efectividad_prep,"¿Es efectiva la PrEP?
+¿Es fiable la PrEP?
+¿Cuál es la fiabilidad de la PrEP?
+¿Cuál es la efectividad de la PrEP?
+¿Cuál es la probabilidad de infectarse si se toma la PrEP?
+¿Es fácil infectarse si se está tomando la PrEP?
+¿En cuánto se reducen las posibilidades de infección con la PrEP?
+¿Cómo de fiable es la PrEP?
+¿Es segura la PrEP?
+¿Me puedo fiar de la PrEP?
+¿Qué probabilidad de infectarme tengo si tomo la PrEP?
+¿Es la PrEP infalible?",,"Si se sigue la pauta diaria recomendada por su médico, la PrEP es altamente efectiva para prevenir el VIH, tanto por vía sexual (hasta un 99% de reducción del riesgo) como por o el uso de drogas inyectables (74% de reducción). Sin embargo, la PrEP es mucho menos efectiva cuando no se toma de manera consistente."
+prevencion/que_medicamentos_prep,"¿Qué medicamento es la PrEP?
+¿De qué se compone la PrEP?
+¿Qué medicamentos son la PrEP?
+¿Qué combinación de medicamentos es la PrEP?
+¿Qué medicamentos forman parte de la PrEP?
+¿Qué es Truvada?
+¿Qué medicamentos componen la PrEP?
+¿Qué contiene Truvada?",,"Es una combinación de dos medicamentos contra el VIH (tenofovir y emtricitabina), que se vende bajo el nombre comercial Truvada®"
+prevencion/es_prep_vacuna,"¿La PrEP es una vacuna?
+¿Es la PrEP una vacuna?
+¿La PrEP funciona como una vacuna?
+",,No. La PrEP no funciona de la misma manera que una vacuna. Las vacunas enseñan al sistema inmune a luchar contra una infección y su efecto dura mucho tiempo en el organismo. La PrEP se toma diariamente y lo que sucede es que esas sustancias bloquean al virus para evitar que se propague en el organismo.
+prevencion/efectos_secundarios_prep,"¿Tiene efectos secundarios la PrEP?
+¿Qué efectos secundarios tiene la PrEP?
+¿Hay algún efecto secundario al tomar PrEP?
+¿Puede casuar efectos secudarios la PrEP?
+¿Puede provocar algún efecto no desado la PrEP?
+Dime los efectos secundarios de le PrEP
+¿Puede causar náuseas la PrEP?
+¿Qué efectos adversos puede conllevar la PrEP?
+Efectos adversos PrEP",,La PrEP puede causar efectos secundarios en algunas personas (como náuseas) que habitualmente se atenúan con el tiempo. No se han detectado efectos secundarios graves. Una persona que esté tomando PrEP debe estar bajo seguimiento de un médico especialista en enfermedades infecciosas para vigilar los posibles efectos secundarios.
+prevencion/debo_tomar_prep,"¿Debería tomar la PrEP?
+¿Debo tomar PrEP?
+¿A quién se recomienda la PrEP?
+¿Quién debe tomar PreP?
+¿Para quién esta recomendada la PrEP?
+¿Me recomiendas tomar la PrEP?
+¿Es aconsejable tomar la PrEP?
+¿Me aconsejas tomar la PrEP?",,"La PrEP se recomienda para parejas serodiscordantes, o para parejas que no sean mutuamente monógamas, además de para personas que posean un elevado número de parejas sexuales diferentes al año, además de para personas que consuman drogas inyectables."
+prevencion/como_tomar_prep,"¿Cómo puedo tomar la PrEP?
+¿Que tengo que hacer para que me receten la PrEP?
+¿Cómo puedo entrar en el programa PrEP?
+Quiero tomar PrEP
+¿Dónde puedo conseguir la PrEP?
+¿Cómo puedo ser incluido en un programa PrEP?
+¿Que hay que hacer para tomar la PrEP?
+¿Que procedimiento he de seguir para que se me administre PrEP?
+¿Qué debo hacer si quiero tomar la PrEP?
+Quiero ser incluído en el programa PrEP
+Quiero que me incluyan en la PrEP",,Debe contactar con los recursos sanitarios de su país para ser derivado a un especialista en enfermedades infecciosas que será quien pueda incluirle en un programa de PrEP.
+prevencion/existe_vacuna,"¿Existe una vacuna contra el VIH?
+¿Han inventado una vacuna para el VIH?
+¿Han inventado vacuna para el SIDA?
+¿Se ha descubirerto ya una vacuna para el VIH?
+¿Hay alguna manera de vacunarse contra el VIH?
+¿Puedo vacunarme contra el VIH?
+Quiero vacunarme del VIH
+Vacunación del VIH
+Vacuna del VIH
+",,"Actualmente no existe una vacuna contra el VIH, aunque se está investigando mucho para encontrarla."
+sida/que_es_sida,"¿Qué significa SIDA?
+¿Qué es el SIDA?
+¿Cuál es la enfermedad del SIDA?
+¿Qué es el síndrome de Inmunodeficiencia Adquirida?
+¿Qué son las siglas SIDA?
+Significado de SIDA
+No sé lo que es el SIDA
+
+",,Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
+sida/vs_vih,"¿Cuál es la diferencia entre VIH y SIDA?
+¿Es lo mismo VIH que SIDA?
+¿Son lo mismo VIH y SIDA?
+¿Qué diferencia hay entre VIH y SIDA?
+Diferencias entre el VIH y el SIDA
+¿En qué se diferencia el SIDA del VIH?
+",,El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome. 
+sida/cuando_se_tiene,"¿Cuándo se tiene SIDA?
+¿En qué momento se tiene SIDA?
+¿En qué se basa el diagnóstico del SIDA?
+¿Como se sabe cuando se tiene SIDA?
+¿En que momneto pasas a tener SIDA?
+¿Cuándo se dice que una persona tiene SIDA?
+¿Cuándo se pasa a tener SIDA?
+¿Cuándo se entra en la fase del SIDA?
+",,El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
+sida/causar_demencia,"¿Puede el SIDA causar demencia?
+¿Puedo tener demencia a causa del SIDA?
+¿Puede el SIDA derivar en demencia?
+¿Es posible que el SIDA cause demencia?
+¿Sería posible que el SIDA produzca demencia?
+¿Puede el SIDA producir demencia?
+¿Es la demencia una consecuencia del SIDA?
+¿Causa el SIDA demencia?
+¿Puede el SIDA causar perdida de memoria?
+¿Puede el SIDA producir perdida de memoria?
+¿Puede el SIDA causar un transtorno neurológico?
+¿Produce el SIDA demencia?
+¿Se piede la memoria cuando se tiene SIDA?",,"Sí. Cuando el paciente está en fase SIDA puede padecer un trastorno neurológico progresivo, cuyos síntomas incluyen pérdida de la memoria, lentitud de los movimientos y cambios de comportamiento."
