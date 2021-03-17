@@ -1,0 +1,60 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2.5cm, % Inner margin
+	outer=3.8cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+
+\title{
+{TFG Vihrtual-App}\\
+{\large Universitat Politècnica de València}\\
+%{\includegraphics{university.jpg}}
+}
+\author{Joan Ciprià Moreno Teodoro}
+\date{Gandía,2021}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Resumen}
+Abstract goes here
+
+\chapter*{Abstract}
+To mum and dad
+
+\tableofcontents
+
+\chapter{Introducción}
+\input{chapters/introducción}
+
+\chapter{Marco teórico}
+\input{chapters/marco_teórico}
+
+\chapter{Desarrollo de la Propuesta}
+\input{chapters/desarrollo_propuesta/main}
+
+\chapter{Conclusión}
+\input{chapters/conclusión}
+
+\appendix
+\chapter{Apéndice}
+\input{chapters/apéndice}
+
+\end{document}
