@@ -1,0 +1,46 @@
+version: "2.0"
+
+nlu:
+- intent: chachara/retar_bot
+  examples: |
+    - Eres un bot
+    - Eres un robot
+    - ¿Eres un humano?
+    - ¿Eres una persona?
+    - ¿Eres una máquina?
+    - Eres un ordenador
+    - No eres humano
+    - No eres una persona
+- intent: chachara/preguntar_nombre
+  examples: |
+    - ¿Cómo te llamas?
+    - Tu nombre
+    - ¿Cuál es tu nombre?
+    - ¿Cómo me refiero a ti?
+    - ¿Me puedes decir tu nombre?
+    - ¿Cómo me dirijo a ti?
+    - Dime tu nombre
+- intent: chachara/preguntar_estado
+  examples: |
+    - ¿Cómo estás?
+    - ¿Qué tal?
+    - ¿Qué tal andas?
+    - ¿Cómo te encuentras?
+    - ¿Todo bien?
+    - ¿Todo correcto?
+    - ¿Cómo va todo?
+- intent: chachara/preguntar_hobbies
+  examples: |
+    - ¿Qué te gusta hacer?
+    - ¿A qué dedicas tu tiempo libre?
+    - ¿Qué haces en tu tiempo libre?
+    - ¿Cuáles son tus aficiones?
+    - ¿En qué empleas tu tiempo libre?
+    - ¿Tus hobbies son?
+- intent: chachara/preguntar_que_puede_hacer
+  examples: |
+    - ¿Qué eres capaz de hacer?
+    - ¿Qué puedes hacer?
+    - ¿A qué te dedicas?
+    - ¿Cuáles son tus habilidades?
+    - ¿Qué puedes hacer por mí?

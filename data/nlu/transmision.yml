@@ -1,0 +1,113 @@
+version: "2.0"
+
+nlu:
+- intent: faq/como_contagia
+  examples: |
+    - ¿Cómo se contagia el VIH?
+    - ¿Cómo se pega el VIH?
+    - ¿Cómo se transmite VIH?
+    - ¿De que manera se contagia?
+- intent: faq/aire
+  examples: |
+    - ¿Se contagia el VIH por el aire?
+    - ¿Se contagia a través del aire?
+    - ¿Se puede contagiar con un estornudo?
+    - ¿Es el aire una vía de contagio?
+    - ¿Se transmite por el aire?
+- intent: faq/vertical
+  examples: |
+    - ¿Qué es la transmisión vertical?
+    - ¿Que significa transmisión vertical?
+    - ¿Qué es la transmisión perinatal?
+    - ¿En que consiste la transmisión vertical?
+    - Explícame que es la transmisión vertical
+    - No sé lo que es la transmisión vertical
+- intent: faq/evitar_veritcal
+  examples: |
+    - ¿Puede evitarse la transmisión vertical?
+    - ¿Puedo evitar que mi bebé se infecte?
+    - ¿Puedo evitar pasarlo a mis hijos?
+    - ¿Puedo evitar contagiar a mis hijos?
+    - ¿Es evitar el contagio a mi niño?
+- intent: faq/fluidos
+  examples: |
+    - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
+    - ¿Se transmite el VIH por la saliva?
+    - ¿Se transmite el VIH el sudor?
+    - ¿Se transmite el VIH por las lágrimas?
+    - ¿Puedo contagiarme besando?
+    - ¿Se transmite a través de la boca?
+    - ¿Se pega besando?
+- intent: faq/insectos
+  examples: |
+    - ¿Pueden los mosquitos o las garrapatas contagiar el VIH?
+    - ¿Los mosquitos contagian el VIH?
+    - ¿Los mosquitos transmiten el virus?
+    - ¿Las garrapatas transmiten el virus?
+    - ¿Los garrapatas contagian el VIH?
+    - ¿Pueden las pulgas contagiar el virus?
+    - ¿Los insectos chupadores de sangre transmiten el virus?
+- intent: faq/wc
+  examples: >
+    - ¿Puedo contagiarme de VIH por usar el mismo WC que una persona con VIH?
+
+    - ¿Puedo contagiarme si uso el mismo váter que una persona con infectada?
+
+    - ¿Existe riesgo de contagio si utilizo el mismo inodoro que una persona
+    con VIH?
+- intent: faq/tatuajes
+  examples: >
+    - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en
+    el cuerpo?
+
+    - ¿Puedo contraer el VIH por hacerme un tatuaje?
+
+    - ¿Puedo contagiarme si me hago un tatuaje?
+
+    - ¿Me puedo contagiar al hacerme un tatoo?
+- intent: faq/perforaciones
+  examples: |
+    - ¿Puedo contraer el VIH por hacerme una perforación?
+    - ¿Puedo contraer el VIH si me hago un piercing?
+    - ¿Puedo contraer el VIH si me hago un pendiente?
+    - ¿Puedo contagiarme al hacerme una perforación?
+    - ¿Me pueden pegar el virus si me hago un piercing?
+- intent: faq/alimentos
+  examples: |
+    - ¿Puedo contraer el VIH de los alimentos?
+    - ¿Puedo contagiarme comiendo?
+    - ¿Pueden los alimentos tener VIH?
+    - ¿Puedo infectarme por comer un alimento?
+    - ¿Puedo contraer el virus si la comida tiene VIH?
+- intent: faq/inyectar_droga
+  examples: |
+    - ¿Puedo contraer el VIH por inyectarme drogas?
+    - ¿Puedo contraer el VIH inyectándome droga?
+    - ¿Puedo coger el VIH si me pincho caballo?
+    - ¿Puedo coger el VIH si me pincho heroína?
+    - ¿Puedo contraer el VIH si tomo heroína?
+    - ¿Puedo contraer el VIH si tomo caballo?
+    - ¿Es el consumo de heroína un riesgo?
+- intent: faq/drogas
+  examples: |
+    - ¿Puedo contraer el VIH por usar drogas?
+    - ¿Puedo coger el VIH consumiendo drogas?
+    - ¿Es el VIH un riesgo en el consumo de drogas?
+    - ¿Puedo contagiarme tomando drogas?
+    - ¿Me pueden pegar el VIH si tomo drogas?
+    - ¿Puedo contraer VIH si tomo drogas?
+- intent: faq/sexo_oral
+  examples: |
+    - ¿Puedo contraer el VIH mediante las relaciones sexuales orales?
+    - ¿Qué probabiliad hay de contagiarse mediante sexo oral?
+    - ¿Me puedo contagiar haciendo sexo oral? 
+    - ¿Se puede transmitir el virus con el sexo oral?
+    - ¿Me puedo infectar realizando sexo oral?
+- intent: faq/carga_viral_indetectable
+  examples: |
+    - ¿Una persona con carga viral indetectable puede contagiar el VIH?
+    - ¿Puedo contagiar si tengo una carga viral indetectable?
+    - ¿Es posible transmitir el virus con carga viral indetectable?
+    - ¿Si tengo una carga viral indetectable puedo contagiar?
+    - ¿Es posible infectar a otra persona con una carga vira indetectable?
+    - Si tengo una crga viral indetectable ¿qué riesgo hay de contagio?

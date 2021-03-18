@@ -1,0 +1,85 @@
+version: "2.0"
+
+nlu:
+- intent: faq/que_es_prep
+  examples: |
+    - ¿Qué es la profilaxis-preexposición (PrEP)?
+    - ¿Qué es la PrEP?
+    - ¿Qué significa PrEP?
+    - Explícame que es la PrEP
+    - Explicación PrEP
+    - No sé lo que es PrEP
+- intent: faq/efectividad_prep
+  examples: |
+    - ¿Es efectiva la PrEP?
+    - ¿Es fiable la PrEP?
+    - ¿Cuál es la fiabilidad de la PrEP?
+    - ¿Cuál es la efectividad de la PrEP?
+    - ¿Cuál es la probabilidad de infectarse si se toma la PrEP?
+    - ¿Es fácil infectarse si se está tomando la PrEP?
+    - ¿En cuánto se reducen las posibilidades de infección con la PrEP?
+    - ¿Cómo de fiable es la PrEP?
+    - ¿Es segura la PrEP?
+    - ¿Me puedo fiar de la PrEP?
+    - ¿Qué probabilidad de infectarme tengo si tomo la PrEP?
+    - ¿Es la PrEP infalible?
+- intent: faq/que_medicamentos_prep
+  examples: |
+    - ¿Qué medicamento es la PrEP?
+    - ¿De qué se compone la PrEP?
+    - ¿Qué medicamentos son la PrEP?
+    - ¿Qué combinación de medicamentos es la PrEP?
+    - ¿Qué medicamentos forman parte de la PrEP?
+    - ¿Qué es Truvada?
+    - ¿Qué medicamentos componen la PrEP?
+    - ¿Qué contiene Truvada?
+- intent: faq/es_prep_vacuna
+  examples: |
+    - ¿La PrEP es una vacuna?
+    - ¿Es la PrEP una vacuna?
+    - ¿La PrEP funciona como una vacuna?
+- intent: faq/efectos_secundarios_prep
+  examples: |
+    - ¿Tiene efectos secundarios la PrEP?
+    - ¿Qué efectos secundarios tiene la PrEP?
+    - ¿Hay algún efecto secundario al tomar PrEP?
+    - ¿Puede casuar efectos secudarios la PrEP?
+    - ¿Puede provocar algún efecto no desado la PrEP?
+    - Dime los efectos secundarios de le PrEP
+    - ¿Puede causar náuseas la PrEP?
+    - ¿Qué efectos adversos puede conllevar la PrEP?
+    - Efectos adversos PrEP
+- intent: faq/debo_tomar_prep
+  examples: |
+    - ¿Debería tomar la PrEP?
+    - ¿Debo tomar PrEP?
+    - ¿A quién se recomienda la PrEP?
+    - ¿Quién debe tomar PreP?
+    - ¿Para quién esta recomendada la PrEP?
+    - ¿Me recomiendas tomar la PrEP?
+    - ¿Es aconsejable tomar la PrEP?
+    - ¿Me aconsejas tomar la PrEP?
+- intent: faq/como_tomar_prep
+  examples: |
+    - ¿Cómo puedo tomar la PrEP?
+    - ¿Que tengo que hacer para que me receten la PrEP?
+    - ¿Cómo puedo entrar en el programa PrEP?
+    - Quiero tomar PrEP
+    - ¿Dónde puedo conseguir la PrEP?
+    - ¿Cómo puedo ser incluido en un programa PrEP?
+    - ¿Que hay que hacer para tomar la PrEP?
+    - ¿Que procedimiento he de seguir para que se me administre PrEP?
+    - ¿Qué debo hacer si quiero tomar la PrEP?
+    - Quiero ser incluído en el programa PrEP
+    - Quiero que me incluyan en la PrEP
+- intent: faq/existe_vacuna
+  examples: |
+    - ¿Existe una vacuna contra el VIH?
+    - ¿Han inventado una vacuna para el VIH?
+    - ¿Han inventado vacuna para el SIDA?
+    - ¿Se ha descubirerto ya una vacuna para el VIH?
+    - ¿Hay alguna manera de vacunarse contra el VIH?
+    - ¿Puedo vacunarme contra el VIH?
+    - Quiero vacunarme del VIH
+    - Vacunación del VIH
+    - Vacuna del VIH

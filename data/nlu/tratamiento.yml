@@ -1,0 +1,55 @@
+version: "2.0"
+
+nlu:
+- intent: faq/existe_tratamiento
+  examples: |
+    - ¿Hay tratamiento para el VIH?
+    - ¿Existe tratamiento para el VIH?
+- intent: faq/en_que_consiste
+  examples: |
+    - ¿En qué consiste la terapia contra el virus?
+    - ¿Cuál es la terapia para combatir el virus?
+    - ¿En qué consiste el tratamiento contra el virus?
+    - ¿En qué consiste el tratamiento contra el VIH?
+    - ¿En qué se basa el tratamiento contra el virus?
+    - ¿En qué se basa la terapia para combatir el VIH?
+- intent: faq/cuando_empezar
+  examples: |
+    - ¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?
+    - ¿Cuándo se debe empezar a tomar los medicamentos contra el VIH?
+    - ¿Cuándo debo empezar a tomar las medicinas?
+    - ¿Cuándo debo empezar a medicarme para el VIH?
+- intent: faq/cuantos_farmacos
+  examples: |
+    - ¿Cuántos fármacos hay aprobados contra el VIH?
+    - ¿Qué tipo de fármacos hay para el VIH?
+    - ¿Cuántos fármacos hay para el VIH?
+    - ¿Cuántos fármacos hay aprobados para el VIH?
+    - ¿Qué fármacos hay para combatir el VIH?
+    - ¿Qué fármacos existen?
+- intent: faq/cuantos_medicamentos
+  examples: |
+    - ¿Cuántos tipos de medicamentos hay contra el VIH?
+    - ¿Qué tipos de medicamentos hay contra el VIH?
+    - ¿Cuántos medicamentos hay aprobados para el VIH?
+    - ¿Qué medicamentos hay para combatir el VIH?
+    - ¿Qué medicación existe?
+- intent: faq/que_es_efectos_secundarios
+  examples: |
+    - ¿Qué es un efecto secundario?
+    - ¿Qué son los efectos secundarios?
+    - ¿Qué significa efecto secundario?
+    - Explícame qué es un efecto secundario
+    - ¿Qué son efectos adversos?
+    - Explicación efectos secundarios
+    - No sé lo que es un efecto secundario
+- intent: faq/que_es_interaccion_entre_medicamentos
+  examples: |
+    - ¿Qué es una interacción entre medicamentos?
+    - ¿Que significa una interacción entre medicamentos?
+    - ¿En qué consiste una interacción entre medicamentos?
+    - ¿Qué es una interacción entre medicinas?
+    - ¿Qué es una interacción medicamentosa?
+    - Explicame que es una interacción entre medicamentos
+    - Reacción entre medicamentos
+    - No sé lo que es una interacción entre medicamentos

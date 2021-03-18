@@ -1,0 +1,38 @@
+version: "2.0"
+
+nlu:
+- intent: faq/que_significa_vih
+  examples: |
+    - ¿Qué significa VIH?
+- intent: faq/cura_vih
+  examples: |
+    - ¿Existe cura para el VIH?
+- intent: faq/como_actua_vih
+  examples: |
+    - ¿Cómo actúa el VIH ?
+    - ¿Cómo actúa el VIH en el cuerpo?
+- intent: faq/cual_es_el_origen
+  examples: |
+    - ¿Cuál es el origen del VIH?
+- intent: faq/cuando
+  examples: |
+    - ¿Cuándo se originó el VIH?
+- intent: faq/donde
+  examples: |
+    - ¿Dónde surgió el VIH?
+    - ¿Dónde se originó el VIH?
+    - ¿En qué sitio se concontró el VIH?
+    - ¿De dónde viene el VIH?
+    - ¿De dónde viene el virus?
+- intent: faq/quien_descubrimiento
+  examples: |
+    - ¿Quién descubrió el VIH?
+    - ¿Quién encontró el VIH?
+    - ¿Quién inventó el VIH?
+    - ¿Qué médico descubrió el virus?
+    - ¿Quién encontró el virus?
+- intent: faq/cuando_descubrimiento
+  examples: |
+    - ¿Cuándo se descubrió el VIH?
+    - ¿En qué alo se descubrió el VIH?
+    - ¿En qué momento se descubrió el VIH?

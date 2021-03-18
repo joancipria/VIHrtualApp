@@ -1,0 +1,21 @@
+version: "2.0"
+nlu:
+- intent: reiniciar
+  examples: |
+    - yep you can restart
+    - por favor reinicia el chat
+    - reinicia
+    - reinicia el bot
+    - reinicia la conversacion
+    - quiero reiniciar
+    - porque no te reinicias?
+    - hey, i said restart
+    - reiniciar sesion
+    - reiniciate
+- synonym: prep
+  examples: |
+    - profilaxis-preexposición
+    - prep
+    - PREP
+    - PrEP
+

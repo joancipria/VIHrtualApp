@@ -1,0 +1,46 @@
+version: "2.0"
+
+nlu:
+- intent: faq/que_es_sida
+  examples: |
+    - ¿Qué significa SIDA?
+    - ¿Qué es el SIDA?
+    - ¿Cuál es la enfermedad del SIDA?
+    - ¿Qué es el síndrome de Inmunodeficiencia Adquirida?
+    - ¿Qué son las siglas SIDA?
+    - Significado de SIDA
+    - No sé lo que es el SIDA
+- intent: faq/vs_vih
+  examples: |
+    - ¿Cuál es la diferencia entre VIH y SIDA?
+    - ¿Es lo mismo VIH que SIDA?
+    - ¿Son lo mismo VIH y SIDA?
+    - ¿Qué diferencia hay entre VIH y SIDA?
+    - Diferencias entre el VIH y el SIDA
+    - ¿En qué se diferencia el SIDA del VIH?
+- intent: faq/cuando_se_tiene
+  examples: |
+    - ¿Cuándo se tiene SIDA?
+    - ¿En qué momento se tiene SIDA?
+    - ¿En qué se basa el diagnóstico del SIDA?
+    - ¿Como se sabe cuando se tiene SIDA?
+    - ¿En que momneto pasas a tener SIDA?
+    - ¿Cuándo se dice que una persona tiene SIDA?
+    - ¿Cuándo se pasa a tener SIDA?
+    - ¿Cuándo se entra en la fase del SIDA?
+- intent: faq/causar_demencia
+  examples: |
+    - ¿Puede el SIDA causar demencia?
+    - ¿Puedo tener demencia a causa del SIDA?
+    - ¿Puede el SIDA derivar en demencia?
+    - ¿Es posible que el SIDA cause demencia?
+    - ¿Sería posible que el SIDA produzca demencia?
+    - ¿Puede el SIDA producir demencia?
+    - ¿Es la demencia una consecuencia del SIDA?
+    - ¿Causa el SIDA demencia?
+    - ¿Puede el SIDA causar perdida de memoria?
+    - ¿Puede el SIDA producir perdida de memoria?
+    - ¿Puede el SIDA causar un transtorno neurológico?
+    - ¿Produce el SIDA demencia?
+    - ¿Se piede la memoria cuando se tiene SIDA?
+

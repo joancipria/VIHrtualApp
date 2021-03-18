@@ -1,0 +1,115 @@
+version: "2.0"
+responses:
+  # Chachara
+  utter_chachara/retar_bot:
+  - text: Soy una inteligencia artificial
+  utter_chachara/preguntar_nombre:
+  - text: Juan
+  utter_chachara/preguntar_estado:
+  - text: Genial! Tú que tal?
+  utter_chachara/preguntar_hobbies:
+  - text: Ayudar a la gente
+  utter_chachara/preguntar_que_puede_hacer:
+  - text: Puedo responder cualquier pregunta sobre el VIH
+  # Basicas
+  - text: Existen muchas páginas web donde puede informarse sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/faq/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
+  utter_faq/que_significa_vih:
+  - text: Son las siglas del Virus de la Inmunodeficiencia Humana.
+  utter_faq/cura_vih:
+  - text: Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población.
+  utter_faq/como_actua_vih:
+  - text: Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las\_células CD4\_del\_sistema inmunitario\_que combaten las infecciones. Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH.
+  utter_faq/cual_es_el_origen:
+  - text: Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
+  utter_faq/cuando:
+  - text: 'El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX. '
+  utter_faq/donde:
+  - text: En una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
+  utter_faq/quien_descubrimiento:
+  - text: Robert Charles Gallo, un investigador biomédico de origen estadounidense
+  utter_faq/cuando_descubrimiento:
+  - text: El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista\_Science el descubrimiento del virus que causaba esta enfermedad (el VIH).
+  # Transmision
+  utter_faq/como_contagia:
+  - text: El VIH se transmite por el\_contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe\_riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros\_objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
+  utter_faq/aire:
+  - text: No. El virus no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
+  utter_faq/vertical:
+  - text: También se conoce como transmisión perinatal y es la transmisión (contagio) de una infección u otra enfermedad de la madre a su hijo que puede ser antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé.
+  utter_faq/evitar_veritcal:
+  - text: Sí. Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte.
+  utter_faq/fluidos:
+  - text: No. El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
+  utter_faq/insectos:
+  - text: No. Los insectos chupadores de sangre no pueden transmitir el VIH.
+  utter_faq/wc:
+  - text: No. El VIH no se contagia usar el mismo inodoro que una persona con VIH. Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva.
+  utter_faq/tatuajes:
+  - text: Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. Si se quiere hacer un tatuaje o una perforación corporal, debe asegurarse de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados.
+  utter_faq/perforaciones:
+  - text: Se puede contraer el VIH por hacerse perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona. Si deseas hacerte una perforación corporal debes asegurarse de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas y demás artículos nuevos o esterilizados.
+  utter_faq/alimentos:
+  - text: No puede contraer VIH por consumir los alimentos que haya tocado una persona infectada por el VIH. Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus.
+  utter_faq/inyectar_droga:
+  - text: Sí. El riesgo de contraer el VIH es muy alto si usted usa las agujas y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. Además, también tiene un riesgo elevado de contraer otras enfermedades como hepatitis B o C.
+  utter_faq/drogas:
+  - text: El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. Ahora bien, al estar bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo.
+  utter_faq/sexo_oral:
+  - text: Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual.
+  utter_faq/carga_viral_indetectable:
+  - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
+  # Síntomas
+  utter_faq/que_sintomas:
+  - text: Algunas personas pueden sentirse enfermas como si tuvieran la influenza en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tiene el VIH es hacerse la prueba.
+  utter_faq/vih_sin_sintomas:
+  - text: Sí. Este virus puede convivir durante años en el organismo sin que el protador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas.
+  utter_faq/sintomas_externos:
+  - text: No. No es posible saber solo por el aspecto físico si una persona padece VIH.
+  # Detección
+  utter_faq/que_es_estado_sereologico:
+  - text: Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico, medidos con un análisis de sangre (una prueba serológica). VIH-seropositivo significa que una persona tiene anticuerpos detectables contra el VIH; seronegativo significa que una persona no tiene anticuerpos detectables contra el VIH
+  utter_faq/saber_si_tengo_vih:
+  - text: La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, puede consultar con su médico. Además, en muchos países se venden test de detección en las farmacias.
+  utter_faq/detectar_tras_contacto:
+  - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
+  # Tratamiento
+  utter_faq/existe_tratamiento:
+  - text: ' Sí, un tratamiento que cosinste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.'
+  utter_faq/en_que_consiste:
+  - text: Es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
+  utter_faq/cuando_empezar:
+  - text: Una persona seropositiva debe empezar a tomar la medicación contra el virus lo antes posible.
+  utter_faq/cuantos_farmacos:
+  - text: La FDA, que es el organismo responsable del control de los fármacos en Estados Unidos, ha aprobado 24 principios activos como fármacos contra el VIH desde 1987 hasta 2020. Además de otras 22 combinaciones de estos fármacos en las que en una sola pastilla se pueden tomar varios principios activos.
+  utter_faq/cuantos_medicamentos:
+  - text: Los fármacos antirretrovirales aprobados contra el VIH pertenecen a siete clases distintas. Esta clasificación se realiza según la forma en que afectan el ciclo de vida de ese virus e incluyen los inhibidores de la transcriptasa inversa análogos de los nucleósidos (ITIN), los inhibidores de la transcriptasa inversa no análogos de los nucleósidos (ITINN), los inhibidores de la proteasa (IP), los inhibidores de la fusión, los antagonistas de CCR5, inhibidores de posfijación, y los inhibidores de la transferencia de cadenas de la integrasa.
+  utter_faq/que_es_efectos_secundarios:
+  - text: Los\_efectos secundarios\_son\_efectos\_no deseados causados por los fármacos. La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. Otros pueden ser más graves y requieren su comunicación a su médico.
+  utter_faq/que_es_interaccion_entre_medicamentos:
+  - text: Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento, una bebida o un suplemento.  Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados.
+  # Prevención
+  utter_faq/que_es_prep:
+  - text: 'La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de contraer VIH si se toman medicamentos diariamente. La PrEP se administra a personas con un riesgo muy alto de contraer el VIH. '
+  utter_faq/efectividad_prep:
+  - text: Si se sigue la pauta diaria recomendada por su médico, la PrEP es altamente efectiva para prevenir el VIH, tanto por vía sexual (hasta un 99% de reducción del riesgo) como por o el uso de drogas inyectables (74% de reducción). Sin embargo, la PrEP es mucho menos efectiva cuando no se toma de manera consistente.
+  utter_faq/que_medicamentos_prep:
+  - text: Es una combinación de dos medicamentos contra el VIH (tenofovir y emtricitabina), que se vende bajo el nombre comercial Truvada®
+  utter_faq/es_prep_vacuna:
+  - text: No. La PrEP no funciona de la misma manera que una vacuna. Las vacunas enseñan al sistema inmune a luchar contra una infección y su efecto dura mucho tiempo en el organismo. La PrEP se toma diariamente y lo que sucede es que esas sustancias bloquean al virus para evitar que se propague en el organismo.
+  utter_faq/efectos_secundarios_prep:
+  - text: La PrEP puede causar efectos secundarios en algunas personas (como náuseas) que habitualmente se atenúan con el tiempo. No se han detectado efectos secundarios graves. Una persona que esté tomando PrEP debe estar bajo seguimiento de un médico especialista en enfermedades infecciosas para vigilar los posibles efectos secundarios.
+  utter_faq/debo_tomar_prep:
+  - text: La PrEP se recomienda para parejas serodiscordantes, o para parejas que no sean mutuamente monógamas, además de para personas que posean un elevado número de parejas sexuales diferentes al año, además de para personas que consuman drogas inyectables.
+  utter_faq/como_tomar_prep:
+  - text: Debe contactar con los recursos sanitarios de su país para ser derivado a un especialista en enfermedades infecciosas que será quien pueda incluirle en un programa de PrEP.
+  utter_faq/existe_vacuna:
+  - text: Actualmente no existe una vacuna contra el VIH, aunque se está investigando mucho para encontrarla.
+  # Sida
+  utter_faq/que_es_sida:
+  - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
+  utter_faq/vs_vih:
+  - text: 'El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome. '
+  utter_faq/cuando_se_tiene:
+  - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
+  utter_faq/causar_demencia:
+  - text: Sí. Cuando el paciente está en fase SIDA puede padecer un trastorno neurológico progresivo, cuyos síntomas incluyen pérdida de la memoria, lentitud de los movimientos y cambios de comportamiento.

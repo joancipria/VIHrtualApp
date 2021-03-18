@@ -1,0 +1,101 @@
+version: "2.0"
+
+nlu:
+- intent: saludar
+  examples: |
+    - Hola
+    - Buenos días
+    - Buenas
+    - Saludos
+    - Buenas tardes
+    - Buenas noches
+    - Tanto gusto
+    - Un gusto verlo
+    - Un gusto verte
+    - Mucho gusto saludarlo
+    - Cuánto tiempo
+    - Tanto tiempo sin verte
+    - ¿Qué pasa?
+    - Buen día
+    - Hey
+- intent: despedirse
+  examples: |
+    - Nos vemos
+    - Hasta pronto
+    - Hasta luego
+    - Adiós
+    - Chao
+    - Me despido
+    - Me voy
+    - Un placer
+    - Hasta la próxima
+    - Hasta otra
+- intent: afirmar
+  examples: |
+    - Sí
+    - Efectivamente
+    - Afirmo
+    - Por supuesto
+    - Correcto
+    - Sin duda
+    - Claro
+    - Obviamente
+    - Sip
+    - Estás en lo correcto
+- intent: negar
+  examples: |
+    - No
+    - Nop
+    - Para nada
+    - Negativo
+    - De ninguna manera
+    - Ni modo
+    - En absoluto
+    - Ni por asomo
+    - Bajo ningún concepto
+    - Todo lo contrario
+- intent: agradecer
+  examples: |
+    - Gracias
+    - Muchas gracias
+    - Le agradezco
+    - Te agradezco
+    - Mi gratitud
+    - Me has sido de ayuda
+    - Me has sido de mucha ayuda
+    - Mis agradecimientos
+    - Gracias por la ayuda
+- intent: esperar
+  examples: |
+    - Espera
+    - Un momento
+    - Disculpa
+    - Un segundo
+    - Espera por favor
+    - Aguanta
+    - Ahora vuelvo
+    - Vuelvo en un momento
+- intent: pedir_ayuda
+  examples: |
+    - Necesito ayuda
+    - Ayúdame por favor
+    - ¿Me ayudarías?
+    - Necesito que me ayudes
+    - ¿Me podrías ayudar?
+    - ¿Me podrías echar una mano?
+    - Ayúdame
+- intent: querer_preguntar
+  examples: |
+    - Quiero preguntarte algo
+    - Necesito información
+    - ¿Te podría hacer una pregunta?
+    - ¿Puedo realizarte una pregunta?
+    - Una consulta
+- intent: tener_duda
+  examples: |
+    - Tengo una duda
+    - No estoy seguro sobre un tema
+- intent: mas_informacion
+  examples: |
+    - ¿Donde puedo obtener más información?
+    - ¿Donde puedo encontrar más info?
