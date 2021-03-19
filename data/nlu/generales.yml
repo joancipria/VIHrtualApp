@@ -99,3 +99,7 @@ nlu:
   examples: |
     - ¿Donde puedo obtener más información?
     - ¿Donde puedo encontrar más info?
+- intent: introducir_datos
+  examples: |
+    - Mi nombre es [Paco González](nombre)
+    - Me llamo [Ana López](nombre)
