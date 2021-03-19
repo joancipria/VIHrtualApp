@@ -16,22 +16,30 @@ intents:
 - tener_duda
 - mas_informacion
 - reiniciar
-- chachara:
-    use_entities: true
-- faq:
-    use_entities: true
+- introducir_datos
+- chachara
+- faq
 entities: []
 slots: {}
 responses:
   utter_bienvenida:
-  - text: ¡Hola! Soy Juan, encantado de conocerte
-  - text: ¡Hola! Soy Juan, encantado de hablar contigo
+  - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacioanda con el VIH. \n Dime, ¿en qué puedo ayudarte?
+  - text: ¡Hola! Soy Juan, encantado de hablar contigo \n Puedes realizarme cualquier pregunta relacionada con el VIH. \n ¿En qué puedo ayudarte?
   utter_saludar:
-  - text: Hola!
+  - text: ¡Hola!
+  - text: ¡Buenas! 😊
   utter_despedirse:
-  - text: Hasta otra!
-  utter_agradecer:
+  - text: ¡Hasta otra! 👋
+  - text: ¡Hasta luego!
+  - text: ¡Nos vemos!
+  - text: ¡Hasta la próxima! 😊
+  utter_no_hay_de_que:
   - text: De nada
+  - text: ¡No hay de que!
+  - text: Gracias a ti por preguntarme y ayudarme a mejorar!
+  - text: ¡Encantado de ayudarte!
+  utter_algo_mas:
+  - text: Neccesitas algo más?
   utter_esperar:
   - text: Aquí te espero
   utter_pedir_ayuda:
@@ -45,6 +53,7 @@ responses:
   utter_default:
   - text: Lo siento, no te he entendio. Podrías repetirme lo último que has dicho pero de otra manera?
   - text: Me temo que no he podido entender lo que has dicho. Podrías expresarlo de otra manera?
+  - text: ¿Puedes preguntármelo de otra forma?
 actions: []
 forms: {}
 e2e_actions: []
