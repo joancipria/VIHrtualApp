@@ -9,7 +9,6 @@ nlu:
     - reinicia la conversacion
     - quiero reiniciar
     - porque no te reinicias?
-    - hey, i said restart
     - reiniciar sesion
     - reiniciate
 - synonym: prep
