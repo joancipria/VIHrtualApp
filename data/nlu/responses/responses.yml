@@ -10,7 +10,9 @@ responses:
   utter_chachara/preguntar_hobbies:
   - text: Ayudar a la gente
   utter_chachara/preguntar_que_puede_hacer:
-  - text: Puedo responder cualquier pregunta sobre el VIH
+  - text: Puedo responderte cualquier pregunta sobre el VIH
+  - text: Puedo ayudarte con cualquier duda o pregunta que tengas sobre el VIH
+  - text: Puedo ayudarte con cualquier pregunta relacionada con el VIH.
   # Basicas
   - text: Existen muchas páginas web donde puede informarse sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/faq/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
   utter_faq/que_significa_vih:
@@ -18,7 +20,7 @@ responses:
   utter_faq/cura_vih:
   - text: Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población.
   utter_faq/como_actua_vih:
-  - text: Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las\_células CD4\_del\_sistema inmunitario\_que combaten las infecciones. Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH.
+  - text: Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH.
   utter_faq/cual_es_el_origen:
   - text: Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
   utter_faq/cuando:
@@ -28,10 +30,10 @@ responses:
   utter_faq/quien_descubrimiento:
   - text: Robert Charles Gallo, un investigador biomédico de origen estadounidense
   utter_faq/cuando_descubrimiento:
-  - text: El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista\_Science el descubrimiento del virus que causaba esta enfermedad (el VIH).
+  - text: El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH).
   # Transmision
   utter_faq/como_contagia:
-  - text: El VIH se transmite por el\_contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe\_riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros\_objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
+  - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
   utter_faq/aire:
   - text: No. El virus no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
@@ -84,7 +86,7 @@ responses:
   utter_faq/cuantos_medicamentos:
   - text: Los fármacos antirretrovirales aprobados contra el VIH pertenecen a siete clases distintas. Esta clasificación se realiza según la forma en que afectan el ciclo de vida de ese virus e incluyen los inhibidores de la transcriptasa inversa análogos de los nucleósidos (ITIN), los inhibidores de la transcriptasa inversa no análogos de los nucleósidos (ITINN), los inhibidores de la proteasa (IP), los inhibidores de la fusión, los antagonistas de CCR5, inhibidores de posfijación, y los inhibidores de la transferencia de cadenas de la integrasa.
   utter_faq/que_es_efectos_secundarios:
-  - text: Los\_efectos secundarios\_son\_efectos\_no deseados causados por los fármacos. La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. Otros pueden ser más graves y requieren su comunicación a su médico.
+  - text: Los efectos secundarios son efectos no deseados causados por los fármacos. La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. Otros pueden ser más graves y requieren su comunicación a su médico.
   utter_faq/que_es_interaccion_entre_medicamentos:
   - text: Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento, una bebida o un suplemento.  Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados.
   # Prevención
@@ -107,7 +109,7 @@ responses:
   # Sida
   utter_faq/que_es_sida:
   - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
-  utter_faq/vs_vih:
+  utter_faq/sida_vs_vih:
   - text: 'El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome. '
   utter_faq/cuando_se_tiene:
   - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
