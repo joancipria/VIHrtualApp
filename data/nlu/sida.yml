@@ -10,7 +10,7 @@ nlu:
     - ¿Qué son las siglas SIDA?
     - Significado de SIDA
     - No sé lo que es el SIDA
-- intent: faq/vs_vih
+- intent: faq/sida_vs_vih
   examples: |
     - ¿Cuál es la diferencia entre VIH y SIDA?
     - ¿Es lo mismo VIH que SIDA?
@@ -18,6 +18,8 @@ nlu:
     - ¿Qué diferencia hay entre VIH y SIDA?
     - Diferencias entre el VIH y el SIDA
     - ¿En qué se diferencia el SIDA del VIH?
+    - sida vs vih
+    - sida versus vih
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?
