@@ -91,8 +91,6 @@ nlu:
     - ¿Te podría hacer una pregunta?
     - ¿Puedo realizarte una pregunta?
     - Una consulta
-- intent: tener_duda
-  examples: |
     - Tengo una duda
     - No estoy seguro sobre un tema
 - intent: mas_informacion
