@@ -24,7 +24,7 @@ responses:
   utter_faq/cual_es_el_origen:
   - text: Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
   utter_faq/cuando:
-  - text: 'El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX. '
+  - text: El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX.
   utter_faq/donde:
   - text: En una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
   utter_faq/quien_descubrimiento:
@@ -76,7 +76,7 @@ responses:
   - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
   # Tratamiento
   utter_faq/existe_tratamiento:
-  - text: ' Sí, un tratamiento que cosinste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.'
+  - text: Sí, un tratamiento que cosinste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
   utter_faq/en_que_consiste:
   - text: Es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
   utter_faq/cuando_empezar:
@@ -91,7 +91,7 @@ responses:
   - text: Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento, una bebida o un suplemento.  Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados.
   # Prevención
   utter_faq/que_es_prep:
-  - text: 'La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de contraer VIH si se toman medicamentos diariamente. La PrEP se administra a personas con un riesgo muy alto de contraer el VIH. '
+  - text: La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de contraer VIH si se toman medicamentos diariamente. La PrEP se administra a personas con un riesgo muy alto de contraer el VIH.
   utter_faq/efectividad_prep:
   - text: Si se sigue la pauta diaria recomendada por su médico, la PrEP es altamente efectiva para prevenir el VIH, tanto por vía sexual (hasta un 99% de reducción del riesgo) como por o el uso de drogas inyectables (74% de reducción). Sin embargo, la PrEP es mucho menos efectiva cuando no se toma de manera consistente.
   utter_faq/que_medicamentos_prep:
@@ -110,7 +110,7 @@ responses:
   utter_faq/que_es_sida:
   - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
   utter_faq/sida_vs_vih:
-  - text: 'El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome. '
+  - text: El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome.
   utter_faq/cuando_se_tiene:
   - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
   utter_faq/causar_demencia:
