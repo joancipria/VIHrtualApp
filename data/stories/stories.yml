@@ -1,16 +1,55 @@
 version: "2.0"
 
 stories:
-- story: gracias
+
+- story: Saludar
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+
+- story: Despedirse
+  steps:
+  - intent: despedirse
+  - action: utter_despedirse
+
+- story: Agradecer y no necesita nada más
   steps:
   - intent: agradecer
   - action: utter_no_hay_de_que
   - action: utter_algo_mas
-- story: despedirse
+  - intent: negar
+  - action: utter_reaccionar_positivamente
+  - action: utter_recordar_asistencia
+
+- story: Agradecer y necesita algo más
   steps:
-  - intent: despedirse
-  - action: utter_despedirse
-- story: saludar
+  - intent: agradecer
+  - action: utter_no_hay_de_que
+  - action: utter_algo_mas
+  - intent: afirmar
+  - action: utter_ofrecer_ayuda
+
+- story: esperar
+  steps: 
+  - intent: esperar
+  - action: utter_esperar
+
+- story: Pedir ayuda
   steps:
-  - intent: saludar
-  - action: utter_saludar
+    - intent: pedir_ayuda
+    - action: utter_ofrecer_ayuda
+
+- story: Querer preguntar
+  steps:
+    - intent: querer_preguntar
+    - action: utter_animar_preguntar
+
+- story: Más información
+  steps:
+  - intent: mas_informacion
+  - action: utter_dar_mas_informacion
+
+- story: reiniciar
+  steps:
+  - intent: reiniciar
+  - action: utter_reiniciar
