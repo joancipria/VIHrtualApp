@@ -39,19 +39,40 @@ responses:
   - text: Gracias a ti por preguntarme y ayudarme a mejorar!
   - text: ¡Encantado de ayudarte!
   utter_algo_mas:
-  - text: Neccesitas algo más?
+  - text: ¿Necesitas algo más?
+  - text: ¿Hay algo más que pueda hacer por tí?
+  - text: ¿Puedo ayudarte en algo más?
+  - text: ¿Tienes alguna otra duda?
+  - text: ¿Tienes más dudas?
   utter_esperar:
   - text: Aquí te espero
-  utter_pedir_ayuda:
+  - text: Sin problema, ¡avísame cuando estés listo!
+  - text: ¡Tómate todo el tiempo que necesites!
+  - text: Tranquilo, ¡tómate tu tiempo!
+  - text: ¿En qué estas pensando?
+  utter_ofrecer_ayuda:
   - text: ¿Qué puedo hacer por ti?
-  utter_querer_preguntar:
-  - text: Adelante! Pregunta
-  utter_tener_duda:
-  - text: Pregúntame cualquier cosa
-  utter_mas_informacion:
-  - text: Más info en wwww.blabla.com
+  - text: ¿En qué puedo ayudarte?
+  - text: ¿En qué necesitas ayuda?
+  - text: Dime, ¿qué necesitas?
+  - text: ¿Qué necesitas?
+  utter_animar_preguntar:
+  - text: Adelante, pregúntame
+  - text: Dime, ¿qué que quieres saber?
+  - text: ¿Qué necesitas saber?
+  utter_reaccionar_positivamente:
+  - text: ¡Perfecto!
+  - text: ¡Genial!
+  utter_recordar_asistencia:
+  - text: Avisame si tienes cualquier otra duda
+  - text: Pregúntame siempre que lo necesites
+  - text: Recuerda que puedes preguntarme siempre que lo necesites
+  utter_dar_mas_informacion:
+  - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
+  utter_reiniciar:
+  - text: /restart
   utter_default:
-  - text: Lo siento, no te he entendio. Podrías repetirme lo último que has dicho pero de otra manera?
+  - text: Lo siento, no te he entendido. Podrías repetirme lo último que has dicho pero de otra manera?
   - text: Me temo que no he podido entender lo que has dicho. Podrías expresarlo de otra manera?
   - text: ¿Puedes preguntármelo de otra forma?
 actions: []
