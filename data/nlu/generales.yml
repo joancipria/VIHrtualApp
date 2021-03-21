@@ -84,6 +84,8 @@ nlu:
     - ¿Me podrías ayudar?
     - ¿Me podrías echar una mano?
     - Ayúdame
+    - ¿Me puedes ayudar?
+    - Por favor, ayúdame
 - intent: querer_preguntar
   examples: |
     - Quiero preguntarte algo
@@ -92,7 +94,12 @@ nlu:
     - ¿Puedo realizarte una pregunta?
     - Una consulta
     - Tengo una duda
+    - Tengo una pregunta
+    - Me surge una duda
+    - Me surge una pregunta
     - No estoy seguro sobre un tema
+    - Quiero saber algo
+    - Quiero saber una cosa
 - intent: mas_informacion
   examples: |
     - ¿Donde puedo obtener más información?
