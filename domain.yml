@@ -5,22 +5,40 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- saludar
-- despedirse
-- afirmar
-- negar
-- agradecer
-- esperar
-- pedir_ayuda
-- querer_preguntar
-- tener_duda
-- mas_informacion
-- reiniciar
-- introducir_datos
-- chachara
-- faq
-- fuera_de_ambito
-entities: []
+- saludar:
+    use_entities: true
+- despedirse:
+    use_entities: true
+- afirmar:
+    use_entities: true
+- negar:
+    use_entities: true
+- agradecer:
+    use_entities: true
+- esperar:
+    use_entities: true
+- pedir_ayuda:
+    use_entities: true
+- querer_preguntar:
+    use_entities: true
+- tener_duda:
+    use_entities: true
+- mas_informacion:
+    use_entities: true
+- reiniciar:
+    use_entities: true
+- introducir_datos:
+    use_entities: true
+- chachara:
+    use_entities: true
+- faq:
+    use_entities: true
+- fuera_de_ambito:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+entities:
+- nombre
 slots: {}
 responses:
   utter_bienvenida:
@@ -84,13 +102,13 @@ responses:
   - text: Ante cualquier duda no dudes en preguntarme
   utter_dar_mas_informacion:
   - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
-  utter_reiniciar:
-  - text: "¿Seguro que quieres reiniciar la conversación?"
-    buttons: 
-    - title: "Sí ✅"
-      payload: "/restart"
-    - title: "No ❌"
-      payload: "no"
+  utter_confirmar_reiniciar:
+  - buttons:
+    - payload: /restart
+      title: Sí ✅
+    - payload: no
+      title: No ❌
+    text: ¿Seguro que quieres reiniciar la conversación?
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entender lo que has dicho. ¿Podrías expresarlo de otra manera?
@@ -98,14 +116,14 @@ responses:
   utter_fuera_de_ambito/no_castellano:
   - text: Lo siento, solo hablo español.
   utter_fuera_de_ambito/otros:
-  - text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas
-    buttons:
-    - title: "SIDA vs VIH"
-      payload: "sida vs vih"
-    - title: "¿Cómo se transmite el VIH?"
-      payload: "como se transmite el vih"
-    - title: "¿Existe tratamiento para el VIH?"
-      payload: "Existe tratamiento para el VIH"
+  - buttons:
+    - payload: sida vs vih
+      title: SIDA vs VIH
+    - payload: como se transmite el vih
+      title: ¿Cómo se transmite el VIH?
+    - payload: Existe tratamiento para el VIH
+      title: ¿Existe tratamiento para el VIH?
+    text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas
 actions: []
 forms: {}
 e2e_actions: []
