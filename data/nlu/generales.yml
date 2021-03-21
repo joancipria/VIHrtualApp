@@ -18,6 +18,9 @@ nlu:
     - ¿Qué pasa?
     - Buen día
     - Hey
+    - hi
+    - ieeee
+    - eeeii
 - intent: despedirse
   examples: |
     - Nos vemos
