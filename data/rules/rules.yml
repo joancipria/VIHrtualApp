@@ -11,4 +11,7 @@ rules:
   - intent: chachara
   - action: utter_chachara
 
-
+- rule: Responder a preguntas fuera de ámbito
+  steps:
+  - intent: fuera_de_ambito
+  - action: utter_fuera_de_ambito

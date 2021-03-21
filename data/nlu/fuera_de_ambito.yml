@@ -1,0 +1,14 @@
+version: "2.0"
+nlu:
+- intent: fuera_de_ambito/no_castellano
+  examples: |
+    - What is HIV?
+    - What can you do?
+    - Is this a bot?
+
+- intent: fuera_de_ambito/otros
+  examples: |
+    - ¿Cúanto es 2 + 2?
+    - Quiero pedir una pizza
+    - Quiero un kebab
+    - Cuéntame un chiste
