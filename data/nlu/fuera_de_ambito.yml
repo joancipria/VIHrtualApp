@@ -5,6 +5,8 @@ nlu:
     - What is HIV?
     - What can you do?
     - Is this a bot?
+    - Com et diuen?
+    - Qué pots fer?
 
 - intent: fuera_de_ambito/otros
   examples: |
