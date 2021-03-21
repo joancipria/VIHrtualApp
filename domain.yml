@@ -87,7 +87,7 @@ responses:
   utter_reiniciar:
   - text: /restart
   utter_default:
-  - text: Lo siento, no te he entendido. ¿Podrías repetirme lo último que has dicho pero de otra manera?
+  - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entender lo que has dicho. ¿Podrías expresarlo de otra manera?
   - text: ¿Puedes preguntármelo de otra forma?
   utter_fuera_de_ambito/no_castellano:
