@@ -85,7 +85,12 @@ responses:
   utter_dar_mas_informacion:
   - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
   utter_reiniciar:
-  - text: /restart
+  - text: "¿Seguro que quieres reiniciar la conversación?"
+  buttons: 
+  - title: "Sí ✅"
+    payload: "/restart"
+  - title: "No ❌"
+    payload: "no"
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entender lo que has dicho. ¿Podrías expresarlo de otra manera?
