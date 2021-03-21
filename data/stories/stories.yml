@@ -11,6 +11,7 @@ stories:
   steps:
   - intent: despedirse
   - action: utter_despedirse
+  - action: utter_recordar_asistencia
 
 - story: Agradecer y no necesita nada más
   steps:
