@@ -23,7 +23,7 @@ entities: []
 slots: {}
 responses:
   utter_bienvenida:
-  - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacioanda con el VIH. \n Dime, ¿en qué puedo ayudarte?
+  - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?
   - text: ¡Hola! Soy Juan, encantado de hablar contigo \n Puedes realizarme cualquier pregunta relacionada con el VIH. \n ¿En qué puedo ayudarte?
   utter_saludar:
   - text: ¡Hola!
@@ -33,11 +33,14 @@ responses:
   - text: ¡Hasta luego!
   - text: ¡Nos vemos!
   - text: ¡Hasta la próxima! 😊
+  - text: Adiós, ¡espero verte pronto!
   utter_no_hay_de_que:
   - text: De nada
   - text: ¡No hay de que!
-  - text: Gracias a ti por preguntarme y ayudarme a mejorar!
+  - text: Gracias a ti por preguntarme y ayudarme a mejorar
   - text: ¡Encantado de ayudarte!
+  - text: ¡Encantado de poder ayudarte!
+  - text: ¡Encantado de haberte ayudado!
   utter_algo_mas:
   - text: ¿Necesitas algo más?
   - text: ¿Hay algo más que pueda hacer por tí?
@@ -67,13 +70,16 @@ responses:
   - text: Avisame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites
   - text: Recuerda que puedes preguntarme siempre que lo necesites
+  - text: Estaré aquí esperándote por si necesitas cualquier otra cosa
+  - text: Si necesitas cualquier otra cosa no dudes en preguntarme
+  - text: Ante cualquier duda no dudes en preguntarme
   utter_dar_mas_informacion:
   - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
   utter_reiniciar:
   - text: /restart
   utter_default:
-  - text: Lo siento, no te he entendido. Podrías repetirme lo último que has dicho pero de otra manera?
-  - text: Me temo que no he podido entender lo que has dicho. Podrías expresarlo de otra manera?
+  - text: Lo siento, no te he entendido. ¿Podrías repetirme lo último que has dicho pero de otra manera?
+  - text: Me temo que no he podido entender lo que has dicho. ¿Podrías expresarlo de otra manera?
   - text: ¿Puedes preguntármelo de otra forma?
 actions: []
 forms: {}
