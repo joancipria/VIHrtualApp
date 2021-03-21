@@ -35,7 +35,7 @@ stories:
   - intent: esperar
   - action: utter_esperar
 
-- story: Pedir ayuda
+- story: Ofrecer ayuda
   steps:
     - intent: pedir_ayuda
     - action: utter_ofrecer_ayuda
