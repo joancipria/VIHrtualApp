@@ -79,7 +79,7 @@ responses:
   - text: Dime, ¿qué necesitas?
   - text: ¿Qué necesitas?
   - text: Claro, ¿En que puedo ayudarte? 🕵️‍
-  - text: Por supuesto, ¿en qué necesitas ayuda? 🕵️‍
+  - text: Por supuesto, ¿en qué necesitas ayuda? 🕵️
   - text: Por supuesto, ¿Qué necesitas?
   - text: Dime, ¿en qué te puedo ayudarte?
   utter_animar_preguntar:
