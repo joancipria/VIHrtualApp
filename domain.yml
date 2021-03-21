@@ -71,7 +71,7 @@ responses:
   - text: Sin problema, ¡avísame cuando estés listo!
   - text: ¡Tómate todo el tiempo que necesites!
   - text: Tranquilo, ¡tómate tu tiempo!
-  - text: ¿En qué estas pensando?
+  - text: ¿En qué estas pensando? 🤔
   utter_ofrecer_ayuda:
   - text: ¿Qué puedo hacer por ti?
   - text: ¿En qué puedo ayudarte?
@@ -91,7 +91,7 @@ responses:
   - text: Estoy aquí para ayudarte, pregúntame lo que quieras.
   - text: Adelante, te leo.
   utter_reaccionar_positivamente:
-  - text: ¡Perfecto!
+  - text: ¡Perfecto! 👍
   - text: ¡Genial!
   utter_recordar_asistencia:
   - text: Avisame si tienes cualquier otra duda
@@ -124,7 +124,7 @@ responses:
       title: ¿Cómo se transmite el VIH?
     - payload: Existe tratamiento para el VIH
       title: ¿Existe tratamiento para el VIH?
-    text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas
+    text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
 actions: []
 forms: {}
 e2e_actions: []
