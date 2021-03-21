@@ -106,9 +106,10 @@ responses:
   - buttons:
     - payload: /restart
       title: Sí ✅
-    - payload: no
+    - payload: No
       title: No ❌
     text: ¿Seguro que quieres reiniciar la conversación?
+    image: https://media.giphy.com/media/3oxHQJLNjlkoF7dI9W/giphy.gif
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entender lo que has dicho. ¿Podrías expresarlo de otra manera?
