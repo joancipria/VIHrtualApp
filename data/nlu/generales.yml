@@ -21,6 +21,14 @@ nlu:
     - hi
     - ieeee
     - eeeii
+    - ola
+    - Hola, soy [Antonio](nombre)
+    - Buenas, soy [Pepe](nombre)
+    - Saludos, soy [María](nombre)
+    - Hola, me llamo [Antonio](nombre)
+    - Hola, me llamo [Pepe](nombre)
+    - Hola, me llamo [María](nombre)
+    - Buenas, me llamo [Irene](nombre)
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -45,6 +53,8 @@ nlu:
     - Obviamente
     - Sip
     - Estás en lo correcto
+    - Estás en lo cierto
+    - Has acertado
 - intent: negar
   examples: |
     - No
@@ -52,6 +62,7 @@ nlu:
     - Para nada
     - Negativo
     - De ninguna manera
+    - De ningún modo
     - Ni modo
     - En absoluto
     - Ni por asomo
@@ -60,7 +71,7 @@ nlu:
 - intent: agradecer
   examples: |
     - Gracias
-    - Muchas gracias
+    - Muchas gracias!
     - Le agradezco
     - Te agradezco
     - Mi gratitud
@@ -68,6 +79,14 @@ nlu:
     - Me has sido de mucha ayuda
     - Mis agradecimientos
     - Gracias por la ayuda
+    - Gracias por tu ayuda
+    - Muchas gracias por responder
+    - Gracias por contestarme
+    - Muchas gracias por tu ayuda
+    - Te lo agradezco mucho
+    - Mil gracias
+    - Gracias de todo corazón
+    - Gracias por tu aportación
 - intent: esperar
   examples: |
     - Espera
@@ -110,4 +129,11 @@ nlu:
 - intent: introducir_datos
   examples: |
     - Mi nombre es [Paco González](nombre)
+    - Mi nombre es [Pepe Moreno](nombre)
+    - Mi nombre es [Antonio Tortosa](nombre)
     - Me llamo [Ana López](nombre)
+    - Me llamo [María Rodríguez](nombre)
+    - Me llamo [Lara Pérez](nombre)
+    - Soy [Irene Torres](nombre)
+    - Soy [Sandra Melero](nombre)
+    - Soy [Laura García](nombre)
