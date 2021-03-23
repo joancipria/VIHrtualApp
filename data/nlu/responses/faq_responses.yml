@@ -1,20 +1,6 @@
 version: "2.0"
 responses:
-  # Chachara
-  utter_chachara/retar_bot:
-  - text: Soy una inteligencia artificial
-  utter_chachara/preguntar_nombre:
-  - text: Juan
-  utter_chachara/preguntar_estado:
-  - text: Genial! Tú que tal?
-  utter_chachara/preguntar_hobbies:
-  - text: Ayudar a la gente
-  utter_chachara/preguntar_que_puede_hacer:
-  - text: Puedo responderte cualquier pregunta sobre el VIH
-  - text: Puedo ayudarte con cualquier duda o pregunta que tengas sobre el VIH
-  - text: Puedo ayudarte con cualquier pregunta relacionada con el VIH.
   # Basicas
-  - text: Existen muchas páginas web donde puede informarse sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/faq/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
   utter_faq/que_significa_vih:
   - text: Son las siglas del Virus de la Inmunodeficiencia Humana.
   utter_faq/cura_vih:
