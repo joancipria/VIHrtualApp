@@ -38,10 +38,13 @@ intents:
 - nlu_fallback:
     use_entities: true
 entities:
-- nombre
+- PER
 - idioma
 - localizacion
-slots: {}
+slots:
+  PER:
+    type: text
+    influence_conversation: false
 responses:
   utter_bienvenida:
   - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?
@@ -50,8 +53,8 @@ responses:
   - text: ¡Hola!
   - text: ¡Buenas! 😊
   utter_saludar_con_nombre:
-  - text: ¡Hola {nombre}!
-  - text: ¡Buenas, {nombre}! 😊
+  - text: ¡Hola {PER}!
+  - text: ¡Buenas, {PER}! 😊
   utter_despedirse:
   - text: ¡Hasta otra! 👋
   - text: ¡Hasta luego!

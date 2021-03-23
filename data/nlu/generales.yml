@@ -22,13 +22,13 @@ nlu:
     - ieeee
     - eeeii
     - ola
-    - Hola, soy [Antonio](nombre)
-    - Buenas, soy [Pepe](nombre)
-    - Saludos, soy [María](nombre)
-    - Hola, me llamo [Antonio](nombre)
-    - Hola, me llamo [Pepe](nombre)
-    - Hola, me llamo [María](nombre)
-    - Buenas, me llamo [Irene](nombre)
+    - Hola, soy [Antonio](PER)
+    - Buenas, soy [Pepe](PER)
+    - Saludos, soy [María](PER)
+    - Hola, me llamo [Antonio](PER)
+    - Hola, me llamo [Pepe](PER)
+    - Hola, me llamo [María](PER)
+    - Buenas, me llamo [Irene](PER)
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -128,12 +128,12 @@ nlu:
     - ¿Donde puedo encontrar más info?
 - intent: introducir_datos
   examples: |
-    - Mi nombre es [Paco González](nombre)
-    - Mi nombre es [Pepe Moreno](nombre)
-    - Mi nombre es [Antonio Tortosa](nombre)
-    - Me llamo [Ana López](nombre)
-    - Me llamo [María Rodríguez](nombre)
-    - Me llamo [Lara Pérez](nombre)
-    - Soy [Irene Torres](nombre)
-    - Soy [Sandra Melero](nombre)
-    - Soy [Laura García](nombre)
+    - Mi nombre es [Paco González](PER)
+    - Mi nombre es [Pepe Moreno](PER)
+    - Mi nombre es [Antonio Tortosa](PER)
+    - Me llamo [Ana López](PER)
+    - Me llamo [María Rodríguez](PER)
+    - Me llamo [Lara Pérez](PER)
+    - Soy [Irene Torres](PER)
+    - Soy [Sandra Melero](PER)
+    - Soy [Laura García](PER)

@@ -8,7 +8,7 @@ stories:
     - intent: saludar
     - intent: introducir_datos
       entities:
-      - nombre: Paco
+      - PER: Pepe
   - action: action_saludar_usuario
 
 - story: Despedirse
