@@ -39,6 +39,8 @@ intents:
     use_entities: true
 entities:
 - nombre
+- idioma
+- localizacion
 slots: {}
 responses:
   utter_bienvenida:
@@ -47,6 +49,9 @@ responses:
   utter_saludar:
   - text: ¡Hola!
   - text: ¡Buenas! 😊
+  utter_saludar_con_nombre:
+  - text: ¡Hola {nombre}!
+  - text: ¡Buenas, {nombre}! 😊
   utter_despedirse:
   - text: ¡Hasta otra! 👋
   - text: ¡Hasta luego!
@@ -78,10 +83,8 @@ responses:
   - text: ¿En qué necesitas ayuda?
   - text: Dime, ¿qué necesitas?
   - text: ¿Qué necesitas?
-  - text: Claro, ¿En que puedo ayudarte? 🕵️‍
-  - text: Por supuesto, ¿en qué necesitas ayuda? 🕵️
-  - text: Por supuesto, ¿Qué necesitas?
-  - text: Dime, ¿en qué te puedo ayudarte?
+  - text: Dime, ¿en qué te puedo ayudar? 🕵️‍
+  - text: Dime, ¿en qué puedo ayudarte? 🕵️‍
   utter_animar_preguntar:
   - text: Adelante, pregúntame
   - text: Dime, ¿qué que quieres saber?
@@ -108,8 +111,8 @@ responses:
       title: Sí ✅
     - payload: No
       title: No ❌
-    text: ¿Seguro que quieres reiniciar la conversación?
     image: https://media.giphy.com/media/3oxHQJLNjlkoF7dI9W/giphy.gif
+    text: ¿Seguro que quieres reiniciar la conversación?
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entender lo que has dicho. ¿Podrías expresarlo de otra manera?
@@ -125,6 +128,8 @@ responses:
     - payload: Existe tratamiento para el VIH
       title: ¿Existe tratamiento para el VIH?
     text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
-actions: []
+actions:
+#- action_session_start
+- action_saludar_usuario
 forms: {}
 e2e_actions: []
