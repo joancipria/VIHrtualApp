@@ -1,16 +1,6 @@
 version: "2.0"
 
 nlu:
-- intent: chachara/retar_bot
-  examples: |
-    - Eres un bot
-    - Eres un robot
-    - ¿Eres un humano?
-    - ¿Eres una persona?
-    - ¿Eres una máquina?
-    - Eres un ordenador
-    - No eres humano
-    - No eres una persona
 - intent: chachara/preguntar_nombre
   examples: |
     - ¿Cómo te llamas?
@@ -20,15 +10,68 @@ nlu:
     - ¿Me puedes decir tu nombre?
     - ¿Cómo me dirijo a ti?
     - Dime tu nombre
+    - ¿Cómo debo llamarte?
+    - ¿Puedes decirme tu nombre?
+    - ¿Podrías decirme cómo te llamas?
+    - Aún no me has dicho cómo te llamas
+    - ¿Quién eres?
+- intent: chachara/decir_nombre
+  examples: |
+    - Me llamo [María Luisa](nombre)
+    - Mi nombre es [Antonio](nombre)
 - intent: chachara/preguntar_estado
   examples: |
     - ¿Cómo estás?
+    - ¿Qué tal estás?
     - ¿Qué tal?
     - ¿Qué tal andas?
     - ¿Cómo te encuentras?
     - ¿Todo bien?
     - ¿Todo correcto?
     - ¿Cómo va todo?
+    - Hola, qué tal?
+    - ¿Cómo estás hoy?
+    - ¿Cómo andas?
+    - Hola, ¿qué tal te encuentras?
+    - Hola Juan, ¿qué tal va?
+    - Buenas, cómo estás?
+    - q tal
+    - que tal estas
+- intent: chachara/preguntar_edad
+  examples: |
+    - ¿Qué edad tienes?
+    - ¿Cúantos años tienes?
+    - ¿Cúanto tiempo llevas vivo?
+    - ¿Cúanto tiempo hace que te crearon?
+    - Dime tu edad
+    - Dime tu fecha de nacimiento
+    - ¿Cúando naciste?
+    - ¿Cuándo fuiste creado?
+    - ¿Hace mucho que te crearon?
+    - ¿Cuánto tiempo hace que te crearon?
+    - Tu edad
+    - Tus años
+    - Dime tus años
+    - ¿Cuándo celebras tu cumpleaños?
+    - ¿Cuál s tu edad?
+- intent: chachara/preguntar_de_donde_es
+  examples: |
+    - ¿De dónde eres?
+    - ¿Dónde naciste?
+    - ¿Eres de por aquí?
+    - ¿Sabes de dónde vienes?
+    - ¿De qué sitio eres?
+    - ¿De dónde vienes?
+    - ¿De qué nacionalidad eres?
+    - ¿De qué ciudad eres?
+    - ¿En qué ciudad vives?
+    - ¿En qué ciudad estás?
+    - ¿De que país eres?
+    - ¿A qué país perteneces?
+    - ¿En qué país naciste?
+    - ¿Vives cerca?
+    - ¿Dónde vives?
+    - ¿En qué país vives?
 - intent: chachara/preguntar_hobbies
   examples: |
     - ¿Qué te gusta hacer?
@@ -39,8 +82,95 @@ nlu:
     - ¿Tus hobbies son?
 - intent: chachara/preguntar_que_puede_hacer
   examples: |
+    - Explícame que puedes hacer
+    - Enseñame que sabes hacer
+    - Muéstrame que puedes hacer por mí
+    - ¿Qué más sabes hacer?
+    - Por favor, dime que puedes hacer
+    - ¿Qué puedes puedes responderme?
+    - ¿A qué preguntas puedes contestarme?
+    - Juan, ¿qué sabes hacer?
+    - ¿Cómo puedes ayudarme?
+    - Cuéntame que sabes hacer
+    - Cuéntame que sabes responder
+    - Elena, ¿qué puedes hacer por mí?
     - ¿Qué eres capaz de hacer?
     - ¿Qué puedes hacer?
     - ¿Cuáles son tus habilidades?
     - ¿Qué podrías hacer?
+    - ¿Qué puedo preguntarte?
     - ¿Qué puedes hacer por mí?
+- intent: chachara/preguntar_eres_bot
+  examples: |
+    - ¿Eres un bot?
+    - ¿Eres un chatbot?
+    - ¿Eres un xatbot? 
+    - ¿Eres una inteligencia artificial?
+    - ¿Eres una AI?
+    - ¿Eres una IA?
+    - Eres un robot
+    - ¿Eres una máquina?
+    - Eres un ordenador
+    - ¿Eres realmente un bot?
+    - ¿Estás seguro que eres un bot?
+    - ¿Estás seguro que eres un chatbot?
+    - Creo que eres un bot
+    - Dime, eres un bot?
+- intent: chachara/preguntar_eres_humano
+  examples: |
+    - ¿Eres un humano?
+    - ¿Eres una persona?
+    - ¿Eres una persona de verdad?
+    - Pareces una persona
+    - Creo que eres una persona
+    - ¿Eres un bot o una persona real?
+    - ¿Eres humano o robot?
+    - No eres una persona
+    - No eres humano
+    - ¿Eres real?
+    - No eres real
+- intent: chachara/preguntar_eres_medico
+  examples: |
+    - ¿Eres médico? 
+    - ¿Eres doctor?
+    - ¿Eres enfermero?
+    - ¿Sabes medicina?
+    - ¿Sabes sobre medicina?
+    - ¿Eres farmacéutico?
+    - ¿Eres personal médico?
+    - ¿Eres sanitario?
+- intent: chachara/preguntar_idiomas
+  examples: |
+    - ¿Qué idiomas hablas?
+    - ¿Que idiomas sabes hablar?
+    - ¿En qué idiomas puedes hablar?
+    - ¿Qué idiomas conoces?
+    - ¿Sabes hablar otro idioma?
+    - ¿Qué otras lenguas hablas?
+    - ¿Cuántos idiomas hablas?
+    - ¿Cuántas lenguas hablas?
+    - ¿Qué otros idiomas conoces?
+    - ¿Sabes hablar en otro idioma?
+    - ¿Eres bilingüe?
+    - ¿Qué idiomas puedes usar?
+    - Qué idioma hablas
+    - Di algo en [inglés](idioma)
+    - Di algo en [francés](idioma)
+    - Dime algo en [portugués](idioma)
+- intent: chachara/preguntar_hora
+  examples: |
+    - ¿Qué hora es?
+    - ¿Tienes hora?
+    - Dime la hora 
+    - Perdona, ¿que hora es?
+    - ¿Qué hora tenemos?
+    - Qué hora es en [España](localizacion)
+- intent: chachara/preguntar_tiempo
+  examples: |
+    - ¿Qué tiempo hace?
+    - ¿Qué tiempo hace en [España](localizacion)?
+    - Qué temperatura hace
+    - ¿Hace frío?
+    - ¿Ha salido el sol?
+    - ¿Está soleado?
+    - ¿Está lloviendo?
