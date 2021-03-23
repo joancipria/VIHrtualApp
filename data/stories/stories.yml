@@ -4,8 +4,12 @@ stories:
 
 - story: Saludar
   steps:
-  - intent: saludar
-  - action: utter_saludar
+  - or:
+    - intent: saludar
+    - intent: introducir_datos
+      entities:
+      - nombre: Paco
+  - action: action_saludar_usuario
 
 - story: Despedirse
   steps:
