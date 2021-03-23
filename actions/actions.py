@@ -48,7 +48,7 @@ class ActionSaludarUsuario(Action):
         domain: Dict[Text, Any],
     ) -> List[EventType]:
         intent = tracker.latest_message["intent"].get("name")
-        name_entity = next(tracker.get_latest_entity_values("nombre"), None)
+        name_entity = next(tracker.get_latest_entity_values("PER"), None)        
         
         if intent == "saludar" or (intent == "introducir_datos" and name_entity):
             if name_entity and name_entity.lower() != "":
