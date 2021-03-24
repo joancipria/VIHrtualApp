@@ -13,6 +13,7 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
+    model_confidence: cosine
     epochs: 100
     constrain_similarities: true
   - name: SpacyNLP
