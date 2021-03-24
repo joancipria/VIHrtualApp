@@ -34,10 +34,13 @@ This will install the bot and all of its requirements.
 
 Use `rasa train` to train a model 
 
-Run `rasa shell` ff you want to speak to the assistant
+Run `rasa shell` if you want to speak to the assistant
 
 Run `rasa x` to start Rasa X server
 
+Run `rasa run -m models --enable-api --cors "*" --debug` to start the rest server
+
+Run `rasa run actions` to start actions server
 
 ## 👩‍💻 Overview of the files
 
