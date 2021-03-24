@@ -40,7 +40,7 @@ Run `rasa x` to start Rasa X server
 
 Run `rasa run -m models --enable-api --cors "*" --debug` to start the rest server
 
-Run `rasa run actions` to start actions server
+Run `rasa run actions --cors "*"` to start actions server
 
 ## 👩‍💻 Overview of the files
 
