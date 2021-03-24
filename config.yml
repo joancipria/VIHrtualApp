@@ -5,40 +5,39 @@ language: es
 # Pipeline configuration
 # See https://rasa.com/docs/rasa/tuning-your-model for more information.
 pipeline:
-   - name: WhitespaceTokenizer
-   - name: RegexFeaturizer
-   - name: LexicalSyntacticFeaturizer
-   - name: CountVectorsFeaturizer
-   - name: CountVectorsFeaturizer
-     analyzer: char_wb
-     min_ngram: 1
-     max_ngram: 4
-   - name: DIETClassifier
-     epochs: 100
-     constrain_similarities: true
-   - name: SpacyNLP
-     model: "es_core_news_md"
-   #- name: SpacyTokenizer
-   #- name: SpacyFeaturizer
-   - name: SpacyEntityExtractor
-     dimensions: ["PER"]
-   #- name: RegexEntityExtractor
-   #  case_sensitive: False
-   #  use_lookup_tables: True  
-   - name: EntitySynonymMapper
-   - name: ResponseSelector
-     epochs: 100
-     constrain_similarities: true
-   - name: FallbackClassifier
-     threshold: 0.3
-     ambiguity_threshold: 0.1
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 100
+    constrain_similarities: true
+  - name: SpacyNLP
+    model: "es_core_news_md"
+  #- name: SpacyTokenizer
+  #- name: SpacyFeaturizer
+  - name: SpacyEntityExtractor
+    dimensions: ["PER"]
+  #- name: RegexEntityExtractor
+  #  case_sensitive: False
+  #  use_lookup_tables: True
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
+  - name: FallbackClassifier
+    threshold: 0.3
+    ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-   - name: MemoizationPolicy
-   - name: TEDPolicy
-     max_history: 5
-     epochs: 100
-     constrain_similarities: true
-   - name: RulePolicy
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true
+  - name: RulePolicy
