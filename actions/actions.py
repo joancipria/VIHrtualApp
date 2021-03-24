@@ -5,10 +5,9 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-# This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
-#
+
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import (
@@ -20,20 +19,25 @@ from rasa_sdk.events import (
     EventType,
     FollowupAction,
 )
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
+
+
+class ActionDarBienvenida(Action):
+    """Recibe al usuario con el mensaje de bienvenida"""
+
+    def name(self) -> Text:
+        return "action_dar_bienvenida"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[EventType]:
+    
+        #dispatcher.utter_message(template="utter_bienvenida")
+        dispatcher.utter_message("¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?")
+        
+        return []
 
 class ActionSaludarUsuario(Action):
     """Greets the user with/without privacy policy"""

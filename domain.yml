@@ -132,7 +132,7 @@ responses:
       title: ¿Existe tratamiento para el VIH?
     text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
 actions:
-#- action_session_start
 - action_saludar_usuario
+- action_dar_bienvenida
 forms: {}
 e2e_actions: []
