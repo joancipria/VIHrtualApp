@@ -34,7 +34,7 @@ class ActionDarBienvenida(Action):
         domain: Dict[Text, Any],
     ) -> List[EventType]:
     
-        #dispatcher.utter_message(template="utter_bienvenida")
+        #dispatcher.utter_message(response="utter_bienvenida")
         dispatcher.utter_message("¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?")
         
         return []
@@ -56,10 +56,10 @@ class ActionSaludarUsuario(Action):
         
         if intent == "saludar" or (intent == "introducir_datos" and name_entity):
             if name_entity and name_entity.lower() != "":
-                dispatcher.utter_message(template="utter_saludar_con_nombre", nombre=name_entity)
+                dispatcher.utter_message(response="utter_saludar_con_nombre", nombre=name_entity)
                 return []
             else:
-                dispatcher.utter_message(template="utter_saludar")
+                dispatcher.utter_message(response="utter_saludar")
                 return []
         return []
 
