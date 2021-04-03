@@ -11,6 +11,7 @@ responses:
   - text: Me llamo Juan, encantado. Estoy a tu disposición para aclarar dudas que tengas sobre el VIH.
   utter_chachara/preguntar_estado:
   - text: Genial! Tú que tal?
+  - text: Hoy me encuentro genial 😊, ¡gracias por preguntar!
   utter_chachara/preguntar_hobbies:
   - text: Ayudar a la gente
   utter_chachara/preguntar_que_puede_hacer:
