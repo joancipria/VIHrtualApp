@@ -85,75 +85,75 @@ nlu:
     - Vacuna del VIH
 - intent: faq/protegen_pildoras_anticonceptivas 
   examples: |
-  - ¿Protegen las píldoras anticonceptivas contra el VIH?
-  - ¿Las píldoras anticonceptivas protegen contra el VIH?
-  - Funcionan las píldoras anticonceptivas para prevenir el VIH
-  - La píldora funciona contra el VIH
-  - La píldora protege contra el VIH?
-  - Las píldoras anticonceptivas son efectivas para prevenir el VIH?
-  - ¿Previenen el VIH las píldoras?
-  - Los anticonceptivos protegen de la infección por VIH?
-  - Si tomo píldoras anticonceptivas, ¿estoy protegida contra el VIH?
+    - ¿Protegen las píldoras anticonceptivas contra el VIH?
+    - ¿Las píldoras anticonceptivas protegen contra el VIH?
+    - Funcionan las píldoras anticonceptivas para prevenir el VIH
+    - La píldora funciona contra el VIH
+    - La píldora protege contra el VIH?
+    - Las píldoras anticonceptivas son efectivas para prevenir el VIH?
+    - ¿Previenen el VIH las píldoras?
+    - Los anticonceptivos protegen de la infección por VIH?
+    - Si tomo píldoras anticonceptivas, ¿estoy protegida contra el VIH?
 - intent: faq/protege_marcha_atras 
   examples: |
-  - ¿Protege la marcha atrás del VIH?
-  - ¿Es efectiva la marcha atrás como método de prevención?
-  - Protege la marcha atrás contra el VIH?
-  - Previene la marcha atrás contra el VIH?
-  - Es efectivo utilizar la marcha atrás para prevenir?
-  - ¿Protege el coito interrumpido contra el VIH?
-  - Es efectivo el coito interrumpido para prevenir el VIH?
-  - No correrse dentro protege de la infección de VIH?
-  - Si no me corro dentro, me puedo coger el VIH?
-  - Con la marcha atrás puedo evitar coger VIH?
+    - ¿Protege la marcha atrás del VIH?
+    - ¿Es efectiva la marcha atrás como método de prevención?
+    - Protege la marcha atrás contra el VIH?
+    - Previene la marcha atrás contra el VIH?
+    - Es efectivo utilizar la marcha atrás para prevenir?
+    - ¿Protege el coito interrumpido contra el VIH?
+    - Es efectivo el coito interrumpido para prevenir el VIH?
+    - No correrse dentro protege de la infección de VIH?
+    - Si no me corro dentro, me puedo coger el VIH?
+    - Con la marcha atrás puedo evitar coger VIH?
 - intent: faq/protege_preservativo_femenino
   examples: |
-  - ¿El preservativo femenino también protege de la infección por VIH?
-  - ¿El preservativo femenino protege contra el VIH?
-  - Es efectivo el preservativo femenino contra el VIH?
-  - ¿El condón femenino protege de la infección de VIH?
-  - El condón de mujer es efectivo para prevenir el VIH?
-  - Puede el condón de mujer o preservativo femenino proteger del VIH?
-  - Si utilizo condones femeninos, me protegen contra el VIH?s
-  - ¿Es igual de efectivo el condón femenino que el masculino para prevenir el VIH?
-  - ¿Es igual de efectivo el preservativo femenino contra el VIH?
-  - Protege el preservativo femenino contra el VIH?
-  - Previene el condón femenino el VIH?
-  - ¿El condón femenino es efectivo?
+    - ¿El preservativo femenino también protege de la infección por VIH?
+    - ¿El preservativo femenino protege contra el VIH?
+    - Es efectivo el preservativo femenino contra el VIH?
+    - ¿El condón femenino protege de la infección de VIH?
+    - El condón de mujer es efectivo para prevenir el VIH?
+    - Puede el condón de mujer o preservativo femenino proteger del VIH?
+    - Si utilizo condones femeninos, me protegen contra el VIH?s
+    - ¿Es igual de efectivo el condón femenino que el masculino para prevenir el VIH?
+    - ¿Es igual de efectivo el preservativo femenino contra el VIH?
+    - Protege el preservativo femenino contra el VIH?
+    - Previene el condón femenino el VIH?
+    - ¿El condón femenino es efectivo?
 - intent: faq/son_eficientes_espermicidas
   examples: |
-  - ¿Son eficientes los espermicidas para evitar la infección por VIH?
-  - ¿Protegen los espermicidas contra el VIH?
-  - ¿Son efectivos los espermicidas para prevenir el VIH?
-  - ¿Realmente funcionan los espermicidas para no coger el VIH?
-  - ¿Previenen los espermicidas la infección de VIH?
-  - ¿Puedo utilizar los espermicidas para prevenir el VIH?
-  - ¿Funcionan los espermicidas para protegerme del VIH?
-  - ¿Los espermicidas previenen el VIH?
-  - Si utilizo espermicidas, ¿estoy protegido contra el VIH?
+    - ¿Son eficientes los espermicidas para evitar la infección por VIH?
+    - ¿Protegen los espermicidas contra el VIH?
+    - ¿Son efectivos los espermicidas para prevenir el VIH?
+    - ¿Realmente funcionan los espermicidas para no coger el VIH?
+    - ¿Previenen los espermicidas la infección de VIH?
+    - ¿Puedo utilizar los espermicidas para prevenir el VIH?
+    - ¿Funcionan los espermicidas para protegerme del VIH?
+    - ¿Los espermicidas previenen el VIH?
+    - Si utilizo espermicidas, ¿estoy protegido contra el VIH?
 - intent: faq/son_eficientes_preservativos
   examples: |
-  - ¿Es eficiente usar preservativos para evitar la infección por VIH?
-  - ¿Son eficientes los preservativos para proteger del VIH?
-  - ¿Funcionan los condones para prevenir el VIH?
-  - ¿Son efectivos los condones para prevenir el VIH?
-  - ¿Utilizar condón previene el VIH?
-  - Protege el condón contra el VIH?
-  - Es el preservativo una buena manera de prevenir el VIH?
-  - Es el preservativo una buen método de prevención del VIH?
-  - ¿Es efectivo el condón para prevenir el VIH?
-  - Si utilizo condón, ¿estoy protegido contra el VIH?
-  - Si utilizo preservativo, ¿estoy protegido contra el VIH?
+    - ¿Es eficiente usar preservativos para evitar la infección por VIH?
+    - ¿Son eficientes los preservativos para proteger del VIH?
+    - ¿Funcionan los condones para prevenir el VIH?
+    - ¿Son efectivos los condones para prevenir el VIH?
+    - ¿Utilizar condón previene el VIH?
+    - Protege el condón contra el VIH?
+    - Es el preservativo una buena manera de prevenir el VIH?
+    - Es el preservativo una buen método de prevención del VIH?
+    - ¿Es efectivo el condón para prevenir el VIH?
+    - Si utilizo condón, ¿estoy protegido contra el VIH?
+    - Si utilizo preservativo, ¿estoy protegido contra el VIH?
 - intent: faq/rompe_preservativo
   examples: |
-  - ¿Qué hago si se rompe el preservativo?
-  - Se me ha roto el preservativo
-  - Se me ha roto el condón
-  - Que debo hacer si se rompe el condón
-  - Que debo hacer si se rompe el preservativo
-  - Que hacer al romperse el preservativo
-  - El condón se ha roto
-  - Se nos ha roto el preservativo
-  - Se nos ha roto el condón
-  - Se ha roto el condón
-  - Se ha perforado el preservativo
+    - ¿Qué hago si se rompe el preservativo?
+    - Se me ha roto el preservativo
+    - Se me ha roto el condón
+    - Que debo hacer si se rompe el condón
+    - Que debo hacer si se rompe el preservativo
+    - Que hacer al romperse el preservativo
+    - El condón se ha roto
+    - Se nos ha roto el preservativo
+    - Se nos ha roto el condón
+    - Se ha roto el condón
+    - Se ha perforado el preservativo
