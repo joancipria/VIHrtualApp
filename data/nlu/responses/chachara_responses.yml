@@ -1,8 +1,6 @@
 version: "2.0"
 responses:
   # Chachara
-  utter_chachara/preguntar_eres_humano:
-  - text: Sí soy humano
   utter_chachara/preguntar_eres_bot:
   - text: Soy una inteligencia artificial creada por un grupo de profesionales que trabajan día a día en mejorárme para que pueda ayudarte y resolver tus dudas relacionadas con el VIH.
   utter_chachara/preguntar_nombre:
