@@ -5,3 +5,4 @@ models
 .vscode
 rasa.*
 events.*
+actions/__pycache__
