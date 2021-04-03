@@ -9,7 +9,8 @@ stories:
     - intent: introducir_datos
       entities:
       - PER: Pepe
-  - action: action_saludar_usuario
+  #- action: action_saludar_usuario
+  - action: utter_saludar
 
 - story: Despedirse
   steps:
