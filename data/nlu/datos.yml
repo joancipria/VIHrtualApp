@@ -1,0 +1,50 @@
+version: "2.0"
+
+nlu:
+- intent: faq/cuantas_personas_contraido_vih_historia
+  examples: |
+    - ¿Cuántas personas han contraído VIH en la Historia?
+    - ¿Cuánta gente ha contraído VIH en toda la historia? 
+    - ¿Cuántas personas han cogido VIH en la historia?
+    - ¿Cuántas personas han tenido VIH desde el principio de la historia?
+    - Desde que se descubrió, ¿cuánta gente ha cogido el VIH?
+    - ¿Cuánta gente ha cogido el VIH en toda la historia?
+    - En toda la historia cuánta gente ha contraído el VIH?
+    - En toda la historia cuánta se ha infectado de VIH?
+    - Números históricos VIH
+    - Total histórico de infecciones VIH
+    - Datos de cuántas personas han cogido VIH
+- intent: faq/cuantas_personas_muertas_vih
+  examples: |
+    - ¿Cuántas personas han muerto de VIH?
+    - ¿Cuánta gente ha muerto de VIH?
+    - ¿Cúantas personas han fallecido por VIH?
+    - ¿Cúantos muertos ha causado el VIH?
+    - ¿Cuántas muertes ha producido el VIH?
+    - ¿Ha muerto mucha gente de VIH?
+    - Número de muertos total de VIH
+    - Datos de muertos total de VIH
+    - Histórico de muertes VIH
+- intent: faq/cuantas_personas_tienen_vih
+  examples: |
+    - ¿Cuántas personas tienen VIH hoy?
+    - ¿Cuánta gente tiene VIH?
+    - ¿Cuanta gente hay con VIH?
+    - ¿Cuántas personas tienen actualmente VIH?
+    - Actualmente cuantas personas en el mundo hay con VIH
+    - En todo el mundo cuántas personas hay con VIH?
+- intent: faq/cuantas_personas_contraido_vih_2019
+  examples: |
+    - ¿Cuántas personas contrajeron VIH en 2019?
+    - ¿Cuánta gente contrajo VIH en 2019?
+    - ¿Cuánta gente ha cogido el vih en 2019?
+    - ¿Cuántas personas se infectaron de VIH en 2019?
+    - Número de personas que se infectaron de VIH 2019
+- intent: faq/cuantas_personas_muertas_sida_2019
+  examples: |
+    - ¿Cuántas personas murieron de sida en 2019?
+    - ¿Cuánta gente ha muerto de sida en 2019?
+    - ¿Cuanta gente muere por sida?
+    - ¿Cuántas muertes produce el sida al año?
+    - ¿Cuántas personas mueren al año de sida?
+    - ¿Murió mucha gente en el año 2019 de sida?
