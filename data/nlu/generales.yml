@@ -143,14 +143,3 @@ nlu:
   examples: |
     - ¿Donde puedo obtener más información?
     - ¿Donde puedo encontrar más info?
-- intent: introducir_datos
-  examples: |
-    - Mi nombre es [Paco González](PER)
-    - Mi nombre es [Pepe Moreno](PER)
-    - Mi nombre es [Antonio Tortosa](PER)
-    - Me llamo [Ana López](PER)
-    - Me llamo [María Rodríguez](PER)
-    - Me llamo [Lara Pérez](PER)
-    - Soy [Irene Torres](PER)
-    - Soy [Sandra Melero](PER)
-    - Soy [Laura García](PER)
