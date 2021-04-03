@@ -2,7 +2,10 @@ version: "2.0"
 nlu:
 - intent: reiniciar
   examples: |
-    - yep you can restart
+    - reiniciate por favor
+    - reiniciar el bot
+    - reiniciate por favor
+    - quiero que te reinicies
     - por favor reinicia el chat
     - reinicia
     - reinicia el bot
