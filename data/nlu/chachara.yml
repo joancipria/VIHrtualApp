@@ -37,6 +37,7 @@ nlu:
     - que tal va
     - como vas?
     - como lo llevas
+    - qué tal andas
 
 - intent: chachara/preguntar_edad
   examples: |
@@ -117,8 +118,6 @@ nlu:
     - ¿Estás seguro que eres un chatbot?
     - Creo que eres un bot
     - Dime, eres un bot?
-- intent: chachara/preguntar_eres_humano
-  examples: |
     - ¿Eres un humano?
     - ¿Eres una persona?
     - ¿Eres una persona de verdad?
