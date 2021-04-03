@@ -23,11 +23,16 @@ nlu:
     - eeeii
     - ola
     - Hola, soy [Antonio](PER)
+    - Hola soy [dani](PER)
+    - Hola soy [Rosa](PER)
+    - Hola, soy [Miguel Álvarez](PER)
+    - Hola soy [Gabriel García](PER)
+    - Hola soy [Isabel Esteve](PER)
     - Buenas, soy [Pepe](PER)
     - Saludos, soy [María](PER)
     - Hola, me llamo [Antonio](PER)
-    - Hola, me llamo [Pepe](PER)
-    - Hola, me llamo [María](PER)
+    - Hola me llamo [pepe](PER)
+    - Hola, me llamo [maría](PER)
     - Buenas, me llamo [Irene](PER)
 - intent: despedirse
   examples: |
@@ -44,6 +49,7 @@ nlu:
 - intent: afirmar
   examples: |
     - Sí
+    - Si
     - Efectivamente
     - Afirmo
     - Por supuesto
@@ -55,10 +61,21 @@ nlu:
     - Estás en lo correcto
     - Estás en lo cierto
     - Has acertado
+- intent: reaccionar_positivamente
+  examples: |
+    - Muy bien
+    - Genial!
+    - Súper bien!
+    - Me parece denial!
+    - Bastante bien
+    - Bien
+    - Estupendo
+    - Chachi
 - intent: negar
   examples: |
     - No
     - Nop
+    - No, gracias
     - Para nada
     - Negativo
     - De ninguna manera
