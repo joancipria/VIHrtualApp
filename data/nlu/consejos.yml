@@ -1,0 +1,59 @@
+version: "2.0"
+
+nlu:
+- intent: faq/contarle_pareja
+  examples: |
+    - ¿Debo decirle a mi pareja que tengo VIH?
+    - ¿Debería contarle a mi pareja que tengo VIH?
+    - ¿Debería contarle a mi pareja que soy positivo?
+    - ¿Debería contarle a mi novia que tengo VIH?
+    - ¿Debería contarle a mi novio que cogido el VIH?
+    - ¿Le digo a mi pareja que tengo el VIH?
+    - ¿Le digo a mi novio que me he infectado de VIH?
+    - ¿Le cuento a mi pareja que tengo VIH?
+    - ¿Le cuento a mi pareja que he cogido VIH?
+    - ¿Debo decirle a mi novio que me he infectado?
+    - ¿Debo decirle a mi a que he cogido VIH?
+    - Mi pareja no sabe que tengo VIH
+    - Mi novio no sabe que he cogido VIH
+    - No se si decirle a mi pareja que tengo VIH
+- intent: faq/contar_tiene_vih
+  examples: |
+    - ¿Debo contar que tengo VIH?
+    - No se si contar que tengo VIH
+    - Me da cosa contar que tengo VIH
+    - Me da vergüenza decir que tengo VIH
+    - ¿Debería contar que tengo VIH?
+    - Debo decirle a todo el mudo que tengo VIH?
+    - Debo decirle a mis amigos que tengo VIH?
+- intent: faq/pareja_tratar_mal
+  examples: |
+    - ¿Puede mi pareja tratarme mal porque tenga VIH?
+    - Me puede tratar mal mi pareja porque tengo VIH?
+    - Tiene derecho mi pareja tratarme mal porque tenga VIH?
+    - ¿Debe tratarme mal mi pareja por tener VIH?
+    - ¿Debería tratarme mal mi pareja si tengo VIH?
+- intent: faq/empresa_obligar
+  examples: |
+    - ¿Puede mi empresa obligarme a hacerme la prueba del VIH o a comunicar mi estado?
+    - ¿Puede mi empresa obligarme comunicar si tengo VIH?
+    - ¿Puede una empresa obligarme a decir si tengo VIH?
+    - ¿Puede una empresa obligarme a hacerme la prueba del VIH?
+    - ¿Una empresa puede obligarme a decirles si tengo VIH?
+    - Mi empresa me obliga a decirles si tengo VIH
+    - Mi empresa me obliga a decirles si estoy infectado de VIH
+- intent: faq/prueba_consentimiento
+  examples: |
+    - ¿Pueden el medico o la empresa hacerme la prueba del VIH sin mi consentimiento?
+    - ¿Puede mi empresa hacerme el test del VIH sin mi consentimiento?
+    - ¿Puede el medico hacerme la prueba del VIH sin mi consentimiento?
+    - ¿Puede el medico hacerme la prueba del VIH sin mi autorización?
+    - ¿Pueden hacerme la prueba del VIH sin mi consentimiento?
+    - ¿Pueden alguien hacerme el test del VIH sin mi consentimiento?
+    - ¿Necesita el médico mi aprobación para realizarme la prueba del VIH?
+    - ¿Necesita el médico mi aprobación para realizarme el test del VIH?
+    - ¿Necesita mi empresa mi autorización para realizarme la prueba de VIH?
+    - ¿Es necesaria mi autorización para realizarme el test del VIH?
+
+
+
