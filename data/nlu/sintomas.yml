@@ -9,6 +9,8 @@ nlu:
     - ¿Puedo tener VIH y no tener síntomas?
     - ¿Es posible tener VIH y no sentir nada?
     - ¿Puedo haberme contagiado y no tener síntomas?
+    - El vih tiene sintomas?
+    - El vih presenta sintomas?
 - intent: faq/sintomas_externos
   examples: |
     - ¿Existen signos externos que nos hagan saber si una persona padece VIH?
@@ -17,3 +19,5 @@ nlu:
     - ¿Físicamente se ve si alguien tiene VIH?
     - ¿Existen síntomas externos para saber si me he contagiado?
     - Cómo puedo saber a simple vista quién tiene VIH
+    - Si una persona tiene VIH, se ve?
+    - Si una persona tiene VIH, se le nota?
