@@ -21,7 +21,7 @@ nlu:
   examples: |
     - ¿Dónde surgió el VIH?
     - ¿Dónde se originó el VIH?
-    - ¿En qué sitio se concontró el VIH?
+    - ¿En qué sitio se encontró el VIH?
     - ¿De dónde viene el VIH?
     - ¿De dónde viene el virus?
 - intent: faq/quien_descubrimiento
