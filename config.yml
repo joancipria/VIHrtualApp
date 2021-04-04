@@ -6,6 +6,11 @@ language: es
 # See https://rasa.com/docs/rasa/tuning-your-model for more information.
 pipeline:
   - name: WhitespaceTokenizer
+  #- name: SpacyNLP
+  #  model: "es_core_news_md"
+  #  case_sensitive: False
+  #- name: SpacyTokenizer
+  #- name: SpacyFeaturizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -16,15 +21,11 @@ pipeline:
     model_confidence: linear_norm
     epochs: 100
     constrain_similarities: true
-  - name: SpacyNLP
-    model: "es_core_news_md"
-  #- name: SpacyTokenizer
-  #- name: SpacyFeaturizer
-  - name: SpacyEntityExtractor
-    dimensions: ["PER"]
-  #- name: RegexEntityExtractor
-  #  case_sensitive: False
-  #  use_lookup_tables: True
+  #- name: SpacyEntityExtractor
+  #  dimensions: ["PER"]
+  - name: RegexEntityExtractor
+    case_sensitive: False
+    use_lookup_tables: True
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
