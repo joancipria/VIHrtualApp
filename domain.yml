@@ -51,6 +51,7 @@ responses:
   utter_bienvenida:
   - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?
   - text: ¡Hola! Soy Juan, encantado de hablar contigo \n Puedes realizarme cualquier pregunta relacionada con el VIH. \n ¿En qué puedo ayudarte?
+  - text: "¡Hola, mi nombre es Juan! Puedes escribirme ✍🏻 directamente tus dudas, y si no se te ocurre qué preguntar, puedo ayudarte con alguno de estos temas:"
   utter_saludar:
   - text: ¡Hola!
   - text: ¡Buenas! 😊
@@ -70,6 +71,7 @@ responses:
   - text: ¡Encantado de ayudarte!
   - text: ¡Encantado de poder ayudarte!
   - text: ¡Encantado de haberte ayudado!
+  - text: Es un auténtico placer poder ayudarte.
   utter_algo_mas:
   - text: ¿Necesitas algo más?
   - text: ¿Hay algo más que pueda hacer por tí?
@@ -120,17 +122,20 @@ responses:
     text: ¿Seguro que quieres reiniciar la conversación?
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
-  - text: Me temo que no he podido entender lo que has dicho. ¿Podrías expresarlo de otra manera?
-  - text: ¿Puedes preguntármelo de otra forma?
+  - text: Me temo que no he podido entenderte. ¿Podrías expresarlo de otra manera?
+  - text: ¿Puedes preguntármelo de otra forma? 😅
+  - text: Mil disculpas, no te he entendido. ¿Me lo puedes preguntar de otra manera?
+  - text: Quizá no te haya entendido, ¿serías tan amable de preguntármelo de otra manera?
+  - text: Siento mucho no entenderte 😓. ¿Me lo podrías decir de otra forma?
   utter_fuera_de_ambito/no_castellano:
   - text: Lo siento, solo hablo español.
   utter_fuera_de_ambito/otros:
   - buttons:
-    - payload: sida vs vih
+    - payload: ¿Cuál es la diferencia entre VIH y SIDA?
       title: SIDA vs VIH
-    - payload: como se transmite el vih
+    - payload: ¿Cómo se transmite el VIH?
       title: ¿Cómo se transmite el VIH?
-    - payload: Existe tratamiento para el VIH
+    - payload: ¿Existe tratamiento para el VIH?
       title: ¿Existe tratamiento para el VIH?
     text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
 actions:
