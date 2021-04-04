@@ -36,3 +36,53 @@ nlu:
     - ¿Cuándo se descubrió el VIH?
     - ¿En qué alo se descubrió el VIH?
     - ¿En qué momento se descubrió el VIH?
+- intent: faq/personas_famosas_vih
+  examples: |
+    - ¿Qué personas famosas han tenido o tienen VIH?
+    - ¿Qué famosos tienen VIH?
+    - ¿Qué gente famosa tiene VIH?
+    - ¿Qué personaje famoso ha contraído el VIH?
+    - ¿Qué celebridades tienen VIH?
+    - ¿Hay personas famosas con VIH?
+    - ¿Qué personajes públicos tienen VIH?
+    - ¿Hay famosos con VIH?
+    - ¿Qué personas famosas tienen SIDA?
+    - ¿Qué famosos han declarado tener sida?
+    - ¿Hay famosos que han dicho que tienen sida?
+    - ¿Hay famosos que han dicho que tienen VIH?
+- intent: faq/sobrevive_fuera_vih
+  examples: |
+    - ¿Sobrevive el VIH fuera del cuerpo humano?
+    - ¿Es capaz de sobrevivir el VIH fuera del cuerpo?
+    - ¿Puede el virus sobrevivir fuera del cuerpo?
+    - ¿Cuánto tiempo sobrevive el virus fuera del cuerpo humano?
+    - ¿Podría el VIH vivir fuera del cuerpo?
+    - ¿Puede vivir el virus fuera del cuerpo?
+    - ¿Es posible que el virus viva fuera del cuerpo?
+    - Sería posible que el VIH sobreviva sin un cuerpo?
+- intent: faq/que_es_latencia
+  examples: |
+    - ¿Qué es la latencia del VIH?
+    - ¿Qué significa la latencia del VIH?
+    - ¿Qué  quiere decir la latencia del virus?
+    - ¿Qué  quiere decir la latencia del VIH?
+    - ¿Qué significa que el virus esta latente?
+    - ¿A qué te refieres con latencia?
+- intent: faq/que_es_etapa_1
+  examples: |
+    - ¿Qué es la etapa 1 de la infección por el VIH?
+    - ¿Qué es la etapa 1 del VIH?
+    - ¿Qué es la etapa 1 del virus?
+    - ¿Cuál es la primera etapa del VIH?
+    - ¿Qué significa la etapa 1 de la infección?
+    - ¿Cuál es la 1 etapa de la infección de VIH?
+- intent: faq/es_importante_saber_tengo_vih
+  examples: |
+    - ¿Es importante saber si tengo VIH?
+    - ¿Es importante saber si estoy infectado de VIH?
+    - ¿Crees que es importante que sepa si tengo VIH?
+    - ¿Sería importante saber si tengo VIH?
+    - ¿Cómo de importante es saber si tengo VIH?
+    - ¿Es importante que sepa si tengo VIH?
+    - ¿Es importante que sepa si me he infectado de VIH?
+    - ¿Qué importancia tiene saber si tengo VIH?
