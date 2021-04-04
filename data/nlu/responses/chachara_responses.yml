@@ -25,6 +25,7 @@ responses:
   - text: Puedo ayudarte con cualquier duda o pregunta que tengas sobre el VIH
   - text: Puedo ayudarte con cualquier pregunta relacionada con el VIH.
   - text: Estoy a tu disposición para aclarar dudas que tengas sobre el VIH.
+  - text: Puedo resolver tus dudas acerca del VIH.
   utter_chachara/preguntar_eres_medico:
   - text: No soy médico
   utter_chachara/preguntar_idiomas:
