@@ -17,7 +17,17 @@ responses:
   - text: Robert Charles Gallo, un investigador biomédico de origen estadounidense
   utter_faq/cuando_descubrimiento:
   - text: El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH).
-  # Transmision
+  utter_faq/personas_famosas_vih:
+  - text: Muchas personas famosas han manifestado que están infectados por VIH. Algunas de ellas fallcieron como el cantante Freddy Mercury en 1991 o el actor Rock Hudson en 1985. Pero otros conviven con el virus desde hace muchos años, como el jugar de baloncesto Magic Johnson que padece la enfermedad desde hace casi tres décadas o la cantante Conchita Wurst.
+  utter_faq/sobrevive_fuera_vih:
+  - text: El VIH no sobrevive mucho fuera del cuerpo humano (por ejemplo, en las superficies) y no se puede reproducir fuera de un organismo humano.
+  utter_faq/que_es_latencia:
+  - text: La latencia hace referencia a que el virus puede permanecer inactivo (latente) en nuestro organismo durante años. Cuando se encuentra en este estado, el sistema inmunitario no puede reconocer el virus y el tratamiento antirretroviral (TAR) no lo afecta.
+  utter_faq/que_es_etapa_1:
+  - text: A las 2 a 4 semanas siguientes a la infección por VIH algunas personas pueden sentirse enfermas como si tuvieran la gripe. Esta es la conocida como etapa 1 de la infección por el VIH. Estos síntomas incluyen fiebre, escalofríos, sarpullido, sudores nocturnos, dolores musculares, dolor de garganta, fatiga, inflamación de los ganglios linfáticos y úlceras en la boca y pueden durar desde pocos días hasta varias semanas.  Si tiene estos síntomas, no significa que tenga el VIH. Cada uno de los síntomas puede ser causado por otras enfermedades. Pero si tiene estos síntomas después de una posible exposición al VIH debe hacerse la prueba del VIH.
+  utter_faq/es_importante_saber_tengo_vih:
+  - text: Sí. Mucho, ya que sabiéndolo puedes comenzar el tratamiento si te hace falta y puedes adoptar hábitos de vida saludable que mejoren tu estado de salud. Además,  evitar que otras personas se infecten.
+  # Transmisión
   utter_faq/como_contagia:
   - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
   utter_faq/aire:
@@ -60,6 +70,8 @@ responses:
   - text: La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, puede consultar con su médico. Además, en muchos países se venden test de detección en las farmacias.
   utter_faq/detectar_tras_contacto:
   - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
+  utter_faq/deberia_hacerme_prueba:
+  - text: La prueba del VIH se recomienda para todas las personas que tengan una vida seuxalmente activa, sobre todo si tienen múltiples parejas sexuales y para aquellas personas que hayan compartido agujas para el consumo de drogas.
   # Tratamiento
   utter_faq/existe_tratamiento:
   - text: Sí, un tratamiento que cosinste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
@@ -142,3 +154,33 @@ responses:
   - text: En España, ninguna empresa puede obligar a un/a trabajador/a a someterse a la prueba del VIH ni a informar de su estado serológico.
   utter_faq/prueba_consentimiento:
   - text: En España no pueden hacerte la prueba sin tu consentimiento.
+  # Enfermedades asociadas
+  utter_faq/que_es_infeccion_oportunista:
+  - text: Es un infección que ocurre con más frecuencia, o que es más grave, en las personas inmunodeprimidas que en las personas con un sistema inmunitario sano. Estas infecciones pueden suponer un grave riesgo en las personas seropositivas.
+  utter_faq/que_es_linfoma:
+  - text: Es un tipo de cáncer relacionado con los tejidos del sistema linfático, como los ganglios linfáticos, el bazo y la médula ósea. En las personas con el VIH, ciertos linfomas, como el de Burkitt o el linfoma no Hodgkin, son afecciones características del SIDA.
+  utter_faq/que_es_neumonia_pneumocystis:
+  - text: Se trata de una infección por un hongo que está presente en el medio ambiente que no infecta a personas sanas, pero que en personas con VIH puede desencadenar una neumonía, cuyos síntomas incluyen tos (a menudo leve y seca), fiebre y dificultad respiratoria. Se trata de una infección característica de SIDA. 
+  utter_faq/que_es_retinitis_citomegalovirus:
+  - text: Es una inflamación de la retina de los ojos causada por infección por citomegalovirus. Los síntomas, incluyen visión borrosa, moscas volantes y puntos ciegos. En las personas con el VIH, la retinitis causada por citomegalovirus (con pérdida de la vista) es una afección característica del SIDA. 
+  utter_faq/que_es_sarcoma_kaposi:
+  - text: Se trata de un tipo de cáncer caracterizado por el crecimiento anormal de las células que revisten los vasos linfáticos y sanguíneos. El sarcoma de Kaposi causa manchas de tejido (lesiones) de color rojo o púrpura bajo la piel y en la membrana de la boca, la nariz y la garganta. También pueden aparecer lesiones en otros órganos como en el hígado o en los pulmones. En las personas con el VIH, es una afección característica del SIDA. 
+  utter_faq/que_es_sindrome_emaciacion:
+  - text: Se llama síndrome de emaciación cuando una persona sufre la pérdida involuntaria de más de 10% de su peso corporal (particularmente de masa muscular) y por lo menos 30 días con diarrea o debilidad y fiebre. El síndrome de emaciación relacionado con el VIH es una afección característica del SIDA.
+  utter_faq/relacion_vih_cancer:
+  - text: Ciertos tipos de cáncer ocurren con tanta frecuencia en las personas con sida que se consideran afecciones indicadoras de SIDA, es decir, su presencia en una persona infectada con el VIH es una clara señal de que se ha desarrollado el sida en toda su extensión. Además, algunos tipos de cáncer (no todos) son también más comunes entre las personas con el VIH o sida que entre las personas no infectadas
+  # Glosario
+  utter_faq/que_es_ets:
+  - text: Son las llamadas enfermedades de transmisión sexual.
+  utter_faq/que_es_viremia:
+  - text: El término hace referencia a la presencia de un virus en la sangre.
+  utter_faq/que_es_nadir:
+  - text: Este término médico hace referencia al punto más bajo de alguna variable. Por ejemplo, el nadir del recuento de linfocitos CD4 de una persona es el valor mínimo de dicho recuento. 
+  utter_faq/que_es_linfopenia:
+  - text: Se emplea el término linfopenia cuando el número de linfocitos en sangre es inferior al normal.
+  utter_faq/que_es_seroconversion:
+  - text: La seroconversión es el proceso mediante el cual una persona genera anticuerpos contra un determinado virus. En el caso del VIH se produce a las pocas semanas de haberse infectado la persona.
+  utter_faq/que_es_ictericia:
+  - text: Es un amarillamiento de la piel, la parte blanca de los ojos o las membranas mucosas. Es señal de que la sangre contiene demasiada bilirrubina, una sustancia producida cuando el hígado descompone los glóbulos rojos. Por lo general, indica disfunción hepática.
+  utter_faq/que_es_viremia_intermitente:
+  - text:  Cuando una persona está en tratamiento antirretroviral el objetivo es que alcance el nivel de carga tan bajo que sea indetectable. Cuando de repente se vuelve a detectar la carga viral, entonces se dice que el paciente posee una viremia intermitente. Se puede deber a diversos factores (como el estrés, haber estado enfermo, que el paciente no se esté tomando el tratamiento según la pauta estipulada o que el tratamiento esté fallando).
