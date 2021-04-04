@@ -12,14 +12,9 @@ nlu:
     - ¿Cómo puedo saber si me he infectado?
     - Forma de saber si me he contagiado
 - intent: faq/detectar_tras_contacto
-  examples: >
-    - ¿Cuándo se puede detectar la presencia del virus después de un contacto
-    de riesgo?
-
+  examples: |
+    - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
     - ¿Cuándo es posible detectar el virus tras una infección?
-
-    - ¿Qué tiempo hay desde que se producte el contagio hasta que se detecta?
-
+    - ¿Qué tiempo hay desde que se produce el contagio hasta que se detecta?
     - ¿Qué tiempo debe pasar para poder detectar el virus?
-
     - ¿Cuánto tiempo tiene que pasar para poder detectar el VIH?
