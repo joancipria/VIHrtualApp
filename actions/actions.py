@@ -38,7 +38,7 @@ class ActionDarBienvenida(Action):
                                                                                                      "payload": "¿Cuántas personas tienen VIH hoy?"}, {"title": "¿Existe una vacuna contra el VIH?", "payload": "¿Existe una vacuna contra el VIH?"}]
 
         dispatcher.utter_button_message(
-            "¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. Escríbeme directamente tus dudas, y si no se te ocurre qué preguntar, prueba con alguno de los siguientes temas 👇", buttons)
+            "¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. Escríbeme directamente cualquier duda que tengas, y si no se te ocurre qué preguntar, prueba con alguno de los siguientes temas 👇", buttons)
 
         # dispatcher.utter_message("¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?")
 
