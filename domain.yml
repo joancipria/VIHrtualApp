@@ -13,6 +13,10 @@ intents:
     use_entities: true
 - negar:
     use_entities: true
+- reaccionar_positivamente:
+    use_entities: true
+- reaccionar_negativamente:
+    use_entities: true
 - agradecer:
     use_entities: true
 - esperar:
@@ -26,8 +30,6 @@ intents:
 - mas_informacion:
     use_entities: true
 - reiniciar:
-    use_entities: true
-- introducir_datos:
     use_entities: true
 - chachara:
     use_entities: true
