@@ -48,22 +48,15 @@ nlu:
     - ¿Pueden las pulgas contagiar el virus?
     - ¿Los insectos chupadores de sangre transmiten el virus?
 - intent: faq/wc
-  examples: >
+  examples: |
     - ¿Puedo contagiarme de VIH por usar el mismo WC que una persona con VIH?
-
     - ¿Puedo contagiarme si uso el mismo váter que una persona con infectada?
-
-    - ¿Existe riesgo de contagio si utilizo el mismo inodoro que una persona
-    con VIH?
+    - ¿Existe riesgo de contagio si utilizo el mismo inodoro que una persona con VIH?
 - intent: faq/tatuajes
-  examples: >
-    - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en
-    el cuerpo?
-
+  examples: |
+    - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
     - ¿Puedo contraer el VIH por hacerme un tatuaje?
-
     - ¿Puedo contagiarme si me hago un tatuaje?
-
     - ¿Me puedo contagiar al hacerme un tatoo?
 - intent: faq/perforaciones
   examples: |
@@ -99,7 +92,7 @@ nlu:
 - intent: faq/sexo_oral
   examples: |
     - ¿Puedo contraer el VIH mediante las relaciones sexuales orales?
-    - ¿Qué probabiliad hay de contagiarse mediante sexo oral?
+    - ¿Qué probabilidad hay de contagiarse mediante sexo oral?
     - ¿Me puedo contagiar haciendo sexo oral? 
     - ¿Se puede transmitir el virus con el sexo oral?
     - ¿Me puedo infectar realizando sexo oral?
