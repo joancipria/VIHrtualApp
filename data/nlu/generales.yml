@@ -48,8 +48,9 @@ nlu:
     - Hasta otra
 - intent: afirmar
   examples: |
-    - Sí
+    - Sí!
     - Si
+    - Siii
     - Efectivamente
     - Afirmo
     - Por supuesto
@@ -58,19 +59,48 @@ nlu:
     - Claro
     - Obviamente
     - Sip
+    - Sipp
+    - Totalmente de acuerdo
     - Estás en lo correcto
     - Estás en lo cierto
     - Has acertado
+    - Sí por favor
+    - Acepto
+    - Adelante
+    - ok
+    - okay
+    - okay!
+    - okey
+    - Vale
+    - perfecto
+    - Confirmar
+    - Lo confirmo
+    - Hecho
+    - vamos allá
+    - Claro que sí Juan
+    - Por supuesto Elena
+    - yaassss
+    - yaas
+    - yeah
+    - yeaaaah
+    - Me parece bien
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien
     - Genial!
     - Súper bien!
-    - Me parece denial!
     - Bastante bien
     - Bien
     - Estupendo
     - Chachi
+- intent: reaccionar_negativamente
+  examples: |
+    - Muy mal
+    - Mal
+    - Fatal!
+    - Súper mal!
+    - No me parece bien
+    - Bastante mal
 - intent: negar
   examples: |
     - No
