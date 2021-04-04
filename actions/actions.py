@@ -5,7 +5,6 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -33,11 +32,18 @@ class ActionDarBienvenida(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[EventType]:
-    
-        #dispatcher.utter_message(response="utter_bienvenida")
-        dispatcher.utter_message("¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?")
-        
+
+        # dispatcher.utter_message(response="utter_bienvenida")
+        buttons = [{"title": "SIDA vs VIH", "payload": "¿Cuál es la diferencia entre VIH y SIDA?"}, {"title": "¿Cuántas personas tienen VIH hoy?",
+                                                                                                     "payload": "¿Cuántas personas tienen VIH hoy?"}, {"title": "¿Existe una vacuna contra el VIH?", "payload": "¿Existe una vacuna contra el VIH?"}]
+
+        dispatcher.utter_button_message(
+            "¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. Escríbeme directamente tus dudas, y si no se te ocurre qué preguntar, prueba con alguno de los siguientes temas 👇", buttons)
+
+        # dispatcher.utter_message("¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?")
+
         return []
+
 
 class ActionSaludarUsuario(Action):
     """Greets the user with/without privacy policy"""
@@ -52,11 +58,12 @@ class ActionSaludarUsuario(Action):
         domain: Dict[Text, Any],
     ) -> List[EventType]:
         intent = tracker.latest_message["intent"].get("name")
-        name_entity = next(tracker.get_latest_entity_values("PER"), None)        
-        
+        name_entity = next(tracker.get_latest_entity_values("PER"), None)
+
         if intent == "saludar" or (intent == "introducir_datos" and name_entity):
             if name_entity and name_entity.lower() != "":
-                dispatcher.utter_message(response="utter_saludar_con_nombre", nombre=name_entity)
+                dispatcher.utter_message(
+                    response="utter_saludar_con_nombre", nombre=name_entity)
                 return []
             else:
                 dispatcher.utter_message(response="utter_saludar")
