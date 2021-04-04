@@ -1,0 +1,42 @@
+version: "2.0"
+
+nlu:
+- intent: faq/que_es_ets
+  examples: |
+    - ¿Qué son las ETS?
+    - ¿Qué significa ETS?
+    - ¿Qué es una ETS?
+- intent: faq/que_es_viremia
+  examples: |
+    - ¿Qué es una viremia?
+    - ¿Qué significa viremia?
+    - Dime que es la viremia
+    - No sé que es una viremia
+- intent: faq/que_es_nadir
+  examples: |
+    - ¿Qué es el nadir?
+    - ¿Qué es nadir?
+    - Dime que es nadir
+    - No sé que es nadir
+- intent: faq/que_es_linfopenia
+  examples: |
+    - ¿Qué es la linfopenia?
+    - ¿Qué es linfopenia?
+    - Dime que es la ictericia
+    - No sñe que es la ictericia
+- intent: faq/que_es_seroconversion
+  examples: |
+    - ¿Qué es la seroconversión?
+    - ¿Qué significa la seroconversión?
+- intent: faq/que_es_ictericia
+  examples: |
+    - ¿Qué es la ictericia?
+    - ¿Qué significa ictericia?
+    - Dime que es la ictericia
+    - No sé que es la ictericia
+- intent: faq/que_es_viremia_intermitente
+  examples: |
+    - ¿Qué es una viremia intermitente?
+    - ¿Qué significa viremia intermitente?
+    - Dime que es la viremia intermitente
+    - No sé que es una viremia intermitente
