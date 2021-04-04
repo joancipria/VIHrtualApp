@@ -18,3 +18,13 @@ nlu:
     - ¿Qué tiempo hay desde que se produce el contagio hasta que se detecta?
     - ¿Qué tiempo debe pasar para poder detectar el virus?
     - ¿Cuánto tiempo tiene que pasar para poder detectar el VIH?
+- intent: faq/deberia_hacerme_prueba
+  examples: |
+    - ¿Debería hacerme la prueba del VIH?
+    - ¿Debo hacerme la prueba de VIH?
+    - ¿Debería realizarme la prueba del VIH?
+    - ¿He de hacerme la prueba del VIH?
+    - ¿Debería hacerme el test del VIH?
+    - ¿Debo tomar un test de VIH?
+    - ¿Debería comprobar si tengo VIH?
+    - ¿Debería comprobar si me he infectado por VIH?
