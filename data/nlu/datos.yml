@@ -25,6 +25,7 @@ nlu:
     - Número de muertos total de VIH
     - Datos de muertos total de VIH
     - Histórico de muertes VIH
+    - ¿Cuánta gente ha muerto?
 - intent: faq/cuantas_personas_tienen_vih
   examples: |
     - ¿Cuántas personas tienen VIH hoy?
@@ -48,3 +49,4 @@ nlu:
     - ¿Cuántas muertes produce el sida al año?
     - ¿Cuántas personas mueren al año de sida?
     - ¿Murió mucha gente en el año 2019 de sida?
+    - ¿Cuantá gente ha muerto de SIDA en este año?
