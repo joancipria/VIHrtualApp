@@ -142,6 +142,9 @@ nlu:
     - deja de denostar
     - me estás denostando
     - me has lastimado
+    - eso me ofende
+    - eso que has dicho me ha ofendido
+    - me estas faltando al respeto
 - intent: agradecer
   examples: |
     - Gracias
@@ -205,13 +208,14 @@ nlu:
 - intent: mas_informacion
   examples: |
     - ¿Donde puedo obtener más información?
-    - ¿Donde puedo encontrar más info?
-    - Necesito más información
+    - ¿Donde puedo encontrar mas info?
+    - Necesito mas información
     - quiero saber más
-    - necesito saber más
+    - necesito saber mas
     - quiero más información
     - dónde puedo obtener más información
     - necesito más información
+    - dame mas informacion
 - intent: preguntar_estado
   examples: |
     - ¿Cómo estás?
