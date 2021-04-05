@@ -118,6 +118,9 @@ nlu:
     - Ni por asomo
     - Bajo ningún concepto
     - Todo lo contrario
+    - No quiero
+    - No necesito nada
+    - No quiero nada
 - intent: agradecer
   examples: |
     - Gracias
@@ -176,6 +179,11 @@ nlu:
   examples: |
     - ¿Donde puedo obtener más información?
     - ¿Donde puedo encontrar más info?
+    - Necesito más información
+    - quiero saber más
+    - necesito saber más
+    - quiero más información
+    - dónde puedo obtener más información
 - intent: preguntar_estado
   examples: |
     - ¿Cómo estás?
