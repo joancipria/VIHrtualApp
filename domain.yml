@@ -114,7 +114,7 @@ responses:
   - text: ¡Perfecto! 👍
   - text: ¡Genial!
   utter_alegrarse:
-  - text: Me alegro mucho ☺️
+  - text: Me alegro mucho 😊
   utter_entristecerse:
   - text: Vaya 😔
   utter_recordar_asistencia:
