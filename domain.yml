@@ -57,7 +57,7 @@ responses:
   utter_bienvenida:
   - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?
   - text: ¡Hola! Soy Juan, encantado de hablar contigo \n Puedes realizarme cualquier pregunta relacionada con el VIH. \n ¿En qué puedo ayudarte?
-  - text: "¡Hola, mi nombre es Juan! Puedes escribirme ✍🏻 directamente tus dudas, y si no se te ocurre qué preguntar, puedo ayudarte con alguno de estos temas:"
+  - text: "¡Hola, mi nombre es Juan! Puedes escribirme directamente tus dudas, y si no se te ocurre qué preguntar, puedo ayudarte con alguno de estos temas:"
   utter_saludar:
   - text: ¡Hola!
   - text: ¡Buenas! 😊
@@ -117,6 +117,10 @@ responses:
   - text: Me alegro mucho 😊
   utter_entristecerse:
   - text: Vaya 😔
+  utter_pedir_perdon_ofensa:
+  - text: Lo siento mucho 🙏. Perdóname si te he ofendido con algo que he dicho. Sólo pretendo ayudarte y resolver tus dudas acerca del VIH.
+  - text: Siento mucho si he dicho algo fuera de tono. Mi intención es siempre la de ayudar y resolver dudas acerca del VIH.
+  - text: Te pido disculpas si te he ofendido en algún momento. Mi única intención es ayudarte a resolver tus dudas acerca del VIH.
   utter_recordar_asistencia:
   - text: Avisame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites

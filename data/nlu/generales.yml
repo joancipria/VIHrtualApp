@@ -84,6 +84,7 @@ nlu:
     - yeah
     - yeaaaah
     - Me parece bien
+    - yo también
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien
@@ -121,6 +122,26 @@ nlu:
     - No quiero
     - No necesito nada
     - No quiero nada
+- intent: ofenderse
+  examples: |
+    - me has ofendido
+    - me has insultado
+    - me siento ofendido
+    - no me insultes
+    - deja de insultarme
+    - deja de ofenderme
+    - eso es una ofensa para Mi
+    - me estas faltando al respeto
+    - deja de faltarme al respeto
+    - has herido mis sentimientos
+    - me has molestado
+    - deja de molestarme
+    - me he enfadado
+    - estoy enfadada y cabreada
+    - deja de herir mis sentimientos
+    - deja de denostar
+    - me estás denostando
+    - me has lastimado
 - intent: agradecer
   examples: |
     - Gracias
@@ -150,6 +171,12 @@ nlu:
     - Aguanta
     - Ahora vuelvo
     - Vuelvo en un momento
+    - ¿Puedes esperar un momento?
+    - Esperame ahora vuelvo
+    - Vuelo en nada
+    - En nada vuelvo
+    - Necesito algo de tiempo
+    - Necesito un momento
 - intent: pedir_ayuda
   examples: |
     - Necesito ayuda
@@ -184,6 +211,7 @@ nlu:
     - necesito saber más
     - quiero más información
     - dónde puedo obtener más información
+    - necesito más información
 - intent: preguntar_estado
   examples: |
     - ¿Cómo estás?
@@ -235,4 +263,6 @@ nlu:
     - Estoy triste
     - Estoy apenado
     - Me siento muy triste
-    - Estoy
+    - Estoy a punto de llorar
+    - Quiero llorar
+    - No me siento bien

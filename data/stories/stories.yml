@@ -44,6 +44,11 @@ stories:
   - action: utter_entristecerse
   - action: utter_ofrecer_ayuda
 
+- story: Ofenderse y pedir Perdóname
+  steps: 
+  - intent: ofenderse
+  - action: utter_pedir_perdon_ofensa
+
 - story: Despedirse
   steps:
   - intent: despedirse
