@@ -129,6 +129,9 @@ nlu:
     - No eres humano
     - ¿Eres real?
     - No eres real
+    - Quién te ha creado?
+    - Quién te ha inventado?
+    - Cómo te han creado?
 - intent: chachara/preguntar_eres_medico
   examples: |
     - ¿Eres médico? 
