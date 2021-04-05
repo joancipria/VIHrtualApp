@@ -29,6 +29,12 @@ intents:
     use_entities: true
 - mas_informacion:
     use_entities: true
+- preguntar_estado:
+    use_entities: true
+- animo_alto:
+    use_entities: true
+- animo_bajo:
+    use_entities: true
 - reiniciar:
     use_entities: true
 - chachara:
@@ -72,6 +78,10 @@ responses:
   - text: ¡Encantado de poder ayudarte!
   - text: ¡Encantado de haberte ayudado!
   - text: Es un auténtico placer poder ayudarte.
+  utter_estado:
+  - text: Genial! ¿Tú que tal?
+  - text: Hoy me encuentro genial 😊, ¡gracias por preguntar!
+  - text: Hoy me siento especialmente bien 😊. ¿Y tú que tal?
   utter_algo_mas:
   - text: ¿Necesitas algo más?
   - text: ¿Hay algo más que pueda hacer por tí?
@@ -103,6 +113,10 @@ responses:
   utter_reaccionar_positivamente:
   - text: ¡Perfecto! 👍
   - text: ¡Genial!
+  utter_alegrarse:
+  - text: Me alegro mucho ☺️
+  utter_entristecerse:
+  - text: Vaya 😔
   utter_recordar_asistencia:
   - text: Avisame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites
@@ -111,7 +125,16 @@ responses:
   - text: Si necesitas cualquier otra cosa no dudes en preguntarme
   - text: Ante cualquier duda no dudes en preguntarme
   utter_dar_mas_informacion:
-  - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo https://www.cdc.gov/hiv/spanish/basics/whatishiv.html o https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm, también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
+  - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo en [Información básica sobre el VIH](https://www.cdc.gov/hiv/spanish/basics/whatishiv.html) o en [Plan Nacional sobre el Sida](https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm), también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
+  sugerir_temas:
+  - buttons:
+    - payload: ¿Cuál es la diferencia entre VIH y SIDA?
+      title: SIDA vs VIH
+    - payload: ¿Cómo se transmite el VIH?
+      title: ¿Cómo se transmite el VIH?
+    - payload: ¿Existe tratamiento para el VIH?
+      title: ¿Existe tratamiento para el VIH?
+    text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
   utter_confirmar_reiniciar:
   - buttons:
     - payload: /restart

@@ -15,30 +15,6 @@ nlu:
     - ¿Podrías decirme cómo te llamas?
     - Aún no me has dicho cómo te llamas
     - ¿Quién eres?
-- intent: chachara/preguntar_estado
-  examples: |
-    - ¿Cómo estás?
-    - ¿Qué tal estás?
-    - ¿Qué tal?
-    - ¿Qué tal andas?
-    - ¿Cómo te encuentras?
-    - ¿Todo bien?
-    - ¿Todo correcto?
-    - ¿Cómo va todo?
-    - Hola, qué tal?
-    - ¿Cómo estás hoy?
-    - ¿Cómo andas?
-    - Hola, ¿qué tal te encuentras?
-    - Hola Juan, ¿qué tal va?
-    - Buenas, cómo estás?
-    - q tal
-    - que tal estas
-    - como va todo
-    - que tal va
-    - como vas?
-    - como lo llevas
-    - qué tal andas
-
 - intent: chachara/preguntar_edad
   examples: |
     - ¿Qué edad tienes?
@@ -106,7 +82,7 @@ nlu:
   examples: |
     - ¿Eres un bot?
     - ¿Eres un chatbot?
-    - ¿Eres un xatbot? 
+    - ¿Eres un xatbot?
     - ¿Eres una inteligencia artificial?
     - ¿Eres una AI?
     - ¿Eres una IA?
@@ -134,7 +110,7 @@ nlu:
     - Cómo te han creado?
 - intent: chachara/preguntar_eres_medico
   examples: |
-    - ¿Eres médico? 
+    - ¿Eres médico?
     - ¿Eres doctor?
     - ¿Eres enfermero?
     - ¿Sabes medicina?
@@ -164,7 +140,7 @@ nlu:
   examples: |
     - ¿Qué hora es?
     - ¿Tienes hora?
-    - Dime la hora 
+    - Dime la hora
     - Perdona, ¿que hora es?
     - ¿Qué hora tenemos?
     - Qué hora es en [España](localizacion)

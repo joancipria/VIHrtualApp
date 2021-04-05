@@ -7,10 +7,6 @@ responses:
   - text: Mi nombre es Juan. Estoy aquí para ayudarte con cualquier duda relacionada con el VIH.
   - text: Soy Juan, encantado. Estoy aquí para resolver todas las dudas que tengas acerca del VIH.
   - text: Me llamo Juan, encantado. Estoy a tu disposición para aclarar dudas que tengas sobre el VIH.
-  utter_chachara/preguntar_estado:
-  - text: Genial! ¿Tú que tal?
-  - text: Hoy me encuentro genial 😊, ¡gracias por preguntar!
-  - text: Hoy me siento especialmente bien 😊. ¿Y tú que tal?
   utter_chachara/preguntar_edad:
   - text: No soy demasiado mayor... pero los años no importan, es la actitud la que marca la diferencia.
   - text: La edad es solo un número, pero si te interesa, aún soy bastante joven.

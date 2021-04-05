@@ -93,6 +93,8 @@ nlu:
     - Bien
     - Estupendo
     - Chachi
+    - Perfecto
+    - Me gusta
 - intent: reaccionar_negativamente
   examples: |
     - Muy mal
@@ -101,6 +103,7 @@ nlu:
     - Súper mal!
     - No me parece bien
     - Bastante mal
+    - No me gusta
 - intent: negar
   examples: |
     - No
@@ -173,3 +176,55 @@ nlu:
   examples: |
     - ¿Donde puedo obtener más información?
     - ¿Donde puedo encontrar más info?
+- intent: preguntar_estado
+  examples: |
+    - ¿Cómo estás?
+    - ¿Qué tal estás?
+    - ¿Qué tal?
+    - ¿Qué tal andas?
+    - ¿Cómo te encuentras?
+    - ¿Todo bien?
+    - ¿Todo correcto?
+    - ¿Cómo va todo?
+    - Hola, qué tal?
+    - ¿Cómo estás hoy?
+    - ¿Cómo andas?
+    - Hola, ¿qué tal te encuentras?
+    - Hola Juan, ¿qué tal va?
+    - Buenas, cómo estás?
+    - q tal
+    - que tal estas
+    - como va todo
+    - que tal va
+    - como vas?
+    - como lo llevas
+    - qué tal andas
+- intent: animo_alto
+  examples: |
+    - Me siento genial
+    - Me siente estupendamente
+    - Me encuentro muy bien
+    - Nunca había estado mejor
+    - Me encuentro especialmente bien
+    - Me siento bastante bien
+    - Estoy bien
+    - Estoy guay
+    - Estoy feliz
+    - Me siento feliz
+    - Estoy alegre
+    - Estoy perfecto
+- intent: animo_bajo
+  examples: |
+    - Me siento mal
+    - Me siente fatal
+    - Me encuentro muy mal
+    - Nunca había estado peor
+    - No me encuentro especialmente bien
+    - Me siento bastante mal
+    - Estoy mal
+    - No soy feliz
+    - Infeliz
+    - Estoy triste
+    - Estoy apenado
+    - Me siento muy triste
+    - Estoy

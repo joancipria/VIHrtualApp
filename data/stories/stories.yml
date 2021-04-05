@@ -12,6 +12,38 @@ stories:
   #- action: action_saludar_usuario
   - action: utter_saludar
 
+- story: Saludar + preguntar como estas
+  steps:
+  - or:
+    - intent: saludar
+    - intent: introducir_datos
+      entities:
+      - PER: Pepe
+  #- action: action_saludar_usuario
+  - action: utter_saludar
+  - intent: preguntar_estado
+  - action: utter_estado
+
+- story: Preguntar como estas + bien + alegrarse + ofrecer ayuda
+  steps:
+  - intent: preguntar_estado
+  - action: utter_estado
+  - or:
+    - intent: reaccionar_positivamente
+    - intent: animo_alto
+  - action: utter_alegrarse
+  - action: utter_ofrecer_ayuda
+
+- story: Preguntar como estas + mal + entristecerse + ofrecer ayuda
+  steps:
+  - intent: preguntar_estado
+  - action: utter_estado
+  - or:
+    - intent: reaccionar_negativamente
+    - intent: animo_bajo
+  - action: utter_entristecerse
+  - action: utter_ofrecer_ayuda
+
 - story: Despedirse
   steps:
   - intent: despedirse
@@ -36,7 +68,7 @@ stories:
   - action: utter_ofrecer_ayuda
 
 - story: esperar
-  steps: 
+  steps:
   - intent: esperar
   - action: utter_esperar
 
