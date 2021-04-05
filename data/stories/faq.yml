@@ -5,3 +5,10 @@ stories:
   steps:
   - intent: faq
   - action: utter_faq
+
+- story: faq + más información
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - intent: mas_informacion
+  - action: utter_dar_mas_informacion

@@ -15,6 +15,7 @@ nlu:
     - ¿Podrías decirme cómo te llamas?
     - Aún no me has dicho cómo te llamas
     - ¿Quién eres?
+    - necesito saber como te llamas
 - intent: chachara/preguntar_edad
   examples: |
     - ¿Qué edad tienes?
