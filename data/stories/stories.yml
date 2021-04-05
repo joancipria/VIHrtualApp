@@ -82,6 +82,13 @@ stories:
     - intent: querer_preguntar
     - action: utter_animar_preguntar
 
+- story: Ofrecer ayuda + no necesita nada
+  steps:
+    - action: utter_ofrecer_ayuda
+    - intent: negar
+    - action: utter_reaccionar_positivamente
+    - action: utter_recordar_asistencia
+
 - story: Más información
   steps:
   - intent: mas_informacion
