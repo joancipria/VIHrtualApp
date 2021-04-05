@@ -5,50 +5,31 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- saludar:
-    use_entities: true
-- despedirse:
-    use_entities: true
-- afirmar:
-    use_entities: true
-- negar:
-    use_entities: true
-- reaccionar_positivamente:
-    use_entities: true
-- reaccionar_negativamente:
-    use_entities: true
-- agradecer:
-    use_entities: true
-- esperar:
-    use_entities: true
-- pedir_ayuda:
-    use_entities: true
-- querer_preguntar:
-    use_entities: true
-- tener_duda:
-    use_entities: true
-- mas_informacion:
-    use_entities: true
-- preguntar_estado:
-    use_entities: true
-- animo_alto:
-    use_entities: true
-- animo_bajo:
-    use_entities: true
-- reiniciar:
-    use_entities: true
-- chachara:
-    use_entities: true
-- faq:
-    use_entities: true
-- fuera_de_ambito:
-    use_entities: true
-- nlu_fallback:
-    use_entities: true
+- saludar
+- despedirse
+- afirmar
+- negar
+- reaccionar_positivamente
+- reaccionar_negativamente
+- ofenderse
+- no_le_ha_ayudado
+- no_le_entiende
+- agradecer
+- esperar
+- pedir_ayuda
+- querer_preguntar
+- tener_duda
+- mas_informacion
+- preguntar_estado
+- animo_alto
+- animo_bajo
+- reiniciar
+- chachara
+- faq
+- fuera_de_ambito
+- nlu_fallback
 entities:
 - PER
-- idioma
-- localizacion
 slots:
   PER:
     type: text
@@ -117,6 +98,10 @@ responses:
   - text: Me alegro mucho 😊
   utter_entristecerse:
   - text: Vaya 😔
+  utter_disculparse:
+  - text: Siento mucho no haber podido hacerlo mejor. Me gustaría que tengas en cuenta que soy muy joven y sigo aprendiendo.
+  - text: Siento no haber podido atenderte como necesitabas. Trato de mejorar día a día.
+  - text: Siento no haber podido resolver tu duda, intentaré mejorar para poder ayudarte la próxima vez.
   utter_pedir_perdon_ofensa:
   - text: Lo siento mucho 🙏. Perdóname si te he ofendido con algo que he dicho. Sólo pretendo ayudarte y resolver tus dudas acerca del VIH.
   - text: Siento mucho si he dicho algo fuera de tono. Mi intención es siempre la de ayudar y resolver dudas acerca del VIH.
@@ -156,6 +141,8 @@ responses:
   - text: Siento mucho no entenderte 😓. ¿Me lo podrías decir de otra forma?
   utter_fuera_de_ambito/no_castellano:
   - text: Lo siento, solo hablo español.
+  utter_fuera_de_ambito/insultos:
+  - text: Siento no poder hacerlo mejor pero tampoco creo necesarias esas palabras
   utter_fuera_de_ambito/otros:
   - buttons:
     - payload: ¿Cuál es la diferencia entre VIH y SIDA?
