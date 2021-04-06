@@ -16,6 +16,13 @@ rules:
   - intent: fuera_de_ambito
   - action: utter_fuera_de_ambito
 
+- rule: reiniciar
+  steps:
+  - intent: reiniciar
+  - action: utter_confirmar_reiniciar
+  - intent: afirmar
+  - action: action_restart
+
 - rule: Solicitar al usuario que reformule la pregunta cuando envían un mensaje con un coeficiente NLU bajo (ver config.yml)
   steps:
   - intent: nlu_fallback
