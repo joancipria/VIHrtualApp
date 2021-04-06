@@ -117,7 +117,7 @@ responses:
   - text: Vaya 😔
   - text: Lo siento mucho 😔
   utter_recordar_asistencia:
-  - text: Avisame si tienes cualquier otra duda
+  - text: Avísame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites
   - text: Recuerda que puedes preguntarme siempre que lo necesites
   - text: Estaré aquí esperándote por si necesitas cualquier otra cosa
