@@ -12,8 +12,8 @@ cd vihrtual-app
 ```
 Create virtual environment
 ```
-source ./venv/bin/activate
 python3 -m venv ./venv
+source ./venv/bin/activate
 ```
 
 Downgrade pip (temporal fix)
