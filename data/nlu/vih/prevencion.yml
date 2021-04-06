@@ -120,6 +120,8 @@ nlu:
     - Protege el preservativo femenino contra el VIH?
     - Previene el condón femenino el VIH?
     - ¿El condón femenino es efectivo?
+    - son seguros los condones femeninos?
+    - es seguro el condón femenino?
 - intent: faq/son_eficientes_espermicidas
   examples: |
     - ¿Son eficientes los espermicidas para evitar la infección por VIH?
@@ -144,6 +146,9 @@ nlu:
     - ¿Es efectivo el condón para prevenir el VIH?
     - Si utilizo condón, ¿estoy protegido contra el VIH?
     - Si utilizo preservativo, ¿estoy protegido contra el VIH?
+    - son seguros los preservativos?
+    - son seguros los condones?
+    - es seguro el condón?
 - intent: faq/rompe_preservativo
   examples: |
     - ¿Qué hago si se rompe el preservativo?
