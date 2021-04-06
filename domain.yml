@@ -14,6 +14,8 @@ intents:
 - ofenderse
 - no_le_ha_ayudado
 - no_le_entiende
+- no_entender
+- entender
 - agradecer
 - esperar
 - pedir_ayuda
@@ -35,6 +37,21 @@ slots:
     type: text
     influence_conversation: false
 responses:
+  utter_afirmar:
+  - text: Vale, perfecto.
+  - text: Sí, claro.
+  - text: Por supuesto
+  - text: Adelante
+  utter_negar:
+  - text: No, para nada.
+  - text: No, claro que no.
+  - text: Por supuesto que no
+  - text: No lo creo
+  utter_conformidad:
+  - text: Vale
+  - text: Perfecto
+  - text: Genial
+  - text: Entendido
   utter_bienvenida:
   - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?
   - text: ¡Hola! Soy Juan, encantado de hablar contigo \n Puedes realizarme cualquier pregunta relacionada con el VIH. \n ¿En qué puedo ayudarte?
@@ -125,6 +142,14 @@ responses:
       title: No ❌
     image: https://media.giphy.com/media/3oxHQJLNjlkoF7dI9W/giphy.gif
     text: ¿Seguro que quieres reiniciar la conversación?
+  utter_saber_mas:
+  - text: ¿Te gustaría saber más?
+  - text: ¿Te interesa saber más?
+  utter_preguntar_que_no_entiende:
+  - text: ¿Qué no has entendido?
+  - text: ¿Dime, que no entiendes?
+  - text: No pasa nada, dime que no has entendido
+  - text: Dime exactamente qeu no entiendes y trataré de explicártelo mejor
   utter_pedir_repita:
   - text: ¿Podrías repetírmelo de otra manera?
   - text: ¿Podrías expresarlo de otra manera?

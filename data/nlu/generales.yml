@@ -211,6 +211,69 @@ nlu:
     - lo lo quiero
     - No necesito nada
     - No quiero nada
+- intent: entender
+  examples: |
+    - entiendido
+    - entendido
+    - lo entiendo todo
+    - ahora ya lo entiendo
+    - aora ya lo entiendo
+    - sí, lo entiendo
+    - perfecto, entendido
+    - genial, ya lo entiendo
+    - ahora ya lo se
+    - no lo sabía
+    - lo entiendo perfectamente
+    - ahora ya lo sé
+    - lo he entiendo
+    - lo he entendido perfectamente
+    - gracias, entendido
+    - perfecto, me ha quedado claro
+    - me ha quedado clarisimo
+    - me ha quedado muy Claro
+    - ahora ya lo entiendo perfectamente
+    - gracias por la aclaración
+    - perfecta aclaración
+    - has resuelto mi duda
+    - has aclarado mi duda
+    - has resuelto mi pregunta
+    - has respondido a mi pregunta
+    - has contestado a mi pregunta
+    - me has contestado perfectamente
+- intent: no_entender
+  examples: |
+    - no lo he entiendido
+    - no lo he entendido
+    - no lo entiendo
+    - no me aclaro
+    - no entiendo nada
+    - no, no lo entiendo
+    - no entiendo muchas cosas
+    - no he entendido nada de lo que has dicho
+    - nada de lo que has dicho tiene sentido
+    - no tiene sentido
+    - nada de eso tiene sentido
+    - qué sentido tiene eso
+    - no me ha quedado nada claro
+    - me es muy confuso
+    - no sé que es lo que has dicho
+    - no entiendo lo que dices
+    - no te he entendido
+    - es muy difícil de entender
+    - es difícil entenderlo
+    - no me ha quedado muy claro el concepto
+    - no entiendo el concepto
+    - no entiendo los conceptos
+    - me suena a chino
+    - no entiendo nah
+    - me suena todo a chino
+    - no lo acabo de entender
+    - no se si lo acabo de entender
+    - creo no he entendido nada
+    - creo que no entiendo
+    - no entiendo
+    - que queires decir con eso?
+    - no sé que quieres decir con eso
 - intent: ofenderse
   examples: |
     - me has ofendido
@@ -281,6 +344,7 @@ nlu:
     - agradecida eternamente
     - estaré siempre agradecido
     - siempre estare agradecido
+    - gracias por tu aclaración
 - intent: esperar
   examples: |
     - Espera

@@ -22,4 +22,35 @@ stories:
     - intent: negar
     - intent: no_le_ha_ayudado
   - action: utter_disculparse
+
+- story: faq + no lo ha entendido + preguntar que no ha entendido
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - intent: no_entender
+  - action: utter_preguntar_que_no_entiende
   
+- story: faq + lo ha entendido + quiere saber más
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - intent: entender
+  - action: reaccionar_positivamente
+  - action: utter_saber_mas
+  - or:
+    - intent: afirmar
+    - intent: reaccionar_positivamente
+  - action: utter_ofrecer_ayuda # TODO: Conocer contexto, sobre que quiere saber más y aportar información relevante
+
+- story: faq + lo ha entendido +  no quiere saber más
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - intent: entender
+  - action: reaccionar_positivamente
+  - action: utter_saber_mas
+  - or:
+    - intent: negar
+    - intent: reaccionar_negativamente
+  - action: utter_conformidad
+  - action: utter_recordar_asistencia
