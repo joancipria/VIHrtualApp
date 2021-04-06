@@ -1,12 +1,25 @@
-# Vihrtual-App - HIV Chatbot
+# Vihrtual-App
 
+<p align="center">
+    <a href="#-install">Install</a> •
+    <a href="#-run">Run</a> •
+    <a href="#-overview">Overview</a> •
+    <a href="#-contributing">Contributing</a> •
+    <a href="#-license">License</a>
+</p>
 
-## 👷‍ Installation
+![screenshot](docs/mockup.jpg)
+
+Vihrtual-App is an opensource (spanish) HIV Chatbot built with Rasa.
+
+⚠️⚠️ **VIHRTUAL-APP IS CURRENTLY IN EARLY DEVELOPMENT, NOT READY TO BE USED FOR PRODUCTION!** ⚠️⚠️
+
+## 📦 Install
 
 Clone repo
 ```
+git clone https://github.com/joancipria/VihrtualApp.git
 cd vihrtual-app
-git clone
 ```
 Create virtual environment
 ```
@@ -23,6 +36,7 @@ Install requirements
 ```
 pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 pip3 install rasa[spacy]
+pip install pyspellchecker
 python3 -m spacy download es_core_news_md
 python3 -m spacy link es_core_news_md es
 ```
@@ -30,7 +44,7 @@ python3 -m spacy link es_core_news_md es
 
 This will install the bot and all of its requirements.
 
-## 🤖 To run Vihrtual-App:
+## 🤖 Run
 
 Use `rasa train` to train a model 
 
@@ -38,23 +52,29 @@ Run `rasa shell` if you want to speak to the assistant
 
 Run `rasa x` to start Rasa X server
 
-Run `rasa run -m models --enable-api --cors "*" --debug` to start the rest server
+Run `rasa run -m models --enable-api --cors "*" --debug` to start the API rest server
 
 Run `rasa run actions --cors "*"` to start actions server
 
-## 👩‍💻 Overview of the files
+## 🤔 Overview
 
-`data/stories.yml` - contains stories 
+`data/nlu/vih/*.yml` - Contains NLU training data for HIV
 
-`data/nlu.yml` - contains NLU training data
+`data/*.yml` - Contains NLU training data for chitchat, out of scope and other basic stuff.
 
-`data/rules.yml` - contains rules
+`data/rules.yml` - Contains stories
 
-`actions` - contains custom action code
+`data/rules.yml` - Contains rules
 
-`domain.yml` - the domain file, including bot responses
+`actions` - Contains custom action code
 
-`config.yml` - training configurations for the NLU pipeline and policy ensemble
+`domain.yml` - The domain file, including basic bot responses
 
-## :gift: License
+`config.yml` - Training configurations for the NLU pipeline and policy 
+
+## 👨‍💻 Contributing
+
+Feel free to send a pull request to this repository with your code contributions
+
+## 📜 License
 Licensed under the GNU General Public License v3.
