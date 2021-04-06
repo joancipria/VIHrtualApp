@@ -110,7 +110,19 @@ stories:
   - intent: mas_informacion
   - action: utter_dar_mas_informacion
 
-- story: reiniciar
+- story: Pedir que lo repita + no
   steps:
-  - intent: reiniciar
-  - action: utter_confirmar_reiniciar
+  - or:
+    - action: utter_pedir_repita
+    - action: utter_default
+  - intent: negar
+  - action: utter_reaccionar_positivamente
+  - action: utter_recordar_asistencia
+
+- story: Pedir que lo repita + si
+  steps:
+  - or:
+    - action: utter_pedir_repita
+    - action: utter_default
+  - intent: afirmar
+  - action: action_listen
