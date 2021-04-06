@@ -8,7 +8,7 @@ Vihrtual-App is an opensource (spanish) HIV Chatbot built with Rasa.
 Clone repo
 ```
 git clone https://github.com/joancipria/VihrtualApp.git
-cd vihrtual-app
+cd VihrtualApp
 ```
 Create virtual environment
 ```
