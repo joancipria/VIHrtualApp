@@ -273,6 +273,13 @@ nlu:
     - creo que no entiendo
     - no entiendo
     - que queires decir con eso?
+    - ke quieres decir con eso?
+    - a que te refieres con eso?
+    - no sé a que te refieres
+    - no entiendo muy bien a que te estas refiriendo
+    - no acabo de saber a que te refieres
+    - q quieres decir
+    - que quieres decir
     - no sé que quieres decir con eso
 - intent: ofenderse
   examples: |
