@@ -14,3 +14,11 @@ nlu:
     - Quiero pedir una pizza
     - Quiero un kebab
     - Cuéntame un chiste
+
+- intent: fuera_de_ambito/insultos
+  examples: |
+    - hijo de puta
+    - gilipollas
+    - idiota
+    - imbécil
+    - subnormal
