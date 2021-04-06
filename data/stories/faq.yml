@@ -35,7 +35,7 @@ stories:
   - intent: faq
   - action: utter_faq
   - intent: entender
-  - action: reaccionar_positivamente
+  - action: utter_reaccionar_positivamente
   - action: utter_saber_mas
   - or:
     - intent: afirmar
@@ -47,7 +47,7 @@ stories:
   - intent: faq
   - action: utter_faq
   - intent: entender
-  - action: reaccionar_positivamente
+  - action: utter_reaccionar_positivamente
   - action: utter_saber_mas
   - or:
     - intent: negar
