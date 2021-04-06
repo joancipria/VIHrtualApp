@@ -4,8 +4,12 @@ nlu:
 - intent: faq/contarle_pareja
   examples: |
     - ¿Debo decirle a mi pareja que tengo VIH?
+    - debo decirle a mi pareja que tengo el Virus de la Inmunodeficiencia Humana?
     - ¿Debería contarle a mi pareja que tengo VIH?
+    - deberia contarle a mis parejas si tengo el vih?
     - ¿Debería contarle a mi pareja que soy positivo?
+    - soy positivo, se lo cuento a mi novio?
+    - soy positivo, se lo cuento a mi pareja?
     - ¿Debería contarle a mi novia que tengo VIH?
     - ¿Debería contarle a mi novio que cogido el VIH?
     - ¿Le digo a mi pareja que tengo el VIH?

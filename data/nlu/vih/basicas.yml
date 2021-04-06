@@ -4,19 +4,47 @@ nlu:
 - intent: faq/que_significa_vih
   examples: |
     - ¿Qué significa VIH?
+    - que significa VIH
+    - que significan las siglas VIH
+    - no se que significa VIH
+    - dime que significa VIH
+    - no sé el significado de VIH
+    - no sé lo que significan las siglas vih
 - intent: faq/cura_vih
   examples: |
     - ¿Existe cura para el VIH?
+    - ¿Hay cura para el vih?
+    - Existe cura para el Virus de la Inmunodeficiencia Humana?
+    - han descubierto cura para el VIH?
+    - se puede curar el vih?
+    - ¿Se puede curar el Virus de la Inmunodeficiencia Humana?
+    - Han encontrado ya cura para el vih?
 - intent: faq/como_actua_vih
   examples: |
-    - ¿Cómo actúa el VIH ?
+    - ¿Cómo actúa el VIH?
+    - como actua el Virus de la Inmunodeficiencia Humana?
+    - como actua dentro del cuerpo el vih?
     - ¿Cómo actúa el VIH en el cuerpo?
+    - como se comporta el virus vih en el cuerpo?
+    - ¿Cómo se comporta el Virus de la Inmunodeficiencia Humana?
+    - exactamente como actúa el vih?
+    - dime como actúa el vih
+    - no sé como actua el Virus de la Inmunodeficiencia Humana
+    - quiero saber como actua el vih
 - intent: faq/cual_es_el_origen
   examples: |
     - ¿Cuál es el origen del VIH?
+    - ¿cual es el origen del Virus de la Inmunodeficiencia Humana?
+    - dime cual es el orgien del vih
+    - explciame cual es el origen del vih
+    - explicame el origen del vih
+    - quiero saber cuañ es el orgien del Virus de la Inmunodeficiencia Humana
 - intent: faq/cuando
   examples: |
     - ¿Cuándo se originó el VIH?
+    - cuando se formó el virus del vih?
+    - cuando surgió el vih?
+    - cuando se origino el Virus de la Inmunodeficiencia Humana?
 - intent: faq/donde
   examples: |
     - ¿Dónde surgió el VIH?
