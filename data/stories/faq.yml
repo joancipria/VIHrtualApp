@@ -12,3 +12,14 @@ stories:
   - action: utter_faq
   - intent: mas_informacion
   - action: utter_dar_mas_informacion
+
+- story: faq + no ha sido de ayuda + disculparse
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - or:
+    - intent: reaccionar_negativamente
+    - intent: negar
+    - intent: no_le_ha_ayudado
+  - action: utter_disculparse
+  

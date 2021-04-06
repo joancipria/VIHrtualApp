@@ -191,6 +191,12 @@ nlu:
     - Ayúdame
     - ¿Me puedes ayudar?
     - Por favor, ayúdame
+    - Tienes que ayudarme
+    - Me puedes ayudar por favor?
+    - Quiero que me ayudes
+    - Has de ayudarme
+    - Me tienes que echar una mano
+    - Ayudame con una cosa
 - intent: querer_preguntar
   examples: |
     - Quiero preguntarte algo
@@ -205,6 +211,13 @@ nlu:
     - No estoy seguro sobre un tema
     - Quiero saber algo
     - Quiero saber una cosa
+    - Contesta a mi pregunta
+    - ¿Me puedes responder?
+    - Respondeme
+    - Necesito que me respondas
+    - Responde mis preguntas
+    - Has de responder mi pregunta
+    - Responde a la pregunta
 - intent: mas_informacion
   examples: |
     - ¿Donde puedo obtener más información?
@@ -270,3 +283,42 @@ nlu:
     - Estoy a punto de llorar
     - Quiero llorar
     - No me siento bien
+- intent: no_le_ha_ayudado
+  examples: |
+    - no me sirves
+    - no me has sido de ayuda
+    - no has podido ayudarme
+    - no has contestado mi pregunta
+    - No me ha sido de ayuda
+    - No sirves
+    - No me ayudas
+    - no sirves para nada
+    - no ayudas
+    - no respondes a ninguna pregunta con sentido
+    - no respondes a ninguna de mis preguntas
+    - no sabes responder
+    - no respondes bien
+    - no sabes responder a las preguntas
+    - tu ayuda es nula
+    - eres tonto
+    - no eres de ayuda
+    - eres bastante tonto
+    - has sido incapaz de ayudarme
+    - no puedes ayudar
+    - no me ha servido de mucho
+    - no me ha servido tu respuesta
+    - no ha sido de mucha ayuda
+    - no me ha ayudado
+- intent: no_le_entiende
+  examples: |
+    - no me entiendes
+    - no lo entiendes
+    - no entiendes nada
+    - eres incapaz de entenderme
+    - no entiendes lo que digo
+    - no me has entendido
+    - no has entendido lo que te he dicho
+    - nunca entiendes lo que te digo
+    - entiendes muy poco
+    - eres muy cortito
+    - no entiendes mucho

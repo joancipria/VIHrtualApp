@@ -94,6 +94,17 @@ stories:
     - action: utter_reaccionar_positivamente
     - action: utter_recordar_asistencia
 
+- story: No le ha sido de ayuda
+  steps:
+  - intent: no_le_ha_ayudado
+  - action: utter_disculparse
+
+- story: No le entiende
+  steps:
+  - intent: no_le_entiende
+  - action: utter_disculparse
+  - action: utter_default
+
 - story: Más información
   steps:
   - intent: mas_informacion
