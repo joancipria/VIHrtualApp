@@ -98,12 +98,12 @@ stories:
   steps:
   - intent: no_le_ha_ayudado
   - action: utter_disculparse
+  - action: utter_pedir_repita
 
 - story: No le entiende
   steps:
   - intent: no_le_entiende
-  - action: utter_disculparse
-  - action: utter_default
+  - action: utter_disculpas_no_entender
 
 - story: Más información
   steps:

@@ -98,14 +98,6 @@ responses:
   - text: Me alegro mucho 😊
   utter_entristecerse:
   - text: Vaya 😔
-  utter_disculparse:
-  - text: Siento mucho no haber podido hacerlo mejor. Me gustaría que tengas en cuenta que soy muy joven y sigo aprendiendo.
-  - text: Siento no haber podido atenderte como necesitabas. Trato de mejorar día a día.
-  - text: Siento no haber podido resolver tu duda, intentaré mejorar para poder ayudarte la próxima vez.
-  utter_pedir_perdon_ofensa:
-  - text: Lo siento mucho 🙏. Perdóname si te he ofendido con algo que he dicho. Sólo pretendo ayudarte y resolver tus dudas acerca del VIH.
-  - text: Siento mucho si he dicho algo fuera de tono. Mi intención es siempre la de ayudar y resolver dudas acerca del VIH.
-  - text: Te pido disculpas si te he ofendido en algún momento. Mi única intención es ayudarte a resolver tus dudas acerca del VIH.
   utter_recordar_asistencia:
   - text: Avisame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites
@@ -132,6 +124,28 @@ responses:
       title: No ❌
     image: https://media.giphy.com/media/3oxHQJLNjlkoF7dI9W/giphy.gif
     text: ¿Seguro que quieres reiniciar la conversación?
+  utter_pedir_repita:
+  - text: ¿Podrías repetírmelo de otra manera?
+  - text: ¿Podrías expresarlo de otra manera?
+  - text: ¿Quizá puedas preguntármelo de otra manera? 😅
+  - text: ¿Me lo puedes preguntar de otra manera?
+  - text: ¿Serías tan amable de preguntármelo de otra manera?
+  - text: ¿Me lo podrías decir de otra forma?
+  utter_disculpas_no_entender:
+  - text: Lo siento por no haberte entendido. ¿Podrías repetírmelo de otra manera?
+  - text: Siento no entenderte. ¿Podrías expresarlo de otra manera?
+  - text: ¿Quizá puedas preguntármelo de otra manera? 😅
+  - text: Mil disculpas por no entenderte. ¿Me lo puedes preguntar de otra manera?
+  - text: Los siento, ¿Serías tan amable de preguntármelo de otra manera?
+  - text: Siento mucho no entenderte 😓. ¿Me lo podrías decir de otra forma?
+  utter_disculparse:
+  - text: Siento mucho no haber podido hacerlo mejor. Me gustaría que tengas en cuenta que soy muy joven y sigo aprendiendo.
+  - text: Siento no haber podido atenderte como necesitabas. Trato de mejorar día a día.
+  - text: Siento no haber podido resolver tu duda, intentaré mejorar para poder ayudarte la próxima vez.
+  utter_pedir_perdon_ofensa:
+  - text: Lo siento mucho 🙏. Perdóname si te he ofendido con algo que he dicho. Sólo pretendo ayudarte y resolver tus dudas acerca del VIH.
+  - text: Siento mucho si he dicho algo fuera de tono. Mi intención es siempre la de ayudar y resolver dudas acerca del VIH.
+  - text: Te pido disculpas si te he ofendido en algún momento. Mi única intención es ayudarte a resolver tus dudas acerca del VIH.
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entenderte. ¿Podrías expresarlo de otra manera?
