@@ -6,14 +6,14 @@ stories:
   - intent: faq
   - action: utter_faq
 
-- story: faq + más información
+- story: faq + pide más información + le damos más información
   steps:
   - intent: faq
   - action: utter_faq
   - intent: mas_informacion
   - action: utter_dar_mas_informacion
 
-- story: faq + no ha sido de ayuda + disculparse
+- story: faq + no le ha sido de ayuda + disculparse
   steps:
   - intent: faq
   - action: utter_faq

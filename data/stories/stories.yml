@@ -44,18 +44,18 @@ stories:
   - action: utter_entristecerse
   - action: utter_ofrecer_ayuda
 
-- story: Ofenderse y pedir Perdóname
+- story: Se ofende + pedir perdón
   steps: 
   - intent: ofenderse
   - action: utter_pedir_perdon_ofensa
 
-- story: Despedirse
+- story: Despedirse + recordar asistencia
   steps:
   - intent: despedirse
   - action: utter_despedirse
   - action: utter_recordar_asistencia
 
-- story: Agradecer y no necesita nada más
+- story: Agradecer + no necesita nada más
   steps:
   - intent: agradecer
   - action: utter_no_hay_de_que
@@ -64,7 +64,7 @@ stories:
   - action: utter_reaccionar_positivamente
   - action: utter_recordar_asistencia
 
-- story: Agradecer y necesita algo más
+- story: Agradecer + necesita algo más
   steps:
   - intent: agradecer
   - action: utter_no_hay_de_que
@@ -72,7 +72,7 @@ stories:
   - intent: afirmar
   - action: utter_ofrecer_ayuda
 
-- story: esperar
+- story: Esperar
   steps:
   - intent: esperar
   - action: utter_esperar
@@ -94,13 +94,13 @@ stories:
     - action: utter_reaccionar_positivamente
     - action: utter_recordar_asistencia
 
-- story: No le ha sido de ayuda
+- story: No le ha sido de ayuda + disculparse + pedir que lo repita
   steps:
   - intent: no_le_ha_ayudado
   - action: utter_disculparse
   - action: utter_pedir_repita
 
-- story: No le entiende
+- story: No le entiende + pedir disculpas y pedir que lo repita
   steps:
   - intent: no_le_entiende
   - action: utter_disculpas_no_entender
