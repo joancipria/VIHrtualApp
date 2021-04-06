@@ -32,4 +32,4 @@ responses:
   - text: Eso depende del lugar del mundo en el que te encuentres.
   - text: No te la sabría decir exactamente, el tiempo es algo muy relativo, sobretodo para mí.
   utter_chachara/preguntar_tiempo:
-  - text: Ahora mísmo donde yo vivo está soleado.
+  - text: No lo sé, pero ahora mísmo donde yo vivo está soleado.

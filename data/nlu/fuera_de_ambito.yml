@@ -4,21 +4,116 @@ nlu:
   examples: |
     - What is HIV?
     - What can you do?
+    - how are you
     - Is this a bot?
-    - Com et diuen?
-    - Qué pots fer?
+    - kalhmera sara ti kaneis
+    - kannst du auch deutsch?
+    - kannst du dies auch auf deutsch?
+    - oui je besoine de l'aide
+    - what is your name
+    - 你好
+    - kannst du mir helfen
+    - tu kaisi he
+    - こにちは
+    - 日本語分かる？
+    - 你好
+    - I'm speaking a non-english language.
+    - 呵呵
+    - 我该如何使用
+    - 你懂中文吗？
+    - 您好
+    - 你叫什么名字
+    - 你是谁
+    - 中文
+    - kya hindi me bat kar sakate ho
+    - Dumme sara
+    - αστεία λές
+    - 卧槽
+    - Guten Tag
+    - Danke, gut
+    - Wie geht’s?
+    - Ich heiße
+    - Bitte
+    - Dzień dobry 
+    - Cześć 
+    - Jak się masz? 
+    - Dziękuję, dobrze
+    - Jak masz na imię? 
+    - Dziękuję
+    - Hoe gaat het? 
+    - Hoe heet u? 
 
 - intent: fuera_de_ambito/otros
   examples: |
     - ¿Cúanto es 2 + 2?
+    - cuanto es 36 + 90
+    - dime cuanto es 3 mas threshold
+    - cuánto es 34 más 50
+    - suma 32 y 66
     - Quiero pedir una pizza
+    - Quiero pedir una hamburguesa
+    - una burger porfi
     - Quiero un kebab
     - Cuéntame un chiste
+    - te estoy preguntando algo fuera de tu ámbito
+    - estoy preguntandote algo fuera de tu conocimiento
+    - quiero pedir un taxi
+    - tengo hambre
+    - quiero pedir comida
+    - quiero morir
+    - quiero morirme
+    - mátame
+    - quiero casarme contigo
+    - estas soltero
+    - estas soltera
+    - quiero reservar en un restaurante
+    - pedir mesa en un restaurante
+    - recuerda mi nombre
+    - que piensas de alexa
+    - que piensas de siri
+    - que piensas de google
+    - qué es la evolución
+    - que has comido hoy?
+    - llama a la policia
+    - bésame
+    - chupame la polla
+    - xupame la polla
 
 - intent: fuera_de_ambito/insultos
   examples: |
     - hijo de puta
+    - hijo puta
+    - hijoputa
+    - hijaputa
+    - eres un hijo de puta
+    - ijo de puta
+    - hideputa
+    - eres gilipollas
+    - hijo de la gran puta
+    - gilipoya
     - gilipollas
+    - jilipollas
+    - jilipoyas
     - idiota
+    - eres muy idiota
+    - eres imbecil
     - imbécil
+    - eres un poco imbécil
+    - so merluzo
+    - uh, gentuzo
     - subnormal
+    - res un subnormal
+    - eres muy retrasado
+    - Bellaco
+    - Cafre
+    - eres muy cafre
+    - Capullo
+    - Cabrón
+    - cabron
+    - cabrona
+    - eres muy cabrón
+    - eres un mendrugo
+    - eres un mentecato
+    - eres un papanatas
+    - eres un pagafantas
+    - pagafantas

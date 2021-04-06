@@ -18,34 +18,59 @@ nlu:
     - ¿Qué pasa?
     - Buen día
     - Hey
+    - Hallo
+    - heeey
+    - oli
+    - holi
     - hi
     - ieeee
     - eeeii
     - ola
-    - Hola, soy [Antonio](PER)
+    - hola, soy [Antonio](PER)
     - Hola soy [dani](PER)
-    - Hola soy [Rosa](PER)
+    - hola soy [Rosa](PER)
     - Hola, soy [Miguel Álvarez](PER)
     - Hola soy [Gabriel García](PER)
-    - Hola soy [Isabel Esteve](PER)
+    - hola soy [Isabel Esteve](PER)
     - Buenas, soy [Pepe](PER)
     - Saludos, soy [María](PER)
     - Hola, me llamo [Antonio](PER)
     - Hola me llamo [pepe](PER)
-    - Hola, me llamo [maría](PER)
-    - Buenas, me llamo [Irene](PER)
+    - hola, me llamo [maría](PER)
+    - buenas, me llamo [Irene](PER)
 - intent: despedirse
   examples: |
     - Nos vemos
+    - nos veremos próximamente
+    - proximamente nos veremos
+    - nos vemos pronto
     - Hasta pronto
+    - asta pronto
+    - asta la vista
+    - hasta la vista
     - Hasta luego
     - Adiós
+    - adios
+    - adios nos vemos
+    - adiós, hasta la vista
+    - adios, nos veremos pronto
+    - hasta pronto, adios
+    - adiós adiós
+    - nos vemos muy pronto
+    - nos veremos en nada
     - Chao
+    - bye
+    - xao
+    - me despido de ti
     - Me despido
-    - Me voy
-    - Un placer
-    - Hasta la próxima
+    - me piro
+    - deeu
+    - me la piro
+    - me voy
+    - hasta la próxima
     - Hasta otra
+    - asta la proxima vez
+    - hasta la proxima ves
 - intent: afirmar
   examples: |
     - Sí!
@@ -62,7 +87,7 @@ nlu:
     - Sipp
     - Totalmente de acuerdo
     - Estás en lo correcto
-    - Estás en lo cierto
+    - Estas en lo cierto
     - Has acertado
     - Sí por favor
     - Acepto
@@ -78,6 +103,7 @@ nlu:
     - Hecho
     - vamos allá
     - Claro que sí Juan
+    - Claro que si
     - Por supuesto Elena
     - yaassss
     - yaas
@@ -85,62 +111,138 @@ nlu:
     - yeaaaah
     - Me parece bien
     - yo también
+    - yo tambien
+    - estoy de acuerdo
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien
+    - Me parece genial
+    - me parece super bien
+    - super chachi
+    - genial
+    - muy bien
+    - bien hecho
+    - muy bien hecho Juan
+    - muy bien Elena
+    - me parece bien
+    - me gusta muchísimo
+    - me encanta
+    - me parece que esta muy bien
+    - está genial
+    - está perfecto
+    - me parece perfecto
     - Genial!
     - Súper bien!
+    - estupendisimo
+    - xaxi
+    - perfectisimo
+    - dpm
+    - de puta madre
+    - está de puta madre
+    - esta sublime
+    - sublime
     - Bastante bien
     - Bien
     - Estupendo
     - Chachi
-    - Perfecto
-    - Me gusta
+    - Perfecto!
+    - Me gusta!
 - intent: reaccionar_negativamente
   examples: |
     - Muy mal
+    - Me parece fatal
+    - me parece mal
+    - mal hecho
+    - no esta bien
+    - no me parece bien
+    - me parce horrible
+    - me parece horrible
+    - es horrible
+    - está fatal
+    - esta orrible
+    - esta muy mal
+    - me parce muy mala idea
+    - no me gusta un pelo
+    - no me gusta nada
+    - no me gusta esto
+    - es una mala idea
+    - muy mala idea
+    - no me hace gracia
+    - no me ace ninguna gracia
+    - me hace muy poca gracia
+    - poca gracia me hace
     - Mal
     - Fatal!
     - Súper mal!
+    - super mal
     - No me parece bien
+    - lo veo bastante mal
     - Bastante mal
     - No me gusta
 - intent: negar
   examples: |
     - No
     - Nop
+    - Nopp
+    - ni pensarlo
+    - no por favor
+    - no para nada
+    - no gracias
     - No, gracias
     - Para nada
     - Negativo
     - De ninguna manera
     - De ningún modo
-    - Ni modo
-    - En absoluto
+    - de ningun modo
+    - ni pensarlo
+    - en absoluto
     - Ni por asomo
     - Bajo ningún concepto
+    - no me refiero a eso
+    - no quero decir eso
+    - no me referia a eso
+    - no quería decir eso
+    - lo niego
+    - denegar
+    - incorrecto
+    - incorecto
     - Todo lo contrario
     - No quiero
+    - lo lo quiero
     - No necesito nada
     - No quiero nada
 - intent: ofenderse
   examples: |
     - me has ofendido
+    - me as ofendido
     - me has insultado
+    - me as insultado
     - me siento ofendido
+    - me he sentido muy ofendido
     - no me insultes
+    - no quiero que me insultes
     - deja de insultarme
+    - para ya de insultarme
     - deja de ofenderme
-    - eso es una ofensa para Mi
-    - me estas faltando al respeto
+    - deja de hacer eso, me estas ofendiendo
+    - me estas ofendiendo otra vez
+    - eso es una ofensa para mi
+    - estas ofendiendome
+    - me estás faltando al respeto
+    - me has faltado al respoeto otra vez
     - deja de faltarme al respeto
     - has herido mis sentimientos
+    - etas hiriendo mis sentimientos
+    - me has herido
     - me has molestado
+    - me he molestado mucho
+    - ese comentario es ofensivo
     - deja de molestarme
     - me he enfadado
     - estoy enfadada y cabreada
     - deja de herir mis sentimientos
     - deja de denostar
-    - me estás denostando
+    - me estas denostando
     - me has lastimado
     - eso me ofende
     - eso que has dicho me ha ofendido
@@ -148,106 +250,219 @@ nlu:
 - intent: agradecer
   examples: |
     - Gracias
+    - muchas gracias por tu respuesta
+    - muchas gracias de verdad
+    - muchas gracias por todo
     - Muchas gracias!
     - Le agradezco
+    - estoy agradecido
+    - estoi agradecida por lo que has hecho
+    - te lo agradezco mucho
     - Te agradezco
+    - te agradezco mucho lo que haces
     - Mi gratitud
+    - mil gracias
     - Me has sido de ayuda
-    - Me has sido de mucha ayuda
+    - Me as sido de mucha ayuda
+    - Me has prestado una gran ayuda
     - Mis agradecimientos
     - Gracias por la ayuda
-    - Gracias por tu ayuda
+    - Gracias por tu aiuda
     - Muchas gracias por responder
     - Gracias por contestarme
     - Muchas gracias por tu ayuda
     - Te lo agradezco mucho
-    - Mil gracias
+    - Mil gracias!
     - Gracias de todo corazón
     - Gracias por tu aportación
+    - muchas gracias, de todo corazon
+    - de todo corazón, muchas gracias
+    - te estaré muy agradecida
+    - agradecida eternamente
+    - estaré siempre agradecido
+    - siempre estare agradecido
 - intent: esperar
   examples: |
     - Espera
+    - esperate un poco
+    - puedes esperar un momento?
     - Un momento
+    - disculpame un momento
     - Disculpa
+    - disculpame un segundo
     - Un segundo
+    - un segundito por favor
     - Espera por favor
+    - esperame un poco
+    - puedes esperar?
     - Aguanta
+    - esperate un rato anda
+    - aguanta un poco
+    - espera un pelin
     - Ahora vuelvo
+    - aora buelbo
+    - aora vuelbo
+    - en un momento volveré
+    - volvere en un rato
     - Vuelvo en un momento
+    - vuelbo en nada
     - ¿Puedes esperar un momento?
+    - esperame que ahora vuelvo
+    - esperame que tengo que irme
     - Esperame ahora vuelvo
-    - Vuelo en nada
+    - Vuelvo en nada
     - En nada vuelvo
     - Necesito algo de tiempo
+    - necesito un descanso
+    - quiero pensar un poco
     - Necesito un momento
 - intent: pedir_ayuda
   examples: |
     - Necesito ayuda
+    - necesito aiuda
     - Ayúdame por favor
+    - ayudame anda
     - ¿Me ayudarías?
+    - me ayudarias en una pregunta
     - Necesito que me ayudes
+    - necesito q me aiudes
     - ¿Me podrías ayudar?
     - ¿Me podrías echar una mano?
-    - Ayúdame
+    - echame una manita
+    - echame una mano por favor
+    - Ayudame
+    - ayudame, por favor necesito ayuda
+    - por fabor necesito aiuda
     - ¿Me puedes ayudar?
+    - eres capaz de ayudarme?
+    - me podrias ayudar porfa
+    - ayudame porfa
     - Por favor, ayúdame
+    - me tienes que ayudar tio
+    - me tienes que echar una mano
+    - me tienes que echar un cable
+    - exame un cable
+    - aiuda porfavor
     - Tienes que ayudarme
     - Me puedes ayudar por favor?
-    - Quiero que me ayudes
+    - ayuda porfavor
+    - Quiero que me 
+    - kiero que me ayudes
+    - quiero q me ayudes
     - Has de ayudarme
+    - as de ayudarme
     - Me tienes que echar una mano
     - Ayudame con una cosa
+    - ayudame con esto
 - intent: querer_preguntar
   examples: |
     - Quiero preguntarte algo
+    - kiero preguntarte una cosa
+    - quiero preguntar una cosa
     - Necesito información
+    - necesito algo de informacion
     - ¿Te podría hacer una pregunta?
+    - te puedo acer una pregunta?
+    - t podria hacer una consulta?
     - ¿Puedo realizarte una pregunta?
     - Una consulta
+    - teno una consulta que hacerte
     - Tengo una duda
+    - tengo muchas dudas
+    - tenfo una duda que quiero saber
     - Tengo una pregunta
+    - tengo muchas preguntas que hacerte
     - Me surge una duda
+    - me ha surjido una duda
     - Me surge una pregunta
+    - tengo una pregunta en la cabeza
+    - no sé muy bien como preguntarte una cosa
     - No estoy seguro sobre un tema
+    - tq preguntar ciertas cosas
     - Quiero saber algo
+    - me gustaria saber una cosa
     - Quiero saber una cosa
     - Contesta a mi pregunta
     - ¿Me puedes responder?
+    - quiero que me respondas
     - Respondeme
+    - respondee ahora mismo
+    - respondeeee
+    - respodeeee
     - Necesito que me respondas
     - Responde mis preguntas
+    - responde a lo q t pregunto
+    - responde a lo que que pregunto
     - Has de responder mi pregunta
     - Responde a la pregunta
 - intent: mas_informacion
   examples: |
-    - ¿Donde puedo obtener más información?
+    - ¿Dónde puedo obtener más información?
+    - existen webs donde pueda informarme?
+    - que webs recomiendas para informarse
+    - recomiendame una web para saber mas
+    - que sitios en internet son fiables para consultar informacion
+    - webs para conseguir mas informacion
+    - stios de internet de informacion adicional
+    - recomiendame un sitio donde pueda saber más
+    - dime donde podria conseguir mas info
+    - donde puedo conseguir mas info?
+    - donde conseguir mas informacion
+    - en que sitio puedo encontras mas informacion
     - ¿Donde puedo encontrar mas info?
     - Necesito mas información
+    - quiero mas info
+    - quiero tener más informacion
+    - kiero informacion adicional
+    - mas informacion
+    - quiero saber mucho mas 
     - quiero saber más
     - necesito saber mas
     - quiero más información
     - dónde puedo obtener más información
     - necesito más información
     - dame mas informacion
+    - quiero saber mas de vih
+    - mas informacion sobre el vih
+    - obtener más informacion del sida
+    - quiero mas info 
 - intent: preguntar_estado
   examples: |
     - ¿Cómo estás?
+    - como estas
+    - q tal estas
     - ¿Qué tal estás?
+    - que tal como andas
+    - que tal estas hoy?
     - ¿Qué tal?
+    - que tal todo
+    - q tal
     - ¿Qué tal andas?
     - ¿Cómo te encuentras?
+    - como t encuentras?
+    - como va todo
     - ¿Todo bien?
     - ¿Todo correcto?
     - ¿Cómo va todo?
     - Hola, qué tal?
+    - hola, q ase
+    - ola, q tal?
     - ¿Cómo estás hoy?
+    - como etas hoy?
     - ¿Cómo andas?
     - Hola, ¿qué tal te encuentras?
+    - como te encuentras?
     - Hola Juan, ¿qué tal va?
+    - hola, como estas?
+    - hola como va?
+    - ola que tal estas?
+    - ola q tal todo
+    - hola, como va?
     - Buenas, cómo estás?
     - q tal
     - que tal estas
-    - como va todo
+    - cómo va todo
+    - como va todo por ahí?
     - que tal va
     - como vas?
     - como lo llevas
@@ -255,39 +470,91 @@ nlu:
 - intent: animo_alto
   examples: |
     - Me siento genial
-    - Me siente estupendamente
+    - me encuentro genial
+    - Me siento estupendamente
+    - estoy estupendamente
+    - estoi mu bien
     - Me encuentro muy bien
+    - me encuentro estupendamente
+    - nunca me habia sentido mejor
     - Nunca había estado mejor
     - Me encuentro especialmente bien
+    - hoy me cuentro bien
+    - muy bien tambien
+    - estoy bien gracias
+    - me siento muy bien
     - Me siento bastante bien
     - Estoy bien
+    - toy bien
     - Estoy guay
+    - guay tio
     - Estoy feliz
+    - mas feliz que una perdiz
     - Me siento feliz
     - Estoy alegre
     - Estoy perfecto
+    - muy contento
+    - extremdamente bien
+    - extremadamente bien
+    - extraordinariamnete bien
+    - extraordinariamente bien
+    - yo bien, gracias
+    - yo genial
+    - yo estoy super bien
+    - yo me siento con mucha energia
+    - me siento con mucha energía
+    - estoy a tope
+    - a tope jefe
+    - esto dpm
+    - estoy de puta madre
 - intent: animo_bajo
   examples: |
     - Me siento mal
-    - Me siente fatal
+    - me siento muy mal
+    - muy mal la verdad
+    - Me siento fatal
     - Me encuentro muy mal
+    - no me encuentro muy allá
+    - estoy disgustado
+    - estoi disgustada
+    - no estoy muy bien
     - Nunca había estado peor
+    - estoy fatal
+    - me encuentro mal
+    - me encunetro mal
     - No me encuentro especialmente bien
     - Me siento bastante mal
-    - Estoy mal
+    - Estoi mal
+    - estoy bastante malamente
     - No soy feliz
     - Infeliz
+    - hoy no estoy de humor
+    - hoy no estoy bien
+    - yo me siento mal
+    - yo estoi triste
+    - estoy tristón
+    - me siento mal
+    - estoy melancolico
     - Estoy triste
+    - me siento muy triste
+    - estoy bastante disgustado
+    - me siento muy mal
     - Estoy apenado
     - Me siento muy triste
+    - kiero llorar
     - Estoy a punto de llorar
     - Quiero llorar
     - No me siento bien
+    - no me encuentro anda bien
 - intent: no_le_ha_ayudado
   examples: |
     - no me sirves
+    - no sirves de nada
+    - no me sirves d nada
     - no me has sido de ayuda
+    - no me has aiudado
     - no has podido ayudarme
+    - no has querido ayudarme
     - no has contestado mi pregunta
     - No me ha sido de ayuda
     - No sirves
@@ -295,11 +562,16 @@ nlu:
     - no sirves para nada
     - no ayudas
     - no respondes a ninguna pregunta con sentido
+    - no me has respondido a mis preguntas
+    - no as respondido a mi pergunta
     - no respondes a ninguna de mis preguntas
     - no sabes responder
     - no respondes bien
-    - no sabes responder a las preguntas
+    - no sabes responder a las perguntas
     - tu ayuda es nula
+    - no me has aiudado en nah
+    - no has hecho nah
+    - no has hecho nada
     - eres tonto
     - no eres de ayuda
     - eres bastante tonto
@@ -312,6 +584,26 @@ nlu:
 - intent: no_le_entiende
   examples: |
     - no me entiendes
+    - no me has entiendido
+    - no has entendido lo que te he dicho
+    - no entiendes lo q te digo
+    - nunca enteendes nada
+    - oye no me has entendido
+    - oye porque no me has entendido
+    - no entiendes lo que te pgregunto
+    - no has entiendido lo que te he preguntados
+    - cuando te pregunto no sabes responder correctamente
+    - no has interpretado bien lo que digo
+    - no interpretas bien nada
+    - no eres capaz de entenderme
+    - tu entendimiento es muy malo
+    - entiendes muy poco de lo que te digo
+    - casi nada de lo que te digo lo entiendes
+    - no compresión es mala
+    - no comprendes 
+    - no comprendes lo q te digo
+    - no has comprendido lo que te he dicho
+    - tu comprensión es nula
     - no lo entiendes
     - no entiendes nada
     - eres incapaz de entenderme

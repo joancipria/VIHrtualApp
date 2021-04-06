@@ -13,7 +13,23 @@ nlu:
     - quiero reiniciar
     - porque no te reinicias?
     - reiniciar sesion
-    - reiniciate
+    - reiníciate
+    - reiniciar
+    - quiero reiniciar el bot
+    - quiero reiniciar la conversación
+    - reinicar conversacion ahora
+    - reiníciate ahora
+    - reniciar
+    - reniciar sesión
+    - reinicar
+    - vamos a reinicar
+    - vamos a reiniciar
+    - por favor reinicate
+    - reinicate
+    - por favor quiero reiniciar el chat
+    - reinciar el chat
+    - reinicia le chat
+    - reinicair el chat
 - synonym: prep
   examples: |
     - profilaxis-preexposición
