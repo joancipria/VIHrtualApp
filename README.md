@@ -12,7 +12,7 @@
 
 Vihrtual-App is an opensource (spanish) HIV Chatbot built with Rasa.
 
-⚠️⚠️ **VIHRTUAL-APP IS CURRENTLY IN EARLY DEVELOPMENT, NOT READY TO BE USED FOR PRODUCTION!** ⚠️⚠️
+⚠️⚠️ **Currently in early development** ⚠️⚠️
 
 ## 📦 Install
 
