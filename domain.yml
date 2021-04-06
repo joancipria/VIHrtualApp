@@ -98,6 +98,7 @@ responses:
   - text: Me alegro mucho 😊
   utter_entristecerse:
   - text: Vaya 😔
+  - text: Lo siento mucho 😔
   utter_recordar_asistencia:
   - text: Avisame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites
@@ -146,6 +147,7 @@ responses:
   - text: Lo siento mucho 🙏. Perdóname si te he ofendido con algo que he dicho. Sólo pretendo ayudarte y resolver tus dudas acerca del VIH.
   - text: Siento mucho si he dicho algo fuera de tono. Mi intención es siempre la de ayudar y resolver dudas acerca del VIH.
   - text: Te pido disculpas si te he ofendido en algún momento. Mi única intención es ayudarte a resolver tus dudas acerca del VIH.
+  - text: Perdóname si en algún momento te he dicho algo que te ha molestado. Mi objetivo es siempre tratar de ayudarte a resolver tus dudas sobre el VIH.
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entenderte. ¿Podrías expresarlo de otra manera?
