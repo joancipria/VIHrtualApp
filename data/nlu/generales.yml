@@ -182,6 +182,9 @@ nlu:
 - intent: negar
   examples: |
     - No
+    - no
+    - no lo creo
+    - lo dudo mucho
     - Nop
     - Nopp
     - ni pensarlo
@@ -247,6 +250,7 @@ nlu:
     - no lo entiendo
     - no me aclaro
     - no entiendo nada
+    - no entiendo que has dicho
     - no, no lo entiendo
     - no entiendo muchas cosas
     - no he entendido nada de lo que has dicho

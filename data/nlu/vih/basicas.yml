@@ -13,6 +13,12 @@ nlu:
 - intent: faq/cura_vih
   examples: |
     - ¿Existe cura para el VIH?
+    - hay cura?
+    - existe cura?
+    - han inventado la cura?
+    - ya hay cura?
+    - sabrias decirme si ya hay cura?
+    - existe ya cura para el vih?
     - ¿Hay cura para el vih?
     - Existe cura para el Virus de la Inmunodeficiencia Humana?
     - han descubierto cura para el VIH?
