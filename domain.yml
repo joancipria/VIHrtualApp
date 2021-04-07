@@ -180,19 +180,6 @@ responses:
   - text: Mil disculpas, no te he entendido. ¿Me lo puedes preguntar de otra manera?
   - text: Quizá no te haya entendido, ¿serías tan amable de preguntármelo de otra manera?
   - text: Siento mucho no entenderte 😓. ¿Me lo podrías decir de otra forma?
-  utter_fuera_de_ambito/no_castellano:
-  - text: Lo siento, solo hablo español.
-  utter_fuera_de_ambito/insultos:
-  - text: Siento no poder hacerlo mejor pero tampoco creo necesarias esas palabras
-  utter_fuera_de_ambito/otros:
-  - buttons:
-    - payload: ¿Cuál es la diferencia entre VIH y SIDA?
-      title: SIDA vs VIH
-    - payload: ¿Cómo se transmite el VIH?
-      title: ¿Cómo se transmite el VIH?
-    - payload: ¿Existe tratamiento para el VIH?
-      title: ¿Existe tratamiento para el VIH?
-    text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
 actions:
 - action_saludar_usuario
 - action_dar_bienvenida
