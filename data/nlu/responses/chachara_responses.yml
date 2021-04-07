@@ -14,7 +14,7 @@ responses:
   - text: Vivo en España
   - text: Soy de España
   utter_chachara/preguntar_hobbies:
-  - text: Me encanta ayudar y más si cuándo puedo resolver algunas dudas que os surgen sobre el VIH.
+  - text: Me encanta ayudar y más cuándo puedo resolver algunas dudas que os surgen sobre el VIH.
   - text: Me gusta mucho trabajar aquí, conozco mucha gente interesante al final del día y siempre hacen aprender y mejorar.
   utter_chachara/preguntar_que_puede_hacer:
   - text: Puedo responderte cualquier pregunta sobre el VIH
