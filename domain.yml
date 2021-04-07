@@ -160,9 +160,9 @@ responses:
   utter_disculpas_no_entender:
   - text: Lo siento por no haberte entendido. ¿Podrías repetírmelo de otra manera?
   - text: Siento no entenderte. ¿Podrías expresarlo de otra manera?
-  - text: ¿Quizá puedas preguntármelo de otra manera? 😅
+  - text: Siento no haberte entendido. ¿Quizá puedas preguntármelo de otra manera? 😅
   - text: Mil disculpas por no entenderte. ¿Me lo puedes preguntar de otra manera?
-  - text: Los siento, ¿Serías tan amable de preguntármelo de otra manera?
+  - text: Lo siento, ¿Serías tan amable de preguntármelo de otra manera?
   - text: Siento mucho no entenderte 😓. ¿Me lo podrías decir de otra forma?
   utter_disculparse:
   - text: Siento mucho no haber podido hacerlo mejor. Me gustaría que tengas en cuenta que soy muy joven y sigo aprendiendo.
