@@ -4,22 +4,17 @@ stories:
 
 - story: Saludar
   steps:
-  - or:
-    - intent: saludar
-    - intent: introducir_datos
-      entities:
-      - PER: Pepe
+  #- or:
+  - intent: saludar
+    #- intent: introducir_datos
+    #  entities:
+    #  - PER: Pepe
   #- action: action_saludar_usuario
   - action: utter_saludar
 
 - story: Saludar + preguntar como estas
   steps:
-  - or:
-    - intent: saludar
-    - intent: introducir_datos
-      entities:
-      - PER: Pepe
-  #- action: action_saludar_usuario
+  - intent: saludar
   - action: utter_saludar
   - intent: preguntar_estado
   - action: utter_estado
