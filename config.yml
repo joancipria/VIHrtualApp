@@ -11,15 +11,19 @@ pipeline:
     model: "es_core_news_md"
     case_sensitive: False
   - name: SpacyTokenizer
+  #- name: LanguageModelFeaturizer
+  #  model_name: "bert"
+  #  model_weight: "rasa/LaBSE"
   - name: SpacyFeaturizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    model_confidence: linear_norm
+    model_confidence: softmax
     epochs: 100
     constrain_similarities: true
   #- name: SpacyEntityExtractor
@@ -40,7 +44,7 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 5
+    max_history: 8
     epochs: 100
     constrain_similarities: true
   - name: RulePolicy
