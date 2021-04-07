@@ -121,7 +121,7 @@ stories:
   - or:
     - intent: negar
     - intent: reaccionar_negativamente
-  - action: utter_reaccionar_positivamente
+  - action: utter_conformidad
   - action: utter_recordar_asistencia
 
 - story: Pedir que lo repita + no 2
@@ -130,7 +130,7 @@ stories:
     - or:
       - intent: negar
       - intent: reaccionar_negativamente
-    - action: utter_reaccionar_positivamente
+    - action: utter_conformidad
     - action: utter_recordar_asistencia
 
 - story: Pedir que lo repita + si
