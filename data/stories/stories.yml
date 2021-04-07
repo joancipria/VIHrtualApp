@@ -118,27 +118,35 @@ stories:
 - story: Pedir que lo repita + no
   steps:
   - action: utter_default
-  - intent: negar
+  - or:
+    - intent: negar
+    - intent: reaccionar_negativamente
   - action: utter_reaccionar_positivamente
   - action: utter_recordar_asistencia
 
 - story: Pedir que lo repita + no 2
   steps:
     - action: utter_pedir_repita
-    - intent: negar
+    - or:
+      - intent: negar
+      - intent: reaccionar_negativamente
     - action: utter_reaccionar_positivamente
     - action: utter_recordar_asistencia
 
 - story: Pedir que lo repita + si
   steps:
   - action: utter_default
-  - intent: afirmar
+  - or:
+    - intent: afirmar
+    - intent: reaccionar_positivamente
   - action: action_listen
 
 - story: Pedir que lo repita + si 2
   steps:
   - action: utter_pedir_repita
-  - intent: afirmar
+  - or:
+    - intent: afirmar
+    - intent: reaccionar_positivamente
   - action: action_listen
 
 - story: reiniciar
