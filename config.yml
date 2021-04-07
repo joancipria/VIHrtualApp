@@ -5,12 +5,13 @@ language: es
 # Pipeline configuration
 # See https://rasa.com/docs/rasa/tuning-your-model for more information.
 pipeline:
-  - name: WhitespaceTokenizer
-  #- name: SpacyNLP
-  #  model: "es_core_news_md"
-  #  case_sensitive: False
-  #- name: SpacyTokenizer
-  #- name: SpacyFeaturizer
+  #- name: "spellchecking.CorrectSpelling"
+  #- name: WhitespaceTokenizer
+  - name: SpacyNLP
+    model: "es_core_news_md"
+    case_sensitive: False
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
