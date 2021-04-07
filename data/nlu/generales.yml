@@ -188,6 +188,9 @@ nlu:
   examples: |
     - No
     - no
+    - noo
+    - nooo
+    - nooooooo
     - no lo creo
     - lo dudo mucho
     - Nop
