@@ -149,7 +149,7 @@ responses:
   - text: ¿Qué no has entendido?
   - text: ¿Dime, que no entiendes?
   - text: No pasa nada, dime que no has entendido
-  - text: Dime exactamente qeu no entiendes y trataré de explicártelo mejor
+  - text: Dime exactamente qué no entiendes y trataré de explicártelo mejor
   utter_pedir_repita:
   - text: ¿Podrías repetírmelo de otra manera?
   - text: ¿Podrías expresarlo de otra manera?
