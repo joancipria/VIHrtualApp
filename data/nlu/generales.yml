@@ -297,6 +297,8 @@ nlu:
     - q quieres decir
     - que quieres decir
     - no sé que quieres decir con eso
+    - perdona pero no lo entiendo
+    - perdoname pero no lo he entendido
 - intent: ofenderse
   examples: |
     - me has ofendido

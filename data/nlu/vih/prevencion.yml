@@ -149,6 +149,7 @@ nlu:
     - son seguros los preservativos?
     - son seguros los condones?
     - es seguro el condón?
+    - quiero saber si el condon es seguro para prevenir el vih
 - intent: faq/rompe_preservativo
   examples: |
     - ¿Qué hago si se rompe el preservativo?
