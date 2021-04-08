@@ -22,8 +22,6 @@ nlu:
   examples: |
     - ¿Qué es la linfopenia?
     - ¿Qué es linfopenia?
-    - Dime que es la ictericia
-    - No sñe que es la ictericia
 - intent: faq/que_es_seroconversion
   examples: |
     - ¿Qué es la seroconversión?
