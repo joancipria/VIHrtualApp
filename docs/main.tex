@@ -6,6 +6,8 @@
 %\pagestyle{fancy}
 \usepackage[spanish]{babel}
 \usepackage{geometry}
+\usepackage{biblatex}
+\addbibresource{bibliografia.bib}
 
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
@@ -28,26 +30,30 @@
 %{\includegraphics{university.jpg}}
 }
 \author{Joan Ciprià Moreno Teodoro}
-\date{Gandía,2021}
+\date{Gandía, 2021}
 
 \begin{document}
 
 \maketitle
 
 \chapter*{Resumen}
-La inteligencia artificial (AI) está transformando el mundo actual y la manera en la cual nos comunicamos con las máquinas, popularizándose cada vez más los sistemas basados en voz. Esto es debido a que el lenguaje natural se está revelando como una forma muy óptima y competente para crear interfaces personalizadas que permitan a cada usuario interactuar con sus propias palabras. \\
+\cite{healthAgents}
+La inteligencia artificial (IA) está transformando el mundo actual y la manera en la cual nos comunicamos con las máquinas, popularizándose cada vez más los sistemas basados en voz. Esto es debido a que el lenguaje natural se está revelando como una forma muy óptima y competente para crear interfaces personalizadas que permitan a cada usuario interactuar con sus propias palabras. \\
 
 Ante este nuevo escenario empezamos a ver como se popularizan los chatbots: programas diseñados para interactuar con los usuarios utilizando un lenguaje natural (por voz o texto) con el objetivo de hacer creer al usuario está hablando con una persona real. \\
 
 En el ámbito sanitario esto no ha sido una excepción y se siguen estas tecnologías con gran interés en busca de sistemas que permitan automatizar ciertos procesos médicos. \\
 
-Bajo este contexto surge Vihrtual-App, un chatbot creado con la colaboración del Hospital universitario de Elche y la Universitat Politència de València con la intención de concienciar y resolver a la población dudas sobre el VIH y otras enfermedades de transmisión sexual.
+Bajo este contexto surge Vihrtual-App, un chatbot creado con la colaboración del Hospital universitario de Elche y la Universitat Politència de València con la intención de concienciar y resolver a la población dudas sobre el Virus de la inmunodeficiencia humana (VIH) y otras enfermedades de transmisión sexual.
 \\
 \\
-\textbf{Palabras clave:} Inteligencia artificial, lenguaje natural, chatbots, salud, virus de la inmunodeficiencia humana
+\textbf{Palabras clave:} Inteligencia artificial, lenguaje natural, chatbots, salud, virus de la inmunodeficiencia humana.
 
 \chapter*{Abstract}
-To mum and dad
+Artificial Inteligence (AI) is moving forward our world and changing how we   communicate with machines, growing popularity sistems based on voice.
+\\
+\\
+\textbf{Keywords:} Artificial inteligence, natural language, chatbots, health, human immunodeficiency virus. 
 
 \tableofcontents
 
@@ -74,8 +80,10 @@ To mum and dad
 \chapter{Pruebas de validación}
 \input{chapters/pruebas}
 
-\chapter{Conclusión}
+\chapter{Conclusiones}
 \input{chapters/conclusión}
+
+\printbibliography
 
 \appendix
 \chapter{Apéndice}
