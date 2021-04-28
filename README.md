@@ -51,7 +51,7 @@ Run `rasa run actions --cors "*"` to start actions server
 
 `data/*.yml` - Contains NLU training data for chitchat, out of scope and other basic stuff.
 
-`data/rules.yml` - Contains stories
+`data/stories/*.yml` - Contains stories
 
 `data/rules.yml` - Contains rules
 
