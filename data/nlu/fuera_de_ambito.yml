@@ -5,6 +5,8 @@ nlu:
     - What is HIV?
     - What can you do?
     - how are you
+    - what is this?
+    - who are you?
     - Is this a bot?
     - kalhmera sara ti kaneis
     - kannst du auch deutsch?
@@ -50,25 +52,40 @@ nlu:
     - dime cuanto es 3 mas threshold
     - cuánto es 34 más 50
     - suma 32 y 66
+    - resta 2 - 2
+    - resta 4 menos 4
+    - cuanto es 5 mas 6
+    - cuanto es 12 menos 16
+    - cual es el valor de 0
     - Quiero pedir una pizza
+    - quiero una pizza
+    - quiero pedir comida a domicilio
     - Quiero pedir una hamburguesa
     - una burger porfi
     - Quiero un kebab
     - Cuéntame un chiste
     - te estoy preguntando algo fuera de tu ámbito
+    - te pregunto algo que esta fuera de tu ambito
     - estoy preguntandote algo fuera de tu conocimiento
+    - te pregunto algo que esta fuera de tu conocimiento
+    - esto lo tienes en tu base de datos?
     - quiero pedir un taxi
     - tengo hambre
     - quiero pedir comida
     - quiero morir
     - quiero morirme
     - mátame
+    - matame ya
     - quiero casarme contigo
-    - estas soltero
+    - casate conmigo
+    - quieres casarte conmigo?
+    - estas soltero?
     - estas soltera
     - quiero reservar en un restaurante
     - pedir mesa en un restaurante
     - recuerda mi nombre
+    - eres mejor que siri?
+    - eres mejor que alexa?
     - que piensas de alexa
     - que piensas de siri
     - que piensas de google
@@ -117,3 +134,12 @@ nlu:
     - eres un papanatas
     - eres un pagafantas
     - pagafantas
+    - pedazo de subnormal
+    - eeres un hijo de la gran puta
+    - me vas a comer los huevos
+    - me vas a comer la polla
+    - comeme el coño
+    - pedazo de idiota
+    - trozo de mierda
+    - eres un mierdas
+    - fill de puta
