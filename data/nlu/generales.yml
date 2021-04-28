@@ -338,6 +338,7 @@ nlu:
 - intent: agradecer
   examples: |
     - Gracias
+    - gracais
     - muchas gracias por tu respuesta
     - muchas gracias de verdad
     - muchas gracias por todo
@@ -703,3 +704,73 @@ nlu:
     - entiendes muy poco
     - eres muy cortito
     - no entiendes mucho
+- intent: que_puede_hacer
+  examples: |
+    - Explícame que puedes hacer
+    - dime que puedes acer por favor
+    - explica que puedes hacer
+    - que me puedes contar
+    - q puedes contarme?
+    - a que puedes contesatarme?
+    - a que puedes responderme?
+    - dime a que puedes contestarme
+    - q puedes respodnerme
+    - a que preguntas podrias responder?
+    - q me puedes contar?
+    - de que me puedes hablar
+    - sobre que me puedes contar?
+    - en que me puedes ayudar
+    - en que temas puedes ayudarme
+    - en que podrias ayudarme
+    - en q puedes ayudarme?
+    - en que podrías ayudarme?
+    - que tipo de ayuda me puede prestar?
+    - que ayuda me puedes presatr?
+    - en que cosas puedes ayudarme
+    - dime, en que puedes ayudarme?
+    - dime, en que me puedes ayudar?
+    - enseñame de lo que eress capaz
+    - Enseñame que sabes hacer
+    - kiero que me enseñes que puedes hacer
+    - quiero que me enseñes q sabes hacer
+    - enseña que sabes hacer porfavor
+    - Muéstrame que puedes hacer por mí
+    - ¿Qué más sabes hacer?
+    - que más puedes hacer?
+    - Por favor, dime que puedes hacer
+    - ¿Qué puedes responderme?
+    - puedes responder mis preguntas?
+    - dime que saves aser
+    - ¿A qué preguntas puedes contestarme?
+    - Juan, ¿qué sabes hacer?
+    - dime que sabes hacer y te preguntaré
+    - primero dime que puedes hacer y luego te pregunto
+    - dime que puedes hacer y te diré
+    - venga dime que puedes hacer
+    - Cuéntame que sabes hacer
+    - Cuéntame que sabes responder
+    - Elena, ¿qué puedes hacer por mí?
+    - Juan, que puedes hacer x mi?
+    - ¿Qué eres capaz de hacer?
+    - ¿Qué puedes hacer?
+    - ¿Cuáles son tus habilidades?
+    - ¿Qué podrías hacer?
+    - ¿Qué puedes hacer por mí?
+    - sobre que peudes informar?
+    - que informacion puedes aportar?
+    - sobre que puedes informarme?
+    - que informacion relevante tienes?
+- intent: que_puede_preguntar
+  examples: |
+    - dime que puedo preguntarte
+    - dime, qué puedo preguntar?
+    - q puedo preguntarte
+    - ¿Qué puedo preguntarte?
+    - que podría preguntar
+    - q puedo preguntar?
+    - que tipo de preguntas puedo hacerte
+    - sobre que temas puedo preguntarte?
+    - sobre que puedo preguntarte?
+    - que preguntas puedo realizarte?
+    - qué puedo preguntar?
+    - sobre que cosas puedo preguntar?
