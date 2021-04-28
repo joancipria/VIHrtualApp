@@ -115,6 +115,18 @@ stories:
   - intent: mas_informacion
   - action: utter_dar_mas_informacion
 
+- story: Que puede hacer + ofrecer ayuda
+  steps: 
+  - intent: que_puede_hacer
+  - action: utter_que_puede_hacer
+  - action: utter_ofrecer_ayuda
+
+- story: Que puede preguntar + animar a preguntar
+  steps:
+  - intent: que_puede_preguntar
+  - action: utter_que_puede_preguntarme
+  - action: utter_animar_preguntar
+
 - story: Pedir que lo repita + no
   steps:
   - action: utter_default
