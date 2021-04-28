@@ -14,6 +14,8 @@ intents:
 - ofenderse
 - no_le_ha_ayudado
 - no_le_entiende
+- que_puede_hacer
+- que_puede_preguntar
 - no_entender
 - entender
 - agradecer
@@ -78,6 +80,7 @@ responses:
   - text: Es un auténtico placer poder ayudarte.
   utter_estado:
   - text: Genial! ¿Tú que tal?
+  - text: Genial, la verdad. Muchas gracias por preguntar 😊.
   - text: Hoy me encuentro genial 😊, ¡gracias por preguntar!
   - text: Hoy me siento especialmente bien 😊. ¿Y tú que tal?
   utter_algo_mas:
@@ -94,19 +97,25 @@ responses:
   - text: ¿En qué estas pensando? 🤔
   utter_ofrecer_ayuda:
   - text: ¿Qué puedo hacer por ti?
-  - text: ¿En qué puedo ayudarte?
+  - text: ¿En qué puedo ayudarte? 🕵️‍
+  - text: Dime, ¿que dudas tienes? 🤔
   - text: ¿En qué necesitas ayuda?
+  - text: ¿En qué te puedo ayudar?
   - text: Dime, ¿qué necesitas?
   - text: ¿Qué necesitas?
+  - text: ¿Te puedo ayudar en algo?
   - text: Dime, ¿en qué te puedo ayudar? 🕵️‍
-  - text: Dime, ¿en qué puedo ayudarte? 🕵️‍
+  - text: Dime, ¿en qué puedo ayudarte? 
   utter_animar_preguntar:
   - text: Adelante, pregúntame
   - text: Dime, ¿qué que quieres saber?
   - text: ¿Qué quieres saber?
   - text: ¿Qué necesitas saber?
+  - text: ¿Qué te gustaría saber? 
+  - text: ¿Tienes alguna pregunta?
   - text: Dime exactamente lo que quieres saber y te lo diré 😊
-  - text: Estoy aquí para ayudarte, pregúntame lo que quieras.
+  - text: Estoy aquí para ayudarte, así que pregúntame lo que quieras.
+  - text: Estoy aquí para ayudarte, adelante preguntame lo que quieras.
   - text: Adelante, te leo.
   utter_reaccionar_positivamente:
   - text: ¡Perfecto! 👍
@@ -116,6 +125,14 @@ responses:
   utter_entristecerse:
   - text: Vaya 😔
   - text: Lo siento mucho 😔
+  utter_que_puede_hacer:
+  - text: Puedo responderte a cualquier pregunta sobre el VIH. Por ejemplo, cómo saber si tienes VIH, síntomas, métodos de prevención etc.
+  - text: Puedo ayudarte con cualquier duda o pregunta que tengas sobre el VIH.   
+  - text: Puedo ayudarte con cualquier pregunta relacionada con el VIH. Recuerda que puedo informarte sobre su transmisión, cómo se detecta, sus síntomas etc.
+  - text: Puedo resolver tus dudas acerca del VIH. Por ejemplo, puedo explicarte qué es el SIDA, la diferencia que hay con el VIH, qué tratamientos hay actualmente etc.
+  utter_que_puede_preguntarme:
+  - text: Puedes realizarme cualquier pregunta sobre el VIH. Por ejemplo, cómo se transmite, qué síntomas presenta, si tiene tratamiento etc.
+  - text: Puedes preguntarme cualquier duda que tengas sobre el VIH. Recuerda que puedo informarte sobre su transmisión, las etapas de la enfermedad y muchas otras cosas. 
   utter_recordar_asistencia:
   - text: Avísame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites
@@ -125,15 +142,6 @@ responses:
   - text: Ante cualquier duda no dudes en preguntarme
   utter_dar_mas_informacion:
   - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo en [Información básica sobre el VIH](https://www.cdc.gov/hiv/spanish/basics/whatishiv.html) o en [Plan Nacional sobre el Sida](https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm), también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
-  sugerir_temas:
-  - buttons:
-    - payload: ¿Cuál es la diferencia entre VIH y SIDA?
-      title: SIDA vs VIH
-    - payload: ¿Cómo se transmite el VIH?
-      title: ¿Cómo se transmite el VIH?
-    - payload: ¿Existe tratamiento para el VIH?
-      title: ¿Existe tratamiento para el VIH?
-    text: Lo siento, no puedo ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
   utter_confirmar_reiniciar:
   - buttons:
     - payload: /restart
@@ -157,6 +165,8 @@ responses:
   - text: ¿Me lo puedes preguntar de otra manera?
   - text: ¿Serías tan amable de preguntármelo de otra manera?
   - text: ¿Me lo podrías decir de otra forma?
+  - text: ¿Me puedes repetir la pregunta con otras palabras? 🤓
+  - text: Por favor, ¿me lo puedes decir con otras palabras? 🤨
   utter_disculpas_no_entender:
   - text: Lo siento por no haberte entendido. ¿Podrías repetírmelo de otra manera?
   - text: Siento no entenderte. ¿Podrías expresarlo de otra manera?
