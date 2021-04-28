@@ -31,25 +31,23 @@ responses:
   utter_faq/como_contagia:
   - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
   utter_faq/aire:
-  - text: No. El virus no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
+  - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
-  - text: También se conoce como transmisión perinatal y es la transmisión (contagio) de una infección u otra enfermedad de la madre a su hijo que puede ser antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé.
+  - text: La transmisión vertical, conocida también como transmisión perinatal es la transmisión (contagio) de una infección u otra enfermedad de la madre a su hijo que puede ser antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé.
   utter_faq/evitar_veritcal:
-  - text: Sí. Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte.
+  - text: Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte.
   utter_faq/fluidos:
-  - text: No. El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
+  - text: El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
   utter_faq/insectos:
-  - text: No. Los insectos chupadores de sangre no pueden transmitir el VIH.
+  - text: Los insectos chupadores de sangre no pueden transmitir el VIH.
   utter_faq/wc:
-  - text: No. El VIH no se contagia usar el mismo inodoro que una persona con VIH. Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva.
+  - text: El VIH no se contagia usar el mismo inodoro que una persona con VIH. Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva.
   utter_faq/tatuajes:
   - text: Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. Si se quiere hacer un tatuaje o una perforación corporal, debe asegurarse de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados.
-  utter_faq/perforaciones:
-  - text: Se puede contraer el VIH por hacerse perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona. Si deseas hacerte una perforación corporal debes asegurarse de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas y demás artículos nuevos o esterilizados.
   utter_faq/alimentos:
-  - text: No puede contraer VIH por consumir los alimentos que haya tocado una persona infectada por el VIH. Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus.
+  - text: No se puede contraer VIH por consumir alimentos que haya tocado una persona infectada por el VIH. Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus.
   utter_faq/inyectar_droga:
-  - text: Sí. El riesgo de contraer el VIH es muy alto si usted usa las agujas y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. Además, también tiene un riesgo elevado de contraer otras enfermedades como hepatitis B o C.
+  - text: El riesgo de contraer el VIH es muy alto si usted usa las agujas y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. Además, también tiene un riesgo elevado de contraer otras enfermedades como hepatitis B o C.
   utter_faq/drogas:
   - text: El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. Ahora bien, al estar bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo.
   utter_faq/sexo_oral:
