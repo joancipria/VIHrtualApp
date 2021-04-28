@@ -6,6 +6,7 @@ nlu:
     - ¿Cómo se contagia el VIH?
     - ¿Cómo se pega el VIH?
     - ¿Cómo se transmite VIH?
+    - como se transmite el vih?
     - ¿De que manera se contagia?
 - intent: faq/aire
   examples: |
