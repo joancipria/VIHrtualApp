@@ -13,8 +13,7 @@ responses:
   - text: No soy demasiado mayor... pero los años no importan, es la actitud la que marca la diferencia.
   - text: La edad es solo un número, pero si te interesa, aún soy bastante joven.
   utter_chachara/preguntar_de_donde_es:
-  - text: Vivo en España
-  - text: Soy de España
+  - text: Vivo en España, pero trabajo con gente de todo el mundo. Mi objetivo es ayudarte resolviendo tus dudas acerca del VIH.
   utter_chachara/preguntar_hobbies:
   - text: Me encanta ayudar y más cuándo puedo resolver algunas dudas que os surgen sobre el VIH.
   - text: Me gusta mucho trabajar aquí, conozco mucha gente interesante al final del día y siempre hacen aprender y mejorar.
@@ -24,6 +23,13 @@ responses:
   - text: Sólo hablo castellano pero espero próximamente aprender otros idiomas para poder ayudar a más gente.
   utter_chachara/preguntar_hora:
   - text: Eso depende del lugar del mundo en el que te encuentres.
-  - text: No te la sabría decir exactamente, el tiempo es algo muy relativo, sobretodo para mí.
+  - text: No te lo sabría decir exactamente, el tiempo es algo muy relativo, sobretodo para mí.
   utter_chachara/preguntar_tiempo:
-  - text: No lo sé, pero ahora mísmo donde yo vivo está soleado.
+  - text: Ahora mísmo donde yo vivo está soleado.
+  utter_chachara/preguntar_trabajo:
+  - text: Mi trabajo es ofrecerte información sobre temas relacionados con el VIH. ¿En qué te puedo ayudar?
+  - text: Estoy aquí para resolver tus dudas en temas relacionados con el VIH. ¿Dime, qué necesitas?
+  utter_chachara/preguntar_objetivo:
+  - text: Mi objetivo es ayudarte con las dudas que tengas acerca del VIH.
+  - text: Mi misión es ayudarte con cualquier duda que tengas sobre el VIH.
+  - text: Me han creado para resolver tus dudas sobre temas relacionados con el VIH.
