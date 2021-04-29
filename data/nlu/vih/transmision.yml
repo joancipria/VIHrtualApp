@@ -1,7 +1,7 @@
 version: "2.0"
 
 nlu:
-- intent: faq/como_contagia
+- intent: como_contagia
   examples: |
     - ¿Cómo se contagia el VIH?
     - ¿Cómo se transmite la infección por el VIH?
@@ -26,6 +26,7 @@ nlu:
     - como se puede infectar uno del virus?
     - como me puedo infectar del vih?
     - como se transmite el sida?
+    - como se contagia el sida
     - como es la transmisión del virus?
     - no se como se transmite el vih?
     - no sé cómo se transmite el virus

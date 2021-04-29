@@ -6,3 +6,17 @@ stories:
   steps:
   - intent: que_es_vih
   - action: utter_que_es_vih
+  - intent: que_es_sida
+  - action: utter_que_es_sida
+  - intent: sida_vs_vih
+  - action: utter_sida_vs_vih
+  - intent: como_contagia
+  - action: utter_como_contagia
+  - intent: saber_si_tengo_vih
+  - action: utter_saber_si_tengo_vih
+  - intent: que_sintomas
+  - action: utter_que_sintomas
+  - intent: cura_vih
+  - action: utter_cura_vih
+  - intent: existe_tratamiento
+  - action: utter_existe_tratamiento

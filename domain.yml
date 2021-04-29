@@ -14,6 +14,8 @@ intents:
 - ofenderse
 - no_le_ha_ayudado
 - no_le_entiende
+- pedir_tema
+- no_sabe_que_preguntar
 - que_puede_hacer
 - que_puede_preguntar
 - no_entender
@@ -34,6 +36,13 @@ intents:
 - nlu_fallback
 # VIH 
 - que_es_vih
+- que_es_sida
+- como_contagia
+- sida_vs_vih
+- saber_si_tengo_vih
+- que_sintomas
+- cura_vih
+- existe_tratamiento
 entities:
 - PER
 slots:

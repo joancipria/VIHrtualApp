@@ -4,13 +4,38 @@ nlu:
 - intent: faq/que_es_estado_sereologico
   examples: |
     - ¿Qué es el estado serológico? 
-- intent: faq/saber_si_tengo_vih
+- intent: saber_si_tengo_vih
   examples: |
     - ¿Cómo puedo saber si tengo VIH?
+    - ¿Cómo sé si tengo el VIH?
+    - como se si tengo vih
+    - como se si tengo sida o vih
+    - como se yo si he tenido vih
+    - y como puedo saber si tengo vih?
+    - como puedo saber si tengo vih?
+    - como puedo saber si tengo sida?
+    - como podria saber is he cogido el VIH?
+    - cómo puedo saber con seguridad si he pillado el vih?
+    - saber si he pillado el vih
+    - saber si tengo el vih
     - Saber si estoy infectado
+    - saber si he cogido el vih
+    - como puedo saber si me he contagiado de vih
+    - como podria saber si me he infectado de vih
+    - saber si tengo sida
+    - saber si me he contagiado
+    - como saber si me he contagiado
     - ¿Cómo se si me he contagiado?
     - ¿Cómo puedo saber si me he infectado?
     - Forma de saber si me he contagiado
+    - como puedo saber su me e contagiado dek virus
+    - de que forma peudo saber si me he infectado
+    - de que forma puedo saber si me he contagiado
+    - de que forma se puede comprobar si tengo vih
+    - de que forma puedo comprobar si tengo el vih
+    - comprobar si tengo vih
+    - comprobar que no tego vih
+    - comprobar que he cogido sida
 - intent: faq/detectar_tras_contacto
   examples: |
     - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?

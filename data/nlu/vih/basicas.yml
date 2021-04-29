@@ -6,7 +6,8 @@ nlu:
     - ¿Qué significa VIH?
     - que significa vih
     - q es el vih
-    - que es el vih
+    - qué es el vih
+    - que se supone que es el vih
     - no se que es el vih
     - dime qeue s el vih
     - dime que es el vih
@@ -26,16 +27,19 @@ nlu:
     - que es el virus del vih?
     - q significa vih
     - que sgnfica vih
-    - que significa VIH
+    - qué significa VIH
     - que significan las siglas VIH
     - no se que significa VIH
     - dime que significa VIH
     - no sé el significado de VIH
     - no sé lo que significan las siglas vih
     - no se que quiere decir vih
-- intent: faq/cura_vih
+- intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
+    - existe alguna técnica para curar el sida?
+    - han inventado alguna cura para el vih?
+    - han inventado ya la cura para el sida?
     - hay cura?
     - existe cura?
     - han inventado la cura?
@@ -46,8 +50,27 @@ nlu:
     - Existe cura para el Virus de la Inmunodeficiencia Humana?
     - han descubierto cura para el VIH?
     - se puede curar el vih?
+    - alguien con vih se puede llegar a curar?
+    - hay posibilidad de curar el vih?
+    - se puede curar el sida?
     - ¿Se puede curar el Virus de la Inmunodeficiencia Humana?
     - Han encontrado ya cura para el vih?
+    - que cura hay para el vih?
+    - alguien con sida se puede llegar a curar completamente?
+    - actualmente te puedes curar del sida?
+    - puedes llegar a curarte del vih?
+    - se puede llegar a eliminar el virus del cuerpo completamente?
+    - dime si hay alguna cura para el vih
+    - ya existe una cura para la enfermedad?
+    - que curas existen?
+    - explciame la cura del vih
+    - puede alguienr ecuperarse completamente del vih?
+    - te puedes recuperar completamente?
+    - se puede sanar el vih?
+    - se puede uno sanar del vih?
+    - sanar el sida
+    - sanar la enfermedad completamente
+    - rehabilitarse completamente de la enfermdedad
 - intent: faq/como_actua_vih
   examples: |
     - ¿Cómo actúa el VIH?

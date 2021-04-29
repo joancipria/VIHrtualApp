@@ -100,6 +100,25 @@ stories:
   - intent: no_le_entiende
   - action: utter_disculpas_no_entender
 
+- story: No le entiende + pedir disculpas y pedir que lo repita + reaccion negativa
+  steps:
+  - intent: no_le_entiende
+  - action: utter_disculpas_no_entender
+  - or:
+    - intent: negar
+    - intent: reaccionar_negativamente
+  - action: utter_conformidad
+  - action: utter_recordar_asistencia
+
+- story: No le entiende + pedir disculpas y pedir que lo repita + reaccion positiva
+  steps:
+  - intent: no_le_entiende
+  - action: utter_disculpas_no_entender
+  - or:
+    - intent: afirmar
+    - intent: reaccionar_positivamente
+  - action: action_listen
+
 - story: No lo ha entendido + preguntar que no ha entendido + reaccion negativa
   steps:
   - intent: no_entender

@@ -1,10 +1,32 @@
 version: "2.0"
 
 nlu:
-- intent: faq/existe_tratamiento
+- intent: existe_tratamiento
   examples: |
     - ¿Hay tratamiento para el VIH?
     - ¿Existe tratamiento para el VIH?
+    - que tratamientos hay para el vih?
+    - que solucion existe para los que tienen vih?
+    - existe medicacion para el vih?
+    - y actualmente existe algun tratamiento?
+    - que taratmientos existen?
+    - q tartamientos existen para el vih?
+    - que medicación hay para el vih?
+    - sabes si existen medicinas para el vih?
+    - hay algun taratmiento efectivo para el VIH?
+    - se puede tratar el vih?
+    - q tartamientos hay para el vih?
+    - existe actualmente algun taratmiento para el vih?
+    - ay ya algún tratamiento para combatir el vih?
+    - existen medicinas para combatir el vih?
+    - que medicacion hay en la actualidad para el sida?
+    - que mediacmentos haya ctualmente para tratar el virus?
+    - ay tartamiento pata el vih?
+    - ay ya tartamiento para la enfermedad? 
+    - ay tratamiento para el sida?
+    - existen formas de tratar la infeccion?
+    - se puede tratar la infección?
+    - se puede tratar el virus?
 - intent: faq/en_que_consiste
   examples: |
     - ¿En qué consiste la terapia contra el virus?

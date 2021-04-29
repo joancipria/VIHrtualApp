@@ -1,9 +1,39 @@
 version: "2.0"
 
 nlu:
-- intent: faq/que_sintomas
+- intent: que_sintomas
   examples: |
-    - ¿Qué sintomas muestra el VIH?
+    - ¿Qué síntomas muestra el VIH?
+    - que sintomas tiene el vih
+    - q síntomas muestra el vih
+    - sintomas el vih
+    - que sintomatologia muestra el vih
+    - que sintomas puece tener el vih
+    - q sintomatologia tiene el sida
+    - dime los sintomas que muestra el virus
+    - dime qué sintomas puede mostrar el vih
+    - que sintomas con caracteristicos del vih?
+    - que sintomas son comunes cuando se tiene vih?
+    - si tengo vih, que sintomas suele mostrar?
+    - si tengo vih, que sintomas suelen haber?
+    - que sintomas suelen haber cuando se tiene vih
+    - cuales son los sintomas más comunes del vih
+    - q sintomas son los mas comunes del sida
+    - no se que sintomas tiene el vih
+    - si una persona tiene vih, que sintomas suele mostrar?
+    - q síntomas muestra el virus 
+    - cuando te infectas, que sintomas tienes?
+    - que sintomas tiene una persona con vih?
+    - que siente una persona cuando coge el vih?
+    - que siente una persona cuand se infecta?
+    - cuando te infectas, que sintomas suelen aparecer?
+    - que sintomas son los más comunes cuando se coge vih
+    - cuales suelen ser los sitomas que muesta la enfermedad
+    - explciame cuales son los sintomas principales del vih
+    - sintomas principales del vih
+    - principal sintomatologia del vih
+    - que sintomas se suponen que presenta el vih
+    - cuales son los sintomas
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

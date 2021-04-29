@@ -1,25 +1,81 @@
 version: "2.0"
 
 nlu:
-- intent: faq/que_es_sida
+- intent: que_es_sida
   examples: |
     - ¿Qué significa SIDA?
+    - que siginfica el sida?
+    - q significa sida
     - ¿Qué es el SIDA?
     - ¿Cuál es la enfermedad del SIDA?
     - ¿Qué es el síndrome de Inmunodeficiencia Adquirida?
     - ¿Qué son las siglas SIDA?
     - Significado de SIDA
     - No sé lo que es el SIDA
-- intent: faq/sida_vs_vih
+    - ¿Qué significa sida?
+    - que significa sida
+    - q es el sida
+    - que es el sida
+    - no se que es el sida
+    - dime qeue s el sida
+    - dime que es el sida
+    - no tengo ni idea de que es el sida
+    - q quiere de ir sida?
+    - que quierend ecir las suglas sida?
+    - que quieren decir las siglas sida?
+    - que significan las letras sida?
+    - de qué es el acrónimo sida?
+    - que significa el acronimo sida?
+    - dime que esl el sida?
+    - que es el virus de la inmunodeficiencia Humana adquirida?
+    - nos e que es el virus de la inmunodeficiencia humana adquirida
+    - dime que siginfica sida
+    - dime el significado del virus del sida
+    - que queire decir sida?
+    - que es el virus del sida?
+    - q significa sida
+    - que sgnfica sida
+    - que significa sida
+    - que significan las siglas sida
+    - no se que significa sida
+    - dime que significa sida
+    - no sé el significado de sida
+    - no sé lo que significan las siglas sida
+    - no se que quiere decir sida
+- intent: sida_vs_vih
   examples: |
     - ¿Cuál es la diferencia entre VIH y SIDA?
+    - cual es la diferencia entre el vih y el sida
+    - no se cual es la diferencia entre sida y vih
+    - no es lo mismo el sida que el vih?
+    - es lo mismo el sida que el vih, no?
     - ¿Es lo mismo VIH que SIDA?
     - ¿Son lo mismo VIH y SIDA?
     - ¿Qué diferencia hay entre VIH y SIDA?
+    - que dierencia hay entre el vih y el sida?
+    - q diferencia hay entre sida y vih?
+    - dime que diferencia hay entre el sida y el vih
+    - no se que diferencia hay etre el sida y el vih
+    - no se la diferencia entre vih y sida
+    - explciame la s diferencias que hay entre el vih y el sida
+    - explicame las diferencias que tienen e vih y el sida
+    - explica la diferenca enre vih y sida
     - Diferencias entre el VIH y el SIDA
     - ¿En qué se diferencia el SIDA del VIH?
+    - en que se diferencia el vih del sida?
+    - en q se diferencia el vih del sida
     - sida vs vih
+    - vih vs sida
+    - diferencias entre vih y sida
+    - diferencia entre sindrome de inmunodeficinecia adquirida y virus de la inmunodeficiencia humana
     - sida versus vih
+    - no se en que se diferencia el vih del sida
+    - no entiendo, no es lo mismo el sida que el VIH?
+    - yo creia que vih y sida eran lo mismo
+    - creía que sida y vih eran lo mismo.
+    - no sabia que vih y sida eran cosas distintas.
+    - pero vih y sida son lo mismo, no?
+    - vih y sida son lo mismo
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?

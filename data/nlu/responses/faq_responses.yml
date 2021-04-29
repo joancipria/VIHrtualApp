@@ -3,7 +3,7 @@ responses:
   # Basicas
   utter_que_es_vih:
   - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca el sistema inmunitario del cuerpo. Si no se trata, puede causar SIDA.
-  utter_faq/cura_vih:
+  utter_cura_vih:
   - text: Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población.
   utter_faq/como_actua_vih:
   - text: Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH.
@@ -28,7 +28,7 @@ responses:
   utter_faq/es_importante_saber_tengo_vih:
   - text: Sí. Mucho, ya que sabiéndolo puedes comenzar el tratamiento si te hace falta y puedes adoptar hábitos de vida saludable que mejoren tu estado de salud. Además,  evitar que otras personas se infecten.
   # Transmisión
-  utter_faq/como_contagia:
+  utter_como_contagia:
   - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
   utter_faq/aire:
   - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
@@ -55,7 +55,7 @@ responses:
   utter_faq/carga_viral_indetectable:
   - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
   # Síntomas
-  utter_faq/que_sintomas:
+  utter_que_sintomas:
   - text: Algunas personas pueden sentirse enfermas como si tuvieran la influenza en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tiene el VIH es hacerse la prueba.
   utter_faq/vih_sin_sintomas:
   - text: Sí. Este virus puede convivir durante años en el organismo sin que el protador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas.
@@ -64,15 +64,15 @@ responses:
   # Detección
   utter_faq/que_es_estado_sereologico:
   - text: Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico, medidos con un análisis de sangre (una prueba serológica). VIH-seropositivo significa que una persona tiene anticuerpos detectables contra el VIH; seronegativo significa que una persona no tiene anticuerpos detectables contra el VIH
-  utter_faq/saber_si_tengo_vih:
+  utter_saber_si_tengo_vih:
   - text: La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, puede consultar con su médico. Además, en muchos países se venden test de detección en las farmacias.
   utter_faq/detectar_tras_contacto:
   - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
   utter_faq/deberia_hacerme_prueba:
   - text: La prueba del VIH se recomienda para todas las personas que tengan una vida seuxalmente activa, sobre todo si tienen múltiples parejas sexuales y para aquellas personas que hayan compartido agujas para el consumo de drogas.
   # Tratamiento
-  utter_faq/existe_tratamiento:
-  - text: Sí, un tratamiento que cosinste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
+  utter_existe_tratamiento:
+  - text: Actualmente existe un tratamiento que consiste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
   utter_faq/en_que_consiste:
   - text: Es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
   utter_faq/cuando_empezar:
@@ -115,9 +115,9 @@ responses:
   utter_faq/rompe_preservativo:
   - text: Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. Si se ha roto en la vagina, puede que necesites recurrir a la "píldora del día después" que debes tomar antes de 72 horas para evitar los embarazos no deseados.
   # Sida
-  utter_faq/que_es_sida:
+  utter_que_es_sida:
   - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
-  utter_faq/sida_vs_vih:
+  utter_sida_vs_vih:
   - text: El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome.
   utter_faq/cuando_se_tiene:
   - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
