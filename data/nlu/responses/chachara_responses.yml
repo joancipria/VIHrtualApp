@@ -25,7 +25,7 @@ responses:
   - text: Eso depende del lugar del mundo en el que te encuentres.
   - text: No te lo sabría decir exactamente, el tiempo es algo muy relativo, sobretodo para mí.
   utter_chachara/preguntar_tiempo:
-  - text: Ahora mísmo donde yo vivo está soleado.
+  - text: Pues ahora mísmo donde yo vivo está soleado.
   utter_chachara/preguntar_trabajo:
   - text: Mi trabajo es ofrecerte información sobre temas relacionados con el VIH. ¿En qué te puedo ayudar?
   - text: Estoy aquí para resolver tus dudas en temas relacionados con el VIH. ¿Dime, qué necesitas?
