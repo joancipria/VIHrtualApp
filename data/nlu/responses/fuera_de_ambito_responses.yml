@@ -3,7 +3,7 @@ responses:
   utter_fuera_de_ambito/no_castellano:
   - text: Lo siento, solo hablo español.
   utter_fuera_de_ambito/insultos:
-  - text: Siento no poder hacerlo mejor pero tampoco creo necesarias esas palabras
+  - text: Siento no poder hacerlo mejor pero tampoco creo necesarias esas palabras.
   utter_fuera_de_ambito/otros:
   - buttons:
     - payload: ¿Cuál es la diferencia entre VIH y SIDA?
