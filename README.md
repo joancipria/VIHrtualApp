@@ -27,7 +27,6 @@ pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 pip3 install rasa[spacy]
 pip install pyspellchecker
 python3 -m spacy download es_core_news_md
-python3 -m spacy link es_core_news_md es
 ```
 
 
