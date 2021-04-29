@@ -1,6 +1,38 @@
 version: "2.0"
 
 nlu:
+- intent: que_es_vih
+  examples: |
+    - ¿Qué significa VIH?
+    - que significa vih
+    - q es el vih
+    - que es el vih
+    - no se que es el vih
+    - dime qeue s el vih
+    - dime que es el vih
+    - no tengo ni idea de que es el vih
+    - q quiere de ir vih?
+    - que quierend ecir las suglas vih?
+    - que quieren decir las siglas vih?
+    - que significan las letras vih?
+    - de qué es el acrónimo vih?
+    - que significa el acronimo vih?
+    - dime que esl el vih?
+    - que es el virus de la inmunodeficiencia Humana?
+    - nos e que es el virus de la inmunodeficiencia humana
+    - dime que siginfica vih
+    - dime el significado del virus del vih
+    - que queire decir vih?
+    - que es el virus del vih?
+    - q significa vih
+    - que sgnfica vih
+    - que significa VIH
+    - que significan las siglas VIH
+    - no se que significa VIH
+    - dime que significa VIH
+    - no sé el significado de VIH
+    - no sé lo que significan las siglas vih
+    - no se que quiere decir vih
 - intent: faq/cura_vih
   examples: |
     - ¿Existe cura para el VIH?

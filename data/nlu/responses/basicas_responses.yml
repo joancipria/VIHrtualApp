@@ -1,5 +1,0 @@
-version: "2.0"
-responses:
-  utter_que_es_vih:
-  - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca el sistema inmunitario del cuerpo. Si no se trata, puede causar SIDA.
-  
