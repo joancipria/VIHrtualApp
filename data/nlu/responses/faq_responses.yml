@@ -1,8 +1,6 @@
 version: "2.0"
 responses:
   # Basicas
-  utter_faq/que_significa_vih:
-  - text: Son las siglas del Virus de la Inmunodeficiencia Humana.
   utter_faq/cura_vih:
   - text: Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población.
   utter_faq/como_actua_vih:

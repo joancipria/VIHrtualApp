@@ -32,6 +32,8 @@ intents:
 - faq
 - fuera_de_ambito
 - nlu_fallback
+# VIH 
+- que_es_vih
 entities:
 - PER
 slots:
@@ -52,7 +54,7 @@ responses:
   utter_conformidad:
   - text: Vale
   - text: Perfecto
-  - text: Genial
+  - text: De acuerdo
   - text: Entendido
   utter_bienvenida:
   - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?
@@ -67,6 +69,8 @@ responses:
   utter_despedirse:
   - text: ¡Hasta otra! 👋
   - text: ¡Hasta luego!
+  - text: ¡Hasta pronto!
+  - text: Espero verte pronto 👋
   - text: ¡Nos vemos!
   - text: ¡Hasta la próxima! 😊
   - text: Adiós, ¡espero verte pronto!
@@ -151,8 +155,10 @@ responses:
     image: https://media.giphy.com/media/3oxHQJLNjlkoF7dI9W/giphy.gif
     text: ¿Seguro que quieres reiniciar la conversación?
   utter_saber_mas:
-  - text: ¿Te gustaría saber más?
-  - text: ¿Te interesa saber más?
+  - text: ¿Te gustaría saber alguna cosa más?
+  - text: ¿Te gustaría preguntarme alguna cosa más?
+  - text: ¿Quieres preguntarme alguna cosa más?
+  - text: ¿Quieres saber alguna otra cosa?
   utter_preguntar_que_no_entiende:
   - text: ¿Qué no has entendido?
   - text: ¿Dime, que no entiendes?
@@ -186,10 +192,10 @@ responses:
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entenderte. ¿Podrías expresarlo de otra manera?
-  - text: ¿Puedes preguntármelo de otra forma? 😅
-  - text: Mil disculpas, no te he entendido. ¿Me lo puedes preguntar de otra manera?
+  - text: Creo que no te entiendo 😅. ¿Puedes preguntármelo de otra forma? 
+  - text: Discúlpame pero no te he entendido 😓. ¿Me lo puedes preguntar de otra manera? 
   - text: Quizá no te haya entendido, ¿serías tan amable de preguntármelo de otra manera?
-  - text: Siento mucho no entenderte 😓. ¿Me lo podrías decir de otra forma?
+  - text: Lo siento mucho pero no acabo de entenderte. ¿Me lo podrías decir de otra forma? 🙏
 actions:
 - action_saludar_usuario
 - action_dar_bienvenida

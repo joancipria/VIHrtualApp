@@ -1,18 +1,6 @@
 version: "2.0"
 
 nlu:
-- intent: faq/que_significa_vih
-  examples: |
-    - ¿Qué significa VIH?
-    - q significa vih
-    - que sgnfica vih
-    - que significa VIH
-    - que significan las siglas VIH
-    - no se que significa VIH
-    - dime que significa VIH
-    - no sé el significado de VIH
-    - no sé lo que significan las siglas vih
-    - no se que quiere decir vih
 - intent: faq/cura_vih
   examples: |
     - ¿Existe cura para el VIH?
