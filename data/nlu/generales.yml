@@ -560,6 +560,11 @@ nlu:
 - intent: animo_alto
   examples: |
     - Me siento genial
+    - estoy muy bien gracias
+    - muy bien gracias
+    - me encuentro mu bien gracias por preguntar
+    - yo tambien estoy muy bien gracias
+    - me ecuentro genial, gracias
     - me encuentro genial
     - Me siento estupendamente
     - estoy estupendamente
@@ -774,3 +779,39 @@ nlu:
     - que preguntas puedo realizarte?
     - qué puedo preguntar?
     - sobre que cosas puedo preguntar?
+    - que preguntas puedo realizar?
+- intent: pedir_tema
+  examples: |
+    - sugiereme un tema
+    - me puedes sugerir un tema?
+    - sugiereme algun tema de conversacion
+    - me podrías sugerir algun tema?
+    - sugiereme alguna pregunta
+    - quiero que me sugieras un tema
+    - sugiereme un tema de conversación
+    - cuéntame alguna cosa
+    - propón un tema
+    - propronme un tema
+    - cuentame algo
+    - cuentame algo que no sepa
+    - cuentame algo venga
+    - cuentame sobre algum tema
+    - quiero que me cuentes algo que no sepa
+    - que temas me sugieres?
+    - qué temas me puedes sugerir?
+- intent: no_sabe_que_preguntar
+  examples: |
+    - no se que preguntar
+    - no sé que preguntarte
+    - no se q preguntar
+    - no se que puedo preguntarte
+    - no s eme ocurre nada que pregunarte
+    - no se me ocurre nada que preguntarte
+    - no se me ocurre nada para preguntar
+    - no se que preguntar
+    - me he quedado sin ideas
+    - no se me ocurre nada que pueda preguntarte
+    - estoy sin ideas,que puedo preguntarte?
+    - estoy sin ideas
+    - no se que preguntarte exactamente
+    - estoy que no se que preguntar
