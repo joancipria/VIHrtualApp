@@ -20,6 +20,7 @@ nlu:
     - 日本語分かる？
     - 你好
     - I'm speaking a non-english language.
+    - Don’t you speak English?!
     - 呵呵
     - 我该如何使用
     - 你懂中文吗？
@@ -95,6 +96,11 @@ nlu:
     - bésame
     - chupame la polla
     - xupame la polla
+    - existen los reyes mago?
+    - papa noel existe?
+    - santa claus es real?
+    - eres parte de la matrix?
+    -
 
 - intent: fuera_de_ambito/insultos
   examples: |

@@ -148,6 +148,12 @@ nlu:
     - ¿Eres real?
     - No eres real
     - Quién te ha creado?
+    - quien te hizo?
+    - quien te ha hecho?
+    - quien te diseñó?
+    - quien te ha diseñado?
+    - quien te ha programado?
+    - quien te a creado?
     - Quién te ha inventado?
     - Cómo te han creado?
     - de verdad eres un bot?
@@ -169,6 +175,9 @@ nlu:
     - ¿Qué idiomas hablas?
     - que idoma hablas
     - ¿Que idiomas sabes hablar?
+    - q idomas hablas?
+    - q idomas manejas?
+    - que idiomas eres capaz de hablar?
     - cuantos idiomas sabes hablar
     - en cuantos idiomas sabes hablar
     - ¿En qué idiomas puedes hablar?
@@ -180,7 +189,7 @@ nlu:
     - sabes hablar en cualquier otro idoma
     - ¿Qué otras lenguas hablas?
     - dime en que idomas hablas
-    - dime en que idomas sabes hablar
+    - dime en que idiomas sabes hablar
     - ¿Cuántos idiomas hablas?
     - ¿Cuántas lenguas hablas?
     - ¿Qué otros idiomas conoces?
@@ -198,6 +207,13 @@ nlu:
     - Dime algo en [portugués](idioma)
     - Di algo en alemán
     - Di algo en polaco
+    - sabes polaco?
+    - sabes holandes?
+    - sabes habalr ingles?
+    - dime algo en aleman
+    - sabes hablar italian?
+    - hablas italiano?
+    - dime algo en portugues
     - hablame en ingles
     - hablame en holandés
     - sabes chino?
@@ -207,6 +223,10 @@ nlu:
   examples: |
     - ¿Qué hora es?
     - que ora es
+    - q hora es
+    - q dia es hoy?
+    - qué dias es hoy?
+    - hoy que dia es?
     - dime la ora
     - tienes hora porfavor?
     - ¿Tienes hora?
