@@ -257,6 +257,13 @@ nlu:
     - q temp hace
     - llueve mucho?
     - hay tormenta?
+    - como esta el tiempo
+    - llueve mucho?
+    - esta nevando?
+    - hay muchas nubes?
+    - aqui esta lloviendo?
+    - dime que tiempo hace en mi pueblo
+    - hace un frio que pela
     - ¿Hace frío?
     - hace mucho frio?
     - hace mucha calor?
