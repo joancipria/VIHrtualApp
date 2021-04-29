@@ -100,7 +100,6 @@ nlu:
     - papa noel existe?
     - santa claus es real?
     - eres parte de la matrix?
-    -
 
 - intent: fuera_de_ambito/insultos
   examples: |
