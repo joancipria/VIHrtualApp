@@ -147,7 +147,7 @@ responses:
   utter_faq/contar_tiene_vih:
   - text: Decidir a quién contar que tienes VIH y cómo hacerlo es una decisión a la que debes dedicar un tiempo. A menos que mantengas prácticas de riesgo, no vas a infectar a nadie, por lo que forma parte de tu intimidad y puedes hablarlo solo con las personas con las que te sientas seguro.
   utter_faq/pareja_tratar_mal:
-  - text: No. Tener VIH no es motivo para recibir malos tratos de ninguna persona.
+  - text: Tener VIH no es motivo para recibir malos tratos de ninguna persona.
   utter_faq/empresa_obligar:
   - text: En España, ninguna empresa puede obligar a un/a trabajador/a a someterse a la prueba del VIH ni a informar de su estado serológico.
   utter_faq/prueba_consentimiento:
