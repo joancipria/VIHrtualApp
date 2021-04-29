@@ -74,15 +74,33 @@ nlu:
 - intent: faq/como_actua_vih
   examples: |
     - ¿Cómo actúa el VIH?
+    - como se comporta el virus dentro del cuerpo?
+    - que hace el vih?
+    - q hace el virus en el cuerpo?
+    - que ace exactamente el virus?
+    - como procede el virus una ve dentro del cuerpo?
+    - que hace el virus dentro del cuerpo?
+    - cómo actúa el virus? 
+    - como actua el vih?
+    - como actua el vih dentro del cuerpo
     - como actua el Virus de la Inmunodeficiencia Humana?
     - como actua dentro del cuerpo el vih?
     - ¿Cómo actúa el VIH en el cuerpo?
     - como se comporta el virus vih en el cuerpo?
+    - como se comporta el virus? 
     - ¿Cómo se comporta el Virus de la Inmunodeficiencia Humana?
+    - explicame que hace el virus
     - exactamente como actúa el vih?
     - dime como actúa el vih
+    - quiero saber como se comporta el virus de la inmunodeficiencia
     - no sé como actua el Virus de la Inmunodeficiencia Humana
     - quiero saber como actua el vih
+    - como se comporta el virus cuando te infectas
+    - que hace la infección
+    - que hace el virus una vez esta dentro
+    - que hace la enfermedad
+    - que hace el vih
+    - que hace el sida
 - intent: faq/cual_es_el_origen
   examples: |
     - ¿Cuál es el origen del VIH?
