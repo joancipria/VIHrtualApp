@@ -9,6 +9,7 @@ nlu:
     - como se transfiere el vih
     - como se realiza la transmisión de vih
     - como funciona la transmision por vih
+    - como funciona la transmision x vih
     - como se pega el vih
     - ¿Cómo se pega el VIH?
     - ¿Cómo se transmite VIH?
@@ -33,9 +34,10 @@ nlu:
     - ¿Se contagia el VIH por el aire?
     - se puede contagiar el virus por el aire?
     - me peudo infectar por el aire?
+    - me peudo infectar x el aire?
     - me puedo infectar si me estornudan?
     - el vih se contagia por el aire?
-    - se puedo coger vih por el aire?
+    - se puedo coger vih x el aire?
     - puedo contagiarme por el aire
     - me pueden pegar el vih al estornudar?
     - me pueden pegar el vih al toser?
@@ -48,6 +50,7 @@ nlu:
     - al estornudar puedo contagiar de vih?
     - ¿Es el aire una vía de contagio?
     - ¿Se transmite por el aire?
+    - ¿Se transmite x el aire?
     - existe la tranmisión aerea
     - se puede transmitir de forma aérea?
     - es posible la transmision aerea del virus?
@@ -290,25 +293,106 @@ nlu:
     - ¿Puedo contraer el VIH si tomo heroína?
     - ¿Puedo contraer el VIH si tomo caballo?
     - ¿Es el consumo de heroína un riesgo?
+    - puedo contraer vih al utilizar las mismas agujas que otra persona?
+    - si me pincho con la misma aguja que mi compi puedo pillar vih?
+    - si me pincho con una aguja que ya ha sido usada puedo coger el virus?
+    - si comparto las agujas con otros para meterme buena mierda peudo coger el virus?
+    - comparto las agujas con las que me inyecto
+    - me inyecto con agujas usadas
+    - utilizo agujas usadas
+    - utilizo agujas ya utilizadas
+    - me pincho con la misma aguja de otros amigos
 - intent: faq/drogas
   examples: |
     - ¿Puedo contraer el VIH por usar drogas?
+    - puedo pillar el vih por consumir droga?
+    - puedo coger el virus si me drogo?
+    - me puedo infectar por tomar droga?
+    - tengo riesgo de coger vih al consumir mucha droga?
+    - tengo riesgo de coger el virus si fumo canabis?
+    - puedo tener vih si fumo cannabis?
+    - puedo tener vih si fumo marihuana?
+    - puedo pillar el virus si fumo maria?
+    - puedo contagiarme por fumar porros?
+    - fumo maria
+    - fumo muchos porros
+    - puedo infectarme por fumar porros?
+    - si fumos porros puedo coger el vih?
+    - me puedo infectar por beber alcohol?
+    - puedo coger vih x emborracharme?
+    - puedo coger vih por emborracharme?
+    - hay riesgo de coger vih por beber mucho alcohol?
+    - existe algun riesgo si bebo mucho alcohol?
     - si me meto mucha droga puedo coger el virus? 
     - ¿Puedo coger el VIH consumiendo drogas?
     - ¿Es el VIH un riesgo en el consumo de drogas?
     - ¿Puedo contagiarme tomando drogas?
     - ¿Me pueden pegar el VIH si tomo drogas?
+    - me pueden pegar el vih por compartir un porros?
+    - puedo coger el vih por comparitr un cubata?
+    - puedo coger el vih por compartir un cigarro?
+    - comprato los porros, hay riesho?
+    - comparto pitis y cubatas, puedo coger vih?
+    - podria pillar el virus al compartir los cubatas?
+    - puedo infectarme por fumar porros?
+    - puedo infectarme por fumar mariuana?
+    - puedo infectarme x fumar mariuana?
+    - podria infectarme al beber mucho alcohol?
     - ¿Puedo contraer VIH si tomo drogas?
 - intent: faq/sexo_oral
   examples: |
     - ¿Puedo contraer el VIH mediante las relaciones sexuales orales?
+    - puedi contraer el virus si mantengo relaciones sexuales orales?
+    - puedo contraer el virus si hago sexo oral?
+    - si practico mucho sexo oral puedo coger vih?
+    - con el sexo oral puedo infectarme de vih?
+    - si hago mucho sexo oral puedo pillar el virus?
+    - practico mucho sexo oral, existe algun riesgo?
+    - me gusta mucho el sexo oral, tengo miedo de coger algo
+    - puedo infectarme por chupar una polla?
+    - puedo coger el virus por xupar una poya?
+    - hay riesgo si chupo pollas sin condon?
+    - puedo coger el virus del vih por chupar una pollar sin condon?
+    - puedo infectarme por chupar un coño?
+    - puedo pillar el virus si me como un coño?
+    - puedo infectarme si mantengo sexo oral sin proteccion?
+    - hay riesgo de coger sida si mantego sexo oral sin proteccion? 
+    - me pueden transmitir el virus al chupar una polla?
+    - me pueden pegar el virus al xupar un coño?
+    - puedo hacaer mamsddas sin condon?
+    - las mamdas sin condon tienen riesgo?
+    - puedo infectarme por hacer una mamada?
+    - podria coger el virus al comerme un coño?
+    - podria infectarme de vih al comerme un coño?
+    - puedo contraer la enfermedad al comerme un culo?
+    - puedo contraer la enfermedad si me como un ano?
+    - hay riesgo de coger el virus al hacer un beso negro?
     - ¿Qué probabilidad hay de contagiarse mediante sexo oral?
     - ¿Me puedo contagiar haciendo sexo oral? 
     - ¿Se puede transmitir el virus con el sexo oral?
     - ¿Me puedo infectar realizando sexo oral?
 - intent: faq/carga_viral_indetectable
   examples: |
-    - ¿Una persona con carga viral indetectable puede contagiar el VIH?
+    - ¿Una persona con carg viral indetectable puede contagiar el VIH?
+    - si una persona tiene una carga viral baja puedo contagiar?
+    - si tengo una crga viral indetectable puedo infectar a otro?
+    - con una cagra viral baja se puede transmitirel virus?
+    - es posible contagiar si se tiene una carga viral baja?
+    - se puede llegar a contagiar con una carga viral indectable?
+    - alguien con una crga viral baja podria llegar a contagiar?
+    - si una persona tiene una carga viral indetectable puede transmitir el vih?
+    - que riesgo hay de contagiar con una carga idetectable?
+    - que riesgo de contagio existe si psoeo una carga baja?
+    - si mi carga viral es indetectable, puedo contagiar a otros?
+    - si mi carga viral es muy baja, podria infectar a otras personas?
+    - puedo pillar vih si follo con alguien con carga viral indtectable?
+    - puedo transmitir el virus si tengo carga viral baja?
+    - con una carga viral indetectable, puedo transmitir el vih al follar?
+    - existe riesgo de transmision en personas con carga viral indetectable?
+    - hay riesgo de transmitir el virus o infectar con una carga viral inedtectable?
+    - me puedo contagiar por follar con alguien con carga viral indetectable?
+    - me podria contagiar por mantener sexo con alguien que tiene una carga viral indetectable?
+    - podria coger el virus por hacerlo con alguien que tiene una carga viral muy baja?
     - ¿Puedo contagiar si tengo una carga viral indetectable?
     - ¿Es posible transmitir el virus con carga viral indetectable?
     - ¿Si tengo una carga viral indetectable puedo contagiar?
