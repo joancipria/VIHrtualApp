@@ -21,25 +21,109 @@ nlu:
     - Mi pareja no sabe que tengo VIH
     - Mi novio no sabe que he cogido VIH
     - No se si decirle a mi pareja que tengo VIH
+    - no se si decirle mi pareja que me he infectado
+    - no tengo muy claro si contarle a mi churri que he cogido el vih
+    - si cogiese el virus deberia decirselo a mi cari?
+    - tengo vih, debo decirselo a mi novio?
+    - tengo sida, deberia decírselo a mi novia?
+    - acabo de saber que tengo el virus, deberia ser sincero con mi pareja?
+    - debo ser sincero con mi pareja respecto a que tengo vih?
+    - he dado positivo, debo contarselo a mi pareja?
+    - si tengo el vih se lo digo a mi amor?
+    - le cuento a mi amor que tengo vih?
+    - he sido infiel y he cogido vih, deberia decirle a mi novia que tengo sida?
 - intent: faq/contar_tiene_vih
   examples: |
     - ¿Debo contar que tengo VIH?
+    - deberia de contar que he cogido vih?
+    - debo decirle a mis amigos que tengo vih?
+    - debo contarles a mis familaires que tengo sida?
+    - tu crees que deberia decirle a mi familia que me he infectado?
+    - tu crees que debo decirle a mis familiares que tenho vih?
+    - no sé si contar a mis amigos que tengo vih
+    - tengo miedo de contar que tengo vih
+    - tengo miedo de decir que tengo vih
+    - tengo verguenza de hablar sobre mi enfermedad
+    - me da cosa contar que tengo vih
+    - me da mucha cosa decir que tengo sida
+    - me da mucha cosa que la gente sepa que tengo vih
+    - no quiero que la gente sepa que tengo vih
+    - no quiero que la gente pueda saber si tengo sida
     - No se si contar que tengo VIH
+    - no tengo claro si contarles a mis amigos quer tengo vih
+    - me da mucha verguenza admitir que tengo sida
     - Me da cosa contar que tengo VIH
     - Me da vergüenza decir que tengo VIH
     - ¿Debería contar que tengo VIH?
     - Debo decirle a todo el mudo que tengo VIH?
     - Debo decirle a mis amigos que tengo VIH?
+    - dberia decirles a mis compañeros que tengo sida?
+    - deberia decir a mis compis que tengo vih?
+    - si he contraido el virus, deberia de contarlo?
+    - si me he infectado, deberia contarselo a alguien?
+    - debo contarle a alguien que tengo vih?
+    - deberia decir que tengo vih?
+    - debo ir diciendo por ahi que tengo vih?
+    - debo decirle a la gente que me he infectado?
+    - debo contarle a otras personas que tengo el virus?
 - intent: faq/pareja_tratar_mal
   examples: |
     - ¿Puede mi pareja tratarme mal porque tenga VIH?
+    - puede mi novio tratarme mal por tener vih?
+    - puede mi novia taratrme muy mal por haberme infectado?
+    - mi novio me trata mal x q tengo vih
+    - mi novio me pega porque he pillado el vih
+    - mi novia me ha pegado porque tengo el vih
+    - mi pareja me ha maltratado por tener vih
+    - me he infectado y mi novio me ha tratado mal
+    - mi pareja me trata muy mal por tener vih
+    - mi marido me ha tratado muy mal por decirle que tengo vih
+    - mi mujer me ha tartado mal x q tengo el virus
+    - me he infectado y mi marido me ha tratado mal
     - Me puede tratar mal mi pareja porque tengo VIH?
     - Tiene derecho mi pareja tratarme mal porque tenga VIH?
     - ¿Debe tratarme mal mi pareja por tener VIH?
     - ¿Debería tratarme mal mi pareja si tengo VIH?
+    - mi mujer me trata muy mal por tener sida
+    - mi marido me trata como una mierda por decirle que me he infectado
+    - al decirle a mi pareja que me he infectado ha empezado a tratarme mal
+    - mi pareja me ha pegado por tener vih
+    - mi novio me ha golpeado por tener vih
+    - mi novia me ha pegado porque he cogido vih
+    - mi marido me ha pegado porqeu le he dicho que tengo vih
+    - mi mujer me ha pegado porque le he contraido que tengo vih
+    - mi marido debe tratarme mal porque tenga vih?
+    - debe mi novia tratarme mal solo por tener vih?
+    - mi pareja me insulta por tener vih
+    - mi marido me ha insultado porque he cogido el vih
+    - mi mujer se enfada y me insulta cuando le hablo del vih
+    - mi prometido me tarata mal cuando le hablo del vih
 - intent: faq/empresa_obligar
   examples: |
     - ¿Puede mi empresa obligarme a hacerme la prueba del VIH o a comunicar mi estado?
+    - puede una empresa obligarme a realizar la prueba del vih?
+    - puede mi empresa obligarme a acerme la prueva?
+    - puede mi empresa obligarme a comunicar mi estado?
+    - los de mi empresa me pueden obligar a hacerme un test de vih?
+    - en mi empresa peuden obligarme a revelar mi estado?
+    - en mi empresa pueden forzarme a decirles si soy positivo?
+    - en mi empresa pueden forzarme a decirles si tengo sida?
+    - en mi empresa me han obligado a hacerme la prueba del vih
+    - en la empresa me han obligado a decirles si tengo vih
+    - mi empresa me ha presionado para que me haga la prueba del vih
+    - mi empresa me ha presionado para que me haga la prueba del sida
+    - mi empresa quiere saber si tengo el vih
+    - mis jefes quieres saber si tengo vih
+    - mis jefes me obligan a realizarme la prueva del vih
+    - misjefes quieren que les diga que tengo vih
+    - mi jefa me ha presioando para que le diga si tengo vih
+    - puede una empresa obligar a sus trabajadores a realizarse la prueba del vih?
+    - podria mu empresa obligarme ha acerme una prueba del vih?
+    - en mi trabajo me obligan a acerme la prueba del vih
+    - en mi trabajo han obligado a informar si tienes vih
+    - en el trabajo obligan a decir si tienes vih o hacerte la prueba
+    - tengo mucha presion de mi jefa para que le diga si tengo vih
+    - puede mi empresa obligarme a decir si tengo vih?
     - ¿Puede mi empresa obligarme comunicar si tengo VIH?
     - ¿Puede una empresa obligarme a decir si tengo VIH?
     - ¿Puede una empresa obligarme a hacerme la prueba del VIH?
@@ -49,15 +133,38 @@ nlu:
 - intent: faq/prueba_consentimiento
   examples: |
     - ¿Pueden el medico o la empresa hacerme la prueba del VIH sin mi consentimiento?
-    - ¿Puede mi empresa hacerme el test del VIH sin mi consentimiento?
-    - ¿Puede el medico hacerme la prueba del VIH sin mi consentimiento?
+    - puede un medico hacerme la prueba sin avisar?
+    - puede un medico hacerme la prueca sin mi consentimiento?
+    - podria un médico realizarme un test sin previo aviso?
+    - un medico necesita mi autorizacion para acer la prueba del vih?
+    - un médico necesitaria mi consentimiento para hacerme la prueba?
+    - pueden hacerme la prueba sin mi consentimiento?
+    - ¿Pueden hacerme el test del VIH sin mi consentimiento?
+    - ¿Puede el médico hacerme la prueba del VIH sin mi consentimiento?
     - ¿Puede el medico hacerme la prueba del VIH sin mi autorización?
     - ¿Pueden hacerme la prueba del VIH sin mi consentimiento?
     - ¿Pueden alguien hacerme el test del VIH sin mi consentimiento?
     - ¿Necesita el médico mi aprobación para realizarme la prueba del VIH?
     - ¿Necesita el médico mi aprobación para realizarme el test del VIH?
-    - ¿Necesita mi empresa mi autorización para realizarme la prueba de VIH?
-    - ¿Es necesaria mi autorización para realizarme el test del VIH?
+    - ¿Necesitan mi autorización para realizarme la prueba de VIH?
+    - ¿Es necesaria mi autorizacion para realizarme el test del VIH?
+    - se require de mi autorización previa para hacer una prubea de vih?
+    - es necesarioa mi aprobacion para que me hagan una prueba?
+    - es necesario mi aprovacion para que me hagan un test de vih?
+    - pueden hacerme la prueba sin mi consentimiento?
+    - me han hecho la prueba sin mi autorización?
+    - me han hecho el test sin mi autorisasion
+    - me han realizado la prueba sin mi consentimiento previo
+    - necesitan mi consentimiento previo para hacerme una preuba de vih?
+    - ouede el doctor hacerme la rueba sin avisarme?
+    - me han hecho la prueba sin avisarme
+    - no me an visado y me han hecho el test
+    - me han hecho la prueba y no me han avisado
+    - me han realizxado la prueba sin avisarme previamente
+    - realización de la prueba del vih sin consentimiento
+    - realizar el test sin autorizacion
+    - me an hecho el test sin avisarme de nada
+
 
 
 
