@@ -79,23 +79,58 @@ nlu:
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?
+    - cuando se tiene sida?
+    - en qe momento uno tiene sida?
+    - en que momento una persona pasa de tener vih a tener sida?
+    - cuando se pasa de tener vih al sida?
+    - cuandos e pasa del vih al sida?
+    - cuando se empieza a tener sida?
+    - en que se basa el diagnostico del sida?
     - ¿En qué momento se tiene SIDA?
+    - en q momento se empieza a tener sida?
     - ¿En qué se basa el diagnóstico del SIDA?
     - ¿Como se sabe cuando se tiene SIDA?
     - ¿En que momneto pasas a tener SIDA?
     - ¿Cuándo se dice que una persona tiene SIDA?
+    - cuando se dice que un paciente con vih tiene sida?
+    - en que momento una persona con vih empieza a tener sida?
     - ¿Cuándo se pasa a tener SIDA?
     - ¿Cuándo se entra en la fase del SIDA?
+    - en que momento se entra en la fase del sida?
+    - qeu determina que una persona tenga sida?
+    - q determina que un paciente con vih tenga sida
+    - cuando se diagnostica que alguien pase a tener sida?
+    - que determina que se tenga sida
+    - cuando se diagnostica que una persona tiene sida?
+    - cuando se detecta que alguien tiene sida?
+    - en que momento se detecta que alguien con vih ahora tiene sida?
 - intent: faq/causar_demencia
   examples: |
     - ¿Puede el SIDA causar demencia?
+    - podria llegar el sida a causar demencia?
+    - se puede tener demencia a causa del sida?
+    - puede ser la demencia una consecuencia del sida?
     - ¿Puedo tener demencia a causa del SIDA?
+    - puedo tener una demencia causada por el sida?
+    - podria el sida derivar con el tiempo en demencia?
     - ¿Puede el SIDA derivar en demencia?
     - ¿Es posible que el SIDA cause demencia?
+    - el sida causa demencia?
+    - el sida produce demencia?
+    - el sida provoca perdidas de memoria?
+    - el sida puede hacer que olvides tus recuerdos?
+    - el sida puede hacer que no recurdes nada?
+    - peude el sida provocar falta de memoria?
+    - la falta de memoria esta relacionada con el SIDA?
+    - la demencia esta relacionada con el sida?
+    - puede el sida producir pérdidas de memoria?
+    -produce el sida perdidas de memoria a largo plazo?
     - ¿Sería posible que el SIDA produzca demencia?
     - ¿Puede el SIDA producir demencia?
     - ¿Es la demencia una consecuencia del SIDA?
+    - puede ser el sida la causa de una demencia?
     - ¿Causa el SIDA demencia?
+    - produce el sida una demencia senil?
     - ¿Puede el SIDA causar perdida de memoria?
     - ¿Puede el SIDA producir perdida de memoria?
     - ¿Puede el SIDA causar un transtorno neurológico?
