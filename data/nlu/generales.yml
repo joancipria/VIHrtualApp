@@ -777,7 +777,23 @@ nlu:
     - sobre que temas puedo preguntarte?
     - sobre que puedo preguntarte?
     - que preguntas puedo realizarte?
+    - que preguntas puedo acerte?
+    - q preguntas puedo acer?
+    - dime que puedo preguntar
+    - q temas puedo preguntarte?
+    - sobre ke puedo preguntar?
+    - que preguntas podria realizarte?
+    - que cosas puedo preguntar?
+    - sobre que cosas podria preguntarte?
+    - no se que puedo preguntarte
+    - no se muy bien sobre que puedo preguntarte
     - qué puedo preguntar?
+    - oye tio que puedo preguntarte?
+    - oye primo que preguntas puedo hacerte
+    - ecuchame, que preguntas puedo hacerte a ti?
+    - te puedo hcaer cualquier pregunta?
+    - te puedo realizar cualquier preguntar?
+    - te puedo preguntar cualquier cosa?
     - sobre que cosas puedo preguntar?
     - que preguntas puedo realizar?
 - intent: pedir_tema
