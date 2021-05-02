@@ -11,14 +11,10 @@ responses:
   - text: Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
   utter_faq/cuando:
   - text: El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX.
-  utter_faq/donde:
-  - text: En una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
-  utter_faq/quien_descubrimiento:
-  - text: Robert Charles Gallo, un investigador biomédico de origen estadounidense
   utter_faq/cuando_descubrimiento:
   - text: El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH).
   utter_faq/personas_famosas_vih:
-  - text: Muchas personas famosas han manifestado que están infectados por VIH. Algunas de ellas fallcieron como el cantante Freddy Mercury en 1991 o el actor Rock Hudson en 1985. Pero otros conviven con el virus desde hace muchos años, como el jugar de baloncesto Magic Johnson que padece la enfermedad desde hace casi tres décadas o la cantante Conchita Wurst.
+  - text: Muchas personas famosas han manifestado que están infectados por VIH. Algunas de ellas fallecieron como el cantante Freddy Mercury en 1991 o el actor Rock Hudson en 1985. Pero otros conviven con el virus desde hace muchos años, como el jugador de baloncesto Magic Johnson que padece la enfermedad desde hace casi tres décadas o la cantante Conchita Wurst.
   utter_faq/sobrevive_fuera_vih:
   - text: El VIH no sobrevive mucho fuera del cuerpo humano (por ejemplo, en las superficies) y no se puede reproducir fuera de un organismo humano.
   utter_faq/que_es_latencia:
@@ -26,7 +22,7 @@ responses:
   utter_faq/que_es_etapa_1:
   - text: A las 2 a 4 semanas siguientes a la infección por VIH algunas personas pueden sentirse enfermas como si tuvieran la gripe. Esta es la conocida como etapa 1 de la infección por el VIH. Estos síntomas incluyen fiebre, escalofríos, sarpullido, sudores nocturnos, dolores musculares, dolor de garganta, fatiga, inflamación de los ganglios linfáticos y úlceras en la boca y pueden durar desde pocos días hasta varias semanas.  Si tiene estos síntomas, no significa que tenga el VIH. Cada uno de los síntomas puede ser causado por otras enfermedades. Pero si tiene estos síntomas después de una posible exposición al VIH debe hacerse la prueba del VIH.
   utter_faq/es_importante_saber_tengo_vih:
-  - text: Sí. Mucho, ya que sabiéndolo puedes comenzar el tratamiento si te hace falta y puedes adoptar hábitos de vida saludable que mejoren tu estado de salud. Además,  evitar que otras personas se infecten.
+  - text: Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento si te hace falta y puedes adoptar hábitos de vida saludable que mejoren tu estado de salud. Además, podrás evitar que otras personas se infecten.
   # Transmisión
   utter_como_contagia:
   - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
@@ -58,9 +54,9 @@ responses:
   utter_que_sintomas:
   - text: Algunas personas pueden sentirse enfermas como si tuvieran la influenza en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tiene el VIH es hacerse la prueba.
   utter_faq/vih_sin_sintomas:
-  - text: Sí. Este virus puede convivir durante años en el organismo sin que el protador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas.
+  - text: El VIH puede convivir durante años en el organismo sin que el portador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas.
   utter_faq/sintomas_externos:
-  - text: No. No es posible saber solo por el aspecto físico si una persona padece VIH.
+  - text: No es posible saber solo por el aspecto físico si una persona padece VIH.
   # Detección
   utter_faq/que_es_estado_sereologico:
   - text: Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico, medidos con un análisis de sangre (una prueba serológica). VIH-seropositivo significa que una persona tiene anticuerpos detectables contra el VIH; seronegativo significa que una persona no tiene anticuerpos detectables contra el VIH
@@ -69,12 +65,12 @@ responses:
   utter_faq/detectar_tras_contacto:
   - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
   utter_faq/deberia_hacerme_prueba:
-  - text: La prueba del VIH se recomienda para todas las personas que tengan una vida seuxalmente activa, sobre todo si tienen múltiples parejas sexuales y para aquellas personas que hayan compartido agujas para el consumo de drogas.
+  - text: La prueba del VIH se recomienda para todas las personas que tengan una vida sexualmente activa, sobre todo si tienen múltiples parejas sexuales y para aquellas personas que hayan compartido agujas para el consumo de drogas.
   # Tratamiento
   utter_existe_tratamiento:
   - text: Actualmente existe un tratamiento que consiste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
   utter_faq/en_que_consiste:
-  - text: Es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
+  - text: La terapia es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
   utter_faq/cuando_empezar:
   - text: Una persona seropositiva debe empezar a tomar la medicación contra el virus lo antes posible.
   utter_faq/cuantos_farmacos:
@@ -122,7 +118,7 @@ responses:
   utter_faq/cuando_se_tiene:
   - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
   utter_faq/causar_demencia:
-  - text: Sí. Cuando el paciente está en fase SIDA puede padecer un trastorno neurológico progresivo, cuyos síntomas incluyen pérdida de la memoria, lentitud de los movimientos y cambios de comportamiento.
+  - text: Cuando el paciente está en fase SIDA puede padecer un trastorno neurológico progresivo, cuyos síntomas incluyen pérdida de la memoria, lentitud de los movimientos y cambios de comportamiento.
   # Datos
   utter_faq/cuantas_personas_contraido_vih_historia:
   - text: Desde su descubrimiento, más de 78 millones de personas han contraído el VIH.
