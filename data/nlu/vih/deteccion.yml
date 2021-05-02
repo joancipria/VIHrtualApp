@@ -39,17 +39,61 @@ nlu:
 - intent: faq/detectar_tras_contacto
   examples: |
     - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
+    - cuando es posible detectar la presencia del vih despues de un contacto de riesgo?
+    - cuando se puede detectar el virus tras una infeccion?
+    - cuand se puede saber si estas infectado tras un contacto de riesgo?
+    - cuando se puede diagnosticar el virus tras un contacto de riesgo?
     - ¿Cuándo es posible detectar el virus tras una infección?
+    - en que momento se puede detectar el virus despues de una posible infección?
+    - en q momento se puede diagnosticar vih tras de un posible contacto?
     - ¿Qué tiempo hay desde que se produce el contagio hasta que se detecta?
+    - cuanto tiempo pasa desde que te contagias hasta que se detecta?
+    - cuanto tiempo pasa desde q te contagias asta q se diagnostica?
     - ¿Qué tiempo debe pasar para poder detectar el virus?
+    - cuanto tiempo debe pasar para detectar la presencia del sida
+    - a partir de cuando es posible detectar el virus tras un contacto de riesgo?
+    - a partir de que dia se puede saber si tiene svih tras un contacto de riesgo?
+    - cuantos dias deben de pasar para detectar la presencia dle virus despues de un cntagio de riesgo?
+    - cuantos dias debo esperar para que se me pueda diagnosticar el vih
     - ¿Cuánto tiempo tiene que pasar para poder detectar el VIH?
+    - cuanto tiempo ha de pasar para que se pueda detectar el virus?
+    - cuantos meses tienen que pasar para poder saber si estoy infectado?
+    - a aprtir de que dia se puede detectar la presencia del virus?
+    - a partir de cuantos dias es posible dar positivo?
+    - cuanto tiempo puede pasar desde que te contagias asta que das positivo?
+    - cuando se puede saber que tienes el virus despues de haber follado sin condon
+    - depsues de un contacto de riesgo, cuantos dias debo de epserar para que se pueda detectar el virus?
+    - despues de follar sin condon, cuantos dias deberia de esperaar para saber si soy positivo?
+    - tras un contacto de riesgo, cuando se podria detectar la infección?
+    - creo que me lo pegaron, cuantos dias tendria que esperar para hacerme la prueba?
+    - creo que he cogido sido, cuantos dias tengo que esperar para que se pueda detectar el virus?
+    - tengo sida, cuanto tiempo tengo que esperar para que se pueda detectar en la prueba?
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
+    - deberia acerme la prueva del vih?
+    - debo hacerme una pribea de vih?
+    - deberia acer el test del sida?
+    - deberia tomar el test del vih?
     - ¿Debo hacerme la prueba de VIH?
+    - tengo que hacerme la prueba del vih?
+    - tengo hacer el test del vih?
+    - crees quetengo que hacerme la prueba de vih?
+    - crees que debo hacerme la prueba?
+    - oye deberia hacerme la prueba para saaber si tengo vih?
+    - debo hacerme la prueba para saber ocn seguridad si tengo el sida?
+    - debo hacerme la prueba para saber con seguridad si tengo el vih?
+    - debo hacerme la prueba para saber si estoy infectdo?
+    - hacerme la prueba y saber si estoy infectado
+    - debo realizarme la prueba?
     - ¿Debería realizarme la prueba del VIH?
     - ¿He de hacerme la prueba del VIH?
     - ¿Debería hacerme el test del VIH?
     - ¿Debo tomar un test de VIH?
     - ¿Debería comprobar si tengo VIH?
     - ¿Debería comprobar si me he infectado por VIH?
+    - debo comprobar con u test si tengo el vih?
+    - dedo hacerme la prueba o un test de vih?
+    - tu crees que deberia hacerme la prueba del vih?
+    - no se si deberia hacerme la prueba
+    - estoy dudando si hacerme la prueba del vih
