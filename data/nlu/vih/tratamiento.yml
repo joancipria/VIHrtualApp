@@ -30,7 +30,14 @@ nlu:
 - intent: faq/en_que_consiste
   examples: |
     - ¿En qué consiste la terapia contra el virus?
+    - en que consiste el tratamiento contra el virus del vih? 
     - ¿Cuál es la terapia para combatir el virus?
+    - cual es la terapia que se aplica para tratar el virus?
+    - como funciona la terapia contra el virus?
+    - en que consiste el tratamiento?
+    - como funciona el tratamiento
+    - como funciona exactamente el tratamiento contra el virus?
+    - en que consiste el tratamiento para combatir el virus?
     - ¿En qué consiste el tratamiento contra el virus?
     - ¿En qué consiste el tratamiento contra el VIH?
     - ¿En qué se basa el tratamiento contra el virus?
