@@ -272,6 +272,7 @@ nlu:
     - esta soleado o lloviendo?
     - esta lloviendo?
     - ¿Está lloviendo?
+    - llueve mucho por ay?
 - intent: chachara/preguntar_objetivo
   examples: |
     - explicame cuál es tu objetivo?
