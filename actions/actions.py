@@ -34,7 +34,7 @@ class ActionDarBienvenida(Action):
     ) -> List[EventType]:
 
         # dispatcher.utter_message(response="utter_bienvenida")
-        buttons = [{"title": "SIDA vs VIH", "payload": "¿Cuál es la diferencia entre VIH y SIDA?"}, {"title": "¿Cuántas personas tienen VIH hoy?",
+        buttons = [{"title": "¿Qué es el VIH?", "payload": "¿Qué significa VIH?"}, {"title": "¿Cuántas personas tienen VIH hoy?",
                                                                                                      "payload": "¿Cuántas personas tienen VIH hoy?"}, {"title": "¿Existe una vacuna contra el VIH?", "payload": "¿Existe una vacuna contra el VIH?"}]
 
         dispatcher.utter_button_message(
