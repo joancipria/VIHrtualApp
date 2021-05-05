@@ -4,6 +4,8 @@ Vihrtual-App is an opensource (spanish) HIV Chatbot built with Rasa.
 ⚠️⚠️ **Currently in early development** 
 
 ## 📦 Install
+Tested with `Python 3.7.10` and `pip 20.1.1`.
+Rasa version: `Rasa: 2.5.1` and `Rasa X: 0.39.2`
 
 Clone repo
 ```
@@ -12,13 +14,8 @@ cd VihrtualApp
 ```
 Create virtual environment
 ```
-python3 -m venv ./venv
+python3.7 -m venv ./venv
 source ./venv/bin/activate
-```
-
-Downgrade pip (temporal fix)
-```
-pip install --upgrade pip==20.2
 ```
 
 Install requirements
