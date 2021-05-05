@@ -4,8 +4,15 @@ nlu:
 - intent: saludar
   examples: |
     - Hola
+    - holaaaa
+    - holiiii
+    - holi
     - Buenos días
+    - buen dia
+    - buenos diias
+    - Buenisimos dias
     - Buenas
+    - buenaaas
     - Saludos
     - Buenas tardes
     - Buenas noches
@@ -14,17 +21,23 @@ nlu:
     - Un gusto verte
     - Mucho gusto saludarlo
     - Cuánto tiempo
+    - cuanto tiempo
+    - hola de nuevo
     - Tanto tiempo sin verte
-    - ¿Qué pasa?
     - Buen día
     - Hey
     - Hallo
+    - hello
+    - hellouu
     - heeey
     - oli
     - holi
     - hi
     - ieeee
     - eeeii
+    -eyyy
+    - ey
+    - eey
     - ola
     - hola, soy [Antonio](PER)
     - Hola soy [dani](PER)
@@ -75,6 +88,8 @@ nlu:
   examples: |
     - Sí!
     - Si
+    - sisi
+    - sisisisi
     - siii
     - sii
     - Siii
@@ -195,12 +210,19 @@ nlu:
     - lo dudo mucho
     - Nop
     - Nopp
+    - nop, para nada
     - ni pensarlo
     - no por favor
     - no para nada
     - por nada del mundo
     - nada de nada
     - nada
+    - en nada
+    - no necesito ayuda
+    - no quiero tu ayuda
+    - no pero gracias por preguntar
+    - no lo necesito
+    - no creo que lo necesite
     - nadaaa
     - no gracias
     - No, gracias
@@ -218,6 +240,7 @@ nlu:
     - no me referia a eso
     - no quería decir eso
     - lo niego
+    - no tengo
     - denegar
     - incorrecto
     - incorecto
@@ -527,10 +550,19 @@ nlu:
     - ¿Qué tal?
     - que tal todo
     - q tal
+    - como te va?
+    - q tal como ba
+    - como te va tronco?
+    - q tal como va
+    - que tal como va
+    - como va?
     - ¿Qué tal andas?
     - ¿Cómo te encuentras?
     - como t encuentras?
     - como va todo
+    - como va el dia
+    - como te va el dia
+    - coomo va tu dia?
     - ¿Todo bien?
     - ¿Todo correcto?
     - ¿Cómo va todo?
@@ -557,6 +589,8 @@ nlu:
     - como vas?
     - como lo llevas
     - qué tal andas
+    - ¿Qué pasa?
+    - que pasa
 - intent: animo_alto
   examples: |
     - Me siento genial
@@ -610,6 +644,7 @@ nlu:
     - Me siento fatal
     - Me encuentro muy mal
     - no me encuentro muy allá
+    - yo no me ccuentro bien
     - estoy disgustado
     - estoi disgustada
     - no estoy muy bien
@@ -820,7 +855,6 @@ nlu:
     - no se que preguntar
     - no sé que preguntarte
     - no se q preguntar
-    - no se que puedo preguntarte
     - no s eme ocurre nada que pregunarte
     - no se me ocurre nada que preguntarte
     - no se me ocurre nada para preguntar
