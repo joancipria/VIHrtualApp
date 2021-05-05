@@ -4,6 +4,11 @@ nlu:
 - intent: que_es_vih
   examples: |
     - ¿Qué significa VIH?
+    - no tengo muy claro que es el vih
+    - no tengo claro que esl el vih
+    - no tengo claro q significa el vih
+    - que es el vih
+    - que es vih
     - que significa vih
     - q es el vih
     - qué es el vih
