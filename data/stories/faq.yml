@@ -47,7 +47,7 @@ stories:
   - or:
     - intent: afirmar
     - intent: reaccionar_positivamente
-  - action: utter_ofrecer_ayuda # TODO: Conocer contexto, sobre que quiere saber más y aportar información relevante
+  - action: utter_animar_preguntar # TODO: Conocer contexto, sobre que quiere saber más y aportar información relevante
 
 - story: faq + lo ha entendido +  no quiere saber más
   steps:
@@ -61,3 +61,20 @@ stories:
     - intent: reaccionar_negativamente
   - action: utter_conformidad
   - action: utter_recordar_asistencia
+
+- story: Quiere saber más + si
+  steps:
+  - action: utter_saber_mas
+  - or:
+    - intent: afirmar
+    - intent: reaccionar_positivamente
+  - action: utter_animar_preguntar
+
+- story: Quiere saber más + no
+  steps:
+  - action: utter_saber_mas
+  - or:
+    - intent: negar
+    - intent: reaccionar_negativamente
+  - action: utter_conformidad # TODO: Intentar convencer antes de expresar conformidad
+  - action: utter_recordar_asistencia 
