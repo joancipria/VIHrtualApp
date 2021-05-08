@@ -1,8 +1,17 @@
 version: "2.0"
 responses:
-  # Basicas
+  # Básicas
   utter_que_es_vih:
-  - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca el sistema inmunitario del cuerpo. Si no se trata, puede causar SIDA.
+  - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo. Si no se trata a tiempo, puede causar el SIDA. 
+  utter_que_es_vih_enganche: 
+  - buttons:
+    - payload: ¿Cómo se transmite el VIH?
+      title: ¿Cómo se transmite el VIH?
+    - payload: ¿Qué es el SIDA?
+      title: ¿Qué es el SIDA?
+    - payload: ¿Cómo puedo saber si tengo VIH?
+      title: ¿Cómo puedo saber si tengo VIH?
+    text: Si sabes lo básico sobre el VIH estarás protegido y podrás prevenir su transmisión. 💪
   utter_cura_vih:
   - text: Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población.
   utter_faq/como_actua_vih:
@@ -25,7 +34,16 @@ responses:
   - text: Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento si te hace falta y puedes adoptar hábitos de vida saludable que mejoren tu estado de salud. Además, podrás evitar que otras personas se infecten.
   # Transmisión
   utter_como_contagia:
-  - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. Por lo tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas, cuchillas u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
+  - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.
+  utter_como_contagia_enganche:
+  - buttons:
+    - payload: ¿Qué es la transmisión vertical?
+      title: ¿Qué es la transmisión vertical?
+    - payload: ¿Puedo contraer el VIH a través del sexo oral?
+      title: ¿Puedo contraer el VIH a través del sexo oral?
+    - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
+      title: ¿Se contagia a través del sudor, la saliva o las lágrimas?
+    text: Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
   utter_faq/aire:
   - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
@@ -61,7 +79,7 @@ responses:
   utter_faq/que_es_estado_sereologico:
   - text: Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico, medidos con un análisis de sangre (una prueba serológica). VIH-seropositivo significa que una persona tiene anticuerpos detectables contra el VIH; seronegativo significa que una persona no tiene anticuerpos detectables contra el VIH
   utter_saber_si_tengo_vih:
-  - text: La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, puede consultar con su médico. Además, en muchos países se venden test de detección en las farmacias.
+  - text: La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico. Además, en muchos países se venden test de detección en las farmacias.
   utter_faq/detectar_tras_contacto:
   - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
   utter_faq/deberia_hacerme_prueba:
@@ -113,6 +131,15 @@ responses:
   # Sida
   utter_que_es_sida:
   - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
+  utter_que_es_sida_enganche:
+  - buttons:
+    - payload: ¿Qué es una infección oportunista?
+      title: ¿Qué es una infección oportunista?
+    - payload: ¿Cuándo se tiene SIDA?
+      title: ¿Cuándo se tiene SIDA?
+    - payload: ¿Cuál es la diferencia entre VIH y SIDA?
+      title: ¿Cuál es la diferencia entre VIH y SIDA?
+    text: Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas.
   utter_sida_vs_vih:
   - text: El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome.
   utter_faq/cuando_se_tiene:
