@@ -132,6 +132,7 @@ nlu:
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
+    - ¿Se contagia a través del sudor, la saliva o las lágrimas?
     - se puede contagiar por el sudor?
     - me puedo contagiar con el sudor de otra persona?
     - se puede cntagiar el virus con la sudor?
@@ -347,6 +348,8 @@ nlu:
 - intent: faq/sexo_oral
   examples: |
     - ¿Puedo contraer el VIH mediante las relaciones sexuales orales?
+    - es posible contagiarse con el sexo oral?
+    - ¿Puedo contraer el VIH a través del sexo oral?
     - puedi contraer el virus si mantengo relaciones sexuales orales?
     - puedo contraer el virus si hago sexo oral?
     - si practico mucho sexo oral puedo coger vih?
@@ -378,8 +381,8 @@ nlu:
     - ¿Me puedo infectar realizando sexo oral?
 - intent: faq/carga_viral_indetectable
   examples: |
-    - ¿Una persona con carg viral indetectable puede contagiar el VIH?
-    - si una persona tiene una carga viral baja puedo contagiar?
+    - ¿Una persona con carga viral indetectable puede contagiar el VIH?
+    - si una persona tiene una carg viral baja puedo contagiar?
     - si tengo una crga viral indetectable puedo infectar a otro?
     - con una cagra viral baja se puede transmitirel virus?
     - es posible contagiar si se tiene una carga viral baja?
