@@ -5,49 +5,89 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- saludar
-- despedirse
-- afirmar
-- negar
-- reaccionar_positivamente
-- reaccionar_negativamente
-- ofenderse
-- no_le_ha_ayudado
-- no_le_entiende
-- pedir_tema
-- no_sabe_que_preguntar
-- que_puede_hacer
-- que_puede_preguntar
-- no_entender
-- entender
-- agradecer
-- esperar
-- pedir_ayuda
-- querer_preguntar
-- tener_duda
-- mas_informacion
-- preguntar_estado
-- animo_alto
-- animo_bajo
-- reiniciar
-- chachara
-- faq
-- fuera_de_ambito
-- nlu_fallback
-# VIH 
-- que_es_vih
-- que_es_sida
-- como_contagia
-- sida_vs_vih
-- saber_si_tengo_vih
-- que_sintomas
-- cura_vih
-- existe_tratamiento
+- saludar:
+    use_entities: true
+- despedirse:
+    use_entities: true
+- afirmar:
+    use_entities: true
+- negar:
+    use_entities: true
+- reaccionar_positivamente:
+    use_entities: true
+- reaccionar_negativamente:
+    use_entities: true
+- ofenderse:
+    use_entities: true
+- no_le_ha_ayudado:
+    use_entities: true
+- no_le_entiende:
+    use_entities: true
+- pedir_tema:
+    use_entities: true
+- no_sabe_que_preguntar:
+    use_entities: true
+- que_puede_hacer:
+    use_entities: true
+- que_puede_preguntar:
+    use_entities: true
+- no_entender:
+    use_entities: true
+- entender:
+    use_entities: true
+- agradecer:
+    use_entities: true
+- esperar:
+    use_entities: true
+- pedir_ayuda:
+    use_entities: true
+- querer_preguntar:
+    use_entities: true
+- tener_duda:
+    use_entities: true
+- mas_informacion:
+    use_entities: true
+- preguntar_estado:
+    use_entities: true
+- animo_alto:
+    use_entities: true
+- animo_bajo:
+    use_entities: true
+- reiniciar:
+    use_entities: true
+- chachara:
+    use_entities: true
+- faq:
+    use_entities: true
+- fuera_de_ambito:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+- que_es_vih:
+    use_entities: true
+- que_es_sida:
+    use_entities: true
+- como_contagia:
+    use_entities: true
+- sida_vs_vih:
+    use_entities: true
+- saber_si_tengo_vih:
+    use_entities: true
+- que_sintomas:
+    use_entities: true
+- cura_vih:
+    use_entities: true
+- existe_tratamiento:
+    use_entities: true
 entities:
 - PER
+- idioma
+- localizacion
 slots:
   PER:
-    type: text
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
     influence_conversation: false
 responses:
   utter_afirmar:
@@ -68,7 +108,7 @@ responses:
   utter_bienvenida:
   - text: ¡Hola! Soy Juan, encantado de conocerte! \n Puedo ayudarte con cualquier pregunta relacionada con el VIH. \n Dime, ¿en qué puedo ayudarte?
   - text: ¡Hola! Soy Juan, encantado de hablar contigo \n Puedes realizarme cualquier pregunta relacionada con el VIH. \n ¿En qué puedo ayudarte?
-  - text: "¡Hola, mi nombre es Juan! Puedes escribirme directamente tus dudas, y si no se te ocurre qué preguntar, puedo ayudarte con alguno de estos temas:"
+  - text: '¡Hola, mi nombre es Juan! Puedes escribirme directamente tus dudas, y si no se te ocurre qué preguntar, puedo ayudarte con alguno de estos temas:'
   utter_saludar:
   - text: ¡Hola!
   - text: ¡Buenas! 😊
@@ -118,15 +158,15 @@ responses:
   - text: ¿Qué necesitas?
   - text: ¿Te puedo ayudar en algo?
   - text: Dime, ¿en qué te puedo ayudar? 🕵️‍
-  - text: Dime, ¿en qué puedo ayudarte? 
+  - text: Dime, ¿en qué puedo ayudarte?
   utter_animar_preguntar:
-  - text: Adelante, pregúntame
+  - text: Adelante, pregúntame.
   - text: Dime, ¿qué que quieres saber?
   - text: ¿Qué quieres saber?
   - text: ¿Qué necesitas saber?
-  - text: ¿Qué te gustaría saber? 
+  - text: ¿Qué te gustaría saber?
   - text: ¿Tienes alguna pregunta?
-  - text: Dime exactamente lo que quieres saber y te lo diré 😊
+  - text: Dime exactamente lo que quieres saber e intentaré ayudarte 😊
   - text: Estoy aquí para ayudarte, así que pregúntame lo que quieras.
   - text: Estoy aquí para ayudarte, adelante preguntame lo que quieras.
   - text: Adelante, te leo.
@@ -140,12 +180,12 @@ responses:
   - text: Lo siento mucho 😔
   utter_que_puede_hacer:
   - text: Puedo responderte a cualquier pregunta sobre el VIH. Por ejemplo, cómo saber si tienes VIH, síntomas, métodos de prevención etc.
-  - text: Puedo ayudarte con cualquier duda o pregunta que tengas sobre el VIH.   
+  - text: Puedo ayudarte con cualquier duda o pregunta que tengas sobre el VIH.
   - text: Puedo ayudarte con cualquier pregunta relacionada con el VIH. Recuerda que puedo informarte sobre su transmisión, cómo se detecta, sus síntomas etc.
   - text: Puedo resolver tus dudas acerca del VIH. Por ejemplo, puedo explicarte qué es el SIDA, la diferencia que hay con el VIH, qué tratamientos hay actualmente etc.
   utter_que_puede_preguntarme:
   - text: Puedes realizarme cualquier pregunta sobre el VIH. Por ejemplo, cómo se transmite, qué síntomas presenta, si tiene tratamiento etc.
-  - text: Puedes preguntarme cualquier duda que tengas sobre el VIH. Recuerda que puedo informarte sobre su transmisión, las etapas de la enfermedad y muchas otras cosas. 
+  - text: Puedes preguntarme cualquier duda que tengas sobre el VIH. Recuerda que puedo informarte sobre su transmisión, las etapas de la enfermedad y muchas otras cosas.
   utter_recordar_asistencia:
   - text: Avísame si tienes cualquier otra duda
   - text: Pregúntame siempre que lo necesites
@@ -158,16 +198,16 @@ responses:
   utter_confirmar_reiniciar:
   - buttons:
     - payload: /restart
-      title: Sí ✅
+      title: Sí
     - payload: No
-      title: No ❌
+      title: No
     image: https://media.giphy.com/media/3oxHQJLNjlkoF7dI9W/giphy.gif
     text: ¿Seguro que quieres reiniciar la conversación?
   utter_saber_mas:
   - text: ¿Te gustaría saber alguna cosa más?
   - text: ¿Te gustaría preguntarme alguna cosa más?
-  - text: ¿Quieres preguntarme alguna cosa más?
-  - text: ¿Quieres saber alguna otra cosa?
+  - text: ¿Qué más te gustaría preguntarme?
+  - text: ¿Qué más te gustaría saber?
   utter_preguntar_que_no_entiende:
   - text: ¿Qué no has entendido?
   - text: ¿Dime, que no entiendes?
@@ -201,12 +241,11 @@ responses:
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entenderte. ¿Podrías expresarlo de otra manera?
-  - text: Creo que no te entiendo 😅. ¿Puedes preguntármelo de otra forma? 
-  - text: Discúlpame pero no te he entendido 😓. ¿Me lo puedes preguntar de otra manera? 
+  - text: Creo que no te entiendo 😅. ¿Puedes preguntármelo de otra forma?
+  - text: Discúlpame pero no te he entendido 😓. ¿Me lo puedes preguntar de otra manera?
   - text: Quizá no te haya entendido, ¿serías tan amable de preguntármelo de otra manera?
   - text: Lo siento mucho pero no acabo de entenderte. ¿Me lo podrías decir de otra forma? 🙏
 actions:
-- action_saludar_usuario
 - action_dar_bienvenida
 forms: {}
 e2e_actions: []
