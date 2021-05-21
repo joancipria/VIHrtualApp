@@ -1,20 +1,30 @@
 Después de analizar detenidamente los requisitos se procede a detallar la solución propuesta para el desarrollo de Vihrtual-App.
 
-\subsection{Tratamientos del dataset}
+\subsection{Conjunto de entrenamiento}
+[TODO: Tratamiento de la hoja de cálculo]
+%El conjunto de 131 preguntas obtenido en una hoja de cálculo.
+
+\subsection{Interacción}
+[TODO: características sociales del bot, uso de emojis, efectos visuales, avatar ...]
+
 
 \subsection{Aspectos técnicos}
-Eklegmos rasa, cumple con el capitulo anterior
+Tras el análisis realizado en la sección \ref{herramientas construir chatbots} sobre diferentes \textit{frameworks} para construir chatbots se escoge a \textit{Rasa} como plataforma sobre la cual se realizará el desarrollo. Las razones detrás de esta elección son las siguientes:\\ 
 
-\subsection{Personalidad}
-caracteristicas sociales del bot, uso de emojis, efectos visuales, avatar
+\begin{itemize}
+	\item \textit{Rasa} cuenta con todas las herramientas necesarias para la correcta interpretación de las intenciones del usuario mediante técnicas de \textit{NLU} y noción del contexto.
+	\item Es \textit{opensource}, gratuito y a diferencia de sus competidores, no se basa en ningún servicio en la nube propietario. Esto permite realizar el despliegue completo de la plataforma en cualquier máquina. 
+	\item  En consecuencia, se obtiene independencia de otros servicios y control total sobre los datos recopilados de conversaciones, pues estas no estarán en manos de terceros.
+	\item La plataforma ofrece una herramienta adicional para el aprendizaje supervisado llamada \textit{Rasa X}. Esta permite la revisión y etiquetado de las conversaciones y aunque no es \textit{opensource} sí es gratuita y de libre uso.
+\end{itemize}	
 
 \subsection{Distribución}
 Teniendo en cuenta el carácter del servicio se propone que el chatbot se ponga a disposición del público a través de una web de libre acceso y sin requerir registro. El objetivo es facilitar a los usuarios el acceso  y esta opción hará que cualquier persona pueda acceder al servicio sin necesidad de introducir ningún dato personal ni instalar ninguna aplicación en su terminal. \\
 
-Para aquellos usuarios que lo deseen se empaquetará la web en una aplicación tanto para \textit{Android} como para \textit{iOS} utilizando el framework \textit{Capacitor}. Esto permitirá que aquellos usuarios interesados puedan instalar el servicio desde las tiendas de aplicaciones habituales en sus dispositivos móviles.\\
+Para aquellos usuarios que lo deseen se empaquetará la web en una aplicación tanto para \textit{Android} como para \textit{iOS} utilizando el framework \textit{Capacitor}. Esto permite que aquellos usuarios interesados puedan instalar el servicio desde las tiendas de aplicaciones habituales en sus dispositivos móviles.\\
 
 \subsection{Roadmap}
-Siguiendo la metodología \textit{Scrum} se propuso una ruta de desarrollo (ver figura \ref{fig:roadmap desarrollo}) centrada en la obtención de un producto mínimo via	ble lo antes posible. Para ello primeramente se realizarían los diseños del chatbot, se organizaría la información recibida y se trabajaría para la obtención de un \textit{PMI} en versión web. A partir de ese punto se publicaría una versión de prueba del \textit{bot} para con la obtención de datos reales realizar distintas iteraciones sobre el producto hasta conseguir el resultado deseado. Una vez se alcanzara el nivel de madurez requerido, la web se empaquetaría como \textit{app} para móvil y se publicaría.\\
+Siguiendo la metodología \textit{Scrum} se propone una ruta de desarrollo (ver figura \ref{fig:roadmap desarrollo}) centrada en la obtención de un producto mínimo viable lo antes posible. Para ello primeramente se realizan los diseños del chatbot, se organiza la información recibida y se trabaja para la obtención de un \textit{PMI} en versión web. A partir de ese punto es se publica una versión de prueba del \textit{bot} para empezar con la obtención de datos reales  y realizar distintas iteraciones sobre el producto hasta conseguir el resultado deseado. Una vez se alcanza el nivel de madurez requerido, la web se empaqueta como \textit{app} para móvil y se publica.\\
 
 \begin{figure}[htbp]
 \centering
@@ -23,4 +33,4 @@ Siguiendo la metodología \textit{Scrum} se propuso una ruta de desarrollo (ver 
 \label{fig:roadmap desarrollo}
 \end{figure}
 
-Este propuesta fue presentada en una reunión con los colaboradores la Unidad de Enfermedades Infecciosas del Hospital General de Elche para obtener su aprobación. Las diapositivas se pueden encontrar en los documentos anexos a este trabajo.\\
+Este propuesta se presenta en una reunión con los colaboradores la Unidad de Enfermedades Infecciosas del Hospital General de Elche para obtener su aprobación. Tanto las notas de la reunión como las diapositivas se pueden encontrar en los documentos anexos a este trabajo.\\
