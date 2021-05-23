@@ -36,6 +36,13 @@ nlu:
     - comprobar si tengo vih
     - comprobar que no tego vih
     - comprobar que he cogido sida
+    - puedes ayudarme a saber si tengo sida?
+    - ayudame a saber si tengo vih
+    - ayudame, como puedo saber si tengo vih?
+    - podrias ayudarme a dterminar si tengo el vih?
+    - tu puedes ayudarme a saber si tengo el vih?
+    - Cómo sé si estoy contagiado de vih?
+    - como se si estoy contagiado
 - intent: faq/detectar_tras_contacto
   examples: |
     - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
@@ -71,6 +78,8 @@ nlu:
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
+    - deberia hacerme la prueba?
+    - debería hacerme la prueba?
     - deberia acerme la prueva del vih?
     - debo hacerme una pribea de vih?
     - deberia acer el test del sida?

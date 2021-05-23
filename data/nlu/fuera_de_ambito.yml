@@ -44,7 +44,8 @@ nlu:
     - Jak masz na imię? 
     - Dziękuję
     - Hoe gaat het? 
-    - Hoe heet u? 
+    - Hoe heet u?
+    - asshole 
 
 - intent: fuera_de_ambito/otros
   examples: |
@@ -73,10 +74,6 @@ nlu:
     - quiero pedir un taxi
     - tengo hambre
     - quiero pedir comida
-    - quiero morir
-    - quiero morirme
-    - mátame
-    - matame ya
     - quiero casarme contigo
     - casate conmigo
     - quieres casarte conmigo?
@@ -100,6 +97,33 @@ nlu:
     - papa noel existe?
     - santa claus es real?
     - eres parte de la matrix?
+    - ME recomiendas un restaurante?
+    - recomiendame un restaurante
+    - quiero pedir comida en un restaurante
+    - recomiendame un hotel
+    - Las constelaciones influyen en el carácter de la gente?
+    - Despues de esta pregunta, estaria bien mostrar alguna pregunta predefinida
+    - grrrr, me gustas
+    - tienes pene?
+    - tienes churri?
+    - Tienes novio?
+    - por qué te pareces a joan?
+    - qué llevas puesto?
+    - que llevas puesto?
+    - Dónde puedo comprar pizza?
+    - comprar pizza
+    - comprar kebab
+    - donde puede comprar kebab?
+
+- intent: fuera_de_ambito/cumplidos
+  examples: |
+    - guapo
+    - eres guapo?
+    - eres una belleza
+    - eres muy guapo
+    - eres precioso
+    - estas muy bueno
+    - eres muy sexy
 
 - intent: fuera_de_ambito/insultos
   examples: |
@@ -118,7 +142,8 @@ nlu:
     - jilipoyas
     - idiota
     - eres muy idiota
-    - eres imbecil
+    - eres imbecil?
+    - eres un imbécil
     - imbécil
     - eres un poco imbécil
     - so merluzo
@@ -148,3 +173,5 @@ nlu:
     - trozo de mierda
     - eres un mierdas
     - fill de puta
+    - eres subnormal?
+    - eres un subnormal

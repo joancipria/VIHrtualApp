@@ -4,6 +4,7 @@ nlu:
 - intent: que_es_vih
   examples: |
     - ¿Qué significa VIH?
+    - Qué es el vih?
     - no tengo muy claro que es el vih
     - no tengo claro que esl el vih
     - no tengo claro q significa el vih
@@ -39,6 +40,10 @@ nlu:
     - no sé el significado de VIH
     - no sé lo que significan las siglas vih
     - no se que quiere decir vih
+    - Me gustaría saber en qué consiste el vih
+    - en que consiste el vih
+    - quisiera saber que es el vih
+    - quiero saber en q consiste eso del vih
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -76,6 +81,17 @@ nlu:
     - sanar el sida
     - sanar la enfermedad completamente
     - rehabilitarse completamente de la enfermdedad
+    - tiene cura total el vih?
+    - tiene cura el vih?
+    - tiene cura el sida?
+    - como se cura elsida?
+    - Es posible eliminar el VIH del cuerpo?
+    - como se cura el vih?
+    - es posible eliminar completamete el vih?
+    - se puede eliminar comletamente el vih?
+    - se puede eliminar el virus del cuerpo?
+    - es posible expulsar el virus del cuerpo?
+    - es posible exulsar el vih?
 - intent: faq/como_actua_vih
   examples: |
     - ¿Cómo actúa el VIH?
@@ -106,6 +122,20 @@ nlu:
     - que hace la enfermedad
     - que hace el vih
     - que hace el sida
+    - QUE PASA SI CONTRAIGO EL VIH
+    - q pasa si pillo el vih
+    - que pasa si che contraido el vih
+    - que pasa cuando contraes el vih
+    - que pasa en el cuerpo al contraer el vih?
+    - que prodice en el cuerpo el vih?
+    - que produce el vih?
+    - dime que produce el vih
+    - de que manera actua el vih?
+    - que pasa cuando una persona contrae el vih
+    - qué pasa cuando contraes el vih
+    - que pasa cuando coges el vih
+    - q pasa si coges el virus
+    - que pasa si te infectas
 - intent: faq/cual_es_el_origen
   examples: |
     - ¿Cuál es el origen del VIH?
@@ -198,6 +228,7 @@ nlu:
     - en que momento excatmente se ve que esxiste el vih
     - cuando se observa la existencia de este virus
     - ¿En qué momento se descubrió el VIH?
+    - Cuando se descubrió esta enfermedad?
 - intent: faq/personas_famosas_vih
   examples: |
     - ¿Qué personas famosas han tenido o tienen VIH?

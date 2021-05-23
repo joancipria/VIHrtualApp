@@ -150,6 +150,17 @@ nlu:
     - son seguros los condones?
     - es seguro el condón?
     - quiero saber si el condon es seguro para prevenir el vih
+    - el preservativo evita el contagio del sida?
+    - el condon evita el contagio?
+    - el condón protege?
+    - el preservativo pretege?
+    - es efectivo utilizar preservativo para prevenir el vih?
+    - los preservativos previenen el vih?
+    - los condones previenen el sida?
+    - hasta que punto los condones son eficientes para prevenir el vih?
+    - puedo usar condones para prevenir el vih?
+    - los condones finos previenen el vih?
+    - los preservativos son eficaces para la prevención del vih?
 - intent: faq/rompe_preservativo
   examples: |
     - ¿Qué hago si se rompe el preservativo?
@@ -163,3 +174,38 @@ nlu:
     - Se nos ha roto el condón
     - Se ha roto el condón
     - Se ha perforado el preservativo
+- intent: como_prevenir
+  examples: |
+    - como pudo prevenir VIH
+    - como puedo prevenir el vih?
+    - cómo podria prevenir el vih?
+    - como se puede prevenir el vih?
+    - ¿como pudo prevenir VIH?
+    - como puedo prevenir VIH
+    - como puedo el prevenir VIH ?
+    - Como puedo prevenir el VHI?
+    - quiero saber como puedo prevenir el vih
+    - como puedo protegerme el vih
+    - maneras de prevenir el vih?
+    - métodos de prevención del vih
+    - metodos para la prevencion del sida
+    - dime maneras de prevenir el sida
+    - dime de que manera puedo prevenir el vih
+    - que puedo hacer para prevenir el vih?
+    - que podria hacer para no coger el vih?
+    - como puedo no coger el sida?
+    - que puedo hacer para no coger el vih?
+    - qué puedo hacer para no coger el sida?
+    - que podria hacer para prevenir el vih?
+    - que pueod hacer para evitar coger el vih
+    - evitar coger el sida
+    - evitar la infección
+    - evitar infectarme
+    - que hacer para no infectarme
+    - q acer para no cogerlo
+    - Como puedo evitar contraer VIH?
+    - ¿Cómo puedo prevenir el VIH?
+    - Como puedo evitar el contagio
+    - ¿Cómo hay que protegerse del VIH?
+    - ¿Cómo me puedo proteger del VIH?
+    - Como se puede evitar contraer VIH?

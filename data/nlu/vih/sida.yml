@@ -42,6 +42,7 @@ nlu:
     - no sé el significado de sida
     - no sé lo que significan las siglas sida
     - no se que quiere decir sida
+    - QUE ES EL SIDA
 - intent: sida_vs_vih
   examples: |
     - ¿Cuál es la diferencia entre VIH y SIDA?
@@ -62,6 +63,7 @@ nlu:
     - explica la diferenca enre vih y sida
     - Diferencias entre el VIH y el SIDA
     - ¿En qué se diferencia el SIDA del VIH?
+    - En qué se diferencia el VIH del SIDA?
     - en que se diferencia el vih del sida?
     - en q se diferencia el vih del sida
     - sida vs vih
@@ -76,6 +78,8 @@ nlu:
     - no sabia que vih y sida eran cosas distintas.
     - pero vih y sida son lo mismo, no?
     - vih y sida son lo mismo
+    - qué diferencias hay entre el vih y el sida?
+    - que diferencias existen eltre el vih y el sida?
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?
@@ -84,6 +88,9 @@ nlu:
     - en que momento una persona pasa de tener vih a tener sida?
     - cuando se pasa de tener vih al sida?
     - cuandos e pasa del vih al sida?
+    - ¿Cómo se pasa del VIH al SIDA?
+    - como se pasa de tener vih a sida?
+    - como se pasa a tener sida?
     - cuando se empieza a tener sida?
     - en que se basa el diagnostico del sida?
     - ¿En qué momento se tiene SIDA?
@@ -104,6 +111,11 @@ nlu:
     - cuando se diagnostica que una persona tiene sida?
     - cuando se detecta que alguien tiene sida?
     - en que momento se detecta que alguien con vih ahora tiene sida?
+    - Cuando tiene sida una persona?
+    - en que momento tiene sida una persona?
+    - cuando pasa a tener sida una persona?
+    - en que momento pasa a tener alguien sida?
+    - en que momento pasa una persona a tener sida?
 - intent: faq/causar_demencia
   examples: |
     - ¿Puede el SIDA causar demencia?

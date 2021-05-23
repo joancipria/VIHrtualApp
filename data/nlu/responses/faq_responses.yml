@@ -70,7 +70,7 @@ responses:
   - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
   # Síntomas
   utter_que_sintomas:
-  - text: Algunas personas pueden sentirse enfermas como si tuvieran la influenza en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tiene el VIH es hacerse la prueba.
+  - text: Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba.
   utter_faq/vih_sin_sintomas:
   - text: El VIH puede convivir durante años en el organismo sin que el portador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas.
   utter_faq/sintomas_externos:
@@ -128,6 +128,8 @@ responses:
   - text: Sí. El preservativo, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados.
   utter_faq/rompe_preservativo:
   - text: Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. Si se ha roto en la vagina, puede que necesites recurrir a la "píldora del día después" que debes tomar antes de 72 horas para evitar los embarazos no deseados.
+  utter_como_prevenir:
+  - text: Puedes usar estrategias como no compartir agujas nunca y usar condones de la manera correcta cada vez que tenga relaciones sexuales. También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). Si tienes el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas.
   # Sida
   utter_que_es_sida:
   - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.

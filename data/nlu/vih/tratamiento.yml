@@ -42,6 +42,18 @@ nlu:
     - ¿En qué consiste el tratamiento contra el VIH?
     - ¿En qué se basa el tratamiento contra el virus?
     - ¿En qué se basa la terapia para combatir el VIH?
+    - Cual es el tratamiento para el VIH?
+    - cuál es el tratamiento para combatir el vih?
+    - Que medicacion se proporciona para el tratamiento delVIH?
+    - qué medicacion da para el tratamiento del VIH?
+    - que medicación se da para el vih?
+    - que medicicacion se proporciona para el vih?
+    - que medicación se da a los enfermos por vih?
+    - que tratamiento reciben los enfermos de vih?
+    - com es el trtatmiento del vih
+    - Que tratamiento tiene el vih?
+    - qué tratamiento tiene el vih?
+    - que tratamientos hay contra esta enfermedad?
 - intent: faq/cuando_empezar
   examples: |
     - ¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?

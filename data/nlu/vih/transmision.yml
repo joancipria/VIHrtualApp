@@ -34,6 +34,28 @@ nlu:
     - nos e muy bien como se pega el virus
     - como puedo coger el virus?
     - cómo puedo infectarme?
+    - Cuáles son las principales vías de contagio?
+    - cuales son las principales vias de contagio?
+    - que vias de contagio existen?
+    - qué vías de contagio existen
+    - Como me puedo contagiar de VIH?
+    - El unico medio de propagacion del vih es la sangre?
+    - por que medio se propaga el vih?
+    - cuál es el medio de propagación del vih?
+    - porque medio se propaga el vih?
+    - vias de contagio por las cuales se propaga
+    - Que capacidad de contagio tiene el VIH?
+    - ¿Se transmite mediante relaciones sexuales?
+    - el vih se transmite al mantener relaciones sexuales?
+    - el vih se transmite al hacer el amor?
+    - se transmite al follar?
+    - puedo coger vih al mantener relaciones sexuales?
+    - puedo pillarlo mientras follo?
+    - se transmite mientras follas?
+    - se transmite al mantener sexo?
+    - en el sexo, se puede contagiar el vih?
+    - Cuáles son las causas de contagio?
+    - Cómo se contrae el VIH?
 - intent: faq/aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -81,6 +103,8 @@ nlu:
     - existe la posibilidad de que haya transmisión vertical?
     - q es la transmision vertical
     - explciame que es la transmision vertical
+    - que es la transmision vertical
+    - qué es la transmisión perinatal
     - explciame q es la transmision vertical
     - explciame que es la transmision vertical
     - no se qué es la transmisión vertical
@@ -129,6 +153,16 @@ nlu:
     - puedo evitar infectar a mis hijas?
     - tengo miedo de infectar a mis hijos
     - tengo miedo de pegarles el virus a mis hijas
+    - como evito la transmision de madre a hijo?
+    - como puedo evitar la transision de la madre a mi hijo
+    - evitar trabsmisión de madre a hijos
+    - evitar transmision de padres a hijos
+    - evitar pasarlo de made a hijo
+    - como evitar pasarselo mis hijos
+    - no quiero que pase de madre a hijo
+    - no quiero que pase a mis hijos
+    - evitar la transmision a los hijos
+    - evitar la transmision a los niños
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -162,6 +196,12 @@ nlu:
     - se puede transmitir el virus por medio de la saliva?
     - se puede llegar a transmitir el virus con la saliva?
     - se puede llegar a transmitir el virus con las lagrimas?
+    - Puedo contagiar el VIH si comparto cubiertos o vasos con otras personas?
+    - puedo contagiar al copartir cubiertos?
+    - se pede contagiar por comparir un vaso?
+    - por compartir un vaso me puedo infectar?
+    - Puedo transmitir el VIH a través de la saliva?
+    - Se transmite el vih por la saliba?
 - intent: faq/insectos
   examples: |
     - ¿Pueden los mosquitos o las garrapatas contagiar el VIH?

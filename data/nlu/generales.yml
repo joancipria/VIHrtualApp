@@ -4,6 +4,11 @@ nlu:
 - intent: saludar
   examples: |
     - Hola
+    - hola amigo
+    - hola, amigo
+    - hola paco
+    - hola elena
+    - hola paco!
     - hola!
     - holaaaa
     - holiiii
@@ -59,12 +64,19 @@ nlu:
     - proximamente nos veremos
     - nos vemos pronto
     - Hasta pronto
+    - hasta pronto!
     - asta pronto
     - asta la vista
     - hasta la vista
     - Hasta luego
+    - hasta luego!
     - Adiós
     - adios
+    - adiooos
+    - nos veeemos
+    - adios!
+    - adioos!
+    - nos vemos!
     - adios nos vemos
     - adiós, hasta la vista
     - adios, nos veremos pronto
@@ -73,6 +85,8 @@ nlu:
     - nos vemos muy pronto
     - nos veremos en nada
     - Chao
+    - chao!
+    - bye!
     - bye
     - xao
     - me despido de ti
@@ -83,6 +97,7 @@ nlu:
     - me voy
     - hasta la próxima
     - Hasta otra
+    - hasta la otra!
     - asta la proxima vez
     - hasta la proxima ves
 - intent: afirmar
@@ -119,6 +134,9 @@ nlu:
     - okey
     - Vale
     - perfecto
+    - perfecto!
+    - perfectisimo!
+    - Perfecto
     - Confirmar
     - Lo confirmo
     - Hecho
@@ -323,6 +341,9 @@ nlu:
     - no sé que quieres decir con eso
     - perdona pero no lo entiendo
     - perdoname pero no lo he entendido
+    - no lo entiendo, puedes decirlo de otra forma¿
+    - no lo he entendido, puedes decirlo de otra manera?
+    - no te entiendo, pudes decirlo de otra forma porfa?
 - intent: ofenderse
   examples: |
     - me has ofendido
@@ -376,6 +397,8 @@ nlu:
     - Mi gratitud
     - mil gracias
     - Me has sido de ayuda
+    - me ha servid de mucho tu ayuda
+    - ME ha servido tu ayuda
     - Me as sido de mucha ayuda
     - Me has prestado una gran ayuda
     - Mis agradecimientos
@@ -539,6 +562,8 @@ nlu:
     - quiero saber mas de vih
     - mas informacion sobre el vih
     - obtener más informacion del sida
+    - Quiero saber mas sobre el VIH
+    - quisiera saber más sobre el vih
     - quiero mas info 
 - intent: preguntar_estado
   examples: |
@@ -640,6 +665,9 @@ nlu:
 - intent: animo_bajo
   examples: |
     - Me siento mal
+    - me siento un poco mal
+    - me encuentro un poco mal
+    - me encuentro un poquito mal
     - me siento muy mal
     - muy mal la verdad
     - Me siento fatal
@@ -712,6 +740,13 @@ nlu:
     - no me ha servido tu respuesta
     - no ha sido de mucha ayuda
     - no me ha ayudado
+    - No me respondes nada con sentido
+    - no me respondes con sentido
+    - no respondes nada con sentido
+    - tus respuestas no tienen sentido
+    - tus respuestas no valen para nada
+    - no sabes responder bien
+    - no respondes nada bien
 - intent: no_le_entiende
   examples: |
     - no me entiendes
@@ -832,6 +867,9 @@ nlu:
     - te puedo preguntar cualquier cosa?
     - sobre que cosas puedo preguntar?
     - que preguntas puedo realizar?
+    - dime sobre que podemos hablar
+    - de qué podemos hablar?
+    - sobre que podriamos hablar?
 - intent: pedir_tema
   examples: |
     - sugiereme un tema
@@ -843,6 +881,7 @@ nlu:
     - sugiereme un tema de conversación
     - cuéntame alguna cosa
     - propón un tema
+    - propon tu un tema
     - propronme un tema
     - cuentame algo
     - cuentame algo que no sepa
@@ -851,6 +890,13 @@ nlu:
     - quiero que me cuentes algo que no sepa
     - que temas me sugieres?
     - qué temas me puedes sugerir?
+    - me puedes recomendar alguna pregunta interesante
+    - recomiendame alguna pregrunta interesante
+    - recomiendame algun tema interesante
+    - me podrias recomendar alguna pregunta?
+    - recomiendame algun tema interesante para hablar
+    - recomiendame alguna pregunta que pueda hacerte
+    - dime alguna pregunta interesante
 - intent: no_sabe_que_preguntar
   examples: |
     - no se que preguntar
@@ -866,3 +912,9 @@ nlu:
     - estoy sin ideas
     - no se que preguntarte exactamente
     - estoy que no se que preguntar
+    - No se que preguntarte amigo, necesito ayuda
+    - no sé qué preguntar 
+    - no se me ocurre que preguntarte
+    - no se me ocurre ninguna idea que preguntarte
+    - no se me ocurre ninguna duda que preguntarte
+    - no sé muy bien que preguntarte

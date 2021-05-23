@@ -32,6 +32,10 @@ nlu:
     - si tengo el vih se lo digo a mi amor?
     - le cuento a mi amor que tengo vih?
     - he sido infiel y he cogido vih, deberia decirle a mi novia que tengo sida?
+    - Debo contar a mi pareja que tengo el VIH?
+    - Debo contar a mi pareja que tengo el SIDA?
+    - debo contarle a mi pareja que estoy infctado?
+    - deberia contarle a mi pareja que he cogido el virus?
 - intent: faq/contar_tiene_vih
   examples: |
     - ¿Debo contar que tengo VIH?
@@ -66,6 +70,12 @@ nlu:
     - debo ir diciendo por ahi que tengo vih?
     - debo decirle a la gente que me he infectado?
     - debo contarle a otras personas que tengo el virus?
+    - A quien le puedo contar que tengo VIH?
+    - a quién le puedo contar que he infectado?
+    - no se a quién deberia contarle que tengo el vih
+    - no sé a quién contarle que estoy infectado
+    - a quien deberia contarle que tengo vih?
+    - a quién crees que deberia contarle que tengo vih?
 - intent: faq/pareja_tratar_mal
   examples: |
     - ¿Puede mi pareja tratarme mal porque tenga VIH?

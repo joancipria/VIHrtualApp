@@ -36,9 +36,23 @@ nlu:
     - cuales son los sintomas
     - El vih tiene sintomas?
     - El vih presenta sintomas?
+    - El dolor de cabeza puede ser un síntoma?
+    - puede ser el dolor de cabeza un sintoma?
+    - el dolor de cabeza es un sintoma
+    - si me duele la cabeza puede ser un sintoma de vih?
+    - Que sintomas produce el VIH?
+    - qué sintomas suele producir el vih?
+    - Cuáles son los síntomas?
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?
+    - Puedes ser una persona asintomática?
+    - puedo ser asintomatico y no saberlo?
+    - puedo tener vih y no saberlo?
+    - Se puede estar enfermo del VIH y no tener sintomas?
+    - puedo ser asintomático?
+    - se puede ser asintomatico
+    - existen los asintomaticos del vih?
     - se peude tener vih y no tener sintomas?
     - se puede tener sida sin sintomas?
     - peudo tener vih asin notar nada?

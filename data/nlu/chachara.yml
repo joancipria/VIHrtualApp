@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: chachara/preguntar_nombre
   examples: |
@@ -90,10 +89,11 @@ nlu:
     - ¿A qué país perteneces?
     - ¿En qué país naciste?
     - ¿Vives cerca?
-    - de donde eres 
+    - de donde eres
     - eres de por aqui cerca?
     - ¿Dónde vives?
     - ¿En qué país vives?
+    - en que ciudad vives?
 - intent: chachara/preguntar_hobbies
   examples: |
     - ¿Qué te gusta hacer?
@@ -147,13 +147,6 @@ nlu:
     - No eres humano
     - ¿Eres real?
     - No eres real
-    - Quién te ha creado?
-    - quien te hizo?
-    - quien te ha hecho?
-    - quien te diseñó?
-    - quien te ha diseñado?
-    - quien te ha programado?
-    - quien te a creado?
     - Quién te ha inventado?
     - Cómo te han creado?
     - de verdad eres un bot?
@@ -170,6 +163,20 @@ nlu:
     - ¿Eres farmacéutico?
     - ¿Eres personal médico?
     - ¿Eres sanitario?
+- intent: chachara/creadores
+  examples: | 
+    - quien es tu creador
+    - quien te creó
+    - quién te ha creado?
+    - quien es tu programador?
+    - Quién te ha creado?
+    - quien te hizo?
+    - quien te ha hecho?
+    - quien te diseñó?
+    - quien te ha diseñado?
+    - quien te ha programado?
+    - quien te a creado?
+    - quiénes son los profesionales que te han creado?
 - intent: chachara/preguntar_idiomas
   examples: |
     - ¿Qué idiomas hablas?
@@ -219,6 +226,10 @@ nlu:
     - sabes chino?
     - sabes mandarín?
     - sabes hablar en mandarin?
+    - hablas valenciano?
+    - hablas ingles?
+    - hablas francés
+    - hablas portugues
 - intent: chachara/preguntar_hora
   examples: |
     - ¿Qué hora es?
@@ -258,7 +269,6 @@ nlu:
     - llueve mucho?
     - hay tormenta?
     - como esta el tiempo
-    - llueve mucho?
     - esta nevando?
     - hay muchas nubes?
     - aqui esta lloviendo?
@@ -285,7 +295,7 @@ nlu:
     - cual es tu proposito?
     - qué propósito tienes?
     - que proposito persigues?
-    - porque estas aqui? 
+    - porque estas aqui?
     - porque te han creado
     - para que te han creado
     - con que proposito te han hecho
