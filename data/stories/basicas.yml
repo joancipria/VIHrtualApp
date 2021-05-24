@@ -36,3 +36,11 @@ stories:
   - action: utter_como_contagia_enganche
   - intent: faq
   - action: utter_faq
+
+- story: Qué es VIH + como prevenirlo
+  steps:
+  - intent: que_es_vih
+  - action: utter_que_es_vih
+  - action: utter_que_es_vih_enganche
+  - intent: como_prevenir
+  - action: utter_como_prevenir
