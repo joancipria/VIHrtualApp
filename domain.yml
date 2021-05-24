@@ -194,7 +194,14 @@ responses:
   - text: Si necesitas cualquier otra cosa no dudes en preguntarme
   - text: Ante cualquier duda no dudes en preguntarme
   utter_dar_mas_informacion:
-  - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo en [Información básica sobre el VIH](https://www.cdc.gov/hiv/spanish/basics/whatishiv.html) o en [Plan Nacional sobre el Sida](https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm), también en otras redes sociales como  en Twitter @infoSIDA, pero quien mejor puede informarle sobre esta infección es su médico.
+  - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo en [Información básica sobre el VIH](https://www.cdc.gov/hiv/spanish/basics/whatishiv.html) o en [Plan Nacional sobre el Sida](https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm).
+  - text: "Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo en <a target='_blank' href='https://www.cdc.gov/hiv/spanish/basics/whatishiv.html'>Información básica sobre el VIH</a> o en <a target='_blank' href='https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm'>Plan Nacional sobre el Sida</a>."
+    channel: "rest"
+  utter_dar_mas_informacion_enganche: 
+  - text: También puedes seguir en Twitter a [@infoSIDA](https://twitter.com/infoSIDA), pero quien mejor puede informarte sobre esta infección es tu médico.
+  - text: También puedes seguir en Twitter a <a target='_blank' href='https://twitter.com/infoSIDA'@infoSIDA</a>, pero quien mejor puede informarte sobre esta infección es tu médico.
+    channel: "rest"
+
   utter_confirmar_reiniciar:
   - buttons:
     - payload: /restart
