@@ -163,6 +163,13 @@ nlu:
     - no quiero que pase a mis hijos
     - evitar la transmision a los hijos
     - evitar la transmision a los niños
+    - ¿Cómo se evita que la madre contagie al bebé?
+    - como se evita que la madre pueda contagiar a su bebe?
+    - evitar que la madre contagie a su bebé
+    - evitar contagiar al bebe
+    - evitar el contagio de los bebes
+    - como puedo no contagiar a mi bebe?
+    - puedo evitar contagiar a mi bebe?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?

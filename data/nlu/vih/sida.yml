@@ -43,6 +43,7 @@ nlu:
     - no sé lo que significan las siglas sida
     - no se que quiere decir sida
     - QUE ES EL SIDA
+    - que es sida
 - intent: sida_vs_vih
   examples: |
     - ¿Cuál es la diferencia entre VIH y SIDA?
