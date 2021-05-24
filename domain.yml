@@ -135,7 +135,7 @@ responses:
   - text: Genial! ¿Tú que tal?
   - text: Genial, la verdad. Muchas gracias por preguntar 😊.
   - text: Hoy me encuentro genial 😊, ¡gracias por preguntar!
-  - text: Hoy me siento especialmente bien 😊. ¿Y tú que tal?
+  - text: Hoy me siento especialmente bien. ¿Y tú que tal?
   utter_algo_mas:
   - text: ¿Necesitas algo más?
   - text: ¿Hay algo más que pueda hacer por tí?
