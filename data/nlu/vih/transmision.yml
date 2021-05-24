@@ -426,6 +426,7 @@ nlu:
     - ¿Me puedo contagiar haciendo sexo oral? 
     - ¿Se puede transmitir el virus con el sexo oral?
     - ¿Me puedo infectar realizando sexo oral?
+    - me puedo infectar mientras mantengo sexo oral? 
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
