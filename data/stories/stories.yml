@@ -133,6 +133,7 @@ stories:
   steps:
   - intent: mas_informacion
   - action: utter_dar_mas_informacion
+  - action: utter_dar_mas_informacion_enganche
 
 - story: Que puede hacer + ofrecer ayuda
   steps: 
