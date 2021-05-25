@@ -164,16 +164,23 @@ nlu:
 - intent: faq/rompe_preservativo
   examples: |
     - ¿Qué hago si se rompe el preservativo?
+    - que hago si se me rompe el condon?
+    - que hago si se me han roto varios condones?
     - Se me ha roto el preservativo
     - Se me ha roto el condón
+    - se me ha roto el condon tio
     - Que debo hacer si se rompe el condón
+    - que deberia hacer si se me rompe el preservativo
     - Que debo hacer si se rompe el preservativo
+    - qué tengo que hacer si se rompe el presrvativo
+    - que tengo que hacer si se rompe el condon
     - Que hacer al romperse el preservativo
     - El condón se ha roto
     - Se nos ha roto el preservativo
     - Se nos ha roto el condón
     - Se ha roto el condón
     - Se ha perforado el preservativo
+    - se nos ha roto el condon
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
