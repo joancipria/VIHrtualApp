@@ -1,11 +1,19 @@
 Después de analizar detenidamente los requisitos se procede a detallar la solución propuesta para el desarrollo de Vihrtual-App.
 
 \subsection{Conjunto de entrenamiento}
-[TODO: Tratamiento de la hoja de cálculo]
-%El conjunto de 131 preguntas obtenido en una hoja de cálculo.
+El grueso del desarrollo se va a centrar en trabajar con el conjunto de preguntas y respuestas facilitado por parte de la Unidad de Enfermedades Infecciosas del Hospital General de Elche para generar un primer conjunto de entrenamiento o \textit{dataset}. Se propone empezar por un subconjunto de ellas e ir ampliándolo a lo largo del desarrollo. El principal trabajo en esta fase se centra en generar distintas variaciones (30 aprox.) de las preguntas para asegurar un amplio espectro de reconocimiento.\\
+
+Por otra parte se observa que las respuestas proporcionadas son en muchos casos de difícil asimilación por parte de los usuarios. Por tanto, es necesario dinamizar estas respuestas para no aburrir al usuario e intentar captar su intención. Esta tarea se realizará mediante la introducción modificaciones tales como:
+
+\begin{itemize}
+	\item División de las respuestas más largas en varios mensajes.
+	\item Ligeros cambios para variar el registro a otro menos formal.
+	\item Eliminar afirmaciones y negaciones rotundas para adaptar las respuestas a una mayor variedad de preguntas.
+	\item Hacer uso de algunos emoticonos para acompañar a ciertas expresiones o datos.
+\end{itemize}
 
 \subsection{Interacción}
-[TODO: características sociales del bot, uso de emojis, efectos visuales, avatar ...]
+[TODO: características sociales del bot, personalidad, elementos visuales, respuestas rápidas, avatar ...]
 
 
 \subsection{Aspectos técnicos}
@@ -15,7 +23,7 @@ Tras el análisis realizado en la sección \ref{herramientas construir chatbots}
 	\item \textit{Rasa} cuenta con todas las herramientas necesarias para la correcta interpretación de las intenciones del usuario mediante técnicas de \textit{NLU} y noción del contexto.
 	\item Es \textit{opensource}, gratuito y a diferencia de sus competidores, no se basa en ningún servicio en la nube propietario. Esto permite realizar el despliegue completo de la plataforma en cualquier máquina. 
 	\item  En consecuencia, se obtiene independencia de otros servicios y control total sobre los datos recopilados de conversaciones, pues estas no estarán en manos de terceros.
-	\item La plataforma ofrece una herramienta adicional para el aprendizaje supervisado llamada \textit{Rasa X}. Esta permite la revisión y etiquetado de las conversaciones y aunque no es \textit{opensource} sí es gratuita y de libre uso.
+	\item La plataforma ofrece una herramienta adicional para el aprendizaje supervisado llamada \textit{Rasa X}. Esta permite realizar fácilmente la revisión y etiquetado de las conversaciones por lo que resulta idónea para el desarrollo.
 \end{itemize}	
 
 \subsection{Distribución}

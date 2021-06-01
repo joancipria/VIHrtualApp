@@ -57,6 +57,8 @@ nlu:
 - intent: faq/cuando_empezar
   examples: |
     - ¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?
+    - cuando debe empezar a tomar los medicamentos del vih?
+    - cuando es el momento de tomar la medicación contra el vih?
     - ¿Cuándo se debe empezar a tomar los medicamentos contra el VIH?
     - ¿Cuándo debo empezar a tomar las medicinas?
     - ¿Cuándo debo empezar a medicarme para el VIH?
