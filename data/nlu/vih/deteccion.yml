@@ -1,9 +1,6 @@
 version: "2.0"
 
 nlu:
-  - intent: faq/que_es_estado_sereologico
-    examples: |
-      - ¿Qué es el estado serológico?
   - intent: saber_si_tengo_vih
     examples: |
       - ¿Cómo puedo saber si tengo VIH?
