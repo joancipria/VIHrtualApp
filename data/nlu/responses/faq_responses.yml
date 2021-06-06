@@ -2,278 +2,278 @@ version: "2.0"
 responses:
   # Básicas
   utter_que_es_vih:
-  - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo. Si no se trata a tiempo, puede causar el SIDA. 
-  utter_que_es_vih_enganche: 
-  - buttons:
-    - payload: ¿Cómo se transmite el VIH?
-      title: ¿Cómo se transmite el VIH?
-    - payload: ¿Qué es el SIDA?
-      title: ¿Qué es el SIDA?
-    - payload: ¿Cómo puedo saber si tengo VIH?
-      title: ¿Cómo puedo saber si tengo VIH?
-    text: Si sabes lo básico sobre el VIH estarás protegido y podrás prevenir su transmisión. 💪
+    - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo. Si no se trata a tiempo, puede causar el SIDA.
+  utter_que_es_vih_enganche:
+    - buttons:
+        - payload: ¿Cómo se transmite el VIH?
+          title: ¿Cómo se transmite el VIH?
+        - payload: ¿Qué es el SIDA?
+          title: ¿Qué es el SIDA?
+        - payload: ¿Cómo puedo saber si tengo VIH?
+          title: ¿Cómo puedo saber si tengo VIH?
+      text: Si sabes lo básico sobre el VIH estarás protegido y podrás prevenir su transmisión. 💪
   utter_cura_vih:
-  - text: Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población.
+    - text: Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población.
   utter_faq/como_actua_vih:
-  - text: Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH.
+    - text: "Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH."
   utter_faq/cual_es_el_origen:
-  - text: Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
+    - text: Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos han considerado que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
   utter_faq/cuando:
-  - text: El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX.
+    - text: El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX.
   utter_faq/cuando_descubrimiento:
-  - text: El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH).
+    - text: El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. Solo dos años después, el 20 de mayo de 1983  se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH).
   utter_faq/personas_famosas_vih:
-  - text: Muchas personas famosas han manifestado que están infectados por VIH. Algunas de ellas fallecieron como el cantante Freddy Mercury en 1991 o el actor Rock Hudson en 1985. Pero otros conviven con el virus desde hace muchos años, como el jugador de baloncesto Magic Johnson que padece la enfermedad desde hace casi tres décadas o la cantante Conchita Wurst.
+    - text: Muchas personas famosas han manifestado que están infectados por VIH. Algunas de ellas fallecieron como el cantante Freddy Mercury en 1991 o el actor Rock Hudson en 1985. Pero otros conviven con el virus desde hace muchos años, como el jugador de baloncesto Magic Johnson que padece la enfermedad desde hace casi tres décadas o la cantante Conchita Wurst.
   utter_faq/sobrevive_fuera_vih:
-  - text: El VIH no sobrevive mucho fuera del cuerpo humano (por ejemplo, en las superficies) y no se puede reproducir fuera de un organismo humano.
+    - text: El VIH no sobrevive mucho fuera del cuerpo humano (por ejemplo, en las superficies) y no se puede reproducir fuera de un organismo humano.
   utter_faq/que_es_latencia:
-  - text: La latencia hace referencia a que el virus puede permanecer inactivo (latente) en nuestro organismo durante años. Cuando se encuentra en este estado, el sistema inmunitario no puede reconocer el virus y el tratamiento antirretroviral (TAR) no lo afecta.
+    - text: La latencia hace referencia a que el virus puede permanecer inactivo (latente) en nuestro organismo durante años. Cuando se encuentra en este estado, el sistema inmunitario no puede reconocer el virus y el tratamiento antirretroviral (TAR) no lo afecta.
   utter_faq/que_es_etapa_1:
-  - text: A las 2 a 4 semanas siguientes a la infección por VIH algunas personas pueden sentirse enfermas como si tuvieran la gripe. Esta es la conocida como etapa 1 de la infección por el VIH. Estos síntomas incluyen fiebre, escalofríos, sarpullido, sudores nocturnos, dolores musculares, dolor de garganta, fatiga, inflamación de los ganglios linfáticos y úlceras en la boca y pueden durar desde pocos días hasta varias semanas.  Si tiene estos síntomas, no significa que tenga el VIH. Cada uno de los síntomas puede ser causado por otras enfermedades. Pero si tiene estos síntomas después de una posible exposición al VIH debe hacerse la prueba del VIH.
+    - text: A las 2 a 4 semanas siguientes a la infección por VIH algunas personas pueden sentirse enfermas como si tuvieran la gripe. Esta es la conocida como etapa 1 de la infección por el VIH. Estos síntomas incluyen fiebre, escalofríos, sarpullido, sudores nocturnos, dolores musculares, dolor de garganta, fatiga, inflamación de los ganglios linfáticos y úlceras en la boca y pueden durar desde pocos días hasta varias semanas. Si tienes estos síntomas, no significa que tengas el VIH. Cada uno de los síntomas puede ser causado por otras enfermedades. Pero si tiene estos síntomas después de una posible exposición al VIH debe hacerse la prueba del VIH.
   utter_faq/es_importante_saber_tengo_vih:
-  - text: Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento si te hace falta y puedes adoptar hábitos de vida saludable que mejoren tu estado de salud. Además, podrás evitar que otras personas se infecten.
-  utter_faq/infeccion_aguda_vih: 
-  - text: Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. Durante la infección aguda, el VIH es sumamente contagioso. Además, dado que la detección del virus se realiza mediante sus correspondientes anticuerpos, durante la infección aguda (donde todavía no hay anticuerpos) no es posible detectarlo.
+    - text: Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento si te hace falta y puedes adoptar hábitos de vida saludable que mejoren tu estado de salud. Además, podrás evitar que otras personas se infecten.
+  utter_faq/infeccion_aguda_vih:
+    - text: Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. Durante la infección aguda, el VIH es sumamente contagioso. Además, dado que la detección del virus se realiza mediante sus correspondientes anticuerpos, durante la infección aguda (donde todavía no hay anticuerpos) no es posible detectarlo.
   utter_faq/infeccion_cronica_vih:
-  - text: Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa de esta infección). Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye. lo que conlleva el daño del sistema inmunitario. El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA.
+    - text: Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa de esta infección). Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA.
   utter_faq/tipos_vih:
-  - text: "Se diferencian dos tipos de VIH: el VIH-1 y el VIH-2. El VIH-2 es endémico de África y generalmente requiere más tiempo hasta desarrollar SIDA. En los países occidentales prevalece el VIH-1."
+    - text: "Se diferencian dos tipos de VIH: el VIH-1 y el VIH-2. El VIH-2 es endémico de África y generalmente requiere más tiempo hasta desarrollar SIDA. En los países occidentales prevalece el VIH-1."
   utter_faq/donar_sangre:
-  - text: Las personas que padecen VIH no pueden donar sangre, ya que el virus se contagia a través de esta. En los años 90 hubo casos de infecciones a partir de transfusiones de sangre. Hoy día a toda la sangre donada se le realzia la prueba para ladetección de diferentes enfermedades, entre ellas, el VIH.
+    - text: Las personas que padecen VIH no pueden donar sangre, ya que el virus se contagia a través de esta. En los años 90 hubo casos de infecciones a partir de transfusiones de sangre. Hoy día a toda la sangre donada se le realzia la prueba para ladetección de diferentes enfermedades, entre ellas, el VIH.
   # Transmisión
   utter_como_contagia:
-  - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.
+    - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.
   utter_como_contagia_enganche:
-  - buttons:
-    - payload: ¿Qué es la transmisión vertical?
-      title: ¿Qué es la transmisión vertical?
-    - payload: ¿Puedo contraer el VIH a través del sexo oral?
-      title: ¿Puedo contraer el VIH a través del sexo oral?
-    - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
-      title: ¿Se contagia a través del sudor, la saliva o las lágrimas?
-    text: Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
+    - buttons:
+        - payload: ¿Qué es la transmisión vertical?
+          title: ¿Qué es la transmisión vertical?
+        - payload: ¿Puedo contraer el VIH a través del sexo oral?
+          title: ¿Puedo contraer el VIH a través del sexo oral?
+        - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
+          title: ¿Se contagia a través del sudor, la saliva o las lágrimas?
+      text: Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
   utter_faq/aire:
-  - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
+    - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
-  - text: La transmisión vertical, conocida también como transmisión perinatal es la transmisión (contagio) de una infección u otra enfermedad de la madre a su hijo que puede ser antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé.
+    - text: La transmisión vertical, conocida también como transmisión perinatal es la transmisión (contagio) de una infección u otra enfermedad de la madre a su hijo que puede ser antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé.
   utter_faq/evitar_veritcal:
-  - text: Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte.
+    - text: Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte.
   utter_faq/fluidos:
-  - text: El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
+    - text: El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
   utter_faq/escupir_aranyar:
-  - text: No. El VIH no se transmite por la saliva, y no hay riesgo de transmisión por un arañazo porque esto no transfiere líquidos corporales entre las personas.
+    - text: No. El VIH no se transmite por la saliva, y no hay riesgo de transmisión por un arañazo porque esto no transfiere líquidos corporales entre las personas.
   utter_faq/insectos:
-  - text: Los insectos chupadores de sangre no pueden transmitir el VIH.
+    - text: Los insectos chupadores de sangre no pueden transmitir el VIH.
   utter_faq/wc:
-  - text: El VIH no se contagia usar el mismo inodoro que una persona con VIH. Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva.
+    - text: El VIH no se contagia por usar el mismo inodoro que una persona con VIH. Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva.
   utter_faq/tatuajes:
-  - text: Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. Si se quiere hacer un tatuaje o una perforación corporal, debe asegurarse de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados.
+    - text: Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. Si quieres hacerte un tatuaje o una perforación corporal asegurate de que la persona que haga el procedimiento cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados.
   utter_faq/alimentos:
-  - text: No se puede contraer VIH por consumir alimentos que haya tocado una persona infectada por el VIH. Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus.
+    - text: No se puede contraer VIH por consumir alimentos que haya tocado una persona infectada por el VIH. Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus.
   utter_faq/inyectar_droga:
-  - text: El riesgo de contraer el VIH es muy alto si usted usa las agujas y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. Además, también tiene un riesgo elevado de contraer otras enfermedades como hepatitis B o C.
+    - text: El riesgo de contraer el VIH es muy alto si usas las agujas y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. Además, también tienes un riesgo elevado de contraer otras enfermedades como hepatitis B o C.
   utter_faq/drogas:
-  - text: El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. Ahora bien, al estar bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo.
+    - text: El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. Ahora bien, al estar bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo.
   utter_faq/sexo_oral:
-  - text: Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual.
+    - text: Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual.
   utter_faq/carga_viral_indetectable:
-  - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
+    - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
   utter_faq/volver_a_infectarse:
-  - text: Sí. Es lo que se conoce como superinfección. Existen diversas cepas del VIH y una persona que esté infectada por una de ellas, puede infectarse por otra también. Los efectos de la superinfección varían de una persona a otra, pero puede hacer que algunas personas empeoren más rápidamente porque se infectan con una cepa nueva del virus que es resistente a los medicamentos que toman para tratar su infección inicial.
+    - text: Sí. Es lo que se conoce como superinfección. Existen diversas cepas del VIH y una persona que esté infectada por una de ellas, puede infectarse por otra también. Los efectos de la superinfección varían de una persona a otra, pero puede hacer que algunas personas empeoren más rápidamente porque se infectan con una cepa nueva del virus que es resistente a los medicamentos que toman para tratar su infección inicial.
   utter_faq/riesgo_lesbianas:
-  - text: Los informes de casos de transmisión del VIH de mujer a mujer son muy infrecuentes. Sin embargo, no es imposible. Las secreciones vaginales y la sangre menstrual pueden contener el virus y que la exposición a estos líquidos a través de las membranas mucosas (de la vagina o la boca) podría potencialmente causar la infección por el VIH.
+    - text: Los informes de casos de transmisión del VIH de mujer a mujer son muy infrecuentes. Sin embargo, no es imposible. Las secreciones vaginales y la sangre menstrual pueden contener el virus y la exposición a estos líquidos a través de las membranas mucosas (de la vagina o la boca) podría potencialmente causar la infección por el VIH.
   # Síntomas
   utter_que_sintomas:
-  - text: Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba.
+    - text: Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba.
   utter_faq/vih_sin_sintomas:
-  - text: El VIH puede convivir durante años en el organismo sin que el portador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas.
+    - text: El VIH puede convivir durante años en el organismo sin que el portador lo sepa. Durante ese tiempo, el portador puede infectar a otras personas si no toma las medidas de prevención adecuadas.
   utter_faq/sintomas_externos:
-  - text: No es posible saber solo por el aspecto físico si una persona padece VIH.
+    - text: No es posible saber solo por el aspecto físico si una persona padece VIH.
   # Detección
-  utter_faq/que_es_estado_sereologico:
-  - text: Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico, medidos con un análisis de sangre (una prueba serológica). VIH-seropositivo significa que una persona tiene anticuerpos detectables contra el VIH; seronegativo significa que una persona no tiene anticuerpos detectables contra el VIH
   utter_saber_si_tengo_vih:
-  - text: La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico. Además, en muchos países se venden test de detección en las farmacias.
+    - text: La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico. Además, en muchos países se venden test de detección en las farmacias.
   utter_faq/detectar_tras_contacto:
-  - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
+    - text: Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 8 semanas tras la infección. En algunos casos hasta 3 meses. Por tanto, para total seguridad, debería realizarse la prueba tras la exposición y repetírsela tres meses después de la misma.
   utter_faq/deberia_hacerme_prueba:
-  - text: La prueba del VIH se recomienda para todas las personas que tengan una vida sexualmente activa, sobre todo si tienen múltiples parejas sexuales y para aquellas personas que hayan compartido agujas para el consumo de drogas.
+    - text: La prueba del VIH se recomienda para todas las personas que tengan una vida sexualmente activa, sobre todo si tienen múltiples parejas sexuales y para aquellas personas que hayan compartido agujas para el consumo de drogas.
   utter_faq/negativo_pareja:
-  - text: No necesariamente. El VIH no se contagia en todas las relaciones y el riesgo varía según el tipo de prácticas sexuales. Su resultado negativo le incluye únicamente a usted y si su pareja ha tenido prácticas de riesgo o una exposición al virus debería hacerse también la prueba.
+    - text: No necesariamente. El VIH no se contagia en todas las relaciones y el riesgo varía según el tipo de prácticas sexuales. El resultado negativo te incluye únicamente ti y si tu pareja ha tenido prácticas de riesgo o una exposición al virus debería hacerse también la prueba.
   # Tratamiento
   utter_existe_tratamiento:
-  - text: Actualmente existe un tratamiento que consiste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
+    - text: Actualmente existe un tratamiento que consiste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
   utter_faq/en_que_consiste:
-  - text: La terapia es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
+    - text: La terapia es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana.
   utter_faq/cuando_empezar:
-  - text: Una persona seropositiva debe empezar a tomar la medicación contra el virus lo antes posible.
+    - text: Una persona seropositiva debe empezar a tomar la medicación contra el virus lo antes posible.
   utter_faq/cuantos_farmacos:
-  - text: La FDA, que es el organismo responsable del control de los fármacos en Estados Unidos, ha aprobado 24 principios activos como fármacos contra el VIH desde 1987 hasta 2020. Además de otras 22 combinaciones de estos fármacos en las que en una sola pastilla se pueden tomar varios principios activos.
+    - text: La FDA, que es el organismo responsable del control de los fármacos en Estados Unidos, ha aprobado 24 principios activos como fármacos contra el VIH desde 1987 hasta 2020. Además de otras 22 combinaciones de estos fármacos en las que en una sola pastilla se pueden tomar varios principios activos.
   utter_faq/cuantos_medicamentos:
-  - text: Los fármacos antirretrovirales aprobados contra el VIH pertenecen a siete clases distintas. Esta clasificación se realiza según la forma en que afectan el ciclo de vida de ese virus e incluyen los inhibidores de la transcriptasa inversa análogos de los nucleósidos (ITIN), los inhibidores de la transcriptasa inversa no análogos de los nucleósidos (ITINN), los inhibidores de la proteasa (IP), los inhibidores de la fusión, los antagonistas de CCR5, inhibidores de posfijación, y los inhibidores de la transferencia de cadenas de la integrasa.
+    - text: Los fármacos antirretrovirales aprobados contra el VIH pertenecen a siete clases distintas. Esta clasificación se realiza según la forma en que afectan el ciclo de vida de ese virus e incluyen los inhibidores de la transcriptasa inversa análogos de los nucleósidos (ITIN), los inhibidores de la transcriptasa inversa no análogos de los nucleósidos (ITINN), los inhibidores de la proteasa (IP), los inhibidores de la fusión, los antagonistas de CCR5, inhibidores de posfijación, y los inhibidores de la transferencia de cadenas de la integrasa.
   utter_faq/que_es_efectos_secundarios:
-  - text: Los efectos secundarios son efectos no deseados causados por los fármacos. La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. Otros pueden ser más graves y requieren su comunicación a su médico.
+    - text: Los efectos secundarios son efectos no deseados causados por los fármacos. La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. Otros pueden ser más graves y requieren su comunicación a su médico.
   utter_faq/que_es_interaccion_entre_medicamentos:
-  - text: Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento, una bebida o un suplemento.  Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados.
+    - text: Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento, una bebida o un suplemento. Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados.
   utter_faq/ensayos_clinicos:
-  - text: La investigación clínica se realiza de manera estructurada y los nuevos fármacos se prueban antes in vitro (en un laboratorio) y después en animales antes de ser probados en personas. Cuando se prueban en personas se conoce como ensayos clínicos y es la última fase antes de poder comercializar un nuevo fármaco. En la actualidad se realizan cientos de ensayos clínicos de fármacos contra el VIH.
+    - text: La investigación clínica se realiza de manera estructurada y los nuevos fármacos se prueban antes in vitro (en un laboratorio) y después en animales antes de ser probados en personas. Cuando se prueban en personas se conoce como ensayos clínicos y es la última fase antes de poder comercializar un nuevo fármaco. En la actualidad se realizan cientos de ensayos clínicos de fármacos contra el VIH.
   utter_faq/tratamiento_adicional:
-  - text: Además de los fármacos, las personas que padecen VIH pueden requerir orientación y apoyo psicosocial. Tener una nutrición sana, un nivel básico de higiene y el ejercicio físico también pueden ayudarles a mantener su calidad de vida.
+    - text: Además de los fármacos, las personas que padecen VIH pueden requerir orientación y apoyo psicosocial. Tener una nutrición sana, un nivel básico de higiene y el ejercicio físico también pueden ayudarles a mantener su calidad de vida.
   # Prevención
   utter_faq/que_es_prep:
-  - text: La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de contraer VIH si se toman medicamentos diariamente. La PrEP se administra a personas con un riesgo muy alto de contraer el VIH.
+    - text: La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de contraer VIH si se toman medicamentos diariamente. La PrEP se administra a personas con un riesgo muy alto de contraer el VIH.
   utter_faq/efectividad_prep:
-  - text: Si se sigue la pauta diaria recomendada por su médico, la PrEP es altamente efectiva para prevenir el VIH, tanto por vía sexual (hasta un 99% de reducción del riesgo) como por o el uso de drogas inyectables (74% de reducción). Sin embargo, la PrEP es mucho menos efectiva cuando no se toma de manera consistente.
+    - text: Si se sigue la pauta diaria recomendada por el médico, la PrEP es altamente efectiva para prevenir el VIH, tanto por vía sexual (hasta un 99% de reducción del riesgo) como por o el uso de drogas inyectables (74% de reducción). Sin embargo, la PrEP es mucho menos efectiva cuando no se toma de manera consistente.
   utter_faq/que_medicamentos_prep:
-  - text: Es una combinación de dos medicamentos contra el VIH (tenofovir y emtricitabina), que se vende bajo el nombre comercial Truvada®
+    - text: Es una combinación de dos medicamentos contra el VIH (tenofovir y emtricitabina), que se vende bajo el nombre comercial Truvada®.
   utter_faq/es_prep_vacuna:
-  - text: No. La PrEP no funciona de la misma manera que una vacuna. Las vacunas enseñan al sistema inmune a luchar contra una infección y su efecto dura mucho tiempo en el organismo. La PrEP se toma diariamente y lo que sucede es que esas sustancias bloquean al virus para evitar que se propague en el organismo.
+    - text: No. La PrEP no funciona de la misma manera que una vacuna. Las vacunas enseñan al sistema inmune a luchar contra una infección y su efecto dura mucho tiempo en el organismo. La PrEP se toma diariamente y lo que sucede es que esas sustancias bloquean al virus para evitar que se propague en el organismo.
   utter_faq/efectos_secundarios_prep:
-  - text: La PrEP puede causar efectos secundarios en algunas personas (como náuseas) que habitualmente se atenúan con el tiempo. No se han detectado efectos secundarios graves. Una persona que esté tomando PrEP debe estar bajo seguimiento de un médico especialista en enfermedades infecciosas para vigilar los posibles efectos secundarios.
+    - text: La PrEP puede causar efectos secundarios en algunas personas (como náuseas) que habitualmente se atenúan con el tiempo. No se han detectado efectos secundarios graves. Una persona que esté tomando PrEP debe estar bajo seguimiento de un médico especialista en enfermedades infecciosas para vigilar los posibles efectos secundarios.
   utter_faq/debo_tomar_prep:
-  - text: La PrEP se recomienda para parejas serodiscordantes, o para parejas que no sean mutuamente monógamas, además de para personas que posean un elevado número de parejas sexuales diferentes al año, además de para personas que consuman drogas inyectables.
+    - text: La PrEP se recomienda para parejas serodiscordantes, o para parejas que no sean mutuamente monógamas, además de para personas que posean un elevado número de parejas sexuales diferentes al año o que consuman drogas inyectables.
   utter_faq/como_tomar_prep:
-  - text: Debe contactar con los recursos sanitarios de su país para ser derivado a un especialista en enfermedades infecciosas que será quien pueda incluirle en un programa de PrEP.
+    - text: Debes contactar con los recursos sanitarios de tu país para ser derivado a un especialista en enfermedades infecciosas que será quien pueda incluirte en un programa de PrEP.
   utter_faq/interferencia_prep_terapia_hormonal:
-  - text: No se conocen interacciones entre los medicamentos que se usan para la PrEP y la terapia hormonal. Pero se recomienda que una persona que esté sometida a terapia hormonal y a PrEP se revise los niveles hormonales cada cierto tiempo.
+    - text: No se conocen interacciones entre los medicamentos que se usan para la PrEP y la terapia hormonal. Pero se recomienda que una persona que esté sometida a terapia hormonal y a PrEP se revise los niveles hormonales cada cierto tiempo.
   utter_faq/preservativo_prep:
-  - text: No debería, ya que la PrEP no protege de otras enfermedades de transmisión sexual como la sífilis, la gonorrea, el virus del papiloma o la clamidia.
+    - text: No deberías, ya que la PrEP no protege de otras enfermedades de transmisión sexual como la sífilis, la gonorrea, el virus del papiloma o la clamidia.
   utter_faq/prep_tras_contacto_vih:
-  - text: La PrEP (profilaxis preexposición) es para las personas que presentan un riesgo muy alto y continuo de contraer la infección por el VIH y se toma de manera previa al contacto. Sin embargo, existe otra herramienta, la PEP (profilaxis posexposición) para las personas que creen que han estado expuestas recientemente al VIH (como por relaciones sexuales o al compartir agujas con personas que padecen el VIH).
+    - text: La PrEP (profilaxis preexposición) es para las personas que presentan un riesgo muy alto y continuo de contraer la infección por el VIH y se toma de manera previa al contacto. Sin embargo, existe otra herramienta, la PEP (profilaxis posexposición) para las personas que creen que han estado expuestas recientemente al VIH (como por relaciones sexuales o al compartir agujas con personas que padecen el VIH).
   utter_faq/existe_vacuna:
-  - text: Actualmente no existe una vacuna contra el VIH, aunque se está investigando mucho para encontrarla.
+    - text: Actualmente no existe una vacuna contra el VIH, aunque se está investigando mucho para encontrarla.
   utter_faq/protegen_pildoras_anticonceptivas:
-  - text: No. Estas píldoras evitar los embarazos no deseados, pero no evitan la infección por VIH.
+    - text: No, estas píldoras son para evitar los embarazos no deseados, pero no evitan la infección por VIH.
   utter_faq/protege_marcha_atras:
-  - text: No. Esta es una práctica de riesgo que no previene de ser infectado por VIH.
+    - text: No, es una práctica de riesgo que no previene de ser infectado por VIH.
   utter_faq/protege_preservativo_femenino:
-  - text: Sí, aunque su uso está menos extendido, bien utilizado también sirve para prevenir el VIH y los embarazos no deseados.
+    - text: Sí, aunque su uso está menos extendido, bien utilizado también sirve para prevenir el VIH y los embarazos no deseados.
   utter_faq/son_eficientes_espermicidas:
-  - text: No. Aunque los espermicidas pueden prevenir el embarazo, no protegen contra las enfermedades de transmisión sexual, incluido el VIH. Además, la irritación de la vagina (o del recto) que ocurre a veces con el uso de espermicidas puede aumentar el riesgo de transmisión sexual del VIH. 
+    - text: No. Aunque los espermicidas pueden prevenir el embarazo, no protegen contra las enfermedades de transmisión sexual, incluido el VIH. Además, la irritación de la vagina (o del recto) que ocurre a veces con el uso de espermicidas puede aumentar el riesgo de transmisión sexual del VIH.
   utter_faq/son_eficientes_preservativos:
-  - text: Sí. El preservativo, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados.
+    - text: Sí. El preservativo, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados.
   utter_faq/rompe_preservativo:
-  - text: Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. Si se ha roto en la vagina, puede que necesites recurrir a la "píldora del día después" que debes tomar antes de 72 horas para evitar los embarazos no deseados.
+    - text: Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. Si se ha roto en la vagina, puede que necesites recurrir a la "píldora del día después" que debes tomar antes de 72 horas para evitar los embarazos no deseados.
   utter_como_prevenir:
-  - text: Puedes usar estrategias como no compartir agujas nunca y usar condones de la manera correcta cada vez que tenga relaciones sexuales. También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). Si tienes el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas.
+    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones de la manera correcta cada vez que tenga relaciones sexuales. También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). \n\n Si tienes el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas."
   # Sida
   utter_que_es_sida:
-  - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
+    - text: Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.
   utter_que_es_sida_enganche:
-  - buttons:
-    - payload: ¿Qué es una infección oportunista?
-      title: ¿Qué es una infección oportunista?
-    - payload: ¿Cuándo se tiene SIDA?
-      title: ¿Cuándo se tiene SIDA?
-    - payload: ¿Cuál es la diferencia entre VIH y SIDA?
-      title: ¿Cuál es la diferencia entre VIH y SIDA?
-    text: Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas.
+    - buttons:
+        - payload: ¿Qué es una infección oportunista?
+          title: ¿Qué es una infección oportunista?
+        - payload: ¿Cuándo se tiene SIDA?
+          title: ¿Cuándo se tiene SIDA?
+        - payload: ¿Cuál es la diferencia entre VIH y SIDA?
+          title: ¿Cuál es la diferencia entre VIH y SIDA?
+      text: Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas.
   utter_sida_vs_vih:
-  - text: El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome.
+    - text: El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado y ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome.
   utter_faq/cuando_se_tiene:
-  - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
+    - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
   utter_faq/causar_demencia:
-  - text: Cuando el paciente está en fase SIDA puede padecer un trastorno neurológico progresivo, cuyos síntomas incluyen pérdida de la memoria, lentitud de los movimientos y cambios de comportamiento.
+    - text: Cuando el paciente está en fase SIDA puede padecer un trastorno neurológico progresivo, cuyos síntomas incluyen pérdida de la memoria, lentitud de los movimientos y cambios de comportamiento.
   # Datos
   utter_faq/cuantas_personas_contraido_vih_historia:
-  - text: Desde su descubrimiento, más de 78 millones de personas han contraído el VIH.
+    - text: Desde su descubrimiento, más de 78 millones de personas han contraído el VIH.
   utter_faq/cuantas_personas_muertas_vih:
-  - text: Al menos 35 millones de personas han muerto por enfermedades relacionadas con el sida.
+    - text: Al menos 35 millones de personas han muerto por enfermedades relacionadas con el sida.
   utter_faq/cuantas_personas_tienen_vih:
-  - text: Según los datos de ONUSIDA, 38 millones de personas viven con VIH en el mundo.
+    - text: Según los datos de ONUSIDA, 38 millones de personas viven con VIH en el mundo.
   utter_faq/cuantas_personas_contraido_vih_2019:
-  - text: Según los datos de ONUSIDA, 1.7 millones de personas contrajeron VIH en 2019.
+    - text: Según los datos de ONUSIDA, 1.7 millones de personas contrajeron VIH en 2019.
   utter_faq/cuantas_personas_muertas_sida_2019:
-  - text: Según ONUSIDA, 690.000 personas murieron por enfermedades relacionadas con el sida en 2019.
-  utter_faq/paciente_berlin: 
-  - text: Su nombre real es Timothy Brown y está considerada la primera persona en ser curada de VIH. En 2006 fue diagnosticado de leucemia mieloidea aguda (LMA) por el hematólogo alemán Gero Hütter. Tras el fracaso de la quimioterapia se l realizaron dos trasplantes de células madre. El hematólgo decidió buscar un donante que tuviera la mutación CCR5 Delta 32 en las células CD4, que hace que las células sanguíneas sean inmunes al VIH al evitar la entrada del virus en ellas. Timothy Brown dejó de tomar la terapia antirretroviral en 2008 y 12 años después sigue sin tener moléculas del virus. Por lo que se le considera el primer paciente curado de VIH.
+    - text: Según ONUSIDA, 690.000 personas murieron por enfermedades relacionadas con el sida en 2019.
+  utter_faq/paciente_berlin:
+    - text: Su nombre real es Timothy Brown y está considerada la primera persona en ser curada de VIH. En 2006 fue diagnosticado de leucemia mieloidea aguda (LMA) por el hematólogo alemán Gero Hütter. Tras el fracaso de la quimioterapia se l realizaron dos trasplantes de células madre. El hematólgo decidió buscar un donante que tuviera la mutación CCR5 Delta 32 en las células CD4, que hace que las células sanguíneas sean inmunes al VIH al evitar la entrada del virus en ellas. Timothy Brown dejó de tomar la terapia antirretroviral en 2008 y 12 años después sigue sin tener moléculas del virus. Por lo que se le considera el primer paciente curado de VIH.
   utter_faq/paciente_londres:
-  - text: Tras el éxito de la curación del Paciente Berlín, muchos investigadores trataron de emplear estrategias similares para curar pacientes de VIH. El segundo caso fue el llamado Paciente Londres, que en 2012 fue diagnosticado de linfoma de Hodgkin y que también recibió una donación de células madre. La donante poseía la mutación CCR5 Delta 32, aquella que impide la entrada del virus en las células diana del VIH, los linfocitos CD4 y de ahí que el Paciente Londres fuese la segunda persona curada de VIH en la historia.
+    - text: Tras el éxito de la curación del Paciente Berlín, muchos investigadores trataron de emplear estrategias similares para curar pacientes de VIH. El segundo caso fue el llamado Paciente Londres, que en 2012 fue diagnosticado de linfoma de Hodgkin y que también recibió una donación de células madre. La donante poseía la mutación CCR5 Delta 32, aquella que impide la entrada del virus en las células diana del VIH, los linfocitos CD4 y de ahí que el Paciente Londres fuese la segunda persona curada de VIH en la historia.
   # ONUSIDA
   utter_faq/que_es_onusida:
-  - text: ONUSIDA es el Programa Conjunto de las Naciones Unidas sobre el VIH/sida y es un programa de las Naciones Unidas destinado a coordinar las actividades de los distintos organismos especializados de la ONU en su lucha contra el sida. También se le conoce por sus siglas en inglés UNAIDS.
+    - text: ONUSIDA es el Programa Conjunto de las Naciones Unidas sobre el VIH/sida y es un programa de las Naciones Unidas destinado a coordinar las actividades de los distintos organismos especializados de la ONU en su lucha contra el sida. También se le conoce por sus siglas en inglés UNAIDS.
   utter_faq/cuando_creo_onusida:
-  - text: En 1996.
+    - text: En 1996.
   utter_faq/que_es_objetivo_90:
-  - text: Es una estrategia establecida en la lucha contra el sida que se propuso para ser alcanzada en para 2020. Se basa en que el 90% de las personas que padecen VIH sepan que lo tienen; además que, de ellos, el 90% reciba el tratamiento; y finalmente que, de ellos, un 90% tengan supresión viral, es decir, que los niveles del virus en sangre sean muy bajos.
+    - text: Es una estrategia establecida en la lucha contra el sida que se propuso para ser alcanzada en para 2020. Se basa en que el 90% de las personas que padecen VIH sepan que lo tienen; además que, de ellos, el 90% reciba el tratamiento; y finalmente que, de ellos, un 90% tengan supresión viral, es decir, que los niveles del virus en sangre sean muy bajos.
   # Consejos
   utter_faq/contarle_pareja:
-  - text: "Tu pareja es la persona más importante a la que debes contárselo por dos razones: porque también podría estar infectada y porque deberíais tener sexo seguro para evitar contagiarle. En cualquier caso, tus parejas sexuales deberían saberlo para poder hacerse las pruebas y saber si también están infectados o no."
+    - text: "Tu pareja es la persona más importante a la que debes contárselo por dos razones: porque también podría estar infectada y porque deberíais tener sexo seguro para evitar contagiarle. En cualquier caso, tus parejas sexuales deberían saberlo para poder hacerse las pruebas y saber si también están infectados o no."
   utter_faq/contar_tiene_vih:
-  - text: Decidir a quién contar que tienes VIH y cómo hacerlo es una decisión a la que debes dedicar un tiempo. A menos que mantengas prácticas de riesgo, no vas a infectar a nadie, por lo que forma parte de tu intimidad y puedes hablarlo solo con las personas con las que te sientas seguro.
+    - text: Decidir a quién contar que tienes VIH y cómo hacerlo es una decisión a la que debes dedicar un tiempo. A menos que mantengas prácticas de riesgo, no vas a infectar a nadie, por lo que forma parte de tu intimidad y puedes hablarlo solo con las personas con las que te sientas seguro.
   utter_faq/pareja_tratar_mal:
-  - text: Tener VIH no es motivo para recibir malos tratos de ninguna persona.
+    - text: Tener VIH no es motivo para recibir malos tratos de ninguna persona.
   utter_faq/empresa_obligar:
-  - text: En España, ninguna empresa puede obligar a un/a trabajador/a a someterse a la prueba del VIH ni a informar de su estado serológico.
+    - text: En España, ninguna empresa puede obligar a un/a trabajador/a a someterse a la prueba del VIH ni a informar de su estado serológico.
   utter_faq/prueba_consentimiento:
-  - text: En España no pueden hacerte la prueba sin tu consentimiento.
+    - text: En España no pueden hacerte la prueba sin tu consentimiento.
   utter_faq/vih_ejercicio_fisico:
-  - text: El ejercicio físico es muy beneficioso y recomendable para todas las personas y de manera especial para las que tienen VIH, ya que no sólo mejora nuestro estado de salud, sino que ayuda a prevenir algunas complicaciones asociadas a la infección o al tratamiento.
+    - text: El ejercicio físico es muy beneficioso y recomendable para todas las personas y de manera especial para las que tienen VIH, ya que no sólo mejora nuestro estado de salud, sino que ayuda a prevenir algunas complicaciones asociadas a la infección o al tratamiento.
   # Enfermedades asociadas
   utter_faq/que_es_infeccion_oportunista:
-  - text: Es un infección que ocurre con más frecuencia, o que es más grave, en las personas inmunodeprimidas que en las personas con un sistema inmunitario sano. Estas infecciones pueden suponer un grave riesgo en las personas seropositivas.
+    - text: Es un infección que ocurre con más frecuencia, o que es más grave, en las personas inmunodeprimidas que en las personas con un sistema inmunitario sano. Estas infecciones pueden suponer un grave riesgo en las personas seropositivas.
   utter_faq/que_es_linfoma:
-  - text: Es un tipo de cáncer relacionado con los tejidos del sistema linfático, como los ganglios linfáticos, el bazo y la médula ósea. En las personas con el VIH, ciertos linfomas, como el de Burkitt o el linfoma no Hodgkin, son afecciones características del SIDA.
+    - text: Es un tipo de cáncer relacionado con los tejidos del sistema linfático, como los ganglios linfáticos, el bazo y la médula ósea. En las personas con el VIH, ciertos linfomas, como el de Burkitt o el linfoma no Hodgkin, son afecciones características del SIDA.
   utter_faq/que_es_neumonia_pneumocystis:
-  - text: Se trata de una infección por un hongo que está presente en el medio ambiente que no infecta a personas sanas, pero que en personas con VIH puede desencadenar una neumonía, cuyos síntomas incluyen tos (a menudo leve y seca), fiebre y dificultad respiratoria. Se trata de una infección característica de SIDA. 
+    - text: Se trata de una infección por un hongo que está presente en el medio ambiente que no infecta a personas sanas, pero que en personas con VIH puede desencadenar una neumonía, cuyos síntomas incluyen tos (a menudo leve y seca), fiebre y dificultad respiratoria. Se trata de una infección característica de SIDA.
   utter_faq/que_es_retinitis_citomegalovirus:
-  - text: Es una inflamación de la retina de los ojos causada por infección por citomegalovirus. Los síntomas, incluyen visión borrosa, moscas volantes y puntos ciegos. En las personas con el VIH, la retinitis causada por citomegalovirus (con pérdida de la vista) es una afección característica del SIDA. 
+    - text: Es una inflamación de la retina de los ojos causada por infección por citomegalovirus. Los síntomas, incluyen visión borrosa, moscas volantes y puntos ciegos. En las personas con el VIH, la retinitis causada por citomegalovirus (con pérdida de la vista) es una afección característica del SIDA.
   utter_faq/que_es_sarcoma_kaposi:
-  - text: Se trata de un tipo de cáncer caracterizado por el crecimiento anormal de las células que revisten los vasos linfáticos y sanguíneos. El sarcoma de Kaposi causa manchas de tejido (lesiones) de color rojo o púrpura bajo la piel y en la membrana de la boca, la nariz y la garganta. También pueden aparecer lesiones en otros órganos como en el hígado o en los pulmones. En las personas con el VIH, es una afección característica del SIDA. 
+    - text: Se trata de un tipo de cáncer caracterizado por el crecimiento anormal de las células que revisten los vasos linfáticos y sanguíneos. El sarcoma de Kaposi causa manchas de tejido (lesiones) de color rojo o púrpura bajo la piel y en la membrana de la boca, la nariz y la garganta. También pueden aparecer lesiones en otros órganos como en el hígado o en los pulmones. En las personas con el VIH, es una afección característica del SIDA.
   utter_faq/que_es_sindrome_emaciacion:
-  - text: Se llama síndrome de emaciación cuando una persona sufre la pérdida involuntaria de más de 10% de su peso corporal (particularmente de masa muscular) y por lo menos 30 días con diarrea o debilidad y fiebre. El síndrome de emaciación relacionado con el VIH es una afección característica del SIDA.
+    - text: Se llama síndrome de emaciación cuando una persona sufre la pérdida involuntaria de más de 10% de su peso corporal (particularmente de masa muscular) y por lo menos 30 días con diarrea o debilidad y fiebre. El síndrome de emaciación relacionado con el VIH es una afección característica del SIDA.
   utter_faq/relacion_vih_cancer:
-  - text: Ciertos tipos de cáncer ocurren con tanta frecuencia en las personas con sida que se consideran afecciones indicadoras de SIDA, es decir, su presencia en una persona infectada con el VIH es una clara señal de que se ha desarrollado el sida en toda su extensión. Además, algunos tipos de cáncer (no todos) son también más comunes entre las personas con el VIH o sida que entre las personas no infectadas
+    - text: Ciertos tipos de cáncer ocurren con tanta frecuencia en las personas con sida que se consideran afecciones indicadoras de SIDA, es decir, su presencia en una persona infectada con el VIH es una clara señal de que se ha desarrollado el sida en toda su extensión. Además, algunos tipos de cáncer (no todos) son también más comunes entre las personas con el VIH o sida que entre las personas no infectadas
   utter_faq/eventos_no_sida:
-  - text: Son enfermedades no asociadas directamente con el sida que pueden padecer las personas seropositivas. En algunos casos, se ha observado una incidencia mayor que en la población que no padece VIH. Entre estos trastornos podemos encontrar neoplasias no asociadas a sida, eventos cardiovasculares o eventos neuropsiquiátricos.
+    - text: Son enfermedades no asociadas directamente con el sida que pueden padecer las personas seropositivas. En algunos casos, se ha observado una incidencia mayor que en la población que no padece VIH. Entre estos trastornos podemos encontrar neoplasias no asociadas a sida, eventos cardiovasculares o eventos neuropsiquiátricos.
   utter_faq/tuberculosis:
-  - text: Una persona puede tener en su organismo las bacterias que provocan la tuberculosis y no desarrollar la enfermedad. Sin embargo, cuando se padece VIH, el sistema inmune puede estar debilitado y ello provoca que no sea posible detener a esas bacterias y las personas seropositivas puedan desarrollar tuberculosis con mayor facilidad. La tuberculosis se cobró la vida de 400 000 personas infectadas con el VIH en 2016.
+    - text: Una persona puede tener en su organismo las bacterias que provocan la tuberculosis y no desarrollar la enfermedad. Sin embargo, cuando se padece VIH, el sistema inmune puede estar debilitado y ello provoca que no sea posible detener a esas bacterias y las personas seropositivas puedan desarrollar tuberculosis con mayor facilidad. La tuberculosis se cobró la vida de 400 000 personas infectadas con el VIH en 2016.
   utter_faq/problemas_neurologicos:
-  - text:   El VIH puede provocar daños tanto al sistema nervioso central como al periférico y desencadenar un grupo de trastornos neurológicos, como la mielopatía vacuolar, la neuropatía sensorial o la demencia causada por el SIDA. 
+    - text: El VIH puede provocar daños tanto al sistema nervioso central como al periférico y desencadenar un grupo de trastornos neurológicos, como la mielopatía vacuolar, la neuropatía sensorial o la demencia causada por el SIDA.
   utter_faq/covid_mas_facil:
-  - text: Según el Hospital Clínic de Barcelona, no hay evidencia de una tasa de infección de COVID-19 más alta en las personas con el VIH respecto a las personas VIH negativas.
+    - text: Según el Hospital Clínic de Barcelona, no hay evidencia de una tasa de infección de COVID-19 más alta en las personas con el VIH respecto a las personas VIH negativas.
   utter_faq/covid_mas_agresiva:
-  - text: Según el Hospital Clínic de Barcelona, no hay evidencia de un curso de enfermedad más grave por COVID19 en las personas con el VIH respecto a las personas VIH negativas. 
+    - text: Según el Hospital Clínic de Barcelona, no hay evidencia de un curso de enfermedad más grave por COVID19 en las personas con el VIH respecto a las personas VIH negativas.
   utter_faq/vih_covid_saber_mas:
-  - text: Por ejemplo, en este link https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/homeCoronavirus.htm
+    - text: Por ejemplo, en este link https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/homeCoronavirus.htm
   # Glosario
   utter_faq/que_es_ets:
-  - text: Son las llamadas enfermedades de transmisión sexual.
+    - text: Son las llamadas enfermedades de transmisión sexual.
   utter_faq/que_es_hepatitis:
-  - text: Es una inflamación del hígado, generalmente de origen vírico. Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado
+    - text: Es una inflamación del hígado, generalmente de origen vírico. Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado
   utter_faq/que_es_viremia:
-  - text: El término hace referencia a la presencia de un virus en la sangre.
+    - text: El término hace referencia a la presencia de un virus en la sangre.
   utter_faq/que_es_nadir:
-  - text: Este término médico hace referencia al punto más bajo de alguna variable. Por ejemplo, el nadir del recuento de linfocitos CD4 de una persona es el valor mínimo de dicho recuento. 
+    - text: Este término médico hace referencia al punto más bajo de alguna variable. Por ejemplo, el nadir del recuento de linfocitos CD4 de una persona es el valor mínimo de dicho recuento.
   utter_faq/que_es_linfopenia:
-  - text: Se emplea el término linfopenia cuando el número de linfocitos en sangre es inferior al normal.
+    - text: Se emplea el término linfopenia cuando el número de linfocitos en sangre es inferior al normal.
   utter_faq/que_es_seroconversion:
-  - text: La seroconversión es el proceso mediante el cual una persona genera anticuerpos contra un determinado virus. En el caso del VIH se produce a las pocas semanas de haberse infectado la persona.
+    - text: La seroconversión es el proceso mediante el cual una persona genera anticuerpos contra un determinado virus. En el caso del VIH se produce a las pocas semanas de haberse infectado la persona.
   utter_faq/que_es_ictericia:
-  - text: Es un amarillamiento de la piel, la parte blanca de los ojos o las membranas mucosas. Es señal de que la sangre contiene demasiada bilirrubina, una sustancia producida cuando el hígado descompone los glóbulos rojos. Por lo general, indica disfunción hepática.
+    - text: Es un amarillamiento de la piel, la parte blanca de los ojos o las membranas mucosas. Es señal de que la sangre contiene demasiada bilirrubina, una sustancia producida cuando el hígado descompone los glóbulos rojos. Por lo general, indica disfunción hepática.
   utter_faq/que_es_viremia_intermitente:
-  - text:  Cuando una persona está en tratamiento antirretroviral el objetivo es que alcance el nivel de carga tan bajo que sea indetectable. Cuando de repente se vuelve a detectar la carga viral, entonces se dice que el paciente posee una viremia intermitente. Se puede deber a diversos factores (como el estrés, haber estado enfermo, que el paciente no se esté tomando el tratamiento según la pauta estipulada o que el tratamiento esté fallando).
+    - text: Cuando una persona está en tratamiento antirretroviral el objetivo es que alcance el nivel de carga tan bajo que sea indetectable. Cuando de repente se vuelve a detectar la carga viral, entonces se dice que el paciente posee una viremia intermitente. Se puede deber a diversos factores (como el estrés, haber estado enfermo, que el paciente no se esté tomando el tratamiento según la pauta estipulada o que el tratamiento esté fallando).
   utter_faq/que_es_capside:
-  - text: La cápside o cápsida es la envoltura que recubre el material genético del virus.
+    - text: La cápside o cápsida es la envoltura que recubre el material genético del virus.
   utter_faq/que_es_cormobilidad:
-  - text: Cuando una persona tiene dos o más enfermedades o trastornos al mismo tiempo. Esto puede conlleva una complicación a la hora del tratamiento farmacológico, supone un mayor gasto farmacéutico y puede conllevar mayores efectos secundarios y menor supervivencia. Las comorbilidades más habituales en el VIH son la hepatitis C u otras enfermedades de transmisión sexual (ETS).
+    - text: Cuando una persona tiene dos o más enfermedades o trastornos al mismo tiempo. Esto puede conlleva una complicación a la hora del tratamiento farmacológico, supone un mayor gasto farmacéutico y puede conllevar mayores efectos secundarios y menor supervivencia. Las comorbilidades más habituales en el VIH son la hepatitis C u otras enfermedades de transmisión sexual (ETS).
   utter_faq/que_es_serodiscordante:
-  - text: Se llama a una relación serodiscordante cuando una de las personas de la pareja en la está infectada por el VIH y la otra no. 
+    - text: Se llama a una relación serodiscordante cuando una de las personas de la pareja en la está infectada por el VIH y la otra no.
   utter_faq/que_es_seroconcordante:
-  - text: Es cuando en una relación las dos personas están infectadas por el VIH.
+    - text: Es cuando en una relación las dos personas están infectadas por el VIH.
   utter_faq/que_es_cd4:
-  - text: Los linfocitos CD4, también conocidos como linfocitos T4, son glóbulos blancos que combaten infecciones y desempeñan un papel importante en el sistema inmunitario. El nivel de CD4 se usa para vigilar la salud del sistema inmunitario en personas infectadas con el VIH
+    - text: Los linfocitos CD4, también conocidos como linfocitos T4, son glóbulos blancos que combaten infecciones y desempeñan un papel importante en el sistema inmunitario. El nivel de CD4 se usa para vigilar la salud del sistema inmunitario en personas infectadas con el VIH
   utter_faq/que_es_carga_viral:
-  - text: Es la cantidad de virus que hay en sangre. Se cuentan el número de copias del virus que hay por milímetro cúbico de sangre.
+    - text: Es la cantidad de virus que hay en sangre. Se cuentan el número de copias del virus que hay por milímetro cúbico de sangre.
   utter_faq/que_es_carga_viral_indetectable:
-  - text: El objetivo del tratamiento antirretroviral consiste en lograr que la cantidad de virus en la sangre sea tan baja que no se pueda detectar con las técnicas de análisis que existen.
+    - text: El objetivo del tratamiento antirretroviral consiste en lograr que la cantidad de virus en la sangre sea tan baja que no se pueda detectar con las técnicas de análisis que existen.
+  utter_faq/que_es_estado_sereologico:
+    - text: Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico, medidos con un análisis de sangre (una prueba serológica). VIH-seropositivo significa que una persona tiene anticuerpos detectables contra el VIH; seronegativo significa que una persona no tiene anticuerpos detectables contra el VIH
   # Estigma
   utter_faq/estigma:
-  - text: Los estigmas son los prejuicios y actitudes negativas relacionadas con una determinada situación, característica, afección o persona. Por ejemplo, las creencias negativas sobre el VIH pueden crear un estigma contra las personas seropositivas, este hecho puede tener efectos desfavorables para la salud y el bienestar de las personas con el VIH.
+    - text: Los estigmas son los prejuicios y actitudes negativas relacionadas con una determinada situación, característica, afección o persona. Por ejemplo, las creencias negativas sobre el VIH pueden crear un estigma contra las personas seropositivas, este hecho puede tener efectos desfavorables para la salud y el bienestar de las personas con el VIH.
   utter_faq/sida_homosexuales:
-  - text: El VIH puede infectar a cualquier persona que no tome las medidas de prevención adecuadas sea cual sea su orientación sexual..
+    - text: El VIH puede infectar a cualquier persona que no tome las medidas de prevención adecuadas sea cual sea su orientación sexual..
   utter_faq/deporte_competicion:
-  - text: Dado que todavía existe mucho estigma en relación al VIH, las personas que practican deporte a nivel profesional no suelen decirlo. Sin embargo, el deportista de triatlones de alto rendimiento, como el Titan Dessert, Jordi Sandor sí hizo pública su condición de persona seropositiva.
+    - text: Dado que todavía existe mucho estigma en relación al VIH, las personas que practican deporte a nivel profesional no suelen decirlo. Sin embargo, el deportista de triatlones de alto rendimiento, como el Titan Dessert, Jordi Sandor sí hizo pública su condición de persona seropositiva.
   # Info adicional
   utter_faq/documento_adicional_mujeres:
-  - text: Puedes consultar esta guía orientada al VIH en la mujeres http://www.inmujer.gob.es/areasTematicas/AreaSalud/Publicaciones/docs/GuiasSalud/Salud_VII.pdf
+    - text: Puedes consultar esta guía orientada al VIH en la mujeres http://www.inmujer.gob.es/areasTematicas/AreaSalud/Publicaciones/docs/GuiasSalud/Salud_VII.pdf
