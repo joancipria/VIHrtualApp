@@ -4,17 +4,21 @@ nlu:
   - intent: faq/que_es_prep
     examples: |
       - ¿Qué es la profilaxis-preexposición (PrEP)?
+      - que es la profilaxis preexposicion?
       - ¿Qué es la PrEP?
+      - que es la prep
       - ¿Qué significa PrEP?
+      - que significa prep
       - Explícame que es la PrEP
       - Explicación PrEP
       - No sé lo que es PrEP
+      - no se lo que es prep
   - intent: faq/efectividad_prep
     examples: |
       - ¿Es efectiva la PrEP?
       - ¿Es fiable la PrEP?
       - ¿Cuál es la fiabilidad de la PrEP?
-      - ¿Cuál es la efectividad de la PrEP?
+      - ¿Cual es la efectividad de la PrEP?
       - ¿Cuál es la probabilidad de infectarse si se toma la PrEP?
       - ¿Es fácil infectarse si se está tomando la PrEP?
       - ¿En cuánto se reducen las posibilidades de infección con la PrEP?
