@@ -1,499 +1,499 @@
 version: "2.0"
 
 nlu:
-- intent: como_contagia
-  examples: |
-    - ¿Cómo se contagia el VIH?
-    - ¿Cómo se transmite la infección por el VIH?
-    - ¿Cómo se pasa el VIH de una persona a otra?
-    - como se pasa el vih de una persona a otra?
-    - comos e pasa el virus de uno a otro?
-    - como se transmite el vih de una persona a otra?
-    - como se transmite la infeccion por vih?
-    - como se transfiere el vih
-    - como se realiza la transmisión de vih
-    - como funciona la transmision por vih
-    - como funciona la transmision x vih
-    - como se pega el vih
-    - ¿Cómo se pega el VIH?
-    - ¿Cómo se transmite VIH?
-    - como se transmite el vih
-    - no se como se se transmite el vih
-    - como se transmite el vih?
-    - ¿De que manera se contagia?
-    - como se transmite el virus?
-    - como se puede coger el virus?
-    - como se puede infectar uno del virus?
-    - como me puedo infectar del vih?
-    - como se transmite el sida?
-    - como se contagia el sida
-    - como es la transmisión del virus?
-    - no se como se transmite el vih?
-    - no sé cómo se transmite el virus
-    - explícame como se transmite el virus
-    - nos e muy bien como se pega el virus
-    - como puedo coger el virus?
-    - cómo puedo infectarme?
-    - Cuáles son las principales vías de contagio?
-    - cuales son las principales vias de contagio?
-    - que vias de contagio existen?
-    - qué vías de contagio existen
-    - Como me puedo contagiar de VIH?
-    - El unico medio de propagacion del vih es la sangre?
-    - por que medio se propaga el vih?
-    - cuál es el medio de propagación del vih?
-    - porque medio se propaga el vih?
-    - vias de contagio por las cuales se propaga
-    - Que capacidad de contagio tiene el VIH?
-    - ¿Se transmite mediante relaciones sexuales?
-    - el vih se transmite al mantener relaciones sexuales?
-    - el vih se transmite al hacer el amor?
-    - se transmite al follar?
-    - puedo coger vih al mantener relaciones sexuales?
-    - puedo pillarlo mientras follo?
-    - se transmite mientras follas?
-    - se transmite al mantener sexo?
-    - en el sexo, se puede contagiar el vih?
-    - Cuáles son las causas de contagio?
-    - Cómo se contrae el VIH?
-- intent: faq/aire
-  examples: |
-    - ¿Se contagia el VIH por el aire?
-    - se puede contagiar el virus por el aire?
-    - me peudo infectar por el aire?
-    - me peudo infectar x el aire?
-    - me puedo infectar si me estornudan?
-    - el vih se contagia por el aire?
-    - se puedo coger vih x el aire?
-    - puedo contagiarme por el aire
-    - me pueden pegar el vih al estornudar?
-    - me pueden pegar el vih al toser?
-    - si me tosen puedo coger vih?
-    - si me estornudan encima puedo coger vih?
-    - ¿Se contagia a través del aire?
-    - se puede contagiar el vih por el aire
-    - el vih se puede contagiar a través del aire?
-    - ¿Se puede contagiar con un estornudo?
-    - al estornudar puedo contagiar de vih?
-    - ¿Es el aire una vía de contagio?
-    - ¿Se transmite por el aire?
-    - ¿Se transmite x el aire?
-    - existe la tranmisión aerea
-    - se puede transmitir de forma aérea?
-    - es posible la transmision aerea del virus?
-    - es posible coger el vih al respirar el mismo aire que un infectado?
-    - puedo evitar coger el vih con mascarilla?
-    - la mascarilla previene el contagio de vih?
-    - hay peligro de coger el vih por el aire?
-    - existe el riego de contagio aereo?
-    - me puedo contagiar si no llevo mascarilla?
-    - puedo coger el virus con un estornudo?
-    - puedo coger el virus a través de aire?
-    - el vih se transmite por el aire
-- intent: faq/vertical
-  examples: |
-    - ¿Qué es la transmisión vertical?
-    - en que consiste la transmision vertical?
-    - hay transmision vertical?
-    - existe la transmision vertical?
-    - que me puedes decir de latransmisión perinatal
-    - que me puede sdecir de la transmisión vertical
-    - existe la transmision perinatal?
-    - hay riesgo de tranmsision vertical?
-    - existe la posibilidad de que haya transmisión vertical?
-    - q es la transmision vertical
-    - explciame que es la transmision vertical
-    - que es la transmision vertical
-    - qué es la transmisión perinatal
-    - explciame q es la transmision vertical
-    - explciame que es la transmision vertical
-    - no se qué es la transmisión vertical
-    - no tengo ni idea de que es la transmisión vertical
-    - ¿Que significa transmisión vertical?
-    - cuál es el significado de transmision vertical
-    - que quieres decir con transmisosn vertical?
-    - ¿Qué es la transmisión perinatal?
-    - q es la transmision perinatal
-    - no se que es la transmision perinatal
-    - me puede sexplciar qué es la transmision perinatal?
-    - que es la transmision perinatal
-    - explicame por favor que es la transmison perinatal
-    - ¿En que consiste la transmisión vertical?
-    - no se muy bien que significa la transmisin vertical
-    - Explícame que es la transmisosn vertical
-    - No sé lo que es la transmisión vertical
-- intent: faq/evitar_veritcal
-  examples: |
-    - ¿Puede evitarse la transmisión vertical?
-    - se puede evitar la transmisosn vertical?
-    - se puede evitar la transmision perinatal?
-    - hay alguna maenra de evitar la transmisión vertical?
-    - hay alguna maenra de evitar la transmision perinatal?
-    - es posible evitar la transmision vertical?
-    - es posible evitar la transmision perinatal?
-    - es posible evitar la trasnmison a mis hijos?
-    - es posible evitar la transmisión a mis hijos?
-    - ¿Puedo evitar que mi bebé se infecte?
-    - podria evitar evitar que mi bebe se infecte?
-    - ¿Puedo evitar pasarlo a mis hijos?
-    - puedo evitar contagiar a mis hijos
-    - puedo evitar infectar a mis hijos
-    - ¿Puedo evitar pegar el virus a mis hijos
-    - ¿Puedo evitar contagiar a mis hijas?
-    - ¿Es posible evitar el contagio a mi niño?
-    - puedo evitar contagiar a mi niño?
-    - puedo evitar infectar a mis niños?
-    - como puedo evitar pegarselo a mis hijos
-    - como puedo evitar pegarselo a mis niñas
-    - quiero evitar pegarselo a mis niñas
-    - hay manera de evitar pegarselo a mis niñas?
-    - no quiero pegarles a mis hijos el vih
-    - no quiero pegarles a mis hijos el virus
-    - no quiero pegarles a mis hijas el virus
-    - puedo evitar infectar a mis hijas?
-    - tengo miedo de infectar a mis hijos
-    - tengo miedo de pegarles el virus a mis hijas
-    - como evito la transmision de madre a hijo?
-    - como puedo evitar la transision de la madre a mi hijo
-    - evitar trabsmisión de madre a hijos
-    - evitar transmision de padres a hijos
-    - evitar pasarlo de made a hijo
-    - como evitar pasarselo mis hijos
-    - no quiero que pase de madre a hijo
-    - no quiero que pase a mis hijos
-    - evitar la transmision a los hijos
-    - evitar la transmision a los niños
-    - ¿Cómo se evita que la madre contagie al bebé?
-    - como se evita que la madre pueda contagiar a su bebe?
-    - evitar que la madre contagie a su bebé
-    - evitar contagiar al bebe
-    - evitar el contagio de los bebes
-    - como puedo no contagiar a mi bebe?
-    - puedo evitar contagiar a mi bebe?
-- intent: faq/fluidos
-  examples: |
-    - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
-    - ¿Se contagia a través del sudor, la saliva o las lágrimas?
-    - se puede contagiar por el sudor?
-    - me puedo contagiar con el sudor de otra persona?
-    - se puede cntagiar el virus con la sudor?
-    - se puede contaagiar el virus con la saliva?
-    - ¿Se transmite el VIH por la saliva?
-    - me puedo infectar por la saliva?
-    - me puedo infectar por la sudor?
-    - se transmite el virus por la saliva?
-    - se puede transmitir o pegar el virus por la saliva
-    - ¿Se transmite el VIH el sudor?
-    - ¿Se transmite el VIH por las lgrimas?
-    - ¿Se transmite el VIH por las lagrimas?
-    - ¿Puedo contagiarme besando?
-    - ¿Puedo contagiarme por dar un beso?
-    - podría contagiarme por besar?
-    - ¿Se transmite a través de la boca?
-    - si beso a otra persona puedo coger el vih?
-    - se transmite por la boca el virus?
-    - ¿Se pega besando?
-    - me puedo infectar si beso a una persona con vih?
-    - puedo coger el virus por besar a alguien positivo?
-    - puedo coger el virus por besar a alguien?
-    - puedo coger el virus por dar muchos besos?
-    - si me morreo puedo coger el virus?
-    - me puedo infectar si doy muchos besos?
-    - se transite por la saliva el virus?
-    - se puede transmitir el virus por medio de la saliva?
-    - se puede llegar a transmitir el virus con la saliva?
-    - se puede llegar a transmitir el virus con las lagrimas?
-    - Puedo contagiar el VIH si comparto cubiertos o vasos con otras personas?
-    - puedo contagiar al copartir cubiertos?
-    - se pede contagiar por comparir un vaso?
-    - por compartir un vaso me puedo infectar?
-    - Puedo transmitir el VIH a través de la saliva?
-    - Se transmite el vih por la saliba?
-- intent: faq/escupir_aranyar
-  examples: |
-    - ¿Puedo contraer el VIH si una persona infectada me escupe o araña?
-    - puedo contraer el vih si me escupen?
-    - puedo contraer el vih si me arañan?
-    - me puedo contagiar por un escupitajo?
-    - si alguien me escupe me puede contagiar?
-    - me podria contagiar por un arañazo?
-    - si alguien me araña me puede pegar el virus?
-    - se puede transmitir el vih al arañar?
-    - si una persona me escupe me puede pasar el virus?
-    - si alguien con vih me araña o me escupe, me puedo infectar?
-- intent: faq/insectos
-  examples: |
-    - ¿Pueden los mosquitos o las garrapatas contagiar el VIH?
-    - los mosquitos pegan el vih?
-    - los mosquitos contagian el vih?
-    - los mosquitos pueden infectar?
-    - se transmite a través de insectos chupadores?
-    - entonces los mosquitis pueden transmitir el virus
-    - pueden los mosquitos transmitir la enfermedad?
-    - si me pica un mosquito puedo coger el virus?
-    - si me pica un mosquito puedo coger el vih?
-    - si me pcia un insecto o garrapata me puedo contagiar?
-    - puedo coger el virus por la picadura de un mosquito?
-    - si un bicho me pica me puede contagiar el virus?
-    - se transmite con las picaduras de los bichos?
-    - puedo coger el virus por la picadura de una garrapata?
-    - ¿Los mosquitos contagian el VIH?
-    - ¿Los mosquitos transmiten el virus?
-    - ¿Las garrapatas transmiten el virus?
-    - ¿Los garrapatas contagian el VIH?
-    - ¿Pueden las pulgas contagiar el virus?
-    - las pulgas transmiten el virus?
-    - ¿Los insectos chupadores de sangre transmiten el virus?
-    - que insectos pueden transmitir la enfermedad
-    - los mosquitos peuden ser portadores de la enfermedad
-    - los mosquitos pueden provovar el virus?
-    - los mosquitos pueden pegar el VIH?
-    - los mosquitos pueden infectar de VIH?
-    - es posible que un mosquito me pegue el vih?
-- intent: faq/wc
-  examples: |
-    - ¿Puedo contagiarme de VIH por usar el mismo WC que una persona con VIH?
-    - ¿Puedo contagiarme de VIH por usar el mismo baño que una persona con VIH?
-    - puedo contagiarme si uso el mismo vater que un infectado?
-    - podría llegar a coger el vih por compartir el baño con una persona que tiene vih?
-    - puedo llegar a coger el virus por compartir el baño con una persona que tiene vih?
-    - puedo infectarme por compartir el baño con una persona que tiene vih?
-    - si comparto el baño con una persona que tiene el vih, puedo infectarme?
-    - puedo contagiarme por compartir el wc?
-    - puedo contagiarme por compartir el mismo baño?
-    - puedo contagiarme por compartir el mismo vater?
-    - si comparto el mismo váter que una persona infectada, puedo coger el virus?
-    - podria contagiarme si uso el mismo vater o baño que alguien que tiene el virus?
-    - ¿Puedo contagiarme si uso el mismo váter que una persona con infectada?
-    - ¿Existe riesgo de contagio si utilizo el mismo inodoro que una persona con VIH?
-    - hay riesgo si comparto baño con alguien con vih?
-    - hay riesgo si comparto wc con alguien infectado
-    - hay peligro si comparto baño con alguien que tiene vih?
-    - al compartir baño con una persona infectada me lo puede pegar
-    - si utuilzo el mismo baño que un positivo puedo contagiarme?
-    - me puedo contagiar compartiendo baño con alqguien que es portador del vih?
-    - se transmite el vih mediante el vater?
-    - se transmite el vih mediante el wc?
-    - se puede transmitir el vih al utilzar el mismo baño que una persona con vih?
-- intent: faq/tatuajes
-  examples: |
-    - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
-    - ¿Puedo contraer el VIH por hacerme un tatuaje?
-    - puedo coger el vih al hacerme un tatuaje?
-    - me peudo infectar al hacerme un tatuaje?
-    - me puedo infectar si me he hagu un tatoo?
-    - si me hago un tatoo puedo contraer el vih?
-    - hay peligro al hacerse un tatuaje de coger el vih?
-    - existe la posibilidad de coger el virus al hacerme un tatuaje?
-    - ¿Puedo contagiarme si me hago un tatuaje?
-    - ¿Me puedo contagiar al hacerme un tatoo?
-    - ¿Puedo contraer el VIH por hacerme una perforación?
-    - puedo coger el virus al realizarme una perforacion?
-    - si me hago un pendiente puedo coger el vih?
-    - si me hago una perforacion me pueden pasar el vih?
-    - me puedo contagiar mientras me acen un pircing
-    - al hacerme un piercing puedo coger el virus?
-    - ¿Puedo contraer el VIH si me hago un piercing?
-    - ¿Puedo contraer el VIH si me hago un pendiente?
-    - ¿Puedo contagiarme al hacerme una perforación?
-    - ¿Me pueden pegar el virus si me hago un piercing?
-    - si no se limpian bien las agujas pueden pegarme el virus?
-    - puedo haberme infectado si me he hecho un tatuaje?
-    - puedo haberme infectado si me he hecho un piercing?
-    - son peligrosos los tatuajes?
-    - las perforacones pueden ser peligrosas?
-    - puedo coger el sida haciendome un pendiente?
-    - puedo coger el sida haciendome un tatoo?
-    - al hacerme un tatuaje puedo coger el sida?
-- intent: faq/alimentos
-  examples: |
-    - ¿Puedo contraer el VIH de los alimentos?
-    - puedo contaer el virus al comer ciertos alimentos?
-    - puedo contraer vih si como algo?
-    - puedo coger el virus si como un alimento infectado?
-    - el virus se puede transmitir por la comida?
-    - el virus se puede transmitir por los alimentos?
-    - los alimentos se pueden contaminar de vih?
-    - ¿Puedo contagiarme comiendo?
-    - puedo infectarme mientras como?
-    - puedo infectarme al comer algo en mal estado?
-    - ¿Pueden los alimentos tener VIH?
-    - pueden los alimentos contener el virus?
-    - se pueden contaminar los alimentos de vih?
-    - ¿Puedo infectarme por comer un alimento?
-    - podría coger la enfermedad o infectarme al comer?
-    - ¿Puedo contraer el virus si la comida tiene VIH?
-    - la comida puede tener vih?
-    - la comida puede contener el virus?
-    - puedo infectar a la comida?
-    - puedo infectar los alimentos?
-    - si me pela la fruta alguien con vih puedo infectarme?
-    - hay riesgo de coger el vih al comer comida de alguien con vih?
-    - si una persona con vih cocina, puede pergarselo a quienes lo coman?
-    - si alguien infecto prepara la comida, puede infectar quienes la coman?
-    - si tengo vih, puedo cocinar?
-    - puedo cocinar si estoy infectado o puedo contagiar?
-    - se podria contagiar si cocino para otras personas?
-    - si tengo vih puedo ser cocinero?
-    - puedo continuar cocinando si tengo vih?
-- intent: faq/inyectar_droga
-  examples: |
-    - ¿Puedo contraer el VIH por inyectarme drogas?
-    - puedo coger el virus si me pincho drogas?
-    - puedo infectarme al pincharme droga?
-    - si me pincho droga me puedo contagiar?
-    - al inyectarme droga corro riesgo de coger vih?
-    - si comparto agujas con mis amigos puedo infectarme?
-    - si me inyecto heroina puedo coger vih?
-    - ¿Puedo contraer el VIH inyectándome droga?
-    - ¿Puedo coger el VIH si me pincho caballo?
-    - me pincho mucho caballo, puedo coger el virus?
-    - ¿Puedo coger el VIH si me pincho heroína?
-    - me meto mucha heroina, hay riesgo de infectarme?
-    - me inyecto mucha heroina
-    - tomo heroina
-    - tomo caballo
-    - puedo cosumir heroina sin riesgo?
-    - que riesgo tiene tomar caballo?
-    - ¿Puedo contraer el VIH si tomo heroína?
-    - ¿Puedo contraer el VIH si tomo caballo?
-    - ¿Es el consumo de heroína un riesgo?
-    - puedo contraer vih al utilizar las mismas agujas que otra persona?
-    - si me pincho con la misma aguja que mi compi puedo pillar vih?
-    - si me pincho con una aguja que ya ha sido usada puedo coger el virus?
-    - si comparto las agujas con otros para meterme buena mierda peudo coger el virus?
-    - comparto las agujas con las que me inyecto
-    - me inyecto con agujas usadas
-    - utilizo agujas usadas
-    - utilizo agujas ya utilizadas
-    - me pincho con la misma aguja de otros amigos
-- intent: faq/drogas
-  examples: |
-    - ¿Puedo contraer el VIH por usar drogas?
-    - puedo pillar el vih por consumir droga?
-    - puedo coger el virus si me drogo?
-    - me puedo infectar por tomar droga?
-    - tengo riesgo de coger vih al consumir mucha droga?
-    - tengo riesgo de coger el virus si fumo canabis?
-    - puedo tener vih si fumo cannabis?
-    - puedo tener vih si fumo marihuana?
-    - puedo pillar el virus si fumo maria?
-    - puedo contagiarme por fumar porros?
-    - fumo maria
-    - fumo muchos porros
-    - puedo infectarme por fumar porros?
-    - si fumos porros puedo coger el vih?
-    - me puedo infectar por beber alcohol?
-    - puedo coger vih x emborracharme?
-    - puedo coger vih por emborracharme?
-    - hay riesgo de coger vih por beber mucho alcohol?
-    - existe algun riesgo si bebo mucho alcohol?
-    - si me meto mucha droga puedo coger el virus? 
-    - ¿Puedo coger el VIH consumiendo drogas?
-    - ¿Es el VIH un riesgo en el consumo de drogas?
-    - ¿Puedo contagiarme tomando drogas?
-    - ¿Me pueden pegar el VIH si tomo drogas?
-    - me pueden pegar el vih por compartir un porros?
-    - puedo coger el vih por comparitr un cubata?
-    - puedo coger el vih por compartir un cigarro?
-    - comprato los porros, hay riesho?
-    - comparto pitis y cubatas, puedo coger vih?
-    - podria pillar el virus al compartir los cubatas?
-    - puedo infectarme por fumar porros?
-    - puedo infectarme por fumar mariuana?
-    - puedo infectarme x fumar mariuana?
-    - podria infectarme al beber mucho alcohol?
-    - ¿Puedo contraer VIH si tomo drogas?
-- intent: faq/sexo_oral
-  examples: |
-    - ¿Puedo contraer el VIH mediante las relaciones sexuales orales?
-    - es posible contagiarse con el sexo oral?
-    - ¿Puedo contraer el VIH a través del sexo oral?
-    - puedi contraer el virus si mantengo relaciones sexuales orales?
-    - puedo contraer el virus si hago sexo oral?
-    - si practico mucho sexo oral puedo coger vih?
-    - con el sexo oral puedo infectarme de vih?
-    - si hago mucho sexo oral puedo pillar el virus?
-    - practico mucho sexo oral, existe algun riesgo?
-    - me gusta mucho el sexo oral, tengo miedo de coger algo
-    - puedo infectarme por chupar una polla?
-    - puedo coger el virus por xupar una poya?
-    - hay riesgo si chupo pollas sin condon?
-    - puedo coger el virus del vih por chupar una pollar sin condon?
-    - puedo infectarme por chupar un coño?
-    - puedo pillar el virus si me como un coño?
-    - puedo infectarme si mantengo sexo oral sin proteccion?
-    - hay riesgo de coger sida si mantego sexo oral sin proteccion? 
-    - me pueden transmitir el virus al chupar una polla?
-    - me pueden pegar el virus al xupar un coño?
-    - puedo hacaer mamsddas sin condon?
-    - las mamdas sin condon tienen riesgo?
-    - puedo infectarme por hacer una mamada?
-    - podria coger el virus al comerme un coño?
-    - podria infectarme de vih al comerme un coño?
-    - puedo contraer la enfermedad al comerme un culo?
-    - puedo contraer la enfermedad si me como un ano?
-    - hay riesgo de coger el virus al hacer un beso negro?
-    - ¿Qué probabilidad hay de contagiarse mediante sexo oral?
-    - ¿Me puedo contagiar haciendo sexo oral? 
-    - ¿Se puede transmitir el virus con el sexo oral?
-    - ¿Me puedo infectar realizando sexo oral?
-    - me puedo infectar mientras mantengo sexo oral? 
-- intent: faq/carga_viral_indetectable
-  examples: |
-    - ¿Una persona con carga viral indetectable puede contagiar el VIH?
-    - si una persona tiene una carg viral baja puedo contagiar?
-    - si tengo una crga viral indetectable puedo infectar a otro?
-    - con una cagra viral baja se puede transmitirel virus?
-    - es posible contagiar si se tiene una carga viral baja?
-    - se puede llegar a contagiar con una carga viral indectable?
-    - alguien con una crga viral baja podria llegar a contagiar?
-    - si una persona tiene una carga viral indetectable puede transmitir el vih?
-    - que riesgo hay de contagiar con una carga idetectable?
-    - que riesgo de contagio existe si psoeo una carga baja?
-    - si mi carga viral es indetectable, puedo contagiar a otros?
-    - si mi carga viral es muy baja, podria infectar a otras personas?
-    - puedo pillar vih si follo con alguien con carga viral indtectable?
-    - puedo transmitir el virus si tengo carga viral baja?
-    - con una carga viral indetectable, puedo transmitir el vih al follar?
-    - existe riesgo de transmision en personas con carga viral indetectable?
-    - hay riesgo de transmitir el virus o infectar con una carga viral inedtectable?
-    - me puedo contagiar por follar con alguien con carga viral indetectable?
-    - me podria contagiar por mantener sexo con alguien que tiene una carga viral indetectable?
-    - podria coger el virus por hacerlo con alguien que tiene una carga viral muy baja?
-    - ¿Puedo contagiar si tengo una carga viral indetectable?
-    - ¿Es posible transmitir el virus con carga viral indetectable?
-    - ¿Si tengo una carga viral indetectable puedo contagiar?
-    - ¿Es posible infectar a otra persona con una carga vira indetectable?
-    - Si tengo una crga viral indetectable ¿qué riesgo hay de contagio?
-- intent: faq/volver_a_infectarse
-  examples: |
-    - ¿Si ya tengo el VIH, puedo contraer otro tipo del VIH?
-    - si tengo el vih me peudo volver a infectar?
-    - si tengo el vih me peudo volver a contagiar?
-    - me puedo contagiar varias veces del vih?
-    - me puedo volver a contagiar?
-    - me puedo contagiar varais veces?
-    - si ya tengo el vih es posible volverlo a coger?
-    - puedo volver a coger el vih?
-    - puedo coger el ih por segunda vez?
-    - es posible contagiarse multiples veces?
-    - es posible coger el virus más de una vez?
-    - infectarse mas de una vez
-    - puedo contraer itri vih distinto?
-    - me puedo infectar de otro vih?
-    - puedo coger un vih totalmente distinto?
-    - si ya tengo vih, puedo infectarme de otro tipo de vih?
-- intent: faq/riesgo_lesbianas
-  examples: |
-    - ¿Están en riesgo de contraer el VIH las lesbianas o las mujeres que tienen relaciones sexuales con otras mujeres? 
-    - que riesgo de contagio tiene las lesbinas?
-    - si soy lesbiana, tiengo riesgo de contagio?
-    - si somos una pareja lesbiana podemos coger el vih?
-    - las lesbianas oueden coger el vih?
-    - las mujeres que follan con otras mujeres pueden infectarse?
-    - las lesbianas transmiten el virus?
-    - si somos lesbianas podemos transmitir el vih?
-    - que riesgo tengo de coger el vih si soy lesbiana
-    - probabilidad de infectarme si soy lesbiana
-    - probabiliad de coger el virus si son lesbianas 
+  - intent: como_contagia
+    examples: |
+      - ¿Cómo se contagia el VIH?
+      - ¿Cómo se transmite la infección por el VIH?
+      - ¿Cómo se pasa el VIH de una persona a otra?
+      - como se pasa el vih de una persona a otra?
+      - comos e pasa el virus de uno a otro?
+      - como se transmite el vih de una persona a otra?
+      - como se transmite la infeccion por vih?
+      - como se transfiere el vih
+      - como se realiza la transmisión de vih
+      - como funciona la transmision por vih
+      - como funciona la transmision x vih
+      - como se pega el vih
+      - ¿Cómo se pega el VIH?
+      - ¿Cómo se transmite VIH?
+      - como se transmite el vih
+      - no se como se se transmite el vih
+      - como se transmite el vih?
+      - ¿De que manera se contagia?
+      - como se transmite el virus?
+      - como se puede coger el virus?
+      - como se puede infectar uno del virus?
+      - como me puedo infectar del vih?
+      - como se transmite el sida?
+      - como se contagia el sida
+      - como es la transmisión del virus?
+      - no se como se transmite el vih?
+      - no sé cómo se transmite el virus
+      - explícame como se transmite el virus
+      - nos e muy bien como se pega el virus
+      - como puedo coger el virus?
+      - cómo puedo infectarme?
+      - Cuáles son las principales vías de contagio?
+      - cuales son las principales vias de contagio?
+      - que vias de contagio existen?
+      - qué vías de contagio existen
+      - Como me puedo contagiar de VIH?
+      - El unico medio de propagacion del vih es la sangre?
+      - por que medio se propaga el vih?
+      - cuál es el medio de propagación del vih?
+      - porque medio se propaga el vih?
+      - vias de contagio por las cuales se propaga
+      - Que capacidad de contagio tiene el VIH?
+      - ¿Se transmite mediante relaciones sexuales?
+      - el vih se transmite al mantener relaciones sexuales?
+      - el vih se transmite al hacer el amor?
+      - se transmite al follar?
+      - puedo coger vih al mantener relaciones sexuales?
+      - puedo pillarlo mientras follo?
+      - se transmite mientras follas?
+      - se transmite al mantener sexo?
+      - en el sexo, se puede contagiar el vih?
+      - Cuáles son las causas de contagio?
+      - Cómo se contrae el VIH?
+  - intent: faq/aire
+    examples: |
+      - ¿Se contagia el VIH por el aire?
+      - se puede contagiar el virus por el aire?
+      - me peudo infectar por el aire?
+      - me peudo infectar x el aire?
+      - me puedo infectar si me estornudan?
+      - el vih se contagia por el aire?
+      - se puedo coger vih x el aire?
+      - puedo contagiarme por el aire
+      - me pueden pegar el vih al estornudar?
+      - me pueden pegar el vih al toser?
+      - si me tosen puedo coger vih?
+      - si me estornudan encima puedo coger vih?
+      - ¿Se contagia a través del aire?
+      - se puede contagiar el vih por el aire
+      - el vih se puede contagiar a través del aire?
+      - ¿Se puede contagiar con un estornudo?
+      - al estornudar puedo contagiar de vih?
+      - ¿Es el aire una vía de contagio?
+      - ¿Se transmite por el aire?
+      - ¿Se transmite x el aire?
+      - existe la tranmisión aerea
+      - se puede transmitir de forma aérea?
+      - es posible la transmision aerea del virus?
+      - es posible coger el vih al respirar el mismo aire que un infectado?
+      - puedo evitar coger el vih con mascarilla?
+      - la mascarilla previene el contagio de vih?
+      - hay peligro de coger el vih por el aire?
+      - existe el riego de contagio aereo?
+      - me puedo contagiar si no llevo mascarilla?
+      - puedo coger el virus con un estornudo?
+      - puedo coger el virus a través de aire?
+      - el vih se transmite por el aire
+  - intent: faq/vertical
+    examples: |
+      - ¿Qué es la transmisión vertical?
+      - en que consiste la transmision vertical?
+      - hay transmision vertical?
+      - existe la transmision vertical?
+      - que me puedes decir de latransmisión perinatal
+      - que me puede sdecir de la transmisión vertical
+      - existe la transmision perinatal?
+      - hay riesgo de tranmsision vertical?
+      - existe la posibilidad de que haya transmisión vertical?
+      - q es la transmision vertical
+      - explciame que es la transmision vertical
+      - que es la transmision vertical
+      - qué es la transmisión perinatal
+      - explciame q es la transmision vertical
+      - explciame que es la transmision vertical
+      - no se qué es la transmisión vertical
+      - no tengo ni idea de que es la transmisión vertical
+      - ¿Que significa transmisión vertical?
+      - cuál es el significado de transmision vertical
+      - que quieres decir con transmisosn vertical?
+      - ¿Qué es la transmisión perinatal?
+      - q es la transmision perinatal
+      - no se que es la transmision perinatal
+      - me puede sexplciar qué es la transmision perinatal?
+      - que es la transmision perinatal
+      - explicame por favor que es la transmison perinatal
+      - ¿En que consiste la transmisión vertical?
+      - no se muy bien que significa la transmisin vertical
+      - Explícame que es la transmisosn vertical
+      - No sé lo que es la transmisión vertical
+  - intent: faq/evitar_veritcal
+    examples: |
+      - ¿Puede evitarse la transmisión vertical?
+      - se puede evitar la transmisosn vertical?
+      - se puede evitar la transmision perinatal?
+      - hay alguna maenra de evitar la transmisión vertical?
+      - hay alguna maenra de evitar la transmision perinatal?
+      - es posible evitar la transmision vertical?
+      - es posible evitar la transmision perinatal?
+      - es posible evitar la trasnmison a mis hijos?
+      - es posible evitar la transmisión a mis hijos?
+      - ¿Puedo evitar que mi bebé se infecte?
+      - podria evitar evitar que mi bebe se infecte?
+      - ¿Puedo evitar pasarlo a mis hijos?
+      - puedo evitar contagiar a mis hijos
+      - puedo evitar infectar a mis hijos
+      - ¿Puedo evitar pegar el virus a mis hijos
+      - ¿Puedo evitar contagiar a mis hijas?
+      - ¿Es posible evitar el contagio a mi niño?
+      - puedo evitar contagiar a mi niño?
+      - puedo evitar infectar a mis niños?
+      - como puedo evitar pegarselo a mis hijos
+      - como puedo evitar pegarselo a mis niñas
+      - quiero evitar pegarselo a mis niñas
+      - hay manera de evitar pegarselo a mis niñas?
+      - no quiero pegarles a mis hijos el vih
+      - no quiero pegarles a mis hijos el virus
+      - no quiero pegarles a mis hijas el virus
+      - puedo evitar infectar a mis hijas?
+      - tengo miedo de infectar a mis hijos
+      - tengo miedo de pegarles el virus a mis hijas
+      - como evito la transmision de madre a hijo?
+      - como puedo evitar la transision de la madre a mi hijo
+      - evitar trabsmisión de madre a hijos
+      - evitar transmision de padres a hijos
+      - evitar pasarlo de made a hijo
+      - como evitar pasarselo mis hijos
+      - no quiero que pase de madre a hijo
+      - no quiero que pase a mis hijos
+      - evitar la transmision a los hijos
+      - evitar la transmision a los niños
+      - ¿Cómo se evita que la madre contagie al bebé?
+      - como se evita que la madre pueda contagiar a su bebe?
+      - evitar que la madre contagie a su bebé
+      - evitar contagiar al bebe
+      - evitar el contagio de los bebes
+      - como puedo no contagiar a mi bebe?
+      - puedo evitar contagiar a mi bebe?
+  - intent: faq/fluidos
+    examples: |
+      - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
+      - ¿Se contagia a través del sudor, la saliva o las lágrimas?
+      - se puede contagiar por el sudor?
+      - me puedo contagiar con el sudor de otra persona?
+      - se puede cntagiar el virus con la sudor?
+      - se puede contaagiar el virus con la saliva?
+      - ¿Se transmite el VIH por la saliva?
+      - me puedo infectar por la saliva?
+      - me puedo infectar por la sudor?
+      - se transmite el virus por la saliva?
+      - se puede transmitir o pegar el virus por la saliva
+      - ¿Se transmite el VIH el sudor?
+      - ¿Se transmite el VIH por las lgrimas?
+      - ¿Se transmite el VIH por las lagrimas?
+      - ¿Puedo contagiarme besando?
+      - ¿Puedo contagiarme por dar un beso?
+      - podría contagiarme por besar?
+      - ¿Se transmite a través de la boca?
+      - si beso a otra persona puedo coger el vih?
+      - se transmite por la boca el virus?
+      - ¿Se pega besando?
+      - me puedo infectar si beso a una persona con vih?
+      - puedo coger el virus por besar a alguien positivo?
+      - puedo coger el virus por besar a alguien?
+      - puedo coger el virus por dar muchos besos?
+      - si me morreo puedo coger el virus?
+      - me puedo infectar si doy muchos besos?
+      - se transite por la saliva el virus?
+      - se puede transmitir el virus por medio de la saliva?
+      - se puede llegar a transmitir el virus con la saliva?
+      - se puede llegar a transmitir el virus con las lagrimas?
+      - Puedo contagiar el VIH si comparto cubiertos o vasos con otras personas?
+      - puedo contagiar al copartir cubiertos?
+      - se pede contagiar por comparir un vaso?
+      - por compartir un vaso me puedo infectar?
+      - Puedo transmitir el VIH a través de la saliva?
+      - Se transmite el vih por la saliba?
+  - intent: faq/escupir_aranyar
+    examples: |
+      - ¿Puedo contraer el VIH si una persona infectada me escupe o araña?
+      - puedo contraer el vih si me escupen?
+      - puedo contraer el vih si me arañan?
+      - me puedo contagiar por un escupitajo?
+      - si alguien me escupe me puede contagiar?
+      - me podria contagiar por un arañazo?
+      - si alguien me araña me puede pegar el virus?
+      - se puede transmitir el vih al arañar?
+      - si una persona me escupe me puede pasar el virus?
+      - si alguien con vih me araña o me escupe, me puedo infectar?
+  - intent: faq/insectos
+    examples: |
+      - ¿Pueden los mosquitos o las garrapatas contagiar el VIH?
+      - los mosquitos pegan el vih?
+      - los mosquitos contagian el vih?
+      - los mosquitos pueden infectar?
+      - se transmite a través de insectos chupadores?
+      - entonces los mosquitis pueden transmitir el virus
+      - pueden los mosquitos transmitir la enfermedad?
+      - si me pica un mosquito puedo coger el virus?
+      - si me pica un mosquito puedo coger el vih?
+      - si me pcia un insecto o garrapata me puedo contagiar?
+      - puedo coger el virus por la picadura de un mosquito?
+      - si un bicho me pica me puede contagiar el virus?
+      - se transmite con las picaduras de los bichos?
+      - puedo coger el virus por la picadura de una garrapata?
+      - ¿Los mosquitos contagian el VIH?
+      - ¿Los mosquitos transmiten el virus?
+      - ¿Las garrapatas transmiten el virus?
+      - ¿Los garrapatas contagian el VIH?
+      - ¿Pueden las pulgas contagiar el virus?
+      - las pulgas transmiten el virus?
+      - ¿Los insectos chupadores de sangre transmiten el virus?
+      - que insectos pueden transmitir la enfermedad
+      - los mosquitos peuden ser portadores de la enfermedad
+      - los mosquitos pueden provovar el virus?
+      - los mosquitos pueden pegar el VIH?
+      - los mosquitos pueden infectar de VIH?
+      - es posible que un mosquito me pegue el vih?
+  - intent: faq/wc
+    examples: |
+      - ¿Puedo contagiarme de VIH por usar el mismo WC que una persona con VIH?
+      - ¿Puedo contagiarme de VIH por usar el mismo baño que una persona con VIH?
+      - puedo contagiarme si uso el mismo vater que un infectado?
+      - podría llegar a coger el vih por compartir el baño con una persona que tiene vih?
+      - puedo llegar a coger el virus por compartir el baño con una persona que tiene vih?
+      - puedo infectarme por compartir el baño con una persona que tiene vih?
+      - si comparto el baño con una persona que tiene el vih, puedo infectarme?
+      - puedo contagiarme por compartir el wc?
+      - puedo contagiarme por compartir el mismo baño?
+      - puedo contagiarme por compartir el mismo vater?
+      - si comparto el mismo váter que una persona infectada, puedo coger el virus?
+      - podria contagiarme si uso el mismo vater o baño que alguien que tiene el virus?
+      - ¿Puedo contagiarme si uso el mismo váter que una persona con infectada?
+      - ¿Existe riesgo de contagio si utilizo el mismo inodoro que una persona con VIH?
+      - hay riesgo si comparto baño con alguien con vih?
+      - hay riesgo si comparto wc con alguien infectado
+      - hay peligro si comparto baño con alguien que tiene vih?
+      - al compartir baño con una persona infectada me lo puede pegar
+      - si utuilzo el mismo baño que un positivo puedo contagiarme?
+      - me puedo contagiar compartiendo baño con alqguien que es portador del vih?
+      - se transmite el vih mediante el vater?
+      - se transmite el vih mediante el wc?
+      - se puede transmitir el vih al utilzar el mismo baño que una persona con vih?
+  - intent: faq/tatuajes
+    examples: |
+      - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
+      - ¿Puedo contraer el VIH por hacerme un tatuaje?
+      - puedo coger el vih al hacerme un tatuaje?
+      - me peudo infectar al hacerme un tatuaje?
+      - me puedo infectar si me he hagu un tatoo?
+      - si me hago un tatoo puedo contraer el vih?
+      - hay peligro al hacerse un tatuaje de coger el vih?
+      - existe la posibilidad de coger el virus al hacerme un tatuaje?
+      - ¿Puedo contagiarme si me hago un tatuaje?
+      - ¿Me puedo contagiar al hacerme un tatoo?
+      - ¿Puedo contraer el VIH por hacerme una perforación?
+      - puedo coger el virus al realizarme una perforacion?
+      - si me hago un pendiente puedo coger el vih?
+      - si me hago una perforacion me pueden pasar el vih?
+      - me puedo contagiar mientras me acen un pircing
+      - al hacerme un piercing puedo coger el virus?
+      - ¿Puedo contraer el VIH si me hago un piercing?
+      - ¿Puedo contraer el VIH si me hago un pendiente?
+      - ¿Puedo contagiarme al hacerme una perforación?
+      - ¿Me pueden pegar el virus si me hago un piercing?
+      - si no se limpian bien las agujas pueden pegarme el virus?
+      - puedo haberme infectado si me he hecho un tatuaje?
+      - puedo haberme infectado si me he hecho un piercing?
+      - son peligrosos los tatuajes?
+      - las perforacones pueden ser peligrosas?
+      - puedo coger el sida haciendome un pendiente?
+      - puedo coger el sida haciendome un tatoo?
+      - al hacerme un tatuaje puedo coger el sida?
+  - intent: faq/alimentos
+    examples: |
+      - ¿Puedo contraer el VIH de los alimentos?
+      - puedo contaer el virus al comer ciertos alimentos?
+      - puedo contraer vih si como algo?
+      - puedo coger el virus si como un alimento infectado?
+      - el virus se puede transmitir por la comida?
+      - el virus se puede transmitir por los alimentos?
+      - los alimentos se pueden contaminar de vih?
+      - ¿Puedo contagiarme comiendo?
+      - puedo infectarme mientras como?
+      - puedo infectarme al comer algo en mal estado?
+      - ¿Pueden los alimentos tener VIH?
+      - pueden los alimentos contener el virus?
+      - se pueden contaminar los alimentos de vih?
+      - ¿Puedo infectarme por comer un alimento?
+      - podría coger la enfermedad o infectarme al comer?
+      - ¿Puedo contraer el virus si la comida tiene VIH?
+      - la comida puede tener vih?
+      - la comida puede contener el virus?
+      - puedo infectar a la comida?
+      - puedo infectar los alimentos?
+      - si me pela la fruta alguien con vih puedo infectarme?
+      - hay riesgo de coger el vih al comer comida de alguien con vih?
+      - si una persona con vih cocina, puede pergarselo a quienes lo coman?
+      - si alguien infecto prepara la comida, puede infectar quienes la coman?
+      - si tengo vih, puedo cocinar?
+      - puedo cocinar si estoy infectado o puedo contagiar?
+      - se podria contagiar si cocino para otras personas?
+      - si tengo vih puedo ser cocinero?
+      - puedo continuar cocinando si tengo vih?
+  - intent: faq/inyectar_droga
+    examples: |
+      - ¿Puedo contraer el VIH por inyectarme drogas?
+      - puedo coger el virus si me pincho drogas?
+      - puedo infectarme al pincharme droga?
+      - si me pincho droga me puedo contagiar?
+      - al inyectarme droga corro riesgo de coger vih?
+      - si comparto agujas con mis amigos puedo infectarme?
+      - si me inyecto heroina puedo coger vih?
+      - ¿Puedo contraer el VIH inyectándome droga?
+      - ¿Puedo coger el VIH si me pincho caballo?
+      - me pincho mucho caballo, puedo coger el virus?
+      - ¿Puedo coger el VIH si me pincho heroína?
+      - me meto mucha heroina, hay riesgo de infectarme?
+      - me inyecto mucha heroina
+      - tomo heroina
+      - tomo caballo
+      - puedo cosumir heroina sin riesgo?
+      - que riesgo tiene tomar caballo?
+      - ¿Puedo contraer el VIH si tomo heroína?
+      - ¿Puedo contraer el VIH si tomo caballo?
+      - ¿Es el consumo de heroína un riesgo?
+      - puedo contraer vih al utilizar las mismas agujas que otra persona?
+      - si me pincho con la misma aguja que mi compi puedo pillar vih?
+      - si me pincho con una aguja que ya ha sido usada puedo coger el virus?
+      - si comparto las agujas con otros para meterme buena mierda peudo coger el virus?
+      - comparto las agujas con las que me inyecto
+      - me inyecto con agujas usadas
+      - utilizo agujas usadas
+      - utilizo agujas ya utilizadas
+      - me pincho con la misma aguja de otros amigos
+  - intent: faq/drogas
+    examples: |
+      - ¿Puedo contraer el VIH por usar drogas?
+      - puedo pillar el vih por consumir droga?
+      - puedo coger el virus si me drogo?
+      - me puedo infectar por tomar droga?
+      - tengo riesgo de coger vih al consumir mucha droga?
+      - tengo riesgo de coger el virus si fumo canabis?
+      - puedo tener vih si fumo cannabis?
+      - puedo tener vih si fumo marihuana?
+      - puedo pillar el virus si fumo maria?
+      - puedo contagiarme por fumar porros?
+      - fumo maria
+      - fumo muchos porros
+      - puedo infectarme por fumar porros?
+      - si fumos porros puedo coger el vih?
+      - me puedo infectar por beber alcohol?
+      - puedo coger vih x emborracharme?
+      - puedo coger vih por emborracharme?
+      - hay riesgo de coger vih por beber mucho alcohol?
+      - existe algun riesgo si bebo mucho alcohol?
+      - si me meto mucha droga puedo coger el virus? 
+      - ¿Puedo coger el VIH consumiendo drogas?
+      - ¿Es el VIH un riesgo en el consumo de drogas?
+      - ¿Puedo contagiarme tomando drogas?
+      - ¿Me pueden pegar el VIH si tomo drogas?
+      - me pueden pegar el vih por compartir un porros?
+      - puedo coger el vih por comparitr un cubata?
+      - puedo coger el vih por compartir un cigarro?
+      - comprato los porros, hay riesho?
+      - comparto pitis y cubatas, puedo coger vih?
+      - podria pillar el virus al compartir los cubatas?
+      - puedo infectarme por fumar porros?
+      - puedo infectarme por fumar mariuana?
+      - puedo infectarme x fumar mariuana?
+      - podria infectarme al beber mucho alcohol?
+      - ¿Puedo contraer VIH si tomo drogas?
+  - intent: faq/sexo_oral
+    examples: |
+      - ¿Puedo contraer el VIH mediante las relaciones sexuales orales?
+      - es posible contagiarse con el sexo oral?
+      - ¿Puedo contraer el VIH a través del sexo oral?
+      - puedi contraer el virus si mantengo relaciones sexuales orales?
+      - puedo contraer el virus si hago sexo oral?
+      - si practico mucho sexo oral puedo coger vih?
+      - con el sexo oral puedo infectarme de vih?
+      - si hago mucho sexo oral puedo pillar el virus?
+      - practico mucho sexo oral, existe algun riesgo?
+      - me gusta mucho el sexo oral, tengo miedo de coger algo
+      - puedo infectarme por chupar una polla?
+      - puedo coger el virus por xupar una poya?
+      - hay riesgo si chupo pollas sin condon?
+      - puedo coger el virus del vih por chupar una pollar sin condon?
+      - puedo infectarme por chupar un coño?
+      - puedo pillar el virus si me como un coño?
+      - puedo infectarme si mantengo sexo oral sin proteccion?
+      - hay riesgo de coger sida si mantego sexo oral sin proteccion? 
+      - me pueden transmitir el virus al chupar una polla?
+      - me pueden pegar el virus al xupar un coño?
+      - puedo hacaer mamsddas sin condon?
+      - las mamdas sin condon tienen riesgo?
+      - puedo infectarme por hacer una mamada?
+      - podria coger el virus al comerme un coño?
+      - podria infectarme de vih al comerme un coño?
+      - puedo contraer la enfermedad al comerme un culo?
+      - puedo contraer la enfermedad si me como un ano?
+      - hay riesgo de coger el virus al hacer un beso negro?
+      - ¿Qué probabilidad hay de contagiarse mediante sexo oral?
+      - ¿Me puedo contagiar haciendo sexo oral? 
+      - ¿Se puede transmitir el virus con el sexo oral?
+      - ¿Me puedo infectar realizando sexo oral?
+      - me puedo infectar mientras mantengo sexo oral?
+  - intent: faq/carga_viral_indetectable
+    examples: |
+      - ¿Una persona con carga viral indetectable puede contagiar el VIH?
+      - si una persona tiene una carg viral baja puedo contagiar?
+      - si tengo una crga viral indetectable puedo infectar a otro?
+      - con una cagra viral baja se puede transmitirel virus?
+      - es posible contagiar si se tiene una carga viral baja?
+      - se puede llegar a contagiar con una carga viral indectable?
+      - alguien con una crga viral baja podria llegar a contagiar?
+      - si una persona tiene una carga viral indetectable puede transmitir el vih?
+      - que riesgo hay de contagiar con una carga idetectable?
+      - que riesgo de contagio existe si psoeo una carga baja?
+      - si mi carga viral es indetectable, puedo contagiar a otros?
+      - si mi carga viral es muy baja, podria infectar a otras personas?
+      - puedo pillar vih si follo con alguien con carga viral indtectable?
+      - puedo transmitir el virus si tengo carga viral baja?
+      - con una carga viral indetectable, puedo transmitir el vih al follar?
+      - existe riesgo de transmision en personas con carga viral indetectable?
+      - hay riesgo de transmitir el virus o infectar con una carga viral inedtectable?
+      - me puedo contagiar por follar con alguien con carga viral indetectable?
+      - me podria contagiar por mantener sexo con alguien que tiene una carga viral indetectable?
+      - podria coger el virus por hacerlo con alguien que tiene una carga viral muy baja?
+      - ¿Puedo contagiar si tengo una carga viral indetectable?
+      - ¿Es posible transmitir el virus con carga viral indetectable?
+      - ¿Si tengo una carga viral indetectable puedo contagiar?
+      - ¿Es posible infectar a otra persona con una carga vira indetectable?
+      - Si tengo una crga viral indetectable ¿qué riesgo hay de contagio?
+  - intent: faq/volver_a_infectarse
+    examples: |
+      - ¿Si ya tengo el VIH, puedo contraer otro tipo del VIH?
+      - si tengo el vih me peudo volver a infectar?
+      - si tengo el vih me peudo volver a contagiar?
+      - me puedo contagiar varias veces del vih?
+      - me puedo volver a contagiar?
+      - me puedo contagiar varais veces?
+      - si ya tengo el vih es posible volverlo a coger?
+      - puedo volver a coger el vih?
+      - puedo coger el ih por segunda vez?
+      - es posible contagiarse multiples veces?
+      - es posible coger el virus más de una vez?
+      - infectarse mas de una vez
+      - puedo contraer itri vih distinto?
+      - me puedo infectar de otro vih?
+      - puedo coger un vih totalmente distinto?
+      - si ya tengo vih, puedo infectarme de otro tipo de vih?
+  - intent: faq/riesgo_lesbianas
+    examples: |
+      - ¿Están en riesgo de contraer el VIH las lesbianas o las mujeres que tienen relaciones sexuales con otras mujeres? 
+      - que riesgo de contagio tiene las lesbinas?
+      - si soy lesbiana, tiengo riesgo de contagio?
+      - si somos una pareja lesbiana podemos coger el vih?
+      - las lesbianas oueden coger el vih?
+      - las mujeres que follan con otras mujeres pueden infectarse?
+      - las lesbianas transmiten el virus?
+      - si somos lesbianas podemos transmitir el vih?
+      - que riesgo tengo de coger el vih si soy lesbiana
+      - probabilidad de infectarme si soy lesbiana
+      - probabiliad de coger el virus si son lesbianas

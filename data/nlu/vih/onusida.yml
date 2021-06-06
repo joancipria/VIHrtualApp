@@ -1,30 +1,30 @@
 version: "2.0"
 
 nlu:
-- intent: faq/que_es_onusida
-  examples: |
-    - ¿Qué es ONUSIDA?
-    - ¿Qué es la ONU SIDA?
-    - ¿Qué es UNAIDS?
-    - No se que es ONUSIDA
-    - Dime que es ONUSIDA
-    - Explícame que es ONUSIDA
-    - Que organismo es la ONUSIDA
-- intent: faq/cuando_creo_onusida
-  examples: |
-    - ¿Cuándo se creó ONUSIDA?
-    - ¿Cuándo se fundó ONUSIDA?
-    - ¿En qué año se fundó la ONUSIDA?
-    - ¿Cuándo crearon ONUSIDA?
-    - ¿Cuándo se formó ONUSIDA?
-    - Año de fundación ONUSIDA
-- intent: faq/que_es_objetivo_90
-  examples: |
-    - ¿Qué es el 90-90-90?
-    - ¿Qué es el objetivo 90?
-    - ¿Cuál es el objetivo 90 90 90?
-    - ¿En qué consiste el objetivo 909090?
-    - Cúales son los objetivos 90
-    - Dime que es el objetivo 90
-    - Cúal es la meta 90
-    - Objetivo 90-90-90
+  - intent: faq/que_es_onusida
+    examples: |
+      - ¿Qué es ONUSIDA?
+      - ¿Qué es la ONU SIDA?
+      - ¿Qué es UNAIDS?
+      - No se que es ONUSIDA
+      - Dime que es ONUSIDA
+      - Explícame que es ONUSIDA
+      - Que organismo es la ONUSIDA
+  - intent: faq/cuando_creo_onusida
+    examples: |
+      - ¿Cuándo se creó ONUSIDA?
+      - ¿Cuándo se fundó ONUSIDA?
+      - ¿En qué año se fundó la ONUSIDA?
+      - ¿Cuándo crearon ONUSIDA?
+      - ¿Cuándo se formó ONUSIDA?
+      - Año de fundación ONUSIDA
+  - intent: faq/que_es_objetivo_90
+    examples: |
+      - ¿Qué es el 90-90-90?
+      - ¿Qué es el objetivo 90?
+      - ¿Cuál es el objetivo 90 90 90?
+      - ¿En qué consiste el objetivo 909090?
+      - Cúales son los objetivos 90
+      - Dime que es el objetivo 90
+      - Cúal es la meta 90
+      - Objetivo 90-90-90

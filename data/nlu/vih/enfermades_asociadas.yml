@@ -1,109 +1,109 @@
 version: "2.0"
 
 nlu:
-- intent: faq/que_es_infeccion_oportunista
-  examples: |
-    - ¿Qué es una infección oportunista?
-    - ¿Qué significa infección oportunista?
-    - ¿Qué se conoce como infección oportunista?
-    - Explícame la infección oportunista
-    - Dime qué es una infección frecuente
-    - No sé que es una infección que es oportunista
-- intent: faq/que_es_linfoma
-  examples: |
-    - ¿Qué es un linfoma?
-    - ¿Qué significa linfoma?
-    - ¿Qué se conoce como linfoma?
-    - Explicame que es un linfoma
-    - Dime qué es un linfoma
-    - No sé que es un linfoma
-- intent: faq/que_es_neumonia_pneumocystis
-  examples: |
-    - ¿Qué es la Neumonía por Pneumocystis jirovecii?
-    - ¿Qué es una neumonía de Pneumocystis?
-    - ¿Qué se conoce como neumonía pneumocystis?
-    - ¿Qué es una pulmonía pneumocystis?
-    - ¿Qué es una pulmonía jirovecii?
-    - Dime que es una pulmonía jirovecii?
-    - No sé que es una neumonía pneumocystis jirovecii
-- intent: faq/que_es_retinitis_citomegalovirus
-  examples: |
-    - ¿Qué es la Retinitis causada por citomegalovirus?
-    - ¿Qué es una retinitis por citomegalovirus?
-    - ¿Qué se conoce como retinitis citomegalovirus?
-    - ¿Qué es la retinitis?
-    - Dime que es la retinitis citomegalovirus
-    - No sé que es la citomegalovirus
-- intent: faq/que_es_sarcoma_kaposi
-  examples: |
-    - ¿Qué es el Sarcoma de Kaposi?
-    - ¿Qué es un sarcoma kaposi?
-    - ¿Qué se conoce como sarcoma?
-- intent: faq/que_es_sindrome_emaciacion
-  examples: |
-    - ¿Qué se conoce como síndrome de emaciación?
-    - ¿Qué es el síndrome de emaciación?
-- intent: faq/relacion_vih_cancer
-  examples: |
-    - ¿Cómo se relacionan el VIH y el sida con el cáncer?
-    - ¿Qué relación hay entre el sida y el cáncer?
-- intent: faq/eventos_no_sida
-  examples: | 
-    - ¿Qué son los eventos no sida?
-    - que son los eventos no sida?
-    - qué es un evento no sida?
-    - dime que es un evento no sida
-    - no se lo que es un evento no sida
-- intent: faq/tuberculosis
-  examples: |
-    - ¿Pueden las personas con VIH desarrollar tuberculosis?
-    - pueden las personas con vih tener tuberculosis?
-    - existe riego de desarrollar tuberculisis si tienes vih?
-    - puedo coger la tuberculosis si tengo vih?
-    - puedo infectarme de tuberculosis al tener vih?
-    - me puedo contagiar de tuberulosis si tengo sida?
-    - tengo mayor riesgo de coger la tuberculsosis al tener vih?
-    - si tengo vih puedo coger la tuberulosis?
-    - tuberculosis con vih
-    - tner tuberculosis cuando tienes sida
-- intent: faq/problemas_neurologicos
-  examples: |
-    - ¿Puede el VIH provocar daños neurológicos?
-    - el vih puede provicar daños neurologicos?
-    - el vih puede producir daños neurologicos?
-    - el vih produce daños neurologicos?
-    - el vih daña al cerebro?
-    - el vih afecta al cerebro?
-    - el vih ataca al cerebro?
-    - podria tener daños cerebrales por tener vih?
-    - puede el sida producir problemas neurologicos?
-    - puede el sida producir problemas mentales?
-    - el vih produce problemas mentales?
-    - es posible desarrollar problemas mentales por el vih?
-- intent: faq/covid_mas_facil
-  examples: |
-    - Una persona con VIH ¿puede infectarse más fácilmente por COVID19?
-    - alguien con vih se puede infectar mas facilmente de covid19?
-    - alguien con sida se puede infectar mas facilmente de covid?
-    - si tengo vih puedo coger el covid con más facilidad?
-    - tener vih facilita la infeccion por coronavirus?
-    - al tener vih puedo coger mas fácilmente el coronavirus?
-    - el vih hace que coger el corona virus sea mas facil?
-    - el sida hace que el covid19 sea mas facil de coger?
-    - coger el covid19 mas facilmente por el vih
-    - es posible coger el coronavirus por tener vih?
-    - al tener vih hay más riesgo de coger el coronavirus?
-    - al tener vih hay más riesgo de coger el covid?
-- intent: faq/covid_mas_agresiva
-  examples: |
-    - ¿Una persona seropositiva va a sufrir una infección por COVID19 más agresiva?
-    - alguien con vih sufirá una infeccion mas agresiva de covid19?
-    - alguien con vih tendrá ina infección mmáas fuerte de coronavirus?
-    - si tengo vih el coronavirus me puede sentar peor?
-    - al tener vih el covid me puede dar más fuerte?
-    - si tengo el vih el covid me dará más fuerte?
-    - la infeccion por covid es mas peligrosa en gente con vih?
-    - el covid es peor para la gente que tiene vih?
-    - el coronavirus es mas peligroso para la gente con vih?
-    - si tienes vih el coronavirus es peor?
-    - es más peligoroso el covid si tienes vih?s
+  - intent: faq/que_es_infeccion_oportunista
+    examples: |
+      - ¿Qué es una infección oportunista?
+      - ¿Qué significa infección oportunista?
+      - ¿Qué se conoce como infección oportunista?
+      - Explícame la infección oportunista
+      - Dime qué es una infección frecuente
+      - No sé que es una infección que es oportunista
+  - intent: faq/que_es_linfoma
+    examples: |
+      - ¿Qué es un linfoma?
+      - ¿Qué significa linfoma?
+      - ¿Qué se conoce como linfoma?
+      - Explicame que es un linfoma
+      - Dime qué es un linfoma
+      - No sé que es un linfoma
+  - intent: faq/que_es_neumonia_pneumocystis
+    examples: |
+      - ¿Qué es la Neumonía por Pneumocystis jirovecii?
+      - ¿Qué es una neumonía de Pneumocystis?
+      - ¿Qué se conoce como neumonía pneumocystis?
+      - ¿Qué es una pulmonía pneumocystis?
+      - ¿Qué es una pulmonía jirovecii?
+      - Dime que es una pulmonía jirovecii?
+      - No sé que es una neumonía pneumocystis jirovecii
+  - intent: faq/que_es_retinitis_citomegalovirus
+    examples: |
+      - ¿Qué es la Retinitis causada por citomegalovirus?
+      - ¿Qué es una retinitis por citomegalovirus?
+      - ¿Qué se conoce como retinitis citomegalovirus?
+      - ¿Qué es la retinitis?
+      - Dime que es la retinitis citomegalovirus
+      - No sé que es la citomegalovirus
+  - intent: faq/que_es_sarcoma_kaposi
+    examples: |
+      - ¿Qué es el Sarcoma de Kaposi?
+      - ¿Qué es un sarcoma kaposi?
+      - ¿Qué se conoce como sarcoma?
+  - intent: faq/que_es_sindrome_emaciacion
+    examples: |
+      - ¿Qué se conoce como síndrome de emaciación?
+      - ¿Qué es el síndrome de emaciación?
+  - intent: faq/relacion_vih_cancer
+    examples: |
+      - ¿Cómo se relacionan el VIH y el sida con el cáncer?
+      - ¿Qué relación hay entre el sida y el cáncer?
+  - intent: faq/eventos_no_sida
+    examples: |
+      - ¿Qué son los eventos no sida?
+      - que son los eventos no sida?
+      - qué es un evento no sida?
+      - dime que es un evento no sida
+      - no se lo que es un evento no sida
+  - intent: faq/tuberculosis
+    examples: |
+      - ¿Pueden las personas con VIH desarrollar tuberculosis?
+      - pueden las personas con vih tener tuberculosis?
+      - existe riego de desarrollar tuberculisis si tienes vih?
+      - puedo coger la tuberculosis si tengo vih?
+      - puedo infectarme de tuberculosis al tener vih?
+      - me puedo contagiar de tuberulosis si tengo sida?
+      - tengo mayor riesgo de coger la tuberculsosis al tener vih?
+      - si tengo vih puedo coger la tuberulosis?
+      - tuberculosis con vih
+      - tner tuberculosis cuando tienes sida
+  - intent: faq/problemas_neurologicos
+    examples: |
+      - ¿Puede el VIH provocar daños neurológicos?
+      - el vih puede provicar daños neurologicos?
+      - el vih puede producir daños neurologicos?
+      - el vih produce daños neurologicos?
+      - el vih daña al cerebro?
+      - el vih afecta al cerebro?
+      - el vih ataca al cerebro?
+      - podria tener daños cerebrales por tener vih?
+      - puede el sida producir problemas neurologicos?
+      - puede el sida producir problemas mentales?
+      - el vih produce problemas mentales?
+      - es posible desarrollar problemas mentales por el vih?
+  - intent: faq/covid_mas_facil
+    examples: |
+      - Una persona con VIH ¿puede infectarse más fácilmente por COVID19?
+      - alguien con vih se puede infectar mas facilmente de covid19?
+      - alguien con sida se puede infectar mas facilmente de covid?
+      - si tengo vih puedo coger el covid con más facilidad?
+      - tener vih facilita la infeccion por coronavirus?
+      - al tener vih puedo coger mas fácilmente el coronavirus?
+      - el vih hace que coger el corona virus sea mas facil?
+      - el sida hace que el covid19 sea mas facil de coger?
+      - coger el covid19 mas facilmente por el vih
+      - es posible coger el coronavirus por tener vih?
+      - al tener vih hay más riesgo de coger el coronavirus?
+      - al tener vih hay más riesgo de coger el covid?
+  - intent: faq/covid_mas_agresiva
+    examples: |
+      - ¿Una persona seropositiva va a sufrir una infección por COVID19 más agresiva?
+      - alguien con vih sufirá una infeccion mas agresiva de covid19?
+      - alguien con vih tendrá ina infección mmáas fuerte de coronavirus?
+      - si tengo vih el coronavirus me puede sentar peor?
+      - al tener vih el covid me puede dar más fuerte?
+      - si tengo el vih el covid me dará más fuerte?
+      - la infeccion por covid es mas peligrosa en gente con vih?
+      - el covid es peor para la gente que tiene vih?
+      - el coronavirus es mas peligroso para la gente con vih?
+      - si tienes vih el coronavirus es peor?
+      - es más peligoroso el covid si tienes vih?s

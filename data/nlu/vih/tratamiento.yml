@@ -1,122 +1,122 @@
 version: "2.0"
 
 nlu:
-- intent: existe_tratamiento
-  examples: |
-    - ¿Hay tratamiento para el VIH?
-    - ¿Existe tratamiento para el VIH?
-    - que tratamientos hay para el vih?
-    - que solucion existe para los que tienen vih?
-    - existe medicacion para el vih?
-    - y actualmente existe algun tratamiento?
-    - que taratmientos existen?
-    - q tartamientos existen para el vih?
-    - que medicación hay para el vih?
-    - sabes si existen medicinas para el vih?
-    - hay algun taratmiento efectivo para el VIH?
-    - se puede tratar el vih?
-    - q tartamientos hay para el vih?
-    - existe actualmente algun taratmiento para el vih?
-    - ay ya algún tratamiento para combatir el vih?
-    - existen medicinas para combatir el vih?
-    - que medicacion hay en la actualidad para el sida?
-    - que mediacmentos haya ctualmente para tratar el virus?
-    - ay tartamiento pata el vih?
-    - ay ya tartamiento para la enfermedad? 
-    - ay tratamiento para el sida?
-    - existen formas de tratar la infeccion?
-    - se puede tratar la infección?
-    - se puede tratar el virus?
-- intent: faq/en_que_consiste
-  examples: |
-    - ¿En qué consiste la terapia contra el virus?
-    - en que consiste el tratamiento contra el virus del vih? 
-    - ¿Cuál es la terapia para combatir el virus?
-    - cual es la terapia que se aplica para tratar el virus?
-    - como funciona la terapia contra el virus?
-    - en que consiste el tratamiento?
-    - como funciona el tratamiento
-    - como funciona exactamente el tratamiento contra el virus?
-    - en que consiste el tratamiento para combatir el virus?
-    - ¿En qué consiste el tratamiento contra el virus?
-    - ¿En qué consiste el tratamiento contra el VIH?
-    - ¿En qué se basa el tratamiento contra el virus?
-    - ¿En qué se basa la terapia para combatir el VIH?
-    - Cual es el tratamiento para el VIH?
-    - cuál es el tratamiento para combatir el vih?
-    - Que medicacion se proporciona para el tratamiento delVIH?
-    - qué medicacion da para el tratamiento del VIH?
-    - que medicación se da para el vih?
-    - que medicicacion se proporciona para el vih?
-    - que medicación se da a los enfermos por vih?
-    - que tratamiento reciben los enfermos de vih?
-    - com es el trtatmiento del vih
-    - Que tratamiento tiene el vih?
-    - qué tratamiento tiene el vih?
-    - que tratamientos hay contra esta enfermedad?
-- intent: faq/cuando_empezar
-  examples: |
-    - ¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?
-    - cuando debe empezar a tomar los medicamentos del vih?
-    - cuando es el momento de tomar la medicación contra el vih?
-    - ¿Cuándo se debe empezar a tomar los medicamentos contra el VIH?
-    - ¿Cuándo debo empezar a tomar las medicinas?
-    - ¿Cuándo debo empezar a medicarme para el VIH?
-- intent: faq/cuantos_farmacos
-  examples: |
-    - ¿Cuántos fármacos hay aprobados contra el VIH?
-    - ¿Qué tipo de fármacos hay para el VIH?
-    - ¿Cuántos fármacos hay para el VIH?
-    - ¿Cuántos fármacos hay aprobados para el VIH?
-    - ¿Qué fármacos hay para combatir el VIH?
-    - ¿Qué fármacos existen?
-- intent: faq/cuantos_medicamentos
-  examples: |
-    - ¿Cuántos tipos de medicamentos hay contra el VIH?
-    - ¿Qué tipos de medicamentos hay contra el VIH?
-    - ¿Cuántos medicamentos hay aprobados para el VIH?
-    - ¿Qué medicamentos hay para combatir el VIH?
-    - ¿Qué medicación existe?
-- intent: faq/que_es_efectos_secundarios
-  examples: |
-    - ¿Qué es un efecto secundario?
-    - ¿Qué son los efectos secundarios?
-    - ¿Qué significa efecto secundario?
-    - Explícame qué es un efecto secundario
-    - ¿Qué son efectos adversos?
-    - Explicación efectos secundarios
-    - No sé lo que es un efecto secundario
-- intent: faq/que_es_interaccion_entre_medicamentos
-  examples: |
-    - ¿Qué es una interacción entre medicamentos?
-    - ¿Que significa una interacción entre medicamentos?
-    - ¿En qué consiste una interacción entre medicamentos?
-    - ¿Qué es una interacción entre medicinas?
-    - ¿Qué es una interacción medicamentosa?
-    - Explicame que es una interacción entre medicamentos
-    - Reacción entre medicamentos
-    - No sé lo que es una interacción entre medicamentos
-- itent: faq/ensayos_clinicos
-  examples: |
-    - ¿Qué son los ensayos clínicos?
-    - que es un esnayo clinico?
-    - que son los ensayos clinicos
-    - explciame que es unensayo clínicos
-    - en que consisten los ensallos clinicos
-    - como se prueban los farmacos
-    - como se prueban los medicamentos
-    - se hacen ensayos clinicos?
-    - se tetean los medicamentos?
-    - como se testea la medicación?
-- intent: faq/tratamiento_adicional
-  examples: |
-    - ¿Qué otro tipo de asistencia necesitan las personas infectadas con el VIH?
-    - que otras asistencias puede requerir alguien con vih?
-    - que otro tipo de ayuda necesitan las personas con vih?
-    - qué tipo de ayuda adiconal pueden necesitar las personas con vih?
-    - a parte de la medicacion las peronas con vih tienen que seguir otro tratamiento?
-    - que tratamientos adiconales tiene que seguir las personas con vih?
-    - que otro tipo de asistencia pueden denecsitar als personas con vih?
-    - que otro tipo de ayudas necesitan las personas con vih
-    - otras ayudas que pueden neceseitar los afectados
-    - que ayudas adicionales puede necesitar alguien con vih
+  - intent: existe_tratamiento
+    examples: |
+      - ¿Hay tratamiento para el VIH?
+      - ¿Existe tratamiento para el VIH?
+      - que tratamientos hay para el vih?
+      - que solucion existe para los que tienen vih?
+      - existe medicacion para el vih?
+      - y actualmente existe algun tratamiento?
+      - que taratmientos existen?
+      - q tartamientos existen para el vih?
+      - que medicación hay para el vih?
+      - sabes si existen medicinas para el vih?
+      - hay algun taratmiento efectivo para el VIH?
+      - se puede tratar el vih?
+      - q tartamientos hay para el vih?
+      - existe actualmente algun taratmiento para el vih?
+      - ay ya algún tratamiento para combatir el vih?
+      - existen medicinas para combatir el vih?
+      - que medicacion hay en la actualidad para el sida?
+      - que mediacmentos haya ctualmente para tratar el virus?
+      - ay tartamiento pata el vih?
+      - ay ya tartamiento para la enfermedad? 
+      - ay tratamiento para el sida?
+      - existen formas de tratar la infeccion?
+      - se puede tratar la infección?
+      - se puede tratar el virus?
+  - intent: faq/en_que_consiste
+    examples: |
+      - ¿En qué consiste la terapia contra el virus?
+      - en que consiste el tratamiento contra el virus del vih? 
+      - ¿Cuál es la terapia para combatir el virus?
+      - cual es la terapia que se aplica para tratar el virus?
+      - como funciona la terapia contra el virus?
+      - en que consiste el tratamiento?
+      - como funciona el tratamiento
+      - como funciona exactamente el tratamiento contra el virus?
+      - en que consiste el tratamiento para combatir el virus?
+      - ¿En qué consiste el tratamiento contra el virus?
+      - ¿En qué consiste el tratamiento contra el VIH?
+      - ¿En qué se basa el tratamiento contra el virus?
+      - ¿En qué se basa la terapia para combatir el VIH?
+      - Cual es el tratamiento para el VIH?
+      - cuál es el tratamiento para combatir el vih?
+      - Que medicacion se proporciona para el tratamiento delVIH?
+      - qué medicacion da para el tratamiento del VIH?
+      - que medicación se da para el vih?
+      - que medicicacion se proporciona para el vih?
+      - que medicación se da a los enfermos por vih?
+      - que tratamiento reciben los enfermos de vih?
+      - com es el trtatmiento del vih
+      - Que tratamiento tiene el vih?
+      - qué tratamiento tiene el vih?
+      - que tratamientos hay contra esta enfermedad?
+  - intent: faq/cuando_empezar
+    examples: |
+      - ¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?
+      - cuando debe empezar a tomar los medicamentos del vih?
+      - cuando es el momento de tomar la medicación contra el vih?
+      - ¿Cuándo se debe empezar a tomar los medicamentos contra el VIH?
+      - ¿Cuándo debo empezar a tomar las medicinas?
+      - ¿Cuándo debo empezar a medicarme para el VIH?
+  - intent: faq/cuantos_farmacos
+    examples: |
+      - ¿Cuántos fármacos hay aprobados contra el VIH?
+      - ¿Qué tipo de fármacos hay para el VIH?
+      - ¿Cuántos fármacos hay para el VIH?
+      - ¿Cuántos fármacos hay aprobados para el VIH?
+      - ¿Qué fármacos hay para combatir el VIH?
+      - ¿Qué fármacos existen?
+  - intent: faq/cuantos_medicamentos
+    examples: |
+      - ¿Cuántos tipos de medicamentos hay contra el VIH?
+      - ¿Qué tipos de medicamentos hay contra el VIH?
+      - ¿Cuántos medicamentos hay aprobados para el VIH?
+      - ¿Qué medicamentos hay para combatir el VIH?
+      - ¿Qué medicación existe?
+  - intent: faq/que_es_efectos_secundarios
+    examples: |
+      - ¿Qué es un efecto secundario?
+      - ¿Qué son los efectos secundarios?
+      - ¿Qué significa efecto secundario?
+      - Explícame qué es un efecto secundario
+      - ¿Qué son efectos adversos?
+      - Explicación efectos secundarios
+      - No sé lo que es un efecto secundario
+  - intent: faq/que_es_interaccion_entre_medicamentos
+    examples: |
+      - ¿Qué es una interacción entre medicamentos?
+      - ¿Que significa una interacción entre medicamentos?
+      - ¿En qué consiste una interacción entre medicamentos?
+      - ¿Qué es una interacción entre medicinas?
+      - ¿Qué es una interacción medicamentosa?
+      - Explicame que es una interacción entre medicamentos
+      - Reacción entre medicamentos
+      - No sé lo que es una interacción entre medicamentos
+  - intent: faq/ensayos_clinicos
+    examples: |
+      - ¿Qué son los ensayos clínicos?
+      - que es un esnayo clinico?
+      - que son los ensayos clinicos
+      - explciame que es unensayo clínicos
+      - en que consisten los ensallos clinicos
+      - como se prueban los farmacos
+      - como se prueban los medicamentos
+      - se hacen ensayos clinicos?
+      - se tetean los medicamentos?
+      - como se testea la medicación?
+  - intent: faq/tratamiento_adicional
+    examples: |
+      - ¿Qué otro tipo de asistencia necesitan las personas infectadas con el VIH?
+      - que otras asistencias puede requerir alguien con vih?
+      - que otro tipo de ayuda necesitan las personas con vih?
+      - qué tipo de ayuda adiconal pueden necesitar las personas con vih?
+      - a parte de la medicacion las peronas con vih tienen que seguir otro tratamiento?
+      - que tratamientos adiconales tiene que seguir las personas con vih?
+      - que otro tipo de asistencia pueden denecsitar als personas con vih?
+      - que otro tipo de ayudas necesitan las personas con vih
+      - otras ayudas que pueden neceseitar los afectados
+      - que ayudas adicionales puede necesitar alguien con vih

@@ -1,177 +1,177 @@
 version: "2.0"
 nlu:
-- intent: fuera_de_ambito/no_castellano
-  examples: |
-    - What is HIV?
-    - What can you do?
-    - how are you
-    - what is this?
-    - who are you?
-    - Is this a bot?
-    - kalhmera sara ti kaneis
-    - kannst du auch deutsch?
-    - kannst du dies auch auf deutsch?
-    - oui je besoine de l'aide
-    - what is your name
-    - 你好
-    - kannst du mir helfen
-    - tu kaisi he
-    - こにちは
-    - 日本語分かる？
-    - 你好
-    - I'm speaking a non-english language.
-    - Don’t you speak English?!
-    - 呵呵
-    - 我该如何使用
-    - 你懂中文吗？
-    - 您好
-    - 你叫什么名字
-    - 你是谁
-    - 中文
-    - kya hindi me bat kar sakate ho
-    - Dumme sara
-    - αστεία λές
-    - 卧槽
-    - Guten Tag
-    - Danke, gut
-    - Wie geht’s?
-    - Ich heiße
-    - Bitte
-    - Dzień dobry 
-    - Cześć 
-    - Jak się masz? 
-    - Dziękuję, dobrze
-    - Jak masz na imię? 
-    - Dziękuję
-    - Hoe gaat het? 
-    - Hoe heet u?
-    - asshole 
+  - intent: fuera_de_ambito/no_castellano
+    examples: |
+      - What is HIV?
+      - What can you do?
+      - how are you
+      - what is this?
+      - who are you?
+      - Is this a bot?
+      - kalhmera sara ti kaneis
+      - kannst du auch deutsch?
+      - kannst du dies auch auf deutsch?
+      - oui je besoine de l'aide
+      - what is your name
+      - 你好
+      - kannst du mir helfen
+      - tu kaisi he
+      - こにちは
+      - 日本語分かる？
+      - 你好
+      - I'm speaking a non-english language.
+      - Don’t you speak English?!
+      - 呵呵
+      - 我该如何使用
+      - 你懂中文吗？
+      - 您好
+      - 你叫什么名字
+      - 你是谁
+      - 中文
+      - kya hindi me bat kar sakate ho
+      - Dumme sara
+      - αστεία λές
+      - 卧槽
+      - Guten Tag
+      - Danke, gut
+      - Wie geht’s?
+      - Ich heiße
+      - Bitte
+      - Dzień dobry 
+      - Cześć 
+      - Jak się masz? 
+      - Dziękuję, dobrze
+      - Jak masz na imię? 
+      - Dziękuję
+      - Hoe gaat het? 
+      - Hoe heet u?
+      - asshole
 
-- intent: fuera_de_ambito/otros
-  examples: |
-    - ¿Cúanto es 2 + 2?
-    - cuanto es 36 + 90
-    - dime cuanto es 3 mas threshold
-    - cuánto es 34 más 50
-    - suma 32 y 66
-    - resta 2 - 2
-    - resta 4 menos 4
-    - cuanto es 5 mas 6
-    - cuanto es 12 menos 16
-    - cual es el valor de 0
-    - Quiero pedir una pizza
-    - quiero una pizza
-    - quiero pedir comida a domicilio
-    - Quiero pedir una hamburguesa
-    - una burger porfi
-    - Quiero un kebab
-    - Cuéntame un chiste
-    - te estoy preguntando algo fuera de tu ámbito
-    - te pregunto algo que esta fuera de tu ambito
-    - estoy preguntandote algo fuera de tu conocimiento
-    - te pregunto algo que esta fuera de tu conocimiento
-    - esto lo tienes en tu base de datos?
-    - quiero pedir un taxi
-    - tengo hambre
-    - quiero pedir comida
-    - quiero casarme contigo
-    - casate conmigo
-    - quieres casarte conmigo?
-    - estas soltero?
-    - estas soltera
-    - quiero reservar en un restaurante
-    - pedir mesa en un restaurante
-    - recuerda mi nombre
-    - eres mejor que siri?
-    - eres mejor que alexa?
-    - que piensas de alexa
-    - que piensas de siri
-    - que piensas de google
-    - qué es la evolución
-    - que has comido hoy?
-    - llama a la policia
-    - bésame
-    - chupame la polla
-    - xupame la polla
-    - existen los reyes mago?
-    - papa noel existe?
-    - santa claus es real?
-    - eres parte de la matrix?
-    - ME recomiendas un restaurante?
-    - recomiendame un restaurante
-    - quiero pedir comida en un restaurante
-    - recomiendame un hotel
-    - Las constelaciones influyen en el carácter de la gente?
-    - Despues de esta pregunta, estaria bien mostrar alguna pregunta predefinida
-    - grrrr, me gustas
-    - tienes pene?
-    - tienes churri?
-    - Tienes novio?
-    - por qué te pareces a joan?
-    - qué llevas puesto?
-    - que llevas puesto?
-    - Dónde puedo comprar pizza?
-    - comprar pizza
-    - comprar kebab
-    - donde puede comprar kebab?
+  - intent: fuera_de_ambito/otros
+    examples: |
+      - ¿Cúanto es 2 + 2?
+      - cuanto es 36 + 90
+      - dime cuanto es 3 mas threshold
+      - cuánto es 34 más 50
+      - suma 32 y 66
+      - resta 2 - 2
+      - resta 4 menos 4
+      - cuanto es 5 mas 6
+      - cuanto es 12 menos 16
+      - cual es el valor de 0
+      - Quiero pedir una pizza
+      - quiero una pizza
+      - quiero pedir comida a domicilio
+      - Quiero pedir una hamburguesa
+      - una burger porfi
+      - Quiero un kebab
+      - Cuéntame un chiste
+      - te estoy preguntando algo fuera de tu ámbito
+      - te pregunto algo que esta fuera de tu ambito
+      - estoy preguntandote algo fuera de tu conocimiento
+      - te pregunto algo que esta fuera de tu conocimiento
+      - esto lo tienes en tu base de datos?
+      - quiero pedir un taxi
+      - tengo hambre
+      - quiero pedir comida
+      - quiero casarme contigo
+      - casate conmigo
+      - quieres casarte conmigo?
+      - estas soltero?
+      - estas soltera
+      - quiero reservar en un restaurante
+      - pedir mesa en un restaurante
+      - recuerda mi nombre
+      - eres mejor que siri?
+      - eres mejor que alexa?
+      - que piensas de alexa
+      - que piensas de siri
+      - que piensas de google
+      - qué es la evolución
+      - que has comido hoy?
+      - llama a la policia
+      - bésame
+      - chupame la polla
+      - xupame la polla
+      - existen los reyes mago?
+      - papa noel existe?
+      - santa claus es real?
+      - eres parte de la matrix?
+      - ME recomiendas un restaurante?
+      - recomiendame un restaurante
+      - quiero pedir comida en un restaurante
+      - recomiendame un hotel
+      - Las constelaciones influyen en el carácter de la gente?
+      - Despues de esta pregunta, estaria bien mostrar alguna pregunta predefinida
+      - grrrr, me gustas
+      - tienes pene?
+      - tienes churri?
+      - Tienes novio?
+      - por qué te pareces a joan?
+      - qué llevas puesto?
+      - que llevas puesto?
+      - Dónde puedo comprar pizza?
+      - comprar pizza
+      - comprar kebab
+      - donde puede comprar kebab?
 
-- intent: fuera_de_ambito/cumplidos
-  examples: |
-    - guapo
-    - eres guapo?
-    - eres una belleza
-    - eres muy guapo
-    - eres precioso
-    - estas muy bueno
-    - eres muy sexy
+  - intent: fuera_de_ambito/cumplidos
+    examples: |
+      - guapo
+      - eres guapo?
+      - eres una belleza
+      - eres muy guapo
+      - eres precioso
+      - estas muy bueno
+      - eres muy sexy
 
-- intent: fuera_de_ambito/insultos
-  examples: |
-    - hijo de puta
-    - hijo puta
-    - hijoputa
-    - hijaputa
-    - eres un hijo de puta
-    - ijo de puta
-    - hideputa
-    - eres gilipollas
-    - hijo de la gran puta
-    - gilipoya
-    - gilipollas
-    - jilipollas
-    - jilipoyas
-    - idiota
-    - eres muy idiota
-    - eres imbecil?
-    - eres un imbécil
-    - imbécil
-    - eres un poco imbécil
-    - so merluzo
-    - uh, gentuzo
-    - subnormal
-    - res un subnormal
-    - eres muy retrasado
-    - Bellaco
-    - Cafre
-    - eres muy cafre
-    - Capullo
-    - Cabrón
-    - cabron
-    - cabrona
-    - eres muy cabrón
-    - eres un mendrugo
-    - eres un mentecato
-    - eres un papanatas
-    - eres un pagafantas
-    - pagafantas
-    - pedazo de subnormal
-    - eeres un hijo de la gran puta
-    - me vas a comer los huevos
-    - me vas a comer la polla
-    - comeme el coño
-    - pedazo de idiota
-    - trozo de mierda
-    - eres un mierdas
-    - fill de puta
-    - eres subnormal?
-    - eres un subnormal
+  - intent: fuera_de_ambito/insultos
+    examples: |
+      - hijo de puta
+      - hijo puta
+      - hijoputa
+      - hijaputa
+      - eres un hijo de puta
+      - ijo de puta
+      - hideputa
+      - eres gilipollas
+      - hijo de la gran puta
+      - gilipoya
+      - gilipollas
+      - jilipollas
+      - jilipoyas
+      - idiota
+      - eres muy idiota
+      - eres imbecil?
+      - eres un imbécil
+      - imbécil
+      - eres un poco imbécil
+      - so merluzo
+      - uh, gentuzo
+      - subnormal
+      - res un subnormal
+      - eres muy retrasado
+      - Bellaco
+      - Cafre
+      - eres muy cafre
+      - Capullo
+      - Cabrón
+      - cabron
+      - cabrona
+      - eres muy cabrón
+      - eres un mendrugo
+      - eres un mentecato
+      - eres un papanatas
+      - eres un pagafantas
+      - pagafantas
+      - pedazo de subnormal
+      - eeres un hijo de la gran puta
+      - me vas a comer los huevos
+      - me vas a comer la polla
+      - comeme el coño
+      - pedazo de idiota
+      - trozo de mierda
+      - eres un mierdas
+      - fill de puta
+      - eres subnormal?
+      - eres un subnormal

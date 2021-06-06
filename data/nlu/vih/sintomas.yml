@@ -1,111 +1,111 @@
 version: "2.0"
 
 nlu:
-- intent: que_sintomas
-  examples: |
-    - ¿Qué síntomas muestra el VIH?
-    - que sintomas tiene el vih
-    - q síntomas muestra el vih
-    - sintomas el vih
-    - que sintomatologia muestra el vih
-    - que sintomas puece tener el vih
-    - q sintomatologia tiene el sida
-    - dime los sintomas que muestra el virus
-    - dime qué sintomas puede mostrar el vih
-    - que sintomas con caracteristicos del vih?
-    - que sintomas son comunes cuando se tiene vih?
-    - si tengo vih, que sintomas suele mostrar?
-    - si tengo vih, que sintomas suelen haber?
-    - que sintomas suelen haber cuando se tiene vih
-    - cuales son los sintomas más comunes del vih
-    - q sintomas son los mas comunes del sida
-    - no se que sintomas tiene el vih
-    - si una persona tiene vih, que sintomas suele mostrar?
-    - q síntomas muestra el virus 
-    - cuando te infectas, que sintomas tienes?
-    - que sintomas tiene una persona con vih?
-    - que siente una persona cuando coge el vih?
-    - que siente una persona cuand se infecta?
-    - cuando te infectas, que sintomas suelen aparecer?
-    - que sintomas son los más comunes cuando se coge vih
-    - cuales suelen ser los sitomas que muesta la enfermedad
-    - explciame cuales son los sintomas principales del vih
-    - sintomas principales del vih
-    - principal sintomatologia del vih
-    - que sintomas se suponen que presenta el vih
-    - cuales son los sintomas
-    - El vih tiene sintomas?
-    - El vih presenta sintomas?
-    - El dolor de cabeza puede ser un síntoma?
-    - puede ser el dolor de cabeza un sintoma?
-    - el dolor de cabeza es un sintoma
-    - si me duele la cabeza puede ser un sintoma de vih?
-    - Que sintomas produce el VIH?
-    - qué sintomas suele producir el vih?
-    - Cuáles son los síntomas?
-- intent: faq/vih_sin_sintomas
-  examples: |
-    - ¿Puedo tener VIH y no tener síntomas?
-    - Puedes ser una persona asintomática?
-    - puedo ser asintomatico y no saberlo?
-    - puedo tener vih y no saberlo?
-    - Se puede estar enfermo del VIH y no tener sintomas?
-    - puedo ser asintomático?
-    - se puede ser asintomatico
-    - existen los asintomaticos del vih?
-    - se peude tener vih y no tener sintomas?
-    - se puede tener sida sin sintomas?
-    - peudo tener vih asin notar nada?
-    - se puede tener sdia o vih y no notar nada?
-    - puedo tener vih y no mostrar ningun sintoma?
-    - tener el vih y no sentir dolor
-    - una persona podria tener el vih y no tener sintomas?
-    - tener el vih sin sintomas
-    - estar infectado sin notar nada
-    - tener el virus y no sentir nada
-    - coger el virus y no haber notao nada
-    - ¿Es posible tener VIH y no sentir nada?
-    - ¿Puedo haberme contagiado y no tener síntomas?
-    - tener sida sin sintomas
-    - es posible aue tenga el virus y yo no note nada?
-    - seria posible que alguien tuviera el vitus y no notase absolutamente nada?
-    - seria posible tener el virus sin sentir nada?
-    - crees qeu es posible haberse infectado y no saberlo?
-    - tener el virus sin saberlo
-    - tener el virus sin notarlo
-    - infectarse y no mostrar sintomas
-    - tener vih y no presentar sintomas de ningun tipo
-    - tener vih y no presentar ninguna sintomatologia
-    - estar infectado y no sentir nada
-    - puedo haberlo cogido y no sentir nada?
-    - me puedo haber infectado y no enterarme?
-    - haberme infectado y no notar nada
-    - haberlo cogido hace años sin notarlo
-- intent: faq/sintomas_externos
-  examples: |
-    - ¿Existen signos externos que nos hagan saber si una persona padece VIH?
-    - ¿Hay síntomas externos cuando se tiene VIH?
-    - hay sintomatologia externa cuando alguien tiene el sida?
-    - existe sintomatologia externa que nos pueda hacer ver si alguien tiene vih?
-    - existen sintomas externos que hagan ver cuando alguien tiene vih?
-    - por su aspecto fisico se puede ver cuando alguien tene vih?
-    - viendo su fisico, se puede saber si alguien tiene el sida?
-    - viendo su aspecto, se podria llegar a saber cuando alguien tiene el virus?
-    - se puede ver cuando alguien esta infectado?
-    - observando a alguien se puede ver si esta infectado?
-    - existen signos visuales que indiquen que alguien tiene vih?
-    - hay signos que indiquen cuando alguien tiene vih?
-    - cuando alguien tiene vih se le nota?
-    - se ve cuando alguien tiene vih?
-    - es posible ver si aparentemente alguien tiene vih?
-    - a simple vista se puede ver quien tiene vih?
-    - se puede ver a ojo si alguien sufre el sida?
-    - ¿A simple vista se puede ver si una persona tiene VIH?
-    - ¿Físicamente se ve si alguien tiene VIH?
-    - ¿Existen síntomas externos para saber si me he contagiado?
-    - Cómo puedo saber a simple vista quién tiene VIH
-    - como puedo saber a simole vista si si alguien tiene VIH
-    - ver a simple vista quien tiene sida
-    - Si una persona tiene VIH, se ve?
-    - Si una persona tiene VIH, se le nota?
-    - saber por su aspecto si tiene vih
+  - intent: que_sintomas
+    examples: |
+      - ¿Qué síntomas muestra el VIH?
+      - que sintomas tiene el vih
+      - q síntomas muestra el vih
+      - sintomas el vih
+      - que sintomatologia muestra el vih
+      - que sintomas puece tener el vih
+      - q sintomatologia tiene el sida
+      - dime los sintomas que muestra el virus
+      - dime qué sintomas puede mostrar el vih
+      - que sintomas con caracteristicos del vih?
+      - que sintomas son comunes cuando se tiene vih?
+      - si tengo vih, que sintomas suele mostrar?
+      - si tengo vih, que sintomas suelen haber?
+      - que sintomas suelen haber cuando se tiene vih
+      - cuales son los sintomas más comunes del vih
+      - q sintomas son los mas comunes del sida
+      - no se que sintomas tiene el vih
+      - si una persona tiene vih, que sintomas suele mostrar?
+      - q síntomas muestra el virus 
+      - cuando te infectas, que sintomas tienes?
+      - que sintomas tiene una persona con vih?
+      - que siente una persona cuando coge el vih?
+      - que siente una persona cuand se infecta?
+      - cuando te infectas, que sintomas suelen aparecer?
+      - que sintomas son los más comunes cuando se coge vih
+      - cuales suelen ser los sitomas que muesta la enfermedad
+      - explciame cuales son los sintomas principales del vih
+      - sintomas principales del vih
+      - principal sintomatologia del vih
+      - que sintomas se suponen que presenta el vih
+      - cuales son los sintomas
+      - El vih tiene sintomas?
+      - El vih presenta sintomas?
+      - El dolor de cabeza puede ser un síntoma?
+      - puede ser el dolor de cabeza un sintoma?
+      - el dolor de cabeza es un sintoma
+      - si me duele la cabeza puede ser un sintoma de vih?
+      - Que sintomas produce el VIH?
+      - qué sintomas suele producir el vih?
+      - Cuáles son los síntomas?
+  - intent: faq/vih_sin_sintomas
+    examples: |
+      - ¿Puedo tener VIH y no tener síntomas?
+      - Puedes ser una persona asintomática?
+      - puedo ser asintomatico y no saberlo?
+      - puedo tener vih y no saberlo?
+      - Se puede estar enfermo del VIH y no tener sintomas?
+      - puedo ser asintomático?
+      - se puede ser asintomatico
+      - existen los asintomaticos del vih?
+      - se peude tener vih y no tener sintomas?
+      - se puede tener sida sin sintomas?
+      - peudo tener vih asin notar nada?
+      - se puede tener sdia o vih y no notar nada?
+      - puedo tener vih y no mostrar ningun sintoma?
+      - tener el vih y no sentir dolor
+      - una persona podria tener el vih y no tener sintomas?
+      - tener el vih sin sintomas
+      - estar infectado sin notar nada
+      - tener el virus y no sentir nada
+      - coger el virus y no haber notao nada
+      - ¿Es posible tener VIH y no sentir nada?
+      - ¿Puedo haberme contagiado y no tener síntomas?
+      - tener sida sin sintomas
+      - es posible aue tenga el virus y yo no note nada?
+      - seria posible que alguien tuviera el vitus y no notase absolutamente nada?
+      - seria posible tener el virus sin sentir nada?
+      - crees qeu es posible haberse infectado y no saberlo?
+      - tener el virus sin saberlo
+      - tener el virus sin notarlo
+      - infectarse y no mostrar sintomas
+      - tener vih y no presentar sintomas de ningun tipo
+      - tener vih y no presentar ninguna sintomatologia
+      - estar infectado y no sentir nada
+      - puedo haberlo cogido y no sentir nada?
+      - me puedo haber infectado y no enterarme?
+      - haberme infectado y no notar nada
+      - haberlo cogido hace años sin notarlo
+  - intent: faq/sintomas_externos
+    examples: |
+      - ¿Existen signos externos que nos hagan saber si una persona padece VIH?
+      - ¿Hay síntomas externos cuando se tiene VIH?
+      - hay sintomatologia externa cuando alguien tiene el sida?
+      - existe sintomatologia externa que nos pueda hacer ver si alguien tiene vih?
+      - existen sintomas externos que hagan ver cuando alguien tiene vih?
+      - por su aspecto fisico se puede ver cuando alguien tene vih?
+      - viendo su fisico, se puede saber si alguien tiene el sida?
+      - viendo su aspecto, se podria llegar a saber cuando alguien tiene el virus?
+      - se puede ver cuando alguien esta infectado?
+      - observando a alguien se puede ver si esta infectado?
+      - existen signos visuales que indiquen que alguien tiene vih?
+      - hay signos que indiquen cuando alguien tiene vih?
+      - cuando alguien tiene vih se le nota?
+      - se ve cuando alguien tiene vih?
+      - es posible ver si aparentemente alguien tiene vih?
+      - a simple vista se puede ver quien tiene vih?
+      - se puede ver a ojo si alguien sufre el sida?
+      - ¿A simple vista se puede ver si una persona tiene VIH?
+      - ¿Físicamente se ve si alguien tiene VIH?
+      - ¿Existen síntomas externos para saber si me he contagiado?
+      - Cómo puedo saber a simple vista quién tiene VIH
+      - como puedo saber a simole vista si si alguien tiene VIH
+      - ver a simple vista quien tiene sida
+      - Si una persona tiene VIH, se ve?
+      - Si una persona tiene VIH, se le nota?
+      - saber por su aspecto si tiene vih

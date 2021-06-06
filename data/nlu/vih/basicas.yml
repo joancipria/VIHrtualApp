@@ -1,429 +1,429 @@
 version: "2.0"
 
 nlu:
-- intent: que_es_vih
-  examples: |
-    - ¿Qué significa VIH?
-    - Qué es el vih?
-    - no tengo muy claro que es el vih
-    - no tengo claro que esl el vih
-    - no tengo claro q significa el vih
-    - que es el vih
-    - que es vih
-    - que significa vih
-    - q es el vih
-    - qué es el vih
-    - que se supone que es el vih
-    - no se que es el vih
-    - dime qeue s el vih
-    - dime que es el vih
-    - no tengo ni idea de que es el vih
-    - q quiere de ir vih?
-    - que quierend ecir las suglas vih?
-    - que quieren decir las siglas vih?
-    - que significan las letras vih?
-    - de qué es el acrónimo vih?
-    - que significa el acronimo vih?
-    - dime que esl el vih?
-    - que es el virus de la inmunodeficiencia Humana?
-    - nos e que es el virus de la inmunodeficiencia humana
-    - dime que siginfica vih
-    - dime el significado del virus del vih
-    - que queire decir vih?
-    - que es el virus del vih?
-    - q significa vih
-    - que sgnfica vih
-    - qué significa VIH
-    - que significan las siglas VIH
-    - no se que significa VIH
-    - dime que significa VIH
-    - no sé el significado de VIH
-    - no sé lo que significan las siglas vih
-    - no se que quiere decir vih
-    - Me gustaría saber en qué consiste el vih
-    - en que consiste el vih
-    - quisiera saber que es el vih
-    - quiero saber en q consiste eso del vih
-- intent: cura_vih
-  examples: |
-    - ¿Existe cura para el VIH?
-    - existe alguna técnica para curar el sida?
-    - han inventado alguna cura para el vih?
-    - han inventado ya la cura para el sida?
-    - hay cura?
-    - existe cura?
-    - han inventado la cura?
-    - ya hay cura?
-    - sabrias decirme si ya hay cura?
-    - existe ya cura para el vih?
-    - ¿Hay cura para el vih?
-    - Existe cura para el Virus de la Inmunodeficiencia Humana?
-    - han descubierto cura para el VIH?
-    - se puede curar el vih?
-    - alguien con vih se puede llegar a curar?
-    - hay posibilidad de curar el vih?
-    - se puede curar el sida?
-    - ¿Se puede curar el Virus de la Inmunodeficiencia Humana?
-    - Han encontrado ya cura para el vih?
-    - que cura hay para el vih?
-    - alguien con sida se puede llegar a curar completamente?
-    - actualmente te puedes curar del sida?
-    - puedes llegar a curarte del vih?
-    - se puede llegar a eliminar el virus del cuerpo completamente?
-    - dime si hay alguna cura para el vih
-    - ya existe una cura para la enfermedad?
-    - que curas existen?
-    - explciame la cura del vih
-    - puede alguienr ecuperarse completamente del vih?
-    - te puedes recuperar completamente?
-    - se puede sanar el vih?
-    - se puede uno sanar del vih?
-    - sanar el sida
-    - sanar la enfermedad completamente
-    - rehabilitarse completamente de la enfermdedad
-    - tiene cura total el vih?
-    - tiene cura el vih?
-    - tiene cura el sida?
-    - como se cura elsida?
-    - Es posible eliminar el VIH del cuerpo?
-    - como se cura el vih?
-    - es posible eliminar completamete el vih?
-    - se puede eliminar comletamente el vih?
-    - se puede eliminar el virus del cuerpo?
-    - es posible expulsar el virus del cuerpo?
-    - es posible exulsar el vih?
-- intent: faq/como_actua_vih
-  examples: |
-    - ¿Cómo actúa el VIH?
-    - como se comporta el virus dentro del cuerpo?
-    - que hace el vih?
-    - q hace el virus en el cuerpo?
-    - que ace exactamente el virus?
-    - como procede el virus una ve dentro del cuerpo?
-    - que hace el virus dentro del cuerpo?
-    - cómo actúa el virus? 
-    - como actua el vih?
-    - como actua el vih dentro del cuerpo
-    - como actua el Virus de la Inmunodeficiencia Humana?
-    - como actua dentro del cuerpo el vih?
-    - ¿Cómo actúa el VIH en el cuerpo?
-    - como se comporta el virus vih en el cuerpo?
-    - como se comporta el virus? 
-    - ¿Cómo se comporta el Virus de la Inmunodeficiencia Humana?
-    - explicame que hace el virus
-    - exactamente como actúa el vih?
-    - dime como actúa el vih
-    - quiero saber como se comporta el virus de la inmunodeficiencia
-    - no sé como actua el Virus de la Inmunodeficiencia Humana
-    - quiero saber como actua el vih
-    - como se comporta el virus cuando te infectas
-    - que hace la infección
-    - que hace el virus una vez esta dentro
-    - que hace la enfermedad
-    - que hace el vih
-    - que hace el sida
-    - QUE PASA SI CONTRAIGO EL VIH
-    - q pasa si pillo el vih
-    - que pasa si che contraido el vih
-    - que pasa cuando contraes el vih
-    - que pasa en el cuerpo al contraer el vih?
-    - que prodice en el cuerpo el vih?
-    - que produce el vih?
-    - dime que produce el vih
-    - de que manera actua el vih?
-    - que pasa cuando una persona contrae el vih
-    - qué pasa cuando contraes el vih
-    - que pasa cuando coges el vih
-    - q pasa si coges el virus
-    - que pasa si te infectas
-- intent: faq/cual_es_el_origen
-  examples: |
-    - ¿Cuál es el origen del VIH?
-    - ¿cual es el origen del Virus de la Inmunodeficiencia Humana?
-    - dime cual es el orgien del vih
-    - dime donde surgio el vih
-    - dime, dónde surgió el vih?
-    - explciame cual es el origen del vih
-    - oye dime cual es el origen del vih
-    - explicame el origen del vih
-    - quiero saber cuañ es el orgien del Virus de la Inmunodeficiencia Humana
-    - ¿Dónde surgió el VIH?
-    - donde se econtró el vih por primera vez?
-    - ¿Dónde se originó el VIH?
-    - ¿En qué sitio se encontró el VIH?
-    - en que sitio se identifico primero el vih?
-    - y de donde viene el vih?
-    - ¿De dónde viene el VIH?
-    - y de donde salió el virus?
-    - como surgio el virus?
-    - ¿De dónde viene el virus?
-    - de donde coño salio el virus?
-    - cual es el origen del sida?
-    - de donde viene el virus?
-    - de donde se cree que viene el virus?
-    - en que sitio del mundo surgió el vih?
-    - en que pais surgió el virus?
-    - en que continente surgio el virus?
-    - de que sitio proviene el vih?
-    - de donde viene el virus?
-    - de que sitio proviene el vih?
-    - en que sitio se descubrió el virus?
-    - donde se descubrio
-- intent: faq/cuando
-  examples: |
-    - ¿Cuándo se originó el VIH?
-    - cuando se origino el virus?
-    - cuando se creó el virus?
-    - dime cuando se origina el sida
-    - explicame en que momento pasa el virus a los umanos
-    - dime que que siglo se crea el virus
-    - cuando surgio el virus?
-    - cuando fue creado el virus
-    - en que momentno se origino el vih?
-    - en que momento de la historia se origina el vih?
-    - en que momento historico se forma el vih?
-    - en que momento pasa de los monos a los huamnos?
-    - y cuando pasa de los simios a los humanos?
-    - en que año se crea el virus
-    - en que año se origina el vih
-    - en que siglo surge el vih?
-    - en que momento d ela historia surge el vih?
-    - cuandos e lo pegan los simios a las personas?
-    - en que momento paso el virus de los monos a las personas?
-    - cuando pasa de los simios a los humanos?
-    - cuando las personas se infectan de los monos?
-    - cuando se formó el virus del vih?
-    - cuando surgió el vih?
-    - cuando empieza a existir el virus
-    - no se cuando surge el vih
-    - no se en que año se orgina el virus
-    - cuando se origino el Virus de la Inmunodeficiencia Humana?
-- intent: faq/cuando_descubrimiento
-  examples: |
-    - ¿Cuándo se descubrió el VIH?
-    - cuando se descubrio el Virus de la Inmunodeficiencia Humana??
-    - cuando se decubre el sida
-    - cuando se descubre el virus?
-    - cuando se descubre al primer infectado?
-    - en que año se descubre el vih?
-    - en que año se descubre el virus?
-    - en que siglo se diagnostica al primer infectado?
-    - en que siglo se infectó la primera persona?
-    - en que momento se infecta el primer humano?
-    - siglo en el que se descubre el sida
-    - en que momento de la historia de descubre el vih?
-    - cuando se encuentra el vih?
-    - cuando se ve por primera vez al virus?
-    - cuando se detecta por primera vez el vih?
-    - cuando se le diagnostica a una persona vih por primera vez
-    - cuando se detecta en un humano el vih por primera vez
-    - primera vez que se detecta sida en una persona
-    - hace cuantos años que se descubiró el virus?
-    - cuanto hace que se descubrió el vih?
-    - cuanros años ace que se ha descubierto el virus?
-    - cuanto tiempo hace que se ha descubierto el vih?
-    - cuantos siglos hace que se descubrió el virus?
-    - ¿En qué humano se descubrió el VIH?
-    - en que persona se descubre el vih
-    - en que momento excatmente se ve que esxiste el vih
-    - cuando se observa la existencia de este virus
-    - ¿En qué momento se descubrió el VIH?
-    - Cuando se descubrió esta enfermedad?
-- intent: faq/personas_famosas_vih
-  examples: |
-    - ¿Qué personas famosas han tenido o tienen VIH?
-    - que gente famosa ha tenido el virus?
-    - que famosos tienen la enfermedad?
-    - que gente famosa tiene vih?
-    - ¿Qué famosos tienen VIH?
-    - ¿Qué gente famosa tiene VIH?
-    - ¿Qué personaje famoso ha contraído el VIH?
-    - que personajes famosos an contraido el virus?
-    - ¿Qué celebridades tienen VIH?
-    - dime que celebridades han tenido el virus
-    - celebridades que hayan dicho que tienen sida
-    - famosos que hayan dicho que tienen sida
-    - famosas que hayan dicho publicamente que tienen el sida
-    - actores famosos que tengan sida
-    - cantantes famosos con vih
-    - musicos famosos con sida
-    - deportistas famosas con vih
-    - que personas famosas han dicho que tiene vih?  
-    - ¿Hay personas famosas con VIH?
-    - ¿Qué personajes públicos tienen VIH?
-    - ¿Hay famosos con VIH?
-    - ¿Qué personas famosas tienen SIDA?
-    - ¿Qué famosos han declarado tener sida?
-    - ¿Hay famosos que han dicho que tienen sida?
-    - ¿Hay famosos que han dicho que tienen VIH?
-    - hay algun famoso que haya dicho que tiene vih?
-    - hay muchos famosos que tengan el virus?
-- intent: faq/sobrevive_fuera_vih
-  examples: |
-    - ¿Sobrevive el VIH fuera del cuerpo humano?
-    - sobrevivie el virus fuera del cuerpo?
-    - sobrevivie el virus fuera de la sangre?
-    - ¿Es capaz de sobrevivir el VIH fuera del cuerpo?
-    - es posible que sobreviva el virus fuera del cuerpo?
-    - seria posible que el virus sobreviviese estando fuera del cuerpo?
-    - puede el vih sobrevivir fuera de nuestro cuerpo?
-    - ¿Puede el virus sobrevivir fuera del cuerpo?
-    - ¿Cuánto tiempo sobrevive el virus fuera del cuerpo humano?
-    - cuanto tiempo puede sobrevivir el virus fuera del cuerpo
-    - cuanto tiempo puede sobrevivir el virus fuera de la sangre
-    - ¿Podría el VIH vivir fuera del cuerpo?
-    - podria el virus vivir fuera ne nuestro cuerpo?
-    - es posible que el virus sobrevivia fuera de la sangre?
-    - ¿Puede vivir el virus fuera del cuerpo?
-    - ¿Es posible que el virus viva fuera del cuerpo?
-    - Sería posible que el VIH sobreviva sin un cuerpo?
-    - sobrevivie el virus encima de superifcies?
-    - soobrevive el virus sobre las superifcies?
-    - el virus puede reproducirse fuera del cuerpo?
-    - el vih sobrevive cuando esta fuera del cuerpo?
-    - cuanto tiempo sobrevive el virus fuera del cuerpo?
-    - durante cunto tiempo puede vivir el virus fuera del cuerpo?
-    - el virus sobre una superficie ecuanto tiempo vive?
-    - cuanto tiempo puede estar el virus fura del cuerpo?
-    - cuanto tiempo puede estar el virus en una cuchilla?
-    - cuanto tiempo puede estar el virus en una aguja?
-    - cuanto tiempo puede sobrevivir el vih en una aguja?
-- intent: faq/que_es_latencia
-  examples: |
-    - ¿Qué es la latencia del VIH?
-    - q es la latencia del virus
-    - que es la latencia del vih
-    - no se que es la letencia del virus
-    - explicame la tencia de la enfermedad
-    - ¿Qué significa la latencia del VIH?
-    - que signnifica eso de latencia
-    - ¿Qué quiere decir la latencia del virus?
-    - que quieres decir con latencia del vih?
-    - ¿Qué quiere decir la latencia del VIH?
-    - que significa que el virus sigue latente?
-    - que quiere decir que el vih esta latente
-    - ¿Qué significa que el virus esta latente?
-    - que significa que el virus puede permanecer inactivo
-    - que quiere decir que el vih puede estar inactivo
-    - que es el periodo de inactividad del virus?
-    - que significa que el virus puede estar inacgivo?
-    - no se que que siginfica que el virus esta inactivo
-    - explicame que siggnifica que el virus esta latente
-    - se se que significa q el virus esta latente
-    - ¿A qué te refieres con latencia?
-    - que es el estado inactivo del virus
-    - a q te refieres con latencia?
-    - que quieres decir con latencua del vih?
-    - que es la latencia del virus o estar latente
-- intent: faq/que_es_etapa_1
-  examples: |
-    - ¿Qué es la etapa 1 de la infección por el VIH?
-    - que es la eatpa 1 del virus?
-    - q es la la primera etapa del vih?
-    - cual es la etapa 1 de la infeccion?
-    - ¿Qué es la etapa uno del VIH?
-    - ¿Qué es la etapa 1 del virus?
-    - ¿Cuál es la primera etapa del VIH?
-    - cual es la primera etapa del virus?
-    - q significa la etapa 1 del virus?
-    - como es la primera etapa de la enfermedad?
-    - cómo es la etapa uno del virus?
-    - que ocurre en la primera etapa?
-    - que caracteriza a la primera etapa?
-    - ¿Qué significa la etapa 1 de la infección?
-    - ¿Cuál es la 1 etapa de la infección de VIH?
-    - explciame la etapa 1
-    - explicame la primera etapa del vih
-    - en que consiste la primera etapa de la infección?
-    - como es la primera etapa del sida
-    - no se que es la primera etapa 
-    - cua es la primera fase del vih
-    - q es la fase 1 de la infección
-    - explciame la fase uno del vih
-    - cómo es la primera fase del virus?
-    - como es el primer tramo de la enfermedad
-- intent: faq/es_importante_saber_tengo_vih
-  examples: |
-    - ¿Es importante saber si tengo VIH?
-    - es conveniente que sepa si tengo virus?
-    - seria conveniente que sepa si tengo el virus?
-    - es fundamental sabr si tienes vih?
-    - seria muy conveniente saber cuando se tiene vih?
-    - es de vital importancia saber si tengo el virus?
-    - ¿Es importante saber si estoy infectado de VIH?
-    - ¿Crees que es importante que sepa si tengo VIH?
-    - ¿Sería importante saber si tengo VIH?
-    - ¿Cómo de importante es saber si tengo VIH?
-    - ¿Es importante que sepa si tengo VIH?
-    - ¿Es importante que sepa si me he infectado de VIH?
-    - ¿Qué importancia tiene saber si tengo VIH?
-    - como de importante es saber cuando tienes vih?
-    - q importancia tiene saver si tienes vih?
-    - que importancia tiene saber si tienes el virus?
-    - es importante conocer si tengo vih?
-    - es conveniente conocer cuando se tiene vih?
-    - crees q es conveniente saber si ste tiene vih?
-    - es importante saber si estas infectado del virus?
-    - crees que es importante conocer si te has infectado?
-    - como de importante es tener conocimiento sobre si te has infectado
-    - como de conveniente es saber si te han pegado el virus
-    - cómo de importante es saber con certeza si me han pegado el vih?
-    - importancia de saber con certeza si me cogido el vih?
-    - porque es importante saber si tienes vih?
-    - por que es importante saber si estas infectado?
-    - x q es importante saber si estoy infectado?
-- intent: faq/infeccion_aguda_vih
-  examples: |
-    - ¿Qué es la Infección aguda por el VIH?
-    - que es la infeccion aguda por el vih?
-    - que es una infeccion aguda de vih?
-    - que significa infeccion aguda de vih
-    - explicame infección aguda de vih
-    - que ocurre durante la infeccion aguda
-    - que fase es la de infeccion aguda
-    - que sucede en la infección aguda
-    - en que consiste la fase por infección aguda
-    - qué es la infeccion aguda por vih
-    - que pasa en la etapa aguda de infección
-- intent: faq/infeccion_cronica_vih
-  examples: |
-    - ¿Qué es la Infección crónica por el VIH?
-    - ¿Qué es la Infección cronica por el VIH?
-    - que es la infeccion cronica por el vih?
-    - que es una infeccion crónica de vih?
-    - que significa infeccion cronica de vih
-    - explicame infección cronica de vih
-    - que ocurre durante la infeccion crónica
-    - que fase es la de infeccion cronica
-    - que sucede en la infección cronica
-    - en que consiste la fase por infección crónica
-    - qué es la infeccion cronica por vih
-    - que pasa en la etapa cronica de infección
-- intent: faq/tipos_vih
-  examples: |
-    - ¿Cuántos tipos de VIH hay?
-    - cuantos tipos de vih existen?
-    - que tipos de vih existen?
-    - existen diferentes tipos de vih?
-    - hay distintos tipos de vih?
-    - que tipos de vih hay?
-    - qué clases de vih existen?
-    - existen distintas clases de vih?
-    - dime cuantos tipos de vih hay
-    - cuantos vih diferentes hay?
-- itent: faq/donar_sangre
-  examples: |
-    - ¿Una persona seropositiva puede donar sangre?
-    - alguien seropositivo puede hacer una donación de sangre?
-    - se puede donar sangre siendo seropositivo?
-    - se puede donar sangre si eres positivo?
-    - si tengos ida puedo donar sangre?
-    - si tengo vih puedo donar sangre
-    - donar sangre siendo positivo
-    - se puede donar sangre con vih?
-    - si soy seropositivo puedo donar sangre?
-    - puedo donar sangre teniendo vih?
-    - puedo donar sangre siendo positivo?
-    - podría donar sangre si soy positivo?
-    - podría donar sangre si tengo vih?
-    - teniendo vih se puede donar sangre?
+  - intent: que_es_vih
+    examples: |
+      - ¿Qué significa VIH?
+      - Qué es el vih?
+      - no tengo muy claro que es el vih
+      - no tengo claro que esl el vih
+      - no tengo claro q significa el vih
+      - que es el vih
+      - que es vih
+      - que significa vih
+      - q es el vih
+      - qué es el vih
+      - que se supone que es el vih
+      - no se que es el vih
+      - dime qeue s el vih
+      - dime que es el vih
+      - no tengo ni idea de que es el vih
+      - q quiere de ir vih?
+      - que quierend ecir las suglas vih?
+      - que quieren decir las siglas vih?
+      - que significan las letras vih?
+      - de qué es el acrónimo vih?
+      - que significa el acronimo vih?
+      - dime que esl el vih?
+      - que es el virus de la inmunodeficiencia Humana?
+      - nos e que es el virus de la inmunodeficiencia humana
+      - dime que siginfica vih
+      - dime el significado del virus del vih
+      - que queire decir vih?
+      - que es el virus del vih?
+      - q significa vih
+      - que sgnfica vih
+      - qué significa VIH
+      - que significan las siglas VIH
+      - no se que significa VIH
+      - dime que significa VIH
+      - no sé el significado de VIH
+      - no sé lo que significan las siglas vih
+      - no se que quiere decir vih
+      - Me gustaría saber en qué consiste el vih
+      - en que consiste el vih
+      - quisiera saber que es el vih
+      - quiero saber en q consiste eso del vih
+  - intent: cura_vih
+    examples: |
+      - ¿Existe cura para el VIH?
+      - existe alguna técnica para curar el sida?
+      - han inventado alguna cura para el vih?
+      - han inventado ya la cura para el sida?
+      - hay cura?
+      - existe cura?
+      - han inventado la cura?
+      - ya hay cura?
+      - sabrias decirme si ya hay cura?
+      - existe ya cura para el vih?
+      - ¿Hay cura para el vih?
+      - Existe cura para el Virus de la Inmunodeficiencia Humana?
+      - han descubierto cura para el VIH?
+      - se puede curar el vih?
+      - alguien con vih se puede llegar a curar?
+      - hay posibilidad de curar el vih?
+      - se puede curar el sida?
+      - ¿Se puede curar el Virus de la Inmunodeficiencia Humana?
+      - Han encontrado ya cura para el vih?
+      - que cura hay para el vih?
+      - alguien con sida se puede llegar a curar completamente?
+      - actualmente te puedes curar del sida?
+      - puedes llegar a curarte del vih?
+      - se puede llegar a eliminar el virus del cuerpo completamente?
+      - dime si hay alguna cura para el vih
+      - ya existe una cura para la enfermedad?
+      - que curas existen?
+      - explciame la cura del vih
+      - puede alguienr ecuperarse completamente del vih?
+      - te puedes recuperar completamente?
+      - se puede sanar el vih?
+      - se puede uno sanar del vih?
+      - sanar el sida
+      - sanar la enfermedad completamente
+      - rehabilitarse completamente de la enfermdedad
+      - tiene cura total el vih?
+      - tiene cura el vih?
+      - tiene cura el sida?
+      - como se cura elsida?
+      - Es posible eliminar el VIH del cuerpo?
+      - como se cura el vih?
+      - es posible eliminar completamete el vih?
+      - se puede eliminar comletamente el vih?
+      - se puede eliminar el virus del cuerpo?
+      - es posible expulsar el virus del cuerpo?
+      - es posible exulsar el vih?
+  - intent: faq/como_actua_vih
+    examples: |
+      - ¿Cómo actúa el VIH?
+      - como se comporta el virus dentro del cuerpo?
+      - que hace el vih?
+      - q hace el virus en el cuerpo?
+      - que ace exactamente el virus?
+      - como procede el virus una ve dentro del cuerpo?
+      - que hace el virus dentro del cuerpo?
+      - cómo actúa el virus? 
+      - como actua el vih?
+      - como actua el vih dentro del cuerpo
+      - como actua el Virus de la Inmunodeficiencia Humana?
+      - como actua dentro del cuerpo el vih?
+      - ¿Cómo actúa el VIH en el cuerpo?
+      - como se comporta el virus vih en el cuerpo?
+      - como se comporta el virus? 
+      - ¿Cómo se comporta el Virus de la Inmunodeficiencia Humana?
+      - explicame que hace el virus
+      - exactamente como actúa el vih?
+      - dime como actúa el vih
+      - quiero saber como se comporta el virus de la inmunodeficiencia
+      - no sé como actua el Virus de la Inmunodeficiencia Humana
+      - quiero saber como actua el vih
+      - como se comporta el virus cuando te infectas
+      - que hace la infección
+      - que hace el virus una vez esta dentro
+      - que hace la enfermedad
+      - que hace el vih
+      - que hace el sida
+      - QUE PASA SI CONTRAIGO EL VIH
+      - q pasa si pillo el vih
+      - que pasa si che contraido el vih
+      - que pasa cuando contraes el vih
+      - que pasa en el cuerpo al contraer el vih?
+      - que prodice en el cuerpo el vih?
+      - que produce el vih?
+      - dime que produce el vih
+      - de que manera actua el vih?
+      - que pasa cuando una persona contrae el vih
+      - qué pasa cuando contraes el vih
+      - que pasa cuando coges el vih
+      - q pasa si coges el virus
+      - que pasa si te infectas
+  - intent: faq/cual_es_el_origen
+    examples: |
+      - ¿Cuál es el origen del VIH?
+      - ¿cual es el origen del Virus de la Inmunodeficiencia Humana?
+      - dime cual es el orgien del vih
+      - dime donde surgio el vih
+      - dime, dónde surgió el vih?
+      - explciame cual es el origen del vih
+      - oye dime cual es el origen del vih
+      - explicame el origen del vih
+      - quiero saber cuañ es el orgien del Virus de la Inmunodeficiencia Humana
+      - ¿Dónde surgió el VIH?
+      - donde se econtró el vih por primera vez?
+      - ¿Dónde se originó el VIH?
+      - ¿En qué sitio se encontró el VIH?
+      - en que sitio se identifico primero el vih?
+      - y de donde viene el vih?
+      - ¿De dónde viene el VIH?
+      - y de donde salió el virus?
+      - como surgio el virus?
+      - ¿De dónde viene el virus?
+      - de donde coño salio el virus?
+      - cual es el origen del sida?
+      - de donde viene el virus?
+      - de donde se cree que viene el virus?
+      - en que sitio del mundo surgió el vih?
+      - en que pais surgió el virus?
+      - en que continente surgio el virus?
+      - de que sitio proviene el vih?
+      - de donde viene el virus?
+      - de que sitio proviene el vih?
+      - en que sitio se descubrió el virus?
+      - donde se descubrio
+  - intent: faq/cuando
+    examples: |
+      - ¿Cuándo se originó el VIH?
+      - cuando se origino el virus?
+      - cuando se creó el virus?
+      - dime cuando se origina el sida
+      - explicame en que momento pasa el virus a los umanos
+      - dime que que siglo se crea el virus
+      - cuando surgio el virus?
+      - cuando fue creado el virus
+      - en que momentno se origino el vih?
+      - en que momento de la historia se origina el vih?
+      - en que momento historico se forma el vih?
+      - en que momento pasa de los monos a los huamnos?
+      - y cuando pasa de los simios a los humanos?
+      - en que año se crea el virus
+      - en que año se origina el vih
+      - en que siglo surge el vih?
+      - en que momento d ela historia surge el vih?
+      - cuandos e lo pegan los simios a las personas?
+      - en que momento paso el virus de los monos a las personas?
+      - cuando pasa de los simios a los humanos?
+      - cuando las personas se infectan de los monos?
+      - cuando se formó el virus del vih?
+      - cuando surgió el vih?
+      - cuando empieza a existir el virus
+      - no se cuando surge el vih
+      - no se en que año se orgina el virus
+      - cuando se origino el Virus de la Inmunodeficiencia Humana?
+  - intent: faq/cuando_descubrimiento
+    examples: |
+      - ¿Cuándo se descubrió el VIH?
+      - cuando se descubrio el Virus de la Inmunodeficiencia Humana??
+      - cuando se decubre el sida
+      - cuando se descubre el virus?
+      - cuando se descubre al primer infectado?
+      - en que año se descubre el vih?
+      - en que año se descubre el virus?
+      - en que siglo se diagnostica al primer infectado?
+      - en que siglo se infectó la primera persona?
+      - en que momento se infecta el primer humano?
+      - siglo en el que se descubre el sida
+      - en que momento de la historia de descubre el vih?
+      - cuando se encuentra el vih?
+      - cuando se ve por primera vez al virus?
+      - cuando se detecta por primera vez el vih?
+      - cuando se le diagnostica a una persona vih por primera vez
+      - cuando se detecta en un humano el vih por primera vez
+      - primera vez que se detecta sida en una persona
+      - hace cuantos años que se descubiró el virus?
+      - cuanto hace que se descubrió el vih?
+      - cuanros años ace que se ha descubierto el virus?
+      - cuanto tiempo hace que se ha descubierto el vih?
+      - cuantos siglos hace que se descubrió el virus?
+      - ¿En qué humano se descubrió el VIH?
+      - en que persona se descubre el vih
+      - en que momento excatmente se ve que esxiste el vih
+      - cuando se observa la existencia de este virus
+      - ¿En qué momento se descubrió el VIH?
+      - Cuando se descubrió esta enfermedad?
+  - intent: faq/personas_famosas_vih
+    examples: |
+      - ¿Qué personas famosas han tenido o tienen VIH?
+      - que gente famosa ha tenido el virus?
+      - que famosos tienen la enfermedad?
+      - que gente famosa tiene vih?
+      - ¿Qué famosos tienen VIH?
+      - ¿Qué gente famosa tiene VIH?
+      - ¿Qué personaje famoso ha contraído el VIH?
+      - que personajes famosos an contraido el virus?
+      - ¿Qué celebridades tienen VIH?
+      - dime que celebridades han tenido el virus
+      - celebridades que hayan dicho que tienen sida
+      - famosos que hayan dicho que tienen sida
+      - famosas que hayan dicho publicamente que tienen el sida
+      - actores famosos que tengan sida
+      - cantantes famosos con vih
+      - musicos famosos con sida
+      - deportistas famosas con vih
+      - que personas famosas han dicho que tiene vih?  
+      - ¿Hay personas famosas con VIH?
+      - ¿Qué personajes públicos tienen VIH?
+      - ¿Hay famosos con VIH?
+      - ¿Qué personas famosas tienen SIDA?
+      - ¿Qué famosos han declarado tener sida?
+      - ¿Hay famosos que han dicho que tienen sida?
+      - ¿Hay famosos que han dicho que tienen VIH?
+      - hay algun famoso que haya dicho que tiene vih?
+      - hay muchos famosos que tengan el virus?
+  - intent: faq/sobrevive_fuera_vih
+    examples: |
+      - ¿Sobrevive el VIH fuera del cuerpo humano?
+      - sobrevivie el virus fuera del cuerpo?
+      - sobrevivie el virus fuera de la sangre?
+      - ¿Es capaz de sobrevivir el VIH fuera del cuerpo?
+      - es posible que sobreviva el virus fuera del cuerpo?
+      - seria posible que el virus sobreviviese estando fuera del cuerpo?
+      - puede el vih sobrevivir fuera de nuestro cuerpo?
+      - ¿Puede el virus sobrevivir fuera del cuerpo?
+      - ¿Cuánto tiempo sobrevive el virus fuera del cuerpo humano?
+      - cuanto tiempo puede sobrevivir el virus fuera del cuerpo
+      - cuanto tiempo puede sobrevivir el virus fuera de la sangre
+      - ¿Podría el VIH vivir fuera del cuerpo?
+      - podria el virus vivir fuera ne nuestro cuerpo?
+      - es posible que el virus sobrevivia fuera de la sangre?
+      - ¿Puede vivir el virus fuera del cuerpo?
+      - ¿Es posible que el virus viva fuera del cuerpo?
+      - Sería posible que el VIH sobreviva sin un cuerpo?
+      - sobrevivie el virus encima de superifcies?
+      - soobrevive el virus sobre las superifcies?
+      - el virus puede reproducirse fuera del cuerpo?
+      - el vih sobrevive cuando esta fuera del cuerpo?
+      - cuanto tiempo sobrevive el virus fuera del cuerpo?
+      - durante cunto tiempo puede vivir el virus fuera del cuerpo?
+      - el virus sobre una superficie ecuanto tiempo vive?
+      - cuanto tiempo puede estar el virus fura del cuerpo?
+      - cuanto tiempo puede estar el virus en una cuchilla?
+      - cuanto tiempo puede estar el virus en una aguja?
+      - cuanto tiempo puede sobrevivir el vih en una aguja?
+  - intent: faq/que_es_latencia
+    examples: |
+      - ¿Qué es la latencia del VIH?
+      - q es la latencia del virus
+      - que es la latencia del vih
+      - no se que es la letencia del virus
+      - explicame la tencia de la enfermedad
+      - ¿Qué significa la latencia del VIH?
+      - que signnifica eso de latencia
+      - ¿Qué quiere decir la latencia del virus?
+      - que quieres decir con latencia del vih?
+      - ¿Qué quiere decir la latencia del VIH?
+      - que significa que el virus sigue latente?
+      - que quiere decir que el vih esta latente
+      - ¿Qué significa que el virus esta latente?
+      - que significa que el virus puede permanecer inactivo
+      - que quiere decir que el vih puede estar inactivo
+      - que es el periodo de inactividad del virus?
+      - que significa que el virus puede estar inacgivo?
+      - no se que que siginfica que el virus esta inactivo
+      - explicame que siggnifica que el virus esta latente
+      - se se que significa q el virus esta latente
+      - ¿A qué te refieres con latencia?
+      - que es el estado inactivo del virus
+      - a q te refieres con latencia?
+      - que quieres decir con latencua del vih?
+      - que es la latencia del virus o estar latente
+  - intent: faq/que_es_etapa_1
+    examples: |
+      - ¿Qué es la etapa 1 de la infección por el VIH?
+      - que es la eatpa 1 del virus?
+      - q es la la primera etapa del vih?
+      - cual es la etapa 1 de la infeccion?
+      - ¿Qué es la etapa uno del VIH?
+      - ¿Qué es la etapa 1 del virus?
+      - ¿Cuál es la primera etapa del VIH?
+      - cual es la primera etapa del virus?
+      - q significa la etapa 1 del virus?
+      - como es la primera etapa de la enfermedad?
+      - cómo es la etapa uno del virus?
+      - que ocurre en la primera etapa?
+      - que caracteriza a la primera etapa?
+      - ¿Qué significa la etapa 1 de la infección?
+      - ¿Cuál es la 1 etapa de la infección de VIH?
+      - explciame la etapa 1
+      - explicame la primera etapa del vih
+      - en que consiste la primera etapa de la infección?
+      - como es la primera etapa del sida
+      - no se que es la primera etapa 
+      - cua es la primera fase del vih
+      - q es la fase 1 de la infección
+      - explciame la fase uno del vih
+      - cómo es la primera fase del virus?
+      - como es el primer tramo de la enfermedad
+  - intent: faq/es_importante_saber_tengo_vih
+    examples: |
+      - ¿Es importante saber si tengo VIH?
+      - es conveniente que sepa si tengo virus?
+      - seria conveniente que sepa si tengo el virus?
+      - es fundamental sabr si tienes vih?
+      - seria muy conveniente saber cuando se tiene vih?
+      - es de vital importancia saber si tengo el virus?
+      - ¿Es importante saber si estoy infectado de VIH?
+      - ¿Crees que es importante que sepa si tengo VIH?
+      - ¿Sería importante saber si tengo VIH?
+      - ¿Cómo de importante es saber si tengo VIH?
+      - ¿Es importante que sepa si tengo VIH?
+      - ¿Es importante que sepa si me he infectado de VIH?
+      - ¿Qué importancia tiene saber si tengo VIH?
+      - como de importante es saber cuando tienes vih?
+      - q importancia tiene saver si tienes vih?
+      - que importancia tiene saber si tienes el virus?
+      - es importante conocer si tengo vih?
+      - es conveniente conocer cuando se tiene vih?
+      - crees q es conveniente saber si ste tiene vih?
+      - es importante saber si estas infectado del virus?
+      - crees que es importante conocer si te has infectado?
+      - como de importante es tener conocimiento sobre si te has infectado
+      - como de conveniente es saber si te han pegado el virus
+      - cómo de importante es saber con certeza si me han pegado el vih?
+      - importancia de saber con certeza si me cogido el vih?
+      - porque es importante saber si tienes vih?
+      - por que es importante saber si estas infectado?
+      - x q es importante saber si estoy infectado?
+  - intent: faq/infeccion_aguda_vih
+    examples: |
+      - ¿Qué es la Infección aguda por el VIH?
+      - que es la infeccion aguda por el vih?
+      - que es una infeccion aguda de vih?
+      - que significa infeccion aguda de vih
+      - explicame infección aguda de vih
+      - que ocurre durante la infeccion aguda
+      - que fase es la de infeccion aguda
+      - que sucede en la infección aguda
+      - en que consiste la fase por infección aguda
+      - qué es la infeccion aguda por vih
+      - que pasa en la etapa aguda de infección
+  - intent: faq/infeccion_cronica_vih
+    examples: |
+      - ¿Qué es la Infección crónica por el VIH?
+      - ¿Qué es la Infección cronica por el VIH?
+      - que es la infeccion cronica por el vih?
+      - que es una infeccion crónica de vih?
+      - que significa infeccion cronica de vih
+      - explicame infección cronica de vih
+      - que ocurre durante la infeccion crónica
+      - que fase es la de infeccion cronica
+      - que sucede en la infección cronica
+      - en que consiste la fase por infección crónica
+      - qué es la infeccion cronica por vih
+      - que pasa en la etapa cronica de infección
+  - intent: faq/tipos_vih
+    examples: |
+      - ¿Cuántos tipos de VIH hay?
+      - cuantos tipos de vih existen?
+      - que tipos de vih existen?
+      - existen diferentes tipos de vih?
+      - hay distintos tipos de vih?
+      - que tipos de vih hay?
+      - qué clases de vih existen?
+      - existen distintas clases de vih?
+      - dime cuantos tipos de vih hay
+      - cuantos vih diferentes hay?
+  - intent: faq/donar_sangre
+    examples: |
+      - ¿Una persona seropositiva puede donar sangre?
+      - alguien seropositivo puede hacer una donación de sangre?
+      - se puede donar sangre siendo seropositivo?
+      - se puede donar sangre si eres positivo?
+      - si tengos ida puedo donar sangre?
+      - si tengo vih puedo donar sangre
+      - donar sangre siendo positivo
+      - se puede donar sangre con vih?
+      - si soy seropositivo puedo donar sangre?
+      - puedo donar sangre teniendo vih?
+      - puedo donar sangre siendo positivo?
+      - podría donar sangre si soy positivo?
+      - podría donar sangre si tengo vih?
+      - teniendo vih se puede donar sangre?

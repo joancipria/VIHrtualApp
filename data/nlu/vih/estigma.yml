@@ -1,40 +1,40 @@
 version: "2.0"
 
 nlu:
-- intent: faq/estigma
-  examples: |
-    - ¿Pueden las personas con VIH padecer un estigma?
-    - pueden las personas con vih sufrir un estigma?
-    - existe aun un estigma sobre el vih?
-    - actualmente hay estigmas sobre el vih?
-    - las personas infectadas sufren algun tipo de estigma?
-    - las personas con vih padecen un estigma?
-    - existen estigmas sobre las personas con vih?
-    - hay estigmas sobre la personas con sida?
-    - las personas con vih sufren algun estigma?
-    - pueden las personas que tienen vih padecer estigmas?
-- intent: faq/sida_homosexuales
-  examples: |
-    - ¿Es el SIDA una enfermedad de homosexuales?
-    - el vih es una enfermedad de homosexuales?
-    - el vih afecta solo a los homosexuales?
-    - el sida solo afecta a la gente homosexual?
-    - si no eres homosexual te peudes infectar de vih?
-    - el vih sólo afecta a las personas homosexuales?
-    - coges el virus por ser homosexual?
-    - es verdad que solo lo cogen los homosexuales?
-    - solo se infectan los homosexuales?
-    - el vih solo agecta a la gente que es homosexual?
-- intent: faq/deporte_competicion
-  examples: |
-    - ¿Puede una persona seropositiva hacer deporte de alta competición?
-    - alguien con vih puede participar en competiciones?
-    - si tienes vih puedes ser deportista de élite?
-    - se puede ser deportista de elite teniendo vih?
-    - se puede hacer deporte de élite con vih?
-    - se puede ser deportista profesional con vih?
-    - puedo dedicarme profesionalmente al deporte si tengo vih?
-    - puedo dedicarme profesionalmente al furbol si tengo vih?
-    - puedo participar en altas competiciones si tengo vih?
-    - al tener vih se puede continuar participando en competiciones de elite?
-    - si tengo vih puedo continuar haciendo deporte de élite?
+  - intent: faq/estigma
+    examples: |
+      - ¿Pueden las personas con VIH padecer un estigma?
+      - pueden las personas con vih sufrir un estigma?
+      - existe aun un estigma sobre el vih?
+      - actualmente hay estigmas sobre el vih?
+      - las personas infectadas sufren algun tipo de estigma?
+      - las personas con vih padecen un estigma?
+      - existen estigmas sobre las personas con vih?
+      - hay estigmas sobre la personas con sida?
+      - las personas con vih sufren algun estigma?
+      - pueden las personas que tienen vih padecer estigmas?
+  - intent: faq/sida_homosexuales
+    examples: |
+      - ¿Es el SIDA una enfermedad de homosexuales?
+      - el vih es una enfermedad de homosexuales?
+      - el vih afecta solo a los homosexuales?
+      - el sida solo afecta a la gente homosexual?
+      - si no eres homosexual te peudes infectar de vih?
+      - el vih sólo afecta a las personas homosexuales?
+      - coges el virus por ser homosexual?
+      - es verdad que solo lo cogen los homosexuales?
+      - solo se infectan los homosexuales?
+      - el vih solo agecta a la gente que es homosexual?
+  - intent: faq/deporte_competicion
+    examples: |
+      - ¿Puede una persona seropositiva hacer deporte de alta competición?
+      - alguien con vih puede participar en competiciones?
+      - si tienes vih puedes ser deportista de élite?
+      - se puede ser deportista de elite teniendo vih?
+      - se puede hacer deporte de élite con vih?
+      - se puede ser deportista profesional con vih?
+      - puedo dedicarme profesionalmente al deporte si tengo vih?
+      - puedo dedicarme profesionalmente al furbol si tengo vih?
+      - puedo participar en altas competiciones si tengo vih?
+      - al tener vih se puede continuar participando en competiciones de elite?
+      - si tengo vih puedo continuar haciendo deporte de élite?

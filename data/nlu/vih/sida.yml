@@ -1,152 +1,151 @@
 version: "2.0"
 
 nlu:
-- intent: que_es_sida
-  examples: |
-    - ¿Qué significa SIDA?
-    - que siginfica el sida?
-    - q significa sida
-    - ¿Qué es el SIDA?
-    - ¿Cuál es la enfermedad del SIDA?
-    - ¿Qué es el síndrome de Inmunodeficiencia Adquirida?
-    - ¿Qué son las siglas SIDA?
-    - Significado de SIDA
-    - No sé lo que es el SIDA
-    - ¿Qué significa sida?
-    - que significa sida
-    - q es el sida
-    - que es el sida
-    - no se que es el sida
-    - dime qeue s el sida
-    - dime que es el sida
-    - no tengo ni idea de que es el sida
-    - q quiere de ir sida?
-    - que quierend ecir las suglas sida?
-    - que quieren decir las siglas sida?
-    - que significan las letras sida?
-    - de qué es el acrónimo sida?
-    - que significa el acronimo sida?
-    - dime que esl el sida?
-    - que es el virus de la inmunodeficiencia Humana adquirida?
-    - nos e que es el virus de la inmunodeficiencia humana adquirida
-    - dime que siginfica sida
-    - dime el significado del virus del sida
-    - que queire decir sida?
-    - que es el virus del sida?
-    - q significa sida
-    - que sgnfica sida
-    - que significa sida
-    - que significan las siglas sida
-    - no se que significa sida
-    - dime que significa sida
-    - no sé el significado de sida
-    - no sé lo que significan las siglas sida
-    - no se que quiere decir sida
-    - QUE ES EL SIDA
-    - que es sida
-- intent: sida_vs_vih
-  examples: |
-    - ¿Cuál es la diferencia entre VIH y SIDA?
-    - cual es la diferencia entre el vih y el sida
-    - no se cual es la diferencia entre sida y vih
-    - no es lo mismo el sida que el vih?
-    - es lo mismo el sida que el vih, no?
-    - ¿Es lo mismo VIH que SIDA?
-    - ¿Son lo mismo VIH y SIDA?
-    - ¿Qué diferencia hay entre VIH y SIDA?
-    - que dierencia hay entre el vih y el sida?
-    - q diferencia hay entre sida y vih?
-    - dime que diferencia hay entre el sida y el vih
-    - no se que diferencia hay etre el sida y el vih
-    - no se la diferencia entre vih y sida
-    - explciame la s diferencias que hay entre el vih y el sida
-    - explicame las diferencias que tienen e vih y el sida
-    - explica la diferenca enre vih y sida
-    - Diferencias entre el VIH y el SIDA
-    - ¿En qué se diferencia el SIDA del VIH?
-    - En qué se diferencia el VIH del SIDA?
-    - en que se diferencia el vih del sida?
-    - en q se diferencia el vih del sida
-    - sida vs vih
-    - vih vs sida
-    - diferencias entre vih y sida
-    - diferencia entre sindrome de inmunodeficinecia adquirida y virus de la inmunodeficiencia humana
-    - sida versus vih
-    - no se en que se diferencia el vih del sida
-    - no entiendo, no es lo mismo el sida que el VIH?
-    - yo creia que vih y sida eran lo mismo
-    - creía que sida y vih eran lo mismo.
-    - no sabia que vih y sida eran cosas distintas.
-    - pero vih y sida son lo mismo, no?
-    - vih y sida son lo mismo
-    - qué diferencias hay entre el vih y el sida?
-    - que diferencias existen eltre el vih y el sida?
-- intent: faq/cuando_se_tiene
-  examples: |
-    - ¿Cuándo se tiene SIDA?
-    - cuando se tiene sida?
-    - en qe momento uno tiene sida?
-    - en que momento una persona pasa de tener vih a tener sida?
-    - cuando se pasa de tener vih al sida?
-    - cuandos e pasa del vih al sida?
-    - ¿Cómo se pasa del VIH al SIDA?
-    - como se pasa de tener vih a sida?
-    - como se pasa a tener sida?
-    - cuando se empieza a tener sida?
-    - en que se basa el diagnostico del sida?
-    - ¿En qué momento se tiene SIDA?
-    - en q momento se empieza a tener sida?
-    - ¿En qué se basa el diagnóstico del SIDA?
-    - ¿Como se sabe cuando se tiene SIDA?
-    - ¿En que momneto pasas a tener SIDA?
-    - ¿Cuándo se dice que una persona tiene SIDA?
-    - cuando se dice que un paciente con vih tiene sida?
-    - en que momento una persona con vih empieza a tener sida?
-    - ¿Cuándo se pasa a tener SIDA?
-    - ¿Cuándo se entra en la fase del SIDA?
-    - en que momento se entra en la fase del sida?
-    - qeu determina que una persona tenga sida?
-    - q determina que un paciente con vih tenga sida
-    - cuando se diagnostica que alguien pase a tener sida?
-    - que determina que se tenga sida
-    - cuando se diagnostica que una persona tiene sida?
-    - cuando se detecta que alguien tiene sida?
-    - en que momento se detecta que alguien con vih ahora tiene sida?
-    - Cuando tiene sida una persona?
-    - en que momento tiene sida una persona?
-    - cuando pasa a tener sida una persona?
-    - en que momento pasa a tener alguien sida?
-    - en que momento pasa una persona a tener sida?
-- intent: faq/causar_demencia
-  examples: |
-    - ¿Puede el SIDA causar demencia?
-    - podria llegar el sida a causar demencia?
-    - se puede tener demencia a causa del sida?
-    - puede ser la demencia una consecuencia del sida?
-    - ¿Puedo tener demencia a causa del SIDA?
-    - puedo tener una demencia causada por el sida?
-    - podria el sida derivar con el tiempo en demencia?
-    - ¿Puede el SIDA derivar en demencia?
-    - ¿Es posible que el SIDA cause demencia?
-    - el sida causa demencia?
-    - el sida produce demencia?
-    - el sida provoca perdidas de memoria?
-    - el sida puede hacer que olvides tus recuerdos?
-    - el sida puede hacer que no recurdes nada?
-    - peude el sida provocar falta de memoria?
-    - la falta de memoria esta relacionada con el SIDA?
-    - la demencia esta relacionada con el sida?
-    - puede el sida producir pérdidas de memoria?
-    -produce el sida perdidas de memoria a largo plazo?
-    - ¿Sería posible que el SIDA produzca demencia?
-    - ¿Puede el SIDA producir demencia?
-    - ¿Es la demencia una consecuencia del SIDA?
-    - puede ser el sida la causa de una demencia?
-    - ¿Causa el SIDA demencia?
-    - produce el sida una demencia senil?
-    - ¿Puede el SIDA causar perdida de memoria?
-    - ¿Puede el SIDA producir perdida de memoria?
-    - ¿Puede el SIDA causar un transtorno neurológico?
-    - ¿Produce el SIDA demencia?
-    - ¿Se piede la memoria cuando se tiene SIDA?
-
+  - intent: que_es_sida
+    examples: |
+      - ¿Qué significa SIDA?
+      - que siginfica el sida?
+      - q significa sida
+      - ¿Qué es el SIDA?
+      - ¿Cuál es la enfermedad del SIDA?
+      - ¿Qué es el síndrome de Inmunodeficiencia Adquirida?
+      - ¿Qué son las siglas SIDA?
+      - Significado de SIDA
+      - No sé lo que es el SIDA
+      - ¿Qué significa sida?
+      - que significa sida
+      - q es el sida
+      - que es el sida
+      - no se que es el sida
+      - dime qeue s el sida
+      - dime que es el sida
+      - no tengo ni idea de que es el sida
+      - q quiere de ir sida?
+      - que quierend ecir las suglas sida?
+      - que quieren decir las siglas sida?
+      - que significan las letras sida?
+      - de qué es el acrónimo sida?
+      - que significa el acronimo sida?
+      - dime que esl el sida?
+      - que es el virus de la inmunodeficiencia Humana adquirida?
+      - nos e que es el virus de la inmunodeficiencia humana adquirida
+      - dime que siginfica sida
+      - dime el significado del virus del sida
+      - que queire decir sida?
+      - que es el virus del sida?
+      - q significa sida
+      - que sgnfica sida
+      - que significa sida
+      - que significan las siglas sida
+      - no se que significa sida
+      - dime que significa sida
+      - no sé el significado de sida
+      - no sé lo que significan las siglas sida
+      - no se que quiere decir sida
+      - QUE ES EL SIDA
+      - que es sida
+  - intent: sida_vs_vih
+    examples: |
+      - ¿Cuál es la diferencia entre VIH y SIDA?
+      - cual es la diferencia entre el vih y el sida
+      - no se cual es la diferencia entre sida y vih
+      - no es lo mismo el sida que el vih?
+      - es lo mismo el sida que el vih, no?
+      - ¿Es lo mismo VIH que SIDA?
+      - ¿Son lo mismo VIH y SIDA?
+      - ¿Qué diferencia hay entre VIH y SIDA?
+      - que dierencia hay entre el vih y el sida?
+      - q diferencia hay entre sida y vih?
+      - dime que diferencia hay entre el sida y el vih
+      - no se que diferencia hay etre el sida y el vih
+      - no se la diferencia entre vih y sida
+      - explciame la s diferencias que hay entre el vih y el sida
+      - explicame las diferencias que tienen e vih y el sida
+      - explica la diferenca enre vih y sida
+      - Diferencias entre el VIH y el SIDA
+      - ¿En qué se diferencia el SIDA del VIH?
+      - En qué se diferencia el VIH del SIDA?
+      - en que se diferencia el vih del sida?
+      - en q se diferencia el vih del sida
+      - sida vs vih
+      - vih vs sida
+      - diferencias entre vih y sida
+      - diferencia entre sindrome de inmunodeficinecia adquirida y virus de la inmunodeficiencia humana
+      - sida versus vih
+      - no se en que se diferencia el vih del sida
+      - no entiendo, no es lo mismo el sida que el VIH?
+      - yo creia que vih y sida eran lo mismo
+      - creía que sida y vih eran lo mismo.
+      - no sabia que vih y sida eran cosas distintas.
+      - pero vih y sida son lo mismo, no?
+      - vih y sida son lo mismo
+      - qué diferencias hay entre el vih y el sida?
+      - que diferencias existen eltre el vih y el sida?
+  - intent: faq/cuando_se_tiene
+    examples: |
+      - ¿Cuándo se tiene SIDA?
+      - cuando se tiene sida?
+      - en qe momento uno tiene sida?
+      - en que momento una persona pasa de tener vih a tener sida?
+      - cuando se pasa de tener vih al sida?
+      - cuandos e pasa del vih al sida?
+      - ¿Cómo se pasa del VIH al SIDA?
+      - como se pasa de tener vih a sida?
+      - como se pasa a tener sida?
+      - cuando se empieza a tener sida?
+      - en que se basa el diagnostico del sida?
+      - ¿En qué momento se tiene SIDA?
+      - en q momento se empieza a tener sida?
+      - ¿En qué se basa el diagnóstico del SIDA?
+      - ¿Como se sabe cuando se tiene SIDA?
+      - ¿En que momneto pasas a tener SIDA?
+      - ¿Cuándo se dice que una persona tiene SIDA?
+      - cuando se dice que un paciente con vih tiene sida?
+      - en que momento una persona con vih empieza a tener sida?
+      - ¿Cuándo se pasa a tener SIDA?
+      - ¿Cuándo se entra en la fase del SIDA?
+      - en que momento se entra en la fase del sida?
+      - qeu determina que una persona tenga sida?
+      - q determina que un paciente con vih tenga sida
+      - cuando se diagnostica que alguien pase a tener sida?
+      - que determina que se tenga sida
+      - cuando se diagnostica que una persona tiene sida?
+      - cuando se detecta que alguien tiene sida?
+      - en que momento se detecta que alguien con vih ahora tiene sida?
+      - Cuando tiene sida una persona?
+      - en que momento tiene sida una persona?
+      - cuando pasa a tener sida una persona?
+      - en que momento pasa a tener alguien sida?
+      - en que momento pasa una persona a tener sida?
+  - intent: faq/causar_demencia
+    examples: |
+      - ¿Puede el SIDA causar demencia?
+      - podria llegar el sida a causar demencia?
+      - se puede tener demencia a causa del sida?
+      - puede ser la demencia una consecuencia del sida?
+      - ¿Puedo tener demencia a causa del SIDA?
+      - puedo tener una demencia causada por el sida?
+      - podria el sida derivar con el tiempo en demencia?
+      - ¿Puede el SIDA derivar en demencia?
+      - ¿Es posible que el SIDA cause demencia?
+      - el sida causa demencia?
+      - el sida produce demencia?
+      - el sida provoca perdidas de memoria?
+      - el sida puede hacer que olvides tus recuerdos?
+      - el sida puede hacer que no recurdes nada?
+      - peude el sida provocar falta de memoria?
+      - la falta de memoria esta relacionada con el SIDA?
+      - la demencia esta relacionada con el sida?
+      - puede el sida producir pérdidas de memoria?
+      -produce el sida perdidas de memoria a largo plazo?
+      - ¿Sería posible que el SIDA produzca demencia?
+      - ¿Puede el SIDA producir demencia?
+      - ¿Es la demencia una consecuencia del SIDA?
+      - puede ser el sida la causa de una demencia?
+      - ¿Causa el SIDA demencia?
+      - produce el sida una demencia senil?
+      - ¿Puede el SIDA causar perdida de memoria?
+      - ¿Puede el SIDA producir perdida de memoria?
+      - ¿Puede el SIDA causar un transtorno neurológico?
+      - ¿Produce el SIDA demencia?
+      - ¿Se piede la memoria cuando se tiene SIDA?
