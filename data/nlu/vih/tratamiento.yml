@@ -96,3 +96,27 @@ nlu:
     - Explicame que es una interacción entre medicamentos
     - Reacción entre medicamentos
     - No sé lo que es una interacción entre medicamentos
+- itent: faq/ensayos_clinicos
+  examples: |
+    - ¿Qué son los ensayos clínicos?
+    - que es un esnayo clinico?
+    - que son los ensayos clinicos
+    - explciame que es unensayo clínicos
+    - en que consisten los ensallos clinicos
+    - como se prueban los farmacos
+    - como se prueban los medicamentos
+    - se hacen ensayos clinicos?
+    - se tetean los medicamentos?
+    - como se testea la medicación?
+- intent: faq/tratamiento_adicional
+  examples: |
+    - ¿Qué otro tipo de asistencia necesitan las personas infectadas con el VIH?
+    - que otras asistencias puede requerir alguien con vih?
+    - que otro tipo de ayuda necesitan las personas con vih?
+    - qué tipo de ayuda adiconal pueden necesitar las personas con vih?
+    - a parte de la medicacion las peronas con vih tienen que seguir otro tratamiento?
+    - que tratamientos adiconales tiene que seguir las personas con vih?
+    - que otro tipo de asistencia pueden denecsitar als personas con vih?
+    - que otro tipo de ayudas necesitan las personas con vih
+    - otras ayudas que pueden neceseitar los afectados
+    - que ayudas adicionales puede necesitar alguien con vih

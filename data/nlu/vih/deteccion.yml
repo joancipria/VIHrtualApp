@@ -106,3 +106,15 @@ nlu:
     - tu crees que deberia hacerme la prueba del vih?
     - no se si deberia hacerme la prueba
     - estoy dudando si hacerme la prueba del vih
+- intent: faq/negativo_pareja
+  examples: |
+    - ¿Si el resultado de mi test es negativo, mi pareja es negativa también?
+    - si me hago el test y doy negativo, mi pareja es negativa tambien?
+    - si yo doy negativo, mi pareja es negativa tambien?
+    - si yo soy negativo mi pareja tambien lo es?
+    - si me hago la prueba y doy negativo, mi novia tambien dará negativo?
+    - si hago el test y doy positivo, mi novia tambien es positiva?
+    - si me hago el test y doy positivo, mi mujer tambien es positiva?
+    - si me hago el test y doy positivo, mi marido tambien es positivo?
+    - si mi novio ha dado negativo, yo soy negativa?
+    - si mi novia ha dado positivo, puedo ser yo también positivo?

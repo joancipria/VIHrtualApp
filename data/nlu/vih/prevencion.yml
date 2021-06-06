@@ -72,6 +72,45 @@ nlu:
     - ¿Qué debo hacer si quiero tomar la PrEP?
     - Quiero ser incluído en el programa PrEP
     - Quiero que me incluyan en la PrEP
+- intent: faq/interferencia_prep_terapia_hormonal
+  examples: |
+    - ¿interfiere la PrEP en la terapia hormonal de una persona transgénero?
+    - puede interferir la prep en una terapia hormonal transgenero?
+    - puede llegar a interferir la prep con una terapia hormonal?
+    - podeia interferir la prep en un tratamiento hormonal?
+    - el trqtamiento hormonal interfiere con la prep?
+    - interfiere la prep en un tratamiento hormonal de una persona transgénero?
+    - puede llegar a interferir la prep en un tratamiento hormonal?
+    - la PrEP interfiere en la terapia hormonal?
+    - la PrEP interfiere en un tratamiento hormonal?
+    - interferencias entre la prep y el tratamiento hormonal
+    - si me estoy hormonando puedo tomar la prep?
+    - puedo tomar la prep si me estoy hormonando?
+- intent: faq/preservativo_prep
+  examples: |    
+    - ¿Puedo dejar de usar condones si tomo la PrEP?
+    - ¿Puedo dejar de usar preservativos si tomo la PrEP?
+    - si tomo la prep puedo dejar de usar condones?
+    - si tomo la prep puedo dejar de usar preservativos?
+    - al tomr la prep ya puedo follar sin condon?
+    - si tomo la prep puedo follar sin preservativo?
+    - si tomo la prep puedo mantener relaciones sexuales sin protección?
+    - si tomo la prep puedo mantener relaciones sexuales sin condón?
+    - debo usar el preservativo aunque tome la prep?
+    - si tomo la prep puedo dejar de usar el condón?
+    - si estoy tomando la prep puedo dejar de usar el presrrvativo?
+- intent: faq/prep_tras_contacto_vih
+  examples: |    
+    - ¿Se puede comenzar la PrEP después de haber estado expuesto al VIH?
+    - se puede tomar la prep tras haber estado en contacto con un positivo?
+    - se puede tomar la prep tras haber estado en contacto con el vih?
+    - se puede tomar la prep tras haber estado expuesto al vih?
+    - puedo empezar a tomar la prep despues de haber estado en contacto con alguien con sida?
+    - puedo tomar la prep tras un contacto de riesgo?
+    - se puedo comenzar a tomar la medicacion despues de haber esatdo en contacto con el virus?
+    - tomar la prep tras haber estado en contacto con un infectado
+    - empezar a tomar emdicación después de haber esatdo con alguien con vih
+    - empezar la mediacion tras un contacto con alguien que tiene vih
 - intent: faq/existe_vacuna
   examples: |
     - ¿Existe una vacuna contra el VIH?

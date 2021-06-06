@@ -142,6 +142,7 @@ nlu:
     - Mi empresa me obliga a decirles si estoy infectado de VIH
 - intent: faq/prueba_consentimiento
   examples: |
+    - ¿Pueden el medico o la empresa la prueba del VIH sin mi consentimiento? 
     - ¿Pueden el medico o la empresa hacerme la prueba del VIH sin mi consentimiento?
     - puede un medico hacerme la prueba sin avisar?
     - puede un medico hacerme la prueca sin mi consentimiento?
@@ -174,7 +175,23 @@ nlu:
     - realización de la prueba del vih sin consentimiento
     - realizar el test sin autorizacion
     - me an hecho el test sin avisarme de nada
-
+- intent: faq/vih_ejercicio_fisico
+  examples: |
+    - ¿Es el ejercicio físico importante para las personas con VIH?
+    - es el ejercicio fisico importante para las personas con sida?
+    - es recomendable el ejercicio fisico para personas infectadas?
+    - el ejercicio físico es beneficioso para las personas con sida?
+    - es importante hacer ejercico fisico si tienes vih?
+    - si estas infectado puedes hacer ejercicio fisico?
+    - puedo hacer ejercico si soy positivo?
+    - puedo hacer ejercico si tengo vih?
+    - se peude hacer ejercico teniendo vih?
+    - si tienes vih se puede hacer ejercicio?
+    - es recomendable hacer ejercicio?
+    - me recomeidnas hacer ejercicio?
+    - deberia hacer ejercicio?
+    - debo hacer ejercicio?
+    - tengo que hacer ejercico?
 
 
 

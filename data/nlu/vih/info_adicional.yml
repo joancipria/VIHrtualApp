@@ -1,0 +1,26 @@
+version: "2.0"
+
+nlu:
+- intent: faq/documento_adicional_mujeres
+  examples: |
+    - ¿Hay algún documento sobre VIH destinado a las mujeres?
+    - hay alguna guia sobre el vih para las mujeres?
+    - hay alguna guía del vih para las mujeres?
+    - existe algun documento sobre el vih en las mujeres?
+    - donde puedo saber más sobre el vih en las mujeres?
+    - como puedo saber ma sobre el vih o el sida en las mujeres
+    - mas informacion sobre el sida en las mujeres
+    - guia para el vih en las mujeres
+    - documento para las mujeres sobre el vih
+    - quiero infromacion especializada sobre el vih en mujeres
+- intent: faq/vih_covid_saber_mas
+  examples: |
+    - ¿Dónde puedo saber más sobre el VIH y el coronavirus?
+    - donde puedo saber mas sobre el vih y el covid?
+    - donde puedo obtener mas infromacion sobre el el vih y el covid19?
+    - donde puedo obtener mas infromacion sobre el el sida y el coronavirus?
+    - obtener mas informacion sobre el covid y el vih
+    - más infromacion sobre la relacion sobre el covid y el vih
+    - dónde puedo saber mas sobre la relacion que hay entre coronavirus y vih?
+    - donde puedo obtener mas info sobre el coronavirus y el vih?
+    - en que pagina web puedo encontras mas infroamcion sobre el covid19 y el vih?

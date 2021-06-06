@@ -4,12 +4,27 @@ nlu:
 - intent: faq/que_es_ets
   examples: |
     - ¿Qué son las ETS?
+    - que son las ets
     - ¿Qué significa ETS?
+    - que significa ets
     - ¿Qué es una ETS?
+- intent: faq/que_es_hepatitis
+  examples: |
+    - ¿Qué es la hepatitis?
+    - que es la hepatitis
+    - qué significa la hepatitis
+    - dime que siginfica la hepatitis
+    - no se lo que es la epatitis
+    - dime que es la hepatitis
+    - en que consiste la hepatitis
+    - oye que es la epatitis
 - intent: faq/que_es_viremia
   examples: |
+    - ¿Qué es la viremia?
+    - que es la viremia
     - ¿Qué es una viremia?
     - ¿Qué significa viremia?
+    - que siginfica la viremia
     - Dime que es la viremia
     - No sé que es una viremia
 - intent: faq/que_es_nadir
@@ -38,3 +53,87 @@ nlu:
     - ¿Qué significa viremia intermitente?
     - Dime que es la viremia intermitente
     - No sé que es una viremia intermitente
+- intent: faq/que_es_capside
+  examples: |
+    - ¿Qué es la cápside?
+    - que es la cápside
+    - que es la capside
+    - qué significa la capside
+    - dime que siginfica la cápside
+    - no se lo que es la capside
+    - dime que es la cápside
+    - en que consiste la capside
+    - oye que es la capside
+- intent: faq/que_es_comorbilidad
+  examples: |
+    - ¿Qué es la comorbilidad?
+    - qué es la cormovilidad
+    - que es la cormobilidad
+    - qué significa la cormobilidad
+    - dime que siginfica la cormovilidad
+    - no se lo que es la cormobilidad
+    - dime que es la cormobilidad
+    - en que consiste la cormobilidad
+    - oye que es la cormovilidad
+- intent: faq/que_es_cd4
+  examples: |
+    - ¿Qué son los CD4?
+    - que son los cd4
+    - qué es el cd4
+    - que es la cd4
+    - qué significa cd4
+    - dime que siginfica cd4
+    - no se lo que es cd4
+    - dime que es cd4
+    - en que consiste los cd4
+    - oye que es cd4
+- intent: faq/que_es_serodiscordante
+  examples: |
+    - ¿Qué es ser serodiscordante?
+    - que es los serodiscordante
+    - qué es el serodiscordante
+    - que es la serodiscordante
+    - qué significa serodiscordante
+    - dime que siginfica serodiscordante
+    - no se lo que es serodiscordante
+    - dime que es serodiscordante
+    - en que consiste ser serodiscordante
+    - oye que es serodiscordante
+- intent: faq/que_es_seroconcordante
+  examples: |
+    - ¿Qué es ser seroconcordante?
+    - que es los seroconcordante
+    - qué es el seroconcordante
+    - que es la seroconcordante
+    - qué significa seroconcordante
+    - dime que siginfica seroconcordante
+    - no se lo que es seroconcordante
+    - dime que es seroconcordante
+    - en que consiste ser seroconcordante
+    - oye que es seroconcordante
+- intent: faq/que_es_carga_viral
+  examples: |
+    - ¿Qué es la carga viral?
+    - no sé que es la carga viral
+    - qué es carga viral?
+    - que es la carga viral
+    - qué significa carga viral
+    - dime que siginfica carga viral
+    - no se lo que es carga viral
+    - dime que es carga viral
+    - en que consiste ser carga viral
+    - oye que es carga viral
+- intent: faq/que_es_carga_viral_indetectable
+  examples: |
+    - ¿Qué es la carga viral indetectable?
+    - ¿Qué es la carga viral indetectable?
+    - no sé que es la carga viral indetectable
+    - qué es carga viral indetectable?
+    - que es la carga viral indetectable
+    - qué significa carga viral indetectable
+    - dime que siginfica carga viral indetectable
+    - no se lo que es carga viral indetectable
+    - dime que es carga viral indetectable
+    - en que consiste ser carga viral indetectable
+    - oye que es carga viral indetectable
+   

@@ -50,3 +50,29 @@ nlu:
     - ¿Cuántas personas mueren al año de sida?
     - ¿Murió mucha gente en el año 2019 de sida?
     - ¿Cuantá gente ha muerto de SIDA en este año?
+- intent: faq/paciente_berlin
+  examples: |
+    - ¿Quién es el paciente de Berlín?
+    - quien es el paciente de berlin?
+    - qué es el paciente de berlin?
+    - que es el paciente berlín?
+    - quien era el paciente de berlin?
+    - sabes quien es el paciente de berlín?
+    - sabes quien era el paciente berlín?
+    - quien fue aquel hombre que se curó?
+    - quien fue aquella persona que se curo el vih?
+    - hombre de berlin
+    - persona de berlin
+    - enfermo de berlin
+- intent: faq/paciente_londres
+  examples: |
+    - ¿Quién es el paciente de Londres?
+    - quien es el paciente de londres?
+    - qué es el paciente de londres?
+    - que es el paciente londres?
+    - quien era el paciente de londres?
+    - sabes quien es el paciente de londres?
+    - sabes quien era el paciente londres?
+    - hombre de londres
+    - persona de londres
+    - enfermo de londres

@@ -372,3 +372,58 @@ nlu:
     - porque es importante saber si tienes vih?
     - por que es importante saber si estas infectado?
     - x q es importante saber si estoy infectado?
+- intent: faq/infeccion_aguda_vih
+  examples: |
+    - ¿Qué es la Infección aguda por el VIH?
+    - que es la infeccion aguda por el vih?
+    - que es una infeccion aguda de vih?
+    - que significa infeccion aguda de vih
+    - explicame infección aguda de vih
+    - que ocurre durante la infeccion aguda
+    - que fase es la de infeccion aguda
+    - que sucede en la infección aguda
+    - en que consiste la fase por infección aguda
+    - qué es la infeccion aguda por vih
+    - que pasa en la etapa aguda de infección
+- intent: faq/infeccion_cronica_vih
+  examples: |
+    - ¿Qué es la Infección crónica por el VIH?
+    - ¿Qué es la Infección cronica por el VIH?
+    - que es la infeccion cronica por el vih?
+    - que es una infeccion crónica de vih?
+    - que significa infeccion cronica de vih
+    - explicame infección cronica de vih
+    - que ocurre durante la infeccion crónica
+    - que fase es la de infeccion cronica
+    - que sucede en la infección cronica
+    - en que consiste la fase por infección crónica
+    - qué es la infeccion cronica por vih
+    - que pasa en la etapa cronica de infección
+- intent: faq/tipos_vih
+  examples: |
+    - ¿Cuántos tipos de VIH hay?
+    - cuantos tipos de vih existen?
+    - que tipos de vih existen?
+    - existen diferentes tipos de vih?
+    - hay distintos tipos de vih?
+    - que tipos de vih hay?
+    - qué clases de vih existen?
+    - existen distintas clases de vih?
+    - dime cuantos tipos de vih hay
+    - cuantos vih diferentes hay?
+- itent: faq/donar_sangre
+  examples: |
+    - ¿Una persona seropositiva puede donar sangre?
+    - alguien seropositivo puede hacer una donación de sangre?
+    - se puede donar sangre siendo seropositivo?
+    - se puede donar sangre si eres positivo?
+    - si tengos ida puedo donar sangre?
+    - si tengo vih puedo donar sangre
+    - donar sangre siendo positivo
+    - se puede donar sangre con vih?
+    - si soy seropositivo puedo donar sangre?
+    - puedo donar sangre teniendo vih?
+    - puedo donar sangre siendo positivo?
+    - podría donar sangre si soy positivo?
+    - podría donar sangre si tengo vih?
+    - teniendo vih se puede donar sangre?

@@ -209,6 +209,18 @@ nlu:
     - por compartir un vaso me puedo infectar?
     - Puedo transmitir el VIH a través de la saliva?
     - Se transmite el vih por la saliba?
+- intent: faq/escupir_aranyar
+  examples: |
+    - ¿Puedo contraer el VIH si una persona infectada me escupe o araña?
+    - puedo contraer el vih si me escupen?
+    - puedo contraer el vih si me arañan?
+    - me puedo contagiar por un escupitajo?
+    - si alguien me escupe me puede contagiar?
+    - me podria contagiar por un arañazo?
+    - si alguien me araña me puede pegar el virus?
+    - se puede transmitir el vih al arañar?
+    - si una persona me escupe me puede pasar el virus?
+    - si alguien con vih me araña o me escupe, me puedo infectar?
 - intent: faq/insectos
   examples: |
     - ¿Pueden los mosquitos o las garrapatas contagiar el VIH?
@@ -454,3 +466,34 @@ nlu:
     - ¿Si tengo una carga viral indetectable puedo contagiar?
     - ¿Es posible infectar a otra persona con una carga vira indetectable?
     - Si tengo una crga viral indetectable ¿qué riesgo hay de contagio?
+- intent: faq/volver_a_infectarse
+  examples: |
+    - ¿Si ya tengo el VIH, puedo contraer otro tipo del VIH?
+    - si tengo el vih me peudo volver a infectar?
+    - si tengo el vih me peudo volver a contagiar?
+    - me puedo contagiar varias veces del vih?
+    - me puedo volver a contagiar?
+    - me puedo contagiar varais veces?
+    - si ya tengo el vih es posible volverlo a coger?
+    - puedo volver a coger el vih?
+    - puedo coger el ih por segunda vez?
+    - es posible contagiarse multiples veces?
+    - es posible coger el virus más de una vez?
+    - infectarse mas de una vez
+    - puedo contraer itri vih distinto?
+    - me puedo infectar de otro vih?
+    - puedo coger un vih totalmente distinto?
+    - si ya tengo vih, puedo infectarme de otro tipo de vih?
+- intent: faq/riesgo_lesbianas
+  examples: |
+    - ¿Están en riesgo de contraer el VIH las lesbianas o las mujeres que tienen relaciones sexuales con otras mujeres? 
+    - que riesgo de contagio tiene las lesbinas?
+    - si soy lesbiana, tiengo riesgo de contagio?
+    - si somos una pareja lesbiana podemos coger el vih?
+    - las lesbianas oueden coger el vih?
+    - las mujeres que follan con otras mujeres pueden infectarse?
+    - las lesbianas transmiten el virus?
+    - si somos lesbianas podemos transmitir el vih?
+    - que riesgo tengo de coger el vih si soy lesbiana
+    - probabilidad de infectarme si soy lesbiana
+    - probabiliad de coger el virus si son lesbianas 
