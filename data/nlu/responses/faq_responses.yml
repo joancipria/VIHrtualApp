@@ -2,7 +2,7 @@ version: "2.0"
 responses:
   # Básicas
   utter_que_es_vih:
-    - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo. Si no se trata a tiempo, puede causar el SIDA.
+    - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo 🛡️. Si no se trata a tiempo, puede causar el SIDA.
   utter_que_es_vih_enganche:
     - buttons:
         - payload: ¿Cómo se transmite el VIH?
@@ -17,19 +17,19 @@ responses:
   utter_faq/como_actua_vih:
     - text: "Una vez que una persona contrae la infección por el VIH, el virus comienza a multiplicarse en el cuerpo y ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH."
   utter_faq/cual_es_el_origen:
-    - text: Se ha identificado el origen del VIH en una especie de chimpancé de África Central. Los científicos creen que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos.
+    - text: Se ha identificado el origen del VIH en una especie de chimpancé 🦍 de África Central. Los científicos creen que el virus de inmunodeficiencia en los chimpancés (llamada virus de inmunodeficiencia simia o VIS) se transmitió gracias al contacto con la sangre infectada de estos simios que fueron cazados para ser ingeridos 🍗.
   utter_faq/cuando:
     - text: "El VIH podría haber pasado de los simios a la especie humana incluso desde finales del siglo XIX. Sin embargo, su propagación durante décadas en África se produjo muy lentamente y, posteriormente llegó a otras partes del mundo. \n\n Por ejemplo, a Estados Unidos el virus llegó sobre mediados o finales de la década de los 70 del siglo XX."
   utter_faq/cuando_descubrimiento:
-    - text: "El primer paciente identificado con la enfermedad que produce el VIH fue en California (Estados Unidos) en 1981. \n\n Solo dos años después, el 20 de mayo de 1983 se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH)."
+    - text: "El primer paciente identificado con la enfermedad que produce el VIH fue en California en 1981. \n\n Solo dos años después, el 20 de mayo de 1983 se publicó en la revista Science el descubrimiento del virus que causaba esta enfermedad (el VIH)."
   utter_faq/personas_famosas_vih:
     - text: "Muchas personas famosas han manifestado que están infectados por VIH. Algunas ya han fallecido como el cantante Freddy Mercury o el actor Rock Hudson. \n\n Pero otros conviven con el virus desde hace muchos años, como el jugador de baloncesto Magic Johnson que padece la enfermedad desde hace casi tres décadas o la cantante Conchita Wurst."
   utter_faq/sobrevive_fuera_vih:
     - text: El VIH no sobrevive mucho fuera del cuerpo humano (por ejemplo, en las superficies) y no se puede reproducir fuera de un organismo humano.
   utter_faq/que_es_latencia:
-    - text: "La latencia hace referencia a que el virus puede permanecer inactivo (latente) en nuestro organismo durante años. \n\n Cuando se encuentra en este estado, el sistema inmunitario no puede reconocer el virus y el tratamiento antirretroviral (TAR) no lo afecta."
+    - text: "La latencia hace referencia a que el virus puede permanecer inactivo (latente) en nuestro organismo durante años 🦠💤. \n\n Cuando se encuentra en este estado, el sistema inmunitario no puede reconocer el virus y el tratamiento antirretroviral (TAR) no le afecta."
   utter_faq/que_es_etapa_1:
-    - text: "En la primera etapa (de 2 a 4 semanas tras la infección por VIH) algunas personas pueden sentirse enfermas como si tuvieran la gripe.  \n\n Estos síntomas (fiebre, escalofríos, sudores nocturnos, dolores musculares, dolor de garganta, fatiga, ulceras en la boca) pueden durar desde pocos días hasta varias semanas. \n\n Si tienes estos síntomas, no significa que tengas el VIH ya que estos síntomas pueden ser causados por otras enfermedades. Pero si tienes estos síntomas después de una posible exposición al VIH debes hacerte la prueba del VIH."
+    - text: "En la primera etapa (de 2 a 4 semanas tras la infección por VIH) algunas personas pueden sentirse enfermas como si tuvieran la gripe 🤒.  \n\n Estos síntomas (fiebre, escalofríos, sudores nocturnos, dolores musculares, dolor de garganta, fatiga, ulceras en la boca) pueden durar desde pocos días hasta varias semanas. \n\n Estos síntomas pueden ser causados por otras enfermedades pero si los tienes después de una posible exposición al VIH debes hacerte la prueba del VIH."
   utter_faq/es_importante_saber_tengo_vih:
     - text: "Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento lo antes posible y adoptar hábitos de vida saludables \n\n. Además, podrás evitar que otras personas se infecten."
   utter_faq/infeccion_aguda_vih:
@@ -46,7 +46,7 @@ responses:
   utter_como_contagia_enganche:
     - buttons:
         - payload: ¿Qué es la transmisión vertical?
-          title: ¿Qué es la transmisión vertical?
+          title: ¿Qué es la transmisión vertical 🤰?
         - payload: ¿Puedo contraer el VIH a través del sexo oral?
           title: ¿Puedo contraer el VIH a través del sexo oral?
         - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
@@ -55,7 +55,7 @@ responses:
   utter_faq/aire:
     - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
-    - text: "La transmisión vertical, conocida también como transmisión perinatal es contagio de una infección u otra enfermedad de la madre a su hijo. \n\n Se puede producir antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé."
+    - text: "La transmisión vertical, conocida también como transmisión perinatal es contagio de una infección u otra enfermedad de la madre a su hijo 👶🏼. \n\n Se puede producir antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé."
   utter_faq/evitar_veritcal:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/fluidos:
@@ -63,7 +63,7 @@ responses:
   utter_faq/escupir_aranyar:
     - text: No. El VIH no se transmite por la saliva, y no hay riesgo de transmisión por un arañazo porque esto no transfiere líquidos corporales entre las personas.
   utter_faq/insectos:
-    - text: Los insectos chupadores de sangre no pueden transmitir el VIH.
+    - text: Los insectos chupadores de sangre 🦟 no pueden transmitir el VIH.
   utter_faq/wc:
     - text: "El VIH no se contagia por usar el mismo inodoro que una persona con VIH. \n\n Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
   utter_faq/tatuajes:
@@ -71,7 +71,7 @@ responses:
   utter_faq/alimentos:
     - text: "No se puede contraer VIH por consumir alimentos que haya tocado una persona infectada por el VIH. \n\n Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus."
   utter_faq/inyectar_droga:
-    - text: "El riesgo de contraer el VIH es muy alto si usas las agujas y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. \n\n Además, también tienes un riesgo elevado de contraer otras enfermedades como hepatitis B o C."
+    - text: "El riesgo de contraer el VIH es muy alto si usas las agujas 💉 y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. \n\n Además, también tienes un riesgo elevado de contraer otras enfermedades como hepatitis B o C."
   utter_faq/drogas:
     - text: "El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Ahora bien, al estar bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo."
   utter_faq/sexo_oral:
@@ -84,14 +84,14 @@ responses:
     - text: "Los informes de casos de transmisión del VIH de mujer a mujer son muy infrecuentes. \n\n Sin embargo, no es imposible. Las secreciones vaginales y la sangre menstrual pueden contener el virus y la exposición a estos líquidos a través de las membranas mucosas (de la vagina o la boca) podría potencialmente causar la infección por el VIH."
   # Síntomas
   utter_que_sintomas:
-    - text: "Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección (etapa 1 de la infección por el VIH). \n\n Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba."
+    - text: "Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección 🤒 (etapa 1 de la infección por el VIH). \n\n Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba."
   utter_faq/vih_sin_sintomas:
     - text: El VIH puede convivir durante años en el organismo sin que el portador lo sepa y durante ese tiempo puede infectar a otras personas si no toma las medidas de prevención adecuadas.
   utter_faq/sintomas_externos:
     - text: No es posible saber solo por el aspecto físico si una persona padece VIH.
   # Detección
   utter_saber_si_tengo_vih:
-    - text: "La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico. \n\n Además, en muchos países se venden test de detección en las farmacias."
+    - text: "La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico 👩‍⚕️. \n\n Además, en muchos países se venden test de detección en las farmacias."
   utter_faq/detectar_tras_contacto:
     - text: "Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
   utter_faq/deberia_hacerme_prueba:
@@ -110,16 +110,16 @@ responses:
   utter_faq/cuantos_medicamentos:
     - text: "Los fármacos antirretrovirales aprobados contra el VIH pertenecen a siete clases distintas. Esta clasificación se realiza según la forma en que afectan el ciclo de vida de ese virus e incluyen: \n\n \n* Inhibidores de la transcriptasa inversa análogos de los nucleósidos (ITIN) \n* Inhibidores de la transcriptasa inversa no análogos de los nucleósidos (ITINN) \n* Inhibidores de la proteasa (IP) \n* Inhibidores de la fusión \n* Antagonistas de CCR5 \n* Inhibidores de posfijación \n* Inhibidores de la transferencia de cadenas de la integrasa"
   utter_faq/que_es_efectos_secundarios:
-    - text: "Los efectos secundarios son efectos no deseados causados por los fármacos. \n\n La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. \n\n Otros en cambio pueden ser más graves y requieren comunicarselo al médico."
+    - text: "Los efectos secundarios son efectos no deseados causados por los fármacos 💊. \n\n La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. \n\n Otros en cambio pueden ser más graves y requieren comunicarselo al médico 👨‍⚕️."
   utter_faq/que_es_interaccion_entre_medicamentos:
-    - text: "Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento, bebida o un suplemento. \n\n Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados."
+    - text: "Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento 💊🍎. \n\n Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados."
   utter_faq/ensayos_clinicos:
-    - text: "La investigación clínica se realiza de manera estructurada y los nuevos fármacos se prueban antes in vitro (en un laboratorio) y después en animales antes de ser probados en personas. \n\n Cuando se prueban en personas se conoce como ensayos clínicos y es la última fase antes de poder comercializar un nuevo fármaco. \n\n En la actualidad se realizan cientos de ensayos clínicos de fármacos contra el VIH."
+    - text: "La investigación clínica se realiza de manera estructurada y los nuevos fármacos se prueban antes in vitro 🧫 (en un laboratorio) y después en animales antes de ser probados en personas. \n\n Cuando se prueban en personas se conoce como ensayos clínicos y es la última fase antes de poder comercializar un nuevo fármaco. \n\n En la actualidad se realizan cientos de ensayos clínicos de fármacos contra el VIH."
   utter_faq/tratamiento_adicional:
     - text: "Además de los fármacos, las personas que padecen VIH pueden requerir orientación y apoyo psicosocial. \n\n Tener una nutrición sana, un nivel básico de higiene y el ejercicio físico también pueden ayudarles a mantener su calidad de vida."
   # Prevención
   utter_faq/que_es_prep:
-    - text: "La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de infección si se toman medicamentos diariamente. \n\n Por tanto, la PrEP se administra a personas con un riesgo muy alto de contraer el VIH."
+    - text: "La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de infección si se toman medicamentos diariamente 💊. \n\n Por tanto, la PrEP se administra a personas con un riesgo muy alto de contraer el VIH."
   utter_faq/efectividad_prep:
     - text: "Si se sigue la pauta diaria recomendada por el médico, la PrEP es altamente efectiva para prevenir el VIH (entre 74% y 99% de reducción de riesgo). \n\n Sin embargo, la PrEP es mucho menos efectiva cuando no se toma de manera consistente."
   utter_faq/que_medicamentos_prep:
@@ -127,7 +127,7 @@ responses:
   utter_faq/es_prep_vacuna:
     - text: "No. La PrEP no funciona de la misma manera que una vacuna. Las vacunas enseñan al sistema inmune a luchar contra una infección y su efecto dura mucho tiempo en el organismo. \n\n La PrEP se toma diariamente y lo que sucede es que esas sustancias bloquean al virus para evitar que se propague en el organismo."
   utter_faq/efectos_secundarios_prep:
-    - text: "La PrEP puede causar efectos secundarios en algunas personas (como náuseas) que normalmente se atenúan con el tiempo, pero no se han detectado efectos secundarios graves. \n\n Una persona que esté tomando PrEP debe estar bajo seguimiento de un médico especialista en enfermedades infecciosas para vigilar los posibles efectos secundarios."
+    - text: "La PrEP puede causar efectos secundarios en algunas personas (como náuseas 🤢) que normalmente se atenúan con el tiempo, pero no se han detectado efectos secundarios graves. \n\n Una persona que esté tomando PrEP debe estar bajo seguimiento de un médico especialista en enfermedades infecciosas para vigilar los posibles efectos secundarios."
   utter_faq/debo_tomar_prep:
     - text: "La PrEP se recomienda para parejas serodiscordantes, o para parejas que no sean mutuamente monógamas. \n\n También se recomienda para personas que posean un elevado número de parejas sexuales diferentes al año o que consuman drogas inyectables."
   utter_faq/como_tomar_prep:
@@ -167,7 +167,7 @@ responses:
           title: ¿Cuál es la diferencia entre VIH y SIDA?
       text: Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas.
   utter_sida_vs_vih:
-    - text: "El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado. \n\n En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas que suponen un grave riesgo para la persona que padece este síndrome."
+    - text: "El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado ❌🛡️. \n\n En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas 🦠 que suponen un grave riesgo para la persona que padece este síndrome."
   utter_faq/cuando_se_tiene:
     - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
   utter_faq/causar_demencia:
@@ -184,9 +184,9 @@ responses:
   utter_faq/cuantas_personas_muertas_sida_2019:
     - text: Según ONUSIDA, 690.000 personas murieron por enfermedades relacionadas con el sida en 2019.
   utter_faq/paciente_berlin:
-    - text: "Su nombre real es Timothy Brown y está considerada la primera persona en ser curada de VIH. \n\n En 2006 fue diagnosticado de leucemia mieloidea aguda y tras el fracaso de la quimioterapia se le realizaron dos trasplantes de células madre. \n\n Se decidió buscar un donante que tuviera la mutación CCR5 Delta 32 en las células CD4, que hace que las células sanguíneas sean inmunes al VIH al evitar la entrada del virus en ellas. \n\n Timothy Brown dejó de tomar la terapia antirretroviral en 2008 y 12 años después sigue sin tener moléculas del virus ☺️. \n\n Por tanto, se le considera el primer paciente curado de VIH."
+    - text: "Su nombre real es Timothy Brown y está considerada la primera persona en ser curada de VIH 👏🏻. \n\n En 2006 fue diagnosticado de leucemia mieloidea aguda y tras el fracaso de la quimioterapia se le realizaron dos trasplantes de células madre. \n\n Se decidió buscar un donante que tuviera la mutación CCR5 Delta 32 en las células CD4, que hace que las células sanguíneas sean inmunes al VIH al evitar la entrada del virus en ellas. \n\n Timothy Brown dejó de tomar la terapia antirretroviral en 2008 y 12 años después sigue sin tener moléculas del virus ☺️. \n\n Por tanto, se le considera el primer paciente curado de VIH."
   utter_faq/paciente_londres:
-    - text: Tras el éxito de la curación del Paciente Berlín, muchos investigadores trataron de emplear estrategias similares para curar pacientes de VIH. \n\n El segundo caso fue el llamado Paciente Londres, que en 2012 fue diagnosticado de linfoma de Hodgkin y también recibió una donación de células madre. \n\n La donante poseía la mutación CCR5 Delta 32, aquella que impide la entrada del virus en las células diana del VIH, los linfocitos CD4. \n\n De ahí que el Paciente Londres fuese la segunda persona curada de VIH en la historia."
+    - text: "Tras el éxito de la curación del Paciente Berlín, muchos investigadores trataron de emplear estrategias similares para curar pacientes de VIH. \n\n El segundo caso fue el llamado Paciente Londres, que en 2012 fue diagnosticado de linfoma de Hodgkin y también recibió una donación de células madre. \n\n La donante poseía la mutación CCR5 Delta 32, aquella que impide la entrada del virus en las células diana del VIH, los linfocitos CD4. \n\n De ahí que el Paciente Londres fuese la segunda persona curada de VIH en la historia."
   # ONUSIDA
   utter_faq/que_es_onusida:
     - text: "ONUSIDA es el Programa Conjunto de las Naciones Unidas sobre el VIH/SIDA destinado a coordinar las actividades de los distintos organismos especializados de la ONU en su lucha contra el sida. \n\n También se le conoce por sus siglas en inglés UNAIDS."
@@ -196,15 +196,15 @@ responses:
     - text: "Es una estrategia establecida en la lucha contra el SIDA que se propuso para ser alcanzada en para 2020. \n\n Se basa en que el 90% de las personas que padecen VIH sepan que lo tienen; que, de ellos, el 90% reciba el tratamiento; y finalmente que, de ellos, un 90% tengan supresión viral (niveles muy bajos del virus en sangre)."
   # Consejos
   utter_faq/contarle_pareja:
-    - text: "Tu pareja es la persona más importante a la que debes contárselo por dos razones: porque también podría estar infectada y porque deberíais tener sexo seguro para evitar contagiarle. \n\n En cualquier caso, tus parejas sexuales deberían saberlo para poder hacerse las pruebas y saber si también están infectados o no."
+    - text: "Tu pareja es la persona más importante ❤️ a la que debes contárselo por dos razones: porque también podría estar infectada y porque deberíais tener sexo seguro para evitar contagiarle. \n\n En cualquier caso, tus parejas sexuales deberían saberlo para poder hacerse las pruebas y saber si también están infectados o no."
   utter_faq/contar_tiene_vih:
-    - text: "Decidir a quién contar que tienes VIH y cómo hacerlo es una decisión a la que debes dedicar un tiempo. \n\n A menos que mantengas prácticas de riesgo, no vas a infectar a nadie, por lo que forma parte de tu intimidad y puedes hablarlo solo con las personas con las que te sientas seguro."
+    - text: "Decidir a quién contar que tienes VIH y cómo hacerlo es una decisión a la que debes dedicar un tiempo. \n\n A menos que mantengas prácticas de riesgo, no vas a infectar a nadie, por lo que forma parte de tu intimidad y puedes hablarlo solo con las personas con las que te sientas seguro 😊."
   utter_faq/pareja_tratar_mal:
-    - text: Tener VIH no es motivo para recibir malos tratos de ninguna persona.
+    - text: Tener VIH no es motivo para recibir malos tratos de ninguna persona 🤦‍♂️.
   utter_faq/empresa_obligar:
     - text: En España, ninguna empresa puede obligar a un/a trabajador/a a someterse a la prueba del VIH ni a informar de su estado serológico.
   utter_faq/prueba_consentimiento:
-    - text: En España no pueden hacerte la prueba sin tu consentimiento.
+    - text: En España no pueden hacerte la prueba sin tu consentimiento 📃🖊️.
   utter_faq/vih_ejercicio_fisico:
     - text: "El ejercicio físico es muy beneficioso y recomendable para todas las personas y de manera especial para las que tienen VIH. \n\n No sólo mejora nuestro estado de salud, sino que ayuda a prevenir algunas complicaciones asociadas a la infección o al tratamiento."
   # Enfermedades asociadas
@@ -227,7 +227,7 @@ responses:
   utter_faq/tuberculosis:
     - text: "Una persona puede tener en su organismo las bacterias que provocan la tuberculosis y no desarrollar la enfermedad. \n\n Sin embargo, cuando se padece VIH, el sistema inmune puede estar debilitado y ello provoca que no sea posible detener a esas bacterias. \n\n Por tanto, las personas seropositivas puedan desarrollar tuberculosis con mayor facilidad."
   utter_faq/problemas_neurologicos:
-    - text: "El VIH puede provocar daños tanto al sistema nervioso central como al periférico y desencadenar un grupo de trastornos neurológicos. \n\n Por ejemplo, la mielopatía vacuolar, la neuropatía sensorial o la demencia causada por el SIDA."
+    - text: "El VIH puede provocar daños tanto al sistema nervioso central como al periférico y desencadenar un grupo de trastornos neurológicos 🧠. \n\n Por ejemplo, la mielopatía vacuolar, la neuropatía sensorial o la demencia causada por el SIDA."
   utter_faq/covid_mas_facil:
     - text: Según el Hospital Clínic de Barcelona, no hay evidencia de una tasa de infección de COVID-19 más alta en las personas con el VIH respecto a las personas VIH negativas.
   utter_faq/covid_mas_agresiva:
@@ -254,7 +254,7 @@ responses:
   utter_faq/que_es_viremia_intermitente:
     - text: "Cuando una persona está en tratamiento antirretroviral el objetivo es que alcance el nivel de carga tan bajo que sea indetectable. \n\n Cuando de repente se vuelve a detectar la carga viral, entonces se dice que el paciente posee una viremia intermitente. \n\n Se puede deber a diversos factores (como el estrés, haber estado enfermo, que el paciente no se esté tomando el tratamiento según la pauta estipulada o que el tratamiento esté fallando)."
   utter_faq/que_es_capside:
-    - text: La cápside o cápsida es la envoltura que recubre el material genético del virus.
+    - text: La cápside o cápsida es la envoltura que recubre el material genético del virus 🧬.
   utter_faq/que_es_cormobilidad:
     - text: "Es cuando una persona tiene dos o más enfermedades o trastornos al mismo tiempo. \n\n Esto conlleva una complicación en el tratamiento farmacológico, un mayor gasto farmacéutico y puede conllevar mayores efectos secundarios y menor supervivencia.  \n\n Las comorbilidades más habituales en el VIH son la hepatitis C u otras enfermedades de transmisión sexual (ETS)."
   utter_faq/que_es_serodiscordante:
@@ -266,7 +266,7 @@ responses:
   utter_faq/que_es_carga_viral:
     - text: "Es la cantidad de virus que hay en sangre. \n\n Para ello se cuenta el número de copias del virus que hay por milímetro cúbico de sangre."
   utter_faq/que_es_carga_viral_indetectable:
-    - text: "Consiste en que la cantidad de virus en la sangre es tan baja que no se puede detectar con las técnicas de análisis que existen. \n\n Esto se consigue gracias al tratamiento antirretroviral."
+    - text: "Consiste en que la cantidad de virus en la sangre es tan baja que no se puede detectar con las técnicas de análisis que existen 🔬. \n\n Esto se consigue gracias al tratamiento antirretroviral."
   utter_faq/que_es_estado_sereologico:
     - text: "Hace referencia al hecho de que una persona tenga o no tenga anticuerpos detectables contra un antígeno específico. \n\n Esto se mide con un análisis de sangre (una prueba serológica) y puede arrojar dos resultados: \n\n Seropositivo (que tiene anticuerpos detectables contra el VIH) o seronegativo (que no tiene anticuerpos detectables contra el VIH)."
   # Estigma
