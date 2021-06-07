@@ -5,7 +5,7 @@ responses:
   utter_fuera_de_ambito/insultos:
     - text: Siento no poder hacerlo mejor pero tampoco creo necesarias esas palabras.
   utter_fuera_de_ambito/cumplidos:
-    - text: Muchas gracias! Vas a hacer que me sonroje. 😳
+    - text: Muchas gracias! Vas a hacer que me sonroje 🤭.
   utter_fuera_de_ambito/otros:
     - buttons:
         - payload: ¿Cuál es la diferencia entre VIH y SIDA?
