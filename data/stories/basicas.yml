@@ -44,3 +44,8 @@ stories:
   - action: utter_que_es_vih_enganche
   - intent: como_prevenir
   - action: utter_como_prevenir
+
+- story: Sugerir tema
+  steps:
+  - intent: pedir_tema
+  - action: utter_sugerir_tema
