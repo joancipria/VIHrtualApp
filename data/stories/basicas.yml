@@ -1,51 +1,50 @@
 version: "2.0"
 
 stories:
+  - story: Varios
+    steps:
+      - intent: sida_vs_vih
+      - action: utter_sida_vs_vih
+      - intent: saber_si_tengo_vih
+      - action: utter_saber_si_tengo_vih
+      - intent: que_sintomas
+      - action: utter_que_sintomas
+      - intent: cura_vih
+      - action: utter_cura_vih
+      - intent: existe_tratamiento
+      - action: utter_existe_tratamiento
 
-- story: Varios
-  steps:
-  - intent: sida_vs_vih
-  - action: utter_sida_vs_vih
-  - intent: saber_si_tengo_vih
-  - action: utter_saber_si_tengo_vih
-  - intent: que_sintomas
-  - action: utter_que_sintomas
-  - intent: cura_vih
-  - action: utter_cura_vih
-  - intent: existe_tratamiento
-  - action: utter_existe_tratamiento
+  - story: Qué es VIH + SIDA + faq
+    steps:
+      - intent: que_es_vih
+      - action: utter_que_es_vih
+      - action: utter_que_es_vih_enganche
+      - intent: que_es_sida
+      - action: utter_que_es_sida
+      - action: utter_que_es_sida_enganche
+      - intent: faq
+      - action: utter_faq
 
-- story: Qué es VIH + SIDA + faq
-  steps:
-  - intent: que_es_vih
-  - action: utter_que_es_vih
-  - action: utter_que_es_vih_enganche
-  - intent: que_es_sida
-  - action: utter_que_es_sida
-  - action: utter_que_es_sida_enganche
-  - intent: faq
-  - action: utter_faq
-  
-- story: Qué es VIH + cómo se transmite + faq
-  steps:
-  - intent: que_es_vih
-  - action: utter_que_es_vih
-  - action: utter_que_es_vih_enganche
-  - intent: como_contagia
-  - action: utter_como_contagia
-  - action: utter_como_contagia_enganche
-  - intent: faq
-  - action: utter_faq
+  - story: Qué es VIH + cómo se transmite + faq
+    steps:
+      - intent: que_es_vih
+      - action: utter_que_es_vih
+      - action: utter_que_es_vih_enganche
+      - intent: como_contagia
+      - action: utter_como_contagia
+      - action: utter_como_contagia_enganche
+      - intent: faq
+      - action: utter_faq
 
-- story: Qué es VIH + como prevenirlo
-  steps:
-  - intent: que_es_vih
-  - action: utter_que_es_vih
-  - action: utter_que_es_vih_enganche
-  - intent: como_prevenir
-  - action: utter_como_prevenir
+  - story: Qué es VIH + como prevenirlo
+    steps:
+      - intent: que_es_vih
+      - action: utter_que_es_vih
+      - action: utter_que_es_vih_enganche
+      - intent: como_prevenir
+      - action: utter_como_prevenir
 
-- story: Sugerir tema
-  steps:
-  - intent: pedir_tema
-  - action: utter_sugerir_tema
+  - story: Sugerir tema
+    steps:
+      - intent: pedir_tema
+      - action: utter_sugerir_tema
