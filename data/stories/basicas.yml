@@ -44,7 +44,7 @@ stories:
       - intent: como_prevenir
       - action: utter_como_prevenir
 
-  - story: Sugerir tema
+  - story: Pide un tema + sugerir
     steps:
       - intent: pedir_tema
       - action: utter_sugerir_tema
