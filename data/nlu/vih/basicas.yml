@@ -140,6 +140,7 @@ nlu:
   - intent: faq/cual_es_el_origen
     examples: |
       - ¿Cuál es el origen del VIH?
+      - Origen del VIH
       - ¿cual es el origen del Virus de la Inmunodeficiencia Humana?
       - dime cual es el orgien del vih
       - dime donde surgio el vih
