@@ -901,8 +901,6 @@ nlu:
       - recomiendame algun tema interesante para hablar
       - recomiendame alguna pregunta que pueda hacerte
       - dime alguna pregunta interesante
-  - intent: no_sabe_que_preguntar
-    examples: |
       - no se que preguntar
       - no sé que preguntarte
       - no se q preguntar
