@@ -189,6 +189,10 @@ nlu:
   - intent: reaccionar_negativamente
     examples: |
       - Muy mal
+      - estoy agobiado
+      - me siento agobiado
+      - estoy un poco agobiado
+      - me agobia
       - Me parece fatal
       - me parece mal
       - mal hecho
