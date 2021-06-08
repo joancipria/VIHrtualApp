@@ -151,7 +151,7 @@ responses:
   utter_ofrecer_ayuda:
   - text: ¿Qué puedo hacer por ti?
   - text: ¿En qué puedo ayudarte? 🕵️‍
-  - text: ¿En qué necesitas ayuda?
+  - text: Dime, ¿qué puedo hacer por ti?
   - text: ¿En qué te puedo ayudar?
   - text: Dime, ¿qué necesitas?
   - text: ¿Qué necesitas?
