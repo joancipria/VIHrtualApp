@@ -1,22 +1,46 @@
 version: "2.0"
 
 rules:
+  - rule: Responder a faqs
+    steps:
+      - intent: faq
+      - action: utter_faq
+  - rule: Responder a chachara
+    steps:
+      - intent: chachara
+      - action: utter_chachara
 
-- rule: Responder a faqs
-  steps:
-  - intent: faq
-  - action: utter_faq
-- rule: Responder a chachara
-  steps:
-  - intent: chachara
-  - action: utter_chachara
+  - rule: Responder a preguntas fuera de ámbito
+    steps:
+      - intent: fuera_de_ambito
+      - action: utter_fuera_de_ambito
 
-- rule: Responder a preguntas fuera de ámbito
-  steps:
-  - intent: fuera_de_ambito
-  - action: utter_fuera_de_ambito
+  - rule: Solicitar al usuario que reformule la pregunta cuando envían un mensaje con un coeficiente NLU bajo (ver config.yml)
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default
 
-- rule: Solicitar al usuario que reformule la pregunta cuando envían un mensaje con un coeficiente NLU bajo (ver config.yml)
-  steps:
-  - intent: nlu_fallback
-  - action: utter_default
+  - rule: Esperar
+    steps:
+      - intent: esperar
+      - action: utter_esperar
+
+  - rule: Ofrecer ayuda
+    steps:
+      - intent: pedir_ayuda
+      - action: utter_ofrecer_ayuda
+
+  - rule: Querer preguntar
+    steps:
+      - intent: querer_preguntar
+      - action: utter_animar_preguntar
+
+  - rule: Saludar
+    steps:
+      #- or:
+      - intent: saludar
+        #- intent: introducir_datos
+        #  entities:
+        #  - PER: Pepe
+      #- action: action_saludar_usuario
+      - action: utter_saludar
