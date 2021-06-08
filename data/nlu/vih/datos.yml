@@ -29,6 +29,7 @@ nlu:
   - intent: faq/cuantas_personas_tienen_vih
     examples: |
       - ¿Cuántas personas tienen VIH hoy?
+      - ¿Cuantas personas tienen?
       - ¿Cuánta gente tiene VIH?
       - ¿Cuanta gente hay con VIH?
       - ¿Cuántas personas tienen actualmente VIH?
@@ -50,6 +51,15 @@ nlu:
       - ¿Cuántas personas mueren al año de sida?
       - ¿Murió mucha gente en el año 2019 de sida?
       - ¿Cuantá gente ha muerto de SIDA en este año?
+  - intent: faq/casos_cura
+    examples: |
+      - ¿que casos se han recuperado?
+      - que casos ha habio de curación?
+      - quienes se han curado?
+      - que personas se han curado?
+      - existe alguien que se haya curado?
+      - en que casos se han curado del vih?
+      - quien se ha curado de vih?
   - intent: faq/paciente_berlin
     examples: |
       - ¿Quién es el paciente de Berlín?
@@ -64,6 +74,8 @@ nlu:
       - hombre de berlin
       - persona de berlin
       - enfermo de berlin
+      - Paciente de Berlín
+      - paciente berlin
   - intent: faq/paciente_londres
     examples: |
       - ¿Quién es el paciente de Londres?
@@ -76,3 +88,5 @@ nlu:
       - hombre de londres
       - persona de londres
       - enfermo de londres
+      - paciente londres
+      - Paciente de Londres

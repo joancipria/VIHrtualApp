@@ -196,6 +196,8 @@ responses:
     - text: "Su nombre real es Timothy Brown y está considerada la primera persona en ser curada de VIH 👏🏻. \n\n En 2006 fue diagnosticado de leucemia mieloidea aguda y tras el fracaso de la quimioterapia se le realizaron dos trasplantes de células madre. \n\n Se decidió buscar un donante que tuviera la mutación CCR5 Delta 32 en las células CD4, que hace que las células sanguíneas sean inmunes al VIH al evitar la entrada del virus en ellas. \n\n Timothy Brown dejó de tomar la terapia antirretroviral en 2008 y 12 años después sigue sin tener moléculas del virus ☺️. \n\n Por tanto, se le considera el primer paciente curado de VIH."
   utter_faq/paciente_londres:
     - text: "Tras el éxito de la curación del Paciente Berlín, muchos investigadores trataron de emplear estrategias similares para curar pacientes de VIH. \n\n El segundo caso fue el llamado Paciente Londres, que en 2012 fue diagnosticado de linfoma de Hodgkin y también recibió una donación de células madre. \n\n La donante poseía la mutación CCR5 Delta 32, aquella que impide la entrada del virus en las células diana del VIH, los linfocitos CD4. \n\n De ahí que el Paciente Londres fuese la segunda persona curada de VIH en la historia."
+  utter_faq/casos_cura:
+    - text: "Existen dos casos muy concretos de personas que se han curado del VIH: el Paciente Berlín y el Paciente Londres."
   # ONUSIDA
   utter_faq/que_es_onusida:
     - text: "ONUSIDA es el Programa Conjunto de las Naciones Unidas sobre el VIH/SIDA destinado a coordinar las actividades de los distintos organismos especializados de la ONU en su lucha contra el sida. \n\n También se le conoce por sus siglas en inglés UNAIDS."

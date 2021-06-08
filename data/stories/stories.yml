@@ -1,189 +1,193 @@
 version: "2.0"
 
 stories:
+  - story: Saludar
+    steps:
+      #- or:
+      - intent: saludar
+        #- intent: introducir_datos
+        #  entities:
+        #  - PER: Pepe
+      #- action: action_saludar_usuario
+      - action: utter_saludar
 
-- story: Saludar
-  steps:
-  #- or:
-  - intent: saludar
-    #- intent: introducir_datos
-    #  entities:
-    #  - PER: Pepe
-  #- action: action_saludar_usuario
-  - action: utter_saludar
+  - story: Saludar + preguntar como estas
+    steps:
+      - intent: saludar
+      - action: utter_saludar
+      - intent: preguntar_estado
+      - action: utter_estado
 
-- story: Saludar + preguntar como estas
-  steps:
-  - intent: saludar
-  - action: utter_saludar
-  - intent: preguntar_estado
-  - action: utter_estado
+  - story: Preguntar como estas + bien + alegrarse + ofrecer ayuda
+    steps:
+      - intent: preguntar_estado
+      - action: utter_estado
+      - or:
+          - intent: reaccionar_positivamente
+          - intent: animo_alto
+      - action: utter_alegrarse
+      - action: utter_ofrecer_ayuda
 
-- story: Preguntar como estas + bien + alegrarse + ofrecer ayuda
-  steps:
-  - intent: preguntar_estado
-  - action: utter_estado
-  - or:
-    - intent: reaccionar_positivamente
-    - intent: animo_alto
-  - action: utter_alegrarse
-  - action: utter_ofrecer_ayuda
+  - story: Preguntar como estas + mal + entristecerse + ofrecer ayuda
+    steps:
+      - intent: preguntar_estado
+      - action: utter_estado
+      - or:
+          - intent: reaccionar_negativamente
+          - intent: animo_bajo
+      - action: utter_entristecerse
+      - action: utter_ofrecer_ayuda
 
-- story: Preguntar como estas + mal + entristecerse + ofrecer ayuda
-  steps:
-  - intent: preguntar_estado
-  - action: utter_estado
-  - or:
-    - intent: reaccionar_negativamente
-    - intent: animo_bajo
-  - action: utter_entristecerse
-  - action: utter_ofrecer_ayuda
+  - story: Se ofende + pedir perdón
+    steps:
+      - intent: ofenderse
+      - action: utter_pedir_perdon_ofensa
 
-- story: Se ofende + pedir perdón
-  steps: 
-  - intent: ofenderse
-  - action: utter_pedir_perdon_ofensa
+  - story: Despedirse + recordar asistencia
+    steps:
+      - intent: despedirse
+      - action: utter_despedirse
+      - action: utter_recordar_asistencia
 
-- story: Despedirse + recordar asistencia
-  steps:
-  - intent: despedirse
-  - action: utter_despedirse
-  - action: utter_recordar_asistencia
-
-- story: Agradecer + no necesita nada más
-  steps:
-  - intent: agradecer
-  - action: utter_no_hay_de_que
-  - action: utter_algo_mas
-  - intent: negar
-  - action: utter_reaccionar_positivamente
-  - action: utter_recordar_asistencia
-
-- story: Agradecer + necesita algo más
-  steps:
-  - intent: agradecer
-  - action: utter_no_hay_de_que
-  - action: utter_algo_mas
-  - intent: afirmar
-  - action: utter_ofrecer_ayuda
-
-- story: Esperar
-  steps:
-  - intent: esperar
-  - action: utter_esperar
-
-- story: Ofrecer ayuda
-  steps:
-    - intent: pedir_ayuda
-    - action: utter_ofrecer_ayuda
-
-- story: Querer preguntar
-  steps:
-    - intent: querer_preguntar
-    - action: utter_animar_preguntar
-
-- story: Ofrecer ayuda + no necesita nada
-  steps:
-    - action: utter_ofrecer_ayuda
-    - intent: negar
-    - action: utter_reaccionar_positivamente
-    - action: utter_recordar_asistencia
-
-- story: No le ha sido de ayuda + disculparse + pedir que lo repita
-  steps:
-  - intent: no_le_ha_ayudado
-  - action: utter_disculparse
-  - action: utter_pedir_repita
-
-- story: No le entiende + pedir disculpas y pedir que lo repita
-  steps:
-  - intent: no_le_entiende
-  - action: utter_disculpas_no_entender
-
-- story: No le entiende + pedir disculpas y pedir que lo repita + reaccion negativa
-  steps:
-  - intent: no_le_entiende
-  - action: utter_disculpas_no_entender
-  - or:
-    - intent: negar
-    - intent: reaccionar_negativamente
-  - action: utter_conformidad
-  - action: utter_recordar_asistencia
-
-- story: No le entiende + pedir disculpas y pedir que lo repita + reaccion positiva
-  steps:
-  - intent: no_le_entiende
-  - action: utter_disculpas_no_entender
-  - or:
-    - intent: afirmar
-    - intent: reaccionar_positivamente
-  - action: action_listen
-
-- story: No lo ha entendido + preguntar que no ha entendido + reaccion negativa
-  steps:
-  - intent: no_entender
-  - action: utter_preguntar_que_no_entiende
-  - or:
-    - intent: negar
-    - intent: reaccionar_negativamente
-  - action: utter_conformidad
-  - action: utter_recordar_asistencia
-
-- story: Más información
-  steps:
-  - intent: mas_informacion
-  - action: utter_dar_mas_informacion
-  - action: utter_dar_mas_informacion_enganche
-
-- story: Que puede hacer + ofrecer ayuda
-  steps: 
-  - intent: que_puede_hacer
-  - action: utter_que_puede_hacer
-  - action: utter_ofrecer_ayuda
-
-- story: Que puede preguntar + animar a preguntar
-  steps:
-  - intent: que_puede_preguntar
-  - action: utter_que_puede_preguntarme
-  - action: utter_animar_preguntar
-
-- story: Pedir que lo repita + no
-  steps:
-  - action: utter_default
-  - or:
-    - intent: negar
-    - intent: reaccionar_negativamente
-  - action: utter_conformidad
-  - action: utter_recordar_asistencia
-
-- story: Pedir que lo repita + no 2
-  steps:
-    - action: utter_pedir_repita
-    - or:
+  - story: Agradecer + no necesita nada más
+    steps:
+      - intent: agradecer
+      - action: utter_no_hay_de_que
+      - action: utter_algo_mas
       - intent: negar
-      - intent: reaccionar_negativamente
-    - action: utter_conformidad
-    - action: utter_recordar_asistencia
+      - action: utter_reaccionar_positivamente
+      - action: utter_recordar_asistencia
 
-- story: Pedir que lo repita + si
-  steps:
-  - action: utter_default
-  - or:
-    - intent: afirmar
-    - intent: reaccionar_positivamente
-  - action: action_listen
+  - story: Agradecer + necesita algo más
+    steps:
+      - intent: agradecer
+      - action: utter_no_hay_de_que
+      - action: utter_algo_mas
+      - intent: afirmar
+      - action: utter_ofrecer_ayuda
 
-- story: Pedir que lo repita + si 2
-  steps:
-  - action: utter_pedir_repita
-  - or:
-    - intent: afirmar
-    - intent: reaccionar_positivamente
-  - action: action_listen
+  - story: Esperar
+    steps:
+      - intent: esperar
+      - action: utter_esperar
 
-- story: reiniciar
-  steps:
-  - intent: reiniciar
-  - action: utter_confirmar_reiniciar
-  - intent: afirmar
-  - action: action_restart
+  - story: Ofrecer ayuda
+    steps:
+      - intent: pedir_ayuda
+      - action: utter_ofrecer_ayuda
+
+  - story: Querer preguntar
+    steps:
+      - intent: querer_preguntar
+      - action: utter_animar_preguntar
+
+  - story: Ofrecer ayuda + no necesita nada
+    steps:
+      - action: utter_ofrecer_ayuda
+      - intent: negar
+      - action: utter_reaccionar_positivamente
+      - action: utter_recordar_asistencia
+
+  - story: No le ha sido de ayuda + disculparse + pedir que lo repita
+    steps:
+      - intent: no_le_ha_ayudado
+      - action: utter_disculparse
+      - action: utter_pedir_repita
+
+  - story: No le entiende + pedir disculpas y pedir que lo repita
+    steps:
+      - intent: no_le_entiende
+      - action: utter_disculpas_no_entender
+
+  - story: No le entiende + pedir disculpas y pedir que lo repita + reaccion negativa
+    steps:
+      - intent: no_le_entiende
+      - action: utter_disculpas_no_entender
+      - or:
+          - intent: negar
+          - intent: reaccionar_negativamente
+      - action: utter_conformidad
+      - action: utter_recordar_asistencia
+
+  - story: No le entiende + pedir disculpas y pedir que lo repita + reaccion positiva
+    steps:
+      - intent: no_le_entiende
+      - action: utter_disculpas_no_entender
+      - or:
+          - intent: afirmar
+          - intent: reaccionar_positivamente
+      - action: action_listen
+
+  - story: No lo ha entendido + preguntar que no ha entendido + reaccion negativa
+    steps:
+      - intent: no_entender
+      - action: utter_preguntar_que_no_entiende
+      - or:
+          - intent: negar
+          - intent: reaccionar_negativamente
+      - action: utter_conformidad
+      - action: utter_recordar_asistencia
+
+  - story: Más información
+    steps:
+      - intent: mas_informacion
+      - action: utter_dar_mas_informacion
+      - action: utter_dar_mas_informacion_enganche
+
+  - story: Que puede hacer + ofrecer ayuda
+    steps:
+      - intent: que_puede_hacer
+      - action: utter_que_puede_hacer
+      - action: utter_ofrecer_ayuda
+
+  - story: Que puede preguntar + animar a preguntar
+    steps:
+      - intent: que_puede_preguntar
+      - action: utter_que_puede_preguntarme
+      - action: utter_animar_preguntar
+
+  - story: Pedir que lo repita + no
+    steps:
+      - action: utter_default
+      - or:
+          - intent: negar
+          - intent: reaccionar_negativamente
+      - action: utter_conformidad
+      - action: utter_recordar_asistencia
+
+  - story: Pedir que lo repita + no 2
+    steps:
+      - action: utter_pedir_repita
+      - or:
+          - intent: negar
+          - intent: reaccionar_negativamente
+      - action: utter_conformidad
+      - action: utter_recordar_asistencia
+
+  - story: Pedir que lo repita + si
+    steps:
+      - action: utter_default
+      - or:
+          - intent: afirmar
+          - intent: reaccionar_positivamente
+      - action: action_listen
+
+  - story: Pedir que lo repita + si 2
+    steps:
+      - action: utter_pedir_repita
+      - or:
+          - intent: afirmar
+          - intent: reaccionar_positivamente
+      - action: action_listen
+
+  - story: Pide un tema + sugerir
+    steps:
+      - intent: pedir_tema
+      - action: utter_sugerir_tema
+
+  - story: reiniciar
+    steps:
+      - intent: reiniciar
+      - action: utter_confirmar_reiniciar
+      - intent: afirmar
+      - action: action_restart
