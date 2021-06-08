@@ -5,8 +5,6 @@ stories:
     steps:
       - intent: sida_vs_vih
       - action: utter_sida_vs_vih
-      - intent: saber_si_tengo_vih
-      - action: utter_saber_si_tengo_vih
       - intent: que_sintomas
       - action: utter_que_sintomas
       - intent: cura_vih
@@ -33,6 +31,17 @@ stories:
       - intent: como_contagia
       - action: utter_como_contagia
       - action: utter_como_contagia_enganche
+      - intent: faq
+      - action: utter_faq
+
+  - story: Qué es VIH + saber si tengo + faq
+    steps:
+      - intent: que_es_vih
+      - action: utter_que_es_vih
+      - action: utter_que_es_vih_enganche
+      - intent: saber_si_tengo_vih
+      - action: utter_saber_si_tengo_vih
+      - action: utter_saber_si_tengo_vih_enganche
       - intent: faq
       - action: utter_faq
 
