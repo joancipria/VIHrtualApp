@@ -44,3 +44,8 @@ rules:
         #  - PER: Pepe
       #- action: action_saludar_usuario
       - action: utter_saludar
+  
+  - rule: Se ofende + pedir perdón
+    steps:
+      - intent: ofenderse
+      - action: utter_pedir_perdon_ofensa

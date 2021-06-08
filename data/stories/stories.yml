@@ -28,11 +28,6 @@ stories:
       - action: utter_entristecerse
       - action: utter_ofrecer_ayuda
 
-  - story: Se ofende + pedir perdón
-    steps:
-      - intent: ofenderse
-      - action: utter_pedir_perdon_ofensa
-
   - story: Despedirse + recordar asistencia
     steps:
       - intent: despedirse
