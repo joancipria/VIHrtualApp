@@ -3,6 +3,9 @@ version: "2.0"
 nlu:
   - intent: que_es_vih
     examples: |
+      - vih
+      - VIH
+      - virus de la inmunodeficiencia humana
       - ¿Qué significa VIH?
       - Qué es el vih?
       - no tengo muy claro que es el vih
