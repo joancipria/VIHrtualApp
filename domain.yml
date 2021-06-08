@@ -151,7 +151,6 @@ responses:
   utter_ofrecer_ayuda:
   - text: ¿Qué puedo hacer por ti?
   - text: ¿En qué puedo ayudarte? 🕵️‍
-  - text: Dime, ¿que dudas tienes? 🤔
   - text: ¿En qué necesitas ayuda?
   - text: ¿En qué te puedo ayudar?
   - text: Dime, ¿qué necesitas?
@@ -169,6 +168,7 @@ responses:
   - text: Dime exactamente lo que quieres saber e intentaré ayudarte 😊
   - text: Estoy aquí para ayudarte, así que pregúntame lo que quieras.
   - text: Estoy aquí para ayudarte, adelante preguntame lo que quieras.
+  - text: Dime, ¿que dudas tienes? 🤔
   - text: Adelante, te leo.
   utter_reaccionar_positivamente:
   - text: ¡Perfecto! 👍
