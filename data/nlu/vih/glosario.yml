@@ -136,6 +136,7 @@ nlu:
       - dime que es carga viral indetectable
       - en que consiste ser carga viral indetectable
       - oye que es carga viral indetectable
+      - carga viral indetectable
   - intent: faq/que_es_estado_sereologico
     examples: |
       - ¿Qué es el estado serológico?

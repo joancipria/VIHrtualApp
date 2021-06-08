@@ -56,6 +56,7 @@ nlu:
       - en el sexo, se puede contagiar el vih?
       - Cuáles son las causas de contagio?
       - Cómo se contrae el VIH?
+      - como se pega el virus?
   - intent: faq/aire
     examples: |
       - ¿Se contagia el VIH por el aire?
@@ -90,6 +91,9 @@ nlu:
       - puedo coger el virus con un estornudo?
       - puedo coger el virus a través de aire?
       - el vih se transmite por el aire
+      - puedo contagiarme por respirar?
+      - pueden contagirame si me estornudan?
+      - pueden contagirame por un estornudo?
   - intent: faq/vertical
     examples: |
       - ¿Qué es la transmisión vertical?
@@ -221,6 +225,7 @@ nlu:
       - se puede transmitir el vih al arañar?
       - si una persona me escupe me puede pasar el virus?
       - si alguien con vih me araña o me escupe, me puedo infectar?
+      - si escupo a alguien le puedo pegar el vih?
   - intent: faq/insectos
     examples: |
       - ¿Pueden los mosquitos o las garrapatas contagiar el VIH?

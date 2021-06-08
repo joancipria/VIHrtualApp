@@ -176,6 +176,7 @@ nlu:
       - ¿Funcionan los espermicidas para protegerme del VIH?
       - ¿Los espermicidas previenen el VIH?
       - Si utilizo espermicidas, ¿estoy protegido contra el VIH?
+      - los espermicidas evitan el contagio?
   - intent: faq/son_eficientes_preservativos
     examples: |
       - ¿Es eficiente usar preservativos para evitar la infección por VIH?
@@ -259,3 +260,4 @@ nlu:
       - ¿Cómo hay que protegerse del VIH?
       - ¿Cómo me puedo proteger del VIH?
       - Como se puede evitar contraer VIH?
+      - como puedro evitar contagiarme del vih?

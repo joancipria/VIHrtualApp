@@ -137,6 +137,7 @@ nlu:
       - que pasa cuando coges el vih
       - q pasa si coges el virus
       - que pasa si te infectas
+      - como actua el virus en el cuerpo?
   - intent: faq/cual_es_el_origen
     examples: |
       - ¿Cuál es el origen del VIH?
@@ -171,6 +172,7 @@ nlu:
       - de que sitio proviene el vih?
       - en que sitio se descubrió el virus?
       - donde se descubrio
+      - que origen tiene el vih?
   - intent: faq/cuando
     examples: |
       - ¿Cuándo se originó el VIH?
@@ -231,6 +233,7 @@ nlu:
       - cuando se observa la existencia de este virus
       - ¿En qué momento se descubrió el VIH?
       - Cuando se descubrió esta enfermedad?
+      - y cuando se descubrió?
   - intent: faq/personas_famosas_vih
     examples: |
       - ¿Qué personas famosas han tenido o tienen VIH?
@@ -260,6 +263,7 @@ nlu:
       - ¿Hay famosos que han dicho que tienen VIH?
       - hay algun famoso que haya dicho que tiene vih?
       - hay muchos famosos que tengan el virus?
+      - hay personas famosas con el virus?
   - intent: faq/sobrevive_fuera_vih
     examples: |
       - ¿Sobrevive el VIH fuera del cuerpo humano?
@@ -290,6 +294,7 @@ nlu:
       - cuanto tiempo puede estar el virus en una cuchilla?
       - cuanto tiempo puede estar el virus en una aguja?
       - cuanto tiempo puede sobrevivir el vih en una aguja?
+      - puede sobrevivir el vih fuera del cuerpo?
   - intent: faq/que_es_latencia
     examples: |
       - ¿Qué es la latencia del VIH?
@@ -317,6 +322,7 @@ nlu:
       - a q te refieres con latencia?
       - que quieres decir con latencua del vih?
       - que es la latencia del virus o estar latente
+      - que significa que el virus esta latente?
   - intent: faq/que_es_etapa_1
     examples: |
       - ¿Qué es la etapa 1 de la infección por el VIH?
@@ -344,6 +350,7 @@ nlu:
       - explciame la fase uno del vih
       - cómo es la primera fase del virus?
       - como es el primer tramo de la enfermedad
+      - cual es la primera fase de la enfermedad
   - intent: faq/es_importante_saber_tengo_vih
     examples: |
       - ¿Es importante saber si tengo VIH?
@@ -374,6 +381,8 @@ nlu:
       - porque es importante saber si tienes vih?
       - por que es importante saber si estas infectado?
       - x q es importante saber si estoy infectado?
+      - deberia saber si tengo vih?
+      - debo saber si tengo vih?
   - intent: faq/infeccion_aguda_vih
     examples: |
       - ¿Qué es la Infección aguda por el VIH?
@@ -404,6 +413,7 @@ nlu:
   - intent: faq/tipos_vih
     examples: |
       - ¿Cuántos tipos de VIH hay?
+      - tipos de vih
       - cuantos tipos de vih existen?
       - que tipos de vih existen?
       - existen diferentes tipos de vih?
@@ -413,6 +423,9 @@ nlu:
       - existen distintas clases de vih?
       - dime cuantos tipos de vih hay
       - cuantos vih diferentes hay?
+      - existen distintos tipos del virus?
+      - existen variantes del vih?
+      - que variantes del virus hay?
   - intent: faq/donar_sangre
     examples: |
       - ¿Una persona seropositiva puede donar sangre?
@@ -429,3 +442,4 @@ nlu:
       - podría donar sangre si soy positivo?
       - podría donar sangre si tengo vih?
       - teniendo vih se puede donar sangre?
+      - podria donar sangre si soy positivo?

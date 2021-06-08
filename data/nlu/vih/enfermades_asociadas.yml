@@ -47,6 +47,11 @@ nlu:
     examples: |
       - ¿Cómo se relacionan el VIH y el sida con el cáncer?
       - ¿Qué relación hay entre el sida y el cáncer?
+      - vih y cáncer
+      - cáncer y vih
+      - cancer y el vih
+      - relación entre el vih y el cancer
+      - relacion entre sida y cancer
   - intent: faq/eventos_no_sida
     examples: |
       - ¿Qué son los eventos no sida?
