@@ -189,10 +189,6 @@ nlu:
   - intent: reaccionar_negativamente
     examples: |
       - Muy mal
-      - estoy agobiado
-      - me siento agobiado
-      - estoy un poco agobiado
-      - me agobia
       - Me parece fatal
       - me parece mal
       - mal hecho
@@ -497,6 +493,7 @@ nlu:
       - ayudame con esto
   - intent: querer_preguntar
     examples: |
+      - puedo ahcerte una preguna?
       - Quiero preguntarte algo
       - kiero preguntarte una cosa
       - quiero preguntar una cosa
@@ -709,6 +706,9 @@ nlu:
       - Quiero llorar
       - No me siento bien
       - no me encuentro anda bien
+      - estoy agobiado
+      - me siento agobiado
+      - estoy un poco agobiado
   - intent: no_le_ha_ayudado
     examples: |
       - no me sirves
