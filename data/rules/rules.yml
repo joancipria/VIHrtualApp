@@ -35,16 +35,6 @@ rules:
       - intent: querer_preguntar
       - action: utter_animar_preguntar
 
-  - rule: Saludar
-    steps:
-      #- or:
-      - intent: saludar
-        #- intent: introducir_datos
-        #  entities:
-        #  - PER: Pepe
-      #- action: action_saludar_usuario
-      - action: utter_saludar
-  
   - rule: Se ofende + pedir perdón
     steps:
       - intent: ofenderse
