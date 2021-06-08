@@ -3,6 +3,8 @@ version: "2.0"
 nlu:
   - intent: que_sintomas
     examples: |
+      - SINTOMAS??
+      - que sintomaas?
       - ¿Qué síntomas muestra el VIH?
       - que sintomas tiene el vih
       - q síntomas muestra el vih
