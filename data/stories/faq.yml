@@ -6,13 +6,6 @@ stories:
   - intent: faq
   - action: utter_faq
 
-- story: saludo + faq
-  steps:
-  - intent: saludar
-  - action: utter_saludar
-  - intent: faq
-  - action: utter_faq
-
 - story: faq + pide más información + le damos más información
   steps:
   - intent: faq

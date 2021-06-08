@@ -1,13 +1,6 @@
 version: "2.0"
 
 stories:
-  - story: Saludar + preguntar como estas
-    steps:
-      - intent: saludar
-      - action: utter_saludar
-      - intent: preguntar_estado
-      - action: utter_estado
-
   - story: Preguntar como estas + bien + alegrarse + ofrecer ayuda
     steps:
       - intent: preguntar_estado

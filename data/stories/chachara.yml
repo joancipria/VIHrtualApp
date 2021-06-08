@@ -5,10 +5,3 @@ stories:
   steps:
   - intent: chachara
   - action: utter_chachara
-
-- story: saludo + chachara
-  steps:
-  - intent: saludar
-  - action: utter_saludar
-  - intent: chachara
-  - action: utter_chachara
