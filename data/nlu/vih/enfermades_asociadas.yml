@@ -21,6 +21,8 @@ nlu:
     examples: |
       - ¿Qué es la Neumonía por Pneumocystis jirovecii?
       - ¿Qué es una neumonía de Pneumocystis?
+      - que es una neumonia de Pneumocystis?
+      - neumonia de Pneumocystis jirovecii
       - ¿Qué se conoce como neumonía pneumocystis?
       - ¿Qué es una pulmonía pneumocystis?
       - ¿Qué es una pulmonía jirovecii?

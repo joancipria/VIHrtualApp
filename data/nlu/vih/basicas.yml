@@ -396,6 +396,11 @@ nlu:
       - en que consiste la fase por infección aguda
       - qué es la infeccion aguda por vih
       - que pasa en la etapa aguda de infección
+      - existe una infecciona guda de vih?
+      - que ocurre en la infeccion aguda de vih
+      - explciame que sucede en una infeccion aguda de vih
+      - sabrias explciarme que sucede en la infeccion aguda por vih?
+      - etapa de la infeccion aguda
   - intent: faq/infeccion_cronica_vih
     examples: |
       - ¿Qué es la Infección crónica por el VIH?
@@ -410,6 +415,11 @@ nlu:
       - en que consiste la fase por infección crónica
       - qué es la infeccion cronica por vih
       - que pasa en la etapa cronica de infección
+      - existe una infecciona cronica de vih?
+      - que ocurre en la infeccion cronica de vih
+      - explciame que sucede en una infeccion cronica de vih
+      - sabrias explciarme que sucede en la infeccion cronica por vih?
+      - etapa de la infeccion cronica
   - intent: faq/tipos_vih
     examples: |
       - ¿Cuántos tipos de VIH hay?
@@ -426,6 +436,16 @@ nlu:
       - existen distintos tipos del virus?
       - existen variantes del vih?
       - que variantes del virus hay?
+      - hay distintas variedades del virus?
+      - cuantas variantes del virus existen?
+      - hay distintos tipos de enfermedad?
+      - hy diferentes cepas de vih?
+      - existen distintas cepas de vih?
+      - cuanats cepas de vih hay?
+      - cuanats cepas existen?
+      - solo hay un tipo de VIH?
+      - existe unicamente un solo virus de vih?
+      - solo existe un tipo de vih?
   - intent: faq/donar_sangre
     examples: |
       - ¿Una persona seropositiva puede donar sangre?
@@ -443,3 +463,16 @@ nlu:
       - podría donar sangre si tengo vih?
       - teniendo vih se puede donar sangre?
       - podria donar sangre si soy positivo?
+      - puedo donar sangre si estoy infectado de VIH?
+      - los infectados por vih pueden donar sanfre?
+      - las personas con vih pueden donar sangre?
+      - a als peronas con vih se les permite dar sangre?
+      - a las personas con sida se les deja dar sangre?
+      - a la gente con vih se les deja donar sangre?
+      - als donaciones de sangre aceptan a gente con vih?
+      - la cruz roja deja donar sangre si tienes vih?
+      - esta permitido donar sangre si tienes vih?
+      - te permiten donar sangre si eres positivo?
+      - puedes donar sangre si estas infectado?
+      - si tienes el virus puedes dar sangre?
+      - donar sangre con vih

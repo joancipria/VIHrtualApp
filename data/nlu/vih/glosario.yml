@@ -36,6 +36,7 @@ nlu:
   - intent: faq/que_es_linfopenia
     examples: |
       - ¿Qué es la linfopenia?
+      - que es la linfopenia
       - ¿Qué es linfopenia?
   - intent: faq/que_es_seroconversion
     examples: |
