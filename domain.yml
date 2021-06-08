@@ -79,6 +79,8 @@ intents:
     use_entities: true
 - como_prevenir:
     use_entities: true
+- quien_riesgo:
+    use_entities: true
 entities:
 - PER
 - idioma
@@ -278,5 +280,6 @@ responses:
   - text: Lo siento mucho pero no acabo de entenderte. ¿Me lo podrías decir de otra forma? 🙏
 actions:
 - action_dar_bienvenida
+- utter_quien_riesgo
 forms: {}
 e2e_actions: []

@@ -1,0 +1,26 @@
+version: "2.0"
+stories:
+- story: Happy path
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - action: utter_ofrecer_ayuda
+  - intent: que_puede_preguntar
+  - action: utter_que_puede_preguntarme
+  - action: utter_animar_preguntar
+  - intent: que_es_vih
+  - action: utter_que_es_vih
+  - action: utter_que_es_vih_enganche
+  - intent: sida_vs_vih
+  - action: utter_sida_vs_vih
+  - intent: como_contagia
+  - action: utter_como_contagia
+  - action: utter_como_contagia_enganche
+  - intent: como_prevenir
+  - action: utter_como_prevenir
+  - intent: faq
+  - action: utter_faq
+  - intent: quien_riesgo
+  - action: utter_quien_riesgo
+
+

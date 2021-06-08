@@ -40,6 +40,8 @@ responses:
     - text: "Se diferencian dos tipos de VIH: el VIH-1 y el VIH-2. El VIH-2 es endémico de África y generalmente requiere más tiempo hasta desarrollar SIDA. \n\n En los países occidentales prevalece el VIH-1."
   utter_faq/donar_sangre:
     - text: "Las personas que padecen VIH no pueden donar sangre, ya que el virus se contagia a través de esta. \n\n En los años 90 hubo casos de infecciones a partir de transfusiones de sangre pero hoy día a toda la sangre donada se le realizan varias pruebas para la detección de enfermedades."
+  utter_quien_riesgo:
+    - text: Quienes mayor riesgo tiene de contagio son aquellas personas que posean un elevado número de parejas sexuales diferentes al año o que consuman drogas inyectables.
   # Transmisión
   utter_como_contagia:
     - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.

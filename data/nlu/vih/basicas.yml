@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
   - intent: que_es_vih
     examples: |
@@ -47,6 +46,7 @@ nlu:
       - en que consiste el vih
       - quisiera saber que es el vih
       - quiero saber en q consiste eso del vih
+      - explicame en que consiste el vih
   - intent: cura_vih
     examples: |
       - ¿Existe cura para el VIH?
@@ -104,7 +104,7 @@ nlu:
       - que ace exactamente el virus?
       - como procede el virus una ve dentro del cuerpo?
       - que hace el virus dentro del cuerpo?
-      - cómo actúa el virus? 
+      - cómo actúa el virus?
       - como actua el vih?
       - como actual el vih
       - como actual el vih?
@@ -113,7 +113,7 @@ nlu:
       - como actua dentro del cuerpo el vih?
       - ¿Cómo actúa el VIH en el cuerpo?
       - como se comporta el virus vih en el cuerpo?
-      - como se comporta el virus? 
+      - como se comporta el virus?
       - ¿Cómo se comporta el Virus de la Inmunodeficiencia Humana?
       - explicame que hace el virus
       - exactamente como actúa el vih?
@@ -171,8 +171,6 @@ nlu:
       - en que sitio del mundo surgió el vih?
       - en que pais surgió el virus?
       - en que continente surgio el virus?
-      - de que sitio proviene el vih?
-      - de donde viene el virus?
       - de que sitio proviene el vih?
       - en que sitio se descubrió el virus?
       - donde se descubrio
@@ -257,7 +255,7 @@ nlu:
       - cantantes famosos con vih
       - musicos famosos con sida
       - deportistas famosas con vih
-      - que personas famosas han dicho que tiene vih?  
+      - que personas famosas han dicho que tiene vih?
       - ¿Hay personas famosas con VIH?
       - ¿Qué personajes públicos tienen VIH?
       - ¿Hay famosos con VIH?
@@ -348,7 +346,7 @@ nlu:
       - explicame la primera etapa del vih
       - en que consiste la primera etapa de la infección?
       - como es la primera etapa del sida
-      - no se que es la primera etapa 
+      - no se que es la primera etapa
       - cua es la primera fase del vih
       - q es la fase 1 de la infección
       - explciame la fase uno del vih
@@ -480,3 +478,13 @@ nlu:
       - puedes donar sangre si estas infectado?
       - si tienes el virus puedes dar sangre?
       - donar sangre con vih
+  - intent: quien_riesgo
+    examples: |
+      - quienes tienen un riesgo muy talto de contraer vih?
+      - Que probabilidad és mas alta en el índice de contagios? en hombres o mujeres?
+      - Quién está más a riesgo del VIH?
+      - ¿Qué personas tienen mayor riesgo de contraer VIH?
+      - Quien contrae más facilmente el VIH?
+      - quienes tienen un riesgo muy talto de contraer vih?
+      - Los hombres tienen más probabilidad de contraer el VIH?
+      - Las mujeres contraen más VIH ?

@@ -1,263 +1,264 @@
 version: "2.0"
-
 nlu:
-  - intent: faq/que_es_prep
-    examples: |
-      - ¿Qué es la profilaxis-preexposición (PrEP)?
-      - que es la profilaxis preexposicion?
-      - ¿Qué es la PrEP?
-      - que es la prep
-      - ¿Qué significa PrEP?
-      - que significa prep
-      - Explícame que es la PrEP
-      - Explicación PrEP
-      - No sé lo que es PrEP
-      - no se lo que es prep
-  - intent: faq/efectividad_prep
-    examples: |
-      - ¿Es efectiva la PrEP?
-      - ¿Es fiable la PrEP?
-      - ¿Cuál es la fiabilidad de la PrEP?
-      - ¿Cual es la efectividad de la PrEP?
-      - ¿Cuál es la probabilidad de infectarse si se toma la PrEP?
-      - ¿Es fácil infectarse si se está tomando la PrEP?
-      - ¿En cuánto se reducen las posibilidades de infección con la PrEP?
-      - ¿Cómo de fiable es la PrEP?
-      - ¿Es segura la PrEP?
-      - ¿Me puedo fiar de la PrEP?
-      - ¿Qué probabilidad de infectarme tengo si tomo la PrEP?
-      - ¿Es la PrEP infalible?
-  - intent: faq/que_medicamentos_prep
-    examples: |
-      - ¿Qué medicamento es la PrEP?
-      - ¿De qué se compone la PrEP?
-      - ¿Qué medicamentos son la PrEP?
-      - ¿Qué combinación de medicamentos es la PrEP?
-      - ¿Qué medicamentos forman parte de la PrEP?
-      - ¿Qué es Truvada?
-      - ¿Qué medicamentos componen la PrEP?
-      - ¿Qué contiene Truvada?
-  - intent: faq/es_prep_vacuna
-    examples: |
-      - ¿La PrEP es una vacuna?
-      - ¿Es la PrEP una vacuna?
-      - ¿La PrEP funciona como una vacuna?
-  - intent: faq/efectos_secundarios_prep
-    examples: |
-      - ¿Tiene efectos secundarios la PrEP?
-      - ¿Qué efectos secundarios tiene la PrEP?
-      - ¿Hay algún efecto secundario al tomar PrEP?
-      - ¿Puede causar efectos secundarios la PrEP?
-      - ¿Puede provocar algún efecto no deseado la PrEP?
-      - Dime los efectos secundarios de le PrEP
-      - ¿Puede causar náuseas la PrEP?
-      - ¿Qué efectos adversos puede conllevar la PrEP?
-      - Efectos adversos PrEP
-  - intent: faq/debo_tomar_prep
-    examples: |
-      - ¿Debería tomar la PrEP?
-      - ¿Debo tomar PrEP?
-      - ¿A quién se recomienda la PrEP?
-      - ¿Quién debe tomar PreP?
-      - ¿Para quién esta recomendada la PrEP?
-      - ¿Me recomiendas tomar la PrEP?
-      - ¿Es aconsejable tomar la PrEP?
-      - ¿Me aconsejas tomar la PrEP?
-  - intent: faq/como_tomar_prep
-    examples: |
-      - ¿Cómo puedo tomar la PrEP?
-      - ¿Que tengo que hacer para que me receten la PrEP?
-      - ¿Cómo puedo entrar en el programa PrEP?
-      - Quiero tomar PrEP
-      - ¿Dónde puedo conseguir la PrEP?
-      - ¿Cómo puedo ser incluido en un programa PrEP?
-      - ¿Que hay que hacer para tomar la PrEP?
-      - ¿Que procedimiento he de seguir para que se me administre PrEP?
-      - ¿Qué debo hacer si quiero tomar la PrEP?
-      - Quiero ser incluído en el programa PrEP
-      - Quiero que me incluyan en la PrEP
-  - intent: faq/interferencia_prep_terapia_hormonal
-    examples: |
-      - ¿interfiere la PrEP en la terapia hormonal de una persona transgénero?
-      - puede interferir la prep en una terapia hormonal transgenero?
-      - puede llegar a interferir la prep con una terapia hormonal?
-      - podeia interferir la prep en un tratamiento hormonal?
-      - el trqtamiento hormonal interfiere con la prep?
-      - interfiere la prep en un tratamiento hormonal de una persona transgénero?
-      - puede llegar a interferir la prep en un tratamiento hormonal?
-      - la PrEP interfiere en la terapia hormonal?
-      - la PrEP interfiere en un tratamiento hormonal?
-      - interferencias entre la prep y el tratamiento hormonal
-      - si me estoy hormonando puedo tomar la prep?
-      - puedo tomar la prep si me estoy hormonando?
-  - intent: faq/preservativo_prep
-    examples: |
-      - ¿Puedo dejar de usar condones si tomo la PrEP?
-      - ¿Puedo dejar de usar preservativos si tomo la PrEP?
-      - si tomo la prep puedo dejar de usar condones?
-      - si tomo la prep puedo dejar de usar preservativos?
-      - al tomr la prep ya puedo follar sin condon?
-      - si tomo la prep puedo follar sin preservativo?
-      - si tomo la prep puedo mantener relaciones sexuales sin protección?
-      - si tomo la prep puedo mantener relaciones sexuales sin condón?
-      - debo usar el preservativo aunque tome la prep?
-      - si tomo la prep puedo dejar de usar el condón?
-      - si estoy tomando la prep puedo dejar de usar el presrrvativo?
-  - intent: faq/prep_tras_contacto_vih
-    examples: |
-      - ¿Se puede comenzar la PrEP después de haber estado expuesto al VIH?
-      - se puede tomar la prep tras haber estado en contacto con un positivo?
-      - se puede tomar la prep tras haber estado en contacto con el vih?
-      - se puede tomar la prep tras haber estado expuesto al vih?
-      - puedo empezar a tomar la prep despues de haber estado en contacto con alguien con sida?
-      - puedo tomar la prep tras un contacto de riesgo?
-      - se puedo comenzar a tomar la medicacion despues de haber esatdo en contacto con el virus?
-      - tomar la prep tras haber estado en contacto con un infectado
-      - empezar a tomar emdicación después de haber esatdo con alguien con vih
-      - empezar la mediacion tras un contacto con alguien que tiene vih
-  - intent: faq/existe_vacuna
-    examples: |
-      - ¿Existe una vacuna contra el VIH?
-      - ¿Han inventado una vacuna para el VIH?
-      - ¿Han inventado vacuna para el SIDA?
-      - ¿Se ha descubierto ya una vacuna para el VIH?
-      - ¿Hay alguna manera de vacunarse contra el VIH?
-      - ¿Puedo vacunarme contra el VIH?
-      - Quiero vacunarme del VIH
-      - Vacunación del VIH
-      - Vacuna del VIH
-  - intent: faq/protegen_pildoras_anticonceptivas
-    examples: |
-      - ¿Protegen las píldoras anticonceptivas contra el VIH?
-      - ¿Las píldoras anticonceptivas protegen contra el VIH?
-      - Funcionan las píldoras anticonceptivas para prevenir el VIH
-      - La píldora funciona contra el VIH
-      - La píldora protege contra el VIH?
-      - Las píldoras anticonceptivas son efectivas para prevenir el VIH?
-      - ¿Previenen el VIH las píldoras?
-      - Los anticonceptivos protegen de la infección por VIH?
-      - Si tomo píldoras anticonceptivas, ¿estoy protegida contra el VIH?
-  - intent: faq/protege_marcha_atras
-    examples: |
-      - ¿Protege la marcha atrás del VIH?
-      - ¿Es efectiva la marcha atrás como método de prevención?
-      - Protege la marcha atrás contra el VIH?
-      - Previene la marcha atrás contra el VIH?
-      - Es efectivo utilizar la marcha atrás para prevenir?
-      - ¿Protege el coito interrumpido contra el VIH?
-      - Es efectivo el coito interrumpido para prevenir el VIH?
-      - No correrse dentro protege de la infección de VIH?
-      - Si no me corro dentro, me puedo coger el VIH?
-      - Con la marcha atrás puedo evitar coger VIH?
-  - intent: faq/protege_preservativo_femenino
-    examples: |
-      - ¿El preservativo femenino también protege de la infección por VIH?
-      - ¿El preservativo femenino protege contra el VIH?
-      - Es efectivo el preservativo femenino contra el VIH?
-      - ¿El condón femenino protege de la infección de VIH?
-      - El condón de mujer es efectivo para prevenir el VIH?
-      - Puede el condón de mujer o preservativo femenino proteger del VIH?
-      - Si utilizo condones femeninos, me protegen contra el VIH?s
-      - ¿Es igual de efectivo el condón femenino que el masculino para prevenir el VIH?
-      - ¿Es igual de efectivo el preservativo femenino contra el VIH?
-      - Protege el preservativo femenino contra el VIH?
-      - Previene el condón femenino el VIH?
-      - ¿El condón femenino es efectivo?
-      - son seguros los condones femeninos?
-      - es seguro el condón femenino?
-  - intent: faq/son_eficientes_espermicidas
-    examples: |
-      - ¿Son eficientes los espermicidas para evitar la infección por VIH?
-      - ¿Protegen los espermicidas contra el VIH?
-      - ¿Son efectivos los espermicidas para prevenir el VIH?
-      - ¿Realmente funcionan los espermicidas para no coger el VIH?
-      - ¿Previenen los espermicidas la infección de VIH?
-      - ¿Puedo utilizar los espermicidas para prevenir el VIH?
-      - ¿Funcionan los espermicidas para protegerme del VIH?
-      - ¿Los espermicidas previenen el VIH?
-      - Si utilizo espermicidas, ¿estoy protegido contra el VIH?
-      - los espermicidas evitan el contagio?
-  - intent: faq/son_eficientes_preservativos
-    examples: |
-      - ¿Es eficiente usar preservativos para evitar la infección por VIH?
-      - ¿Son eficientes los preservativos para proteger del VIH?
-      - ¿Funcionan los condones para prevenir el VIH?
-      - ¿Son efectivos los condones para prevenir el VIH?
-      - ¿Utilizar condón previene el VIH?
-      - Protege el condón contra el VIH?
-      - Es el preservativo una buena manera de prevenir el VIH?
-      - Es el preservativo una buen método de prevención del VIH?
-      - ¿Es efectivo el condón para prevenir el VIH?
-      - Si utilizo condón, ¿estoy protegido contra el VIH?
-      - Si utilizo preservativo, ¿estoy protegido contra el VIH?
-      - son seguros los preservativos?
-      - son seguros los condones?
-      - es seguro el condón?
-      - quiero saber si el condon es seguro para prevenir el vih
-      - el preservativo evita el contagio del sida?
-      - el condon evita el contagio?
-      - el condón protege?
-      - el preservativo pretege?
-      - es efectivo utilizar preservativo para prevenir el vih?
-      - los preservativos previenen el vih?
-      - los condones previenen el sida?
-      - hasta que punto los condones son eficientes para prevenir el vih?
-      - puedo usar condones para prevenir el vih?
-      - los condones finos previenen el vih?
-      - los preservativos son eficaces para la prevención del vih?
-  - intent: faq/rompe_preservativo
-    examples: |
-      - ¿Qué hago si se rompe el preservativo?
-      - que hago si se me rompe el condon?
-      - que hago si se me han roto varios condones?
-      - Se me ha roto el preservativo
-      - Se me ha roto el condón
-      - se me ha roto el condon tio
-      - Que debo hacer si se rompe el condón
-      - que deberia hacer si se me rompe el preservativo
-      - Que debo hacer si se rompe el preservativo
-      - qué tengo que hacer si se rompe el presrvativo
-      - que tengo que hacer si se rompe el condon
-      - Que hacer al romperse el preservativo
-      - El condón se ha roto
-      - Se nos ha roto el preservativo
-      - Se nos ha roto el condón
-      - Se ha roto el condón
-      - Se ha perforado el preservativo
-      - se nos ha roto el condon
-  - intent: como_prevenir
-    examples: |
-      - como pudo prevenir VIH
-      - como puedo prevenir el vih?
-      - cómo podria prevenir el vih?
-      - como se puede prevenir el vih?
-      - ¿como pudo prevenir VIH?
-      - como puedo prevenir VIH
-      - como puedo el prevenir VIH ?
-      - Como puedo prevenir el VHI?
-      - quiero saber como puedo prevenir el vih
-      - como puedo protegerme el vih
-      - maneras de prevenir el vih?
-      - métodos de prevención del vih
-      - metodos para la prevencion del sida
-      - dime maneras de prevenir el sida
-      - dime de que manera puedo prevenir el vih
-      - que puedo hacer para prevenir el vih?
-      - que podria hacer para no coger el vih?
-      - como puedo no coger el sida?
-      - que puedo hacer para no coger el vih?
-      - qué puedo hacer para no coger el sida?
-      - que podria hacer para prevenir el vih?
-      - que pueod hacer para evitar coger el vih
-      - evitar coger el sida
-      - evitar la infección
-      - evitar infectarme
-      - que hacer para no infectarme
-      - q acer para no cogerlo
-      - Como puedo evitar contraer VIH?
-      - ¿Cómo puedo prevenir el VIH?
-      - Como puedo evitar el contagio
-      - ¿Cómo hay que protegerse del VIH?
-      - ¿Cómo me puedo proteger del VIH?
-      - Como se puede evitar contraer VIH?
-      - como puedro evitar contagiarme del vih?
+- intent: faq/que_es_prep
+  examples: |
+    - ¿Qué es la profilaxis-preexposición (PrEP)?
+    - que es la profilaxis preexposicion?
+    - ¿Qué es la PrEP?
+    - que es la prep
+    - ¿Qué significa PrEP?
+    - que significa prep
+    - Explícame que es la PrEP
+    - Explicación PrEP
+    - No sé lo que es PrEP
+    - no se lo que es prep
+    - que es la profilaxis?
+- intent: faq/efectividad_prep
+  examples: |
+    - ¿Es efectiva la PrEP?
+    - ¿Es fiable la PrEP?
+    - ¿Cuál es la fiabilidad de la PrEP?
+    - ¿Cual es la efectividad de la PrEP?
+    - ¿Cuál es la probabilidad de infectarse si se toma la PrEP?
+    - ¿Es fácil infectarse si se está tomando la PrEP?
+    - ¿En cuánto se reducen las posibilidades de infección con la PrEP?
+    - ¿Cómo de fiable es la PrEP?
+    - ¿Es segura la PrEP?
+    - ¿Me puedo fiar de la PrEP?
+    - ¿Qué probabilidad de infectarme tengo si tomo la PrEP?
+    - ¿Es la PrEP infalible?
+- intent: faq/que_medicamentos_prep
+  examples: |
+    - ¿Qué medicamento es la PrEP?
+    - ¿De qué se compone la PrEP?
+    - ¿Qué medicamentos son la PrEP?
+    - ¿Qué combinación de medicamentos es la PrEP?
+    - ¿Qué medicamentos forman parte de la PrEP?
+    - ¿Qué es Truvada?
+    - ¿Qué medicamentos componen la PrEP?
+    - ¿Qué contiene Truvada?
+- intent: faq/es_prep_vacuna
+  examples: |
+    - ¿La PrEP es una vacuna?
+    - ¿Es la PrEP una vacuna?
+    - ¿La PrEP funciona como una vacuna?
+- intent: faq/efectos_secundarios_prep
+  examples: |
+    - ¿Tiene efectos secundarios la PrEP?
+    - ¿Qué efectos secundarios tiene la PrEP?
+    - ¿Hay algún efecto secundario al tomar PrEP?
+    - ¿Puede causar efectos secundarios la PrEP?
+    - ¿Puede provocar algún efecto no deseado la PrEP?
+    - Dime los efectos secundarios de le PrEP
+    - ¿Puede causar náuseas la PrEP?
+    - ¿Qué efectos adversos puede conllevar la PrEP?
+    - Efectos adversos PrEP
+- intent: faq/debo_tomar_prep
+  examples: |
+    - ¿Debería tomar la PrEP?
+    - ¿Debo tomar PrEP?
+    - ¿A quién se recomienda la PrEP?
+    - ¿Quién debe tomar PreP?
+    - ¿Para quién esta recomendada la PrEP?
+    - ¿Me recomiendas tomar la PrEP?
+    - ¿Es aconsejable tomar la PrEP?
+    - ¿Me aconsejas tomar la PrEP?
+- intent: faq/como_tomar_prep
+  examples: |
+    - ¿Cómo puedo tomar la PrEP?
+    - ¿Que tengo que hacer para que me receten la PrEP?
+    - ¿Cómo puedo entrar en el programa PrEP?
+    - Quiero tomar PrEP
+    - ¿Dónde puedo conseguir la PrEP?
+    - ¿Cómo puedo ser incluido en un programa PrEP?
+    - ¿Que hay que hacer para tomar la PrEP?
+    - ¿Que procedimiento he de seguir para que se me administre PrEP?
+    - ¿Qué debo hacer si quiero tomar la PrEP?
+    - Quiero ser incluído en el programa PrEP
+    - Quiero que me incluyan en la PrEP
+- intent: faq/interferencia_prep_terapia_hormonal
+  examples: |
+    - ¿interfiere la PrEP en la terapia hormonal de una persona transgénero?
+    - puede interferir la prep en una terapia hormonal transgenero?
+    - puede llegar a interferir la prep con una terapia hormonal?
+    - podeia interferir la prep en un tratamiento hormonal?
+    - el trqtamiento hormonal interfiere con la prep?
+    - interfiere la prep en un tratamiento hormonal de una persona transgénero?
+    - puede llegar a interferir la prep en un tratamiento hormonal?
+    - la PrEP interfiere en la terapia hormonal?
+    - la PrEP interfiere en un tratamiento hormonal?
+    - interferencias entre la prep y el tratamiento hormonal
+    - si me estoy hormonando puedo tomar la prep?
+    - puedo tomar la prep si me estoy hormonando?
+- intent: faq/preservativo_prep
+  examples: |
+    - ¿Puedo dejar de usar condones si tomo la PrEP?
+    - ¿Puedo dejar de usar preservativos si tomo la PrEP?
+    - si tomo la prep puedo dejar de usar condones?
+    - si tomo la prep puedo dejar de usar preservativos?
+    - al tomr la prep ya puedo follar sin condon?
+    - si tomo la prep puedo follar sin preservativo?
+    - si tomo la prep puedo mantener relaciones sexuales sin protección?
+    - si tomo la prep puedo mantener relaciones sexuales sin condón?
+    - debo usar el preservativo aunque tome la prep?
+    - si tomo la prep puedo dejar de usar el condón?
+    - si estoy tomando la prep puedo dejar de usar el presrrvativo?
+- intent: faq/prep_tras_contacto_vih
+  examples: |
+    - ¿Se puede comenzar la PrEP después de haber estado expuesto al VIH?
+    - se puede tomar la prep tras haber estado en contacto con un positivo?
+    - se puede tomar la prep tras haber estado en contacto con el vih?
+    - se puede tomar la prep tras haber estado expuesto al vih?
+    - puedo empezar a tomar la prep despues de haber estado en contacto con alguien con sida?
+    - puedo tomar la prep tras un contacto de riesgo?
+    - se puedo comenzar a tomar la medicacion despues de haber esatdo en contacto con el virus?
+    - tomar la prep tras haber estado en contacto con un infectado
+    - empezar a tomar emdicación después de haber esatdo con alguien con vih
+    - empezar la mediacion tras un contacto con alguien que tiene vih
+- intent: faq/existe_vacuna
+  examples: |
+    - ¿Existe una vacuna contra el VIH?
+    - ¿Han inventado una vacuna para el VIH?
+    - ¿Han inventado vacuna para el SIDA?
+    - ¿Se ha descubierto ya una vacuna para el VIH?
+    - ¿Hay alguna manera de vacunarse contra el VIH?
+    - ¿Puedo vacunarme contra el VIH?
+    - Quiero vacunarme del VIH
+    - Vacunación del VIH
+    - Vacuna del VIH
+- intent: faq/protegen_pildoras_anticonceptivas
+  examples: |
+    - ¿Protegen las píldoras anticonceptivas contra el VIH?
+    - ¿Las píldoras anticonceptivas protegen contra el VIH?
+    - Funcionan las píldoras anticonceptivas para prevenir el VIH
+    - La píldora funciona contra el VIH
+    - La píldora protege contra el VIH?
+    - Las píldoras anticonceptivas son efectivas para prevenir el VIH?
+    - ¿Previenen el VIH las píldoras?
+    - Los anticonceptivos protegen de la infección por VIH?
+    - Si tomo píldoras anticonceptivas, ¿estoy protegida contra el VIH?
+- intent: faq/protege_marcha_atras
+  examples: |
+    - ¿Protege la marcha atrás del VIH?
+    - ¿Es efectiva la marcha atrás como método de prevención?
+    - Protege la marcha atrás contra el VIH?
+    - Previene la marcha atrás contra el VIH?
+    - Es efectivo utilizar la marcha atrás para prevenir?
+    - ¿Protege el coito interrumpido contra el VIH?
+    - Es efectivo el coito interrumpido para prevenir el VIH?
+    - No correrse dentro protege de la infección de VIH?
+    - Si no me corro dentro, me puedo coger el VIH?
+    - Con la marcha atrás puedo evitar coger VIH?
+- intent: faq/protege_preservativo_femenino
+  examples: |
+    - ¿El preservativo femenino también protege de la infección por VIH?
+    - ¿El preservativo femenino protege contra el VIH?
+    - Es efectivo el preservativo femenino contra el VIH?
+    - ¿El condón femenino protege de la infección de VIH?
+    - El condón de mujer es efectivo para prevenir el VIH?
+    - Puede el condón de mujer o preservativo femenino proteger del VIH?
+    - Si utilizo condones femeninos, me protegen contra el VIH?s
+    - ¿Es igual de efectivo el condón femenino que el masculino para prevenir el VIH?
+    - ¿Es igual de efectivo el preservativo femenino contra el VIH?
+    - Protege el preservativo femenino contra el VIH?
+    - Previene el condón femenino el VIH?
+    - ¿El condón femenino es efectivo?
+    - son seguros los condones femeninos?
+    - es seguro el condón femenino?
+- intent: faq/son_eficientes_espermicidas
+  examples: |
+    - ¿Son eficientes los espermicidas para evitar la infección por VIH?
+    - ¿Protegen los espermicidas contra el VIH?
+    - ¿Son efectivos los espermicidas para prevenir el VIH?
+    - ¿Realmente funcionan los espermicidas para no coger el VIH?
+    - ¿Previenen los espermicidas la infección de VIH?
+    - ¿Puedo utilizar los espermicidas para prevenir el VIH?
+    - ¿Funcionan los espermicidas para protegerme del VIH?
+    - ¿Los espermicidas previenen el VIH?
+    - Si utilizo espermicidas, ¿estoy protegido contra el VIH?
+    - los espermicidas evitan el contagio?
+- intent: faq/son_eficientes_preservativos
+  examples: |
+    - ¿Es eficiente usar preservativos para evitar la infección por VIH?
+    - ¿Son eficientes los preservativos para proteger del VIH?
+    - ¿Funcionan los condones para prevenir el VIH?
+    - ¿Son efectivos los condones para prevenir el VIH?
+    - ¿Utilizar condón previene el VIH?
+    - Protege el condón contra el VIH?
+    - Es el preservativo una buena manera de prevenir el VIH?
+    - Es el preservativo una buen método de prevención del VIH?
+    - ¿Es efectivo el condón para prevenir el VIH?
+    - Si utilizo condón, ¿estoy protegido contra el VIH?
+    - Si utilizo preservativo, ¿estoy protegido contra el VIH?
+    - son seguros los preservativos?
+    - son seguros los condones?
+    - es seguro el condón?
+    - quiero saber si el condon es seguro para prevenir el vih
+    - el preservativo evita el contagio del sida?
+    - el condon evita el contagio?
+    - el condón protege?
+    - el preservativo pretege?
+    - es efectivo utilizar preservativo para prevenir el vih?
+    - los preservativos previenen el vih?
+    - los condones previenen el sida?
+    - hasta que punto los condones son eficientes para prevenir el vih?
+    - puedo usar condones para prevenir el vih?
+    - los condones finos previenen el vih?
+    - los preservativos son eficaces para la prevención del vih?
+- intent: faq/rompe_preservativo
+  examples: |
+    - ¿Qué hago si se rompe el preservativo?
+    - que hago si se me rompe el condon?
+    - que hago si se me han roto varios condones?
+    - Se me ha roto el preservativo
+    - Se me ha roto el condón
+    - se me ha roto el condon tio
+    - Que debo hacer si se rompe el condón
+    - que deberia hacer si se me rompe el preservativo
+    - Que debo hacer si se rompe el preservativo
+    - qué tengo que hacer si se rompe el presrvativo
+    - que tengo que hacer si se rompe el condon
+    - Que hacer al romperse el preservativo
+    - El condón se ha roto
+    - Se nos ha roto el preservativo
+    - Se nos ha roto el condón
+    - Se ha roto el condón
+    - Se ha perforado el preservativo
+    - se nos ha roto el condon
+- intent: como_prevenir
+  examples: |
+    - como pudo prevenir VIH
+    - como puedo prevenir el vih?
+    - cómo podria prevenir el vih?
+    - como se puede prevenir el vih?
+    - ¿como pudo prevenir VIH?
+    - como puedo prevenir VIH
+    - como puedo el prevenir VIH ?
+    - Como puedo prevenir el VHI?
+    - quiero saber como puedo prevenir el vih
+    - como puedo protegerme el vih
+    - maneras de prevenir el vih?
+    - métodos de prevención del vih
+    - metodos para la prevencion del sida
+    - dime maneras de prevenir el sida
+    - dime de que manera puedo prevenir el vih
+    - que puedo hacer para prevenir el vih?
+    - que podria hacer para no coger el vih?
+    - como puedo no coger el sida?
+    - que puedo hacer para no coger el vih?
+    - qué puedo hacer para no coger el sida?
+    - que podria hacer para prevenir el vih?
+    - que pueod hacer para evitar coger el vih
+    - evitar coger el sida
+    - evitar la infección
+    - evitar infectarme
+    - que hacer para no infectarme
+    - q acer para no cogerlo
+    - Como puedo evitar contraer VIH?
+    - ¿Cómo puedo prevenir el VIH?
+    - Como puedo evitar el contagio
+    - ¿Cómo hay que protegerse del VIH?
+    - ¿Cómo me puedo proteger del VIH?
+    - Como se puede evitar contraer VIH?
+    - como puedro evitar contagiarme del vih?
+    - y que puedo hacer para no contagiarme?
