@@ -25,8 +25,6 @@ intents:
     use_entities: true
 - pedir_tema:
     use_entities: true
-- no_sabe_que_preguntar:
-    use_entities: true
 - que_puede_hacer:
     use_entities: true
 - que_puede_preguntar:
@@ -211,6 +209,31 @@ responses:
       title: No
     image: https://media.giphy.com/media/3oxHQJLNjlkoF7dI9W/giphy.gif
     text: ¿Seguro que quieres reiniciar la conversación?
+  utter_sugerir_tema:
+  - buttons:
+    - payload: ¿Cuál es el origen del VIH?
+      title: Origen del VIH
+    - payload: ¿En qué consiste la terapia contra el virus?
+      title: Terapia contra el VIH
+    - payload: ¿Qué es la latencia del VIH?
+      title: Latencia del VIH
+    text: Quizás te interese alguno de estos temas 👇
+  - buttons:
+    - payload: ¿Qué es la Infección aguda por el VIH?
+      title: Infección aguda por VIH
+    - payload: Tipos de VIH
+      title: Tipos de VIH
+    - payload: Paciente de Berlín
+      title: Paciente de Berlín
+    text: Prueba alguno de estos temas 👇
+  - buttons:
+    - payload: ¿Qué es la Infección crónica por el VIH?
+      title: Infección crónica por VIH
+    - payload: Cáncer y VIH
+      title: Tipos de VIH
+    - payload: Carga viral indetectable
+      title: Carga viral indetectable
+    text: ¿Qué tal alguno de estos temas?
   utter_saber_mas:
   - text: ¿Te gustaría saber alguna cosa más?
   - text: ¿Te gustaría preguntarme alguna cosa más?
