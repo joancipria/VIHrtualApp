@@ -877,6 +877,10 @@ nlu:
   - intent: pedir_tema
     examples: |
       - sugiereme un tema
+      - que temas me recomiendas?
+      - que preguntas me reocmiendas?
+      - dime alguna pregunta que peuda hacerte
+      - recomiendame un tema
       - me puedes sugerir un tema?
       - sugiereme algun tema de conversacion
       - me podrías sugerir algun tema?
@@ -921,3 +925,4 @@ nlu:
       - no se me ocurre ninguna duda que preguntarte
       - no sé muy bien que preguntarte
       - no se que preguntarte
+      - no se que pregunatrte
