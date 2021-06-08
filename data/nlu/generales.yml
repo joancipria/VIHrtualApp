@@ -494,6 +494,10 @@ nlu:
   - intent: querer_preguntar
     examples: |
       - puedo ahcerte una preguna?
+      - tengo dudas sobre el vih
+      - tengo varias preguntas que hacerte
+      - tengo muchas dudas sobre el vih
+      - hay muchas cosas que no se sobre el vih
       - Quiero preguntarte algo
       - kiero preguntarte una cosa
       - quiero preguntar una cosa
