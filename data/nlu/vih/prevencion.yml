@@ -126,6 +126,7 @@ nlu:
     - Quiero vacunarme del VIH
     - Vacunación del VIH
     - Vacuna del VIH
+    - Existe vacuna?
 - intent: faq/protegen_pildoras_anticonceptivas
   examples: |
     - ¿Protegen las píldoras anticonceptivas contra el VIH?
@@ -137,6 +138,8 @@ nlu:
     - ¿Previenen el VIH las píldoras?
     - Los anticonceptivos protegen de la infección por VIH?
     - Si tomo píldoras anticonceptivas, ¿estoy protegida contra el VIH?
+    - la pildora del dia despues mata el vih?
+    - la pastilla del dia despues protege contra el vih?
 - intent: faq/protege_marcha_atras
   examples: |
     - ¿Protege la marcha atrás del VIH?
@@ -205,6 +208,8 @@ nlu:
     - puedo usar condones para prevenir el vih?
     - los condones finos previenen el vih?
     - los preservativos son eficaces para la prevención del vih?
+    - si uso condones me puedo infecxtar?
+    - si follo con preservativo me puedo infectar?
 - intent: faq/rompe_preservativo
   examples: |
     - ¿Qué hago si se rompe el preservativo?
@@ -225,6 +230,7 @@ nlu:
     - Se ha roto el condón
     - Se ha perforado el preservativo
     - se nos ha roto el condon
+    - q hago si se me rompe el condon mientras follo
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
@@ -262,3 +268,10 @@ nlu:
     - Como se puede evitar contraer VIH?
     - como puedro evitar contagiarme del vih?
     - y que puedo hacer para no contagiarme?
+    - ¿cómo puedo evitar el SIDA?
+    - como puedo evitar el sida?
+    - prevenir la enfermedad
+    - prevenir
+    - como hago para no infectarme?
+    - como me protejo contra el vih?
+    - como evito contagiarme de vih?

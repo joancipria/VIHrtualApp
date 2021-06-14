@@ -94,9 +94,11 @@ nlu:
     - ¿Dónde vives?
     - ¿En qué país vives?
     - en que ciudad vives?
+    - de que ciudad eres?
 - intent: chachara/preguntar_hobbies
   examples: |
     - ¿Qué te gusta hacer?
+    - que te gusta hacer?
     - dime en que inviertes tu tiempo libre
     - que te gusta hacer cuando tienes tiempo libre?
     - ¿A qué dedicas tu tiempo libre?
@@ -177,6 +179,8 @@ nlu:
     - quien te ha programado?
     - quien te a creado?
     - quiénes son los profesionales que te han creado?
+    - ¿quién ha desarrollado esta app?
+    - quien ha desarrollado esta aplicacion?
 - intent: chachara/preguntar_idiomas
   examples: |
     - ¿Qué idiomas hablas?
@@ -230,6 +234,7 @@ nlu:
     - hablas ingles?
     - hablas francés
     - hablas portugues
+    - sabes japones?
 - intent: chachara/preguntar_hora
   examples: |
     - ¿Qué hora es?

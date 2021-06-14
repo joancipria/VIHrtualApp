@@ -232,7 +232,7 @@ responses:
     - payload: ¿Qué es la Infección crónica por el VIH?
       title: Infección crónica por VIH
     - payload: Cáncer y VIH
-      title: Tipos de VIH
+      title: Cáncer y VIH
     - payload: Carga viral indetectable
       title: Carga viral indetectable
     text: ¿Qué tal alguno de estos temas?
@@ -258,14 +258,14 @@ responses:
   utter_disculpas_no_entender:
   - text: Lo siento por no haberte entendido. ¿Podrías repetírmelo de otra manera?
   - text: Siento no entenderte. ¿Podrías expresarlo de otra manera?
-  - text: Siento no haberte entendido. ¿Quizá puedas preguntármelo de otra manera? 😅
+  - text: "Siento no haberte entendido. \n\n ¿Quizá puedas preguntármelo de otra manera? 😅"
   - text: Mil disculpas por no entenderte. ¿Me lo puedes preguntar de otra manera?
   - text: Lo siento, ¿Serías tan amable de preguntármelo de otra manera?
-  - text: Siento mucho no entenderte 😓. ¿Me lo podrías decir de otra forma?
+  - text: "Siento mucho no entenderte 😓. \n\n ¿Me lo podrías decir de otra forma?"
   utter_disculparse:
-  - text: Siento mucho no haber podido hacerlo mejor. Me gustaría que tengas en cuenta que soy muy joven y sigo aprendiendo.
-  - text: Siento no haber podido atenderte como necesitabas. Trato de mejorar día a día.
-  - text: Siento no haber podido resolver tu duda, intentaré mejorar para poder ayudarte la próxima vez.
+  - text: "Siento mucho no haber podido hacerlo mejor 😔. \n\n Soy muy joven y aun me queda mucho por aprender."
+  - text: "Siento no haber podido atenderte como necesitabas. \n\n Trato de mejorar día a día 💪."
+  - text: "Siento no haber podido resolver tu duda. \n\n Intentaré mejorar para poder ayudarte la próxima vez."
   utter_pedir_perdon_ofensa:
   - text: Lo siento mucho 🙏. Perdóname si te he ofendido con algo que he dicho. Sólo pretendo ayudarte y resolver tus dudas acerca del VIH.
   - text: Siento mucho si he dicho algo fuera de tono. Mi intención es siempre la de ayudar y resolver dudas acerca del VIH.
@@ -274,10 +274,10 @@ responses:
   utter_default:
   - text: Lo siento, no te he entendido. ¿Podrías repetírmelo de otra manera?
   - text: Me temo que no he podido entenderte. ¿Podrías expresarlo de otra manera?
-  - text: Creo que no te entiendo 😅. ¿Puedes preguntármelo de otra forma?
-  - text: Discúlpame pero no te he entendido 😓. ¿Me lo puedes preguntar de otra manera?
-  - text: Quizá no te haya entendido, ¿serías tan amable de preguntármelo de otra manera?
-  - text: Lo siento mucho pero no acabo de entenderte. ¿Me lo podrías decir de otra forma? 🙏
+  - text: "Creo que no te entiendo 😅. \n\n ¿Puedes preguntármelo de otra forma?"
+  - text: "Discúlpame pero no te he entendido 😓. \n\n ¿Me lo puedes preguntar de otra manera?"
+  - text: Creo que no te he entendido, ¿serías tan amable de preguntármelo de otra manera?
+  - text: "Lo siento mucho pero no acabo de entenderte. \n\n ¿Me lo podrías decir de otra forma? 🙏"
 actions:
 - action_dar_bienvenida
 - utter_quien_riesgo

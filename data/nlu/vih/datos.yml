@@ -35,6 +35,10 @@ nlu:
       - ¿Cuántas personas tienen actualmente VIH?
       - Actualmente cuantas personas en el mundo hay con VIH
       - En todo el mundo cuántas personas hay con VIH?
+      - ¿cuántos pacientes tienen sida?
+      - ¿cuántos pacientes hay?
+      - cuantos pacientes hay
+      - ¿cuántas personas están afectadas por el VIH?
   - intent: faq/cuantas_personas_contraido_vih_2019
     examples: |
       - ¿Cuántas personas contrajeron VIH en 2019?

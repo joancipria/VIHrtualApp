@@ -79,6 +79,7 @@ nlu:
     - qué diferencias hay entre el vih y el sida?
     - que diferencias existen eltre el vih y el sida?
     - yo creia que el sid y el vih eran lo mismo
+    - Diferencia antre sida y vih
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?

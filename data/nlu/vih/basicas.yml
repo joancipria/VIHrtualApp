@@ -47,6 +47,8 @@ nlu:
       - quisiera saber que es el vih
       - quiero saber en q consiste eso del vih
       - explicame en que consiste el vih
+      - no se lo que es el virus del vih
+      - que quieren decir las letras vih
   - intent: cura_vih
     examples: |
       - ¿Existe cura para el VIH?
@@ -95,6 +97,7 @@ nlu:
       - se puede eliminar el virus del cuerpo?
       - es posible expulsar el virus del cuerpo?
       - es posible exulsar el vih?
+      - Tiene cura?
   - intent: faq/como_actua_vih
     examples: |
       - ¿Cómo actúa el VIH?
@@ -175,6 +178,7 @@ nlu:
       - en que sitio se descubrió el virus?
       - donde se descubrio
       - que origen tiene el vih?
+      - De dónde ha venido el VIH?
   - intent: faq/cuando
     examples: |
       - ¿Cuándo se originó el VIH?
@@ -204,6 +208,9 @@ nlu:
       - no se cuando surge el vih
       - no se en que año se orgina el virus
       - cuando se origino el Virus de la Inmunodeficiencia Humana?
+      - ¿cuándo surgió el VIH?
+      - historia del vih
+      - cual es la historia del vih
   - intent: faq/cuando_descubrimiento
     examples: |
       - ¿Cuándo se descubrió el VIH?
@@ -478,6 +485,7 @@ nlu:
       - puedes donar sangre si estas infectado?
       - si tienes el virus puedes dar sangre?
       - donar sangre con vih
+      - ¿Puedo donar sangre si tengo Vih?
   - intent: quien_riesgo
     examples: |
       - quienes tienen un riesgo muy talto de contraer vih?
@@ -488,3 +496,4 @@ nlu:
       - quienes tienen un riesgo muy talto de contraer vih?
       - Los hombres tienen más probabilidad de contraer el VIH?
       - Las mujeres contraen más VIH ?
+      - quien tiene un riesgo alto de contraer vih?

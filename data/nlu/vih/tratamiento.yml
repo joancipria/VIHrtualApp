@@ -27,6 +27,7 @@ nlu:
       - existen formas de tratar la infeccion?
       - se puede tratar la infección?
       - se puede tratar el virus?
+      - Existe tratamiento?
   - intent: faq/en_que_consiste
     examples: |
       - ¿En qué consiste la terapia contra el virus?

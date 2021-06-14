@@ -3,6 +3,8 @@ nlu:
 - intent: saludar
   examples: |
     - Hola
+    - hola salva
+    - hola irene!
     - hola amigo
     - hola, amigo
     - hola paco
@@ -189,9 +191,6 @@ nlu:
 - intent: reaccionar_negativamente
   examples: |
     - Muy mal
-    - estoy agobiado
-    - me siento agobiado
-    - estoy un poco agobiado
     - me agobia
     - Me parece fatal
     - me parece mal
@@ -313,6 +312,7 @@ nlu:
     - no he entendido nada de lo que has dicho
     - nada de lo que has dicho tiene sentido
     - no tiene sentido
+    - eso no tiene sentido
     - nada de eso tiene sentido
     - qué sentido tiene eso
     - no me ha quedado nada claro
@@ -386,7 +386,10 @@ nlu:
 - intent: agradecer
   examples: |
     - Gracias
+    - gracias!!
+    - muchas graciias!!
     - gracais
+    - te doy las gracias
     - muchas gracias por tu respuesta
     - muchas gracias de verdad
     - muchas gracias por todo
@@ -498,6 +501,7 @@ nlu:
   examples: |
     - puedo ahcerte una preguna?
     - tengo dudas sobre el vih
+    - tengo dudas sobre la transmision
     - tengo varias preguntas que hacerte
     - tengo muchas dudas sobre el vih
     - hay muchas cosas que no se sobre el vih
@@ -540,6 +544,8 @@ nlu:
     - responde a lo que que pregunto
     - Has de responder mi pregunta
     - Responde a la pregunta
+    - quiero aprender sobre el vih
+    - oye salva puedo hacerte una pregunta?
 - intent: mas_informacion
   examples: |
     - ¿Dónde puedo obtener más información?
@@ -572,6 +578,9 @@ nlu:
     - obtener más informacion del sida
     - Quiero saber mas sobre el VIH
     - quisiera saber más sobre el vih
+    - ¿dónde puedo encontrar más información?
+    - donde puedo encontrar mas informacion
+    - donde puedo saber mas?
 - intent: preguntar_estado
   examples: |
     - ¿Cómo estás?
@@ -710,6 +719,10 @@ nlu:
     - Quiero llorar
     - No me siento bien
     - no me encuentro anda bien
+    - un poco agobiado pero bien
+    - estoy agobiado
+    - me siento agobiado
+    - estoy un poco agobiado
 - intent: no_le_ha_ayudado
   examples: |
     - no me sirves
@@ -784,6 +797,25 @@ nlu:
     - entiendes muy poco
     - eres muy cortito
     - no entiendes mucho
+    - no te enteras
+    - no te enteras de nada de lo que digo
+- intent: indicar_fallo
+  examples: |
+    - te has equivocado en la anterior pregunta
+    - te has equivovado
+    - te has equivocado
+    - En esta respuesta anterior se ha liao un poco
+    - te has liado un poco al responderme
+    - esa respuesta no tiene sentido
+    - eso que has dicho esta mal
+    - tu respuesta es incorrecta
+    - tu respuesta esta mal
+    - la respuesta que me ahs dado no tiene sentido
+    - lo que me has respondido no tiene ningun sentido
+    - lo que me has respondido no tiene nada que evr con lo que te he preguntados
+    - me respondes cosas sin sentido
+    - Esa no es la información que buscaba
+    - esa no es la informacion que estaba buscando
 - intent: que_puede_hacer
   examples: |
     - Explícame que puedes hacer
@@ -850,7 +882,7 @@ nlu:
     - q puedo preguntar?
     - que tipo de preguntas puedo hacerte
     - sobre que temas puedo preguntarte?
-    - sobre que puedo preguntarte?
+    - sobre que puedo preguntarte??
     - que preguntas puedo realizarte?
     - que preguntas puedo acerte?
     - q preguntas puedo acer?
@@ -874,6 +906,9 @@ nlu:
     - dime sobre que podemos hablar
     - de qué podemos hablar?
     - sobre que podriamos hablar?
+    - ¿qué información me puedes dar?
+    - que info me puedes dar?
+    - que informacion puedes darme?
 - intent: pedir_tema
   examples: |
     - sugiereme un tema
@@ -920,3 +955,14 @@ nlu:
     - no se me ocurre ninguna duda que preguntarte
     - no sé muy bien que preguntarte
     - no se que preguntarte
+    - que temas me recomiendas?
+    - recomiendame un tema
+    - recomiendame alguna pregunta para hacerte
+    - no se que pregunatrte
+    - ¿qué me sugieres?
+    - que tema me sigieres?
+    - que tema me sugieres?
+    - no se me ocurre nada
+    - quiero que me cuentes cosas sobre el vih
+    - dime algo
+    - cuentame alguna cosa

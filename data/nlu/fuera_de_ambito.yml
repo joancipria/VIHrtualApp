@@ -124,9 +124,13 @@ nlu:
       - eres precioso
       - estas muy bueno
       - eres muy sexy
+      - eres muy guapa irene
+      - eres muy guapo salva
 
   - intent: fuera_de_ambito/insultos
     examples: |
+      - puta
+      - puto
       - hijo de puta
       - hijo puta
       - hijoputa

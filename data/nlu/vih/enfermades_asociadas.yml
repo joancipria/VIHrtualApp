@@ -9,6 +9,10 @@ nlu:
       - Explícame la infección oportunista
       - Dime qué es una infección frecuente
       - No sé que es una infección que es oportunista
+      - que son las enfermedades oportunas?
+      - infecciones oportunistas
+      - infecciones oportunas
+      - enfermedades oportunistas
   - intent: faq/que_es_linfoma
     examples: |
       - ¿Qué es un linfoma?

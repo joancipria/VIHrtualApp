@@ -57,6 +57,11 @@ nlu:
     - Cómo se contrae el VIH?
     - como se pega el virus?
     - y como se contagia la gente?
+    - como se coge el sida?
+    - ¿Cómo se transmite el sida?
+    - comos e transmite el sida
+    - como se tranmite el sida
+    - como se transmite el sida
 - intent: faq/aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -173,6 +178,7 @@ nlu:
     - evitar el contagio de los bebes
     - como puedo no contagiar a mi bebe?
     - puedo evitar contagiar a mi bebe?
+    - como evito pasarselo a mi hijo?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -442,6 +448,8 @@ nlu:
     - ¿Se puede transmitir el virus con el sexo oral?
     - ¿Me puedo infectar realizando sexo oral?
     - me puedo infectar mientras mantengo sexo oral?
+    - es peligroso hacer mamadas?
+    - haciendo una mamada puedo coger el vih?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -500,3 +508,6 @@ nlu:
     - que riesgo tengo de coger el vih si soy lesbiana
     - probabilidad de infectarme si soy lesbiana
     - probabiliad de coger el virus si son lesbianas
+    - haciendo la tijera se puede coger el vih?
+    - se puede coger el vih teniendo sexo lesbico?
+    - las lesbianas pueden cogerlo?
