@@ -113,7 +113,7 @@ responses:
   utter_existe_tratamiento:
     - text: Actualmente existe un tratamiento que consiste en tomar medicamentos para hacer más lento el avance del virus en el cuerpo.
   utter_faq/en_que_consiste:
-    - text: "La terapia es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). \n\n Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan) si consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana."
+    - text: "La terapia es lo que se conoce como tratamiento antirretroviral (TAR) o tratamiento antirretroviral de gran actividad (TARGA). \n\n Generalmente es una combinación de varios fármacos que si bien no acaban con el virus (no lo curan), sí consiguen que sus niveles sean muy bajos y las personas con VIH puedan tener una vida más larga y sana."
   utter_faq/cuando_empezar:
     - text: Una persona seropositiva debe empezar a tomar la medicación contra el virus lo antes posible.
   utter_faq/cuantos_farmacos:
