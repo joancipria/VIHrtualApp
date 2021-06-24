@@ -33,7 +33,7 @@ responses:
   utter_faq/es_importante_saber_tengo_vih:
     - text: "Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento lo antes posible y adoptar hábitos de vida saludables \n\n. Además, podrás evitar que otras personas se infecten."
   utter_faq/infeccion_aguda_vih:
-    - text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e posible indetectable."
+    - text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable."
   utter_faq/infeccion_cronica_vih:
     - text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
   utter_faq/tipos_vih:
