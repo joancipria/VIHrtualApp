@@ -127,7 +127,7 @@ responses:
   - text: Adiós, ¡espero verte pronto!
   utter_no_hay_de_que:
   - text: De nada 😊
-  - text: ¡No hay de que!
+  - text: ¡No hay de qué!
   - text: Gracias a ti por preguntarme y ayudarme a mejorar
   - text: ¡Encantado de ayudarte!
   - text: ¡Encantado de poder ayudarte!
