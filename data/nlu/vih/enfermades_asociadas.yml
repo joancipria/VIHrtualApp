@@ -4,23 +4,36 @@ nlu:
   - intent: faq/que_es_infeccion_oportunista
     examples: |
       - ¿Qué es una infección oportunista?
+      - que es una infeccion oportunista
+      - que es una infeccion oportuna
       - ¿Qué significa infección oportunista?
+      - que significa una infeccion oportunista?
       - ¿Qué se conoce como infección oportunista?
+      - que se conoce como infeccion oportunista?
       - Explícame la infección oportunista
+      - porfa explciame que es una infeccion oportuna
       - Dime qué es una infección frecuente
+      - que es una infeccion frecuente
       - No sé que es una infección que es oportunista
+      - no se que es una infeccion oportunista
       - que son las enfermedades oportunas?
+      - que son las infecciones oportunas?
       - infecciones oportunistas
       - infecciones oportunas
       - enfermedades oportunistas
   - intent: faq/que_es_linfoma
     examples: |
       - ¿Qué es un linfoma?
+      - que es un linfoma
       - ¿Qué significa linfoma?
+      - que signfifca linfoma
       - ¿Qué se conoce como linfoma?
       - Explicame que es un linfoma
+      - explciame que es un linfoma
       - Dime qué es un linfoma
+      - quiero saber que es un linfoma
       - No sé que es un linfoma
+      - no se que es un linfoma
   - intent: faq/que_es_neumonia_pneumocystis
     examples: |
       - ¿Qué es la Neumonía por Pneumocystis jirovecii?

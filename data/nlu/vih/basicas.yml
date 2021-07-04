@@ -410,6 +410,9 @@ nlu:
       - explciame que sucede en una infeccion aguda de vih
       - sabrias explciarme que sucede en la infeccion aguda por vih?
       - etapa de la infeccion aguda
+      - fase de infeccion aguda
+      - cual es la fase de la infección aguda
+      - explicame la infeccion aguda
   - intent: faq/infeccion_cronica_vih
     examples: |
       - ¿Qué es la Infección crónica por el VIH?
@@ -429,6 +432,18 @@ nlu:
       - explciame que sucede en una infeccion cronica de vih
       - sabrias explciarme que sucede en la infeccion cronica por vih?
       - etapa de la infeccion cronica
+      - fase de infeccion cronica
+      - cual es la fase de la infección cronica
+      - explicame la infeccion cronica
+      - explicame la segunda etapa del vih
+      - cuentame que pasa en la segunda etapa
+      - que pasa en la segunda etapa de infeccion
+      - cual es la segunda etapa de infeccion
+      - en que consiste la segunda fase de la infeccion
+      - como es la segunda fase del vih
+      - explicame la etapa 2 de la infeccion
+      - cual es la fase 2 del vih
+      - 
   - intent: faq/tipos_vih
     examples: |
       - ¿Cuántos tipos de VIH hay?
@@ -455,6 +470,13 @@ nlu:
       - solo hay un tipo de VIH?
       - existe unicamente un solo virus de vih?
       - solo existe un tipo de vih?
+      - que variantes de vih existen?
+      - existen distintas variantes del vih?
+      - hay diferentes tipos de vih?
+      - cuantos tipos dintintos de virus existen?
+      - cuantas variantes el vih existen?
+      - cuantas cepas diferentes hay?
+      - cuantas tipos de cepas existen?
   - intent: faq/donar_sangre
     examples: |
       - ¿Una persona seropositiva puede donar sangre?
@@ -489,11 +511,28 @@ nlu:
   - intent: quien_riesgo
     examples: |
       - quienes tienen un riesgo muy talto de contraer vih?
-      - Que probabilidad és mas alta en el índice de contagios? en hombres o mujeres?
+      - quien tiene mas riesgo de contraer vih?
+      - quién esta mas en riesgo de tener vih?
+      - quienes tienen mas riesgo de infectarse?
+      - quienes tienen mas riesgo de coger el vih?
+      - quienes tienen mas probabilidades de infectarse?
+      - quienes tienen mas posibilidades de infetcrase e vih?
       - Quién está más a riesgo del VIH?
+      - quien esta mas en riesgo de infeccion?
+      - quien esta mas en riesgo de cogerlo
       - ¿Qué personas tienen mayor riesgo de contraer VIH?
+      - que personas tienen un mayor riesgo
+      - que personas tienen mas probabilidades de coger el virus?
+      - qué personas tienen mas posibilidades de cogerlo?
       - Quien contrae más facilmente el VIH?
+      - quienes contraen mas facilemnete el vih?
+      - quien puede contraer mas facilemnete el virus?
+      - quien contrae con mayir facilidad el virus?
+      - quien coge el virus con mayor facilidad?
+      - que personas tienen mas probabilidaddes de coger el virus?
+      - que gente se infecta mas facilmente?
       - quienes tienen un riesgo muy talto de contraer vih?
+      - quien tiene un riesgo alto de contraer vih?
       - Los hombres tienen más probabilidad de contraer el VIH?
       - Las mujeres contraen más VIH ?
-      - quien tiene un riesgo alto de contraer vih?
+      - Que probabilidad és mas alta en el índice de contagios? en hombres o mujeres?

@@ -17,28 +17,74 @@ nlu:
   - intent: faq/cuantas_personas_muertas_vih
     examples: |
       - ¿Cuántas personas han muerto de VIH?
+      - cuantas personas han muerto en toda la historia por vih?
+      - cuanta gente a muerto de vih en toda la historia?
+      - cuanta gente ha muerto por vih?
       - ¿Cuánta gente ha muerto de VIH?
       - ¿Cúantas personas han fallecido por VIH?
+      - cuantas personas han fallecio de vih?
       - ¿Cúantos muertos ha causado el VIH?
+      - cuantos muertos ha provocado el vih?
+      - cuantos muertos ha causado el vih?
+      - cuantos muertos han habido por vih
       - ¿Cuántas muertes ha producido el VIH?
+      - cuantas muertes ha producido el virus
       - ¿Ha muerto mucha gente de VIH?
+      - ha muerto mucha gente por vih?
+      - cuantas personas han muerto por vih?
       - Número de muertos total de VIH
+      - numero de muertos total por vih
+      - numero de personas muertas por vih
       - Datos de muertos total de VIH
+      - datos de mortalidad vih
       - Histórico de muertes VIH
+      - historico de muertes totales por vih
       - ¿Cuánta gente ha muerto?
+      - cuanta gente ha muerto?
+      - cuanta gente ha muerto de vih en todo lo que llevamos de historia?
+      - cuantas personas han muerto de vih
+      - muertes totales por vih
+      - cuanta gente ha muerto de vih?
+      - numero de gente que ha muerto de vih
+      - numero de oersonas muertas por vih
+      - cuantas personas han muerto po vih
+      - cuantas victimas ha habido por vih?
+      - cuantas victimas mortales ha producido el vih?
+      - numero de víctimas del vih
   - intent: faq/cuantas_personas_tienen_vih
     examples: |
       - ¿Cuántas personas tienen VIH hoy?
+      - cuantas personas tienen vih hoy en dia?
+      - cuantas personas han contraido el vih
+      - cuanta gente tiene vih
+      - cuantas personas viven con el virus?
+      - cuantas personas viven con vih?
       - ¿Cuantas personas tienen?
+      - cuantas personas en el mundo tienen vih?
+      - cuantas personas hay en el mundo con vih?
+      - cuantas personas hay con vih?
       - ¿Cuánta gente tiene VIH?
+      - cuánta gente tiene vih
       - ¿Cuanta gente hay con VIH?
+      - cuanta gente hay con vih
       - ¿Cuántas personas tienen actualmente VIH?
+      - cuantas personas hay actualmente con vih?
+      - actualmente cuantas personas hay con vih
+      - actualmente cuantas personas tienes vih
+      - cuantas personas tienen el virus ahora mismo
+      - actualmente cuanta gente vive con VIH?
+      - cuanta gente convive con el vih?
+      - cuanta gente convive con el virus?
       - Actualmente cuantas personas en el mundo hay con VIH
       - En todo el mundo cuántas personas hay con VIH?
+      - cuantos pacientes hay?
       - ¿cuántos pacientes tienen sida?
+      - cuantos pacienets con vih hay?
       - ¿cuántos pacientes hay?
       - cuantos pacientes hay
       - ¿cuántas personas están afectadas por el VIH?
+      - cuantas personas hay afectadas por el vih
+      - cuanta gente hay en el mundo con vih
   - intent: faq/cuantas_personas_contraido_vih_2019
     examples: |
       - ¿Cuántas personas contrajeron VIH en 2019?
@@ -58,10 +104,24 @@ nlu:
   - intent: faq/casos_cura
     examples: |
       - ¿que casos se han recuperado?
+      - qué casos de recuperacion existosa existen?
+      - que casos de paciente que se hayan curado existen?
+      - que casos existen que se hayan curado?
       - que casos ha habio de curación?
       - quienes se han curado?
+      - que pacientes han podido curarse?
+      - quien se ha llegado a curar?
+      - que personas han llegado a curarse?
+      - quienes son esas personas que se han curado?
+      - cuales son los casos que se han curado de vih?
+      - cuales son los casos que se han recuperado?
       - que personas se han curado?
+      - quienes son las personas que se han curado?
       - existe alguien que se haya curado?
+      - existe alguna persona que se haya pidido curar?
+      - hay alguien que se haya curado?
+      - existe alguna persona que se haya podido curar?
+      - existe alguna persona que se haya curado totalmente?
       - en que casos se han curado del vih?
       - quien se ha curado de vih?
   - intent: faq/paciente_berlin
