@@ -40,6 +40,7 @@ nlu:
       - tu puedes ayudarme a saber si tengo el vih?
       - Cómo sé si estoy contagiado de vih?
       - como se si estoy contagiado
+      - saber si tengo el vih
   - intent: faq/detectar_tras_contacto
     examples: |
       - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
