@@ -38,3 +38,37 @@ nlu:
       - puedo participar en altas competiciones si tengo vih?
       - al tener vih se puede continuar participando en competiciones de elite?
       - si tengo vih puedo continuar haciendo deporte de élite?
+  - intent: faq/convivir_persona_vih
+    examples: |
+      - ¿Se puede convivir con una persona con VIH?
+      - se puee vivir con alguien que tiene vih?
+      - se puede vivir con una persona que tenga vih?
+      - podría vivir con personas que tengan vih?
+      - puedo juntarme con gente infectada?
+      - puedo vivir con gente que tenga el vih?
+      - se puedo vivir en la misma casa que alguien que tiene vih?
+      - se puede dormir bajo el mismo techo que alguien con vih?
+      - es posible vivir en la misma casa que alguien con vih?
+      - es conveniente dormir en la misma cama que alguien con vih?
+      - es bueno vivir en la misma casa donde vive alguien con vih?
+      - se puede compartir piso con alguien infectado?
+      - puedo compartir habitación con alguien que tiene vih?
+      - hay peligro si duermo en la misma cama que alguien con vih?
+      - hay peligro si vivo en la misma casa que alguien con vih?
+      - puedo vivir con mi marido si tieve vih?
+      - puedo continuar viviendo con mi novio si tiene vih?
+      - mi mujer tiene vih, podemos continuar viviendo con ella?
+      - si tengo vih puedo continuar viviendo con mi familia?
+      - si tengo vih mi familia se tienen que mudar?
+      - si mi hijo ha cogido vih podemos vivir con él?
+      - se puede compartir piso con quien tiene vih?
+      - se puede comaprtir piso cun alguien que tiene vih?
+      - puedo vivir en la misma casa que mi pareja si tiene vih?
+      - puedo dormir en la misma cama que mi pareja si tiene vih?
+      - puedo dormir en la misma cama que alguien que tiene vih?
+      - puedo compartir cama con alguien de vih?
+      - puedo dormir con alguien que tenga vih?
+      - se puede dormir con alguien que tiene vih?
+      - Alguien con vih puede vivir en la misma casa que los demas
+      - Es posible convivir con alguien que tienen vih
+      - podemos continuar viviendo con alguien que tienen vih?

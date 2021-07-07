@@ -145,6 +145,14 @@ nlu:
       - q pasa si coges el virus
       - que pasa si te infectas
       - como actua el virus en el cuerpo?
+      - ¿Qué efectos produce el VIH?
+      - ¿Qué efectos produce el VIH?
+      - Que efectos tiene el vih
+      - Cuales son los efectos del vih
+      - que efectos produce el virus
+      - que efectos produce el virus?
+      - qué hace el virus?
+      - que hace el vih cuando entra en el cuerpo?
   - intent: faq/cual_es_el_origen
     examples: |
       - ¿Cuál es el origen del VIH?
@@ -443,7 +451,7 @@ nlu:
       - como es la segunda fase del vih
       - explicame la etapa 2 de la infeccion
       - cual es la fase 2 del vih
-      - 
+      -
   - intent: faq/tipos_vih
     examples: |
       - ¿Cuántos tipos de VIH hay?
@@ -536,3 +544,198 @@ nlu:
       - Los hombres tienen más probabilidad de contraer el VIH?
       - Las mujeres contraen más VIH ?
       - Que probabilidad és mas alta en el índice de contagios? en hombres o mujeres?
+      - quienes suelen contagiarse de vih?
+      - Las mujeres contraen más VIH ?
+      - ¿qué personas tienen mayor riesgo de contraer VIH?
+      - que personas tienen un mayor riesgo de coger el vih?
+      - quien tienen mas riesgo de infectarse?
+      - qué tipo de personas tienen más riesgo de infeccion?
+      - que tipo de gente suele infectarse de vih?
+      - quienes suelen infectarse de vih
+      - qué personas suelen infectarse mas facilmente de vih?
+      - que tipo de personas suelen infectarse?
+      - quién es más fácil que se infecte?
+      - quienes se infecta mas facilmente?
+      - que personas son mas propensas a infectarse?
+  - intent: faq/vida_cotidiana_vih
+    examples: |
+      - ¿Se puede hacer vida normal con VIH?
+      - Se puede llevar una vida normal con el vih?
+      - Se puede hacer una vida bastante normal si tiene vih?
+      - Si tienes vih puedes lleva runa vida normal?
+      - ¿En qué influye en la vida cotidiana tener VIH?
+      - En que influye en la vida cotidiana estar infectada?
+      - Como afecta en el dia a dia tener vih?
+      - se puede llevar una vida mas o menos normal con el vih?
+      - se puede llevar runa vida más o menos bien con el vih?
+      - como afecta a la calidad de vida del enfermo?
+      - en qué afecta a la vida cotidiana de un enfermo de VIH?
+      - como afecta el VIH en el dia a dia de un infectado de VIH?
+      - en que me puede afectar en la vida cotidiana?
+      - en que afecta en vida cotidiana el VIH?
+      - en qué afecta a la vida cotidiana tener VIH?
+      - ¿En qué influye en la vida cotidiana tener VIH?
+      - puedes hacer vida normal contagiado de VIH?
+      - puedo llevar una vida normal con vih?
+      - se puede llevar una vida normal teniendo vih?
+      - si tienes sida puesdes llevar una vida normal?
+      - si estas infectado puedes llevar una vida normal?
+      - puedes llevar una vida normal teniendo vih?
+      - puedes hacer una vida normal con sida?
+      - se puede llevar una buena vida con el vih?
+      - se puede llevar una vida normal cuando tienes vih?
+  - intent: faq/esparanza_vida_vih
+    examples: |
+      - ¿Qué esperanza de vida tengo si estoy infectado de VIH?
+      - que esperanza de vida tienes si te infectas de vih
+      - qué esperanza de vida tienen las personas con vih
+      - cual es la esperanza de vida para las personas con vih
+      - cuál es la esperanza de vida si tienes vih?
+      - cual es la vida media de alguien con vih?
+      - cuanto viven de media los infectados por vih
+      - cuanto tiempo vive alguien con vih
+      - durante cuanto tiempo viven las personas con vih?
+      - durante cuanto tiempo suelen vivir las personas con vih?
+      - cuanto tiempo suelen vivir las personas que tienen vih?
+      - cuanto tiempo de media vive alguien con vih?
+      - alguien con vih cuanto tiempo vive?
+      - A que edad mueren las personas con vih?
+      - cuantos años viven los enfermos de vih?
+      - cuantos años vive alguien con vih?
+      - si tienes vih que esperanza de vida tienes?
+      - si tienes vih cuanto tiempo de vida te queda?
+      - si coges el vih que esperanza de vida tienes?
+      - qué esperanza de vida hay para la gente con vih?
+      - cuál es la esperanza de vida para la gente con vih?
+      - Que esperanza de vida tengo si estoy infectado de VIH?
+      - Cual es la esperanza de vida?
+      - ¿cuál es la esperanza de vida de una persona con vih?
+      - Quantos años puede vivir un enfermo de VHI?
+      - Que eaperanza de vida me queda si tengo el VIH?
+      - Que eaperanza de vida me queda si tengo el VIH?
+      - Que esperanza de vida tiene el que contrae el vih?
+      - Cual es la esperanza de vida de una persona con vih
+      - ¿Cuál es la esperanza de vida?
+      - ¿Cuál es la esperanza de vida de una persona con VIH?
+      - Cuanto tiempo se sobrevive con vih?
+      - Cuanto tiempo se vive con vih
+  - intent: faq/es_posible_evitar_avance_vih
+    examples: |
+      - ¿Es inevitable el avance del VIH?
+      - hay alguna manera de evitar el avance del vih?
+      - existe algun modo de evitar que el vih vaya a más?
+      - es posible evitar el desarrollo del vih?
+      - es posible evitar que el vih se desarrolle?
+      - se puede parar el avance del virus?
+      - se puede detener el vih?
+      - es posible parar al vih?
+      - hay alguna manera de parar el virus?
+      - existe alguna manera de ralentizar el avance del virus? 
+      - es evitable el avance del vih?
+      - es posible evitar e avance del virus?
+      - es posible frenar al virus?
+      - se puede frenar al virus
+      - se puede frenar el avance de la enfermedad?
+      - se puede ralentizar el avance de la enfermedad?
+      - se puede hacer que el vih avance mas lentamente?
+      - es inexorable el avance del vih?
+      - es evitable el avance del vih?
+      - existe alguna manera de detener e virus?
+      - ay alguna cosa q pueda parar el virus?
+      - se puede hacer que el virus no avance?
+      - se puede evitar que la enfermedad vaya a más?
+      - seria posible ralentizar el avance del virus?
+      - es posible para el virus?
+      - se puede detener la enfermedad?
+      - se puede pausar el vih? 
+      - intent: faq/es_posible_evitar_avance_vih
+  - intent: faq/fases_vih
+    examples: |
+      - ¿Qué fases tiene el VIH?
+      - que fases tiene el vih?
+      - fases del vih
+      - cuales son las fases del vih?
+      - por que fases pasa el virus del vih?
+      - por qué fases pasa la enfermedad del vih?
+      - La enfermedad del VIh tiene diversas fases o estadios?
+      - cuantas fases hay?
+      - cuántas fases tiene el vih?
+      - cuantas fases tiene el vih
+      - cuales son las fases por las que pasa alguien con vih
+      - que fases o estadíos tiene el vih?
+      - por cuantas fases pasa el vih?
+      - cuales son las distintas fases o estados por los que pasa alguien con vih?
+      - cuales son los diferentes estados por los que pasa alguien con vih? 
+      - en que fases se desarrollá el vih?
+      - por cuanats fases pasa el vih?
+  - intent: faq/peligros_vih
+    examples: |
+      - ¿Por qué es peligroso el VIH?
+      - Por que es peligroso tener vih?
+      - Porque es peligroso tener vih?
+      - es peligroso el vih?
+      - cuales son los peligros del vih
+      - porque es peligroso tener vih
+      - porque es peligroso el vih
+      - porque es peligroso contagiarse de vih
+      - cuales son los peligros del vih?
+      - porque es malo contagiarse de vih
+      - porque es malo infectarse de vih
+      - porque el vih es malo
+  - intent: faq/enfermas_mas_facilmente
+    examples: |
+      - ¿Enfermas más facilmente si tienes VIH?
+      - enfermas mas facilmente cuando tienes Vih?
+      - caes enfermos con mas facilidad cuando tienens Vih?
+      - sueles enfermar más cuando tienens vih?
+      - la gente con vih enferma más que los demás?
+      - las personas con vih suelen enfermar mas?
+      - caees enfermo con mayor facilidad cuando tienens Vih?
+      - si tienes vih enfermas mas facilmente?
+      - cuando tienes vih enfermas con mayor facilidad?
+      - las persoans que tienen vih estan siempre enfermas?
+      - las persoans infectadas suelen caer enfermas con más frecuencia?
+      - cuando tienes vih enfermas con mayor asiduidad?
+      - enfermas más cuando tienes vih?
+      - enfermas mas facilmente cuando tienes sida?
+      - es mas facil caer enfermos cuando tienes vih?
+      - la gente con vih esta siempre enferma?
+      - el vih hace que enfermes mas facilmente?
+      - el sida hace que se enferme con mayo facilidad?
+      - cuando tienes el vih enfermas más de lo normal?
+      - se enferma mas facilmente cuandos e tienen el sida?
+      - la gente con vih suele enfermar mas facilmente?
+      - las personas que tienen vih suelen caer enfermas?
+      - se suele caer enfermos mas fcailmente con el vih?
+      - el vih provoca que enfermes cada dos por tres?
+      - el vih hace que cada dos por tres estes malo?
+      - las personas con vih estan cada 2 por 3 enfermas?
+  - intent: faq/se_continua_investigando
+    examples: |
+      - ¿Se continua investigando sobre el VIH?
+      - se continua investigando el Vih?
+      - hoy en dia aun se in vestiga el vih?
+      - se investiga maś sobre el vih?      
+      - se continuan realziando investigaciones sobre el vih?
+      - se investiga sobre el sida?
+      - se sigue investigando sobre el vih?
+      - se investiga sobre el vih?
+  - intent: faq/es_mortal_vih
+    examples: |  
+      - ¿El VIH es mortal?
+      - Es mortal el VIH?
+      - ¿Contraer el VIH implica la muerte?
+      - si me infecto de vih moriré?
+      - se puede morir por vih?
+      - el vih mata?
+      - Me puedo morir por tener vih?
+      - Actualmente aun hay riesgo de mortalidad por VIH?
+      - el vih te puede matar?
+      - eñ vih mata?
+      - hoy en dia el vih es mortal?
+      - Puedes morir de VIH?
+      - el VIH es mortal?
+      - Te puedes morir?
+      - Es una enfermedad mortal?    
+      - el vih es una enfermedad altamente mortal?
+      - tener vih significa que vas a morir?

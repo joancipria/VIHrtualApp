@@ -4,10 +4,23 @@ nlu:
   - intent: faq/que_es_ets
     examples: |
       - ¿Qué son las ETS?
+      - qué son las ets?
       - que son las ets
       - ¿Qué significa ETS?
+      - qué significa ets?
       - que significa ets
       - ¿Qué es una ETS?
+      - que es una ets
+      - ¿Qué son las enfermedades sexuales?
+      - que son las enfermedades de transmisión sexual?
+      - que es una enfermedad de transmision sexual?
+      - que son las enfermedades sexuales?
+      - que son las enfermedades de transmision sexual?
+      - que es una ETS?
+      - que son las enfermedades de contagio sexual?
+      - que son las enfermedades de infeccion sexual?
+      - q es una ets
+      - k son las ets
   - intent: faq/que_es_hepatitis
     examples: |
       - ¿Qué es la hepatitis?

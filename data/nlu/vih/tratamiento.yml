@@ -121,3 +121,65 @@ nlu:
       - que otro tipo de ayudas necesitan las personas con vih
       - otras ayudas que pueden neceseitar los afectados
       - que ayudas adicionales puede necesitar alguien con vih
+  - intent: faq/cuanto_dura_tratamiento
+    examples: |
+      - ¿Cuánto dura el tratamiento del VIH?
+      - Cuanto dura el tratamiento para el vih?
+      - Q dura el tratamiento del vih?
+      - que dura el tratmiento del vih?
+      - cuánto tiempo dura el tratamiento del vih?
+      - durante cuanto tiempo hay que tomar la medicacion del vih?
+      - durante cuanto tiempo hay que medicarse para el vih?
+      - hasta cuando hay que seguir el tratamiento del vih?
+      - hasta cuando hay que estar tomando medicacion para el vih?
+      - la medicacion para el vih es de por vida?
+      - el tratamiento para el vih es de por vida?
+      - el tratamiento para el vih es para toda la vida?
+      - hay que tomar la medicacion por el resto de tu vida?
+      - tienen que tomar la medicacion del vih hasta que se mueran?
+      - cuanto tiempo dura la terapia contra el vih
+      - cuanto dura el tratamuento contra el vih
+      - cuanto dura la terapia contra el vih
+      - cuánto dura el tratamiento de la enfermedad del VHI?
+      - cuanto dura el tratamiento del VIH?
+      - cuanto tiempo dura el tratamiento contra el VIH?
+      - cuanto tiempo dura el tratamiento?
+      - hasta cuando hay que tomar a medicacion para el vih?
+      - la medicación para el vih es para toda la vida?
+      - el tratamiento para el vih es de por vida?
+      - durante cuanto tiempo hay que tomar la medicacion?
+      - hasta cuando hay que tomar la medicacion para el vih?
+  - intent: faq/no_tomar_medicamentos
+    examples: |
+      - ¿Qué sucede si no tomo los medicamentos?
+      - que sucede si no tomo los medicamentos
+      - que pasa si no tomo el tratamiento
+      - qe pasaria si no siguiera el tratamiento
+      - que sucederia si no me tomase los medicamentos
+      - que sucederia si no me tomase las pastillas para el vih
+      - k pasaria si dejara de tomar los medicamentos
+      - que puede pasar si no me tomo los medicamentos
+      - que pasa si tengo el vih y no me tomo el TAR
+      - que sucede si tienes vih pero no te medicas?
+      - q pasa si te detectan vih pero no te medicas?
+      - que sucede cuando alguien con vih no se toma los medicamentos
+      - que pasa si alguien que tiene vih decide no tomar la medicación
+      - que pasa cuando alguien con vih decide no someterse al tratamiento retroviral
+      - qué les sucede a las personas que no se toman el TAR
+      - que les puede pasar a las personas que no se tomen el tratamiento antirretroviral
+      - que pasa si no tomas el TAR
+      - que puede pasar si se deja de tomar el tratamiento antirretroviral
+      - que sucede cuando dejas de tomar la medicación
+      - qué pasaría si alguien con vih dejase de tomar el TAR?
+      - que ocurriría si dejara el tratamiento antirretroviral?
+      - que ocurre si dejas la medicación
+      - que pasa si pasas de la medicacion
+      - que sucede si dejas de tomarte los medicamentos
+  - intent: faq/donde_atendido_vih
+    examples: |
+      - ¿Dónde puedo ser atendido por el VIH?
+      - donde puedo ser atendido de vih?
+      - donde me pueden atander si tengo vih?
+      - donde puedo ir si tiengo vih?
+      - donde podria ser atendido por vih?
+      - donde me pueden atender y asesorar sobre el vih?

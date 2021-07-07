@@ -148,3 +148,31 @@ nlu:
     - ¿Puede el SIDA causar un transtorno neurológico?
     - ¿Produce el SIDA demencia?
     - ¿Se piede la memoria cuando se tiene SIDA?
+- intent: faq/sida_tiempo_desarrollo
+  examples: |
+    - ¿Con que rapidez se desarrolla el SIDA?
+    - con qué rapidez se llega a la fase de sida?
+    - cómo de rápido se desarrolla el sida?
+    - como de rapido se pasa a tener sida?
+    - en cuanto tiempo se pasa a ala fase de sida?
+    - cuanto tiempo tarda el vih en convertirse en sida?
+    - cuanto tiempo se tarda en llegar al sida?
+    - con ue rapidez del vih se convierte en sida?
+    - cuanto tiempo tarda en convertirse el vih en sida?
+    - cuánto tiempo tarda el vih en pasar a la fase de sida?
+    - cuanto tiempo se tarda en llegar a la fase de sida?
+    - en cuanto tiempo se dessaroollar el sida?
+    - en cuanto tiempo se desarrolla el sida?
+    - ¿Con qué rapidez desarrollan el sida las personas infectadas por el VIH?
+    - con que rapidez se desarrolla el sida cuando tenes vih?
+    - cómo de rapido se desarrolla el sida?
+    - cuanto tiempo se tarda en pasar a la fase de sida?
+    - En cuantos años se desarrolla el sida?
+    - en cuánto tiempo se desarrolla el sida?
+    - cuanto tarda el sida en aparecer?
+    - cuánto se tarda en llegar a la fase de sida?
+    - en cuantos años se desarrolla el sida?
+    - de media en cuantos años se desarrolla el vih?
+    - si no te medicas, en cuento tiempo entras en la fase de sida?
+    - sin tratamiento en cuantos años llegas a la fase de sida?
+    - cuanto tiempo se tarda en tener sida?

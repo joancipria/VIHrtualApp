@@ -118,3 +118,102 @@ nlu:
       - mi novio no tiene vih, lo tendré yo?
       - la de mi mujer ha salido negativa, yo tambien sere negativo?
       - si la prueba le ha salido bien a mi novio, yo tampoco tendre vih?
+  - intent: faq/como_es_prueba
+    examples: |
+      - ¿En qué consiste la prueba del VIH?
+      - en que consiste el test del vih?
+      - en qué consiste la prueba
+      - cómo es la prueba del VIH?
+      - como es la prueba del vih
+      - como es el test del vih?
+      - como es la prueba para detectar el vih?
+      - en que consiste la prueba para detectar el sida?
+      - cómo es la prueba para saber si tienes vih?
+      - en que consisnte la prueba para detectar el virus?
+      - como son las pruebas de deteccion de vih?
+      - komo es la prueva del vih
+      - explicame como son las pruebas del vih
+      - como funcionan los tests para detectar el vih
+      - como funcionan las pruebas para detectar el sida
+      - en k consisten los tests para el vih
+      - como son las pruebaspara detectar el virus?
+      - como funcionan los tests que detectan el vih?
+      - como funcionan los test de deteccion de vih?
+      - explciame como van las pruebas de vih
+      - las pruebas de deteccion del vih como funcionan?
+      - los tests para detectar el virus como funcionan?
+      - me podrias decir en q coniste la prueba del vih?
+  - intent: faq/solicitar_prueba
+    examples: |
+      - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
+      - donde puedo pedir que me hagan la prueba del vih?
+      - donde puedo solicitar un test de vih?
+      - dónde puedo pedir un test para el vih?
+      - a quien le puedo pedir que me haga la prueba del vih?
+      - a quien le tengo que solicitar o pedir que me hagan la prueba?
+      - dónde hacen la prueba del vih?
+      - donde acen el test para el vih?
+      - ¿DONDE PUEDO REALIZARME LA PREUBA DE VIH??
+      - donde puedo realizarme la prueba?
+      - dónd puedo hacerme un test de vih?
+      - donde podria pedir cita para hacerme la prueba del vih?
+      - en que sitio hacen las pruebas del vih?
+      - en que lugar se puede peir una cita para la prueba?
+      - en que sitio acen los tests del vih?
+      - donde se puede pedir cita para que te hagan la prueba del vih?
+      - dónde se puede solictar que te hagan la prueba del vih?
+      - donde puedo solicitar que me hagan el test del sida?
+      - Donde se hacen las pruebas del vih?
+      - donde se hacen los test del vih?
+      - como pido cita para la prueba del vih?
+      - como pued solicitar la prueba para el vih?
+      - como puedo pedir cita para la prueba? 
+      - cómo me hago la prubea?
+      - como me hago la prueba?
+      - cómo me hago la prueba?
+      - quien me debe hacer las pruebas del VIH?
+      - quien me puede hacer la prueba del vih?
+      - ¿Cómo puedo hacerme la prueba del VIH?
+      - como puedo hacerme el test del sida?
+      - quiero solicitar una cita para la prueba del vih
+      - quiero solicitar una prueba del vih
+      - quiero hacerme la prueba del vih
+      - quiero hacerme un test de vih
+  - intent: faq/detectar_con_analitica
+    examples: |
+      - ¿Es posible detectar el VIH a través de una analítica?
+      - es posible detectar el vih a traves de una analitica?
+      - se puede detectar el vih con una analitica normal?
+      - el vih se puede detectar mediante una analitica de sangre?
+      - el sida se puede detectar con una analítica de sangre?
+  - intent: faq/precio_prueba_vih
+    examples: |
+      - ¿La prueba del VIH es gratuita?
+      - la prueba de vih es gratis?
+      - el test del vih es gratuito?
+      - es gratis el test de vih?
+      - la prueba para detectar el vih es gratuita?
+      - son gratuitas las pruebas de deteccion de vih?
+      - la prueba de detección de vih es gratis?
+      - es muy cara la prueba de vih?
+      - es muy caro el test del vih?
+      - es barata la prueba para detectar el vih?
+      - es barata la prueba del vih?
+      - cual es el precio de la prueba de vih?
+      - qué precio tiene la prueba del vih?
+      - cuál es el precio de la prueba del VIH?
+      - cuanto cuesta la prueba del vih?
+      - cuánto cuesta un test de vih?
+      - que cuesta una prueba de detecciondel vih?
+      - que cuesta un test del vih
+      - cuanto dinero vale la prueba del vih?
+      - cuanto dinero cuesta la prueba del vih
+      - precio de la prueba del vih
+      - precio del test de vih
+      - cuanto cuesta realizarse la prueba del vih?
+      - cuanto cuesta tomar un test para el vih?
+      - cuánto te cobran por hacerte la prueba del vih?
+      - cuánto te sacan por un test de vih?
+      - es caro hacerse la prueba del vih?
+      - cuesta dinero hacerse la prueba del vih?
+      - cuesta mucho dinero el test del vih?

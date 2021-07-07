@@ -530,3 +530,70 @@ nlu:
     - haciendo la tijera se puede coger el vih?
     - se puede coger el vih teniendo sexo lesbico?
     - las lesbianas pueden cogerlo?
+- intent: faq/puede_transmitir_hijos
+  examples: |
+    - ¿Si estoy embarazada puedo contagiarle el VIH a mi hijo?
+    - durante el embarazo se puede contagiar al feto?
+    - se puede contagiar a un feto?
+    - puedo contagiar a mi bebé?
+    - cuando estas embarazada puedes transmitir el vih al feto?
+    - si estas embarazada pues contagar de vih a tu hijo?
+    - que riesgo existe de contagio durante el embarazo?
+    - los bebes se contagian?
+    - durante el embarazo se puede transmitir el vih al bebe?
+    - Si estoy embarazada, puedo contagiarle el VIH a mi hijo?
+    - Puedo transmitir el VIH a mi bebe en el embarazao?
+    - durante la gestación se puede transmitir el vih al bebe?
+    - el vih se transmite a los hijos durante el embarazo?
+    - El SIDA se transmite al bebe durante el embarazo?
+    - Hay probabilidad de que el feto contraiga dicha enfermedad?
+    - un bebe se puede haber contagiado duranae el embarazo?
+    - un hijo puede haberse contagiado duranto el parto?
+    - durante el parto hay riesgo de contagio?
+    - al parir hay riesgo de contagiar a tu hijo?
+    - hay riesgo de contagio del vih durante el parto?
+    - el vih se transmite por la lactancia?
+    - durante la lactancia puedes infectar al bebé?
+    - Se transmite de madre a hijo si estoy embarazada?
+    - al dar a luz puedes contagiar al bebe?
+    - un hijo se puede haber contagiado durante el embarazo?
+    - es posible que un bebe se infecte durante el parto?
+    - hay riesgo de contagio durante el parto?
+- intent: faq/objetos_contaminados_vih
+  examples: |
+    - ¿Puedo contagiarme por tocar objetos contaminados de VIH?
+    - el vih se transmite a través de los objetos?
+    - si toco un objeto contaminado de vih me puedo infectar?
+    - Que posibilidades hay de contagiarse por tocar objetos contaminados de VIH?
+    - el vih se transmite a través de objetos contaminados?
+    - puedo coger el vih si toco un objeto contaminado?
+    - podria contagiarme si toco un objeto que tega restos de vih?
+    - es posible la transmision a través de objetos?
+    - se puede coger el vih por tocar objetos con restos de vih?
+    - me puedo contagiar por tocar algun objeto que tenga vih?
+- intent: faq/pueden_contagiarse_niños
+  examples: |
+    - ¿Los niños pueden contraer el VIH?
+    - las niñas pueden tener vih?
+    - un niño puede tener vih?
+    - los peques pueden tener vih?
+    - los bebes pueden tener vih?
+    - los niños pueden infectarse de vih?
+    - los niños pueden coger vih o sida? 
+    - las niñas se pueden infectar de vih?
+- intent: faq/sexo_pareja__vih
+  examples: |
+    - es seguro que dos personas con sida tengan relaciones sin protecion
+    - dos personas con vih pueden follar?
+    - dos personas con vih pueden tener sexo sin protección?
+    - si las dos personas tienen vih hace falta utilizar condon?
+    - si en una pareja los dos tienen vih pueden tener sexo sin proteccion?
+    - ¿Es seguro para dos personas que viven con el VIH mantener relaciones sexuales sin protección únicamente entre ellas?
+    - es seguro apra dos personas con vih mantener relaciones sexuales sin preservativo?
+    - sexo entre 2 personas con vih
+    - sexo sin proteccion entre dos personas con vih
+    - relaciones sexuales sin preserrvativo para parejas con vih
+    - dos personas que tengan el vih pueden follar sin preservativo?
+    - si dos personas tienen el vih pueden tener sexo entre ellas sin proteccion?
+    - si dos personas tienen vih pueden tener sexo entre ellas sin usar preservativos?
+    - dos personas que tengan vih pueden follar entre ellas?

@@ -275,3 +275,183 @@ nlu:
     - como hago para no infectarme?
     - como me protejo contra el vih?
     - como evito contagiarme de vih?
+    - como prevenir el vih
+    - como puedo prevenir la infeccion por vih
+- intent: faq/sexo_con_vih
+  examples: |
+    - ¿Si tengo el VIH puedo mantener relaciones sexuales?
+    - si tengo vih puedo follar?
+    - si tengo el sida puedo mantener relaciones sexuales normales?
+    -cuando estas enfermo de vih puedes continuar teniendo sexo? 
+    - si tengo el virus puedo tener sexo?
+    - SITENGO EL VIH PUEDO MANTENER RELACIONES?
+    - ¿si tengo el vih puedo mantener relaciones sexuales?
+    - Si tienes vih puedes tener relaciones sexuales?
+    - ¿si tengo el vih debo mantener relaciones sexuales?
+    - suedo tener una vida sexual normal si tengo vih?
+    - se puede tener sexo normal cuando tienes vih?
+    - suando tienes vih puedes follar?
+    - se puede tener sexo teniendo sida?
+    - si tienes el virus puedes continuar haciendo el amor?
+    - si me he infectado puedo continuar follando?
+    - si tengo el vih puedo tener relaciones sexuales normales con otras personas?
+    - si tienes sida puedes continuar teniendo sexo?
+    - cuando tienes vih puedes mantener relaciones sexuales?
+    - cuando estas infectado se puede follar?
+    - se puede tener sexos eguro teniendo vih?
+    - es seguro follar cuando tienes vih?
+    - es seguro follar cuando estas infectado?
+    - es peligroso el sexo cuando tienes vih?
+    - si tengo el vih puedo continuar disfrutando del sexo?
+    - las personas que tienen vih puede tener relaciones sexuales?
+    - las personas que tienen sida pueden mantener relaciones sexuales?
+    - las gente con vih pueden tener sexo?
+    - Las personas con vih pueden follar?
+    - ¿Es seguro mantener relaciones sexuales con una persona que vive con el VIH?
+    - es eguro mantener sexo con alguien que vive con vih?
+- intent: faq/duda_contagio
+  examples: |
+    - ¿Qué debo hacer si pienso que puedo haberme infectado de VIH?
+    - Que debo hacer si creo que me he infectado de vih?
+    - que deberia hacer si pienso que me he infectado de vih?
+    - qué debo hacer si creo que puedo haber cogido el vih?
+    - ke debería hacer si creo que me han transmitido el vih
+    - q debo hacer tras un contacto de riesgo
+    - qué hacer tras un posible contacto con un infectado
+    - que hacer tras una práctica de riesgo
+    - que deberia hacer tras una practica de riesgo
+    - qreo que me han pegado el virus del vih
+    - creo que he cogido el vih
+    - quizá me he contagiado
+    - no sé si me he contagiado
+    - no se si me he podido contagiar
+    - Sospecho que puedo tener el vih
+    - creo que me he infectado
+    - sospecho que me he infectado
+    - creo que puedo haberme infectado
+    - Que se debe hacer tras un contacto de riesgo
+    - qué se debe hacer si piensas que te has podido infectar
+    - que hacer si tienes dudas subre si te has infectado
+    - que hago si creo que me he infectado?
+    - qué hago si creo que me he podido infectar?
+    - que hago si creo que he podido coger el vih
+    - que hacer si crees que puedes tener el vih
+    - quizas me he infectado
+    - creo que podria haberme infectado
+    - quizá me haya infectado
+    - quiza me lo hayan pegado
+- intent: faq/contagio_pareja
+  examples: |
+    - ¿Si mi pareja tiene VIH, debo realizarme la prueba?
+    - Si mi pareja tiene el vih deberia realizarme la prueba?
+    - si mi novio tienen vih debo hacerme la prueba?
+    - si mi novia tiene vih crees que deberia hacerme un test?
+    - si mi novio tiene sida yo que tengo que hacer hacer?
+    - si mi pareja esta infectada que deberia hacer?
+    - si mi pareja a dado positivo que debo hacer?
+    - si mi novio se a infectado que debo hacer?
+    - deberia hacerme la prueba si mi pareja es positiva?
+    - deberia hacerme la prueba si mi novia se ha infectado?
+    - Debo hacerme un test si mi novia tiene vih?
+    - Debe mi pareja hacerse un test si he dado positivo?
+    - mi pareja se ha contagiado
+    - mi novia ha contraido el vih
+    - mi novio se ha infectado de vih
+    - mi churri se ha contagiado de vih
+    - mi amor ha contraido vih
+    - mi follamigo ha pillao el sida
+    - mi follamiga a pillado vih
+    - el chico con el que suelo follar ha pillao el sida
+    - la chica con la que suelo follar tienen el vih
+    - mi pareja ha dado positivo en la prueba
+    - mi novia se ha hecho la prueba del vih y ha salido positiva
+    - mi novio se hizo el test del vih y le ha salido positivo
+    - debo hacerme el test del vih si mi novio tienen vih?
+    - debo hacerme la prueba del vih si mi pareja ha dado positivo?
+    - debo hacerme un test o prueba si mi marido ha dado positivo?
+    - si mi mujer tienen vih debo hacerme yo un test?
+    - si mi marido se ha infectado tengo que hacerme yo tabien la prueba?
+- intent: faq/compartir_cuchillas_jeringuillas
+  examples: |
+    - ¿Es peligrosos compratir cuchillas o jeringuillas?
+    - como de riesgoso es compartir jeringuillas
+    - es conveniente que comparta mi maquinilla de afeitar?
+    - puedo compartir maquinilla de afeitar?
+    - puedo utilizar una maquinilla de otra persona?
+    - podemos compartir una cuchilla solo 2 personas?
+    - podemos compartir agujas mi colega y yo?
+    - es arriesgado compartir cuchillas o maquinillas de afeitar?
+    - si comparto jeringuillas me expongo al vih?
+    - al compartir una cuchilla de afeitar me estoy poniendo en riesgo?
+    - es peligroso compartir cuchillas de afeitar?
+    - es peligroso compartir jeringuillas?
+    - compartir agujas es peligroso?
+    - las cuchillas son peligrosas?
+    - es recomendable compartir jeringuillas?
+    - Si comparto la maquinilla de afeitar puedo contraer el VIH
+    - es arriesgado compartir agujas?
+    - es arriesgado que coparta jeringuillas con mis amigos?
+    - debo compartir jeringuillas con mis amigos?
+    - deberia compartir la maquinilla de afeitar?
+    - se deben compartir cuchillas o jeringuillas?
+    - puedo utilizar la misma maquinilla que un amigo?
+    - puedo utilizar la misma maquinilla de afeitar que otra persona?
+    - puedo compartir una maquinilla de afeitar con alguien?
+    - puedo compartir agujas o jeringuillas con mis colegas?
+    - es bueno compartir jeringuillas con tus amigos o colegas?
+    - Debo compartir la maquinilla de afeitar con mi padre?
+    - es recomendable compartir agujas?
+    - me recomiendas compartir una cuchilla de afeitar o jeringuilla
+- intent: faq/sexo_seguro
+  examples: |
+    - ¿Como puedo mantener relaciones sexuales seguras?
+    - cómo pued o tner relaciones sexuales sin riesgo?
+    - cómo puedo tener relaciones sexuales sin peligro de infectarme?
+    - como tener sexo seguro
+    - como tener relaciones sexuales seguros
+    - follar sin riesgo
+    - follar seguro
+    - ¿Como puedo tener sexo seguro?
+    - como podria tener seguro
+    - como mantener relaciones sexuales seguros
+    - como mantener sexo seguro
+    - como puedo tener sexo sin arriesgarme a coger vih?
+    - ¿Cómo mantengo relaciones con protección?
+    - como mantenco relaciones sexuales con protecion?
+    - como tener sexo con proteccion
+    - como se tiene sexo seguro?
+    - cómo se puede tener sexo seguro?
+    - como puedo disfrutar del sexo y protegerme?
+    - como puedo protegerme durante el sexo contra el vih?
+    - como protegerme durante el sexo
+    - que puedo hacer para protegerme durante las practicas sexuales
+    - como tener prácticas sexuales seguras
+    - como puedes disfrutar del sexo y esxtar seguro de no infectarte de vih?
+    - sexo libre de vih
+    - como disfrutar del sexo y protegerse contra el vih
+    - como follar sin arriesgarse a pillar vih
+    - como follar con proteccion
+    - como puedo follar sin preocuparme por el vih?
+    - se puede tener sexo sin preocuparse por el vih?
+    - es posible tener sexo y no arriesgarse a coger vih?
+- intent: faq/peligro_sexo_sin_proteccion
+  examples: |
+    - ¿Es peligroso mantener relaciones sexuales sin preservativo?
+    - es arriesgado mantener relaciones sexuales sin proteccion?
+    - es peligoroso tener relaciones sexuales sin condón?
+    - es peligroso follar sin condon?
+    - es peligroso tener sexo sin protección?
+    - es peligroso follar sin condón?
+    - es peligoroso tener sexo sin proteccion?
+    - peligros del sexo sin proteccion
+    - es arriesgado follar sin preservativo?
+    - cual es el peligro de hacer el amor sin protección?
+    - peligro de hacer el amor sin preservativo
+    - peligro de hacer el amor sin condon
+    - es peligroso el sexo anal sin proteccion?
+    - la penetración sin condón es peligrosas?
+    - la penetracion sin proteccion es peligrosa?
+    - es seguro tener sexo sin proteccion?
+    - es seguro mantener relacioens sexuales sin condon?
+    - es seguro follar sin preservativos?
+    - es seguro mantener relaciones sexuales sin protección?

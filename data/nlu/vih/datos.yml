@@ -85,6 +85,26 @@ nlu:
       - ¿cuántas personas están afectadas por el VIH?
       - cuantas personas hay afectadas por el vih
       - cuanta gente hay en el mundo con vih
+  - intent: faq/cuantas_personas_tienen_vih_españa
+    examples: |
+      - ¿Cuántas personas tienen VIH en España?
+      - cuantas personas tienen sida en España?
+      - cuánta gente tiene vih en españa?
+      - en españa cuanta gente con vih hay?
+      - cuanta gente hay con vih en españa?
+      - cuanta gente con vih vive en españa?
+      - cuántas personas viven en españa con sida?
+      - cuántos pacientes hay actualmente en españa de vih?
+      - cuantos enfermos de vih hay actualmente en españa?
+      - en españa cuanta gente sufre el vih?
+      - en este pais cuanta gente tiene vih?
+      - cuata gente tiene vih en españa?
+      - en el estado español cuanta gente tiene vih?
+      - cuantos españoles hay con vih?
+      - cuantos españoles viven con el vih?
+      - cuantos españoles hay infectados de vih?
+      - cuantas personas españolas viven con vih?
+      - en españa cuantas personas viven con vih?
   - intent: faq/cuantas_personas_contraido_vih_2019
     examples: |
       - ¿Cuántas personas contrajeron VIH en 2019?
@@ -154,3 +174,31 @@ nlu:
       - enfermo de londres
       - paciente londres
       - Paciente de Londres
+  - intent: faq/paises_mas_afectados_vih
+    examples: |
+      - ¿Qué paises son los más afectados por el VIH?
+      - que paises sohn los mas afectados por el vih?
+      - qué regiones son las mas afectadas por el sida?
+      - qué región es la más afectada por el vih?
+      - que continente es el más afectado por el vih?
+      - cual es el pais con mayor indice de infectados por vih?
+      - que paises tienen mas VIH?
+      - que pais tiene mnas sida?
+      - que sitio de todo el mundo tienen mas vih?
+      - cuales son los paises mas afectados por el vih?
+      - qué sitios son los mas afectados por el vih?
+      - que paises tienen más incidencia de vih?
+      - cuál es el pais con más vih?
+      - cuál es el pais con mayor incidencia de vih?
+      - cuál es el continente con mayor incidencia de sida?
+      - que pais esta peor con el vih?
+      - cual es el peor pais del mundo con vih
+      - el pais que más vih tiene
+      - que paises tenen mas vih?
+      - que area tiene mayor carga de vih o sida en el mundo?
+      - qué zona geográfica tiene mayor incidencia de SIDA?
+      - que pais del mundo tiene la mayor tasa de vih?
+      - pais del mundo con más vih
+      - zona del mundo con mayor numero de personas con sida
+      - pais con mas personas con vih del mundo
+
