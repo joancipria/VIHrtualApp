@@ -202,7 +202,7 @@ responses:
   utter_faq/rompe_preservativo:
     - text: "Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. \n\n Si se ha roto en la vagina, puede que necesites recurrir a la 'píldora del día después' que debes tomar antes de 72 horas para evitar los embarazos no deseados."
   utter_como_prevenir:
-    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones de la manera correcta cada vez que tenga relaciones sexuales. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). \n\n Si tienes el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas."
+    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones de manera correcta cada vez que tenga relaciones sexuales. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). \n\n Si tienes el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas."
   utter_faq/sexo_con_vih:
     - text: Si se toman los medicamentos para el VIH y se logra mantener una carga viral indetectable no hay ningún riesgo de transmitir el virus a la pareja través de relaciones sexuales.
   utter_faq/duda_contagio:

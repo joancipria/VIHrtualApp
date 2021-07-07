@@ -1,7 +1,12 @@
 \section{Interacción hombre-máquina y lenguaje natural}
 %El lenguaje es la capacidad que tiene el ser humano para expresarse y comunicarse a través de diversos sistemas de signos orales, escritos o gestuales. De entre ellos el habla es posiblemente el más complejo pues actúa a diferentes niveles: semántico, lingüístico, articulatorio y sonoro \cite{designTechniques}. Como parte de. Entender correctamente el texto resultante es una tarea igualmente ardua pues el lenguaje va más allá del significado literal de las palabras y por tanto se requiere también una comprensión del contexto en el cual se desarrolla una conversación para interpretarlo correctamente.\\
 
-El lenguaje es la capacidad que tiene el ser humano para expresarse y comunicarse a través de diversos sistemas de signos orales, escritos o gestuales. Con la aparición de nuevas tecnologías y la creciente capacidad de computación se han abierto nuevos campos de investigación de técnicas para el procesamiento de este lenguaje natural (\textit{NLP: Natural language processing}) con el propósito de utilizarlo como medio de interacción entre el hombre y máquina. En los últimos años estos esfuerzos se han materializado en el desarrollo de varios sistemas capaces de entender hasta cierto punto las intenciones expresadas por cualquier persona mediante su propia lengua para luego actuar en consecuencia. Si bien estos sistemas utilizan los últimos avances ofrecidos por la inteligencia artificial la realidad es que se encuentran aún en una etapa muy temprana de desarrollo. Aunque pueden interpretar correctamente expresiones bastante difíciles se encuentran aún muy lejos de ofrecer un entendimiento lo suficientemente complejo como para mantener conversaciones naturales y coherentes \cite{designTechniques}. Por tanto, constituyen un punto de partida y sientan las bases del futuro de la interacción entre usuarios y dispositivos, estableciendo un escenario totalmente nuevo donde ya no será necesario utilizar ratón, teclado, pulsaciones o cualquier otro método tradicional de entrada. De hecho, las clásicas interfaces ya están dejando paso a un nuevo paradigma de interacción mucho más intuitivo dónde no es necesario hacer clicks ni teclear para realizar ciertas operaciones \cite{conversationSystems}. Por ejemplo, ciertos procesos que antes podían resultar algo tediosos como reservar un vuelo ahora ya son posible con un simple "\textit{Google, resérvame un vuelo a París}", sin necesidad de navegar a través distintas webs ni rellenar formularios.\\
+El lenguaje es la capacidad que tiene el ser humano para expresarse y comunicarse a través de diversos sistemas de signos orales, escritos o gestuales. Con la aparición de nuevas tecnologías y la creciente capacidad de computación se han abierto nuevos campos de investigación de técnicas para el procesamiento de este lenguaje natural (\textit{NLP: Natural language processing}) con el propósito de utilizarlo como medio de interacción entre el hombre y máquina. En los últimos años estos esfuerzos se han materializado en el desarrollo de varios sistemas capaces de entender, hasta cierto punto, las intenciones expresadas por cualquier persona mediante su propia lengua para luego actuar en consecuencia. Si bien estos sistemas utilizan los últimos avances ofrecidos por la inteligencia artificial la realidad es que se encuentran aún en una etapa muy temprana de desarrollo. Aunque pueden interpretar correctamente expresiones bastante difíciles se encuentran aún muy lejos de ofrecer un entendimiento lo suficientemente complejo como para mantener conversaciones naturales y coherentes \cite{designTechniques}. Por tanto, constituyen un punto de partida y sientan las bases del futuro de la interacción entre usuarios y dispositivos, estableciendo un escenario totalmente nuevo donde ya no será necesario utilizar ratón, teclado, pulsaciones o cualquier otro método tradicional de entrada. De hecho, las clásicas interfaces ya están dejando paso a un nuevo paradigma de interacción mucho más intuitivo dónde no es necesario hacer clicks ni teclear para realizar ciertas operaciones \cite{conversationSystems}. Por ejemplo, ciertos procesos que antes podían resultar algo tediosos como reservar un vuelo ahora ya son posible con un simple "\textit{Google, resérvame un vuelo a París}", sin necesidad de navegar a través distintas webs ni rellenar formularios.\\
+
+\section{Reconocimiento de la intención}
+La intención representa el significado que hay detrás de un texto en lenguaje natural. En otras palabras, si se toma cualquier texto en lenguaje natural, la "intención" es la intención del escritor o hablante de ese texto, de ahí el término intención. El proceso de comprensión de la intención de una consulta del usuario se denomina reconocimiento de la intención y, en términos de programación, es un problema de clasificación. La clasificación se define como el problema de identificar a qué conjunto de categorías pertenece una nueva observación. En la clasificación de la intención, se tienen categorías de intención predefinidas y la tarea del bot es identificar la categoría de intención que mejor se ajusta a un nuevo texto en lenguaje natural que llega.
+
+\cite{buildingChatbots}
 
 \section{Chatbots}
 Un chatbot (\textit{chatter-bot}) o asistente virtual se puede definir como una interfaz (programa) diseñado para que los usuarios puedan interactuar con sus dispositivos haciendo uso de lenguaje natural, ya sea por voz o texto. El objetivo principal es siempre transmitir la sensación al usuario que se encuentra dialogando con una persona real y mantener esta ilusión el mayor tiempo posible. Para ello es crucial que los chatbots sean capaces de demostrar entendimiento, respondan con coherencia y resuelvan las tareas / problemas que los usuarios les planteen.\\
@@ -9,7 +14,7 @@ Un chatbot (\textit{chatter-bot}) o asistente virtual se puede definir como una 
 \subsection{Clasificación}
 En los últimos años, con la popularización de los chatbots y la democratización de sus tecnologías se han creado multitud de \textit{bots} con propósitos muy distintos. Esto dificulta realizar una clasificación precisa dada la alta subjetividad respecto  al ámbito al cual puede pertenecer un chabot. Sin embargo, es posible realizar una clasificación general en función de los siguientes criterios: Objetivo, modo de interacción, técnica de diseño y ámbito \cite{designTechniques,chatbotTypes}.\\
 
-\subsubsection{Objetivo}
+\subsubsection{Objetivo (\textit{Goal})}
 Según el objetivo para el cual han sido diseñados los chatbots pueden clasificarse en:
 
 \begin{itemize}
@@ -71,17 +76,15 @@ Como ya se ha mencionado, es de vital importancia que las conversaciones entre e
 
 [TODO: Desarrollar caracterísitcas sociales y como debe interactuar]
 
-
-\section{Estado del arte}
+\section{Chatbots en el campo de la salud}
 Muchas de las tecnologías mencionadas anteriormente se han empezado a introducir en el campo de la medicina y de la salud en busca de soluciones que mejoren la vida de los pacientes. Aprovechando los últimos avances en interacción entre personas y máquinas  se están desarrollando propuestas de asistentes virtuales que ayuden en el día a día a pacientes, familiares o incluso personas mayores. La idea es siempre mejorar la atención y automatizar ciertos procesos médicos \cite{healthAgents} bastante comunes y rutinarios como puedan ser responder a ciertas consultas, realizar el seguimiento de una medicación o incluso detectar indicios de enfermedad. \\
 
-\subsection{Chatbots en el campo de la salud}
 Dependiendo de la intención y problema que pretendan solucionar en el campo se la salud se diferencian 4 grandes categorías: educación, \textit{coaching}, prevención y diagnóstico.\\
 
 \subsubsection{Educación}
 Los chatbots educativos son aquellos orientados a ayudar a los usuarios a entender conceptos médicos y resolver todas aquellas dudas que puedan tener. Esta tarea la pueden realizar proporcionando información relevante sobre cierta enfermedad, resolviendo dudas técnicas sobre un análisis o ayudando a pacientes y familiares a comprender diagnósticos y tratamientos. \\
 
-Por ejemplo, un asistente virtual en este contexto podría resultar útil para  concienciar y advertir a la población sobre los riesgos de una determinada enfermedad . Este es el caso de IRA, un chatbot creado en India que, al igual que Vihrtual-App tiene por objetivo ayudar con en el grave problema padece el país con el VIH ofreciendo información y motivando a la gente a ser conscientes y responsables.\\
+Por ejemplo, un asistente virtual en este contexto podría resultar útil para  concienciar y advertir a la población sobre los riesgos de una determinada enfermedad. Este es el caso de IRA, un chatbot creado en India que, al igual que Vihrtual-App tiene por objetivo ayudar con en el grave problema padece el país con el VIH ofreciendo información y motivando a la gente a ser conscientes y responsables.\\
 
 \begin{figure}[htbp]
 \centering
@@ -139,6 +142,18 @@ Las principales características que ofrece son comprensión del lenguaje natura
 \subsection{Botkit}
 
 
+
+\subsection{Comparativa}
+
+Tras el análisis realizado sobre los diferentes \textit{frameworks} para construir chatbots se escoge a \textit{Rasa} como plataforma sobre la cual se realizará el desarrollo. Las razones detrás de esta elección son las siguientes:\\ 
+
+\begin{itemize}
+	\item \textit{Rasa} cuenta con todas las herramientas necesarias para la correcta interpretación de las intenciones del usuario mediante técnicas de \textit{NLU} y noción del contexto.
+	\item Es \textit{opensource}, gratuito y a diferencia de sus competidores, no se basa en ningún servicio en la nube propietario. Esto permite realizar el despliegue completo de la plataforma en cualquier máquina. 
+	\item  En consecuencia, se obtiene independencia de otros servicios y control total sobre los datos recopilados de conversaciones, pues estas no estarán en manos de terceros.
+	\item La plataforma ofrece una herramienta adicional para el aprendizaje supervisado llamada \textit{Rasa X}. Esta permite realizar fácilmente la revisión y etiquetado de las conversaciones por lo que resulta idónea para el desarrollo.
+\end{itemize}	
+
 \begin{table}[htbp]
 \centering
 \begin{tabular}{|l|l|l|l|l|} 
@@ -156,5 +171,3 @@ Coste              & Pago      & Gratuito & Pago       & Gratuito  \\
 \end{tabular}
 \caption{Comparativa de \textit{frameworks}}
 \end{table}
-
-

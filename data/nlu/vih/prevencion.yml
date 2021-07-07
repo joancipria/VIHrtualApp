@@ -309,6 +309,8 @@ nlu:
     - Las personas con vih pueden follar?
     - ¿Es seguro mantener relaciones sexuales con una persona que vive con el VIH?
     - es eguro mantener sexo con alguien que vive con vih?
+    - si me infecto de vih puedo follar sin condon?
+    - si tengo vih puedo tener sexo sin proteccion?
 - intent: faq/duda_contagio
   examples: |
     - ¿Qué debo hacer si pienso que puedo haberme infectado de VIH?
