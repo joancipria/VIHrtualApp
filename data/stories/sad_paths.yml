@@ -40,3 +40,8 @@ stories:
           - intent: reaccionar_negativamente
       - action: utter_disculparse
       - action: utter_recordar_asistencia
+
+  - story: Indica fallo
+    steps:
+      - intent: indicar_fallo
+      - action: utter_disculparse
