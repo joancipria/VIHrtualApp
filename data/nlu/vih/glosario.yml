@@ -89,6 +89,7 @@ nlu:
       - dime que es la cormobilidad
       - en que consiste la cormobilidad
       - oye que es la cormovilidad
+      - que es comorbilidad
   - intent: faq/que_es_cd4
     examples: |
       - ¿Qué son los CD4?

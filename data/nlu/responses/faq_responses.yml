@@ -324,7 +324,7 @@ responses:
     - text: "Cuando una persona está en tratamiento antirretroviral el objetivo es que alcance el nivel de carga tan bajo que sea indetectable. \n\n Cuando de repente se vuelve a detectar la carga viral, entonces se dice que el paciente posee una viremia intermitente. \n\n Se puede deber a diversos factores (como el estrés, haber estado enfermo, que el paciente no se esté tomando el tratamiento según la pauta estipulada o que el tratamiento esté fallando)."
   utter_faq/que_es_capside:
     - text: La cápside o cápsida es la envoltura que recubre el material genético del virus 🧬.
-  utter_faq/que_es_cormobilidad:
+  utter_faq/que_es_comorbilidad:
     - text: "Es cuando una persona tiene dos o más enfermedades o trastornos al mismo tiempo. \n\n Esto conlleva una complicación en el tratamiento farmacológico, un mayor gasto farmacéutico y puede conllevar mayores efectos secundarios y menor supervivencia.  \n\n Las comorbilidades más habituales en el VIH son la hepatitis C u otras enfermedades de transmisión sexual (ETS)."
   utter_faq/que_es_serodiscordante:
     - text: Se llama a una relación serodiscordante cuando una de las personas de la pareja en la está infectada por el VIH y la otra no.
