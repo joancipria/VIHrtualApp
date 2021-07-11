@@ -83,6 +83,8 @@ intents:
       use_entities: true
   - indicar_fallo:
       use_entities: true
+  - insultar:
+      use_entities: true
 entities:
   - PER
   - idioma
@@ -191,12 +193,12 @@ responses:
     - text: Puedes realizarme cualquier pregunta sobre el VIH. Por ejemplo, cómo se transmite, qué síntomas presenta, si tiene tratamiento etc.
     - text: Puedes preguntarme cualquier duda que tengas sobre el VIH. Recuerda que puedo informarte sobre su transmisión, las etapas de la enfermedad y muchas otras cosas.
   utter_recordar_asistencia:
-    - text: Avísame si tienes cualquier otra duda
-    - text: Pregúntame siempre que lo necesites
-    - text: Recuerda que puedes preguntarme siempre que lo necesites
-    - text: Estaré aquí esperándote por si necesitas cualquier otra cosa
-    - text: Si necesitas cualquier otra cosa no dudes en preguntarme
-    - text: Ante cualquier duda no dudes en preguntarme
+    - text: Avísame si tienes cualquier otra duda.
+    - text: Pregúntame siempre que lo necesites.
+    - text: Recuerda que puedes preguntarme siempre que lo necesites.
+    - text: Estaré aquí esperándote por si necesitas cualquier otra cosa.
+    - text: Si necesitas cualquier otra cosa no dudes en preguntarme.
+    - text: Ante cualquier duda no dudes en preguntarme.
   utter_dar_mas_informacion:
     - text: Existen muchas páginas web donde puedes informarte sobre el VIH, por ejemplo en [Información básica sobre el VIH](https://www.cdc.gov/hiv/spanish/basics/whatishiv.html) o en [Plan Nacional sobre el Sida](https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/home.htm).
     - channel: rest

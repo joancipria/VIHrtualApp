@@ -45,3 +45,9 @@ stories:
     steps:
       - intent: indicar_fallo
       - action: utter_disculparse
+
+  - story: Insultos
+    steps:
+      - intent: insultar
+      - action: utter_insultar
+      - action: utter_sugerir_tema

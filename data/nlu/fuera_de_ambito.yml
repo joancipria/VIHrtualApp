@@ -127,7 +127,7 @@ nlu:
       - eres muy guapa irene
       - eres muy guapo salva
 
-  - intent: fuera_de_ambito/insultos
+  - intent: insultar
     examples: |
       - puta
       - puto
