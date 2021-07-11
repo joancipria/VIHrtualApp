@@ -1,12 +1,26 @@
-Una vez descrita la propuesta técnica y visualmente se procede a detallar los distintos pasos seguidos para llevar a cabo la implementación del servicio.\\
+Una vez descrita la propuesta técnica y visualmente, se procede a detallar los distintos pasos seguidos para llevar a cabo la implementación del servicio.\\
 
 \subsection{Conjunto de entrenamiento}
-El conjunto de entrenamiento o \textit{dataset} es la información que se utiliza para entrenar a un sistema conversacional en la tarea de reconocer las intenciones expresadas por los usuarios y en responder adecuadamente. Estos datos constan de una serie de definiciones de \textit{intents}, respuestas y patrones de conversación (\textit{stories}) que posteriormente son utilizados por el asistente para tratar identificar correctamente las intenciones expresadas por los usuarios y responder en consecuencia.\\
+El conjunto de entrenamiento o \textit{dataset} hace referencia a los datos que se utilizan para entrenar un sistema conversacional en la tarea de reconocer las intenciones expresadas por los usuarios y en responder adecuadamente. En \textit{Rasa}, estos datos se estructuran mediante una serie de archivos en formato \textit{YAML} (\textit{YAML Ain't Markup Language}) que contienen las distintas entidades que representan una conversación. Así, los \textit{intents}  (intenciones) definen las diferentes preguntas que los usuarios pueden realizar, las respuestas contienen los mensajes que el chatbot devolverá y las \textit{stories} (historias) establecen los patrones de conversación. Con todos estos datos, posteriormente el asistente trata de identificar correctamente las intenciones expresadas por los usuarios y responder en consecuencia, según le haya sido indicado.\\
+
+Para que el asistente pueda mantener conversaciones lo más amplias y variadas posibles, se han añadido al conjunto de entrenamiento \textit{intents}, respuestas y \textit{stories} pertenecientes a 3 áreas distintas: conocimiento médico, expresiones básicas y cháchara. Los datos médicos están orientados a responder todas las dudas médicas sobre el VIH y han sido extraídos de la hoja de cálculo facilitada por parte de la Unidad de Enfermedades Infecciosas del Hospital General de Elche. Este documento consta de 130 preguntas con sus correspondientes respuestas y contiene todo el conocimiento médico que inicialmente tendrá el chatbot.\\
+
+A parte de todas las cuestiones relacionadas con el VIH, el asistente debe ser también capaz de entender y desenvolverse con una serie de expresiones básicas que suelen formar parte un diálogo. Las conversaciones suelen empezar con un \textit{Hola} o \textit{¡Buenos días!} y suelen ser correspondidas con otro saludo, seguidas de un \textit{¿Cómo estás?} o \textit{¿Cómo va?} y sus correspondientes respuestas. Durante el transcurso, también pueden aparecer otras expresiones como afirmaciones o negaciones (\textit{¡Por supuesto!}, \textit{Claro}, \textit{Para nada} etc) o peticiones como \textit{¿Me puedes ayudar?} o \textit{Necesito tu ayuda}. Finalmente, se suele usar un \textit{Adiós} o \textit{Hasta luego} para despedirse y finalizar la conversación. Todas estas expresiones y muchas otras aparecen tarde o temprano en una conversación, y por tanto, se han incorporado el mayor numero posible de ellas al conjunto de entrenamiento para que el asistente las entienda y pueda hacer uso de ellas. En la Figura 4.8 se muestra un ejemplo de una pequeña conversación donde se utilizan varias de estas expresiones.\\
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.15]{../images/basics_chat.png}
+\includegraphics[scale=0.15]{../images/basics_chat_2.png}
+\caption{Ejemplo de una pequeña conversación}
+\label{fig:expresiones auxiliares}
+\end{figure}
+
+Además, también es común que los usuarios intenten mantener un poco de cháchara con el bot. Algunos de los ejemplos más repetidos como \textit{¿Cómo te llamas?}, \textit{Quién te ha creado?} o \textit{¿Qué tiempo hace?} han sido también incorporados al conjunto. A continuación se detalla para cada entidad el proceso que se ha seguido para incorporar la información al \textit{dataset}.\\
 
 \subsubsection{\textit{Intents}}
-Cada vez que escribimos un mensaje estamos expresando una intención. Los \textit{intents} representan y definen estas intenciones recopilando una gran cantidad de ejemplos reales. Al construir el conjunto de  entrenamiento es importante tener en cuenta que una determinada intención puede ser expresada de distintas maneras. Pongamos por caso la pregunta  \textit{¿Existe cura para el VIH?} extraída de la hoja de cálculo. La cuestión expresa la intención del usuario de querer saber si existe algún tratamiento que cure completamente el VIH. Sin embargo, esta es simplemente una  de las múltiples formas que existen de preguntarlo, pues sería igualmente posible formular \textit{¿Hay cura para el VIH?} o \textit{¿El VIH tiene cura?} expresando la misma intención.\\
+Cada vez que escribimos un mensaje expresamos una intención. Los \textit{intents} representan y definen estas intenciones recopilando una gran cantidad de ejemplos reales. Es importante tener en cuenta que una determinada intención puede ser expresada de distintas maneras. Pongamos por caso la pregunta  \textit{¿Existe cura para el VIH?} extraída de la hoja de cálculo. La cuestión expresa la intención del usuario de querer saber si existe algún tratamiento que cure completamente el VIH. Sin embargo, esta es simplemente una  de las múltiples formas que existen de preguntarlo, pues sería igualmente posible formular \textit{¿Hay cura para el VIH?} o \textit{¿El VIH tiene cura?} expresando la misma intención.\\
 
-Por tanto, un usuario puede expresar la misma intención a través de diferentes expresiones. Por ello, cada pregunta se debe analizar para identificar la intención, y en base a esta, elaborar una serie de variaciones que garanticen un amplio espectro de reconocimiento.
+Por tanto, un usuario puede expresar la misma intención a través de diferentes expresiones. Por ello, cada pregunta o expresión a la cuál que se quiera poder responder, se debe analizar para identificar la intención, y en base a esta, elaborar una serie de variaciones que garanticen un amplio espectro de reconocimiento.
 Estas variaciones consisten en:
 
 \begin{itemize}
@@ -15,7 +29,7 @@ Estas variaciones consisten en:
 	\item Variantes con errores de escritura.
 \end{itemize}
 
-Por tanto, y siguiendo con el ejemplo anterior, para \textit{¿Existe cura para el VIH?} se pueden obtener las siguientes variaciones:
+En consecuencia, y siguiendo con el ejemplo anterior, para \textit{¿Existe cura para el VIH?} se pueden obtener diferentes variaciones como las siguientes:
 
 \begin{verbatim}
 - intent: cura_vih
@@ -33,10 +47,25 @@ Por tanto, y siguiendo con el ejemplo anterior, para \textit{¿Existe cura para 
     - ...
 \end{verbatim}
 
-Es importante considerar que para posteriormente el modelo generado distinga de forma fiable una intención de otra los ejemplos deben ser distintos entre los \textit{intents}. Es decir, no se debe utilizar el mismo ejemplo de entrenamiento para dos intenciones diferentes. Si los ejemplos de entrenamiento resultan demasiado similares, se produce una confusión de intenciones \cite{bestPracticesNLU}. En esta fase inicial se generan manualmente 30 variaciones por intención para garantizar unos resultados suficientemente satisfactorios para el prototipo [ref rasa]. En las siguientes fases del desarrollo las variaciones aumentarán con la recogida de datos reales (ver sección \ref{cdd}).
+Es importante considerar que, para que posteriormente el modelo generado distinga de forma fiable una intención de otra, los ejemplos deben ser distintos entre los \textit{intents}. Es decir, no se debe utilizar el mismo ejemplo de entrenamiento para dos intenciones diferentes. Si los ejemplos de entrenamiento resultan demasiado similares, se produce una confusión de intenciones \cite{bestPracticesNLU}.\\ 
+
+En esta fase inicial de la implementación, y siguiendo las recomendaciones de \textit{Rasa}, se generan manualmente 30 variaciones por cada intención. En total, se implementan 167 \textit{intents}, (133 acerca del VIH, 23 expresiones básicas y 11 de cháchara). Con esto se pretende garantizar unos resultados suficientemente satisfactorios para lanzar un primer prototipo. En las siguientes fases del desarrollo el número de variaciones aumentará con la recogida de datos reales (ver sección \ref{cdd}).\\
 
 \subsubsection{Respuestas}
-Las respuestas proporcionadas por el hospital son en muchos casos de difícil asimilación por parte de los usuarios. En su mayoría, utilizan un registro muy formal que dificulta que el usuario establezca un vínculo con el \textit{bot}. Además, en muchos casos la longitud del mensaje es excesivo, lo que puede provocar rechazo y saturación [referencia]. Por lo general, al chatear los usuarios suelen usar mensajes cortos, y en consecuencia, es recomendable sintetizar y aportar sólo la información relevante [referencia].\\
+Las respuestas ofrecidas por el asistente son la pieza clave para formar y transmitir personalidad. En Vihrtual-App se ha querido crear y dotar al \textit{bot} de una personalidad propia implementando los rasgos comentados en la sección \ref{interaccion} \textit{Interacción y características sociales}.\\
+
+Como ejemplo, a continuación se puede observar las posibles respuestas que el chatbot puede dar a un usuario que le pregunte \textit{¿Cómo estas?}. Al responder el chatbot escoge al azar una de las variantes, añadiendo cierto dinamismo a las contestaciones para intentar no transmitir la sensación robótica de los mensajes predefinidos. Además, los textos han sido construidas utilizando varios de los recursos mencionados anteriormente, como el uso de buenos modales, el tono algo informal y la proactividad. \\
+
+\begin{verbatim}
+  utter_estado:
+    - text: Genial! ¿Tú que tal?
+    - text: Genial, la verdad. Muchas gracias por preguntar.
+    - text: Hoy me encuentro genial, ¡gracias por preguntar!
+    - text: Hoy me siento especialmente bien. ¿Y tú que tal?
+    - ...
+\end{verbatim}
+
+En el caso de las información médica, se detecta que las respuestas proporcionadas por el hospital son, en muchos casos, difíciles de entender por parte de los usuarios. Algunas utilizan un lenguaje muy técnico y otras un registro demasiado formal que dificulta que el usuario establezca un vínculo con el \textit{bot}. Además, en muchos casos la longitud del mensaje es excesiva, pudiendo provocar rechazo y saturación \cite{shouldInteract}. En consecuencia, y por la propia naturaleza del medio, es recomendable sintetizar y aportar sólo la información relevante.\\
 
 Por tanto, es necesario aplicar distintas técnicas para dinamizar las respuestas y no aborrecer al usuario. La información debe ser concreta, responder directamente a la pregunta y en la medida de lo posible intentar captar su intención. Esta tarea se realiza mediante la introducción de modificaciones tales como:
 
@@ -58,7 +87,7 @@ Dado el carácter informativo del servicio estas alteraciones se introducen inte
 \end{figure}
 
 \subsubsection{\textit{Stories}}
-Una vez el conjunto de entrenamiento cuenta con la información de los \textit{intents} para identificar las expresiones y sus correspondientes respuestas, es necesario indicarle como debe utilizarlas. Para ello, se incorpora también a los datos de entrenamiento estructuras o patrones de conversación denominadas \textit{stories}. Las historias o \textit{stories} son representaciones de conversaciones entre usuarios y el chatbot. Estos datos utilizan un formato específico en el que la información introducida por el usuario se expresa como \textit{intents} y las respuestas como acciones del asistente \cite{rasaStories}. Por tanto, los \textit{intents} permiten identificar las intenciones, las respuestas contienen la información que recibirá el usuario, y las historias aportan el contexto y la lógica necesaria para responder coherentemente.\\
+Una vez el conjunto de entrenamiento cuenta con la información de los \textit{intents} para identificar las expresiones y sus correspondientes respuestas, es necesario indicarle como debe utilizarlas. Para ello, se incorpora también a los datos de entrenamiento estructuras o patrones de conversación denominadas \textit{stories}. Las historias o \textit{stories} son representaciones de conversaciones entre usuarios y el chatbot. Estos datos utilizan un formato específico en el que la información introducida por el usuario se expresa como \textit{intents} y las respuestas como acciones del asistente \cite{rasaStories}. Por tanto, los \textit{intents} permiten identificar los mensajes de entrada, las respuestas contienen la información, y las \textit{stories} aportan el contexto y la lógica necesaria para responder coherentemente.\\
 
 \begin{verbatim}
   - story: Pregunta por la cura + casos que se han curado + paciente berlin
@@ -79,59 +108,76 @@ Una vez el conjunto de entrenamiento cuenta con la información de los \textit{i
       - action: utter_ofrecer_ayuda
 \end{verbatim}
 
-Tras procesar toda esta información y realizar el entrenamiento \textit{Rasa} genera un modelo con el cual el asistente es capaz de analizar las preguntas realizadas por los usuarios, asociarlas a uno de los \textit{intents} que ya tenga definidos (en base a una probabilidad) y ofrecer la respuesta correspondiente según le haya sido indicado.\\
 
-Con la intención de que el chatbot pueda mantener conversaciones lo más completas posibles se han añadido al conjunto de entrenamiento \textit{intents}, respuestas y historias pertenecientes a 3 áreas distintas: conocimiento médico, expresiones auxiliares y cháchara. Los datos médicos están orientados ha responder todas las dudas médicas sobre el VIH y han sido extraídos de la hoja de cálculo facilitada por parte de la Unidad de Enfermedades Infecciosas del Hospital General de Elche. Este documento consta de 130 preguntas con sus correspondientes respuestas y contiene todo el conocimiento médico que inicialmente tendrá el chatbot.\\
+\subsubsection{Control de daños}
+Todo asistente conversacional, por muy bien diseñado que esté, se enfrentará tarde o temprano a una situación no contemplada previamente. El control de daños (\textit{damage control}) son las diferentes técnicas que se pueden implementar para tratar de recuperarse en situaciones conflictivas o donde el chatbot falle \cite{shouldInteract}.\\% A continuación se detalla las diferentes estrategias implementadas en \textit{Vihrtual-App}.\\
 
-A parte de todas las cuestiones relacionadas con el VIH el asistente debe ser también capaz de entender y desenvolverse con una serie de expresiones básicas que suelen formar parte un diálogo. Las conversaciones suelen empezar con un \textit{Hola} o \textit{¡Buenos días!} y suelen ser correspondidas con otro saludo, seguidas de un \textit{¿Cómo estás?} o \textit{¿Cómo va?} y sus correspondientes respuestas. Durante el transcurso, también pueden aparecer otras expresiones como afirmaciones o negaciones (\textit{¡Por supuesto!}, \textit{Claro}, \textit{Para nada} etc) o peticiones como \textit{¿Me puedes ayudar?} o \textit{Necesito tu ayuda}. Finalmente, se suele usar un \textit{Adiós} o \textit{Hasta luego} para despedirse y finalizar la conversación.\\
+%\paragraph{Falta de conocimiento}
+Durante el devenir de una conversación es bastante probable que un usuario realice una pregunta que esté fuera del ámbito de conocimiento del chatbot, bien sea por desconocimiento o por poner a prueba el \textit{bot}. Cuando un asistente no responde adecuadamente a este tipo de preguntas puede crear un sentimiento de decepción en el usuario o incluso alentarle a continuar con el comportamiento abusivo \cite{shouldInteract}.\\
 
-
-Todas estas expresiones y mucha otras aparecen tarde o temprano en cualquier conversación, y por tanto, se ha incorporado el mayor numero posible de ellas al conjunto de entrenamiento.\\
-
+Por tanto, todos los casos detectados durante la recogida de información se han recopilado y agrupado en varios \textit{intents} para poder identificar correctamente estas situaciones y ofrecer una respuesta adecuada, intentado siempre reconducir la situación. En la figura \ref{fig:out1} se puede observar como el asistente reconoce la intención del usuario como fuera del ámbito, le responde disculpándose e indicando que no puede ayudarle en esa tarea y le sugiere algunas preguntas a través de unos botones de respuesta rápida.\\
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.15]{../images/basics_chat.png}
-\includegraphics[scale=0.15]{../images/basics_chat_2.png}
-\caption{Ejemplo de una pequeña conversación}
-\label{fig:expresiones auxiliares}
+\includegraphics[scale=0.15]{../images/out_of_scope.png}
+\caption{Ejemplo de manejo de mensajes fuera de ámbito}
+\label{fig:out1}
 \end{figure}
 
 
-Durante el devenir de una conversación es bastante probable que el usuario le realice una pregunta al chatbot que esté fuera de su ámbito de conocimiento, y que por tanto, no sepa responderla. A este suceso se le llama desvíarese de happy path. Dentro de lo posible hay que intentar controlar estos desvíos y preparar al asistente para que pueda responder a los más comunes. Algunos de los ejemplos más repetidos son \textit{¿Cómo te llamas?}, \textit{¿Eres un robot?}, \textit{Que tiempo hace} [ref paper].
-
-[imagen ejemplo  chitchat]
+Por otra arte, los chatbots suelen ser más objeto de insultos y vejaciones de lo que un humano en una conversación real seria \cite{shouldInteract}. En este caso, la estrategia es idéntica, se recogen los datos necesarios para reconocer las situaciones y se responde para evitar que el usuario continue con su comportamiento.\\
 
 
-\subsubsection{Manejo de mensajes fuera de ámbito}
-Por otra parte, alredeor de un 12 por cien de las personas que  [referencia paper] los chatbots suelen ser objeto de insultos.
-[imagen ejemplo out of scope ingles,insulto]
+Por último, y como último recurso, cuando el chabot no es capaz de identificar con suficiente confianza un \textit{intent}, muestra un mensaje disculpándose y preguntando amablemente si el usuario es capaz de reformular la pregunta. De esta manera, se intenta forzar al usuario a expresar su intención en otras palabras para poder tener una nueva oportunidad de reconocimiento. En la figura \ref{fig:recover} se puede observar un caso como el expuesto donde \textit{bot} es capaz de recuperase ante un fallo inicial.\\
 
-\cite{bestPracticesNLU}
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.15]{../images/out_of_scope_2.png}
+\includegraphics[scale=0.15]{../images/recover.png}
+\caption{Ejemplo de recuperación ante insultos y identificación de \textit{intent}}
+\label{fig:recover}
+\end{figure}
 
-\subsubsection{Manejo de errores}
-Por último, hay que asumir que tarde o temprano, por muy bien diseñado que esté un chatbot habrá un momento donde no sepa identificar correctamente una pregunta y falle.
-
-Por otra parte, también debe estar preparado para no te he entendido, no sabes hacerlo etc
-
-[imagen ejemplo recuperación ante fallo, pregunta si puede repetir]
+Tras procesar toda esta información y realizar el entrenamiento, \textit{Rasa} genera un modelo con el cual el asistente es capaz de analizar las preguntas realizadas por los usuarios, asociarlas a uno de los \textit{intents} que ya tenga definidos (en base a una probabilidad) y ofrecer la respuesta correspondiente según le haya sido indicado.\\
 
 \subsection{Servidor}
+Una vez el entrenamiento ha finalizado el siguiente paso es hacer accesible el modelo a través de una \textit{API}. Para ello \textit{Rasa} pone a disposición un servidor ya integrado dentro del propio \textit{framework} con el que se puede publicar el modelo. Simplemente es necesario configurar los puertos por los cuáles se consumirá el servicio y ejecutar los procesos.
 
 \subsection{Aplicación web}
-Desarrollo del frontend
+Teniendo en cuenta el carácter del servicio, se decide que el chatbot se ponga a disposición del público a través de una web de libre acceso y sin requerir registro. El objetivo es facilitar a los usuarios el acceso para que cualquier persona pueda acceder al servicio sin necesidad de introducir ningún dato personal ni instalar ninguna aplicación en su terminal.\\
+
+Debido a su sencillez, la aplicación se ha construido sin hacer uso de ningún \textit{framework} web, simplemente utilizando \textit{HTML}, \textit{CSS} y \textit{Javascript}. La interfaz sigue los diseños expuestos en la sección \ref{mockups}, implementando un diseño \textit{responsive}, hecho con \textit{flexbox} y que se adapta a distintos dispositivos.\\ 
+
+Por otro lado, la mayor parte de lógica de la aplicación ha sido implementada utilizando una versión modificada de la librería \textit{Chatbot-Widget}. Con ella se realiza la comunicación entre el servidor y la web, enviando y recibiendo todos los mensajes.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.10]{../images/app.png}
+\includegraphics[scale=0.10]{../images/app_2.png}
+\includegraphics[scale=0.10]{../images/app_3.png}
+\caption{Diferentes vistas de la \textit{app}}
+\label{fig:vistas}
+\end{figure}
+
 
 \subsection{Despliegue}
-Una vez implementados el servidor y el \textit{frontend} web es necesario publicar una versión de prueba del servicio para poder empezar con la fase de obtención de datos de conversaciones reales. Para ello, la Universitat Politècnica de València pone a disposición del proyecto una maquina virtual con \textit{Ubuntu 18.04} donde poder realizar el despliegue. Mediante acceso \textit{SSH} se instalan todas las librerías necesarias (\textit{apache}, \textit{python}, \textit{rasa}, \textit{spacy} etc) y se ponen en marcha tanto la web como el servidor conversacional.\\
+Una vez implementados el servidor y el \textit{frontend} web es necesario publicar una versión de prueba del servicio para poder empezar con la fase de obtención de datos de conversaciones reales. Para ello, la Universitat Politècnica de València pone a disposición del proyecto una maquina virtual con \textit{Ubuntu 18.04} donde poder realizar el despliegue. Mediante acceso \textit{SSH} se instalan todas las librerías necesarias (\textit{Apache}, \textit{Python}, \textit{Rasa}, \textit{Spacy} etc) y se ponen en marcha tanto la web como el servidor.\\
 
-Una vez el sistema está funcionando se realiza una pequeña prueba para asegurarse que la recogida de datos funciona correctamente. Tras un resultado satisfactorio se solicita a la universidad la apertura de los puertos 80, 5055 y 5005 para que los usuarios externos puedan acceder y probar el chatbot.\\
+Una vez el sistema está funcionando, se realiza una pequeña prueba con \textit{Rasa X} para asegurarse que la recogida de datos funciona correctamente. Tras ello, se solicita a la UPV la apertura de los puertos 80, 5055 y 5005 para permitir el tráfico \textit{HTTP} (ver figura \ref{fig:ports}), y así, permitir que usuarios externos a la universidad puedan acceder al servicio. De esta manera, el servicio se encuentra disponible desde \textit{http://vihrtualapp.gti-ia.upv.es} y se puede empezar con la recogida de datos.\\
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.3]{../images/ports.png} 
+\caption{Diagrama redirección de puertos y servicios} 
+\label{fig:ports}
+\end{figure}
 
 
 \subsection{Desarrollo basado en conversaciones}
 \label{cdd}
-Uno de los mayores poblemas que se suelen presentar durante el desarrollo de un chatbot es que inicialmente, el dataset suele estar creado por les dasaroladores, muy sesgado y alejado de siatuaciones reales. El desarrollo basado en conversaciones (\textit{Conversation-Driven Development}) es el proceso de escuchar a los usuarios y utilizar esa información para mejorar el asistente \cite{conversationDriven}. Programar chatbots robustos puede ser un auténtico reto pues los usuarios siempre dirán algo que inicialmente no estaba contemplado en el conjunto de entrenamiento. En consecuencia, este enfoque es la mejor manera de solucionar esta problemática, pues toda nueva información se incorpora al \textit{dataset} y así el modelo se nutre de situaciones y expresiones reales. Esta estrategia está especialmente recomendada por los desarrolladores de \textit{Rasa} \cite{bestPracticesNLU}.\\
+Uno de los mayores problemas que se suelen presentar durante el desarrollo de un chatbot es que inicialmente, el \textit{dataset} suele estar creado por los desarrolladores, y por tanto, sesgado y alejado de situaciones reales. El desarrollo basado en conversaciones (\textit{Conversation-Driven Development}) es el proceso de escuchar a los usuarios y utilizar esa información para mejorar el asistente \cite{conversationDriven}. Hacer el chatbot robusto puede ser un auténtico reto pues los usuarios siempre introducirán datos que inicialmente no estaban contemplados en el conjunto de entrenamiento. En consecuencia, este enfoque es la mejor manera de solucionar esta problemática, pues toda nueva información se incorpora al \textit{dataset} y así el modelo se nutre de situaciones y expresiones reales. Esta estrategia está especialmente recomendada por los desarrolladores de \textit{Rasa} \cite{bestPracticesNLU}.\\
 
-Tras publicar la primera versión de prueba del chatbot el proyecto se encuentra listo para entrar en esta fase de desarrollo centrada en la recogida de datos. Para ello, durante varias semanas se compartirá el chatbot, se revisarán las conversaciones obtenidas, y se anotarán, clasificarán e incorporarán al \textit{dataset} todos los datos recopilados. Tras realizar todos estos cambios sobre el conjunto de entrenamiento se ejecutarán los \textit{tests} correspondientes, se corregirán posibles errores y se volverá a compartir el chatbot para una nueva iteración.\\
+Tras publicar la primera versión de prueba del chatbot el proyecto se encuentra listo para entrar en esta fase de desarrollo centrada en la recogida de datos. Para ello, durante varias semanas se comparte el chatbot, se revisan las conversaciones obtenidas, y se anotan, clasifican e incorporaran al \textit{dataset} todos los datos recopilados. Tras realizar todos estos cambios sobre el conjunto de entrenamiento se ejecutan los \textit{tests} correspondientes, se corrigen posibles errores y se vuelve a compartir el chatbot para una nueva iteración (ver figura \ref{cdd}).\\
 
 \begin{figure}[htbp]
 \centering
@@ -140,8 +186,6 @@ Tras publicar la primera versión de prueba del chatbot el proyecto se encuentra
 \label{fig:cdd}
 \end{figure}
 
-Se trata de etiquetar, clasidficar, encontrar fallos, flowas ...\\	
-
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.3]{../images/collected_dialogs.png} 
@@ -149,11 +193,11 @@ Se trata de etiquetar, clasidficar, encontrar fallos, flowas ...\\
 \label{fig:collected dialogs}
 \end{figure}
 
-Durante todo este proceso se recogieron y analizaron aproximadamente 23 conversaciones de las cuáles se pudo extraer e incorporar a la base de conocimiento la siguiente información:\\
+Para esta nueva fase del desarrollo se hizo uso del servicio \textit{Rasa X}, el cuál facilitaba la consulta y corrección de todas las conversaciones recogidas. Durante todo este proceso se recogieron y analizaron aproximadamente 60 conversaciones de las cuáles se pudo extraer e incorporar a la base de conocimiento la siguiente información:\\
 
 \begin{itemize}
-	\item 30 preguntas nuevas que inicialmente no estaban previstas.
-	\item 204 datos NLU
+	\item 40 preguntas nuevas (con sus correspondientes respuestas) que inicialmente no estaban previstas.
+	\item 232 variantes o expresiones.
 \end{itemize}
 
 
@@ -164,14 +208,10 @@ Durante todo este proceso se recogieron y analizaron aproximadamente 23 conversa
 \label{fig:collected nlu}
 \end{figure}
 
+\subsection{Tests}
+Tal y como se ha expuesto anteriormente en la sección \ref{cdd}, durante el desarrollo basado en conversaciones una parte importante del ciclo cosiste en realizar frecuentemente \textit{tests} automáticos. Tradicionalmente, en el mundo del \textit{software} se entiende por \textit{test} una prueba que verifica que una función devuelve el valor esperado. En \textit{Rasa}, los \textit{test} miden si los modelos generados hacen las predicciones correctas \cite{rasaTests}.\\
 
 \subsection{Distribución}
-Teniendo en cuenta el carácter del servicio se propone que el chatbot se ponga a disposición del público a través de una web de libre acceso y sin requerir registro. El objetivo es facilitar a los usuarios el acceso para que cualquier persona pueda acceder al servicio sin necesidad de introducir ningún dato personal ni instalar ninguna aplicación en su terminal. \\
-
-Para aquellos usuarios que lo deseen se empaquetará la web en una aplicación tanto para \textit{Android} como para \textit{iOS} utilizando el framework \textit{Capacitor}. Esto permite que aquellos usuarios interesados puedan instalar el servicio desde las tiendas de aplicaciones habituales en sus dispositivos móviles.\\
-
-
-[TODO: Recogida de conversaciones reales y etiquetado]
-
+Adicionalmente, y una vez el chatbot alcance la madurez necesaria, se publicará para aquellos usuarios que lo deseen una aplicación web empaquetada tanto para \textit{Android} como para \textit{iOS} utilizando el framework \textit{Capacitor}. Esto permitirá que aquellos usuarios interesados puedan instalar el servicio desde las tiendas de aplicaciones habituales en sus dispositivos móviles.\\
 
 

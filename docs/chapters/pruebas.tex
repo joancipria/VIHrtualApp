@@ -1,12 +1,27 @@
-Tal y como se ha expuesto anteriormente en la sección \ref{cdd}, durante el desarrollo basado en conversaciones una parte importante del ciclo cosiste en realizar frecuentemente \textit{tests} automáticos. Estos \textit{tests} 
-
-\section{Tests}
-test stories
-\cite{rasaTests}
+En esta sección se muestran las distintas pruebas de validación\\
+ 
 
 \section{Evaluación del modelo NLU}
 split nlu 
 
-\section{Valoración de los usuarios}
-\cite{cuq}
-\cite{spanishSUS}
+\section{Evaluación de usabilidad}
+Finalmente, se ha realizado una prueba de usabilidad a la aplicación para detectar posibles problemas y corregirlos. Los participantes fueron captados a través de una invitación por email enviada por los tutores del TFG. El correo incluía un breve texto indicando a los participantes que probaran durante unos minutos el chatbot y que posteriormente realizaran un cuestionario a través de un link. Todos los participantes que realizaron el cuestionario han sido incluidos en los resultados. En total, 10 adultos de entre 16 y 60 años participaron en la prueba durante un periodo de 7 días.\\
+
+Para este estudio se han utilizado los cuestionarios validados \textit{System Usability Scale} (SUS) \cite{dirtySUS} y \textit{Chatbot Usability Questionnaire} (CUQ) \cite{cuq}. SUS es un cuestionario genérico diseñado para obtener una evaluación general y rápida sobre la usabildiad de una determinada aplicación \cite{dirtySUS}. Se compone de 10 sentencias sobre las cuales los usuarios deben valorar en una escala del 1 al 5 su total disconformidad (1) o total conformidad (5). Se utilizó una versión del SUS traducida al español y validada \cite{spanishSUS}.\\
+
+Por otro lado, CUQ es un cuestionario de usabilidad específico que evalúa la personalidad, la inteligencia, el entendimiento, la navegación y el manejo de errores de un chatbot \cite{cuq}. CUQ está diseñado para ser comparable al SUS (utiliza la misma escala de valoración) pero utilizando 16 sentencias específicas para chatbots. Para su uso, se realizó una traducción lo más fiel posible al español.\\
+
+\subsection{Cálculo de puntuaciones}
+Se utilizó la hoja de cálculo de la puntuación de SUS \cite{susSpread} para calcular las puntuaciones del SUS sobre 100. La fórmula para este cálculo se muestra en la ecuación 1.\\
+
+
+donde n=número de sujetos (cuestionarios), m=10 (número de preguntas), qi,j=puntuación individual por pregunta por participante, norma=2,5.\\
+
+
+
+Las puntuaciones del CUQ se calcularon sobre 160 utilizando la fórmula de la ecuación 2, y luego se normalizaron para dar una puntuación sobre 100, permitiendo así la comparación con SUS. \\
+
+
+donde m = 16 (número de preguntas) y n = puntuación de la pregunta individual por participante \cite{cuq}.\\
+
+\subsection{Resultados}
