@@ -6,8 +6,10 @@
 \graphicspath{ {./images/} }
 \usepackage{fancyhdr}
 \usepackage[spanish,es-tabla]{babel}
+\usepackage[official]{eurosym}
 %\usepackage{csquotes}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}\usepackage[backend=bibtex]{biblatex}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[backend=bibtex,sorting=none]{biblatex}
 \addbibresource{bibliografia.bib}
 
 
@@ -29,16 +31,14 @@
 \maketitle
 
 \chapter*{Resumen}
-[TODO: Resumen de máximo 200 palabras]
-\\
+La inteligencia artificial (IA) está transformando el mundo actual y la manera en la cual nos comunicamos con las máquinas. El lenguaje natural se está revelando como una forma muy óptima y competente de crear interfaces personalizadas que permitan a cada usuario interactuar utilizando sus propias palabras. Ante este nuevo escenario empezamos a ver como se popularizan los chatbots: programas diseñados para interactuar con los usuarios utilizando lenguaje natural. En el ámbito sanitario esto no ha sido una excepción y se siguen estos avances con gran interés en busca de asistentes virtuales que permitan mejorar y automatizar ciertos procesos médicos. En España, por ejemplo, en el año 2019 se notificaron 2.698 nuevos diagnósticos de VIH, de los cuales el 45.9\% presentaron diagnóstico tardío. Bajo este contexto surge VIHrtual-App, un proyecto que busca ayudar a detener la transmisión e informar ofreciendo un chatbot al público donde puedan obtener información veraz y relevante. En este documento se describe todo el proceso de estudio previo, diseño e implentación. Finalmente, se realiza una validación de usabilidad con usuarios reales, obteniendo unos resultados satisfactorios.\\
 \\
 \textbf{Palabras clave:} chatbots, virus de la inmunodeficiencia humana, lenguaje natural, inteligencia artificial, salud.
 
 \chapter*{Abstract}
-[TODO: Resumen de máximo 200 palabras en inglés]
+Artificial intelligence (AI) is transforming today's world and the way we communicate with machines. Natural language is proving to be very optimal to create customized interfaces which allow each user to interact with machines using their own words. In this new scenario, chatbots (programs designed to interact with users using natural language are growing in popularity. In health scope these advances are gathering interest interest to search virtual assistants to improve and automate certain medical processes. On the other hand, in 2019 2.698 new HIV diagnoses were reported in Spain, 45.9\% of them presented late diagnosis. With this context, VIHrtual-App is a project that seeks to help stop transmission and inform by offering a chatbot to the public where they can obtain truthful and relevant information. This document describes the whole process of preliminary study, design and implementation. Finally, a usability validation is carried out with real users, obtaining satisfactory results.\\
 \\
-\\
-\textbf{Keywords:} chatbots, human immunodeficiency virus, natural language, artificial inteligence, health. 
+\textbf{Keywords:} chatbots, human immunodeficiency virus, natural language, artificial intelligence, health. 
 
 \tableofcontents
 
@@ -55,13 +55,11 @@
 \input{chapters/marco_teórico}
 
 \chapter{Desarrollo de la Propuesta}
-
-\section{Análisis de requisitos}
 \input{chapters/desarrollo_propuesta/requisitos}
 
 %\section{Solución propuesta}
-\section{Arquitectura de la aplicación}
-\input{chapters/desarrollo_propuesta/arquitectura}
+%\section{Arquitectura de la aplicación}
+%\input{chapters/desarrollo_propuesta/arquitectura}
 
 \section{Diseño}
 \input{chapters/desarrollo_propuesta/diseño}
@@ -75,7 +73,7 @@
 \chapter{Conclusiones}
 \input{chapters/conclusión}
 
-\printbibliography[heading=bibnumbered,title=Referencias	]
+\printbibliography[heading=bibnumbered,title=Referencias]
 
 %\appendix
 %\chapter{Apéndice}
