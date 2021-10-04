@@ -170,7 +170,7 @@ responses:
     - text: ¿Qué quieres saber?
     - text: ¿Qué necesitas saber?
     - text: ¿Qué te gustaría saber?
-    - text: ¿Tienes alguna pregunta?
+    - text: Adelante, dime
     - text: Dime exactamente lo que quieres saber e intentaré ayudarte 😊
     - text: Estoy aquí para ayudarte, así que pregúntame lo que quieras.
     - text: Estoy aquí para ayudarte, adelante preguntame lo que quieras.
