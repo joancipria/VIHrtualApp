@@ -125,7 +125,7 @@ responses:
         - payload: ¿Debería hacerme la prueba?
           title: ¿Debería hacerme la prueba?
         - payload: ¿Cuántas personas tienen VIH?
-          title: ¿¿Cuántas personas tienen VIH?
+          title: ¿Cuántas personas tienen VIH?
       text: Además, en muchos países se venden test de detección en las farmacias.
   utter_faq/detectar_tras_contacto:
     - text: "Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
@@ -225,7 +225,7 @@ responses:
         - payload: ¿Cuándo se tiene SIDA?
           title: ¿Cuándo se tiene SIDA?
         - payload: ¿Cuál es la diferencia entre VIH y SIDA?
-          title: ¿Cuál es la diferencia entre VIH y SIDA?
+          title: ¿Cuál es la  VIH y SIDA?
       text: Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas.
   utter_sida_vs_vih:
     - text: "El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado ❌🛡️. \n\n En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas 🦠 que suponen un grave riesgo para la persona que padece este síndrome."
