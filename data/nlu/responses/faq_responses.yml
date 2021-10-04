@@ -91,7 +91,7 @@ responses:
   utter_faq/inyectar_droga:
     - text: "El riesgo de contraer el VIH es muy alto si usas las agujas 💉 y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. \n\n Además, también tienes un riesgo elevado de contraer otras enfermedades como hepatitis B o C."
   utter_faq/drogas:
-    - text: "El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Ahora bien, al estar bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo."
+    - text: "Ten en cuenta que el VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Por otra parte, si estas bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo."
   utter_faq/sexo_oral:
     - text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."
   utter_faq/carga_viral_indetectable:
@@ -184,7 +184,7 @@ responses:
   utter_faq/interferencia_prep_terapia_hormonal:
     - text: "No se conocen interacciones entre los medicamentos que se usan para la PrEP y la terapia hormonal. \n\n Sin embargo, se recomienda que una persona que esté sometida a terapia hormonal y a PrEP se revise los niveles hormonales cada cierto tiempo."
   utter_faq/preservativo_prep:
-    - text: No deberías, ya que la PrEP no protege de otras enfermedades de transmisión sexual como la sífilis, la gonorrea, el virus del papiloma o la clamidia.
+    - text: Deberías utilizar ambos, ya que la PrEP no protege de otras enfermedades de transmisión sexual como la sífilis, la gonorrea, el virus del papiloma o la clamidia.
   utter_faq/prep_tras_contacto_vih:
     - text: "La PrEP (profilaxis preexposición) es para las personas que presentan un riesgo muy alto y continuo de contraer la infección por el VIH y se toma de manera previa al contacto. \n\n Sin embargo, existe otra herramienta, la PEP (profilaxis posexposición) para las personas que creen que han estado expuestas recientemente al VIH (como por relaciones sexuales o al compartir agujas con personas que padecen el VIH)."
   utter_faq/existe_vacuna:
