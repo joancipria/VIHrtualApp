@@ -16,6 +16,7 @@ nlu:
     - como se pega el vih
     - ¿Cómo se pega el VIH?
     - ¿Cómo se transmite VIH?
+    - Como se trasmite el vih?
     - como se transmite el vih
     - no se como se se transmite el vih
     - como se transmite el vih?
@@ -62,6 +63,16 @@ nlu:
     - comos e transmite el sida
     - como se tranmite el sida
     - como se transmite el sida
+    - Como puedo contagiar la enfermedad?
+    - como puedo contagiar el vih?
+    - como puedo contagiar erl sida?
+    - como se contagia el vih?
+    - como se contagia el sida?
+    - como se produce el contagio del vih?
+    - como se transmite esta enfermedad?
+    - Que vías de contagio son las más comunes?
+    - Cuáles son las principales causas de contagio?
+    - cuales son las principales vias de contagio?
 - intent: faq/aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -218,6 +229,11 @@ nlu:
     - por compartir un vaso me puedo infectar?
     - Puedo transmitir el VIH a través de la saliva?
     - Se transmite el vih por la saliba?
+    - Puedo contagiarme de vih por la saliva?
+    - Me puedo contagiar besando?
+    - me puedo contagiar por besar?
+    - puedo coger el vih besando a otra persona?
+    - se puede coger el vih por besar?
 - intent: faq/escupir_aranyar
   examples: |
     - ¿Puedo contraer el VIH si una persona infectada me escupe o araña?
@@ -391,6 +407,9 @@ nlu:
     - puedo contagiarme por fumar porros?
     - fumo maria
     - fumo muchos porros
+    - soy drogadicto
+    - me drogo mucho
+    - me suelo drogar mucho
     - puedo infectarme por fumar porros?
     - si fumos porros puedo coger el vih?
     - me puedo infectar por beber alcohol?
@@ -469,6 +488,9 @@ nlu:
     - infección por chupar un coño
     - me puedo infectar por hacer una felacion?
     - me podria infectar por comer coños?
+    - Puedo practicar sexo oral si tengo vih?
+    - Si se la chupo a un positivo en vih puedo contagiame?
+    - Me puedo contagiar manteniendo sexo oral?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -581,6 +603,8 @@ nlu:
     - los niños pueden infectarse de vih?
     - los niños pueden coger vih o sida? 
     - las niñas se pueden infectar de vih?
+    - Puede un niño nacer con VIH?
+    - pueden contagiarse los niños?
 - intent: faq/sexo_pareja__vih
   examples: |
     - es seguro que dos personas con sida tengan relaciones sin protecion

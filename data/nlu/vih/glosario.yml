@@ -21,6 +21,10 @@ nlu:
       - que son las enfermedades de infeccion sexual?
       - q es una ets
       - k son las ets
+      - Que es una venerea?
+      - qué es una enfermedad venérea?
+      - que son las enfermedades venéreas
+      - que son las enfermedades venéreas
   - intent: faq/que_es_hepatitis
     examples: |
       - ¿Qué es la hepatitis?
@@ -102,6 +106,7 @@ nlu:
       - dime que es cd4
       - en que consiste los cd4
       - oye que es cd4
+      - No sé que son los CD4
   - intent: faq/que_es_serodiscordante
     examples: |
       - ¿Qué es ser serodiscordante?

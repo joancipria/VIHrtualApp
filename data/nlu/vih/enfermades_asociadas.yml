@@ -21,6 +21,7 @@ nlu:
       - infecciones oportunistas
       - infecciones oportunas
       - enfermedades oportunistas
+      - que son las infeccios oportunistas
   - intent: faq/que_es_linfoma
     examples: |
       - ¿Qué es un linfoma?

@@ -25,6 +25,12 @@ nlu:
       - es verdad que solo lo cogen los homosexuales?
       - solo se infectan los homosexuales?
       - el vih solo agecta a la gente que es homosexual?
+      - solo se infectan los gays?
+      - el vih es una enfermedad de gays?
+      - solo se infectan de sida los gays?
+      - el vih es una enfermedad de gays?
+      - el sida solo afecta a los maricas?
+      - el vih es una enfermedad de maricones?
   - intent: faq/deporte_competicion
     examples: |
       - ¿Puede una persona seropositiva hacer deporte de alta competición?

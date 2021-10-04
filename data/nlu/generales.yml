@@ -59,6 +59,9 @@ nlu:
     - buenas, me llamo [Irene](PER)
     - hola
     - olii
+    - hola wapa
+    - hola guapa
+    - ola guapo
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -71,6 +74,8 @@ nlu:
     - asta la vista
     - hasta la vista
     - Hasta luego
+    - hasta luegoo
+    - hasta lueguito
     - hasta luego!
     - Adiós
     - adios
@@ -131,6 +136,8 @@ nlu:
     - Acepto
     - Adelante
     - ok
+    - okii
+    - oka
     - okay
     - okay!
     - okey
@@ -188,6 +195,7 @@ nlu:
     - Chachi
     - Perfecto!
     - Me gusta!
+    - muy bien, de verdad
 - intent: reaccionar_negativamente
   examples: |
     - Muy mal
@@ -230,6 +238,7 @@ nlu:
     - nooooooo
     - no lo creo
     - lo dudo mucho
+    - nop
     - Nop
     - Nopp
     - nop, para nada
@@ -270,6 +279,7 @@ nlu:
     - lo lo quiero
     - No necesito nada
     - No quiero nada
+    - Hoy no
 - intent: entender
   examples: |
     - entiendido
@@ -677,6 +687,10 @@ nlu:
     - a tope jefe
     - esto dpm
     - estoy de puta madre
+    - estoy muy bien la verdad
+    - yo me encuentro bien
+    - me encuentro bastante bien
+    - me ecnuentro genial
 - intent: animo_bajo
   examples: |
     - Me siento mal
@@ -803,10 +817,16 @@ nlu:
   examples: |
     - te has equivocado en la anterior pregunta
     - te has equivovado
-    - te has equivocado
+    - has fallado al responder
+    - te has hecho un lio
+    - lo que has respondido esta mal
+    - lo que me has dicho no tiene pies ni cabeza
+    - lo que me has dicho no tiene sentido
     - En esta respuesta anterior se ha liao un poco
     - te has liado un poco al responderme
     - esa respuesta no tiene sentido
+    - lo que me has contestado no tiene sentido 
+    - lo que me has respondido no tienen ningun sentido
     - eso que has dicho esta mal
     - tu respuesta es incorrecta
     - tu respuesta esta mal

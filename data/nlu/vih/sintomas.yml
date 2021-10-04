@@ -46,7 +46,11 @@ nlu:
       - qué sintomas suele producir el vih?
       - Cuáles son los síntomas?
       - Cuales son los sintomas del vih
+      - Cuales son los síntomas del VIH?
+      - Y cuales son los síntomas del SIDA?
       - que sintomas presentan las personas con vih
+      - Y qué síntomas pueden ser visibles?
+      - que sintomas suelen haber?
   - intent: faq/vih_sin_sintomas
     examples: |
       - ¿Puedo tener VIH y no tener síntomas?

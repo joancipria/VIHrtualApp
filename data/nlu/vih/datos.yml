@@ -85,6 +85,7 @@ nlu:
       - ¿cuántas personas están afectadas por el VIH?
       - cuantas personas hay afectadas por el vih
       - cuanta gente hay en el mundo con vih
+      - ¿Cuanto VIH hay en el mundo?
   - intent: faq/cuantas_personas_tienen_vih_españa
     examples: |
       - ¿Cuántas personas tienen VIH en España?
@@ -144,9 +145,14 @@ nlu:
       - existe alguna persona que se haya curado totalmente?
       - en que casos se han curado del vih?
       - quien se ha curado de vih?
+      - Han curado alguna vez el VIH?
+      - se ha curado alguna vez alguien?
+      - han curado alguna vez a alguien el vih?
+      - le han curado alguna vez el vih ba alguien?
   - intent: faq/paciente_berlin
     examples: |
       - ¿Quién es el paciente de Berlín?
+      - Quien es el paciente Berlin?
       - quien es el paciente de berlin?
       - qué es el paciente de berlin?
       - que es el paciente berlín?
@@ -201,4 +207,3 @@ nlu:
       - pais del mundo con más vih
       - zona del mundo con mayor numero de personas con sida
       - pais con mas personas con vih del mundo
-

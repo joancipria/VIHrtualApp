@@ -231,7 +231,7 @@ responses:
           title: Tipos de VIH
         - payload: Paciente de Berlín
           title: Paciente de Berlín
-      text: Prueba alguno de estos temas 👇
+      text: Prueba con alguno de estos temas 👇
     - buttons:
         - payload: ¿Qué es la Infección crónica por el VIH?
           title: Infección crónica por VIH

@@ -103,6 +103,12 @@ nlu:
     - debo usar el preservativo aunque tome la prep?
     - si tomo la prep puedo dejar de usar el condón?
     - si estoy tomando la prep puedo dejar de usar el presrrvativo?
+    - Es mejor la prep o el condon
+    - es mejor tomar la prep o usar condon?
+    - si tomo la prep puedo prescindir del condón?
+    - al tomar la prep uedo follar sin preservativo?
+    - con la prep puedes dejar de usar preservativos?
+    - con la prep puedes follar sin protección?
 - intent: faq/prep_tras_contacto_vih
   examples: |
     - ¿Se puede comenzar la PrEP después de haber estado expuesto al VIH?
@@ -277,6 +283,8 @@ nlu:
     - como evito contagiarme de vih?
     - como prevenir el vih
     - como puedo prevenir la infeccion por vih
+    - como puedo evitar coger vih?
+    - que puedo hacer para no coger el vih
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -311,6 +319,8 @@ nlu:
     - es eguro mantener sexo con alguien que vive con vih?
     - si me infecto de vih puedo follar sin condon?
     - si tengo vih puedo tener sexo sin proteccion?
+    - si me infecto de vih puedo follar sin condon?
+    - si me he infectado puedo follar sin preservativo?
 - intent: faq/duda_contagio
   examples: |
     - ¿Qué debo hacer si pienso que puedo haberme infectado de VIH?
@@ -342,6 +352,9 @@ nlu:
     - creo que podria haberme infectado
     - quizá me haya infectado
     - quiza me lo hayan pegado
+    - Creo que tengo vih, que hago
+    - creo que puedpo haberme infectado, que debo hacer?
+    - Que tengo que hacer si he tenido un contacto sexual de riesgo?
 - intent: faq/contagio_pareja
   examples: |
     - ¿Si mi pareja tiene VIH, debo realizarme la prueba?
@@ -373,6 +386,12 @@ nlu:
     - debo hacerme un test o prueba si mi marido ha dado positivo?
     - si mi mujer tienen vih debo hacerme yo un test?
     - si mi marido se ha infectado tengo que hacerme yo tabien la prueba?
+    - Mi pareja ha pillado el sida
+    - mi novia a pillao el sida
+    - mi novio a cogio el sida
+    - que debo acer si mi novia se ha infectado?
+    - que deberia  hacer si mi novio ha cogido el vih?
+    - Mi churri tiene sida
 - intent: faq/compartir_cuchillas_jeringuillas
   examples: |
     - ¿Es peligrosos compratir cuchillas o jeringuillas?

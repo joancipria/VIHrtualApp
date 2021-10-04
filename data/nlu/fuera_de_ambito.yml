@@ -50,6 +50,9 @@ nlu:
   - intent: fuera_de_ambito/otros
     examples: |
       - ¿Cúanto es 2 + 2?
+      - ¿Cuanto es 2 por 2?
+      - cuanto es 3 por 3
+      - cuanto es cinco por cinco
       - cuanto es 36 + 90
       - dime cuanto es 3 mas threshold
       - cuánto es 34 más 50
@@ -60,12 +63,16 @@ nlu:
       - cuanto es 12 menos 16
       - cual es el valor de 0
       - Quiero pedir una pizza
+      - quisiera pedir una pizza
       - quiero una pizza
       - quiero pedir comida a domicilio
       - Quiero pedir una hamburguesa
       - una burger porfi
       - Quiero un kebab
       - Cuéntame un chiste
+      - Cuentame un chiste
+      - dime un chiste
+      - dime algo gracioso
       - te estoy preguntando algo fuera de tu ámbito
       - te pregunto algo que esta fuera de tu ambito
       - estoy preguntandote algo fuera de tu conocimiento
@@ -114,6 +121,9 @@ nlu:
       - comprar pizza
       - comprar kebab
       - donde puede comprar kebab?
+      - juegas a habbo?
+      - pon una alarma a las 9 am
+      - Si un tren sale de Barcelona direccion Madrid
 
   - intent: fuera_de_ambito/cumplidos
     examples: |
@@ -179,3 +189,5 @@ nlu:
       - fill de puta
       - eres subnormal?
       - eres un subnormal
+      - Tu puta madre
+      - eres un cabrón

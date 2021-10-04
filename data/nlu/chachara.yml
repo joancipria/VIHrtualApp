@@ -288,6 +288,8 @@ nlu:
     - esta lloviendo?
     - ¿Está lloviendo?
     - llueve mucho por ay?
+    - Hola, que tiempo hace en tu ciudad?
+    - que tiempo hace?
 - intent: chachara/preguntar_objetivo
   examples: |
     - explicame cuál es tu objetivo?

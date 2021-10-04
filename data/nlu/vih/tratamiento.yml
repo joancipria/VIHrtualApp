@@ -28,6 +28,13 @@ nlu:
       - se puede tratar la infección?
       - se puede tratar el virus?
       - Existe tratamiento?
+      - Existe tratamiento contra el VIH?
+      - Existe tratamiento contra el sida?
+      - hay tratamiento contra el vih?
+      - existe algun tratamiento contra el vih?
+      - existe algun tratamiento para el sida?
+      - Hay algún tratamiento?
+      - hyay algun tipo de tratamiento?
   - intent: faq/en_que_consiste
     examples: |
       - ¿En qué consiste la terapia contra el virus?
@@ -55,6 +62,7 @@ nlu:
       - Que tratamiento tiene el vih?
       - qué tratamiento tiene el vih?
       - que tratamientos hay contra esta enfermedad?
+      - Qué medicamentos son?
   - intent: faq/cuando_empezar
     examples: |
       - ¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?
@@ -78,6 +86,7 @@ nlu:
       - ¿Cuántos medicamentos hay aprobados para el VIH?
       - ¿Qué medicamentos hay para combatir el VIH?
       - ¿Qué medicación existe?
+      - qué medicamentos hay contra el vih
   - intent: faq/que_es_efectos_secundarios
     examples: |
       - ¿Qué es un efecto secundario?

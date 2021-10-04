@@ -2,6 +2,8 @@ version: "2.0"
 nlu:
   - intent: que_es_vih
     examples: |
+      - ¿Qué es el VIH?
+      - qué es el vih??
       - vih
       - VIH
       - virus de la inmunodeficiencia humana
@@ -98,6 +100,16 @@ nlu:
       - es posible expulsar el virus del cuerpo?
       - es posible exulsar el vih?
       - Tiene cura?
+      - y hay cura para el vih?
+      - Como se consigue acabar con el virus?
+      - se puede acabar con el virus?
+      - se puede llegar a acabar con el vih?
+      - es posible matar el virus?
+      - es posible matar el vih?
+      - expulsar el vih del cuerpo
+      - eliminar el vih del organismo
+      - Pero se elimina el virus del cuerpo?
+      - se puede eliminar completamente el virus?
   - intent: faq/como_actua_vih
     examples: |
       - ¿Cómo actúa el VIH?
@@ -187,6 +199,11 @@ nlu:
       - donde se descubrio
       - que origen tiene el vih?
       - De dónde ha venido el VIH?
+      - Donde comenzó el SIDA
+      - dónde se originó el sida
+      - donde se origina el vih
+      - dónde empezó el vih
+      - donde comenzó el vih
   - intent: faq/cuando
     examples: |
       - ¿Cuándo se originó el VIH?
@@ -560,6 +577,7 @@ nlu:
   - intent: faq/vida_cotidiana_vih
     examples: |
       - ¿Se puede hacer vida normal con VIH?
+      - ¿Pueden las personas seropositivas tener una vida normal?
       - Se puede llevar una vida normal con el vih?
       - Se puede hacer una vida bastante normal si tiene vih?
       - Si tienes vih puedes lleva runa vida normal?
@@ -584,6 +602,21 @@ nlu:
       - puedes hacer una vida normal con sida?
       - se puede llevar una buena vida con el vih?
       - se puede llevar una vida normal cuando tienes vih?
+      - Que calidad de vida tiene una persona con VIH?
+      - calidad de vida de alguien con vih
+      - caliad de vida de una persona con vih
+      - Como vive una persona con VIH?
+      - como biben las personas con vih?
+      - como viven las personas que tienen vih?
+      - se puede vivir bien si tienes vih?
+      - vivir bien teniendo vih
+      - vida normal con vih
+      - Si tengo VIH puedo hacer una vida normal?
+      - puedo hacer vida normal si tengop vih?
+      - podría hacer uina vida completamente normal si me infectara de vih?
+      - Hoy en dia hay tratamiento para llevar una buena calidad de vida con vih?
+      - Que porcentaje de vida tiene una persona con VIH?
+      - Puede hacer vida normal teniendo vih?
   - intent: faq/esparanza_vida_vih
     examples: |
       - ¿Qué esperanza de vida tengo si estoy infectado de VIH?
@@ -619,6 +652,10 @@ nlu:
       - ¿Cuál es la esperanza de vida de una persona con VIH?
       - Cuanto tiempo se sobrevive con vih?
       - Cuanto tiempo se vive con vih
+      - cuantos años puedes vivir con vih?
+      - cuánto tiempo puedes vivir con el virus?
+      - cuantos años puedes vivir si tienes sida?
+      - Afecta el VIH a la esperanza de vida?
   - intent: faq/es_posible_evitar_avance_vih
     examples: |
       - ¿Es inevitable el avance del VIH?
@@ -720,6 +757,10 @@ nlu:
       - se investiga sobre el sida?
       - se sigue investigando sobre el vih?
       - se investiga sobre el vih?
+      - pero se continua investigando una cura?
+      - aun se bsuca una cura para el Vih?
+      - se continua buscando una cura para el vih?
+      - los cientificos siguen buscando la cura para el vih?
   - intent: faq/es_mortal_vih
     examples: |  
       - ¿El VIH es mortal?
@@ -739,3 +780,11 @@ nlu:
       - Es una enfermedad mortal?    
       - el vih es una enfermedad altamente mortal?
       - tener vih significa que vas a morir?
+      - Puedo morirme de vih?
+      - puedo morirme por tener vih?
+      - te puedes morir de vih?
+      - es posible morir de vih?
+      - si tengo el vih puedo morirme?
+      - Puedes morir de vi
+      - el vihb es mortal?
+      - me puedo morir de sida?
