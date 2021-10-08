@@ -1,7 +1,5 @@
-# Vihrtual-App
-Vihrtual-App is an opensource (spanish) HIV Chatbot built with Rasa.
-
-⚠️⚠️ **Currently in early development** 
+# VIHrtualApp
+VIHrtualApp is an opensource (spanish) HIV Chatbot built with Rasa. Check out the web frontend repo [here](https://github.com/joancipria/VihrtualApp-app/).
 
 ## 📦 Install
 Tested with `Python 3.7.10` and `pip 20.1.1`.
@@ -35,7 +33,7 @@ Use `rasa train` to train a model
 
 Run `rasa shell` if you want to speak to the assistant
 
-Run `rasa x` to start Rasa X server
+Run `rasa x --rasa-x-port 8080` to start Rasa X server
 
 Run `rasa run -m models --enable-api --cors "*" --debug` to start the API rest server
 
