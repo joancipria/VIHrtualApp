@@ -213,9 +213,9 @@ nlu:
     - ¿Eres bilingüe?
     - ¿Qué idiomas puedes usar?
     - Qué idioma hablas
-    - Di algo en [inglés](idioma)
-    - Di algo en [francés](idioma)
-    - Dime algo en [portugués](idioma)
+    - Di algo en inglés
+    - Di algo en francés
+    - Dime algo en portugués
     - Di algo en alemán
     - Di algo en polaco
     - sabes polaco?
@@ -258,16 +258,16 @@ nlu:
     - desde cuando estamos aqui?
     - cuanto tiempo hemos estado hablando?
     - venga dime que hora es
-    - Qué hora es en [España](localizacion)
-    - Qué hora es en [Canarias](localizacion)
-    - Qué hora es en [Polonia](localizacion)
-    - Qué hora es en [Alemania](localizacion)
-    - Qué hora es en [Belgica](localizacion)
+    - Qué hora es en España
+    - Qué hora es en Canarias
+    - Qué hora es en Polonia
+    - Qué hora es en Alemania
+    - Qué hora es en Belgica
 - intent: chachara/preguntar_tiempo
   examples: |
     - ¿Qué tiempo hace?
     - que tiempo hace en mi casa?
-    - ¿Qué tiempo hace en [España](localizacion)?
+    - ¿Qué tiempo hace en España?
     - Qué temperatura hace
     - a que temperatura estamos
     - q temp hace
