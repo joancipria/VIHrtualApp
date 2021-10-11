@@ -38,26 +38,34 @@ responses:
     - text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
   utter_faq/tipos_vih:
     - text: "Se diferencian dos tipos de VIH: el VIH-1 y el VIH-2. El VIH-2 es endémico de África y generalmente requiere más tiempo hasta desarrollar SIDA. \n\n En los países occidentales prevalece el VIH-1."
+  utter_faq/diferencia_tipos_vih:
+    - text: "El VIH-1 es el más común y considerado responsable de la epidemia mundial mientras que el VIH-2 se encuentra principalmente localizado en África Oriental y es raro fuera de esta región. \n\n El VIH-2 se diferencia del VIH-1 en que suele producir una enfermedad menos agresiva, que evoluciona más lentamente y con menor deterioro del sistema inmunitario; la transmisión vertical (madre-hijo) parece ser más difícil. Algunos tratamientos no funcionan de igual manera frente e ambos virus."
   utter_faq/donar_sangre:
     - text: "Las personas que padecen VIH no pueden donar sangre, ya que el virus se contagia a través de esta. \n\n En los años 90 hubo casos de infecciones a partir de transfusiones de sangre pero hoy día a toda la sangre donada se le realizan varias pruebas para la detección de enfermedades."
   utter_quien_riesgo:
-    - text: Quienes mayor riesgo tiene de contagio son aquellas personas que posean un elevado número de parejas sexuales diferentes al año o que consuman drogas inyectables.
+    - text: "Quienes mayor riesgo tiene de contagio son aquellas personas que mantienen relaciones sexuales sin protección y los consumidores de drogas inyectables."
+  utter_faq/vida_normal_vih:
+    - text: "La infección por VIH actualmente puede controlarse con tratamiento y las personas pueden hacer una vida completamente normal y plena en todos los sentidos."
   utter_faq/vida_cotidiana_vih:
-    - text: "Las personas que tienen VIH pueden tener relaciones, sexo y llevar vidas normales si toman algunas precauciones. \n\n Aunque el VIH no tiene cura, hay medicamentos para ayudar a las personas con VIH a llevar vidas más largas y sanas."
-  utter_faq/esparanza_vida_vih:
-    - text: "Depende de muchos factores, como el momento de la enfermedad en que se diagnostica, el estado inmunológico o la efectividad y la tolerancia a los tratamientos. \n\n Por suerte, hoy en día la esperanza de vida de una persona con VIH es muy larga y cada vez lo es más. 😊"
+    - text: "Sobre todo tendrá que seguir un tratamiento y realizar visitas periódicas a su médico especialista para controlar su estado de salud."
+  utter_faq/esperanza_vida_vih:
+    - text: "Actualmente, una persona infectada por el VIH controlada con tratamiento antirretroviral tiene una esperanza de vida similar a la de una persona no infectada por el virus 😊."
   utter_faq/es_posible_evitar_avance_vih:
-    - text: "Es posible evitar el desarrollo del virus con la terapia antirretroviral (TAR), reduciendo así la carga viral en el cuerpo."
+    - text: "Los tratamientos actuales son muy efectivos y es posible detener el avance del virus durante décadas."
   utter_faq/fases_vih:
     - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por tres fases: infección aguda, infección crónica y SIDA"
   utter_faq/peligros_vih:
-    - text: "Si no se trata, el VIH es peligoroso porque ataca y debilita el sistema inmunitario del cuerpo. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otra infecciones y ciertos tipos de cáncer."
+    - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otra infecciones y ciertos tipos de cáncer."
   utter_faq/enfermas_mas_facilmente:
-    - text: "Si no se trata, el VIH ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones y ciertos tipos de cáncer relacionados con el VIH."
+    - text: "Si no se trata, el VIH ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones oportunistas y ciertos tipos de cáncer relacionados con el VIH."
   utter_faq/se_continua_investigando:
-    - text: "A día de hoy se continúa investigando el VIH en busca de una cura y de tratamientos que mejores los actuales."
+    - text: "Todavía quedan muchas cosas por saber sobre el VIH, incluido un tratamiento para curarlo o una vacuna para evitarlo. \n\n De ahí que se continúe haciendo muchísimas investigación contra este virus."
   utter_faq/es_mortal_vih:
     - text: "Tratado a tiempo el VIH no es mortal, pero sí crónico. \n\n Las personas con VIH pueden llevar una vida larga y saludable."
+  utter_faq/portador:
+    - text: "Sí, muchas personas tienen el virus y pueden pasar años sin desarrollar sintomas o estos son tan leves que pasan desapercibidos."
+  utter_faq/servicio_publico:
+    - text: "La atención sanitaria pública de las personas con VIH es muy completa, tanto a nivel de diagnóstico como tratamiento. \n\n Además, en muchos centros existen unidades especializadas que incluyen incluso asistencia psicológica si se necesita."  
   # Transmisión
   utter_como_contagia:
     - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.
@@ -74,8 +82,6 @@ responses:
     - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
     - text: "La transmisión vertical, conocida también como transmisión perinatal es contagio de una infección u otra enfermedad de la madre a su hijo 👶🏼. \n\n Se puede producir antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé."
-  utter_faq/evitar_veritcal:
-    - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/fluidos:
     - text: El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
   utter_faq/escupir_aranyar:
@@ -101,13 +107,15 @@ responses:
   utter_faq/riesgo_lesbianas:
     - text: "Los informes de casos de transmisión del VIH de mujer a mujer son muy infrecuentes. \n\n Sin embargo, no es imposible. Las secreciones vaginales y la sangre menstrual pueden contener el virus y la exposición a estos líquidos a través de las membranas mucosas (de la vagina o la boca) podría potencialmente causar la infección por el VIH."
   utter_faq/puede_transmitir_hijos:
-    - text: "Tu bebé puede infectarse de VIH durante el embarazo, el parto o la lactancia. \n\n Por eso, lo mejor es hacerse una prueba del VIH en las primeras semanas de embarazo."
+    - text: "Tu bebé puede infectarse de VIH durante el embarazo, el parto o la lactancia. \n\n Si padeces el virus debes tomar una serie de medidas para evitar contagiar al feto."
   utter_faq/objetos_contaminados_vih:
     - text: "Existe riesgo de contagio si compartes objetos que puedan entrar en contacto con la sangre, como maquinillas de afeitar o jeringuillas."
   utter_faq/pueden_contagiarse_niños:
-    - text: "Un niño puede contraer el VIH antes del nacimiento, durante el parto o después del mismo. \n\n El VIH contraído en el útero es conocido como transmisión perinatal o transmisión vertical."
+    - text: "El principal riesgo de contraer el VIH para los niños es a través de transmisión vertical (de madre a hijo) 🤰. \n\n Otras prácticas de riesgo como el consumo de drogas inyectables o las relaciones sexuales de riesgo no deberían producirse en niños. Si suceden puede deberse a situaciones de abuso."
   utter_faq/sexo_pareja__vih:
     - text: "Lo mejor para una persona que vive con el VIH es evitar infectarse con una cepa distinta del virus. \n\n Por ello, si se toman los medicamentos para el VIH y se logra mantener una carga viral indetectable, no hay ningún riesgo."
+  utter_que_riesgo_tengo:
+    - text: "Tus probabilidades de infectarte por el VIH depende de las prácticas de riesgo que tengas y su frecuencia. \n\n  Cuantas menos prácticas de riesgo y con menor frecuencia menos probable es que te infectes por el VIH."
   # Síntomas
   utter_que_sintomas:
     - text: "Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección 🤒 (etapa 1 de la infección por el VIH). \n\n Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba."
@@ -134,11 +142,11 @@ responses:
   utter_faq/negativo_pareja:
     - text: "No necesariamente. El VIH no se contagia en todas las relaciones y el riesgo varía según el tipo de prácticas sexuales. \n\n El resultado negativo te incluye únicamente ti y si tu pareja ha tenido prácticas de riesgo o una exposición al virus debería hacerse también la prueba."
   utter_faq/como_es_prueba:
-    - text: "Existen tres tipos de prueba disponibles: pruebas de ácido nucleico, de antígenos y de anticuerpos. \n\n Las pruebas de ácido nucleico (NAT) buscan el virus mismo en la sangre 🩸 y por tanto requieren extraer sangre de una vena. \n\n Las pruebas de antígenos y anticuerpos buscan tanto los antígenos del VIH como los anticuerpos contra el virus 🦠."
+    - text: "La prueba más habitual para la detección del VIH se basa en la detección de los anticuerpos que nuestro organismo genera cuando está infectado 🔬🦠."
   utter_faq/solicitar_prueba:
-    - text: "Puedes solicitar cita con tu médico habitual y pedir una prueba del VIH. \n\n En los centros de salud españoles la prueba del VIH se realiza de manera gratuita y confidencial."
+    - text: "En España la prueba del VIH se puede realizar en los centros sanitarios de la red pública de forma gratuita y confidencial: tanto en los Centros de atención primaria (médico de familia), como en los Centros de atención especializada (hospitales y centros de especialidades) y en los Centros de planificación familiar."
   utter_faq/detectar_con_analitica:
-    - text: "En un análisis normal no se incluye la prueba del VIH. \n\n Para saber si una persona tiene VIH se debe realizar una prueba específica."
+    - text: "En una muestra de sangre es posible determinar la infección por VIH a través de una serología (que determina los anticuerpos frente al virus) o directamente detectando el genoma del virus (carga viral)."
   utter_faq/precio_prueba_vih:
     - text: "La prueba del VIH se puede realizar en los centros sanitarios de la red pública de forma totalmente gratuita. \n\n Consulta con tu médico para más información."
   # Tratamiento
@@ -161,11 +169,13 @@ responses:
   utter_faq/tratamiento_adicional:
     - text: "Además de los fármacos, las personas que padecen VIH pueden requerir orientación y apoyo psicosocial. \n\n Tener una nutrición sana, un nivel básico de higiene y el ejercicio físico también pueden ayudarles a mantener su calidad de vida."
   utter_faq/cuanto_dura_tratamiento:
-    - text: "Dado que el tratamiento antirretroviral no acaba con el virus, si no que consigue que sus niveles sean muy bajos su toma actualmente es indefinida y diaria."
+    - text: "Hoy por hoy es indefinido. Se están investigando estrategias para alcanzar lo que se denomina cura funcional, lo que permitiría que en el futuro pueda no se necesario mantener el tratamiento de por vida."
   utter_faq/no_tomar_medicamentos:
-    - text: "Si no se toman los medicamentos la infección avanzará pasando por la infección aguda, la infección crónica y finalmente se desarrollará el SIDA."
+    - text: "Si se abandona el tratamiento, la infección por VIH seguiría la evolución conocida que acaba con el fallecimiento del paciente."
   utter_faq/donde_atendido_vih:
-    - text: "Puedes acudir a tu centro sanitario habitual y solicitar una cita con tu médico de cabecera. \n\n  Tras valorar tu caso, te informará e indicará los próximso pasos a seguir."
+    - text: "La atención de las personas con VIH en España se presta principalmente en los centros sanitarios de la red pública. \n\n Si crees que puedes haberte infectado, contacta con tu médico de atención primaria y él se encargará de hacerte la prueba y derivarte al especialista en enfermedades infecciosas en caso de ser necesario."
+  utter_faq/mismo_tratamiento:
+    - text: "Actualmente existen múltiples tratamientos contra el VIH y se elige el que más conviene a cada persona." 
   # Prevención
   utter_faq/que_es_prep:
     - text: "La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de infección si se toman medicamentos diariamente 💊. \n\n Por tanto, la PrEP se administra a personas con un riesgo muy alto de contraer el VIH."
@@ -204,17 +214,21 @@ responses:
   utter_como_prevenir:
     - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones de manera correcta cada vez que tenga relaciones sexuales. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). \n\n Si tienes el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas."
   utter_faq/sexo_con_vih:
-    - text: Si se toman los medicamentos para el VIH y se logra mantener una carga viral indetectable no hay ningún riesgo de transmitir el virus a la pareja través de relaciones sexuales.
+    - text: "Se pueden mantener relaciones sexuales pero siempre recurriendo a medidas de protección para evitar contagiar a otras personas o contraer otras infecciones de transmisión sexual. \n\n La principal medida para evitar la trasnmisión del virus es estar recibiendo un tratamiento antirretroviral que haya logrado mantener una carga viral indetectable."
   utter_faq/duda_contagio:
-    - text: "Si crees haber tenido una práctica de riesgo no debes esperar: acude a tu médico o centro sanitario, donde tras valorar tu caso, te explicarán en que consiste la prueba y si debes realizártela."
+    - text: "Si crees haber tenido una práctica de riesgo no debes esperar: acude a tu centro sanitario, donde tras valorar tu caso, te realizarán una prueba diagnóstica."
   utter_faq/contagio_pareja:
-    - text: "Si tu pareja ha contraído el VIH deberías realizarte la prueba."
+    - text: "Si tu pareja ha contraído el VIH deberías realizarte la prueba periódicamente."
   utter_faq/compartir_cuchillas_jeringuillas:
-    - text: "Cualquier tipo de corte que se realice con un objeto sin esterilizar, como es una maquinilla o un cuchillo, puede transmitir el VIH. \n\n Compartir maquinillas no es aconsejable a menos que se esterilicen completamente después de cada uso."
+    - text: "Compartir maquinillas o agujas es una práctica de alto riesgo y son conductas que deben evitarse."
   utter_faq/sexo_seguro:
-    - text: "Puedes utilizar preservativos, son altamente eficaces para prevenir la infección por el VIH y otras enfermedades de transmisión sexual (ETS), como la gonorrea y la clamidia."
+    - text: "Puedes utilizar preservativos, son altamente eficaces para prevenir la infección por el VIH, otras enfermedades de transmisión sexual (ETS) y evitar embarazos no deseados."
   utter_faq/peligro_sexo_sin_proteccion:
-  - text: "Sí, gran parte de las personas que contraen el VIH lo hacen a través de las relaciones sexuales anales o vaginales."
+  - text: "Las relaciones sexuales sin protección pueden ser peligrosas debido al contagio de enfermedades infecciosas que se transmiten por esa vía. \n\n Por tanto, se recomienda que las relaciones sexuales se practiquen con protección."
+  utter_faq/evitar_veritcal:
+    - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
+  utter_faq/concebir:
+    - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada ya que debe tomar algunas medidas específicas. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
   # Sida
   utter_que_es_sida:
     - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades"
@@ -230,11 +244,13 @@ responses:
   utter_sida_vs_vih:
     - text: "El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado ❌🛡️. \n\n En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas 🦠 que suponen un grave riesgo para la persona que padece este síndrome."
   utter_faq/cuando_se_tiene:
-    - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre o en padecer ciertas infecciones oportunistas.
+    - text: El diagnóstico de SIDA se basa en tener un recuento de linfocitos CD4 por debajo de 200 por milímetro cúbico de sangre 🩸 o en padecer ciertas infecciones oportunistas.
   utter_faq/causar_demencia:
     - text: Cuando el paciente está en fase SIDA puede padecer un trastorno neurológico progresivo, cuyos síntomas incluyen pérdida de la memoria, lentitud de los movimientos y cambios de comportamiento.
   utter_faq/sida_tiempo_desarrollo:
-    - text: "El tiempo puede variar ampliamente en función de la persona. \n\n Entre el contagio del VIH y el desarrollo de los primeros síntomas de sida puede haber entre 10 y 15 años, a veces más, y a veces menos."
+    - text: "Actualmente el sida propiamente dicho se desarrolla exclusivamente en los pacientes no tratados o que han abandonado el tratamiento, y a una velocidad diferente en cada persona. \n\n En la mayoría ocurre a los 5-10 años del contagio aunque hay algunos pacientes en los que puede desarrollarse más rápidamente y otros más lentamente. En unos pocos pacientes puede no desarrollarse nunca ('no preogresores')."
+  utter_faq/esperanza_vida_sida:
+    - text: "Si una persona alcanza el estado de SIDA es seguramente debido a que no ha seguido el tratamiento y su esperanza de vida es corta. \n\n En estos casos hay que empezar rápidamente el tratamiento para frenar al virus y permitir que se recupere el sistema inmune. Una vez conseguidos estos objetivos, las expectativas de supervivencia son buenas. 😊"
   # Datos
   utter_faq/cuantas_personas_contraido_vih_historia:
     - text: Desde su descubrimiento, más de 78 millones de personas han contraído el VIH.
@@ -254,8 +270,9 @@ responses:
     - text: "Existen dos casos muy concretos de personas que se han curado del VIH: el Paciente Berlín y el Paciente Londres."
   utter_faq/paises_mas_afectados_vih:
     - text: "La región del África subsahariana tiene la mayor carga de VIH/SIDA en todo el mundo y representa el 61% de todas las infecciones nuevas por el VIH."
+      image: "worldmap.svg"
   utter_faq/cuantas_personas_tienen_vih_españa:
-    - text: "Según la última estimación publicada por el Plan Nacional de Sida, en España viven un total de 151.387 personas con VIH."
+    - text: "Se estima que alrededor de 160.000 personas, de las cuales unas 20.000 están infectadas sin saberlo."
   # ONUSIDA
   utter_faq/que_es_onusida:
     - text: "ONUSIDA es el Programa Conjunto de las Naciones Unidas sobre el VIH/SIDA destinado a coordinar las actividades de los distintos organismos especializados de la ONU en su lucha contra el sida. \n\n También se le conoce por sus siglas en inglés UNAIDS."
@@ -311,7 +328,7 @@ responses:
   utter_faq/que_es_hepatitis:
     - text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
   utter_faq/que_es_viremia:
-    - text: El término hace referencia a la presencia de un virus en la sangre.
+    - text: El término hace referencia a la presencia de un virus en la sangre 🩸🦠.
   utter_faq/que_es_nadir:
     - text: "Este término médico hace referencia al punto más bajo de alguna variable. \n\n Por ejemplo, el nadir del recuento de linfocitos CD4 de una persona es el valor mínimo de dicho recuento."
   utter_faq/que_es_linfopenia:
@@ -333,7 +350,7 @@ responses:
   utter_faq/que_es_cd4:
     - text: "Los linfocitos CD4, también conocidos como linfocitos T4, son glóbulos blancos que combaten infecciones y desempeñan un papel importante en el sistema inmunitario. \n\n El nivel de CD4 se usa para vigilar la salud del sistema inmunitario en personas infectadas con el VIH"
   utter_faq/que_es_carga_viral:
-    - text: "Es la cantidad de virus que hay en sangre. \n\n Para ello se cuenta el número de copias del virus que hay por milímetro cúbico de sangre."
+    - text: "Es la cantidad de virus que hay en sangre 🩸🦠. \n\n Para ello se cuenta el número de copias del virus que hay por milímetro cúbico de sangre 🔬."
   utter_faq/que_es_carga_viral_indetectable:
     - text: "Consiste en que la cantidad de virus en la sangre es tan baja que no se puede detectar con las técnicas de análisis que existen 🔬. \n\n Esto se consigue gracias al tratamiento antirretroviral."
   utter_faq/que_es_estado_sereologico:
@@ -346,9 +363,9 @@ responses:
   utter_faq/deporte_competicion:
     - text: "Dado que todavía existe mucho estigma en relación al VIH, las personas que practican deporte a nivel profesional no suelen decirlo. \n\n Sin embargo, el deportista de triatlones de alto rendimiento, como el Titan Dessert, Jordi Sandor sí hizo pública su condición de persona seropositiva."
   utter_faq/convivir_persona_vih:
-    - text: "Dado que el virus no se transmite por compartir el baño, los utensilios de comida, dormir en la misma cama etc. se puede llevar una convivencia totalmente normal con alguien que tenga VIH. \n\n  El único riesgo de infección a tener en cuenta es la transmisión por vía sexual."
+    - text: "Vivir y relacionarse con una persona con VIH es completamente seguro si no se tienen prácticas de riesgo (como compartir jeringuillas o tener relaciones sexuales sin protección)."
   # Info adicional
   utter_faq/documento_adicional_mujeres:
-    - text: Puedes consultar [esta guía orientada al VIH en la mujeres.](http://www.inmujer.gob.es/areasTematicas/AreaSalud/Publicaciones/docs/GuiasSalud/Salud_VII.pdf)
-    - channel: rest
-      text: Puedes consultar <a target='_blank' href='http://www.inmujer.gob.es/areasTematicas/AreaSalud/Publicaciones/docs/GuiasSalud/Salud_VII.pdf'>esta guía orientada al VIH en la mujeres.</a>
+    - text: Puedes consultar <a target='_blank' href='http://www.inmujer.gob.es/areasTematicas/AreaSalud/Publicaciones/docs/GuiasSalud/Salud_VII.pdf'>esta guía orientada al VIH en la mujeres.</a>
+  utter_faq/asociaciones:
+    - text: "Existen muchos colectivos de personas que ayudan a las personas con VIH. Una de las más relevantes en España es <a target='_blank' href='https://cesida.org/'>CESIDA (Coordinadora estatal de VIH y sida)</a>. \n\n A través de su web puedes contactar con ellos ☝️."
