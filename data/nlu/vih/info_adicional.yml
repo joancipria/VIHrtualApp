@@ -24,3 +24,17 @@ nlu:
       - dónde puedo saber mas sobre la relacion que hay entre coronavirus y vih?
       - donde puedo obtener mas info sobre el coronavirus y el vih?
       - en que pagina web puedo encontras mas infroamcion sobre el covid19 y el vih?
+  - intent: faq/asociaciones
+    examples: |
+      - ¿Existen asociaciones de afectados del VIH?
+      - existe alguna asociación para ayudar a la gente con vih?
+      - existen asociaciones para ayudar a llevar vih? 
+      - hay grupos o organizaciones de ayuda para la gente con vih?
+      - Hay asociaciones de afectados del VIH?
+      - existen asociaciones de afectados por el IVH?
+      - ¿Existen asociaciones que ayuden a las personas con VIH?
+      - Existen asociaciones para personas con vih?
+      - Existe alguna asociación de afectados de VIH?
+      - Como me puedo poner en contacto con la asociación?
+      - qué asociaciones hay par aayudar a la gente infectada por vih?
+      - saabes si existe alguna organización de ayuda para el vih?

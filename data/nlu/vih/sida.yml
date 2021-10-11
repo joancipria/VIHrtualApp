@@ -41,6 +41,7 @@ nlu:
     - no se que quiere decir sida
     - QUE ES EL SIDA
     - que es sida
+    - entonces que es el sida?
 - intent: sida_vs_vih
   examples: |
     - ¿Cuál es la diferencia entre VIH y SIDA?
@@ -179,3 +180,44 @@ nlu:
     - si no te medicas, en cuento tiempo entras en la fase de sida?
     - sin tratamiento en cuantos años llegas a la fase de sida?
     - cuanto tiempo se tarda en tener sida?
+    - Cuanto tiempo pasa desde que tengo VIH hasta tener SIDA?
+- intent: faq/esperanza_vida_sida
+  examples: |
+    - ¿Qué esperanza de vida tengo si estoy infectado de SIDA?
+    - que esperanza de vida tienes si te infectas de sida
+    - qué esperanza de vida tienen las personas con sida
+    - cual es la esperanza de vida para las personas con sida
+    - cuál es la esperanza de vida si tienes sida?
+    - cual es la vida media de alguien con SIDA?
+    - cuanto viven de media los infectados por sida
+    - cuanto tiempo vive alguien con sida
+    - durante cuanto tiempo viven las personas con sida?
+    - durante cuanto tiempo suelen vivir las personas con sida?
+    - cuanto tiempo suelen vivir las personas que tienen sida?
+    - cuanto tiempo de media vive alguien con sida?
+    - alguien con sida cuanto tiempo vive?
+    - A que edad mueren las personas con sida?
+    - cuantos años viven los enfermos de sida?
+    - cuantos años vive alguien con sida?
+    - si tienes sida que esperanza de vida tienes?
+    - si tienes sida cuanto tiempo de vida te queda?
+    - si coges el sida que esperanza de vida tienes?
+    - qué esperanza de vida hay para la gente con SIDA?
+    - cuál es la esperanza de vida para la gente con sida?
+    - Que esperanza de vida tengo si estoy infectado de SIDA?
+    - Cual es la esperanza de vida?
+    - ¿cuál es la esperanza de vida de una persona con sida?
+    - Quantos años puede vivir un enfermo de VHI?
+    - Que eaperanza de vida me queda si tengo el sida?
+    - Que eaperanza de vida me queda si tengo el sida?
+    - Que esperanza de vida tiene el que contrae el sida?
+    - Cual es la esperanza de vida de una persona con sida
+    - ¿Cuál es la esperanza de vida?
+    - ¿Cuál es la esperanza de vida de una persona con sida?
+    - Cuanto tiempo se sobrevive con sida?
+    - Cuanto tiempo se vive con sida
+    - cuantos años puedes vivir con sida?
+    - cuánto tiempo puedes vivir con el virus?
+    - cuantos años puedes vivir si tienes SIDA?
+    - Afecta el sida a la esperanza de vida?
+    - cuanto tiempo se puede vivir con sida?

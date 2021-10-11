@@ -110,6 +110,8 @@ nlu:
       - eliminar el vih del organismo
       - Pero se elimina el virus del cuerpo?
       - se puede eliminar completamente el virus?
+      - es posible curar el vih?
+      - se puede elimnar el virus completamente del cuerpo?
   - intent: faq/como_actua_vih
     examples: |
       - ¿Cómo actúa el VIH?
@@ -204,6 +206,13 @@ nlu:
       - donde se origina el vih
       - dónde empezó el vih
       - donde comenzó el vih
+      - Crees que el SIDA empezó porque alguien se comió un chimpance?
+      - el sida se originó porque alguien se comio un monos?
+      - el vih paso a los hombres por comer carne de chimpancé?
+      - el vih paso a los hombres por comer carne de simio?
+      - el sida empezo porque se comieron un chimpancé?
+      - el vih pasó al hombre porque alguien se comió un animal?
+      - el vih se transmitió a los hombres por la comida?
   - intent: faq/cuando
     examples: |
       - ¿Cuándo se originó el VIH?
@@ -502,6 +511,27 @@ nlu:
       - cuantas variantes el vih existen?
       - cuantas cepas diferentes hay?
       - cuantas tipos de cepas existen?
+  - intent: faq/diferencia_tipos_vih
+    examples: |
+      - ¿Qué diferencia hay entre el VIH-1 y VIH-2?
+      - que diferencia hay entre vih 1 y vih2
+      - diferencia entre VIH-1 y vih-2
+      - diferencia entre los 2 tipos de vih
+      - diferencias entre vih1 y vih2
+      - diferencia entre los dos tipos de vih
+      - diferencia entre vih tipo 1 y tipo 2
+      - en que se diferencian ambos tipos de vih?
+      - en qué se diferencia el vih1 del vih2
+      - que diferencia hay entre el vih tipo 1 y el vih tipo 2?
+      - diferencias enetre los dos tipos de vih?
+      - y que diferencia hay entre los dos tipos de vih?
+      - en que se diferencian ambos tipos de vih?
+      - cuales son asl diferencias entre los dos tipos de vih?
+      - cuál es el diferencia principal entre el vih-1 y vih-2
+      - cuáles son las diferencias entre  vih 1 y vih 2
+      - dime que diferencia existe entre los dos tipos de vih
+      - dime la diferencia que hay entre el vih1 y el vih2
+      - diferencias entre los dos tipos de vih
   - intent: faq/donar_sangre
     examples: |
       - ¿Una persona seropositiva puede donar sangre?
@@ -563,7 +593,7 @@ nlu:
       - Que probabilidad és mas alta en el índice de contagios? en hombres o mujeres?
       - quienes suelen contagiarse de vih?
       - Las mujeres contraen más VIH ?
-      - ¿qué personas tienen mayor riesgo de contraer VIH?
+      - ¿que personas tienen un alto riesgo de pillar VIH?
       - que personas tienen un mayor riesgo de coger el vih?
       - quien tienen mas riesgo de infectarse?
       - qué tipo de personas tienen más riesgo de infeccion?
@@ -574,25 +604,19 @@ nlu:
       - quién es más fácil que se infecte?
       - quienes se infecta mas facilmente?
       - que personas son mas propensas a infectarse?
-  - intent: faq/vida_cotidiana_vih
+  - intent: faq/vida_normal_vih
     examples: |
       - ¿Se puede hacer vida normal con VIH?
       - ¿Pueden las personas seropositivas tener una vida normal?
       - Se puede llevar una vida normal con el vih?
       - Se puede hacer una vida bastante normal si tiene vih?
       - Si tienes vih puedes lleva runa vida normal?
-      - ¿En qué influye en la vida cotidiana tener VIH?
-      - En que influye en la vida cotidiana estar infectada?
-      - Como afecta en el dia a dia tener vih?
       - se puede llevar una vida mas o menos normal con el vih?
       - se puede llevar runa vida más o menos bien con el vih?
       - como afecta a la calidad de vida del enfermo?
-      - en qué afecta a la vida cotidiana de un enfermo de VIH?
-      - como afecta el VIH en el dia a dia de un infectado de VIH?
-      - en que me puede afectar en la vida cotidiana?
-      - en que afecta en vida cotidiana el VIH?
-      - en qué afecta a la vida cotidiana tener VIH?
-      - ¿En qué influye en la vida cotidiana tener VIH?
+      - como es la calidad de vida cuando se tienen vih?
+      - que calidad de vida tienen los enfermos por vih?
+      - se puede tener una buena calidad de vida teniendo vih?
       - puedes hacer vida normal contagiado de VIH?
       - puedo llevar una vida normal con vih?
       - se puede llevar una vida normal teniendo vih?
@@ -617,7 +641,33 @@ nlu:
       - Hoy en dia hay tratamiento para llevar una buena calidad de vida con vih?
       - Que porcentaje de vida tiene una persona con VIH?
       - Puede hacer vida normal teniendo vih?
-  - intent: faq/esparanza_vida_vih
+      - se puede tener una vida plena con vih?
+      - se puede vivir bien con vih?
+      - crees que se puede vivir bastante bien teniendeo vih?
+      - puedo tener una vida plena si tengo vih?
+      - es posible tener una vida plena teniendo vih?
+      - puedo vivir una vida feliz y plena con el vih
+      - Puedo ser feliz con vih
+      - se puede ser feliz si tienes el vih?
+      - puedes ser feliz teniendo el vih?
+      - puedes tener felicidad con el vih?
+  - intent: faq/vida_cotidiana_vih
+    examples: |
+      - ¿En qué influye en la vida cotidiana tener VIH?
+      - en qué afecta a la vida cotidiana de un enfermo de VIH?
+      - como afecta el VIH en el dia a dia de un infectado de VIH?
+      - en que me puede afectar en la vida cotidiana?
+      - en que afecta en vida cotidiana el VIH?
+      - en qué afecta a la vida cotidiana tener VIH?
+      - En que influye en la vida cotidiana estar infectada?
+      - Como afecta en el dia a dia tener vih?
+      - en que afecta en el dia a dia tener vih
+      - como repercute en el dia a dia el vih?
+      - como afectará en mi dia dia tener vih?
+      - en que afecta en el dia a dia tener vih?
+      - cómo afecta en el dia a dia estar infectado por vih?
+      - como afecta a la vida cotidiana tener vih?
+  - intent: faq/esperanza_vida_vih
     examples: |
       - ¿Qué esperanza de vida tengo si estoy infectado de VIH?
       - que esperanza de vida tienes si te infectas de vih
@@ -654,11 +704,15 @@ nlu:
       - Cuanto tiempo se vive con vih
       - cuantos años puedes vivir con vih?
       - cuánto tiempo puedes vivir con el virus?
-      - cuantos años puedes vivir si tienes sida?
+      - cuantos años puedes vivir si tienes vih?
       - Afecta el VIH a la esperanza de vida?
+      - cuanto tiempo se puede vivir con vih?
+      - cuanto tiempo se vive si tienes vih?
   - intent: faq/es_posible_evitar_avance_vih
     examples: |
       - ¿Es inevitable el avance del VIH?
+      - es posible evitar el avance del vih?
+      - es posible hacer que el virus no avance?
       - hay alguna manera de evitar el avance del vih?
       - existe algun modo de evitar que el vih vaya a más?
       - es posible evitar el desarrollo del vih?
@@ -684,8 +738,7 @@ nlu:
       - seria posible ralentizar el avance del virus?
       - es posible para el virus?
       - se puede detener la enfermedad?
-      - se puede pausar el vih? 
-      - intent: faq/es_posible_evitar_avance_vih
+      - se puede pausar el vih?
   - intent: faq/fases_vih
     examples: |
       - ¿Qué fases tiene el VIH?
@@ -761,6 +814,8 @@ nlu:
       - aun se bsuca una cura para el Vih?
       - se continua buscando una cura para el vih?
       - los cientificos siguen buscando la cura para el vih?
+      - Todavia se estudia el VIH en los laboratorios?
+      - Aun se realizan estudios en los laboratorios?
   - intent: faq/es_mortal_vih
     examples: |  
       - ¿El VIH es mortal?
@@ -788,3 +843,23 @@ nlu:
       - Puedes morir de vi
       - el vihb es mortal?
       - me puedo morir de sida?
+  - intent: faq/portador
+    examples: |  
+      - ¿Se puede ser portador y no padecer la enfermedad del VIH?
+      - es posible ser portador del vih y padecerlo?
+      - existe gente que sea portadora del vih pero no le afecte?
+      - es posible ser portador de la enfermedad y no padecerla?
+      - puedo ser portador sin padecer la enfermedad?
+      - seria posible que alguien porte la enfermedad pero no la sufra?
+      - seria posible que una persona sea portadora de vih sin sufrirla?
+      - puedo tener sida y no sufrir la enfermedad?
+  - intent: faq/servicio_publico
+    examples: |  
+      - ¿Qué atención proporciona la seguridad social sobre el VIH?
+      - Que atencion proporciona la seguridad social sobre el VIH?
+      - que servicios presta el gobierno para luchar contra el vih?
+      - que servicios presta la sanidad para luchar contra el vih?
+      - que servicios presta sanidad para la lucha contra el vih?
+      - que servicios publico existen para atender el vih?
+      - que servicios ofrece el gobierno para el vih?
+      - qué servicio ofrece la sanidad publica para tratar el vih?

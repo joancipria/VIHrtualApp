@@ -141,55 +141,6 @@ nlu:
     - no se muy bien que significa la transmisin vertical
     - Explícame que es la transmisosn vertical
     - No sé lo que es la transmisión vertical
-- intent: faq/evitar_veritcal
-  examples: |
-    - ¿Puede evitarse la transmisión vertical?
-    - se puede evitar la transmisosn vertical?
-    - se puede evitar la transmision perinatal?
-    - hay alguna maenra de evitar la transmisión vertical?
-    - hay alguna maenra de evitar la transmision perinatal?
-    - es posible evitar la transmision vertical?
-    - es posible evitar la transmision perinatal?
-    - es posible evitar la trasnmison a mis hijos?
-    - es posible evitar la transmisión a mis hijos?
-    - ¿Puedo evitar que mi bebé se infecte?
-    - podria evitar evitar que mi bebe se infecte?
-    - ¿Puedo evitar pasarlo a mis hijos?
-    - puedo evitar contagiar a mis hijos
-    - puedo evitar infectar a mis hijos
-    - ¿Puedo evitar pegar el virus a mis hijos
-    - ¿Puedo evitar contagiar a mis hijas?
-    - ¿Es posible evitar el contagio a mi niño?
-    - puedo evitar contagiar a mi niño?
-    - puedo evitar infectar a mis niños?
-    - como puedo evitar pegarselo a mis hijos
-    - como puedo evitar pegarselo a mis niñas
-    - quiero evitar pegarselo a mis niñas
-    - hay manera de evitar pegarselo a mis niñas?
-    - no quiero pegarles a mis hijos el vih
-    - no quiero pegarles a mis hijos el virus
-    - no quiero pegarles a mis hijas el virus
-    - puedo evitar infectar a mis hijas?
-    - tengo miedo de infectar a mis hijos
-    - tengo miedo de pegarles el virus a mis hijas
-    - como evito la transmision de madre a hijo?
-    - como puedo evitar la transision de la madre a mi hijo
-    - evitar trabsmisión de madre a hijos
-    - evitar transmision de padres a hijos
-    - evitar pasarlo de made a hijo
-    - como evitar pasarselo mis hijos
-    - no quiero que pase de madre a hijo
-    - no quiero que pase a mis hijos
-    - evitar la transmision a los hijos
-    - evitar la transmision a los niños
-    - ¿Cómo se evita que la madre contagie al bebé?
-    - como se evita que la madre pueda contagiar a su bebe?
-    - evitar que la madre contagie a su bebé
-    - evitar contagiar al bebe
-    - evitar el contagio de los bebes
-    - como puedo no contagiar a mi bebe?
-    - puedo evitar contagiar a mi bebe?
-    - como evito pasarselo a mi hijo?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -581,6 +532,8 @@ nlu:
     - un hijo se puede haber contagiado durante el embarazo?
     - es posible que un bebe se infecte durante el parto?
     - hay riesgo de contagio durante el parto?
+    - Si estoy embarazada y tengo vih puedo contagiar al bebe?
+    - Si estoy embarazada Puedo contagiar al feto de vih
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?
@@ -596,6 +549,7 @@ nlu:
 - intent: faq/pueden_contagiarse_niños
   examples: |
     - ¿Los niños pueden contraer el VIH?
+    - los niños pueden infectarse por el VIH?
     - las niñas pueden tener vih?
     - un niño puede tener vih?
     - los peques pueden tener vih?
@@ -621,3 +575,24 @@ nlu:
     - si dos personas tienen el vih pueden tener sexo entre ellas sin proteccion?
     - si dos personas tienen vih pueden tener sexo entre ellas sin usar preservativos?
     - dos personas que tengan vih pueden follar entre ellas?
+- intent: que_riesgo_tengo
+  examples: |
+    - ¿Qué probabilidad tengo de infectarme de VIH?
+    - que probabilidad tengo de infectarme?
+    - que riesgo tengo de coger el vih?
+    - que probabilidades hay de que me infecte de vih?
+    - como de probable es que me infecte de vih?
+    - Cuantas probabilidades hay de que infecte? 
+    - Que porcentaje de posibilidades tengo de contraer el VIH?
+    - Qué posibilidades tengo de infectarme
+    - Que posibilidad hay de que me infecte
+    - que probabiiad tengo de contraeir vih?
+    - Puedo contagiarme de sida?
+    - puedo contagiarme de vih?
+    - yo me puedo contagiar de vih?
+    - yo podría infectarme de vih?
+    - yo puedo coger vih?
+    - que probabilidad tengo de infectarme de vih?
+    - qué probabilida<ddes hyayd e que me infecte por vih?
+    - que probabilidad existe de que me infecte de vih?
+    - que probabiliadd existe de que coja el vih?

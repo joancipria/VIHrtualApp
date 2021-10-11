@@ -97,7 +97,13 @@ nlu:
   - intent: faq/que_es_cd4
     examples: |
       - ¿Qué son los CD4?
+      - que son los linfocitos cd4
       - que son los cd4
+      - que son los linfocitos T CD4
+      - que son los linfocitos t4
+      - que son los t4
+      - celulas T CD4
+      - células cd4
       - qué es el cd4
       - que es la cd4
       - qué significa cd4

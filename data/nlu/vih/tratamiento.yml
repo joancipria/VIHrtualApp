@@ -192,3 +192,17 @@ nlu:
       - donde puedo ir si tiengo vih?
       - donde podria ser atendido por vih?
       - donde me pueden atender y asesorar sobre el vih?
+      - Dónde me pueden atender por el vih?
+      - los centros de salud atienden contra el vih?
+      - Que centros medicos atienden el VIH?
+      - ¿En que centros puedo ser atendido de VIH?
+  - intent: faq/mismo_tratamiento
+    examples: |
+      - ¿Todos los pacientes de VIH reciben el mismo tratamiento?
+      - todos los enfermos por vih toman el mismo tratamiento?
+      - todas las personas con vih reciben el mismo tratamiento?
+      - todos los infectados de vih reciben el mismo tratamiento?
+      - todos los infectados de vih reciben la misma terapia?
+      - el tratamiento para el vih es igual para todo el mundo?
+      - es igual apra todo el mundo el tratamiento de vih?
+      - todas las personas reciben el mismo tratamiento?      

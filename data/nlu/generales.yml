@@ -164,6 +164,9 @@ nlu:
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien
+    - mu bien
+    - muu bien
+    - muu bieeen
     - Me parece genial
     - me parece super bien
     - super chachi
@@ -594,6 +597,9 @@ nlu:
 - intent: preguntar_estado
   examples: |
     - ¿Cómo estás?
+    - Hola Irene, cómo estás?
+    - hola salva, como estas
+    - hola como estas?
     - como estas
     - q tal estas
     - ¿Qué tal estás?

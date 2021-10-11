@@ -149,9 +149,6 @@ nlu:
       - las pruebas de deteccion del vih como funcionan?
       - los tests para detectar el virus como funcionan?
       - me podrias decir en q coniste la prueba del vih?
-      - Con que tratamiento puedo saber si tengo VIH?
-      - con que prueba puedo saber si tengo vih?
-      - como podria sabr si tengo vih?
   - intent: faq/solicitar_prueba
     examples: |
       - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
@@ -189,6 +186,13 @@ nlu:
       - quiero hacerme la prueba del vih
       - quiero hacerme un test de vih
       - Quiero saber cómo se puede hacer una prueba
+      - donde hacen la prueba?
+      - donde se hace la prueba del vih?
+      - Como se hace la prueba de vih
+      - Como se hace la prueba
+      - cómo puedo solicitar una prueba de vih?
+      - como puedo pedir que me hagan el test del vih?
+      - donde puedo solicitar que me hagan la prueba de vih?
   - intent: faq/detectar_con_analitica
     examples: |
       - ¿Es posible detectar el VIH a través de una analítica?
@@ -227,3 +231,6 @@ nlu:
       - es caro hacerse la prueba del vih?
       - cuesta dinero hacerse la prueba del vih?
       - cuesta mucho dinero el test del vih?
+      - tiene coste la prueba de deteccion?
+      - que coste tiene el test de vih?
+      - qué coste tiene la prueba de vih?
