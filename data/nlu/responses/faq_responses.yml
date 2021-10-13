@@ -230,11 +230,11 @@ responses:
   utter_faq/concebir:
     - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada ya que debe tomar algunas medidas específicas. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
   utter_instrucciones_preservativo_femenino:
-    - text: "Observa como se utiliza un preservativo femenino 👇."
-      image: "female_condom.gif"
+    - text: "Aquí abajo te explico como utilizar correctamente un preservativo femenino 👇."
+      image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/female_condom.gif"
   utter_instrucciones_preservativo_masculino:
-    - text: "Observa como se utiliza un preservativo masculino 👇."
-      image: "male_condom.gif"
+    - text: "Aquí abajo te explico como utilizar correctamente un preservativo 👇."
+      image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/male_condom.gif"
   # Sida
   utter_que_es_sida:
     - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades"
@@ -276,7 +276,7 @@ responses:
     - text: "Existen dos casos muy concretos de personas que se han curado del VIH: el Paciente Berlín y el Paciente Londres."
   utter_faq/paises_mas_afectados_vih:
     - text: "La región del África subsahariana tiene la mayor carga de VIH/SIDA en todo el mundo y representa el 61% de todas las infecciones nuevas por el VIH."
-      image: "worldmap.svg"
+      image: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/img/worldmap.svg"
   utter_faq/cuantas_personas_tienen_vih_españa:
     - text: "Se estima que alrededor de 160.000 personas, de las cuales unas 20.000 están infectadas sin saberlo."
   # ONUSIDA
@@ -372,6 +372,6 @@ responses:
     - text: "Vivir y relacionarse con una persona con VIH es completamente seguro si no se tienen prácticas de riesgo (como compartir jeringuillas o tener relaciones sexuales sin protección)."
   # Info adicional
   utter_faq/documento_adicional_mujeres:
-    - text: Puedes consultar <a target='_blank' href='http://www.inmujer.gob.es/areasTematicas/AreaSalud/Publicaciones/docs/GuiasSalud/Salud_VII.pdf'>esta guía orientada al VIH en la mujeres.</a>
+    - text: Puedes consultar <a target='_blank' href='https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf'>esta guía orientada al VIH en la mujeres.</a>
   utter_faq/asociaciones:
     - text: "Existen muchos colectivos de personas que ayudan a las personas con VIH. Una de las más relevantes en España es <a target='_blank' href='https://cesida.org/'>CESIDA (Coordinadora estatal de VIH y sida)</a>. \n\n A través de su web puedes contactar con ellos ☝️."
