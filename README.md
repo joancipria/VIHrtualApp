@@ -1,7 +1,7 @@
-# VIHrtual-App
+# VIHrtual-App (Servidor)
 VIHrtual-App es un chatbot de código libre para la divulgación médica del VIH. Este repositorio contiene el código fuente del servidor. Puedes acceder al repositorio del cliente web desde [aquí](https://github.com/joancipria/VihrtualApp-app/).
 
-<img style="width: 50%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VihrtualApp-app/master/screenshot.png">
+<img style="width: 60%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VihrtualApp-app/master/screenshot.png">
 
 ## 📦 Instalación
 Testeado con `Python 3.7.10` y `pip 20.1.1`.
