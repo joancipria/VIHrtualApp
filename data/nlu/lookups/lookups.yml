@@ -1,0 +1,30 @@
+version: "2.0"
+nlu:
+- synonym: male_condom
+  examples: |
+    - condón masculino
+    - condon masculino
+    - preserativo masculino
+    - condon para hombres
+    - condón para hombres
+    - preservativo para hombres
+    - preservativo para hombre
+    - preservativo masculino
+    - condones masculinos
+    - preservativo para pene
+- synonym: female_condom
+  examples: |
+    - condon femenino
+    - condón femenino
+    - preservativo femenino
+    - condon vaginal
+    - preservativo vaginal
+    - preservativo para vagina
+    - condon para mujeres
+    - condon para mujer
+    - preservativo para mujer
+    - preservativo para mujeres
+    - condón para mujeres
+    - preservativos femenino
+    - preservativos para mujeres
+    - condón para chicas
