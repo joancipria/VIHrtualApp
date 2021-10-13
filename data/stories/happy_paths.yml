@@ -22,5 +22,7 @@ stories:
   - action: utter_faq
   - intent: quien_riesgo
   - action: utter_quien_riesgo
+  - intent: que_riesgo_tengo
+  - action: utter_que_riesgo_tengo
 
 
