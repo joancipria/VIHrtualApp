@@ -1,0 +1,7 @@
+version: "2.0"
+
+rules:
+  - rule: Responder a chachara
+    steps:
+      - intent: chachara
+      - action: utter_chachara

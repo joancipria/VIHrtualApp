@@ -1,0 +1,12 @@
+version: "2.0"
+
+rules:
+  - rule: Responder a vih_faqs
+    steps:
+      - intent: faq
+      - action: utter_faq
+
+  - rule: Mostrar como se usa condón
+    steps:
+      - intent: como_usa_preservativo
+      - action: action_como_usar_preservativo
