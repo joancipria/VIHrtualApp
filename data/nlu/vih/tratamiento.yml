@@ -184,7 +184,7 @@ nlu:
       - que ocurre si dejas la medicación
       - que pasa si pasas de la medicacion
       - que sucede si dejas de tomarte los medicamentos
-  - intent: faq/donde_atendido_vih
+  - intent: donde_atendido_vih
     examples: |
       - ¿Dónde puedo ser atendido por el VIH?
       - donde puedo ser atendido de vih?

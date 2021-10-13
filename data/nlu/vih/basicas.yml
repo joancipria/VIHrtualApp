@@ -853,7 +853,7 @@ nlu:
       - seria posible que alguien porte la enfermedad pero no la sufra?
       - seria posible que una persona sea portadora de vih sin sufrirla?
       - puedo tener sida y no sufrir la enfermedad?
-  - intent: faq/servicio_publico
+  - intent: servicio_publico
     examples: |  
       - ¿Qué atención proporciona la seguridad social sobre el VIH?
       - Que atencion proporciona la seguridad social sobre el VIH?
