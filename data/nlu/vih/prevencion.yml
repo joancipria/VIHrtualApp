@@ -42,6 +42,8 @@ nlu:
     - ¿La PrEP es una vacuna?
     - ¿Es la PrEP una vacuna?
     - ¿La PrEP funciona como una vacuna?
+    - la prep es como una vacuna?
+    - la prep es lomismo que una vacuna?
 - intent: faq/efectos_secundarios_prep
   examples: |
     - ¿Tiene efectos secundarios la PrEP?
@@ -133,6 +135,8 @@ nlu:
     - Vacunación del VIH
     - Vacuna del VIH
     - Existe vacuna?
+    - existe vacuna para el vih?
+    - hay vacuna para sida?
 - intent: faq/protegen_pildoras_anticonceptivas
   examples: |
     - ¿Protegen las píldoras anticonceptivas contra el VIH?
@@ -237,6 +241,36 @@ nlu:
     - Se ha perforado el preservativo
     - se nos ha roto el condon
     - q hago si se me rompe el condon mientras follo
+- intent: como_usa_preservativo
+  examples: |
+    - como se usa un [condón para mujeres](condom_type)?
+    - como se usan los condones?
+    - como se utiliza un [preservativo masculino](condom_type)?
+    - como me pongo un [condon masculino](condom_type)?
+    - cómo se pone un preservativo?
+    - no sé como utilizar el preservativo
+    - me puedes explicar como se pone un preservativo?
+    - me podrías explciar como ponerme un preservativo?
+    - explicame como me debo poner el condón
+    - como debo poinerme el condon
+    - como se deben poner los [condones masculinos](condom_type)
+    - cual es la manera correcta de ponerse un preservativo?
+    - manera correcta de utilizar los [preservativos femenino](condom_type)
+    - cómo se deben poner los [preservativos para mujeres](condom_type)?
+    - cómo se utiliza un [condon para hombres](condom_type)? 
+    - como se utiliza el preservativo?
+    - como se usa un [condón femenino](condom_type)?
+    - cómo se usa el [condón para chicas](condom_type)
+    - como se pone la gomita?
+    - como debo ponerme la gomita?
+    - instrucciones para usar condon
+    - instrucciones para ponerme preserrvativo
+    - puedes eneñarme a ponerme un [condón femenino](condom_type)?
+    - podrías enseñarme a ponerme un condon
+    - cómo se usa un condón femenino
+    - no se como se usa un [preservativo para chicas](condom_type)
+    - cómo utilizar [condón vaginal](condom_type)
+    - como se pone un [preservativo vaginal](condom_type)
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
@@ -321,6 +355,7 @@ nlu:
     - si tengo vih puedo tener sexo sin proteccion?
     - si me infecto de vih puedo follar sin condon?
     - si me he infectado puedo follar sin preservativo?
+    - Puedo mantener relaciones sexuales si tengo vih?
 - intent: faq/duda_contagio
   examples: |
     - ¿Qué debo hacer si pienso que puedo haberme infectado de VIH?
@@ -355,6 +390,13 @@ nlu:
     - Creo que tengo vih, que hago
     - creo que puedpo haberme infectado, que debo hacer?
     - Que tengo que hacer si he tenido un contacto sexual de riesgo?
+    - Donde puedo acudir si creo que estoy infectado de VIH?
+    - donde debo acudir si creo que puedo haberme infectado
+    - dónde puedo acudir si creo que tengo vih? 
+    - a que sitio puedo ir si creo que me he infectado?
+    - dónde debo ir si he cogido el vih?
+    - que puedo hacer si creo que tengo vih?
+    - Que tramite he de seguir si tengo el VIH?
 - intent: faq/contagio_pareja
   examples: |
     - ¿Si mi pareja tiene VIH, debo realizarme la prueba?
@@ -394,6 +436,7 @@ nlu:
     - Mi churri tiene sida
 - intent: faq/compartir_cuchillas_jeringuillas
   examples: |
+    - es peligroso compartir cuchillas o jeringuillas?
     - ¿Es peligrosos compratir cuchillas o jeringuillas?
     - como de riesgoso es compartir jeringuillas
     - es conveniente que comparta mi maquinilla de afeitar?
@@ -476,3 +519,74 @@ nlu:
     - es seguro mantener relacioens sexuales sin condon?
     - es seguro follar sin preservativos?
     - es seguro mantener relaciones sexuales sin protección?
+- intent: faq/evitar_veritcal
+  examples: |
+    - ¿Puede evitarse la transmisión vertical?
+    - se puede evitar la transmisosn vertical?
+    - se puede evitar la transmision perinatal?
+    - hay alguna maenra de evitar la transmisión vertical?
+    - hay alguna maenra de evitar la transmision perinatal?
+    - es posible evitar la transmision vertical?
+    - es posible evitar la transmision perinatal?
+    - es posible evitar la trasnmison a mis hijos?
+    - es posible evitar la transmisión a mis hijos?
+    - ¿Puedo evitar que mi bebé se infecte?
+    - podria evitar evitar que mi bebe se infecte?
+    - ¿Puedo evitar pasarlo a mis hijos?
+    - puedo evitar contagiar a mis hijos
+    - puedo evitar infectar a mis hijos
+    - ¿Puedo evitar pegar el virus a mis hijos
+    - ¿Puedo evitar contagiar a mis hijas?
+    - ¿Es posible evitar el contagio a mi niño?
+    - puedo evitar contagiar a mi niño?
+    - puedo evitar infectar a mis niños?
+    - como puedo evitar pegarselo a mis hijos
+    - como puedo evitar pegarselo a mis niñas
+    - quiero evitar pegarselo a mis niñas
+    - hay manera de evitar pegarselo a mis niñas?
+    - no quiero pegarles a mis hijos el vih
+    - no quiero pegarles a mis hijos el virus
+    - no quiero pegarles a mis hijas el virus
+    - puedo evitar infectar a mis hijas?
+    - tengo miedo de infectar a mis hijos
+    - tengo miedo de pegarles el virus a mis hijas
+    - como evito la transmision de madre a hijo?
+    - como puedo evitar la transision de la madre a mi hijo
+    - evitar trabsmisión de madre a hijos
+    - evitar transmision de padres a hijos
+    - evitar pasarlo de made a hijo
+    - como evitar pasarselo mis hijos
+    - no quiero que pase de madre a hijo
+    - no quiero que pase a mis hijos
+    - evitar la transmision a los hijos
+    - evitar la transmision a los niños
+    - ¿Cómo se evita que la madre contagie al bebé?
+    - como se evita que la madre pueda contagiar a su bebe?
+    - evitar que la madre contagie a su bebé
+    - evitar contagiar al bebe
+    - evitar el contagio de los bebes
+    - como puedo no contagiar a mi bebe?
+    - puedo evitar contagiar a mi bebe?
+    - como evito pasarselo a mi hijo?
+- intent: faq/concebir
+  examples: |
+    - ¿Si tengo VIH tendré problemas para concebir?
+    - si cojo el vih tendre luego problemas para parir?
+    - si tengo vih podre tener hijos?
+    - podré tener hijos tras haberme infectado de vih?
+    - ¿Tener VIH te impide quedarte embrazada?
+    - el vih impide qeudarte embarazada?
+    - vih impide que puedas parir?
+    - el vih hace que no puedas tener hijos?
+    - el vih hace que no puedas tener más niños?
+    - ¿Si en algun momento he contraido el VIH, tendre problemas para concebir?
+    - entonces si tienes vih puedes tener hijos?
+    - puedo tener hijos si tengo vih
+    - me puedo quedar embarazada si tengo VIH?
+    - puedo concebir si tengo vih?
+    - ay algun problema para tener hijos si tienes vih?
+    - el vih provoca problemas en el parto?
+    - hay algun problema para tener hijos si tienes vih?
+    - qué problemas puede tener una mujer si tiene vih y quiere tener hijos?
+    - pueden surgir problemas al tener hijos si tienes vih?
+    - pueden surgir problemas a la hora de tener hijos si tienes vih?
