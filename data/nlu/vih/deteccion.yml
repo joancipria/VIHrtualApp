@@ -149,7 +149,7 @@ nlu:
       - las pruebas de deteccion del vih como funcionan?
       - los tests para detectar el virus como funcionan?
       - me podrias decir en q coniste la prueba del vih?
-  - intent: faq/solicitar_prueba
+  - intent: solicitar_prueba
     examples: |
       - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
       - donde puedo pedir que me hagan la prueba del vih?
