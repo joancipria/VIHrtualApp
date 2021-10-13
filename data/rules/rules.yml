@@ -39,3 +39,8 @@ rules:
     steps:
       - intent: ofenderse
       - action: utter_pedir_perdon_ofensa
+  
+  - rule: Mostrar como se usa condón
+    steps:
+      - intent: como_usa_preservativo
+      - action: action_como_usar_preservativo
