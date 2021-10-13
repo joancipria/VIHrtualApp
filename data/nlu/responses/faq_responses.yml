@@ -64,7 +64,7 @@ responses:
     - text: "Tratado a tiempo el VIH no es mortal, pero sí crónico. \n\n Las personas con VIH pueden llevar una vida larga y saludable."
   utter_faq/portador:
     - text: "Sí, muchas personas tienen el virus y pueden pasar años sin desarrollar sintomas o estos son tan leves que pasan desapercibidos."
-  utter_faq/servicio_publico:
+  utter_servicio_publico:
     - text: "La atención sanitaria pública de las personas con VIH es muy completa, tanto a nivel de diagnóstico como tratamiento. \n\n Además, en muchos centros existen unidades especializadas que incluyen incluso asistencia psicológica si se necesita."  
   # Transmisión
   utter_como_contagia:
@@ -143,7 +143,7 @@ responses:
     - text: "No necesariamente. El VIH no se contagia en todas las relaciones y el riesgo varía según el tipo de prácticas sexuales. \n\n El resultado negativo te incluye únicamente ti y si tu pareja ha tenido prácticas de riesgo o una exposición al virus debería hacerse también la prueba."
   utter_faq/como_es_prueba:
     - text: "La prueba más habitual para la detección del VIH se basa en la detección de los anticuerpos que nuestro organismo genera cuando está infectado 🔬🦠."
-  utter_faq/solicitar_prueba:
+  utter_solicitar_prueba:
     - text: "En España la prueba del VIH se puede realizar en los centros sanitarios de la red pública de forma gratuita y confidencial: tanto en los Centros de atención primaria (médico de familia), como en los Centros de atención especializada (hospitales y centros de especialidades) y en los Centros de planificación familiar."
   utter_faq/detectar_con_analitica:
     - text: "En una muestra de sangre es posible determinar la infección por VIH a través de una serología (que determina los anticuerpos frente al virus) o directamente detectando el genoma del virus (carga viral)."
@@ -172,8 +172,8 @@ responses:
     - text: "Hoy por hoy es indefinido. Se están investigando estrategias para alcanzar lo que se denomina cura funcional, lo que permitiría que en el futuro pueda no se necesario mantener el tratamiento de por vida."
   utter_faq/no_tomar_medicamentos:
     - text: "Si se abandona el tratamiento, la infección por VIH seguiría la evolución conocida que acaba con el fallecimiento del paciente."
-  utter_faq/donde_atendido_vih:
-    - text: "La atención de las personas con VIH en España se presta principalmente en los centros sanitarios de la red pública. \n\n Si crees que puedes haberte infectado, contacta con tu médico de atención primaria y él se encargará de hacerte la prueba y derivarte al especialista en enfermedades infecciosas en caso de ser necesario."
+  utter_donde_atendido_vih:
+    - text: "La atención de las personas con VIH en España se presta principalmente en los centros sanitarios de la red pública."
   utter_faq/mismo_tratamiento:
     - text: "Actualmente existen múltiples tratamientos contra el VIH y se elige el que más conviene a cada persona." 
   # Prevención
@@ -229,6 +229,12 @@ responses:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/concebir:
     - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada ya que debe tomar algunas medidas específicas. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
+  utter_instrucciones_preservativo_femenino:
+    - text: "Observa como se utiliza un preservativo femenino 👇."
+      image: "female_condom.gif"
+  utter_instrucciones_preservativo_masculino:
+    - text: "Observa como se utiliza un preservativo masculino 👇."
+      image: "male_condom.gif"
   # Sida
   utter_que_es_sida:
     - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades"
