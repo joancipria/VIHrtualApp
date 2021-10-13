@@ -1,22 +1,24 @@
-# VIHrtualApp
-VIHrtualApp is an opensource (spanish) HIV Chatbot built with Rasa. Check out the web frontend repo [here](https://github.com/joancipria/VihrtualApp-app/).
+# VIHrtual-App
+VIHrtual-App es un chatbot de código libre para la divulgación médica del VIH. Este repositorio contiene el código fuente del servidor. Puedes acceder al repositorio del cliente web desde [aquí](https://github.com/joancipria/VihrtualApp-app/).
 
-## 📦 Install
-Tested with `Python 3.7.10` and `pip 20.1.1`.
-Rasa version: `Rasa: 2.5.1` and `Rasa X: 0.39.2`
+<img style="width: 50%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VihrtualApp-app/master/screenshot.png">
 
-Clone repo
+## 📦 Instalación
+Testeado con `Python 3.7.10` y `pip 20.1.1`.
+Versión de Rasa: `Rasa: 2.5.1` y `Rasa X: 0.39.2`
+
+Clona el repositorio
 ```
 git clone https://github.com/joancipria/VihrtualApp.git
 cd VihrtualApp
 ```
-Create virtual environment
+Crea un entorno virtual de Python 3.7
 ```
 python3.7 -m venv ./venv
 source ./venv/bin/activate
 ```
 
-Install requirements
+Descarga e instala los requisitos
 ```
 pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 pip3 install rasa[spacy]
@@ -24,40 +26,36 @@ pip install pyspellchecker
 python3 -m spacy download es_core_news_md
 ```
 
+## 🤖 Ejecución
 
-This will install the bot and all of its requirements.
+Ejecuta `rasa train` para entrenar un modelo.
 
-## 🤖 Run
+Ejecuta `rasa shell` si deseas hablar con el asistente a través de la terminal
 
-Use `rasa train` to train a model 
+Ejecuta `rasa x --rasa-x-port 8080` para arrancar el servidor (con Rasa X)
 
-Run `rasa shell` if you want to speak to the assistant
+Ejecuta `rasa run -m models --enable-api --cors "*" --debug` para arrancar el servidor (sin Rasa X)
 
-Run `rasa x --rasa-x-port 8080` to start Rasa X server
+Ejecuta `rasa run actions --cors "*"` para arrancar el servidor de acciones
 
-Run `rasa run -m models --enable-api --cors "*" --debug` to start the API rest server
+## 🤔 Resumen
 
-Run `rasa run actions --cors "*"` to start actions server
+`data/` - Contiene los datos de entrenamiento de NLU agrupados por temática. Cada carpeta puede contener los siguientes archivos:
 
-## 🤔 Overview
+`*_intents.yml` - Contiene `intents`.
 
-`data/nlu/vih/*.yml` - Contains NLU training data for HIV
+`*_stories.yml` - Contiene historias
 
-`data/*.yml` - Contains NLU training data for chitchat, out of scope and other basic stuff.
+`*_rules.yml` - Contiene reglas
 
-`data/stories/*.yml` - Contains stories
+`actions/actions.py` - Contiene el código de las acciones personalizadas
 
-`data/rules.yml` - Contains rules
+`domain.yml` - El archivo de dominio. Entre otros, contiene el registro de `intents`, `slots` y `entities`
 
-`actions` - Contains custom action code
+`config.yml` - Configuración del entrenamiento para `NLU pipeline` y `Policy` 
 
-`domain.yml` - The domain file, including basic bot responses
+## 👨‍💻 Contribuciones
+Siéntete libre de enviar una `pull request` a este repositorio con tus contribuciones.
 
-`config.yml` - Training configurations for the NLU pipeline and policy 
-
-## 👨‍💻 Contributing
-
-Feel free to send a pull request to this repository with your code contributions
-
-## 📜 License
-Licensed under the GNU General Public License v3.
+## 📜 Licencia
+Licenciado bajo GNU General Public License v3.
