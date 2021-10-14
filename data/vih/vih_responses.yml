@@ -65,7 +65,7 @@ responses:
   utter_faq/portador:
     - text: "Sí, muchas personas tienen el virus y pueden pasar años sin desarrollar sintomas o estos son tan leves que pasan desapercibidos."
   utter_servicio_publico:
-    - text: "La atención sanitaria pública de las personas con VIH es muy completa, tanto a nivel de diagnóstico como tratamiento. \n\n Además, en muchos centros existen unidades especializadas que incluyen incluso asistencia psicológica si se necesita."  
+    - text: "La atención sanitaria pública dispone de unidades especializadas para el diagnóstico y tratamiento del VIH 🧑‍⚕️🏥. Algunas incluso tienen asistencia psicológica si se necesita."  
   # Transmisión
   utter_como_contagia:
     - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.
@@ -144,7 +144,7 @@ responses:
   utter_faq/como_es_prueba:
     - text: "La prueba más habitual para la detección del VIH se basa en la detección de los anticuerpos que nuestro organismo genera cuando está infectado 🔬🦠."
   utter_solicitar_prueba:
-    - text: "En España la prueba del VIH se puede realizar en los centros sanitarios de la red pública de forma gratuita y confidencial: tanto en los Centros de atención primaria (médico de familia), como en los Centros de atención especializada (hospitales y centros de especialidades) y en los Centros de planificación familiar."
+    - text: "En España la prueba del VIH se puede realizar en los centros sanitarios de la red pública de forma gratuita y confidencial."
   utter_faq/detectar_con_analitica:
     - text: "En una muestra de sangre es posible determinar la infección por VIH a través de una serología (que determina los anticuerpos frente al virus) o directamente detectando el genoma del virus (carga viral)."
   utter_faq/precio_prueba_vih:
@@ -198,7 +198,7 @@ responses:
   utter_faq/prep_tras_contacto_vih:
     - text: "La PrEP (profilaxis preexposición) es para las personas que presentan un riesgo muy alto y continuo de contraer la infección por el VIH y se toma de manera previa al contacto. \n\n Sin embargo, existe otra herramienta, la PEP (profilaxis posexposición) para las personas que creen que han estado expuestas recientemente al VIH (como por relaciones sexuales o al compartir agujas con personas que padecen el VIH)."
   utter_faq/existe_vacuna:
-    - text: Actualmente no existe una vacuna contra el VIH, aunque se está investigando mucho para encontrarla.
+    - text: Actualmente no existe una vacuna contra el VIH, aunque se está investigando mucho para encontrarla 🔬🧑‍⚕️.
   utter_faq/protegen_pildoras_anticonceptivas:
     - text: No, estas píldoras son para evitar los embarazos no deseados, pero no evitan la infección por VIH.
   utter_faq/protege_marcha_atras:
