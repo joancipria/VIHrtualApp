@@ -475,7 +475,6 @@ nlu:
       - como es la segunda fase del vih
       - explicame la etapa 2 de la infeccion
       - cual es la fase 2 del vih
-      -
   - intent: faq/tipos_vih
     examples: |
       - ¿Cuántos tipos de VIH hay?
@@ -756,6 +755,14 @@ nlu:
       - cuales son los diferentes estados por los que pasa alguien con vih? 
       - en que fases se desarrollá el vih?
       - por cuanats fases pasa el vih?
+      - Etapas del VIH
+      - cuantas etatpas tienen el vih
+      - por cuantas fases pasa el vih
+      - cuantas etapas hay en el vih
+      - etapas de la infeccion por vih
+      - dime qué etapas hay en el vih
+      - por qué etapas pasa una persona con vih?
+      - cuales son las diferentes etapas del vih?
   - intent: faq/peligros_vih
     examples: |
       - ¿Por qué es peligroso el VIH?

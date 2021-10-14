@@ -51,6 +51,10 @@ nlu:
       - que sintomas presentan las personas con vih
       - Y qué síntomas pueden ser visibles?
       - que sintomas suelen haber?
+      - sintomas en la primera etapa de la infección
+      - que sintomas pueden aparecer en la primera fase de la infeccion
+      - qué síntomas pueden tener las personas en la etapa 1 de la infeccion
+      - sintomas de la etapa 1 del vih
   - intent: faq/vih_sin_sintomas
     examples: |
       - ¿Puedo tener VIH y no tener síntomas?
