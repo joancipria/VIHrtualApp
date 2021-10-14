@@ -196,6 +196,8 @@ nlu:
       - los centros de salud atienden contra el vih?
       - Que centros medicos atienden el VIH?
       - ¿En que centros puedo ser atendido de VIH?
+      - donode me pueden antender si tengo vih? 
+      - dónde me pueden atender de vih?
   - intent: faq/mismo_tratamiento
     examples: |
       - ¿Todos los pacientes de VIH reciben el mismo tratamiento?
