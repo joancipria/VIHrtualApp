@@ -5,7 +5,7 @@ VIHrtual-App es un chatbot de código libre para la divulgación médica del VIH
 
 ## 📦 Instalación
 Testeado con `Python 3.7.10` y `pip 20.1.1`.
-Versión de Rasa: `Rasa: 2.8.7` y `Rasa X: 0.42.3`
+Versión de Rasa: `Rasa: 2.8.9` y `Rasa X: 0.42.3`
 
 Clona el repositorio
 ```
