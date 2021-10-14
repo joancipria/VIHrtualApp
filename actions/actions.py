@@ -57,7 +57,6 @@ class ActionComoUsarPreservativo(Action):
 
         # Get condom_type entity
         condom_type = next(tracker.get_latest_entity_values("condom_type"), None)
-        print(condom_type)
 
         # If condom_type is empty, show male condom
         if condom_type is None:
