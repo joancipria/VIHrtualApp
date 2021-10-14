@@ -1,10 +1,10 @@
 version: "2.0"
 responses:
-  utter_fuera_de_ambito/no_castellano:
+  utter_fuera_de_contexto/no_castellano:
     - text: "Lo siento, de momento solo soy capaz de hablar en castellano."
   utter_insultar:
     - text: Siento no poder hacerlo mejor pero tampoco creo necesarias esas palabras.
-  utter_fuera_de_ambito/cumplidos:
+  utter_fuera_de_contexto/cumplidos:
     - text: Muchas gracias! Vas a hacer que me sonroje 🤭.
-  utter_fuera_de_ambito/otros:
+  utter_fuera_de_contexto/otros:
     - text: Lo siento, pero no creo que pueda ayudarte con eso.

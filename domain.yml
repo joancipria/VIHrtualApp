@@ -57,7 +57,7 @@ intents:
     use_entities: true
 - faq:
     use_entities: true
-- fuera_de_ambito:
+- fuera_de_contexto:
     use_entities: true
 - nlu_fallback:
     use_entities: true

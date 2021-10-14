@@ -1,6 +1,6 @@
 version: "2.0"
 nlu:
-  - intent: fuera_de_ambito/no_castellano
+  - intent: fuera_de_contexto/no_castellano
     examples: |
       - What is HIV?
       - What can you do?
@@ -47,7 +47,7 @@ nlu:
       - Hoe heet u?
       - asshole
 
-  - intent: fuera_de_ambito/otros
+  - intent: fuera_de_contexto/otros
     examples: |
       - ¿Cúanto es 2 + 2?
       - ¿Cuanto es 2 por 2?
@@ -125,7 +125,7 @@ nlu:
       - pon una alarma a las 9 am
       - Si un tren sale de Barcelona direccion Madrid
 
-  - intent: fuera_de_ambito/cumplidos
+  - intent: fuera_de_contexto/cumplidos
     examples: |
       - guapo
       - eres guapo?

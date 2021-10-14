@@ -3,6 +3,6 @@ version: "2.0"
 rules:
   - rule: Responder a preguntas fuera de ámbito
     steps:
-      - intent: fuera_de_ambito
-      - action: utter_fuera_de_ambito
+      - intent: fuera_de_contexto
+      - action: utter_fuera_de_contexto
       - action: utter_sugerir_tema
