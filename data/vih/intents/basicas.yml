@@ -366,34 +366,6 @@ nlu:
       - que quieres decir con latencua del vih?
       - que es la latencia del virus o estar latente
       - que significa que el virus esta latente?
-  - intent: faq/que_es_etapa_1
-    examples: |
-      - ¿Qué es la etapa 1 de la infección por el VIH?
-      - que es la eatpa 1 del virus?
-      - q es la la primera etapa del vih?
-      - cual es la etapa 1 de la infeccion?
-      - ¿Qué es la etapa uno del VIH?
-      - ¿Qué es la etapa 1 del virus?
-      - ¿Cuál es la primera etapa del VIH?
-      - cual es la primera etapa del virus?
-      - q significa la etapa 1 del virus?
-      - como es la primera etapa de la enfermedad?
-      - cómo es la etapa uno del virus?
-      - que ocurre en la primera etapa?
-      - que caracteriza a la primera etapa?
-      - ¿Qué significa la etapa 1 de la infección?
-      - ¿Cuál es la 1 etapa de la infección de VIH?
-      - explciame la etapa 1
-      - explicame la primera etapa del vih
-      - en que consiste la primera etapa de la infección?
-      - como es la primera etapa del sida
-      - no se que es la primera etapa
-      - cua es la primera fase del vih
-      - q es la fase 1 de la infección
-      - explciame la fase uno del vih
-      - cómo es la primera fase del virus?
-      - como es el primer tramo de la enfermedad
-      - cual es la primera fase de la enfermedad
   - intent: faq/es_importante_saber_tengo_vih
     examples: |
       - ¿Es importante saber si tengo VIH?
@@ -447,6 +419,32 @@ nlu:
       - fase de infeccion aguda
       - cual es la fase de la infección aguda
       - explicame la infeccion aguda
+      - ¿Qué es la etapa 1 de la infección por el VIH?
+      - que es la eatpa 1 del virus?
+      - q es la la primera etapa del vih?
+      - cual es la etapa 1 de la infeccion?
+      - ¿Qué es la etapa uno del VIH?
+      - ¿Qué es la etapa 1 del virus?
+      - ¿Cuál es la primera etapa del VIH?
+      - cual es la primera etapa del virus?
+      - q significa la etapa 1 del virus?
+      - como es la primera etapa de la enfermedad?
+      - cómo es la etapa uno del virus?
+      - que ocurre en la primera etapa?
+      - que caracteriza a la primera etapa?
+      - ¿Qué significa la etapa 1 de la infección?
+      - ¿Cuál es la 1 etapa de la infección de VIH?
+      - explciame la etapa 1
+      - explicame la primera etapa del vih
+      - en que consiste la primera etapa de la infección?
+      - como es la primera etapa del sida
+      - no se que es la primera etapa
+      - cua es la primera fase del vih
+      - q es la fase 1 de la infección
+      - explciame la fase uno del vih
+      - cómo es la primera fase del virus?
+      - como es el primer tramo de la enfermedad
+      - cual es la primera fase de la enfermedad
   - intent: faq/infeccion_cronica_vih
     examples: |
       - ¿Qué es la Infección crónica por el VIH?

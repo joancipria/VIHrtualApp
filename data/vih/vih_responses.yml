@@ -28,12 +28,10 @@ responses:
     - text: El VIH no sobrevive mucho fuera del cuerpo humano (por ejemplo, en las superficies) y no se puede reproducir fuera de un organismo humano.
   utter_faq/que_es_latencia:
     - text: "La latencia hace referencia a que el virus puede permanecer inactivo (latente) en nuestro organismo durante años 🦠💤. \n\n Cuando se encuentra en este estado, el sistema inmunitario no puede reconocer el virus y el tratamiento antirretroviral (TAR) no le afecta."
-  utter_faq/que_es_etapa_1:
-    - text: "En la primera etapa (de 2 a 4 semanas tras la infección por VIH) algunas personas pueden sentirse enfermas como si tuvieran la gripe 🤒.  \n\n Estos síntomas (fiebre, escalofríos, sudores nocturnos, dolores musculares, dolor de garganta, fatiga, ulceras en la boca) pueden durar desde pocos días hasta varias semanas. \n\n Estos síntomas pueden ser causados por otras enfermedades pero si los tienes después de una posible exposición al VIH debes hacerte la prueba del VIH."
   utter_faq/es_importante_saber_tengo_vih:
     - text: "Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento lo antes posible y adoptar hábitos de vida saludables \n\n. Además, podrás evitar que otras personas se infecten."
   utter_faq/infeccion_aguda_vih:
-    - text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable. 🔬⚠️"
+    - text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable. 🔬⚠️ \n\n "
   utter_faq/infeccion_cronica_vih:
     - text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
   utter_faq/tipos_vih:
@@ -372,6 +370,10 @@ responses:
     - text: "Vivir y relacionarse con una persona con VIH es completamente seguro si no se tienen prácticas de riesgo (como compartir jeringuillas o tener relaciones sexuales sin protección)."
   # Info adicional
   utter_faq/documento_adicional_mujeres:
-    - text: Puedes consultar <a target='_blank' href='https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf'>esta guía orientada al VIH en la mujeres.</a>
+    - text: "Puedes consultar esta guía orientada al VIH en la mujeres 👇."
+      custom: 
+        payload: pdf_attachment
+        title: "Las mujeres y el VIH"
+        url: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf"
   utter_faq/asociaciones:
     - text: "Existen muchos colectivos de personas que ayudan a las personas con VIH. Una de las más relevantes en España es <a target='_blank' href='https://cesida.org/'>CESIDA (Coordinadora estatal de VIH y sida)</a>. \n\n A través de su web puedes contactar con ellos ☝️."
