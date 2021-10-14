@@ -139,6 +139,14 @@ responses:
       title: Cáncer y VIH
     - payload: Carga viral indetectable
       title: Carga viral indetectable
+    text: ¿Qué tal si pruebas con alguno de estos temas?
+  - buttons:
+    - payload: Etapas del VIH
+      title:  Etapas del VIH
+    - payload: ¿Cómo puedo prevenir el VIH?
+      title: Prevención del VIH
+    - payload: ¿Qué probabilidad tengo de infectarme de VIH?
+      title: Probabilidad de infectarse por VIH
     text: ¿Qué tal alguno de estos temas?
   utter_saber_mas:
   - text: ¿Te gustaría saber alguna cosa más?
