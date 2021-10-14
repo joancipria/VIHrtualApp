@@ -1,17 +1,10 @@
 version: "2.0"
 responses:
   utter_fuera_de_ambito/no_castellano:
-    - text: Lo siento, solo hablo español.
+    - text: "Lo siento, de momento solo soy capaz de hablar en castellano."
   utter_insultar:
     - text: Siento no poder hacerlo mejor pero tampoco creo necesarias esas palabras.
   utter_fuera_de_ambito/cumplidos:
     - text: Muchas gracias! Vas a hacer que me sonroje 🤭.
   utter_fuera_de_ambito/otros:
-    - buttons:
-        - payload: ¿Cuál es la diferencia entre VIH y SIDA?
-          title: SIDA vs VIH
-        - payload: ¿Cómo se transmite el VIH?
-          title: ¿Cómo se transmite el VIH?
-        - payload: ¿Existe tratamiento para el VIH?
-          title: ¿Existe tratamiento para el VIH?
-      text: Lo siento, no creo que pueda ayudarte con eso. Sin embargo, quizás te interese alguno de los siguientes temas 👇
+    - text: Lo siento, pero no creo que pueda ayudarte con eso.
