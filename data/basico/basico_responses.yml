@@ -147,7 +147,7 @@ responses:
       title: Prevención del VIH
     - payload: ¿Qué probabilidad tengo de infectarme de VIH?
       title: Probabilidad de infectarse por VIH
-    text: ¿Qué tal alguno de estos temas?
+    text: ¿Qué tal si me preguntas alguno de estos temas?
   utter_saber_mas:
   - text: ¿Te gustaría saber alguna cosa más?
   - text: ¿Te gustaría preguntarme alguna cosa más?
