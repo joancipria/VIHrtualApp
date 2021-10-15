@@ -12,6 +12,10 @@ nlu:
     - preservativo masculino
     - condones masculinos
     - preservativo para pene
+    - condon en el pene
+    - preservativo en el pene
+    - condón en la polla
+    - presrvativo en el pene
 - synonym: female_condom
   examples: |
     - condon femenino
@@ -28,3 +32,5 @@ nlu:
     - preservativos femenino
     - preservativos para mujeres
     - condón para chicas
+    - condon en la vagina
+    - preservativo en la vagina
