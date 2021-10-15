@@ -20,10 +20,11 @@ source ./venv/bin/activate
 Descarga e instala los requisitos
 ```
 pip3 install rasa-x==0.42.3 --extra-index-url https://pypi.rasa.com/simple
-pip3 install rasa[spacy]
-pip install pyspellchecker
+pip3 install rasa[spacy] 
 python3 -m spacy download es_core_news_md
 ```
+
+Si utilizas como terminal `zsh` utiliza `pip install -U "rasa[spacy]"`.
 
 ## 🤖 Ejecución
 
