@@ -51,16 +51,7 @@ responses:
   utter_faq/es_posible_evitar_avance_vih:
     - text: "Los tratamientos actuales son muy efectivos y es posible detener el avance del virus durante décadas."
   utter_faq/fases_vih:
-    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por tres fases: infección aguda, infección crónica y SIDA"
-      custom: 
-        payload: "collapsible"
-        data: 
-        - title: 1. Infección aguda
-          description: Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus 🦠 se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable. 🔬⚠️
-        - title: 2. Infección crónica
-          description: En esta etapa, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. El tratamiento antirretroviral 💊 puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA.
-        - title: 3. SIDA
-          description: En la última etapa el sistema inmune está muy debilitado ❌🛡️. En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas 🦠 que suponen un grave riesgo para la persona que padece este síndrome. 
+    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por tres fases: infección aguda, infección crónica y SIDA."
   utter_faq/peligros_vih:
     - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otra infecciones y ciertos tipos de cáncer."
   utter_faq/enfermas_mas_facilmente:
