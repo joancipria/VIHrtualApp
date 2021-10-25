@@ -1,41 +1,5 @@
-version: "2.0"
 nlu:
-- synonym: male_condom
-  examples: |
-    - condón masculino
-    - condon masculino
-    - preserativo masculino
-    - condon para hombres
-    - condón para hombres
-    - preservativo para hombres
-    - preservativo para hombre
-    - preservativo masculino
-    - condones masculinos
-    - preservativo para pene
-    - condon en el pene
-    - preservativo en el pene
-    - condón en la polla
-    - presrvativo en el pene
-- synonym: female_condom
-  examples: |
-    - condon femenino
-    - condón femenino
-    - preservativo femenino
-    - condon vaginal
-    - preservativo vaginal
-    - preservativo para vagina
-    - condon para mujeres
-    - condon para mujer
-    - preservativo para mujer
-    - preservativo para mujeres
-    - condón para mujeres
-    - preservativos femenino
-    - preservativos para mujeres
-    - condón para chicas
-    - condon en la vagina
-    - preservativo en la vagina
-    - condon para vaginas
-- synonym: sexo_oral
+- lookup: tipo_sexo
   examples: |
     - sexo oral
     - mamada
@@ -75,8 +39,6 @@ nlu:
     - haciendo una mamada
     - lamer coño
     - mamadas
-- synonym: sexo_anal
-  examples: |
     - sexo anal
     - sexo por el culo
     - darle por el culo
@@ -92,3 +54,36 @@ nlu:
     - follan por el culo
     - follo por el culo
     - meten el pene por el culo
+- lookup: condom_type
+  examples: |
+    - condón masculino
+    - condon masculino
+    - preserativo masculino
+    - condon para hombres
+    - condón para hombres
+    - preservativo para hombres
+    - preservativo para hombre
+    - preservativo masculino
+    - condones masculinos
+    - preservativo para pene
+    - condon en el pene
+    - preservativo en el pene
+    - condón en la polla
+    - presrvativo en el pene
+    - condon femenino
+    - condón femenino
+    - preservativo femenino
+    - condon vaginal
+    - preservativo vaginal
+    - preservativo para vagina
+    - condon para mujeres
+    - condon para mujer
+    - preservativo para mujer
+    - preservativo para mujeres
+    - condón para mujeres
+    - preservativos femenino
+    - preservativos para mujeres
+    - condón para chicas
+    - condon en la vagina
+    - preservativo en la vagina
+    - condon para vaginas
