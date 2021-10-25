@@ -95,9 +95,27 @@ intents:
     use_entities: true
 - servicio_publico:
     use_entities: true
+- compartir_wc:
+    use_entities: true
+- transmite_aire:
+    use_entities: true
+- compartir_cuchillas_jeringuillas:
+    use_entities: true
+- sexo_con_drogadictos:
+    use_entities: true
+- transmision_insectos:
+    use_entities: true
+- compartir_vaso_cubierto:
+    use_entities: true
+- protege_marcha_atras:
+    use_entities: true
+- transmision_sexual:
+    use_entities: true
 entities:
 - PER
 - condom_type
+- ets
+- tipo_sexo
 slots:
   PER:
     type: rasa.shared.core.slots.TextSlot
@@ -109,6 +127,23 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: false
+  ets:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - vih
+    - hepatitis
+  tipo_sexo:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+    values:
+    - sexo_oral
+    - sexo_anal
+    - sexo_vaginal
 responses: {}
 actions:
 - action_dar_bienvenida
