@@ -108,9 +108,9 @@ stories:
       - intent: pedir_tema
       - action: utter_sugerir_tema
 
-  - story: reiniciar
-    steps:
-      - intent: reiniciar
-      - action: utter_confirmar_reiniciar
-      - intent: afirmar
-      - action: action_restart
+#  - story: reiniciar
+#    steps:
+#      - intent: reiniciar
+#      - action: utter_confirmar_reiniciar
+#      - intent: afirmar
+#      - action: action_restart
