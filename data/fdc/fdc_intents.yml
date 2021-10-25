@@ -124,6 +124,7 @@ nlu:
       - juegas a habbo?
       - pon una alarma a las 9 am
       - Si un tren sale de Barcelona direccion Madrid
+      - quiero una tortilla 
 
   - intent: fuera_de_contexto/cumplidos
     examples: |
@@ -191,3 +192,5 @@ nlu:
       - eres un subnormal
       - Tu puta madre
       - eres un cabrón
+      - payaso
+      - eres un payaso
