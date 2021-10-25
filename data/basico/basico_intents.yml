@@ -697,6 +697,7 @@ nlu:
     - yo me encuentro bien
     - me encuentro bastante bien
     - me ecnuentro genial
+    - yo estoy genial!
 - intent: animo_bajo
   examples: |
     - Me siento mal
