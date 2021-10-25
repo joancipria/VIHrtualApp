@@ -404,6 +404,7 @@ nlu:
     - gracais
     - te doy las gracias
     - muchas gracias por tu respuesta
+    - gracias por respuesta!
     - muchas gracias de verdad
     - muchas gracias por todo
     - Muchas gracias!
@@ -437,7 +438,6 @@ nlu:
     - estaré siempre agradecido
     - siempre estare agradecido
     - gracias por tu aclaración
-    - gracias por respuesta!
 - intent: esperar
   examples: |
     - Espera
@@ -698,7 +698,6 @@ nlu:
     - yo me encuentro bien
     - me encuentro bastante bien
     - me ecnuentro genial
-    - yo estoy genial!
 - intent: animo_bajo
   examples: |
     - Me siento mal
@@ -821,6 +820,7 @@ nlu:
     - no entiendes mucho
     - no te enteras
     - no te enteras de nada de lo que digo
+    - no terminas de entender lo que te digo
 - intent: indicar_fallo
   examples: |
     - te has equivocado en la anterior pregunta
@@ -833,7 +833,7 @@ nlu:
     - En esta respuesta anterior se ha liao un poco
     - te has liado un poco al responderme
     - esa respuesta no tiene sentido
-    - lo que me has contestado no tiene sentido 
+    - lo que me has contestado no tiene sentido
     - lo que me has respondido no tienen ningun sentido
     - eso que has dicho esta mal
     - tu respuesta es incorrecta
