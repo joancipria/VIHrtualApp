@@ -137,6 +137,7 @@ nlu:
     - Existe vacuna?
     - existe vacuna para el vih?
     - hay vacuna para sida?
+    - existe una vacuna que puede evitar que los adultos contraigan el VIH?
 - intent: faq/protegen_pildoras_anticonceptivas
   examples: |
     - ¿Protegen las píldoras anticonceptivas contra el VIH?
@@ -150,7 +151,8 @@ nlu:
     - Si tomo píldoras anticonceptivas, ¿estoy protegida contra el VIH?
     - la pildora del dia despues mata el vih?
     - la pastilla del dia despues protege contra el vih?
-- intent: faq/protege_marcha_atras
+    - tomar la píldora anticonceptiva evita que la mujer contraiga el VIH?
+- intent: protege_marcha_atras
   examples: |
     - ¿Protege la marcha atrás del VIH?
     - ¿Es efectiva la marcha atrás como método de prevención?
@@ -162,6 +164,8 @@ nlu:
     - No correrse dentro protege de la infección de VIH?
     - Si no me corro dentro, me puedo coger el VIH?
     - Con la marcha atrás puedo evitar coger VIH?
+    - Sacar el pene antes de que el hombre llegue al clímax evita que la mujer se contagie del VIH durante las relaciones sexuales?
+    - sacar la polla antes de correrse evita que me pueda contagiar de vih
 - intent: faq/protege_preservativo_femenino
   examples: |
     - ¿El preservativo femenino también protege de la infección por VIH?
@@ -220,6 +224,9 @@ nlu:
     - los preservativos son eficaces para la prevención del vih?
     - si uso condones me puedo infecxtar?
     - si follo con preservativo me puedo infectar?
+    - El uso de un preservativo de látex o de goma puede reducir la posibilidad de que una persona contraiga el VIH
+    - usar preservativos protege contra el vih?
+    - usar preservativos protege del vih?
 - intent: faq/rompe_preservativo
   examples: |
     - ¿Qué hago si se rompe el preservativo?
@@ -271,6 +278,7 @@ nlu:
     - no se como se usa un [preservativo para chicas](condom_type)
     - cómo utilizar [condón vaginal](condom_type)
     - como se pone un [preservativo vaginal](condom_type)
+    - como me pongo un [condon para vaginas](condom_type)? 
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
@@ -435,7 +443,7 @@ nlu:
     - que debo acer si mi novia se ha infectado?
     - que deberia  hacer si mi novio ha cogido el vih?
     - Mi churri tiene sida
-- intent: faq/compartir_cuchillas_jeringuillas
+- intent: compartir_cuchillas_jeringuillas
   examples: |
     - es peligroso compartir cuchillas o jeringuillas?
     - ¿Es peligrosos compratir cuchillas o jeringuillas?
@@ -467,6 +475,14 @@ nlu:
     - Debo compartir la maquinilla de afeitar con mi padre?
     - es recomendable compartir agujas?
     - me recomiendas compartir una cuchilla de afeitar o jeringuilla
+    - debo compartir jeringuillas con alguien que tenga vih?
+    - Una persona puede contraer el VIH por compartir una aguja de inyección con alguien que tiene el VIH?
+    - se puede coger el vih por compartir una aguja?
+    - se puede coger el vih por compartir inyecciones?
+    - si compartes agujas puedes coger el vih?
+    - si compartes jeringuillas con alguien que tiene el vih puedes infectarte?
+    - si comparto jeringuillas hay riesgo de que coja vih?
+    - compartirndo agujas con alguien que tiene vih puedo cogerlo?
 - intent: faq/sexo_seguro
   examples: |
     - ¿Como puedo mantener relaciones sexuales seguras?
