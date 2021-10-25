@@ -1,0 +1,90 @@
+stories:
+- story: Story from Conversation ID 02c0fbff1028438b987cec6484cd9fd6
+  steps:
+  - intent: saludar
+    user: |-
+      holaaa
+  - action: utter_saludar
+  - action: utter_ofrecer_ayuda
+  - intent: preguntar_estado
+    user: |-
+      como va todo?
+  - action: utter_estado
+  - intent: animo_alto
+    user: |-
+      yo me cuentro muy bien tambien
+  - action: utter_alegrarse
+  - action: utter_ofrecer_ayuda
+  - intent: querer_preguntar
+    user: |-
+      tengo varias dudas sobre el vih
+  - action: utter_animar_preguntar
+  - intent: que_es_vih
+    user: |-
+      que es el vih?
+  - action: utter_que_es_vih
+  - action: utter_que_es_vih_enganche
+  - intent: que_puede_preguntar
+    user: |-
+      puedo preguntarte otra cosa?
+  - action: utter_que_puede_preguntarme
+  - action: utter_animar_preguntar
+  - intent: sida_vs_vih
+    user: |-
+      en que se diferencia el vih del sida?
+  - action: utter_sida_vs_vih
+  - intent: agradecer
+    user: |-
+      gracias por contestarme
+  - action: utter_no_hay_de_que
+  - action: utter_algo_mas
+  - intent: afirmar
+    user: |-
+      sii
+  - action: utter_ofrecer_ayuda
+  - intent: mas_informacion
+    user: |-
+      donde puedo obtener mas info sobre el vih?
+  - action: utter_dar_mas_informacion
+  - action: utter_dar_mas_informacion_enganche
+  - intent: no_le_ha_ayudado
+    user: |-
+      no me sirve de mucho
+  - action: utter_disculparse
+  - action: utter_pedir_repita
+  - intent: mas_informacion
+    user: |-
+      busco informacion adicional para mujeres
+  - action: utter_dar_mas_informacion
+  - action: utter_dar_mas_informacion_enganche
+  - intent: chachara/preguntar_eres_bot
+    user: |-
+      eres un bot?
+  - action: utter_chachara
+  - intent: no_le_entiende
+    user: |-
+      no terminas de entender lo que te digo
+  - action: utter_disculpas_no_entender
+  - intent: afirmar
+    user: |-
+      sii
+  - action: utter_animar_preguntar
+  - intent: faq/documento_adicional_mujeres
+    user: |-
+      quiero infromacion especializada sobre el vih en mujeres
+  - action: utter_faq
+  - intent: agradecer
+    user: |-
+      muchas gracias
+  - action: utter_no_hay_de_que
+  - action: utter_algo_mas
+  - intent: negar
+    user: |-
+      no
+  - action: utter_reaccionar_positivamente
+  - action: utter_recordar_asistencia
+  - intent: despedirse
+    user: |-
+      hasta luegoo
+  - action: utter_despedirse
+  - action: utter_recordar_asistencia
