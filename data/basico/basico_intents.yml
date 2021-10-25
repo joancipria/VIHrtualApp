@@ -437,6 +437,7 @@ nlu:
     - estaré siempre agradecido
     - siempre estare agradecido
     - gracias por tu aclaración
+    - gracias por respuesta!
 - intent: esperar
   examples: |
     - Espera
