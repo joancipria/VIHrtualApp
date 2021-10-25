@@ -38,8 +38,12 @@ stories:
   - user: una persona puede contraer vih compartiendo un vaso de agua con alguien que tienen vih
     intent: compartir_vaso_cubierto
   - action: utter_compartir_vaso_cubierto
-  - user: scar el pene antes de que un hombre se corra evita que una mujer contraiga el vih
+  - user: sacar el pene antes de que un hombre se corra evita que una mujer contraiga el vih
     intent: protege_marcha_atras
   - action: utter_protege_marcha_atras
+  - user: |
+      una mujer puede infectarse de vih si tienen [sexo anal]{"entity": "tipo_sexo"} con un hombre?
+    intent: transmision_sexual
+  - action: utter_transmision_sexual  
   # TODO: Complete questionnaire test
   
