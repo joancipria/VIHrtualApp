@@ -1,9 +1,9 @@
 version: "2.0"
 responses:
   # Básicas
-  utter_que_es_vih:
+  utter_definir_vih:
     - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo 🛡️. Si no se trata a tiempo, puede causar el SIDA.
-  utter_que_es_vih_enganche:
+  utter_definir_vih_enganche:
     - buttons:
         - payload: ¿Cómo se transmite el VIH?
           title: ¿Cómo se transmite el VIH?
@@ -250,9 +250,9 @@ responses:
     - text: "Aquí abajo te explico como utilizar correctamente un preservativo 👇."
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/male_condom.gif"
   # Sida
-  utter_que_es_sida:
+  utter_definir_sida:
     - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades"
-  utter_que_es_sida_enganche:
+  utter_definir_sida_enganche:
     - buttons:
         - payload: ¿Qué es una infección oportunista?
           title: ¿Qué es una infección oportunista?
