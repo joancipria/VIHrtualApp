@@ -49,7 +49,7 @@ nlu:
       - quisiera saber que es el [vih](ets)
       - quiero saber en q consiste eso del [vih](ets)
       - explicame en que consiste el [vih](ets)
-      - no se lo que es el virus del [vih]
+      - no se lo que es el virus del [vih](ets)
       - que quieren decir las letras [vih](ets)
   - intent: cura_vih
     examples: |
