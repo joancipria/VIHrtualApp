@@ -61,9 +61,7 @@ intents:
     use_entities: true
 - nlu_fallback:
     use_entities: true
-- que_es_vih:
-    use_entities: true
-- que_es_sida:
+- definir:
     use_entities: true
 - como_contagia:
     use_entities: true
