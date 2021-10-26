@@ -51,6 +51,46 @@ nlu:
       - explicame en que consiste el [vih](ets)
       - no se lo que es el virus del [vih](ets)
       - que quieren decir las letras [vih](ets)
+      - ¿Qué significa [SIDA](ets)?
+      - que siginfica el [sida](ets)?
+      - q significa [sida](ets)
+      - ¿Qué es el [SIDA](ets)?
+      - ¿Cuál es la enfermedad del [SIDA](ets)?
+      - ¿Qué es el síndrome de [Inmunodeficiencia Adquirida](ets)?
+      - ¿Qué son las siglas [SIDA](ets)?
+      - Significado de [SIDA](ets)
+      - No sé lo que es el [SIDA](ets)
+      - ¿Qué significa [sida](ets)?
+      - que significa [sida](ets)
+      - q es el [sida](ets)
+      - que es el [sida](ets)
+      - que es el [sida](ets)
+      - dime qeue s el [sida](ets)
+      - dime que es el [sida](ets)
+      - no tengo ni idea de que es el [sida](ets)
+      - q quiere de ir [sida](ets)?
+      - que quierend ecir las suglas [sida](ets)?
+      - que quieren decir las siglas [sida](ets)?
+      - que significan las letras [sida](ets)?
+      - de qué es el acrónimo [sida](ets)?
+      - que significa el acronimo [sida](ets)?
+      - dime que esl el [sida](ets)?
+      - que es el virus de la [inmunodeficiencia Humana adquirida](ets)?
+      - nos e que es el virus de la [inmunodeficiencia humana adquirida](ets)
+      - dime que siginfica [sida](ets)
+      - dime el significado del virus del [sida](ets)
+      - que queire decir [sida](ets)?
+      - que es el virus del [sida](ets)?
+      - que sgnfica sida
+      - que significan las siglas [sida](ets)
+      - no se que significa [sida](ets)
+      - dime que significa [sida](ets)
+      - no sé el significado de [sida]
+      - no sé lo que significan las siglas [sida](ets)
+      - no se que quiere decir [sida](ets)
+      - QUE ES EL [SIDA](ets)
+      - que es [sida](ets)
+      - entonces que es el [sida]?
   - intent: cura_vih
     examples: |
       - ¿Existe cura para el VIH?
