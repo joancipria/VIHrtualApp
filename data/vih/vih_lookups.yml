@@ -1,4 +1,8 @@
 nlu:
+- lookup: ets
+  examples: |
+    - vih
+    - sida
 - lookup: tipo_sexo
   examples: |
     - sexo oral

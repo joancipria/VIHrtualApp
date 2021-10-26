@@ -1,5 +1,19 @@
 version: "2.0"
 nlu:
+- synonym: vih
+  examples: |
+    - vih
+    - VIH
+    - virus de la inmunodeficiecia humana
+    - virus de la inmunodeficiencia humana
+    - inmunodeficiencia humana
+- synonym: sida
+  examples: |
+    - sida
+    - SIDA
+    - síndrome de Inmunodeficiencia Adquirida
+    - sindrome de la inmunodeficiencia Adquirida
+    - inmunodeficiencia adquirida
 - synonym: male_condom
   examples: |
     - condón masculino
