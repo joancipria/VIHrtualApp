@@ -29,7 +29,7 @@ pipeline:
     entity_recognition: false
   #- name: SpacyEntityExtractor
   #  dimensions: ["PER"]
-  - name: CRFEntityExtractor
+  #- name: CRFEntityExtractor
   - name: RegexEntityExtractor
     case_sensitive: False
     use_lookup_tables: True
