@@ -5,7 +5,6 @@ language: es
 # Pipeline configuration
 # See https://rasa.com/docs/rasa/tuning-your-model for more information.
 pipeline:
-  #- name: "spellchecking.CorrectSpelling"
   #- name: WhitespaceTokenizer
   - name: SpacyNLP
     model: "es_core_news_md"
@@ -29,7 +28,7 @@ pipeline:
     entity_recognition: false
   #- name: SpacyEntityExtractor
   #  dimensions: ["PER"]
-  #- name: CRFEntityExtractor
+  - name: CRFEntityExtractor
   - name: RegexEntityExtractor
     case_sensitive: False
     use_lookup_tables: True
