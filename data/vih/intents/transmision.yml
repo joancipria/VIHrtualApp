@@ -72,8 +72,7 @@ nlu:
     - como se transmite esta enfermedad?
     - Que vías de contagio son las más comunes?
     - Cuáles son las principales causas de contagio?
-    - cuales son las principales vias de contagio?
-- intent: faq/aire
+- intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
     - se puede contagiar el virus por el aire?
@@ -109,7 +108,24 @@ nlu:
     - el vih se transmite por el aire
     - puedo contagiarme por respirar?
     - pueden contagirame si me estornudan?
-    - pueden contagirame por un estornudo?
+    - pueden contagiarme por un estornudo?
+    - la tos y los estornudos transmiten el vih?
+    - toser o estornudar puede transmitir el vih?
+    - toser o estornudar transmite el vih?
+    - el vih se pued etransmitir por los estornudos?
+    - el vih se transmite por la tos?
+    - el vih se transmite por toser?
+    - el vih se transmite por estornudar?
+    - me pueden pegar el vih si me estornudan encima?
+    - me pueden pegar el vih si me tosen encima?
+    - si me estornudan en la cara me pueden pegar el vih?
+    - si alguien con vih me tose en la cara me lo puede pegar?
+    - se transmite el vih por estornudar?
+    - el vih se transmite a travḉes de la tos o los estornudos?
+    - pueden pegarme el vih si me tosen en la contagiar?
+    - pueden pasarme el vih si me estornudan encima?
+    - si alguien me tose encima me puede contagiar el vih?
+    - el vih se transmite a traves de los estornudos o tosiendo?
 - intent: faq/vertical
   examples: |
     - ¿Qué es la transmisión vertical?
@@ -174,10 +190,6 @@ nlu:
     - se puede transmitir el virus por medio de la saliva?
     - se puede llegar a transmitir el virus con la saliva?
     - se puede llegar a transmitir el virus con las lagrimas?
-    - Puedo contagiar el VIH si comparto cubiertos o vasos con otras personas?
-    - puedo contagiar al copartir cubiertos?
-    - se pede contagiar por comparir un vaso?
-    - por compartir un vaso me puedo infectar?
     - Puedo transmitir el VIH a través de la saliva?
     - Se transmite el vih por la saliba?
     - Puedo contagiarme de vih por la saliva?
@@ -185,6 +197,25 @@ nlu:
     - me puedo contagiar por besar?
     - puedo coger el vih besando a otra persona?
     - se puede coger el vih por besar?
+    - las personas son propensas a contraer el vih al besarse profundamente, metiendo la lengua en la boca de su pareja, si ésta tiene el vih
+    - se puede contraer el vih dando besos con lengua
+    - los besos con lengua transmiten el vih
+    - los besos con lengua son peligrosos?
+    - dar besos con lengua puede hacer que te contagies de vih?
+    - al morrearse puedes coger VIH?
+    - puedes infectarte de vih por liarte con un tio?
+    - por liarme con una tia podria coger vih?
+    - si le doy un beso a alguien que tiene vih puedo infectarme de vih?
+    - podria coger el vih por besar a alguien con vih?
+    - si le doy un beso con lengua a alguien que tiene el vih me lo puede pegar?
+- intent: compartir_vaso_cubierto
+  examples: |
+    - se pede contagiar por comparir un vaso?
+    - por compartir un vaso me puedo infectar?
+    - Una persona puede contraer el VIH al compartir un vaso de agua con alguien que tiene el VIH ?
+    - me puedo contagiawr de sida por compartir un vaso?
+    - puedo contagiar el VIH si comparto cubiertos o vasos con otras personas?
+    - puedo contagiar al copartir cubiertos?
 - intent: faq/escupir_aranyar
   examples: |
     - ¿Puedo contraer el VIH si una persona infectada me escupe o araña?
@@ -198,7 +229,7 @@ nlu:
     - si una persona me escupe me puede pasar el virus?
     - si alguien con vih me araña o me escupe, me puedo infectar?
     - si escupo a alguien le puedo pegar el vih?
-- intent: faq/insectos
+- intent: transmision_insectos
   examples: |
     - ¿Pueden los mosquitos o las garrapatas contagiar el VIH?
     - los mosquitos pegan el vih?
@@ -226,8 +257,10 @@ nlu:
     - los mosquitos pueden provovar el virus?
     - los mosquitos pueden pegar el VIH?
     - los mosquitos pueden infectar de VIH?
+    - El VIH puede ser transmitido por los mosquitos?
     - es posible que un mosquito me pegue el vih?
-- intent: faq/wc
+    - el vih se puede transmitir por los mosquitos
+- intent: compartir_wc
   examples: |
     - ¿Puedo contagiarme de VIH por usar el mismo WC que una persona con VIH?
     - ¿Puedo contagiarme de VIH por usar el mismo baño que una persona con VIH?
@@ -252,6 +285,18 @@ nlu:
     - se transmite el vih mediante el vater?
     - se transmite el vih mediante el wc?
     - se puede transmitir el vih al utilzar el mismo baño que una persona con vih?
+    - una persona puede contraer el VIH por un asiento de inodoro?
+    - una persona puede coger el vih por compartir un inodoro?
+    - alguien puede contagiarse de vih por un vater publico
+    - me puedo contagiar de vih por usar un wc publico?
+    - es posible coger el vih a través de un baño publico?
+    - se puede transmitir el vih a través del asiento de un inodoro?
+    - puedo coger el vih por sentarme en el mismo baño que alguien con vih?
+    - me pueden pegar el vih por compartir el asiento del vater?
+    - si me siento en el mismo vater que alguien con vih me lo puede pegar?
+    - por sentarme en el mismo wc que alguien con vih puedo contraerlo?
+    - puedo contagiarme de vih por compartir el asiento del baño?
+    - por sentarme en el mismo vater que alguien con vih puedo infectarme?
 - intent: faq/tatuajes
   examples: |
     - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
@@ -282,6 +327,8 @@ nlu:
     - puedo coger el sida haciendome un pendiente?
     - puedo coger el sida haciendome un tatoo?
     - al hacerme un tatuaje puedo coger el sida?
+    - Es posible contraer el VIH cuando una persona se hace un tatuaje
+    - es posible coger el vih al hacerse un tatoo?
 - intent: faq/alimentos
   examples: |
     - ¿Puedo contraer el VIH de los alimentos?
@@ -383,65 +430,99 @@ nlu:
     - puedo infectarme x fumar mariuana?
     - podria infectarme al beber mucho alcohol?
     - ¿Puedo contraer VIH si tomo drogas?
-- intent: faq/sexo_oral
+- intent: transmision_sexual
   examples: |
-    - ¿Puedo contraer el VIH mediante las relaciones sexuales orales?
-    - es posible contagiarse con el sexo oral?
-    - ¿Puedo contraer el VIH a través del sexo oral?
-    - puedi contraer el virus si mantengo relaciones sexuales orales?
-    - puedo contraer el virus si hago sexo oral?
-    - si practico mucho sexo oral puedo coger vih?
-    - con el sexo oral puedo infectarme de vih?
-    - si hago mucho sexo oral puedo pillar el virus?
-    - practico mucho sexo oral, existe algun riesgo?
-    - me gusta mucho el sexo oral, tengo miedo de coger algo
-    - puedo infectarme por chupar una polla?
-    - puedo coger el virus por xupar una poya?
-    - hay riesgo si chupo pollas sin condon?
-    - puedo coger el virus del vih por chupar una pollar sin condon?
-    - puedo infectarme por chupar un coño?
-    - puedo pillar el virus si me como un coño?
-    - puedo infectarme si mantengo sexo oral sin proteccion?
-    - hay riesgo de coger sida si mantego sexo oral sin proteccion?
-    - me pueden transmitir el virus al chupar una polla?
-    - me pueden pegar el virus al xupar un coño?
-    - puedo hacaer mamsddas sin condon?
-    - las mamdas sin condon tienen riesgo?
-    - puedo infectarme por hacer una mamada?
-    - podria coger el virus al comerme un coño?
-    - podria infectarme de vih al comerme un coño?
-    - puedo contraer la enfermedad al comerme un culo?
-    - puedo contraer la enfermedad si me como un ano?
-    - hay riesgo de coger el virus al hacer un beso negro?
-    - ¿Qué probabilidad hay de contagiarse mediante sexo oral?
-    - ¿Me puedo contagiar haciendo sexo oral?
-    - ¿Se puede transmitir el virus con el sexo oral?
-    - ¿Me puedo infectar realizando sexo oral?
-    - me puedo infectar mientras mantengo sexo oral?
-    - es peligroso hacer mamadas?
-    - haciendo una mamada puedo coger el vih?
-    - infectar por cunnilingus 
-    - coger el vih por hacer un cunilingus 
-    - infectar por anilingus 
-    - coger el vih por hacer un anilingus
-    - puedo infectarme por hacer una felación?
-    - me puedo infectar si me hacen una felacion?
-    - infectarse por felacion
-    - puedo coger el vih por una mamada
-    - si me comen la polla me pueden pasar el vih?
-    - si me comen el coño me pueden pasar el vih? 
-    - si me como una polla puedo coger el vih?
-    - si me como un coño puedo coger el vih?
-    - infectarse por comer un coño
-    - infectarse por comer una vagina
-    - podria coger el virus por chupar una polla?
-    - infectarse por xupar una polla?
-    - infección por chupar un coño
-    - me puedo infectar por hacer una felacion?
-    - me podria infectar por comer coños?
-    - Puedo practicar sexo oral si tengo vih?
-    - Si se la chupo a un positivo en vih puedo contagiame?
-    - Me puedo contagiar manteniendo sexo oral?
+    - ¿Puedo contraer el VIH mediante las [relaciones sexuales orales](tipo_sexo)?
+    - es posible contagiarse con el [sexo anal](tipo_sexo)?
+    - ¿Puedo contraer el VIH a través del [sexo oral](tipo_sexo)?
+    - puedi contraer el virus si mantengo relaciones [sexuales anales](tipo_sexo)?
+    - puedo contraer el virus si hago [sexo anal](tipo_sexo)?
+    - si practico mucho [sexo oral](tipo_sexo) puedo coger vih?
+    - con el [sexo vaginal](tipo_sexo) puedo infectarme de vih?
+    - si hago mucho [sexo oral](tipo_sexo) puedo pillar el virus?
+    - practico mucho [sexo anal](tipo_sexo), existe algun riesgo?
+    - me gusta mucho el [sexo anal](tipo_sexo), tengo miedo de coger algo
+    - puedo infectarme por [chupar una polla](tipo_sexo)?
+    - puedo coger el virus por [xupar una poya](tipo_sexo)?
+    - hay riesgo si [chupo pollas](tipo_sexo) sin condon?
+    - puedo coger el virus del vih por [chupar una pollar](tipo_sexo) sin condon?
+    - puedo infectarme por [chupar un coño](tipo_sexo)?
+    - puedo pillar el virus si [me como un coño](tipo_sexo)?
+    - puedo infectarme si mantengo[sexo vaginal](tipo_sexo) sin proteccion?
+    - hay riesgo de coger sida si mantego [sexo anal](tipo_sexo) sin proteccion?
+    - me pueden transmitir el virus al [chupar una polla](tipo_sexo)?
+    - me pueden pegar el virus al [chupar polla](tipo_sexo)?
+    - puedo hacaer [mamsddas](tipo_sexo) sin condon?
+    - las [mamdas](tipo_sexo) sin condon tienen riesgo?
+    - puedo infectarme por hacer una [mamada](tipo_sexo)?
+    - existe riesgo de infectarme al hacer una [mamada](tipo_sexo)?
+    - podria coger el virus al [comerme un coño](tipo_sexo)?
+    - podria infectarme de vih al [comerme un coño](tipo_sexo)?
+    - puedo contraer la enfermedad al [comerme un culo](tipo_sexo)?
+    - puedo contraer la enfermedad si me [como un ano](tipo_sexo)?
+    - hay riesgo de coger el virus al [hacer un beso negro](tipo_sexo)?
+    - ¿Qué probabilidad hay de contagiarse mediante [sexo oral](tipo_sexo)?
+    - ¿Me puedo contagiar haciendo [sexo oral](tipo_sexo)?
+    - ¿Se puede transmitir el virus con el [sexo oral](tipo_sexo)?
+    - ¿Me puedo infectar realizando [sexo anal](tipo_sexo)?
+    - me puedo infectar mientras mantengo [sexo vaginal](tipo_sexo)?
+    - es peligroso [hacer mamadas](tipo_sexo)?
+    - es peligroso el [sexo anal](tipo_sexo)?
+    - haciendo una [mamada](tipo_sexo) puedo coger el vih?
+    - se puede coger el vih [haciendo una mamada](tipo_sexo)?
+    - se puede coger el vih con una [mamada](tipo_sexo)?
+    - infectar por [cunnilingus](tipo_sexo)
+    - coger el vih por hacer un [cunilingus](tipo_sexo)
+    - infectar por [anilingus](tipo_sexo)
+    - coger el vih por hacer un [anilingus](tipo_sexo)
+    - puedo infectarme por hacer una [felación](tipo_sexo)?
+    - me puedo infectar si me hacen una [felacion](tipo_sexo)?
+    - infectarse por [felacion](tipo_sexo)
+    - puedo coger el vih por una [mamada](tipo_sexo)
+    - si me [comen la polla](tipo_sexo) me pueden pasar el vih?
+    - si me [comen el coño](tipo_sexo) me pueden pasar el vih?
+    - si me [me como una polla](tipo_sexo) puedo coger el vih?
+    - si me [como un coño](tipo_sexo) puedo coger el vih?
+    - infectarse por [comer un coño](tipo_sexo)
+    - infectarse por [comer una vagina](tipo_sexo)
+    - infectarse por [comer una ano](tipo_sexo)
+    - infectarse por [comerle el ano](tipo_sexo)
+    - podria coger el virus por [chupar una polla](tipo_sexo)?
+    - infectarse por [xupar una polla](tipo_sexo)?
+    - infección por [chupar un coño](tipo_sexo)
+    - infección por [chupar coño](tipo_sexo)
+    - me puedo infectar por [hacer una felacion](tipo_sexo)?
+    - me podria infectar por [comer coños](tipo_sexo)?
+    - Puedo practicar [sexo oral](tipo_sexo) si tengo vih?
+    - Si [le chupo la polla](tipo_sexo) a un positivo en vih puedo contagiame?
+    - Si [se le chupo el coño](tipo_sexo) a un positivo en vih puedo contagiarme?
+    - Me puedo contagiar manteniendo [sexo oral](tipo_sexo)?
+    - puedo infetcarme de vih si me [dan por el culo](tipo_sexo)?
+    - si tengo [sexo por el culo](tipo_sexo) puedo coger vih?
+    - por [hacer una mamada](tipo_sexo) puedo coger el vih?
+    - puedes coger el vih por [hacer una mamada](tipo_sexo)?
+    - [hacer una mamda](tipo_sexo) es peligroso?
+    - [comer una polla](tipo_sexo) es peligroso?
+    - es posible contagiarse con el [sexo oral](tipo_sexo)?
+    - es peligroso [dar por el culo](tipo_sexo)?
+    - es peligoros el [sexo oral](tipo_sexo)?
+    - puedo pillar el virus si me [meto una polla por el culo](tipo_sexo)?
+    - es posible coger vih por [lamer coño](tipo_sexo)?
+    - por [comerle el coño](tipo_sexo) a alguien puedes contraer el vih?
+    - por [comerle la polla](tipo_sexo) a un tio puedes pillar el vih?
+    - por [comerle el pene](tipo_sexo) puedes coger el vih?
+    - una mujer puede infectarse de vih si tienen [sexo anal](tipo_sexo) con un hombre?
+    - una tia puede contraer el vih si tiene [sexo anal](tipo_sexo) con un hombre?
+    - el vih se transmite mediante [sexo anal](tipo_sexo)?
+    - puedo contagiarme por [hacer una mamada](tipo_sexo)
+    - puedo contagiarme si me [dan por el culo](tipo_sexo)?
+    - si me [meten el pene por el culo](tipo_sexo) puedo coger el vih?
+    - podria llegar a infectarme de vih mientras realizo una [felación](tipo_sexo)?
+    - podria llegar a coger el virus del vih si realizo [mamadas](tipo_sexo)?
+    - una mujer puede contraer el vih si tiene [sexo oral](tipo_sexo) con un hombre?
+    - una mujer puede contraer el vih si le hace una [mamada](tipo_sexo) a un hombre?
+    - una mujer puede contraer el vih si le [chupa la polla](tipo_sexo) a un hombre?
+    - una persona puede contraer el vih teniendo [sexo oral](tipo_sexo) con un hombre que tiene vih
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -534,6 +615,13 @@ nlu:
     - hay riesgo de contagio durante el parto?
     - Si estoy embarazada y tengo vih puedo contagiar al bebe?
     - Si estoy embarazada Puedo contagiar al feto de vih
+    - Una mujer embarazada con VIH puede transmitir el virus al feto?
+    - si estoy infectada de vih mi hijo tendrá vih?
+    - las mujeres con vih y emabarazadas tienen hijos con vih?
+    - todas las mujeres embarazadas e infectadas de vih tendrán hijos con vih?
+    - toda mujer con vih tendra hijos con vih?
+    - si estoy embarazada mis hijos tendran vih?
+    - todas las mujeres embarazdas y con vih tienen hijos infectados?
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?
@@ -555,7 +643,7 @@ nlu:
     - los peques pueden tener vih?
     - los bebes pueden tener vih?
     - los niños pueden infectarse de vih?
-    - los niños pueden coger vih o sida? 
+    - los niños pueden coger vih o sida?
     - las niñas se pueden infectar de vih?
     - Puede un niño nacer con VIH?
     - pueden contagiarse los niños?
@@ -582,7 +670,7 @@ nlu:
     - que riesgo tengo de coger el vih?
     - que probabilidades hay de que me infecte de vih?
     - como de probable es que me infecte de vih?
-    - Cuantas probabilidades hay de que infecte? 
+    - Cuantas probabilidades hay de que infecte?
     - Que porcentaje de posibilidades tengo de contraer el VIH?
     - Qué posibilidades tengo de infectarme
     - Que posibilidad hay de que me infecte
@@ -597,3 +685,9 @@ nlu:
     - que probabilidad existe de que me infecte de vih?
     - que probabiliadd existe de que coja el vih?
     - Probabilidad de infectarse por VIH
+- intent: sexo_con_drogadictos
+  examples: |
+    - una persona puede infefctarse de vih si tiene sexo con alguien que se inyecta drogas?
+    - puedo infectarme si mantengo relaciones sexuales con alguien que se inyecta drogas?
+    - puedo coger el vih al mantener sexo con alguien que se inyecta droga?
+    - se puede coger el vih si se tiene sexo con personas que se inyectan drogas

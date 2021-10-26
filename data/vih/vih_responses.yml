@@ -76,7 +76,7 @@ responses:
         - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
           title: ¿Se contagia a través del sudor, la saliva o las lágrimas?
       text: Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
-  utter_faq/aire:
+  utter_transmite_aire:
     - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
     - text: "La transmisión vertical, conocida también como transmisión perinatal es contagio de una infección u otra enfermedad de la madre a su hijo 👶🏼. \n\n Se puede producir antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé."
@@ -84,9 +84,9 @@ responses:
     - text: El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
   utter_faq/escupir_aranyar:
     - text: No. El VIH no se transmite por la saliva, y no hay riesgo de transmisión por un arañazo porque esto no transfiere líquidos corporales entre las personas.
-  utter_faq/insectos:
+  utter_transmision_insectos:
     - text: Los insectos chupadores de sangre 🦟 no pueden transmitir el VIH.
-  utter_faq/wc:
+  utter_compartir_wc:
     - text: "El VIH no se contagia por usar el mismo inodoro que una persona con VIH. \n\n Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
   utter_faq/tatuajes:
     - text: "Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. \n\n Si quieres hacerte un tatuaje o una perforación corporal asegurate de que la persona que lo haga cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados."
@@ -96,8 +96,18 @@ responses:
     - text: "El riesgo de contraer el VIH es muy alto si usas las agujas 💉 y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. \n\n Además, también tienes un riesgo elevado de contraer otras enfermedades como hepatitis B o C."
   utter_faq/drogas:
     - text: "Ten en cuenta que el VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Por otra parte, si estas bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo."
-  utter_faq/sexo_oral:
-    - text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."
+  utter_transmision_sexual:
+    - condition:
+      - type: slot
+        name: tipo_sexo
+        value: "sexo_oral"
+      text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."
+    - condition:
+      - type: slot
+        name: tipo_sexo
+        value: "sexo_anal"
+      text: "El sexo anal es más peligroso que el vaginal."
+    - text: "El sexo es peligroso"
   utter_faq/carga_viral_indetectable:
     - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
   utter_faq/volver_a_infectarse:
@@ -105,7 +115,7 @@ responses:
   utter_faq/riesgo_lesbianas:
     - text: "Los informes de casos de transmisión del VIH de mujer a mujer son muy infrecuentes. \n\n Sin embargo, no es imposible. Las secreciones vaginales y la sangre menstrual pueden contener el virus y la exposición a estos líquidos a través de las membranas mucosas (de la vagina o la boca) podría potencialmente causar la infección por el VIH."
   utter_faq/puede_transmitir_hijos:
-    - text: "Tu bebé puede infectarse de VIH durante el embarazo, el parto o la lactancia. \n\n Si padeces el virus debes tomar una serie de medidas para evitar contagiar al feto."
+    - text: "Los bebés puede infectarse de VIH durante el embarazo, el parto o la lactancia. \n\n Si padeces el virus existen una serie de medidas que debes tomar para evitar contagiar al feto."
   utter_faq/objetos_contaminados_vih:
     - text: "Existe riesgo de contagio si compartes objetos que puedan entrar en contacto con la sangre, como maquinillas de afeitar o jeringuillas."
   utter_faq/pueden_contagiarse_niños:
@@ -114,6 +124,10 @@ responses:
     - text: "Lo mejor para una persona que vive con el VIH es evitar infectarse con una cepa distinta del virus. \n\n Por ello, si se toman los medicamentos para el VIH y se logra mantener una carga viral indetectable, no hay ningún riesgo."
   utter_que_riesgo_tengo:
     - text: "Tus probabilidades de infectarte por el VIH depende de las prácticas de riesgo que tengas y su frecuencia. \n\n  Cuantas menos prácticas de riesgo y con menor frecuencia menos probable es que te infectes por el VIH."
+  utter_compartir_vaso_cubierto:
+    - text: "El VIH no se transmite por compartir vasos, platos o cubiertos."
+  utter_sexo_con_drogadictos:
+    - text: "El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Por tanto, existe mayor riesgo de contagio al mantener relaciones sexuales."
   # Síntomas
   utter_que_sintomas:
     - text: "Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección 🤒 (etapa 1 de la infección por el VIH). \n\n Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba."
@@ -199,14 +213,16 @@ responses:
     - text: Actualmente no existe una vacuna contra el VIH, aunque se está investigando mucho para encontrarla 🔬🧑‍⚕️.
   utter_faq/protegen_pildoras_anticonceptivas:
     - text: No, estas píldoras son para evitar los embarazos no deseados, pero no evitan la infección por VIH.
-  utter_faq/protege_marcha_atras:
+  utter_faq/protege_lavarse_genitales:
+    - text: "Lavarse los genitales después de mantener relaciones sexuales no protege contra el VIH."
+  utter_protege_marcha_atras:
     - text: No, es una práctica de riesgo que no previene de ser infectado por VIH.
   utter_faq/protege_preservativo_femenino:
     - text: Sí, aunque su uso está menos extendido, bien utilizado también sirve para prevenir el VIH y los embarazos no deseados.
   utter_faq/son_eficientes_espermicidas:
     - text: "No. Aunque los espermicidas pueden prevenir el embarazo, no protegen contra las enfermedades de transmisión sexual, incluido el VIH. \n\n Además, la irritación de la vagina (o del recto) que ocurre a veces con el uso de espermicidas puede aumentar el riesgo de transmisión sexual del VIH."
   utter_faq/son_eficientes_preservativos:
-    - text: El preservativo, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados.
+    - text: "El preservativo, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados 🛡️☔. \n\n Existen tanto preservativos masculinos como femeninos."
   utter_faq/rompe_preservativo:
     - text: "Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. \n\n Si se ha roto en la vagina, puede que necesites recurrir a la 'píldora del día después' que debes tomar antes de 72 horas para evitar los embarazos no deseados."
   utter_como_prevenir:
@@ -217,13 +233,13 @@ responses:
     - text: "Si crees haber tenido una práctica de riesgo no debes esperar: acude a tu centro sanitario, donde tras valorar tu caso, te realizarán una prueba diagnóstica."
   utter_faq/contagio_pareja:
     - text: "Si tu pareja ha contraído el VIH deberías realizarte la prueba periódicamente."
-  utter_faq/compartir_cuchillas_jeringuillas:
+  utter_compartir_cuchillas_jeringuillas:
     - text: "Compartir maquinillas o agujas es una práctica de alto riesgo y son conductas que deben evitarse."
   utter_faq/sexo_seguro:
     - text: "Puedes utilizar preservativos, son altamente eficaces para prevenir la infección por el VIH, otras enfermedades de transmisión sexual (ETS) y evitar embarazos no deseados."
   utter_faq/peligro_sexo_sin_proteccion:
   - text: "Las relaciones sexuales sin protección pueden ser peligrosas debido al contagio de enfermedades infecciosas que se transmiten por esa vía. \n\n Por tanto, se recomienda que las relaciones sexuales se practiquen con protección."
-  utter_faq/evitar_veritcal:
+  utter_faq/evitar_vertical:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/concebir:
     - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada ya que debe tomar algunas medidas específicas. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
