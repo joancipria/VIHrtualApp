@@ -63,7 +63,7 @@ intents:
     use_entities: true
 - definir:
     use_entities: true
-- como_contagia:
+- transmision:
     use_entities: true
 - sida_vs_vih:
     use_entities: true
