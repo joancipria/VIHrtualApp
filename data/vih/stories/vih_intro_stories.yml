@@ -44,6 +44,15 @@ stories:
     - intent: faq
     - action: utter_faq
 
+  - story: Definir Hepatitis 
+    steps:
+    - intent: definir
+      entities:
+      - ets: hepatitis
+    - slot_was_set:
+      - ets: hepatitis
+    - action: utter_definir_hepatitis
+
   - story: Definir fallback
     steps:
     - intent: definir

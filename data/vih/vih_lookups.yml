@@ -3,6 +3,7 @@ nlu:
   examples: |
     - vih
     - sida
+    - hepatitis
 - lookup: tipo_sexo
   examples: |
     - sexo oral

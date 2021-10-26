@@ -345,7 +345,7 @@ responses:
   # Glosario
   utter_faq/que_es_ets:
     - text: Las enfermedades de transmisión sexual (ETS) son enfermedades que pueden pasar de una persona a otra a través del contacto físico íntimo y las actividades sexuales.
-  utter_faq/que_es_hepatitis:
+  utter_definir_hepatitis:
     - text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
   utter_faq/que_es_viremia:
     - text: El término hace referencia a la presencia de un virus en la sangre 🩸🦠.

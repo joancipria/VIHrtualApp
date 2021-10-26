@@ -12,6 +12,12 @@ nlu:
     - síndrome de Inmunodeficiencia Adquirida
     - sindrome de la inmunodeficiencia Adquirida
     - inmunodeficiencia adquirida
+- synonym: hepatitis
+  examples: |
+    - epatitis
+    - hepatitis
+    - heaptitis
+    - heapatitis
 - synonym: male_condom
   examples: |
     - condón masculino

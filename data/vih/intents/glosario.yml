@@ -25,16 +25,6 @@ nlu:
       - qué es una enfermedad venérea?
       - que son las enfermedades venéreas
       - que son las enfermedades venéreas
-  - intent: faq/que_es_hepatitis
-    examples: |
-      - ¿Qué es la hepatitis?
-      - que es la hepatitis
-      - qué significa la hepatitis
-      - dime que siginfica la hepatitis
-      - no se lo que es la epatitis
-      - dime que es la hepatitis
-      - en que consiste la hepatitis
-      - oye que es la epatitis
   - intent: faq/que_es_viremia
     examples: |
       - ¿Qué es la viremia?

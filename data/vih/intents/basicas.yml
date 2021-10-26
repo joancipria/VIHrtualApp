@@ -90,7 +90,16 @@ nlu:
       - no se que quiere decir [sida](ets)
       - QUE ES EL [SIDA](ets)
       - que es [sida](ets)
-      - entonces que es el [sida]?
+      - entonces que es el [sida](ets)?
+      - ¿Qué es la [hepatitis](ets)?
+      - que es la [hepatitis](ets)
+      - qué significa la [hepatitis](ets)
+      - dime que siginfica la [hepatitis](ets)
+      - no se lo que es la [epatitis](ets)
+      - dime que es la [hepatitis](ets)
+      - en que consiste la [hepatitis](ets)
+      - oye que es la [epatitis](ets)
+      - explicame que es la [hepatitis](ets)
   - intent: cura_vih
     examples: |
       - ¿Existe cura para el VIH?
