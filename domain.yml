@@ -113,7 +113,7 @@ intents:
     use_entities: true
 entities:
 - PER
-- condom_type
+- tipo_condon
 - ets
 - tipo_sexo
 slots:
@@ -122,7 +122,7 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: false
-  condom_type:
+  tipo_condon:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true

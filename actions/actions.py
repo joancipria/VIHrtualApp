@@ -55,18 +55,18 @@ class ActionComoUsarPreservativo(Action):
         domain: Dict[Text, Any],
     ) -> List[EventType]:
 
-        # Get condom_type entity
-        condom_type = next(tracker.get_latest_entity_values("condom_type"), None)
+        # Get tipo_condon entity
+        tipo_condon = next(tracker.get_latest_entity_values("tipo_condon"), None)
 
-        # If condom_type is empty, show male condom
-        if condom_type is None:
+        # If tipo_condon is empty, show male condom
+        if tipo_condon is None:
             dispatcher.utter_message(response="utter_instrucciones_preservativo_masculino")
         
         # If not, show requested condom
-        if condom_type == "female_condom":
+        if tipo_condon == "female_condom":
             dispatcher.utter_message(response="utter_instrucciones_preservativo_femenino")
         
-        if condom_type == "male_condom":
+        if tipo_condon == "male_condom":
             dispatcher.utter_message(response="utter_instrucciones_preservativo_masculino")
         
         return []

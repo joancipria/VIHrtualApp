@@ -54,7 +54,7 @@ nlu:
     - follan por el culo
     - follo por el culo
     - meten el pene por el culo
-- lookup: condom_type
+- lookup: tipo_condon
   examples: |
     - condón masculino
     - condon masculino

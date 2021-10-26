@@ -268,36 +268,36 @@ nlu:
     - q hago si se me rompe el condon mientras follo
 - intent: como_usa_preservativo
   examples: |
-    - como se usa un [condón para mujeres](condom_type)?
+    - como se usa un [condón para mujeres](tipo_condon)?
     - como se usan los condones?
-    - como se utiliza un [preservativo masculino](condom_type)?
-    - como me pongo un [condon masculino](condom_type)?
+    - como se utiliza un [preservativo masculino](tipo_condon)?
+    - como me pongo un [condon masculino](tipo_condon)?
     - cómo se pone un preservativo?
     - no sé como utilizar el preservativo
     - me puedes explicar como se pone un preservativo?
     - me podrías explciar como ponerme un preservativo?
     - explicame como me debo poner el condón
     - como debo poinerme el condon
-    - como se deben poner los [condones masculinos](condom_type)
+    - como se deben poner los [condones masculinos](tipo_condon)
     - cual es la manera correcta de ponerse un preservativo?
-    - manera correcta de utilizar los [preservativos femenino](condom_type)
-    - cómo se deben poner los [preservativos para mujeres](condom_type)?
-    - cómo se utiliza un [condon para hombres](condom_type)? 
+    - manera correcta de utilizar los [preservativos femenino](tipo_condon)
+    - cómo se deben poner los [preservativos para mujeres](tipo_condon)?
+    - cómo se utiliza un [condon para hombres](tipo_condon)? 
     - como se utiliza el preservativo?
-    - como se usa un [condón femenino](condom_type)?
-    - cómo se usa el [condón para chicas](condom_type)
+    - como se usa un [condón femenino](tipo_condon)?
+    - cómo se usa el [condón para chicas](tipo_condon)
     - como se pone la gomita?
     - como debo ponerme la gomita?
     - instrucciones para usar condon
     - instrucciones para ponerme preserrvativo
-    - puedes eneñarme a ponerme un [condón femenino](condom_type)?
+    - puedes eneñarme a ponerme un [condón femenino](tipo_condon)?
     - podrías enseñarme a ponerme un condon
     - cómo se usa un condón femenino
-    - no se como se usa un [preservativo para chicas](condom_type)
-    - cómo utilizar [condón vaginal](condom_type)
-    - como se pone un [preservativo vaginal](condom_type)
-    - como me pongo un [condon para vaginas](condom_type)? 
-    - como me pongo un [condon que es para vaginas](condom_type)?
+    - no se como se usa un [preservativo para chicas](tipo_condon)
+    - cómo utilizar [condón vaginal](tipo_condon)
+    - como se pone un [preservativo vaginal](tipo_condon)
+    - como me pongo un [condon para vaginas](tipo_condon)? 
+    - como me pongo un [condon que es para vaginas](tipo_condon)?
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
