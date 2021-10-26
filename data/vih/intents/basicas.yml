@@ -1,6 +1,6 @@
 version: "2.0"
 nlu:
-  - intent: que_es_vih
+  - intent: definir
     examples: |
       - ¿Qué es el [VIH](ets)?
       - qué es el [vih](ets)??
