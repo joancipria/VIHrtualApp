@@ -2,55 +2,55 @@ version: "2.0"
 nlu:
   - intent: que_es_vih
     examples: |
-      - ¿Qué es el VIH?
-      - qué es el vih??
-      - vih
-      - VIH
-      - virus de la inmunodeficiencia humana
-      - ¿Qué significa VIH?
-      - Qué es el vih?
-      - no tengo muy claro que es el vih
-      - no tengo claro que esl el vih
-      - no tengo claro q significa el vih
-      - que es el vih
-      - que es vih
-      - que significa vih
-      - q es el vih
-      - qué es el vih
-      - que se supone que es el vih
-      - no se que es el vih
-      - dime qeue s el vih
-      - dime que es el vih
-      - no tengo ni idea de que es el vih
-      - q quiere de ir vih?
-      - que quierend ecir las suglas vih?
-      - que quieren decir las siglas vih?
-      - que significan las letras vih?
-      - de qué es el acrónimo vih?
-      - que significa el acronimo vih?
-      - dime que esl el vih?
-      - que es el virus de la inmunodeficiencia Humana?
-      - nos e que es el virus de la inmunodeficiencia humana
-      - dime que siginfica vih
-      - dime el significado del virus del vih
-      - que queire decir vih?
-      - que es el virus del vih?
-      - q significa vih
-      - que sgnfica vih
-      - qué significa VIH
-      - que significan las siglas VIH
-      - no se que significa VIH
-      - dime que significa VIH
-      - no sé el significado de VIH
-      - no sé lo que significan las siglas vih
-      - no se que quiere decir vih
-      - Me gustaría saber en qué consiste el vih
-      - en que consiste el vih
-      - quisiera saber que es el vih
-      - quiero saber en q consiste eso del vih
-      - explicame en que consiste el vih
-      - no se lo que es el virus del vih
-      - que quieren decir las letras vih
+      - ¿Qué es el [VIH](ets)?
+      - qué es el [vih](ets)??
+      - [vih](ets)
+      - [VIH](ets)
+      - [virus de la inmunodeficiencia humana](ets)
+      - ¿Qué significa [VIH](ets)?
+      - Qué es el [vih](ets)?
+      - no tengo muy claro que es el [vih](ets)
+      - no tengo claro que esl el [vih](ets)
+      - no tengo claro q significa el [vih](ets)
+      - que es el [vih](ets)
+      - que es [vih](ets)
+      - que significa [vih](ets)
+      - q es el [vih](ets) 
+      - qué es el [vih](ets)
+      - que se supone que es el [vih](ets)
+      - no se que es el [vih](ets)
+      - dime qeue s el [vih](ets)
+      - dime que es el [vih](ets)
+      - no tengo ni idea de que es el [vih](ets)
+      - q quiere de ir [vih](ets)?
+      - que quierend ecir las suglas [vih](ets)?
+      - que quieren decir las siglas [vih](ets)?
+      - que significan las letras [vih](ets)?
+      - de qué es el acrónimo [vih](ets)?
+      - que significa el acronimo [vih](ets)?
+      - dime que esl el [vih](ets)?
+      - que es el [virus de la inmunodeficiencia Humana](ets)?
+      - nos e que es el [virus de la inmunodeficiencia humana](ets)
+      - dime que siginfica [vih](ets)
+      - dime el significado del virus del [vih](ets)
+      - que queire decir [vih](ets)?
+      - que es el virus del [vih](ets)?
+      - q significa [vih](ets)
+      - que sgnfica [vih](ets)
+      - qué significa [VIH](ets)
+      - que significan las siglas [VIH](ets)
+      - no se que significa [VIH](ets)
+      - dime que significa [VIH](ets)
+      - no sé el significado de [VIH](ets)
+      - no sé lo que significan las siglas [vih](ets)
+      - no se que quiere decir [vih](ets)
+      - Me gustaría saber en qué consiste el [vih](ets)
+      - en que consiste el [vih](ets)
+      - quisiera saber que es el [vih](ets)
+      - quiero saber en q consiste eso del [vih](ets)
+      - explicame en que consiste el [vih](ets)
+      - no se lo que es el virus del [vih]
+      - que quieren decir las letras [vih](ets)
   - intent: cura_vih
     examples: |
       - ¿Existe cura para el VIH?
