@@ -78,6 +78,15 @@ nlu:
       - creo que me lo pegaron, cuantos dias tendria que esperar para hacerme la prueba?
       - creo que he cogido sido, cuantos dias tengo que esperar para que se pueda detectar el virus?
       - tengo sida, cuanto tiempo tengo que esperar para que se pueda detectar en la prueba?
+      - un test de vih una semana despues de la infección puede detectar el virus?
+      - a partir de cuando se puede ver si me he infectado?
+      - a partir de cuantos dias se puede saber si me he infectado?
+      - la prueba del vih una semana después de haber mantenido relaciones sexuales le dirá a una persona si tiene el vih
+      - la prueba del vih puede detectar una semana despues de haber tenido sexo si me he infectado?
+      - una semana despues de un contacto de riesgo la prueba puede detectar el vih?
+      - hacerse la prueba del vih una semana despues de una practica de riesgo es efectivo?
+      - cuantos dias tengo que esperar para saber si me he infectado de vih?
+      - si me hago la prueba la semana siguiente de haber tenido sexo, la prueba detectará el virus del vih?
   - intent: faq/deberia_hacerme_prueba
     examples: |
       - ¿Debería hacerme la prueba del VIH?
