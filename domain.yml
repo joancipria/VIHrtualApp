@@ -132,6 +132,7 @@ slots:
     influence_conversation: true
     values:
     - vih
+    - sida
     - hepatitis
   tipo_sexo:
     type: rasa.shared.core.slots.CategoricalSlot
