@@ -1,34 +1,34 @@
 version: "2.0"
 nlu:
-- intent: como_contagia
+- intent: transmision
   examples: |
-    - ¿Cómo se contagia el VIH?
-    - ¿Cómo se transmite la infección por el VIH?
-    - ¿Cómo se pasa el VIH de una persona a otra?
-    - como se pasa el vih de una persona a otra?
+    - ¿Cómo se contagia el [vih](ets)?
+    - ¿Cómo se transmite la infección por el [vih](ets)?
+    - ¿Cómo se pasa el [vih](ets) de una persona a otra?
+    - como se pasa el [vih](ets) de una persona a otra?
     - comos e pasa el virus de uno a otro?
-    - como se transmite el vih de una persona a otra?
-    - como se transmite la infeccion por vih?
-    - como se transfiere el vih
-    - como se realiza la transmisión de vih
-    - como funciona la transmision por vih
-    - como funciona la transmision x vih
-    - como se pega el vih
-    - ¿Cómo se pega el VIH?
-    - ¿Cómo se transmite VIH?
-    - Como se trasmite el vih?
-    - como se transmite el vih
-    - no se como se se transmite el vih
-    - como se transmite el vih?
+    - como se transmite el [vih](ets) de una persona a otra?
+    - como se transmite la infeccion por [vih](ets)?
+    - como se transfiere el [vih](ets)
+    - como se realiza la transmisión de [vih](ets)
+    - como funciona la transmision por [vih](ets)
+    - como funciona la transmision x [vih](ets)
+    - como se pega el [vih](ets)
+    - ¿Cómo se pega el [vih](ets)?
+    - ¿Cómo se transmite [vih](ets)?
+    - Como se trasmite el [vih](ets)?
+    - como se transmite el [vih](ets)
+    - no se como se se transmite el [vih](ets)
+    - como se transmite el [vih](ets)?
     - ¿De que manera se contagia?
     - como se transmite el virus?
     - como se puede coger el virus?
     - como se puede infectar uno del virus?
-    - como me puedo infectar del vih?
+    - como me puedo infectar del [vih](ets)?
     - como se transmite el sida?
     - como se contagia el sida
     - como es la transmisión del virus?
-    - no se como se transmite el vih?
+    - no se como se transmite el [vih](ets)?
     - no sé cómo se transmite el virus
     - explícame como se transmite el virus
     - nos e muy bien como se pega el virus
@@ -38,24 +38,24 @@ nlu:
     - cuales son las principales vias de contagio?
     - que vias de contagio existen?
     - qué vías de contagio existen
-    - Como me puedo contagiar de VIH?
-    - El unico medio de propagacion del vih es la sangre?
-    - por que medio se propaga el vih?
-    - cuál es el medio de propagación del vih?
-    - porque medio se propaga el vih?
+    - Como me puedo contagiar de [vih](ets)?
+    - El unico medio de propagacion del [vih](ets) es la sangre?
+    - por que medio se propaga el [vih](ets)?
+    - cuál es el medio de propagación del [vih](ets)?
+    - porque medio se propaga el [vih](ets)?
     - vias de contagio por las cuales se propaga
-    - Que capacidad de contagio tiene el VIH?
+    - Que capacidad de contagio tiene el [vih](ets)?
     - ¿Se transmite mediante relaciones sexuales?
-    - el vih se transmite al mantener relaciones sexuales?
-    - el vih se transmite al hacer el amor?
+    - el [vih](ets) se transmite al mantener relaciones sexuales?
+    - el [vih](ets) se transmite al hacer el amor?
     - se transmite al follar?
-    - puedo coger vih al mantener relaciones sexuales?
+    - puedo coger [vih](ets) al mantener relaciones sexuales?
     - puedo pillarlo mientras follo?
     - se transmite mientras follas?
     - se transmite al mantener sexo?
-    - en el sexo, se puede contagiar el vih?
+    - en el sexo, se puede contagiar el [vih](ets)?
     - Cuáles son las causas de contagio?
-    - Cómo se contrae el VIH?
+    - Cómo se contrae el [vih](ets)?
     - como se pega el virus?
     - y como se contagia la gente?
     - como se coge el sida?
@@ -64,14 +64,18 @@ nlu:
     - como se tranmite el sida
     - como se transmite el sida
     - Como puedo contagiar la enfermedad?
-    - como puedo contagiar el vih?
+    - como puedo contagiar el [vih](ets)?
     - como puedo contagiar erl sida?
-    - como se contagia el vih?
+    - como se contagia el [vih](ets)?
     - como se contagia el sida?
-    - como se produce el contagio del vih?
+    - como se produce el contagio del [vih](ets)?
     - como se transmite esta enfermedad?
     - Que vías de contagio son las más comunes?
     - Cuáles son las principales causas de contagio?
+    - como se transmite?
+    - como se transmite la [hepatitis](ets)[hepatitis](ets)
+    - y como se transmite?
+    - como se transmite la [hepatitis](ets)[hepatitis](ets)?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
