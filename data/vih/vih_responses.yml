@@ -1,17 +1,67 @@
 version: "2.0"
 responses:
-  # Básicas
-  utter_definir_vih:
-    - text: El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo 🛡️. Si no se trata a tiempo, puede causar el SIDA.
-  utter_definir_vih_enganche:
-    - buttons:
-        - payload: ¿Cómo se transmite el VIH?
-          title: ¿Cómo se transmite el VIH?
-        - payload: ¿Qué es el SIDA?
-          title: ¿Qué es el SIDA?
-        - payload: ¿Cómo puedo saber si tengo VIH?
-          title: ¿Cómo puedo saber si tengo VIH?
-      text: Si sabes lo básico sobre el VIH estarás protegido y podrás prevenir su transmisión. 💪
+  #---------------------
+  # --- DEFINICIONES ---
+  #---------------------
+  utter_definir:
+    # VIH
+    - condition:
+      - type: slot
+        name: ets
+        value: "vih"
+      text: "El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo 🛡️. Si no se trata a tiempo, puede causar el SIDA. \n\n Si sabes lo básico sobre el VIH estarás protegido y podrás prevenir su transmisión. 💪"
+      buttons:
+          - payload: ¿Cómo se transmite el VIH?
+            title: ¿Cómo se transmite el VIH?
+          - payload: ¿Qué es el SIDA?
+            title: ¿Qué es el SIDA?
+          - payload: ¿Cómo puedo saber si tengo VIH?
+            title: ¿Cómo puedo saber si tengo VIH?
+    # SIDA
+    - condition:
+      - type: slot
+        name: ets
+        value: "sida"
+      text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.\n\n Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas."
+      buttons:
+          - payload: ¿Qué es una infección oportunista?
+            title: ¿Qué es una infección oportunista?
+          - payload: ¿Cuándo se tiene SIDA?
+            title: ¿Cuándo se tiene SIDA?
+          - payload: ¿Cuál es la diferencia entre VIH y SIDA?
+            title: ¿Cuál es la  VIH y SIDA?
+    # HEPATITIS
+    - condition:
+      - type: slot
+        name: ets
+        value: "hepatitis"
+      text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
+    - text: "¿A que enfermedad de transmisión sexual te refieres?" 
+  
+  #---------------------
+  # --- TRANSMISIONES --
+  #---------------------
+  utter_transmision:
+    # VIH
+    - condition:
+      - type: slot
+        name: ets
+        value: "vih"
+      text: "El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
+      buttons:
+        - payload: ¿Qué es la transmisión vertical?
+          title: ¿Qué es la transmisión vertical 🤰?
+        - payload: ¿Puedo contraer el VIH a través del sexo oral?
+          title: ¿Puedo contraer el VIH a través del sexo oral?
+        - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
+          title: ¿Se contagia a través del sudor, la saliva o las lágrimas?
+    # HEPATITIS
+    - condition:
+      - type: slot
+        name: ets
+        value: "hepatitis"
+      text: "En general, la hepatitis A y la hepatitis E se transmiten a través del contacto con alimentos o agua contaminados con las heces de una persona infectada. \n\n También puede contraer hepatitis E al comer carne de cerdo, ciervo o mariscos poco cocidos."
+    - text: "¿Sobre qué enfermedad quieres saber su transmisión?" 
   utter_cura_vih:
     - text: "Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. \n\n Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
   utter_faq/como_actua_vih:
@@ -65,17 +115,6 @@ responses:
   utter_servicio_publico:
     - text: "La atención sanitaria pública dispone de unidades especializadas para el diagnóstico y tratamiento del VIH 🧑‍⚕️🏥. Algunas incluso tienen asistencia psicológica si se necesita."  
   # Transmisión
-  utter_transmision_vih:
-    - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.
-  utter_transmision_vih_enganche:
-    - buttons:
-        - payload: ¿Qué es la transmisión vertical?
-          title: ¿Qué es la transmisión vertical 🤰?
-        - payload: ¿Puedo contraer el VIH a través del sexo oral?
-          title: ¿Puedo contraer el VIH a través del sexo oral?
-        - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
-          title: ¿Se contagia a través del sudor, la saliva o las lágrimas?
-      text: Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia.
   utter_transmite_aire:
     - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
@@ -244,17 +283,6 @@ responses:
     - text: "Aquí abajo te explico como utilizar correctamente un preservativo 👇."
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/male_condom.gif"
   # Sida
-  utter_definir_sida:
-    - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades"
-  utter_definir_sida_enganche:
-    - buttons:
-        - payload: ¿Qué es una infección oportunista?
-          title: ¿Qué es una infección oportunista?
-        - payload: ¿Cuándo se tiene SIDA?
-          title: ¿Cuándo se tiene SIDA?
-        - payload: ¿Cuál es la diferencia entre VIH y SIDA?
-          title: ¿Cuál es la  VIH y SIDA?
-      text: Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas.
   utter_sida_vs_vih:
     - text: "El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado ❌🛡️. \n\n En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas 🦠 que suponen un grave riesgo para la persona que padece este síndrome."
   utter_faq/cuando_se_tiene:
@@ -385,9 +413,5 @@ responses:
         url: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf"
   utter_faq/asociaciones:
     - text: "Existen muchos colectivos de personas que ayudan a las personas con VIH. Una de las más relevantes en España es <a target='_blank' href='https://cesida.org/'>CESIDA (Coordinadora estatal de VIH y sida)</a>. \n\n A través de su web puedes contactar con ellos ☝️."
-  utter_definir_hepatitis:
-    - text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
-  utter_transmision_hepatitis:
-    - text: "En general, la hepatitis A y la hepatitis E se transmiten a través del contacto con alimentos o agua contaminados con las heces de una persona infectada. \n\n También puede contraer hepatitis E al comer carne de cerdo, ciervo o mariscos poco cocidos."
   utter_preguntar_ets:
     - text: "¿A que enfermedad de transmisión sexual te refieres?"  

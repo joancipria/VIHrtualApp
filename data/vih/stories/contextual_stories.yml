@@ -1,103 +1,19 @@
 version: "2.0"
 stories:
-- story: Definir VIH y SIDA (indirecto)
+- story: Definir 
   steps:
   - intent: definir
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
-  - action: utter_definir_vih
-  - action: utter_definir_vih_enganche
+  - action: utter_definir
   - intent: informar
-    entities:
-    - ets: sida
   - slot_was_set:
-    - ets: sida
-  - action: utter_definir_sida
-  - action: utter_definir_sida_enganche
+    - ets
+  - action: utter_definir
 
-- story: Definir VIH + como se transmite (indirecto)
-  steps:
-  - intent: definir
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
-  - action: utter_definir_vih
-  - action: utter_definir_vih_enganche
-  - intent: transmision
-  - action: utter_transmision_vih
-  - action: utter_transmision_vih_enganche
-
-- story: Como se transmite el VIH + hepatitis (indirecto)
+- story: Transmisión 
   steps:
   - intent: transmision
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
-  - action: utter_transmision_vih
-  - action: utter_transmision_vih_enganche
+  - action: utter_transmision
   - intent: informar
-    entities:
-    - ets: hepatitis
   - slot_was_set:
-    - ets: hepatitis
-  - action: utter_transmision_hepatitis
-
-
-- story: Definir hepatitis + VIH (indirecto)
-  steps:
-  - intent: definir
-    entities:
-    - ets: hepatitis
-  - slot_was_set:
-    - ets: hepatitis
-  - action: utter_definir_hepatitis
-  - intent: informar
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
-  - action: utter_definir_vih
-  - action: utter_definir_vih_enganche
-
-- story: Definir hepatitis + como se transmite (indirecto)
-  steps:
-  - intent: definir
-    entities:
-    - ets: hepatitis
-  - slot_was_set:
-    - ets: hepatitis
-  - action: utter_definir_hepatitis
-  - intent: transmision
-  - action: utter_transmision_hepatitis
-
-- story: Como se transmite la hepatitis + VIH (indirecto)
-  steps:
-  - intent: transmision
-    entities:
-    - ets: hepatitis
-  - slot_was_set:
-    - ets: hepatitis
-  - action: utter_transmision_hepatitis
-  - intent: informar
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
-  - action: utter_transmision_vih
-  - action: utter_transmision_vih_enganche
-
-- story: Preguntar por enfermedad
-  steps:
-  - intent: transmision
-  - action: utter_preguntar_ets
-  - intent: informar
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
-  - action: utter_transmision_vih
-  - action: utter_transmision_vih_enganche
+    - ets
+  - action: utter_transmision
