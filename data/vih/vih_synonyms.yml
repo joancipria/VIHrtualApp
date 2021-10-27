@@ -15,7 +15,6 @@ nlu:
 - synonym: hepatitis
   examples: |
     - epatitis
-    - hepatitis
     - heaptitis
     - heapatitis
 - synonym: male_condom
@@ -67,6 +66,7 @@ nlu:
     - chupar polla
     - chupar pollas
     - chupa la polla
+    - chupen la polla
     - chupar coño
     - comerse un coño
     - como un coño
