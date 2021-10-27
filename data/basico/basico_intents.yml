@@ -1029,7 +1029,12 @@ nlu:
     - me refiero al [vih](ets)
     - el [sida](ets)
     - y el [sida](ets)
+    - y el [sida](ets)?
     - y la [hepatitis](ets)?
     - a la [hepatitis](ets)
     - y el [vih](ets)?
     - al [vih](ets)
+    - y que pasa con el [sida](ets)
+    - y que me dices sobre la [hepatitis](ets)
+    - sobre el [sida](ets)
+    - que me cuentas sobre el [vih](ets)?
