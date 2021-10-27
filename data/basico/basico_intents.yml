@@ -1031,3 +1031,5 @@ nlu:
     - y el [sida](ets)
     - y la [hepatitis](ets)?
     - a la [hepatitis](ets)
+    - y el [vih](ets)?
+    - al [vih](ets)
