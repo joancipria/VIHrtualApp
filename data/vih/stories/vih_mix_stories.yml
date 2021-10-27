@@ -52,7 +52,3 @@ stories:
     - action: utter_servicio_publico
     - action: utter_recordar_acudir_medico 
 
-- story: Preguntar sobre sexo
-  steps:
-  - intent: transmision_sexual
-  - action: utter_transmision_sexual
