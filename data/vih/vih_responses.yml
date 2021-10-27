@@ -65,9 +65,9 @@ responses:
   utter_servicio_publico:
     - text: "La atención sanitaria pública dispone de unidades especializadas para el diagnóstico y tratamiento del VIH 🧑‍⚕️🏥. Algunas incluso tienen asistencia psicológica si se necesita."  
   # Transmisión
-  utter_como_contagia:
+  utter_transmision_vih:
     - text: El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas.
-  utter_como_contagia_enganche:
+  utter_transmision_vih_enganche:
     - buttons:
         - payload: ¿Qué es la transmisión vertical?
           title: ¿Qué es la transmisión vertical 🤰?
@@ -96,18 +96,12 @@ responses:
     - text: "El riesgo de contraer el VIH es muy alto si usas las agujas 💉 y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. \n\n Además, también tienes un riesgo elevado de contraer otras enfermedades como hepatitis B o C."
   utter_faq/drogas:
     - text: "Ten en cuenta que el VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Por otra parte, si estas bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo."
-  utter_transmision_sexual:
-    - condition:
-      - type: slot
-        name: tipo_sexo
-        value: "sexo_oral"
-      text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."
-    - condition:
-      - type: slot
-        name: tipo_sexo
-        value: "sexo_anal"
-      text: "El sexo anal es más peligroso que el vaginal."
-    - text: "El sexo es peligroso"
+  utter_transmision_vih_sexo_oral:
+  - text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."
+  utter_transmision_vih_sexo_anal:
+  - text: "El sexo anal es más peligroso que el vaginal."
+  utter_transmision_vih_sexo_vaginal:
+  - text: "La penetración vaginal presenta menos riesgos que la anal."
   utter_faq/carga_viral_indetectable:
     - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
   utter_faq/volver_a_infectarse:
@@ -344,9 +338,7 @@ responses:
       text: Por ejemplo, en <a target='_blank' href='https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/homeCoronavirus.htm'>este link.</a>
   # Glosario
   utter_faq/que_es_ets:
-    - text: Las enfermedades de transmisión sexual (ETS) son enfermedades que pueden pasar de una persona a otra a través del contacto físico íntimo y las actividades sexuales.
-  utter_definir_hepatitis:
-    - text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
+    - text: Las enfermedades de transmisión sexual (ETS) son enfermedades que pueden pasar de una persona a otra a través del contacto físico íntimo y las actividades sexuales.  
   utter_faq/que_es_viremia:
     - text: El término hace referencia a la presencia de un virus en la sangre 🩸🦠.
   utter_faq/que_es_nadir:
@@ -393,3 +385,9 @@ responses:
         url: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf"
   utter_faq/asociaciones:
     - text: "Existen muchos colectivos de personas que ayudan a las personas con VIH. Una de las más relevantes en España es <a target='_blank' href='https://cesida.org/'>CESIDA (Coordinadora estatal de VIH y sida)</a>. \n\n A través de su web puedes contactar con ellos ☝️."
+  utter_definir_hepatitis:
+    - text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
+  utter_transmision_hepatitis:
+    - text: "En general, la hepatitis A y la hepatitis E se transmiten a través del contacto con alimentos o agua contaminados con las heces de una persona infectada. \n\n También puede contraer hepatitis E al comer carne de cerdo, ciervo o mariscos poco cocidos."
+  utter_preguntar_ets:
+    - text: "¿A que enfermedad de transmisión sexual te refieres?"  
