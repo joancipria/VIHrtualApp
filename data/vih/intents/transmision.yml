@@ -73,9 +73,9 @@ nlu:
     - Que vías de contagio son las más comunes?
     - Cuáles son las principales causas de contagio?
     - como se transmite?
-    - como se transmite la [hepatitis](ets)[hepatitis](ets)
+    - como se transmite la [hepatitis](ets)
+    - como se transmite la [hepatitis](ets)?
     - y como se transmite?
-    - como se transmite la [hepatitis](ets)[hepatitis](ets)?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
