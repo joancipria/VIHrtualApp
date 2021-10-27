@@ -1023,3 +1023,10 @@ nlu:
     - reinciar el chat
     - reinicia le chat
     - reinicair el chat
+- intent: informar
+  examples: |
+    - el [vih](ets)
+    - me refiero al [vih](ets)
+    - el [sida](ets)
+    - y el [sida](ets)
+    - y la [hepatitis](ets)?
