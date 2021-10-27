@@ -109,6 +109,8 @@ intents:
     use_entities: true
 - transmision_sexual:
     use_entities: true
+- informar:
+    use_entities: true
 entities:
 - PER
 - tipo_condon
