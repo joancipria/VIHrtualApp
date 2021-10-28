@@ -283,7 +283,7 @@ nlu:
     - cual es la manera correcta de ponerse un preservativo?
     - manera correcta de utilizar los [preservativos femenino](tipo_condon)
     - cómo se deben poner los [preservativos para mujeres](tipo_condon)?
-    - cómo se utiliza un [condon para hombres](tipo_condon)? 
+    - cómo se utiliza un [condon para hombres](tipo_condon)?
     - como se utiliza el preservativo?
     - como se usa un [condón femenino](tipo_condon)?
     - cómo se usa el [condón para chicas](tipo_condon)
@@ -297,7 +297,7 @@ nlu:
     - no se como se usa un [preservativo para chicas](tipo_condon)
     - cómo utilizar [condón vaginal](tipo_condon)
     - como se pone un [preservativo vaginal](tipo_condon)
-    - como me pongo un [condon para vaginas](tipo_condon)? 
+    - como me pongo un [condon para vaginas](tipo_condon)?
     - como me pongo un [condon que es para vaginas](tipo_condon)?
 - intent: como_prevenir
   examples: |
@@ -347,12 +347,15 @@ nlu:
     - como puedo prevenir la infeccion por vih
     - como puedo evitar coger vih?
     - que puedo hacer para no coger el vih
+    - y cual es la mejor manera de prevenir el vih?
+    - y cual es la mejor manera de prevenirlo?
+    - cual es la mejor manera de prevenir el vih?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
     - si tengo vih puedo follar?
     - si tengo el sida puedo mantener relaciones sexuales normales?
-    -cuando estas enfermo de vih puedes continuar teniendo sexo? 
+    - cuando estas enfermo de vih puedes continuar teniendo sexo?
     - si tengo el virus puedo tener sexo?
     - SITENGO EL VIH PUEDO MANTENER RELACIONES?
     - ¿si tengo el vih puedo mantener relaciones sexuales?
@@ -381,7 +384,6 @@ nlu:
     - es eguro mantener sexo con alguien que vive con vih?
     - si me infecto de vih puedo follar sin condon?
     - si tengo vih puedo tener sexo sin proteccion?
-    - si me infecto de vih puedo follar sin condon?
     - si me he infectado puedo follar sin preservativo?
     - Puedo mantener relaciones sexuales si tengo vih?
 - intent: faq/duda_contagio
@@ -398,13 +400,12 @@ nlu:
     - qreo que me han pegado el virus del vih
     - creo que he cogido el vih
     - quizá me he contagiado
-    - creo que puedo haberme infectado 
+    - creo que puedo haberme infectado
     - no sé si me he contagiado
     - no se si me he podido contagiar
     - Sospecho que puedo tener el vih
     - creo que me he infectado
     - sospecho que me he infectado
-    - creo que puedo haberme infectado
     - Que se debe hacer tras un contacto de riesgo
     - qué se debe hacer si piensas que te has podido infectar
     - que hacer si tienes dudas subre si te has infectado
@@ -421,7 +422,7 @@ nlu:
     - Que tengo que hacer si he tenido un contacto sexual de riesgo?
     - Donde puedo acudir si creo que estoy infectado de VIH?
     - donde debo acudir si creo que puedo haberme infectado
-    - dónde puedo acudir si creo que tengo vih? 
+    - dónde puedo acudir si creo que tengo vih?
     - a que sitio puedo ir si creo que me he infectado?
     - dónde debo ir si he cogido el vih?
     - que puedo hacer si creo que tengo vih?
@@ -535,7 +536,7 @@ nlu:
     - como puedo follar sin preocuparme por el vih?
     - se puede tener sexo sin preocuparse por el vih?
     - es posible tener sexo y no arriesgarse a coger vih?
-- intent: faq/peligro_sexo_sin_proteccion
+- intent: sexo_sin_proteccion
   examples: |
     - ¿Es peligroso mantener relaciones sexuales sin preservativo?
     - es arriesgado mantener relaciones sexuales sin proteccion?
@@ -556,6 +557,7 @@ nlu:
     - es seguro mantener relacioens sexuales sin condon?
     - es seguro follar sin preservativos?
     - es seguro mantener relaciones sexuales sin protección?
+    - que pasa si tengo sexo sin condon
 - intent: faq/evitar_vertical
   examples: |
     - ¿Puede evitarse la transmisión vertical?
