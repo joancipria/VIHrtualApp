@@ -193,8 +193,7 @@ responses:
     - text: No es posible saber solo por el aspecto físico si una persona padece VIH.
   # Detección
   utter_saber_si_tengo_vih:
-    - text: "La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico 👩‍⚕️."
-  utter_saber_si_tengo_vih_enganche:
+    - text: "La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico 👩‍⚕️. \n\n Además, en muchos países se venden test de detección en las farmacias."
     - buttons:
         - payload: ¿Existe tratamiento para el VIH?
           title: ¿Existe tratamiento para el VIH?
@@ -202,7 +201,6 @@ responses:
           title: ¿Debería hacerme la prueba?
         - payload: ¿Cuántas personas tienen VIH?
           title: ¿Cuántas personas tienen VIH?
-      text: Además, en muchos países se venden test de detección en las farmacias.
   utter_faq/detectar_tras_contacto:
     - text: "Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
   utter_faq/deberia_hacerme_prueba:
