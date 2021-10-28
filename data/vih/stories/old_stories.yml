@@ -2,18 +2,6 @@ version: "2.0"
 stories:
 - story: Varios
   steps:
-    - intent: que_sintomas
-    - action: utter_que_sintomas
-    - intent: cura_vih
-    - action: utter_cura_vih
-    - intent: existe_tratamiento
-    - action: utter_existe_tratamiento
-    - intent: saber_si_tengo_vih
-    - action: utter_saber_si_tengo_vih
-    - intent: como_prevenir
-    - action: utter_como_prevenir
-    - intent: faq
-    - action: utter_faq
     - intent: quien_riesgo
     - action: utter_quien_riesgo
     - intent: que_riesgo_tengo
