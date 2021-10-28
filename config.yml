@@ -25,13 +25,8 @@ pipeline:
     model_confidence: softmax
     epochs: 100
     constrain_similarities: true
-    entity_recognition: false
   #- name: SpacyEntityExtractor
   #  dimensions: ["PER"]
-  - name: CRFEntityExtractor
-  - name: RegexEntityExtractor
-    case_sensitive: False
-    use_lookup_tables: True
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
