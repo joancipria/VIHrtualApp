@@ -436,20 +436,20 @@ nlu:
     - ¿Puedo contraer VIH si tomo drogas?
 - intent: transmision_sexual
   examples: |
-    - ¿Puedo contraer el VIH mediante las [relaciones sexuales orales](tipo_sexo)?
+    - ¿Puedo contraer el [vih](ets) mediante las [relaciones sexuales orales](tipo_sexo)?
     - es posible contagiarse con el [sexo anal](tipo_sexo)?
-    - ¿Puedo contraer el VIH a través del [sexo oral](tipo_sexo)?
+    - ¿Puedo contraer el [vih](ets) a través del [sexo oral](tipo_sexo)?
     - puedi contraer el virus si mantengo relaciones [sexuales anales](tipo_sexo)?
     - puedo contraer el virus si hago [sexo anal](tipo_sexo)?
-    - si practico mucho [sexo oral](tipo_sexo) puedo coger vih?
-    - con el [sexo vaginal](tipo_sexo) puedo infectarme de vih?
+    - si practico mucho [sexo oral](tipo_sexo) puedo coger [vih](ets)?
+    - con el [sexo vaginal](tipo_sexo) puedo infectarme de [vih](ets)?
     - si hago mucho [sexo oral](tipo_sexo) puedo pillar el virus?
     - practico mucho [sexo anal](tipo_sexo), existe algun riesgo?
     - me gusta mucho el [sexo anal](tipo_sexo), tengo miedo de coger algo
     - puedo infectarme por [chupar una polla](tipo_sexo)?
     - puedo coger el virus por [xupar una poya](tipo_sexo)?
     - hay riesgo si [chupo pollas](tipo_sexo) sin condon?
-    - puedo coger el virus del vih por [chupar una pollar](tipo_sexo) sin condon?
+    - puedo coger el virus del [vih](ets) por [chupar una pollar](tipo_sexo) sin condon?
     - puedo infectarme por [chupar un coño](tipo_sexo)?
     - puedo pillar el virus si [me como un coño](tipo_sexo)?
     - puedo infectarme si mantengo [sexo vaginal](tipo_sexo) sin proteccion?
@@ -461,7 +461,7 @@ nlu:
     - puedo infectarme por hacer una [mamada](tipo_sexo)?
     - existe riesgo de infectarme al hacer una [mamada](tipo_sexo)?
     - podria coger el virus al [comerme un coño](tipo_sexo)?
-    - podria infectarme de vih al [comerme un coño](tipo_sexo)?
+    - podria infectarme de [vih](ets) al [comerme un coño](tipo_sexo)?
     - puedo contraer la enfermedad al [comerme un culo](tipo_sexo)?
     - puedo contraer la enfermedad si me [como un ano](tipo_sexo)?
     - hay riesgo de coger el virus al [hacer un beso negro](tipo_sexo)?
@@ -472,21 +472,21 @@ nlu:
     - me puedo infectar mientras mantengo [sexo vaginal](tipo_sexo)?
     - es peligroso [hacer mamadas](tipo_sexo)?
     - es peligroso el [sexo anal](tipo_sexo)?
-    - haciendo una [mamada](tipo_sexo) puedo coger el vih?
-    - se puede coger el vih [haciendo una mamada](tipo_sexo)?
-    - se puede coger el vih con una [mamada](tipo_sexo)?
+    - haciendo una [mamada](tipo_sexo) puedo coger el [vih](ets)?
+    - se puede coger el [vih](ets) [haciendo una mamada](tipo_sexo)?
+    - se puede coger el [vih](ets) con una [mamada](tipo_sexo)?
     - infectar por [cunnilingus](tipo_sexo)
-    - coger el vih por hacer un [cunilingus](tipo_sexo)
+    - coger el [vih](ets) por hacer un [cunilingus](tipo_sexo)
     - infectar por [anilingus](tipo_sexo)
-    - coger el vih por hacer un [anilingus](tipo_sexo)
+    - coger el [vih](ets) por hacer un [anilingus](tipo_sexo)
     - puedo infectarme por hacer una [felación](tipo_sexo)?
     - me puedo infectar si me hacen una [felacion](tipo_sexo)?
     - infectarse por [felacion](tipo_sexo)
-    - puedo coger el vih por una [mamada](tipo_sexo)
-    - si me [comen la polla](tipo_sexo) me pueden pasar el vih?
-    - si me [comen el coño](tipo_sexo) me pueden pasar el vih?
-    - si me [me como una polla](tipo_sexo) puedo coger el vih?
-    - si me [como un coño](tipo_sexo) puedo coger el vih?
+    - puedo coger el [vih](ets) por una [mamada](tipo_sexo)
+    - si me [comen la polla](tipo_sexo) me pueden pasar el [vih](ets)?
+    - si me [comen el coño](tipo_sexo) me pueden pasar el [vih](ets)?
+    - si me [me como una polla](tipo_sexo) puedo coger el [vih](ets)?
+    - si me [como un coño](tipo_sexo) puedo coger el [vih](ets)?
     - infectarse por [comer un coño](tipo_sexo)
     - infectarse por [comer una vagina](tipo_sexo)
     - infectarse por [comer una ano](tipo_sexo)
@@ -497,36 +497,36 @@ nlu:
     - infección por [chupar coño](tipo_sexo)
     - me puedo infectar por [hacer una felacion](tipo_sexo)?
     - me podria infectar por [comer coños](tipo_sexo)?
-    - Puedo practicar [sexo oral](tipo_sexo) si tengo vih?
-    - Si [le chupo la polla](tipo_sexo) a un positivo en vih puedo contagiame?
-    - Si [se le chupo el coño](tipo_sexo) a un positivo en vih puedo contagiarme?
+    - Puedo practicar [sexo oral](tipo_sexo) si tengo [vih](ets)?
+    - Si [le chupo la polla](tipo_sexo) a un positivo en [vih](ets) puedo contagiame?
+    - Si [se le chupo el coño](tipo_sexo) a un positivo en [vih](ets) puedo contagiarme?
     - Me puedo contagiar manteniendo [sexo oral](tipo_sexo)?
-    - puedo infetcarme de vih si me [dan por el culo](tipo_sexo)?
-    - si tengo [sexo por el culo](tipo_sexo) puedo coger vih?
-    - por [hacer una mamada](tipo_sexo) puedo coger el vih?
-    - puedes coger el vih por [hacer una mamada](tipo_sexo)?
+    - puedo infetcarme de [vih](ets) si me [dan por el culo](tipo_sexo)?
+    - si tengo [sexo por el culo](tipo_sexo) puedo coger [vih](ets)?
+    - por [hacer una mamada](tipo_sexo) puedo coger el [vih](ets)?
+    - puedes coger el [vih](ets) por [hacer una mamada](tipo_sexo)?
     - [hacer una mamda](tipo_sexo) es peligroso?
     - [comer una polla](tipo_sexo) es peligroso?
     - es posible contagiarse con el [sexo oral](tipo_sexo)?
     - es peligroso [dar por el culo](tipo_sexo)?
     - es peligoros el [sexo oral](tipo_sexo)?
     - puedo pillar el virus si me [meto una polla por el culo](tipo_sexo)?
-    - es posible coger vih por [lamer coño](tipo_sexo)?
-    - por [comerle el coño](tipo_sexo) a alguien puedes contraer el vih?
-    - por [comerle la polla](tipo_sexo) a un tio puedes pillar el vih?
-    - por [comerle el pene](tipo_sexo) puedes coger el vih?
-    - una mujer puede infectarse de vih si tienen [sexo anal](tipo_sexo) con un hombre?
-    - una tia puede contraer el vih si tiene [sexo anal](tipo_sexo) con un hombre?
-    - el vih se transmite mediante [sexo anal](tipo_sexo)?
+    - es posible coger [vih](ets) por [lamer coño](tipo_sexo)?
+    - por [comerle el coño](tipo_sexo) a alguien puedes contraer el [vih](ets)?
+    - por [comerle la polla](tipo_sexo) a un tio puedes pillar el [vih](ets)?
+    - por [comerle el pene](tipo_sexo) puedes coger el [vih](ets)?
+    - una mujer puede infectarse de [vih](ets) si tienen [sexo anal](tipo_sexo) con un hombre?
+    - una tia puede contraer el [vih](ets) si tiene [sexo anal](tipo_sexo) con un hombre?
+    - el [vih](ets) se transmite mediante [sexo anal](tipo_sexo)?
     - puedo contagiarme por [hacer una mamada](tipo_sexo)
     - puedo contagiarme si me [dan por el culo](tipo_sexo)?
-    - si me [meten el pene por el culo](tipo_sexo) puedo coger el vih?
-    - podria llegar a infectarme de vih mientras realizo una [felación](tipo_sexo)?
-    - podria llegar a coger el virus del vih si realizo [mamadas](tipo_sexo)?
-    - una mujer puede contraer el vih si tiene [sexo oral](tipo_sexo) con un hombre?
-    - una mujer puede contraer el vih si le hace una [mamada](tipo_sexo) a un hombre?
-    - una mujer puede contraer el vih si le [chupa la polla](tipo_sexo) a un hombre?
-    - una persona puede contraer el vih teniendo [sexo oral](tipo_sexo) con un hombre que tiene vih
+    - si me [meten el pene por el culo](tipo_sexo) puedo coger el [vih](ets)?
+    - podria llegar a infectarme de [vih](ets) mientras realizo una [felación](tipo_sexo)?
+    - podria llegar a coger el virus del [vih](ets) si realizo [mamadas](tipo_sexo)?
+    - una mujer puede contraer el [vih](ets) si tiene [sexo oral](tipo_sexo) con un hombre?
+    - una mujer puede contraer el [vih](ets) si le hace una [mamada](tipo_sexo) a un hombre?
+    - una mujer puede contraer el [vih](ets) si le [chupa la polla](tipo_sexo) a un hombre?
+    - una persona puede contraer el [vih](ets) teniendo [sexo oral](tipo_sexo) con un hombre que tiene [vih](ets)
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?

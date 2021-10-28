@@ -42,7 +42,7 @@ responses:
   # --- TRANSMISIONES --
   #---------------------
   utter_transmision:
-    # VIH
+    # VIH (Genérica)
     - condition:
       - type: slot
         name: ets
@@ -54,14 +54,43 @@ responses:
         - payload: ¿Puedo contraer el VIH a través del sexo oral?
           title: ¿Puedo contraer el VIH a través del sexo oral?
         - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
-          title: ¿Se contagia a través del sudor, la saliva o las lágrimas?
+          title: ¿Se contagia a través del sudor, la saliva o las lágrimas?   
     # HEPATITIS
     - condition:
       - type: slot
         name: ets
         value: "hepatitis"
       text: "En general, la hepatitis A y la hepatitis E se transmiten a través del contacto con alimentos o agua contaminados con las heces de una persona infectada. \n\n También puede contraer hepatitis E al comer carne de cerdo, ciervo o mariscos poco cocidos."
-    - text: "¿Sobre qué enfermedad quieres saber su transmisión?" 
+    - text: "¿Sobre qué enfermedad quieres saber como se transmite?" 
+  utter_transmision_sexual:
+    # VIH (Sexo oral)
+    - condition:
+#      - type: slot
+#        name: ets
+#        value: "vih"
+      - type: slot
+        name: tipo_sexo
+        value: "sexo_oral"
+      text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."    
+    # VIH (Sexo anal)
+    - condition:
+#      - type: slot
+#        name: ets
+#        value: "vih"
+      - type: slot
+        name: tipo_sexo
+        value: "sexo_anal"
+      text: "El sexo anal presenta más riesgos que el vaginal." 
+    # VIH (Sexo vaginal)
+    - condition:
+#      - type: slot
+#        name: ets
+#        value: "vih"
+      - type: slot
+        name: tipo_sexo
+        value: "sexo_vaginal"
+      text: "La penetración vaginal presenta menos riesgos que la anal." 
+    - text: "Eso depende del tipo se sexo. ¿Te refieres a sexo oral, anal o vaginal?" 
   utter_cura_vih:
     - text: "Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. \n\n Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
   utter_faq/como_actua_vih:
@@ -135,12 +164,6 @@ responses:
     - text: "El riesgo de contraer el VIH es muy alto si usas las agujas 💉 y otros elementos (como los recipientes para mezclar las drogas, el algodón o el agua) que haya usado otra persona que tenga el VIH. \n\n Además, también tienes un riesgo elevado de contraer otras enfermedades como hepatitis B o C."
   utter_faq/drogas:
     - text: "Ten en cuenta que el VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Por otra parte, si estas bajo el efecto de otras drogas (como el alcohol o el cannabis), es más probable que tome decisiones que aumenten el riesgo de contraer el VIH como, por ejemplo, tener relaciones sexuales sin preservativo."
-  utter_transmision_vih_sexo_oral:
-  - text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."
-  utter_transmision_vih_sexo_anal:
-  - text: "El sexo anal es más peligroso que el vaginal."
-  utter_transmision_vih_sexo_vaginal:
-  - text: "La penetración vaginal presenta menos riesgos que la anal."
   utter_faq/carga_viral_indetectable:
     - text: Las personas seropositivas que tienen carga viral indetectable realmente no presentan riesgo de transmitir la infección a sus parejas seronegativas durante las relaciones sexuales.
   utter_faq/volver_a_infectarse:
@@ -413,5 +436,5 @@ responses:
         url: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf"
   utter_faq/asociaciones:
     - text: "Existen muchos colectivos de personas que ayudan a las personas con VIH. Una de las más relevantes en España es <a target='_blank' href='https://cesida.org/'>CESIDA (Coordinadora estatal de VIH y sida)</a>. \n\n A través de su web puedes contactar con ellos ☝️."
-  utter_preguntar_ets:
-    - text: "¿A que enfermedad de transmisión sexual te refieres?"  
+  utter_preguntar_sabe_usar_preservativo:
+    - text: "La principal medida para tener relaciones sexuales seguras es usar preservativo. ¿Sabes utilizarlos?"

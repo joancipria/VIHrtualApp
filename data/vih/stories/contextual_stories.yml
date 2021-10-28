@@ -17,3 +17,25 @@ stories:
   - slot_was_set:
     - ets
   - action: utter_transmision
+
+- story: Transmisión sexual
+  steps:
+  - intent: transmision_sexual
+  - action: utter_transmision_sexual
+#  - intent: informar
+#  - slot_was_set:
+#    - ets
+#  - action: utter_transmision_sexual
+  - action: utter_preguntar_sabe_usar_preservativo
+  
+- story: Sabe utilizar preservativo
+  steps:
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: afirmar
+  - action: utter_reaccionar_positivamente
+
+- story: No sabe utilizar preservativo
+  steps:
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: negar
+  - action: action_como_usar_preservativo
