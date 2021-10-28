@@ -69,7 +69,7 @@ intents:
     use_entities: true
 - saber_si_tengo_vih:
     use_entities: true
-- que_sintomas:
+- sintomas:
     use_entities: true
 - cura_vih:
     use_entities: true
@@ -110,6 +110,8 @@ intents:
 - transmision_sexual:
     use_entities: true
 - informar:
+    use_entities: true
+- sexo_sin_proteccion:
     use_entities: true
 entities:
 - PER

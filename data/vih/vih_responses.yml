@@ -185,7 +185,7 @@ responses:
   utter_sexo_con_drogadictos:
     - text: "El VIH se contagia por el uso de drogas inyectables en las que se comparte material con una persona infectada. \n\n Por tanto, existe mayor riesgo de contagio al mantener relaciones sexuales."
   # Síntomas
-  utter_que_sintomas:
+  utter_sintomas:
     - text: "Algunas personas pueden sentirse enfermas como si tuvieran la gripe en las 2 a 4 semanas siguientes a la infección 🤒 (etapa 1 de la infección por el VIH). \n\n Pero otras podrían no sentirse enfermas durante esta etapa. La única forma de saber con seguridad si tienes el VIH es hacerse la prueba."
   utter_faq/vih_sin_sintomas:
     - text: El VIH puede convivir durante años en el organismo sin que el portador lo sepa y durante ese tiempo puede infectar a otras personas si no toma las medidas de prevención adecuadas.
@@ -291,7 +291,7 @@ responses:
     - text: "Compartir maquinillas o agujas es una práctica de alto riesgo y son conductas que deben evitarse."
   utter_faq/sexo_seguro:
     - text: "Puedes utilizar preservativos, son altamente eficaces para prevenir la infección por el VIH, otras enfermedades de transmisión sexual (ETS) y evitar embarazos no deseados."
-  utter_faq/peligro_sexo_sin_proteccion:
+  utter_sexo_sin_proteccion:
   - text: "Las relaciones sexuales sin protección pueden ser peligrosas debido al contagio de enfermedades infecciosas que se transmiten por esa vía. \n\n Por tanto, se recomienda que las relaciones sexuales se practiquen con protección."
   utter_faq/evitar_vertical:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
