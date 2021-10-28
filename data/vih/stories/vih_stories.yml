@@ -6,16 +6,8 @@ stories:
   - action: utter_saludar
   - action: utter_ofrecer_ayuda
   - intent: definir
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
   - action: utter_definir
   - intent: transmision
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
   - action: utter_transmision
   - intent: como_prevenir
   - action: utter_como_prevenir
@@ -25,12 +17,8 @@ stories:
 - story: Definir VIH y SIDA + diferencia
   steps:
   - intent: definir
-  - slot_was_set:
-    - ets: vih
   - action: utter_definir
   - intent: definir
-  - slot_was_set:
-    - ets: sida
   - action: utter_definir
   - intent: sida_vs_vih
   - action: utter_sida_vs_vih
@@ -43,10 +31,6 @@ stories:
   - action: utter_saludar
   - action: utter_ofrecer_ayuda
   - intent: definir
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
   - action: utter_definir
   - intent: informar
     entities:
@@ -61,27 +45,17 @@ stories:
   - action: utter_saludar
   - action: utter_ofrecer_ayuda
   - intent: transmision
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
   - action: utter_transmision
   - intent: sexo_sin_proteccion
   - action: utter_sexo_sin_proteccion
   - intent: protege_marcha_atras
   - action: utter_protege_marcha_atras
   - intent: sintomas
-  - slot_was_set:
-    - ets: vih
   - action: utter_sintomas
 
 - story: VIH - Transmisión, cura, y tratamiento
   steps:
   - intent: transmision
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
   - action: utter_transmision
   - intent: cura_vih
   - action: utter_cura_vih
@@ -93,10 +67,6 @@ stories:
 - story: VIH - Sintomas, saber si tengo y prevencion
   steps:
   - intent: sintomas
-    entities:
-    - ets: vih
-  - slot_was_set:
-    - ets: vih
   - action: utter_sintomas
   - intent: saber_si_tengo_vih
   - action: utter_saber_si_tengo_vih
