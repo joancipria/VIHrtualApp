@@ -184,6 +184,7 @@ nlu:
     - Con la marcha atrás puedo evitar coger VIH?
     - Sacar el pene antes de que el hombre llegue al clímax evita que la mujer se contagie del VIH durante las relaciones sexuales?
     - sacar la polla antes de correrse evita que me pueda contagiar de vih
+    - y la marcha atras protege contra el vih?
 - intent: faq/protege_preservativo_femenino
   examples: |
     - ¿El preservativo femenino también protege de la infección por VIH?
