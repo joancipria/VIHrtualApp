@@ -29,14 +29,14 @@ responses:
           - payload: ¿Cuándo se tiene SIDA?
             title: ¿Cuándo se tiene SIDA?
           - payload: ¿Cuál es la diferencia entre VIH y SIDA?
-            title: ¿Cuál es la  VIH y SIDA?
+            title: ¿Cuál es la diferencia entre VIH y SIDA?
     # HEPATITIS
     - condition:
       - type: slot
         name: ets
         value: "hepatitis"
       text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
-    - text: "¿A que enfermedad de transmisión sexual te refieres?" 
+    - text: "¿A qué enfermedad de transmisión sexual te refieres?" 
   
   #---------------------
   # --- TRANSMISIONES --
@@ -47,7 +47,7 @@ responses:
       - type: slot
         name: ets
         value: "vih"
-      text: "El VIH se transmite cuando existe un intercambio de fluidos como la sangre, el semen, el flujo vaginal y la leche materna, desde una persona con VIH a otra sin VIH. La saliva, los flemas, la orina y las heces no pueden transmitirlo. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
+      text: "El VIH se transmite cuando existe un intercambio de fluidos como la sangre, el semen, el flujo vaginal y la leche materna, desde una persona con VIH a otra sin VIH. La saliva, las flemas, la orina y las heces no pueden transmitirlo. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
       buttons:
         - payload: ¿Qué es la transmisión vertical?
           title: ¿Qué es la transmisión vertical 🤰?
@@ -90,7 +90,7 @@ responses:
         name: tipo_sexo
         value: "sexo_vaginal"
       text: "Se puede contraer el VIH si tiene relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas." 
-    - text: "Eso depende del tipo se sexo. ¿Te refieres a sexo oral, anal o vaginal?" 
+    - text: "Eso depende del tipo de sexo. ¿Te refieres a sexo oral, anal o vaginal?" 
   utter_cura_vih:
     - text: "Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. \n\n Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
   utter_faq/como_actua_vih:
@@ -116,9 +116,9 @@ responses:
   utter_faq/tipos_vih:
     - text: "Se diferencian dos tipos de VIH: el VIH-1 y el VIH-2. El VIH-2 es endémico de África y generalmente requiere más tiempo hasta desarrollar SIDA. \n\n En los países occidentales prevalece el VIH-1."
   utter_faq/diferencia_tipos_vih:
-    - text: "El VIH-1 es el más común y considerado responsable de la epidemia mundial mientras que el VIH-2 se encuentra principalmente localizado en África Oriental y es raro fuera de esta región. \n\n El VIH-2 se diferencia del VIH-1 en que suele producir una enfermedad menos agresiva, que evoluciona más lentamente y con menor deterioro del sistema inmunitario; la transmisión vertical (madre-hijo) parece ser más difícil. Algunos tratamientos no funcionan de igual manera frente e ambos virus."
+    - text: "El VIH-1 es el más común y considerado responsable de la epidemia mundial mientras que el VIH-2 se encuentra principalmente localizado en África Oriental y es raro fuera de esta región. \n\n El VIH-2 se diferencia del VIH-1 en que suele producir una enfermedad menos agresiva, que evoluciona más lentamente y con menor deterioro del sistema inmunitario; la transmisión vertical (madre-hijo) parece ser más difícil. Algunos tratamientos no funcionan de igual manera frente a ambos virus."
   utter_faq/donar_sangre:
-    - text: "Las personas que padecen VIH no pueden donar sangre, ya que el virus se contagia a través de esta. \n\n En los años 90 hubo casos de infecciones a partir de transfusiones de sangre pero hoy día a toda la sangre donada se le realizan varias pruebas para la detección de enfermedades."
+    - text: "Las personas que padecen VIH no pueden donar sangre, ya que el virus se contagia a través de esta. \n\n En los años 90 hubo casos de infecciones a partir de transfusiones de sangre, pero hoy día a toda la sangre donada se le realizan varias pruebas para la detección de enfermedades."
   utter_quien_riesgo:
     - text: "Quienes mayor riesgo tiene de contagio son aquellas personas que mantienen relaciones sexuales sin protección y los consumidores de drogas inyectables."
   utter_faq/vida_normal_vih:
@@ -132,15 +132,15 @@ responses:
   utter_faq/fases_vih:
     - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y SIDA."
   utter_faq/peligros_vih:
-    - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otra infecciones y ciertos tipos de cáncer."
+    - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otras infecciones y ciertos tipos de cáncer."
   utter_faq/enfermas_mas_facilmente:
     - text: "Si no se trata, el VIH ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones oportunistas y ciertos tipos de cáncer relacionados con el VIH."
   utter_faq/se_continua_investigando:
-    - text: "Todavía quedan muchas cosas por saber sobre el VIH, incluido un tratamiento para curarlo o una vacuna para evitarlo. \n\n De ahí que se continúe haciendo muchísimas investigación contra este virus."
+    - text: "Todavía quedan muchas cosas por saber sobre el VIH, incluido un tratamiento para curarlo o una vacuna para evitarlo. \n\n De ahí que se continúe haciendo muchísimas investigaciones contra este virus."
   utter_faq/es_mortal_vih:
     - text: "Tratado a tiempo el VIH no es mortal, pero sí crónico. \n\n Las personas con VIH pueden llevar una vida larga y saludable."
   utter_faq/portador:
-    - text: "Sí, muchas personas tienen el virus y pueden pasar años sin desarrollar sintomas o estos son tan leves que pasan desapercibidos."
+    - text: "Sí, muchas personas tienen el virus y pueden pasar años sin desarrollar síntomas o estos son tan leves que pasan desapercibidos."
   utter_servicio_publico:
     - text: "La atención sanitaria pública dispone de unidades especializadas para el diagnóstico y tratamiento del VIH 🧑‍⚕️🏥. Algunas incluso tienen asistencia psicológica si se necesita."  
   # Transmisión
@@ -157,7 +157,7 @@ responses:
   utter_compartir_wc:
     - text: "El VIH no se contagia por usar el mismo inodoro que una persona con VIH. \n\n Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
   utter_faq/tatuajes:
-    - text: "Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. \n\n Si quieres hacerte un tatuaje o una perforación corporal asegurate de que la persona que lo haga cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados."
+    - text: "Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. \n\n Si quieres hacerte un tatuaje o una perforación corporal asegúrate de que la persona que lo haga cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados."
   utter_faq/alimentos:
     - text: "No se puede contraer VIH por consumir alimentos que haya tocado una persona infectada por el VIH. \n\n Aunque los alimentos contuvieran pequeñas cantidades de sangre o semen infectado con VIH, la exposición al aire, el calor de la cocción y los ácidos estomacales destruirían el virus."
   utter_faq/inyectar_droga:
@@ -227,7 +227,7 @@ responses:
   utter_faq/cuantos_medicamentos:
     - text: "Los fármacos antirretrovirales aprobados contra el VIH pertenecen a siete clases distintas. Esta clasificación se realiza según la forma en que afectan el ciclo de vida de ese virus e incluyen: \n\n \n* Inhibidores de la transcriptasa inversa análogos de los nucleósidos (ITIN) \n* Inhibidores de la transcriptasa inversa no análogos de los nucleósidos (ITINN) \n* Inhibidores de la proteasa (IP) \n* Inhibidores de la fusión \n* Antagonistas de CCR5 \n* Inhibidores de posfijación \n* Inhibidores de la transferencia de cadenas de la integrasa"
   utter_faq/que_es_efectos_secundarios:
-    - text: "Los efectos secundarios son efectos no deseados causados por los fármacos 💊. \n\n La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. \n\n Otros en cambio pueden ser más graves y requieren comunicarselo al médico 👨‍⚕️."
+    - text: "Los efectos secundarios son efectos no deseados causados por los fármacos 💊. \n\n La mayoría son leves, como dolor de estómago, mareos o diarrea y se van después de dejar de tomar el fármaco. \n\n Otros en cambio pueden ser más graves y requieren comunicárselo al médico 👨‍⚕️."
   utter_faq/que_es_interaccion_entre_medicamentos:
     - text: "Una interacción entre medicamentos (o medicamentosa) es una reacción entre dos (o más) fármacos o entre un fármaco y un alimento 💊🍎. \n\n Esta interacción puede afectar a la forma de funcionar el fármaco o causar efectos secundarios indeseados."
   utter_faq/ensayos_clinicos:
@@ -235,7 +235,7 @@ responses:
   utter_faq/tratamiento_adicional:
     - text: "Además de los fármacos, las personas que padecen VIH pueden requerir orientación y apoyo psicosocial. \n\n Tener una nutrición sana, un nivel básico de higiene y el ejercicio físico también pueden ayudarles a mantener su calidad de vida."
   utter_faq/cuanto_dura_tratamiento:
-    - text: "Hoy por hoy es indefinido. Se están investigando estrategias para alcanzar lo que se denomina cura funcional, lo que permitiría que en el futuro pueda no se necesario mantener el tratamiento de por vida."
+    - text: "Hoy por hoy es indefinido. Se están investigando estrategias para alcanzar lo que se denomina cura funcional, lo que permitiría que en el futuro pueda no ser necesario mantener el tratamiento de por vida."
   utter_faq/no_tomar_medicamentos:
     - text: "Si se abandona el tratamiento, la infección por VIH seguiría la evolución conocida que acaba con el fallecimiento del paciente."
   utter_donde_atendido_vih:
@@ -296,7 +296,7 @@ responses:
   utter_faq/evitar_vertical:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/concebir:
-    - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada ya que debe tomar algunas medidas específicas para evitar que el bebé se infecte. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
+    - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada, ya que debe tomar algunas medidas específicas para evitar que el bebé se infecte. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
   utter_instrucciones_preservativo_femenino:
     - text: "Aquí abajo te explico como utilizar correctamente un preservativo femenino 👇."
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/female_condom.gif"
@@ -358,7 +358,7 @@ responses:
     - text: "El ejercicio físico es muy beneficioso y recomendable para todas las personas y de manera especial para las que tienen VIH. \n\n No sólo mejora nuestro estado de salud, sino que ayuda a prevenir algunas complicaciones asociadas a la infección o al tratamiento."
   # Enfermedades asociadas
   utter_faq/que_es_infeccion_oportunista:
-    - text: "Es un infección que ocurre con más frecuencia, o que es más grave, en las personas inmunodeprimidas que en las personas con un sistema inmunitario sano. \n\n Estas infecciones pueden suponer un grave riesgo en las personas seropositivas."
+    - text: "Es una infección que ocurre con más frecuencia, o que es más grave, en las personas inmunodeprimidas que en las personas con un sistema inmunitario sano. \n\n Estas infecciones pueden suponer un grave riesgo en las personas seropositivas."
   utter_faq/que_es_linfoma:
     - text: "Es un tipo de cáncer relacionado con los tejidos del sistema linfático, como los ganglios linfáticos, el bazo y la médula ósea. \n\n En las personas con VIH, ciertos linfomas, como el de Burkitt o el linfoma no Hodgkin, son afecciones características del SIDA."
   utter_faq/que_es_neumonia_pneumocystis:
@@ -405,7 +405,7 @@ responses:
   utter_faq/que_es_comorbilidad:
     - text: "Es cuando una persona tiene dos o más enfermedades o trastornos al mismo tiempo. \n\n Esto conlleva una complicación en el tratamiento farmacológico, un mayor gasto farmacéutico y puede conllevar mayores efectos secundarios y menor supervivencia.  \n\n Las comorbilidades más habituales en el VIH son la hepatitis C u otras enfermedades de transmisión sexual (ETS)."
   utter_faq/que_es_serodiscordante:
-    - text: Se llama a una relación serodiscordante cuando una de las personas de la pareja en la está infectada por el VIH y la otra no.
+    - text: Se llama a una relación serodiscordante cuando una de las personas de la pareja está infectada por el VIH y la otra no.
   utter_faq/que_es_seroconcordante:
     - text: Es cuando en una relación las dos personas están infectadas por el VIH.
   utter_faq/que_es_cd4:
@@ -422,12 +422,12 @@ responses:
   utter_faq/sida_homosexuales:
     - text: En absoluto, el VIH puede infectar a cualquier persona que no tome las medidas de prevención adecuadas sea cual sea su orientación sexual.
   utter_faq/deporte_competicion:
-    - text: "Dado que todavía existe mucho estigma en relación al VIH, las personas que practican deporte a nivel profesional no suelen decirlo. \n\n Sin embargo, el deportista de triatlones de alto rendimiento, como el Titan Dessert, Jordi Sandor sí hizo pública su condición de persona seropositiva."
+    - text: "Dado que todavía existe mucho estigma en relación con el VIH, las personas que practican deporte a nivel profesional no suelen decirlo. \n\n Sin embargo, el deportista de triatlones de alto rendimiento, como el Titan Dessert, Jordi Sandor sí hizo pública su condición de persona seropositiva."
   utter_faq/convivir_persona_vih:
     - text: "Vivir y relacionarse con una persona con VIH es completamente seguro si no se tienen prácticas de riesgo (como compartir jeringuillas o tener relaciones sexuales sin protección)."
   # Info adicional
   utter_faq/documento_adicional_mujeres:
-    - text: "Puedes consultar esta guía orientada al VIH en la mujeres 👇."
+    - text: "Puedes consultar esta guía orientada al VIH en las mujeres 👇."
       custom: 
         payload: pdf_attachment
         title: "Las mujeres y el VIH"
