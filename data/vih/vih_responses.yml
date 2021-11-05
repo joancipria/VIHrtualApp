@@ -47,14 +47,14 @@ responses:
       - type: slot
         name: ets
         value: "vih"
-      text: "El VIH se transmite por el contacto con sangre, esperma, flujo vaginal y leche materna, que ingresan en el organismo a través de mucosas o heridas. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
+      text: "El VIH se transmite cuando existe un intercambio de fluidos como la sangre, el semen, el flujo vaginal y la leche materna, desde una persona con VIH a otra sin VIH. La saliva, los flemas, la orina y las heces no pueden transmitirlo. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
       buttons:
         - payload: ¿Qué es la transmisión vertical?
           title: ¿Qué es la transmisión vertical 🤰?
         - payload: ¿Puedo contraer el VIH a través del sexo oral?
           title: ¿Puedo contraer el VIH a través del sexo oral?
-        - payload: ¿Se contagia a través del sudor, la saliva o las lágrimas?
-          title: ¿Se contagia a través del sudor, la saliva o las lágrimas?   
+        - payload: ¿Protege la marcha atrás del VIH?
+          title: ¿Protege la marcha atrás del VIH?   
     # HEPATITIS
     - condition:
       - type: slot
@@ -71,7 +71,7 @@ responses:
       - type: slot
         name: tipo_sexo
         value: "sexo_oral"
-      text: "Para las personas VIH negativas, las probabilidades de contraer el VIH a través de las relaciones sexuales orales con una persona VIH positiva son extremadamente bajas. \n\n Sin embargo, si se pueden contraer otras enfermedades de transmisión sexual."    
+      text: "Aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."    
     # VIH (Sexo anal)
     - condition:
 #      - type: slot
@@ -80,7 +80,7 @@ responses:
       - type: slot
         name: tipo_sexo
         value: "sexo_anal"
-      text: "El sexo anal presenta más riesgos que el vaginal." 
+      text: "Se puede contraer el VIH si tiene relaciones sexuales anales con alguien que tiene el VIH sin usar protección. \n\n Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo, ya que la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH." 
     # VIH (Sexo vaginal)
     - condition:
 #      - type: slot
@@ -89,7 +89,7 @@ responses:
       - type: slot
         name: tipo_sexo
         value: "sexo_vaginal"
-      text: "La penetración vaginal presenta menos riesgos que la anal." 
+      text: "Se puede contraer el VIH si tiene relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas." 
     - text: "Eso depende del tipo se sexo. ¿Te refieres a sexo oral, anal o vaginal?" 
   utter_cura_vih:
     - text: "Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. \n\n Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
@@ -110,7 +110,7 @@ responses:
   utter_faq/es_importante_saber_tengo_vih:
     - text: "Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento lo antes posible y adoptar hábitos de vida saludables \n\n. Además, podrás evitar que otras personas se infecten."
   utter_faq/infeccion_aguda_vih:
-    - text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable. 🔬⚠️ \n\n "
+    - text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable mediante la prueba. 🔬⚠️"
   utter_faq/infeccion_cronica_vih:
     - text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
   utter_faq/tipos_vih:
@@ -130,7 +130,7 @@ responses:
   utter_faq/es_posible_evitar_avance_vih:
     - text: "Los tratamientos actuales son muy efectivos y es posible detener el avance del virus durante décadas."
   utter_faq/fases_vih:
-    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por tres fases: infección aguda, infección crónica y SIDA."
+    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y SIDA."
   utter_faq/peligros_vih:
     - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otra infecciones y ciertos tipos de cáncer."
   utter_faq/enfermas_mas_facilmente:
@@ -280,7 +280,7 @@ responses:
   utter_faq/rompe_preservativo:
     - text: "Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. \n\n Si se ha roto en la vagina, puede que necesites recurrir a la 'píldora del día después' que debes tomar antes de 72 horas para evitar los embarazos no deseados."
   utter_como_prevenir:
-    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones de manera correcta cada vez que tenga relaciones sexuales. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). \n\n Si tienes el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas."
+    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones (masculinos o femeninos) de manera correcta cada vez que tenga relaciones sexuales. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP)."
   utter_faq/sexo_con_vih:
     - text: "Se pueden mantener relaciones sexuales pero siempre recurriendo a medidas de protección para evitar contagiar a otras personas o contraer otras infecciones de transmisión sexual. \n\n La principal medida para evitar la trasnmisión del virus es estar recibiendo un tratamiento antirretroviral que haya logrado mantener una carga viral indetectable."
   utter_faq/duda_contagio:
@@ -296,7 +296,7 @@ responses:
   utter_faq/evitar_vertical:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/concebir:
-    - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada ya que debe tomar algunas medidas específicas. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
+    - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada ya que debe tomar algunas medidas específicas para evitar que el bebé se infecte. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
   utter_instrucciones_preservativo_femenino:
     - text: "Aquí abajo te explico como utilizar correctamente un preservativo femenino 👇."
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/female_condom.gif"
@@ -387,7 +387,7 @@ responses:
       text: Por ejemplo, en <a target='_blank' href='https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/homeCoronavirus.htm'>este link.</a>
   # Glosario
   utter_faq/que_es_ets:
-    - text: Las enfermedades de transmisión sexual (ETS) son enfermedades que pueden pasar de una persona a otra a través del contacto físico íntimo y las actividades sexuales.  
+    - text: "Las enfermedades de transmisión sexual (ETS) son aquellas que se contagian por las relaciones sexuales, tanto a través del sexo vaginal, anal u oral. \n\n Para evitarlas es necesario adoptar medidas de prevención como el uso del preservativo."  
   utter_faq/que_es_viremia:
     - text: El término hace referencia a la presencia de un virus en la sangre 🩸🦠.
   utter_faq/que_es_nadir:
