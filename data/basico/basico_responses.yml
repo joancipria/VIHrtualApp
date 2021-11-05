@@ -216,5 +216,5 @@ responses:
        ¿Me lo podrías decir de otra forma? 🙏
   utter_recordar_acudir_medico:
   - text: Si crees que puedes haberte infectado, contacta con tu médico de atención primaria y él se encargará de hacerte la prueba 🧑‍⚕️.
-  - text: "Si sospechas que puedes estar infectado, no lo dudes: acude a tu centro sanitario primario y tu médico se de hacerte la prueba 🩺."
+  - text: "Si sospechas que puedes estar infectado, no lo dudes: acude a tu centro sanitario primario y tu médico se encargará de hacerte la prueba 🔬."
   - text: "Si crees que puedes estar infectado acude a tu centro sanitario primario 🏥 y allí tu médico se encargará de hacerte la prueba."
