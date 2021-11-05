@@ -33,6 +33,7 @@ nlu:
     - preservativo en el pene
     - condón en la polla
     - presrvativo en el pene
+    - condon externo
 - synonym: female_condom
   examples: |
     - condon femenino
@@ -52,6 +53,7 @@ nlu:
     - condon en la vagina
     - preservativo en la vagina
     - condon para vaginas
+    - condon interno
 - synonym: sexo_oral
   examples: |
     - sexo oral
