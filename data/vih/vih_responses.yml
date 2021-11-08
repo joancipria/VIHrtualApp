@@ -61,7 +61,7 @@ responses:
         name: ets
         value: "hepatitis"
       text: "En general, la hepatitis A y la hepatitis E se transmiten a través del contacto con alimentos o agua contaminados con las heces de una persona infectada. \n\n También puede contraer hepatitis E al comer carne de cerdo, ciervo o mariscos poco cocidos."
-    - text: "¿Sobre qué enfermedad quieres saber como se transmite?" 
+    - text: "¿Sobre qué enfermedad quieres saber cómo se transmite?" 
   utter_transmision_sexual:
     # VIH (Sexo oral)
     - condition:
