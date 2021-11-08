@@ -13,6 +13,7 @@ nlu:
     - no tengo claro que esl el [vih](ets)
     - no tengo claro q significa el [vih](ets)
     - que es el [vih](ets)
+    - dime que es el [vih](ets)!
     - que es [vih](ets)
     - que significa [vih](ets)
     - q es el [vih](ets)
@@ -496,6 +497,7 @@ nlu:
     - cómo es la primera fase del virus?
     - como es el primer tramo de la enfermedad
     - cual es la primera fase de la enfermedad
+    - cual es la primera fase del vih?
 - intent: faq/infeccion_cronica_vih
   examples: |
     - ¿Qué es la Infección crónica por el VIH?
@@ -809,6 +811,7 @@ nlu:
     - dime qué etapas hay en el vih
     - por qué etapas pasa una persona con vih?
     - cuales son las diferentes etapas del vih?
+    - cuantas fases del vih existen?
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?

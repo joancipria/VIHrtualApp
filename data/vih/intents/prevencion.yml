@@ -299,6 +299,9 @@ nlu:
     - como se pone un [preservativo vaginal](tipo_condon)
     - como me pongo un [condon para vaginas](tipo_condon)?
     - como me pongo un [condon que es para vaginas](tipo_condon)?
+    - como se usa un [condon interno](tipo_condon)
+    - como se usa un [condon externo](tipo_condon)
+    - como se usa un condon
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
@@ -350,6 +353,10 @@ nlu:
     - y cual es la mejor manera de prevenir el vih?
     - y cual es la mejor manera de prevenirlo?
     - cual es la mejor manera de prevenir el vih?
+    - cual es el método más efectivo de prevenir el vih?
+    - como prevenir la infeccion por vih
+    - como puedo prevenir lka infeccion del vih
+    - como se puede evitar?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -427,6 +434,11 @@ nlu:
     - dónde debo ir si he cogido el vih?
     - que puedo hacer si creo que tengo vih?
     - Que tramite he de seguir si tengo el VIH?
+    - puede que haya cogido el vih
+    - puede que me haya infectado de vih
+    - puede que me hayan pasado el vih
+    - creo que podría haberme infectado de vih
+    - creo que podría haber contraido el vih
 - intent: faq/contagio_pareja
   examples: |
     - ¿Si mi pareja tiene VIH, debo realizarme la prueba?
@@ -558,6 +570,16 @@ nlu:
     - es seguro follar sin preservativos?
     - es seguro mantener relaciones sexuales sin protección?
     - que pasa si tengo sexo sin condon
+    - el sexon sin proteccion puede hacer que me infecte de vih?
+    - ayer follé sin protección
+    - follar sin condon
+    - follamos sin preservativos
+    - hacer el amor sin preservativo
+    - tener sexo sin protección
+    - sexo sin condón
+    - hace dos semanas tuve relaciones sexuales sin proteccion
+    - si tengo sexo sin proteccion puedo infectarme de vih?
+    - si tengo sexo sin condon puedo coger el vih?
 - intent: faq/evitar_vertical
   examples: |
     - ¿Puede evitarse la transmisión vertical?
@@ -607,6 +629,10 @@ nlu:
     - como puedo no contagiar a mi bebe?
     - puedo evitar contagiar a mi bebe?
     - como evito pasarselo a mi hijo?
+    - que medias se pueden tomar para no infectar al bebe con la leche materna?
+    - qué medidas debe tomar una mujer embarazada para no infectar al feto?
+    - prevenir transmitirle el VIH a mi bebé
+    - prevenir la transmisión de madre a hijo
 - intent: faq/concebir
   examples: |
     - ¿Si tengo VIH tendré problemas para concebir?
@@ -629,3 +655,4 @@ nlu:
     - qué problemas puede tener una mujer si tiene vih y quiere tener hijos?
     - pueden surgir problemas al tener hijos si tienes vih?
     - pueden surgir problemas a la hora de tener hijos si tienes vih?
+    - si a mi mujer le han dectectado vih podra tener hijos?

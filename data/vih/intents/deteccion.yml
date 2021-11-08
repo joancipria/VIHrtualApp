@@ -118,6 +118,9 @@ nlu:
       - tu crees que deberia hacerme la prueba del vih?
       - no se si deberia hacerme la prueba
       - estoy dudando si hacerme la prueba del vih
+      - a quienes se recomienda realizarse la prueba?
+      - a quien se recomienda hacerse la prueba del vih?
+      - deberia hacerme la prueba?
   - intent: faq/negativo_pareja
     examples: |
       - ¿Si el resultado de mi test es negativo, mi pareja es negativa también?
@@ -202,6 +205,11 @@ nlu:
       - cómo puedo solicitar una prueba de vih?
       - como puedo pedir que me hagan el test del vih?
       - donde puedo solicitar que me hagan la prueba de vih?
+      - como me puedo hacer la prueba del vih?
+      - como puedo hacerme la prueba del vih
+      - como puedo hacerme una prueba de vih
+      - como puedo realizarme un aprueba de vih?
+      - como podría hacerme una prueba?
   - intent: faq/detectar_con_analitica
     examples: |
       - ¿Es posible detectar el VIH a través de una analítica?

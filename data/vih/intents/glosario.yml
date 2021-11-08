@@ -25,6 +25,9 @@ nlu:
       - qué es una enfermedad venérea?
       - que son las enfermedades venéreas
       - que son las enfermedades venéreas
+      - que son las enfermedades de tranbsmision sexual?
+      - que son las eteses?
+      - que son las ets?
   - intent: faq/que_es_viremia
     examples: |
       - ¿Qué es la viremia?

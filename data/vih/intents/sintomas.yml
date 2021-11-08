@@ -55,6 +55,21 @@ nlu:
     - qué síntomas pueden tener las personas en la etapa 1 de la infeccion
     - sintomas de la etapa 1 del vih
     - que sintomas suelen aparecer cuanto tienes vih?
+    - cuales son los sintomas tipicos del vih?
+    - cuales son los sintoams tipicos del vih
+    - sintomas típicos del vih
+    - la fiebre y la tos suelen ser sintomas del vih?
+    - si tengo fiebre puedo tener vih?
+    - si tengo fiebre puede significar que tenga vih?
+    - y que sintomas presenta?
+    - que sintomas suele presentar?
+    - cuales son los síntomas mas comunes del vih?
+    - sintomatologia del vih
+    - sintomsa que suele presentar el vih
+    - que signos suele presentar el vih
+    - como se manifiesta el vih
+    - de que manera se manifiesta el vih
+    - cómo se manifiesta el virus?
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

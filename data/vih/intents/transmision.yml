@@ -76,6 +76,7 @@ nlu:
     - como se transmite la [hepatitis](ets)
     - como se transmite la [hepatitis](ets)?
     - y como se transmite?
+    - ¿Cómo se transmite el [VIH](ets)?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -161,6 +162,7 @@ nlu:
     - no se muy bien que significa la transmisin vertical
     - Explícame que es la transmisosn vertical
     - No sé lo que es la transmisión vertical
+    - que significa transmision vertical?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -527,6 +529,8 @@ nlu:
     - una mujer puede contraer el [vih](ets) si le hace una [mamada](tipo_sexo) a un hombre?
     - una mujer puede contraer el [vih](ets) si le [chupa la polla](tipo_sexo) a un hombre?
     - una persona puede contraer el [vih](ets) teniendo [sexo oral](tipo_sexo) con un hombre que tiene [vih](ets)
+    - si practico [sexo oral](tipo_sexo) sin protección puedo infectarme de [vih](ets)?
+    - si practico [sexo anal](tipo_sexo) sin condon puedo coger el [vih](ets)?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -626,6 +630,10 @@ nlu:
     - toda mujer con vih tendra hijos con vih?
     - si estoy embarazada mis hijos tendran vih?
     - todas las mujeres embarazdas y con vih tienen hijos infectados?
+    - ¿El VIH se puede transmitir de madre a bebé?
+    - El VIH se puede pasar de madre a hijos?
+    - se puede transmitir el vih de padres a hijos?
+    - se transmite verticalmente el vih?
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?
