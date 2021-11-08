@@ -70,6 +70,11 @@ nlu:
     - como se manifiesta el vih
     - de que manera se manifiesta el vih
     - cómo se manifiesta el virus?
+    - y qué sintomatologia presenta?
+    - que síntomas suele presentar el vih?
+    - sintomas más tipicos del vih
+    - cuales son los tipicos sintomas del vih
+    - cuales son los sintomas mas comunes del vih
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

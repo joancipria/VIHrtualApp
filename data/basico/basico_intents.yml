@@ -161,6 +161,9 @@ nlu:
     - yo también
     - yo tambien
     - estoy de acuerdo
+    - sep
+    - seep
+    - sepp
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien

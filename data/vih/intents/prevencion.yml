@@ -357,6 +357,10 @@ nlu:
     - como prevenir la infeccion por vih
     - como puedo prevenir lka infeccion del vih
     - como se puede evitar?
+    - que medidas de prevencion hay
+    - que técnicas de prevención hay?
+    - que acciones puedo tomar para prevenir el vih
+    - medidas de prevención frente al vih
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?

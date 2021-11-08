@@ -812,6 +812,13 @@ nlu:
     - por qué etapas pasa una persona con vih?
     - cuales son las diferentes etapas del vih?
     - cuantas fases del vih existen?
+    - el vih tiene fases?
+    - el vih pasa por disntintas fases?
+    - por que fases pasa el vih?
+    - dime por que fases pasa un enfermo de vih
+    - fases or las que suele pasar el vih
+    - cuales son las distintas fases del vih
+    - fases por las cuales suele pasar el vih
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?
