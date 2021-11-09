@@ -48,13 +48,13 @@ responses:
         name: ets
         value: "vih"
       text: "El VIH se transmite cuando existe un intercambio de fluidos como la sangre, el semen, el flujo vaginal y la leche materna, desde una persona con VIH a otra sin VIH. La saliva, las flemas, la orina y las heces no pueden transmitirlo. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
-      buttons:
-        - payload: ¿Qué es la transmisión vertical?
-          title: ¿Qué es la transmisión vertical 🤰?
-        - payload: ¿Puedo contraer el VIH a través del sexo oral?
-          title: ¿Puedo contraer el VIH a través del sexo oral?
-        - payload: ¿Protege la marcha atrás del VIH?
-          title: ¿Protege la marcha atrás del VIH?   
+      # buttons:
+      #   - payload: ¿Qué es la transmisión vertical?
+      #     title: ¿Qué es la transmisión vertical 🤰?
+      #   - payload: ¿Puedo contraer el VIH a través del sexo oral?
+      #     title: ¿Puedo contraer el VIH a través del sexo oral?
+      #   - payload: ¿Protege la marcha atrás del VIH?
+      #     title: ¿Protege la marcha atrás del VIH?   
     # HEPATITIS
     - condition:
       - type: slot
@@ -129,8 +129,22 @@ responses:
     - text: "Actualmente, una persona infectada por el VIH controlada con tratamiento antirretroviral tiene una esperanza de vida similar a la de una persona no infectada por el virus 😊."
   utter_faq/es_posible_evitar_avance_vih:
     - text: "Los tratamientos actuales son muy efectivos y es posible detener el avance del virus durante décadas."
+#  utter_faq/fases_vih:
+#    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y finalmente, SIDA."
   utter_faq/fases_vih:
-    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y SIDA."
+  - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y finalmente, SIDA."
+    custom:
+      payload: cardsCarousel
+      data:
+      - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa1.svg
+        name: Etapa 1
+        title: Etapa 1
+      - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa2.svg
+        name: Etapa 2
+        title: Etapa 2
+      - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa3.svg
+        name: Etapa 3
+        title: Etapa 3
   utter_faq/peligros_vih:
     - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otras infecciones y ciertos tipos de cáncer."
   utter_faq/enfermas_mas_facilmente:
@@ -434,5 +448,14 @@ responses:
         url: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf"
   utter_faq/asociaciones:
     - text: "Existen muchos colectivos de personas que ayudan a las personas con VIH. Una de las más relevantes en España es <a target='_blank' href='https://cesida.org/'>CESIDA (Coordinadora estatal de VIH y sida)</a>. \n\n A través de su web puedes contactar con ellos ☝️."
+  # Experimental
   utter_preguntar_sabe_usar_preservativo:
-    - text: "La principal medida para tener relaciones sexuales seguras es usar preservativo. ¿Sabes utilizarlos?"
+    - text: "La principal medida para tener relaciones sexuales seguras es usar preservativo. ¿Sabes utilizarlo?"
+  utter_preguntar_vih_transmision_oral:
+    - text: "¿Crees se puede contraer el VIH a través del sexo oral?"
+  utter_responder_vih_transmision_oral:
+    - text: "La verdad es que, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
+  utter_responder_vih_sabe_transmision_oral:
+    - text: "En efecto, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
+  utter_recordar_ventana:
+    - text: "De todas maneras, ten en cuenta que existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
