@@ -786,39 +786,39 @@ nlu:
     - se puede pausar el vih?
 - intent: faq/fases_vih
   examples: |
-    - ¿Qué fases tiene el VIH?
-    - que fases tiene el vih?
-    - fases del vih
-    - cuales son las fases del vih?
-    - por que fases pasa el virus del vih?
-    - por qué fases pasa la enfermedad del vih?
-    - La enfermedad del VIh tiene diversas fases o estadios?
+    - ¿Qué fases tiene el [vih](ets)?
+    - que fases tiene el [vih](ets)?
+    - fases del [vih](ets)
+    - cuales son las fases del [vih](ets)?
+    - por que fases pasa el virus del [vih](ets)?
+    - por qué fases pasa la enfermedad del [vih](ets)?
+    - La enfermedad del [vih](ets) tiene diversas fases o estadios?
     - cuantas fases hay?
-    - cuántas fases tiene el vih?
-    - cuantas fases tiene el vih
-    - cuales son las fases por las que pasa alguien con vih
-    - que fases o estadíos tiene el vih?
-    - por cuantas fases pasa el vih?
-    - cuales son las distintas fases o estados por los que pasa alguien con vih?
-    - cuales son los diferentes estados por los que pasa alguien con vih?
-    - en que fases se desarrollá el vih?
-    - por cuanats fases pasa el vih?
-    - Etapas del VIH
-    - cuantas etatpas tienen el vih
-    - por cuantas fases pasa el vih
-    - cuantas etapas hay en el vih
-    - etapas de la infeccion por vih
-    - dime qué etapas hay en el vih
-    - por qué etapas pasa una persona con vih?
-    - cuales son las diferentes etapas del vih?
-    - cuantas fases del vih existen?
-    - el vih tiene fases?
-    - el vih pasa por disntintas fases?
-    - por que fases pasa el vih?
-    - dime por que fases pasa un enfermo de vih
-    - fases or las que suele pasar el vih
-    - cuales son las distintas fases del vih
-    - fases por las cuales suele pasar el vih
+    - cuántas fases tiene el [vih](ets)?
+    - cuantas fases tiene el [vih](ets)
+    - cuales son las fases por las que pasa alguien con [vih](ets)
+    - que fases o estadíos tiene el [vih](ets)?
+    - por cuantas fases pasa el [vih](ets)?
+    - cuales son las distintas fases o estados por los que pasa alguien con [vih](ets)?
+    - cuales son los diferentes estados por los que pasa alguien con [vih](ets)?
+    - en que fases se desarrollá el [vih](ets)?
+    - por cuanats fases pasa el [vih](ets)?
+    - Etapas del [vih](ets)
+    - cuantas etatpas tienen el [vih](ets)
+    - por cuantas fases pasa el [vih](ets)
+    - cuantas etapas hay en el [vih](ets)
+    - etapas de la infeccion por [vih](ets)
+    - dime qué etapas hay en el [vih](ets)
+    - por qué etapas pasa una persona con [vih](ets)?
+    - cuales son las diferentes etapas del [vih](ets)?
+    - cuantas fases del [vih](ets) existen?
+    - el [vih](ets) tiene fases?
+    - el [vih](ets) pasa por disntintas fases?
+    - por que fases pasa el [vih](ets)?
+    - dime por que fases pasa un enfermo de [vih](ets)
+    - fases or las que suele pasar el [vih](ets)
+    - cuales son las distintas fases del [vih](ets)
+    - fases por las cuales suele pasar el [vih](ets)
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?
