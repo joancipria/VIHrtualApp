@@ -4,77 +4,78 @@ nlu:
   examples: |
     - SINTOMAS??
     - que sintomaas?
-    - ¿Qué síntomas muestra el VIH?
-    - que sintomas tiene el vih
-    - q síntomas muestra el vih
-    - sintomas el vih
-    - que sintomatologia muestra el vih
-    - que sintomas puece tener el vih
+    - ¿Qué síntomas muestra el [vih](ets)?
+    - que sintomas tiene el [vih](ets)
+    - q síntomas muestra el [vih](ets)
+    - sintomas el [vih](ets)
+    - que sintomatologia muestra el [vih](ets)
+    - que sintomas puece tener el [vih](ets)
     - q sintomatologia tiene el sida
     - dime los sintomas que muestra el virus
-    - dime qué sintomas puede mostrar el vih
-    - que sintomas con caracteristicos del vih?
-    - que sintomas son comunes cuando se tiene vih?
-    - si tengo vih, que sintomas suele mostrar?
-    - si tengo vih, que sintomas suelen haber?
-    - que sintomas suelen haber cuando se tiene vih
-    - cuales son los sintomas más comunes del vih
+    - dime qué sintomas puede mostrar el [vih](ets)
+    - que sintomas con caracteristicos del [vih](ets)?
+    - que sintomas son comunes cuando se tiene [vih](ets)?
+    - si tengo [vih](ets), que sintomas suele mostrar?
+    - si tengo [vih](ets), que sintomas suelen haber?
+    - que sintomas suelen haber cuando se tiene [vih](ets)
+    - cuales son los sintomas más comunes del [vih](ets)
     - q sintomas son los mas comunes del sida
-    - no se que sintomas tiene el vih
-    - si una persona tiene vih, que sintomas suele mostrar?
+    - no se que sintomas tiene el [vih](ets)
+    - si una persona tiene [vih](ets), que sintomas suele mostrar?
     - q síntomas muestra el virus
     - cuando te infectas, que sintomas tienes?
-    - que sintomas tiene una persona con vih?
-    - que siente una persona cuando coge el vih?
+    - que sintomas tiene una persona con [vih](ets)?
+    - que siente una persona cuando coge el [vih](ets)?
     - que siente una persona cuand se infecta?
     - cuando te infectas, que sintomas suelen aparecer?
-    - que sintomas son los más comunes cuando se coge vih
+    - que sintomas son los más comunes cuando se coge [vih](ets)
     - cuales suelen ser los sitomas que muesta la enfermedad
-    - explciame cuales son los sintomas principales del vih
-    - sintomas principales del vih
-    - principal sintomatologia del vih
-    - que sintomas se suponen que presenta el vih
+    - explciame cuales son los sintomas principales del [vih](ets)
+    - sintomas principales del [vih](ets)
+    - principal sintomatologia del [vih](ets)
+    - que sintomas se suponen que presenta el [vih](ets)
     - cuales son los sintomas
-    - El vih tiene sintomas?
-    - El vih presenta sintomas?
+    - El [vih](ets) tiene sintomas?
+    - El [vih](ets) presenta sintomas?
     - El dolor de cabeza puede ser un síntoma?
     - puede ser el dolor de cabeza un sintoma?
     - el dolor de cabeza es un sintoma
-    - si me duele la cabeza puede ser un sintoma de vih?
-    - Que sintomas produce el VIH?
-    - qué sintomas suele producir el vih?
+    - si me duele la cabeza puede ser un sintoma de [vih](ets)?
+    - Que sintomas produce el [vih](ets)?
+    - qué sintomas suele producir el [vih](ets)?
     - Cuáles son los síntomas?
-    - Cuales son los sintomas del vih
-    - Cuales son los síntomas del VIH?
+    - Cuales son los sintomas del [vih](ets)
+    - Cuales son los síntomas del [vih](ets)?
     - Y cuales son los síntomas del SIDA?
-    - que sintomas presentan las personas con vih
+    - que sintomas presentan las personas con [vih](ets)
     - Y qué síntomas pueden ser visibles?
     - que sintomas suelen haber?
     - sintomas en la primera etapa de la infección
     - que sintomas pueden aparecer en la primera fase de la infeccion
     - qué síntomas pueden tener las personas en la etapa 1 de la infeccion
-    - sintomas de la etapa 1 del vih
-    - que sintomas suelen aparecer cuanto tienes vih?
-    - cuales son los sintomas tipicos del vih?
-    - cuales son los sintoams tipicos del vih
-    - sintomas típicos del vih
-    - la fiebre y la tos suelen ser sintomas del vih?
-    - si tengo fiebre puedo tener vih?
-    - si tengo fiebre puede significar que tenga vih?
+    - sintomas de la etapa 1 del [vih](ets)
+    - que sintomas suelen aparecer cuanto tienes [vih](ets)?
+    - cuales son los sintomas tipicos del [vih](ets)?
+    - cuales son los sintoams tipicos del [vih](ets)
+    - sintomas típicos del [vih](ets)
+    - la fiebre y la tos suelen ser sintomas del [vih](ets)?
+    - si tengo fiebre puedo tener [vih](ets)?
+    - si tengo fiebre puede significar que tenga [vih](ets)?
     - y que sintomas presenta?
     - que sintomas suele presentar?
-    - cuales son los síntomas mas comunes del vih?
-    - sintomatologia del vih
-    - sintomsa que suele presentar el vih
-    - que signos suele presentar el vih
-    - como se manifiesta el vih
-    - de que manera se manifiesta el vih
+    - cuales son los síntomas mas comunes del [vih](ets)?
+    - sintomatologia del [vih](ets)
+    - sintomsa que suele presentar el [vih](ets)
+    - que signos suele presentar el [vih](ets)
+    - como se manifiesta el [vih](ets)
+    - de que manera se manifiesta el [vih](ets)
     - cómo se manifiesta el virus?
     - y qué sintomatologia presenta?
-    - que síntomas suele presentar el vih?
-    - sintomas más tipicos del vih
-    - cuales son los tipicos sintomas del vih
-    - cuales son los sintomas mas comunes del vih
+    - que síntomas suele presentar el [vih](ets)?
+    - sintomas más tipicos del [vih](ets)
+    - cuales son los tipicos sintomas del [vih](ets)
+    - cuales son los sintomas mas comunes del [vih](ets)
+    - que sintomas tiene?
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?
