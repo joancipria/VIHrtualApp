@@ -1,253 +1,250 @@
 version: "2.0"
-
 nlu:
-  - intent: saber_si_tengo_vih
-    examples: |
-      - ¿Cómo puedo saber si tengo VIH?
-      - ¿Cómo sé si tengo el VIH?
-      - como se si tengo vih
-      - como se si tengo sida o vih
-      - como se yo si he tenido vih
-      - y como puedo saber si tengo vih?
-      - como puedo saber si tengo vih?
-      - como puedo saber si tengo sida?
-      - como podria saber is he cogido el VIH?
-      - cómo puedo saber con seguridad si he pillado el vih?
-      - saber si he pillado el vih
-      - saber si tengo el vih
-      - Saber si estoy infectado
-      - saber si he cogido el vih
-      - como puedo saber si me he contagiado de vih
-      - como podria saber si me he infectado de vih
-      - saber si tengo sida
-      - saber si me he contagiado
-      - como saber si me he contagiado
-      - ¿Cómo se si me he contagiado?
-      - ¿Cómo puedo saber si me he infectado?
-      - Forma de saber si me he contagiado
-      - como puedo saber su me e contagiado dek virus
-      - de que forma peudo saber si me he infectado
-      - de que forma puedo saber si me he contagiado
-      - de que forma se puede comprobar si tengo vih
-      - de que forma puedo comprobar si tengo el vih
-      - comprobar si tengo vih
-      - comprobar que no tego vih
-      - comprobar que he cogido sida
-      - puedes ayudarme a saber si tengo sida?
-      - ayudame a saber si tengo vih
-      - ayudame, como puedo saber si tengo vih?
-      - podrias ayudarme a dterminar si tengo el vih?
-      - tu puedes ayudarme a saber si tengo el vih?
-      - Cómo sé si estoy contagiado de vih?
-      - como se si estoy contagiado
-      - saber si tengo el vih
-      - como se si tengo el virus?
-      - como puedo saber si tengo vih?
-      - Cómo saber si tengo VIH
-      - Tengo vih? 
-      - Tengo sida?
-  - intent: faq/detectar_tras_contacto
-    examples: |
-      - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
-      - cuando es posible detectar la presencia del vih despues de un contacto de riesgo?
-      - cuando se puede detectar el virus tras una infeccion?
-      - cuand se puede saber si estas infectado tras un contacto de riesgo?
-      - cuando se puede diagnosticar el virus tras un contacto de riesgo?
-      - ¿Cuándo es posible detectar el virus tras una infección?
-      - en que momento se puede detectar el virus despues de una posible infección?
-      - en q momento se puede diagnosticar vih tras de un posible contacto?
-      - ¿Qué tiempo hay desde que se produce el contagio hasta que se detecta?
-      - cuanto tiempo pasa desde que te contagias hasta que se detecta?
-      - cuanto tiempo pasa desde q te contagias asta q se diagnostica?
-      - ¿Qué tiempo debe pasar para poder detectar el virus?
-      - cuanto tiempo debe pasar para detectar la presencia del sida
-      - a partir de cuando es posible detectar el virus tras un contacto de riesgo?
-      - a partir de que dia se puede saber si tiene svih tras un contacto de riesgo?
-      - cuantos dias deben de pasar para detectar la presencia dle virus despues de un cntagio de riesgo?
-      - cuantos dias debo esperar para que se me pueda diagnosticar el vih
-      - ¿Cuánto tiempo tiene que pasar para poder detectar el VIH?
-      - cuanto tiempo ha de pasar para que se pueda detectar el virus?
-      - cuantos meses tienen que pasar para poder saber si estoy infectado?
-      - a aprtir de que dia se puede detectar la presencia del virus?
-      - a partir de cuantos dias es posible dar positivo?
-      - cuanto tiempo puede pasar desde que te contagias asta que das positivo?
-      - cuando se puede saber que tienes el virus despues de haber follado sin condon
-      - depsues de un contacto de riesgo, cuantos dias debo de epserar para que se pueda detectar el virus?
-      - despues de follar sin condon, cuantos dias deberia de esperaar para saber si soy positivo?
-      - tras un contacto de riesgo, cuando se podria detectar la infección?
-      - creo que me lo pegaron, cuantos dias tendria que esperar para hacerme la prueba?
-      - creo que he cogido sido, cuantos dias tengo que esperar para que se pueda detectar el virus?
-      - tengo sida, cuanto tiempo tengo que esperar para que se pueda detectar en la prueba?
-      - un test de vih una semana despues de la infección puede detectar el virus?
-      - a partir de cuando se puede ver si me he infectado?
-      - a partir de cuantos dias se puede saber si me he infectado?
-      - la prueba del vih una semana después de haber mantenido relaciones sexuales le dirá a una persona si tiene el vih
-      - la prueba del vih puede detectar una semana despues de haber tenido sexo si me he infectado?
-      - una semana despues de un contacto de riesgo la prueba puede detectar el vih?
-      - hacerse la prueba del vih una semana despues de una practica de riesgo es efectivo?
-      - cuantos dias tengo que esperar para saber si me he infectado de vih?
-      - si me hago la prueba la semana siguiente de haber tenido sexo, la prueba detectará el virus del vih?
-  - intent: faq/deberia_hacerme_prueba
-    examples: |
-      - ¿Debería hacerme la prueba del VIH?
-      - deberia hacerme la prueba?
-      - debería hacerme la prueba?
-      - deberia acerme la prueva del vih?
-      - debo hacerme una pribea de vih?
-      - deberia acer el test del sida?
-      - deberia tomar el test del vih?
-      - ¿Debo hacerme la prueba de VIH?
-      - tengo que hacerme la prueba del vih?
-      - tengo hacer el test del vih?
-      - crees quetengo que hacerme la prueba de vih?
-      - crees que debo hacerme la prueba?
-      - oye deberia hacerme la prueba para saaber si tengo vih?
-      - debo hacerme la prueba para saber ocn seguridad si tengo el sida?
-      - debo hacerme la prueba para saber con seguridad si tengo el vih?
-      - debo hacerme la prueba para saber si estoy infectdo?
-      - hacerme la prueba y saber si estoy infectado
-      - debo realizarme la prueba?
-      - ¿Debería realizarme la prueba del VIH?
-      - ¿He de hacerme la prueba del VIH?
-      - ¿Debería hacerme el test del VIH?
-      - ¿Debo tomar un test de VIH?
-      - ¿Debería comprobar si tengo VIH?
-      - ¿Debería comprobar si me he infectado por VIH?
-      - debo comprobar con u test si tengo el vih?
-      - dedo hacerme la prueba o un test de vih?
-      - tu crees que deberia hacerme la prueba del vih?
-      - no se si deberia hacerme la prueba
-      - estoy dudando si hacerme la prueba del vih
-      - a quienes se recomienda realizarse la prueba?
-      - a quien se recomienda hacerse la prueba del vih?
-      - deberia hacerme la prueba?
-  - intent: faq/negativo_pareja
-    examples: |
-      - ¿Si el resultado de mi test es negativo, mi pareja es negativa también?
-      - si me hago el test y doy negativo, mi pareja es negativa tambien?
-      - si yo doy negativo, mi pareja es negativa tambien?
-      - si yo soy negativo mi pareja tambien lo es?
-      - si me hago la prueba y doy negativo, mi novia tambien dará negativo?
-      - si mi novio ha dado negativo, yo soy negativa?
-      - si mi novio ha dado negativo eso significa que yo tambien soy negativo?
-      - mi pareja ha dado negativo, seguramnete yo tambien sere negativo
-      - si mi marido ha dado negagativo, yo tambien daré negativo?
-      - mi novio no tiene vih, lo tendré yo?
-      - la de mi mujer ha salido negativa, yo tambien sere negativo?
-      - si la prueba le ha salido bien a mi novio, yo tampoco tendre vih?
-  - intent: faq/como_es_prueba
-    examples: |
-      - ¿En qué consiste la prueba del VIH?
-      - en que consiste el test del vih?
-      - en qué consiste la prueba
-      - cómo es la prueba del VIH?
-      - como es la prueba del vih
-      - como es el test del vih?
-      - como es la prueba para detectar el vih?
-      - en que consiste la prueba para detectar el sida?
-      - En que consiste la prueba de diagnóstico?
-      - cómo es la prueba para saber si tienes vih?
-      - en que consisnte la prueba para detectar el virus?
-      - como son las pruebas de deteccion de vih?
-      - komo es la prueva del vih
-      - explicame como son las pruebas del vih
-      - como funcionan los tests para detectar el vih
-      - como funcionan las pruebas para detectar el sida
-      - en k consisten los tests para el vih
-      - como son las pruebaspara detectar el virus?
-      - como funcionan los tests que detectan el vih?
-      - como funcionan los test de deteccion de vih?
-      - explciame como van las pruebas de vih
-      - las pruebas de deteccion del vih como funcionan?
-      - los tests para detectar el virus como funcionan?
-      - me podrias decir en q coniste la prueba del vih?
-  - intent: solicitar_prueba
-    examples: |
-      - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
-      - donde puedo pedir que me hagan la prueba del vih?
-      - donde puedo solicitar un test de vih?
-      - dónde puedo pedir un test para el vih?
-      - a quien le puedo pedir que me haga la prueba del vih?
-      - a quien le tengo que solicitar o pedir que me hagan la prueba?
-      - dónde hacen la prueba del vih?
-      - donde acen el test para el vih?
-      - ¿DONDE PUEDO REALIZARME LA PREUBA DE VIH??
-      - donde puedo realizarme la prueba?
-      - dónd puedo hacerme un test de vih?
-      - donde podria pedir cita para hacerme la prueba del vih?
-      - en que sitio hacen las pruebas del vih?
-      - en que lugar se puede peir una cita para la prueba?
-      - en que sitio acen los tests del vih?
-      - donde se puede pedir cita para que te hagan la prueba del vih?
-      - dónde se puede solictar que te hagan la prueba del vih?
-      - donde puedo solicitar que me hagan el test del sida?
-      - Donde se hacen las pruebas del vih?
-      - donde se hacen los test del vih?
-      - como pido cita para la prueba del vih?
-      - como pued solicitar la prueba para el vih?
-      - como puedo pedir cita para la prueba? 
-      - cómo me hago la prubea?
-      - como me hago la prueba?
-      - cómo me hago la prueba?
-      - quien me debe hacer las pruebas del VIH?
-      - quien me puede hacer la prueba del vih?
-      - ¿Cómo puedo hacerme la prueba del VIH?
-      - como puedo hacerme el test del sida?
-      - quiero solicitar una cita para la prueba del vih
-      - quiero solicitar una prueba del vih
-      - quiero hacerme la prueba del vih
-      - quiero hacerme un test de vih
-      - Quiero saber cómo se puede hacer una prueba
-      - donde hacen la prueba?
-      - donde se hace la prueba del vih?
-      - Como se hace la prueba de vih
-      - Como se hace la prueba
-      - cómo puedo solicitar una prueba de vih?
-      - como puedo pedir que me hagan el test del vih?
-      - donde puedo solicitar que me hagan la prueba de vih?
-      - como me puedo hacer la prueba del vih?
-      - como puedo hacerme la prueba del vih
-      - como puedo hacerme una prueba de vih
-      - como puedo realizarme un aprueba de vih?
-      - como podría hacerme una prueba?
-  - intent: faq/detectar_con_analitica
-    examples: |
-      - ¿Es posible detectar el VIH a través de una analítica?
-      - es posible detectar el vih a traves de una analitica?
-      - se puede detectar el vih con una analitica normal?
-      - el vih se puede detectar mediante una analitica de sangre?
-      - el sida se puede detectar con una analítica de sangre?
-  - intent: faq/precio_prueba_vih
-    examples: |
-      - ¿La prueba del VIH es gratuita?
-      - la prueba de vih es gratis?
-      - el test del vih es gratuito?
-      - es gratis el test de vih?
-      - la prueba para detectar el vih es gratuita?
-      - son gratuitas las pruebas de deteccion de vih?
-      - la prueba de detección de vih es gratis?
-      - es muy cara la prueba de vih?
-      - es muy caro el test del vih?
-      - es barata la prueba para detectar el vih?
-      - es barata la prueba del vih?
-      - cual es el precio de la prueba de vih?
-      - qué precio tiene la prueba del vih?
-      - cuál es el precio de la prueba del VIH?
-      - cuanto cuesta la prueba del vih?
-      - cuánto cuesta un test de vih?
-      - que cuesta una prueba de detecciondel vih?
-      - que cuesta un test del vih
-      - cuanto dinero vale la prueba del vih?
-      - cuanto dinero cuesta la prueba del vih
-      - precio de la prueba del vih
-      - precio del test de vih
-      - cuanto cuesta realizarse la prueba del vih?
-      - cuanto cuesta tomar un test para el vih?
-      - cuánto te cobran por hacerte la prueba del vih?
-      - cuánto te sacan por un test de vih?
-      - es caro hacerse la prueba del vih?
-      - cuesta dinero hacerse la prueba del vih?
-      - cuesta mucho dinero el test del vih?
-      - tiene coste la prueba de deteccion?
-      - que coste tiene el test de vih?
-      - qué coste tiene la prueba de vih?
+- intent: saber_si_tengo_vih
+  examples: |
+    - ¿Cómo puedo saber si tengo VIH?
+    - ¿Cómo sé si tengo el VIH?
+    - como se si tengo vih
+    - como se si tengo sida o vih
+    - como se yo si he tenido vih
+    - y como puedo saber si tengo vih?
+    - como puedo saber si tengo vih?
+    - como puedo saber si tengo sida?
+    - como podria saber is he cogido el VIH?
+    - cómo puedo saber con seguridad si he pillado el vih?
+    - saber si he pillado el vih
+    - saber si tengo el vih
+    - Saber si estoy infectado
+    - saber si he cogido el vih
+    - como puedo saber si me he contagiado de vih
+    - como podria saber si me he infectado de vih
+    - saber si tengo sida
+    - saber si me he contagiado
+    - como saber si me he contagiado
+    - ¿Cómo se si me he contagiado?
+    - ¿Cómo puedo saber si me he infectado?
+    - Forma de saber si me he contagiado
+    - como puedo saber su me e contagiado dek virus
+    - de que forma peudo saber si me he infectado
+    - de que forma puedo saber si me he contagiado
+    - de que forma se puede comprobar si tengo vih
+    - de que forma puedo comprobar si tengo el vih
+    - comprobar si tengo vih
+    - comprobar que no tego vih
+    - comprobar que he cogido sida
+    - puedes ayudarme a saber si tengo sida?
+    - ayudame a saber si tengo vih
+    - ayudame, como puedo saber si tengo vih?
+    - podrias ayudarme a dterminar si tengo el vih?
+    - tu puedes ayudarme a saber si tengo el vih?
+    - Cómo sé si estoy contagiado de vih?
+    - como se si estoy contagiado
+    - como se si tengo el virus?
+    - Cómo saber si tengo VIH
+    - Tengo vih?
+    - Tengo sida?
+- intent: faq/detectar_tras_contacto
+  examples: |
+    - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
+    - cuando es posible detectar la presencia del vih despues de un contacto de riesgo?
+    - cuando se puede detectar el virus tras una infeccion?
+    - cuand se puede saber si estas infectado tras un contacto de riesgo?
+    - cuando se puede diagnosticar el virus tras un contacto de riesgo?
+    - ¿Cuándo es posible detectar el virus tras una infección?
+    - en que momento se puede detectar el virus despues de una posible infección?
+    - en q momento se puede diagnosticar vih tras de un posible contacto?
+    - ¿Qué tiempo hay desde que se produce el contagio hasta que se detecta?
+    - cuanto tiempo pasa desde que te contagias hasta que se detecta?
+    - cuanto tiempo pasa desde q te contagias asta q se diagnostica?
+    - ¿Qué tiempo debe pasar para poder detectar el virus?
+    - cuanto tiempo debe pasar para detectar la presencia del sida
+    - a partir de cuando es posible detectar el virus tras un contacto de riesgo?
+    - a partir de que dia se puede saber si tiene svih tras un contacto de riesgo?
+    - cuantos dias deben de pasar para detectar la presencia dle virus despues de un cntagio de riesgo?
+    - cuantos dias debo esperar para que se me pueda diagnosticar el vih
+    - ¿Cuánto tiempo tiene que pasar para poder detectar el VIH?
+    - cuanto tiempo ha de pasar para que se pueda detectar el virus?
+    - cuantos meses tienen que pasar para poder saber si estoy infectado?
+    - a aprtir de que dia se puede detectar la presencia del virus?
+    - a partir de cuantos dias es posible dar positivo?
+    - cuanto tiempo puede pasar desde que te contagias asta que das positivo?
+    - cuando se puede saber que tienes el virus despues de haber follado sin condon
+    - depsues de un contacto de riesgo, cuantos dias debo de epserar para que se pueda detectar el virus?
+    - despues de follar sin condon, cuantos dias deberia de esperaar para saber si soy positivo?
+    - tras un contacto de riesgo, cuando se podria detectar la infección?
+    - creo que me lo pegaron, cuantos dias tendria que esperar para hacerme la prueba?
+    - creo que he cogido sido, cuantos dias tengo que esperar para que se pueda detectar el virus?
+    - tengo sida, cuanto tiempo tengo que esperar para que se pueda detectar en la prueba?
+    - un test de vih una semana despues de la infección puede detectar el virus?
+    - a partir de cuando se puede ver si me he infectado?
+    - a partir de cuantos dias se puede saber si me he infectado?
+    - la prueba del vih una semana después de haber mantenido relaciones sexuales le dirá a una persona si tiene el vih
+    - la prueba del vih puede detectar una semana despues de haber tenido sexo si me he infectado?
+    - una semana despues de un contacto de riesgo la prueba puede detectar el vih?
+    - hacerse la prueba del vih una semana despues de una practica de riesgo es efectivo?
+    - cuantos dias tengo que esperar para saber si me he infectado de vih?
+    - si me hago la prueba la semana siguiente de haber tenido sexo, la prueba detectará el virus del vih?
+- intent: faq/deberia_hacerme_prueba
+  examples: |
+    - ¿Debería hacerme la prueba del VIH?
+    - deberia hacerme la prueba?
+    - debería hacerme la prueba?
+    - deberia acerme la prueva del vih?
+    - debo hacerme una pribea de vih?
+    - deberia acer el test del sida?
+    - deberia tomar el test del vih?
+    - ¿Debo hacerme la prueba de VIH?
+    - tengo que hacerme la prueba del vih?
+    - tengo hacer el test del vih?
+    - crees quetengo que hacerme la prueba de vih?
+    - crees que debo hacerme la prueba?
+    - oye deberia hacerme la prueba para saaber si tengo vih?
+    - debo hacerme la prueba para saber ocn seguridad si tengo el sida?
+    - debo hacerme la prueba para saber con seguridad si tengo el vih?
+    - debo hacerme la prueba para saber si estoy infectdo?
+    - hacerme la prueba y saber si estoy infectado
+    - debo realizarme la prueba?
+    - ¿Debería realizarme la prueba del VIH?
+    - ¿He de hacerme la prueba del VIH?
+    - ¿Debería hacerme el test del VIH?
+    - ¿Debo tomar un test de VIH?
+    - ¿Debería comprobar si tengo VIH?
+    - ¿Debería comprobar si me he infectado por VIH?
+    - debo comprobar con u test si tengo el vih?
+    - dedo hacerme la prueba o un test de vih?
+    - tu crees que deberia hacerme la prueba del vih?
+    - no se si deberia hacerme la prueba
+    - estoy dudando si hacerme la prueba del vih
+    - a quienes se recomienda realizarse la prueba?
+    - a quien se recomienda hacerse la prueba del vih?
+- intent: faq/negativo_pareja
+  examples: |
+    - ¿Si el resultado de mi test es negativo, mi pareja es negativa también?
+    - si me hago el test y doy negativo, mi pareja es negativa tambien?
+    - si yo doy negativo, mi pareja es negativa tambien?
+    - si yo soy negativo mi pareja tambien lo es?
+    - si me hago la prueba y doy negativo, mi novia tambien dará negativo?
+    - si mi novio ha dado negativo, yo soy negativa?
+    - si mi novio ha dado negativo eso significa que yo tambien soy negativo?
+    - mi pareja ha dado negativo, seguramnete yo tambien sere negativo
+    - si mi marido ha dado negagativo, yo tambien daré negativo?
+    - mi novio no tiene vih, lo tendré yo?
+    - la de mi mujer ha salido negativa, yo tambien sere negativo?
+    - si la prueba le ha salido bien a mi novio, yo tampoco tendre vih?
+- intent: faq/como_es_prueba
+  examples: |
+    - ¿En qué consiste la prueba del VIH?
+    - en que consiste el test del vih?
+    - en qué consiste la prueba
+    - cómo es la prueba del VIH?
+    - como es la prueba del vih
+    - como es el test del vih?
+    - como es la prueba para detectar el vih?
+    - en que consiste la prueba para detectar el sida?
+    - En que consiste la prueba de diagnóstico?
+    - cómo es la prueba para saber si tienes vih?
+    - en que consisnte la prueba para detectar el virus?
+    - como son las pruebas de deteccion de vih?
+    - komo es la prueva del vih
+    - explicame como son las pruebas del vih
+    - como funcionan los tests para detectar el vih
+    - como funcionan las pruebas para detectar el sida
+    - en k consisten los tests para el vih
+    - como son las pruebaspara detectar el virus?
+    - como funcionan los tests que detectan el vih?
+    - como funcionan los test de deteccion de vih?
+    - explciame como van las pruebas de vih
+    - las pruebas de deteccion del vih como funcionan?
+    - los tests para detectar el virus como funcionan?
+    - me podrias decir en q coniste la prueba del vih?
+- intent: solicitar_prueba
+  examples: |
+    - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
+    - donde puedo pedir que me hagan la prueba del vih?
+    - donde puedo solicitar un test de vih?
+    - dónde puedo pedir un test para el vih?
+    - a quien le puedo pedir que me haga la prueba del vih?
+    - a quien le tengo que solicitar o pedir que me hagan la prueba?
+    - dónde hacen la prueba del vih?
+    - donde acen el test para el vih?
+    - ¿DONDE PUEDO REALIZARME LA PREUBA DE VIH??
+    - donde puedo realizarme la prueba?
+    - dónd puedo hacerme un test de vih?
+    - donde podria pedir cita para hacerme la prueba del vih?
+    - en que sitio hacen las pruebas del vih?
+    - en que lugar se puede peir una cita para la prueba?
+    - en que sitio acen los tests del vih?
+    - donde se puede pedir cita para que te hagan la prueba del vih?
+    - dónde se puede solictar que te hagan la prueba del vih?
+    - donde puedo solicitar que me hagan el test del sida?
+    - Donde se hacen las pruebas del vih?
+    - donde se hacen los test del vih?
+    - como pido cita para la prueba del vih?
+    - como pued solicitar la prueba para el vih?
+    - como puedo pedir cita para la prueba?
+    - cómo me hago la prubea?
+    - como me hago la prueba?
+    - cómo me hago la prueba?
+    - quien me debe hacer las pruebas del VIH?
+    - quien me puede hacer la prueba del vih?
+    - ¿Cómo puedo hacerme la prueba del VIH?
+    - como puedo hacerme el test del sida?
+    - quiero solicitar una cita para la prueba del vih
+    - quiero solicitar una prueba del vih
+    - quiero hacerme la prueba del vih
+    - quiero hacerme un test de vih
+    - Quiero saber cómo se puede hacer una prueba
+    - donde hacen la prueba?
+    - donde se hace la prueba del vih?
+    - Como se hace la prueba de vih
+    - Como se hace la prueba
+    - cómo puedo solicitar una prueba de vih?
+    - como puedo pedir que me hagan el test del vih?
+    - donde puedo solicitar que me hagan la prueba de vih?
+    - como me puedo hacer la prueba del vih?
+    - como puedo hacerme la prueba del vih
+    - como puedo hacerme una prueba de vih
+    - como puedo realizarme un aprueba de vih?
+    - como podría hacerme una prueba?
+    - donde puedo hacerme una prueba del vih
+- intent: faq/detectar_con_analitica
+  examples: |
+    - ¿Es posible detectar el VIH a través de una analítica?
+    - es posible detectar el vih a traves de una analitica?
+    - se puede detectar el vih con una analitica normal?
+    - el vih se puede detectar mediante una analitica de sangre?
+    - el sida se puede detectar con una analítica de sangre?
+- intent: faq/precio_prueba_vih
+  examples: |
+    - ¿La prueba del VIH es gratuita?
+    - la prueba de vih es gratis?
+    - el test del vih es gratuito?
+    - es gratis el test de vih?
+    - la prueba para detectar el vih es gratuita?
+    - son gratuitas las pruebas de deteccion de vih?
+    - la prueba de detección de vih es gratis?
+    - es muy cara la prueba de vih?
+    - es muy caro el test del vih?
+    - es barata la prueba para detectar el vih?
+    - es barata la prueba del vih?
+    - cual es el precio de la prueba de vih?
+    - qué precio tiene la prueba del vih?
+    - cuál es el precio de la prueba del VIH?
+    - cuanto cuesta la prueba del vih?
+    - cuánto cuesta un test de vih?
+    - que cuesta una prueba de detecciondel vih?
+    - que cuesta un test del vih
+    - cuanto dinero vale la prueba del vih?
+    - cuanto dinero cuesta la prueba del vih
+    - precio de la prueba del vih
+    - precio del test de vih
+    - cuanto cuesta realizarse la prueba del vih?
+    - cuanto cuesta tomar un test para el vih?
+    - cuánto te cobran por hacerte la prueba del vih?
+    - cuánto te sacan por un test de vih?
+    - es caro hacerse la prueba del vih?
+    - cuesta dinero hacerse la prueba del vih?
+    - cuesta mucho dinero el test del vih?
+    - tiene coste la prueba de deteccion?
+    - que coste tiene el test de vih?
+    - qué coste tiene la prueba de vih?
