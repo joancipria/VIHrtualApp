@@ -73,10 +73,40 @@ stories:
   - intent: como_prevenir
   - action: utter_como_prevenir
 
+- story: Transmision oral despues de transmision
+  steps:
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision
+  - action: utter_preguntar_vih_transmision_oral
+  - intent: afirmar
+  - action: utter_responder_vih_sabe_transmision_oral
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision
+  - action: utter_preguntar_vih_transmision_oral
+  - intent: negar
+  - action: utter_responder_vih_transmision_oral
+
+
+
 - story: Recordar acudir al médico
   steps: 
     - intent: solicitar_prueba
     - action: utter_solicitar_prueba
+    - action: utter_recordar_ventana
     - action: utter_recordar_acudir_medico 
 
 - story: Recordar acudir al médico 2
