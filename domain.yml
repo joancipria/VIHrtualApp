@@ -113,11 +113,18 @@ intents:
     use_entities: true
 - sexo_sin_proteccion:
     use_entities: true
+- fases_vih:
+    use_entities: true
+- explicar_fase:
+    use_entities: true
+- detectar_tras_contacto:
+    use_entities: true
 entities:
 - PER
 - tipo_condon
 - ets
 - tipo_sexo
+- fase_vih
 slots:
   PER:
     type: rasa.shared.core.slots.TextSlot
@@ -147,6 +154,14 @@ slots:
     - sexo_oral
     - sexo_anal
     - sexo_vaginal
+  fase_vih:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+    values:
+    - fase_vih_1
+    - fase_vih_2
 responses: {}
 actions:
 - action_dar_bienvenida
