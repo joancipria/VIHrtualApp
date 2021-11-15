@@ -7,6 +7,15 @@ stories:
       - action: utter_saludar
       - action: utter_ofrecer_ayuda
 
+  - story: Saludar + ofrecer ayuda + afirmar + volver a ofrecer ayuda
+    steps:
+    - intent: saludar
+    - action: utter_saludar
+    - action: utter_ofrecer_ayuda
+    - intent: afirmar
+    - action: utter_ofrecer_ayuda
+
+
   - story: Preguntar como estas + bien + alegrarse + ofrecer ayuda
     steps:
       - intent: preguntar_estado
