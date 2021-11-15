@@ -80,7 +80,7 @@ responses:
       - type: slot
         name: tipo_sexo
         value: "sexo_anal"
-      text: "Se puede contraer el VIH si tiene relaciones sexuales anales con alguien que tiene el VIH sin usar protección. \n\n Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo, ya que la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH." 
+      text: "Se puede contraer el VIH si tiene relaciones sexuales anales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo, ya que la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH." 
     # VIH (Sexo vaginal)
     - condition:
 #      - type: slot
@@ -89,7 +89,7 @@ responses:
       - type: slot
         name: tipo_sexo
         value: "sexo_vaginal"
-      text: "Se puede contraer el VIH si tiene relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas." 
+      text: "Se puede contraer el VIH si tiene relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas." 
     - text: "Eso depende del tipo de sexo. ¿Te refieres a sexo oral, anal o vaginal?" 
   utter_cura_vih:
     - text: "Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. \n\n Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
@@ -109,10 +109,22 @@ responses:
     - text: "La latencia hace referencia a que el virus puede permanecer inactivo (latente) en nuestro organismo durante años 🦠💤. \n\n Cuando se encuentra en este estado, el sistema inmunitario no puede reconocer el virus y el tratamiento antirretroviral (TAR) no le afecta."
   utter_faq/es_importante_saber_tengo_vih:
     - text: "Es importante saber si tienes VIH, ya que sabiéndolo puedes comenzar el tratamiento lo antes posible y adoptar hábitos de vida saludables \n\n. Además, podrás evitar que otras personas se infecten."
-  utter_faq/infeccion_aguda_vih:
-    - text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable mediante la prueba. 🔬⚠️"
-  utter_faq/infeccion_cronica_vih:
-    - text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
+  utter_explicar_fase:
+    # Fase 1 / Aguda
+    - condition:
+      - type: slot
+        name: fase_vih
+        value: "fase_vih_1"
+      text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable mediante la prueba. 🔬⚠️"
+    # Fase 2 / Crónica
+    - condition:
+      - type: slot
+        name: fase_vih
+        value: "fase_vih_2"
+      text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
+    - text: "¿Sobre qué fase te gustaría saber más?"
+  utter_preguntar_fase:
+    - text: "¿Sobre qué fase te gustaría saber más?"
   utter_faq/tipos_vih:
     - text: "Se diferencian dos tipos de VIH: el VIH-1 y el VIH-2. El VIH-2 es endémico de África y generalmente requiere más tiempo hasta desarrollar SIDA. \n\n En los países occidentales prevalece el VIH-1."
   utter_faq/diferencia_tipos_vih:
@@ -129,9 +141,7 @@ responses:
     - text: "Actualmente, una persona infectada por el VIH controlada con tratamiento antirretroviral tiene una esperanza de vida similar a la de una persona no infectada por el virus 😊."
   utter_faq/es_posible_evitar_avance_vih:
     - text: "Los tratamientos actuales son muy efectivos y es posible detener el avance del virus durante décadas."
-#  utter_faq/fases_vih:
-#    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y finalmente, SIDA."
-  utter_faq/fases_vih:
+  utter_fases_vih:
   - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y finalmente, SIDA."
     custom:
       payload: cardsCarousel
@@ -161,7 +171,7 @@ responses:
   utter_transmite_aire:
     - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
   utter_faq/vertical:
-    - text: "La transmisión vertical, conocida también como transmisión perinatal es contagio de una infección u otra enfermedad de la madre a su hijo 👶🏼. \n\n Se puede producir antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé."
+    - text: "La transmisión vertical o perinatal es el contagio de una infección u otra enfermedad de la madre a su hijo 👶🏼. \n\n Se puede producir antes del nacimiento, durante el parto o después del mismo. En el caso del VIH, es posible evitar que la madre contagie al bebé."
   utter_faq/fluidos:
     - text: El VIH no se contagia a través de la saliva, las lágrimas o el sudor de una persona VIH positiva (a menos que esté mezclado con su sangre).
   utter_faq/escupir_aranyar:
@@ -215,7 +225,7 @@ responses:
         - payload: ¿Cuántas personas tienen VIH?
           title: ¿Cuántas personas tienen VIH?
       text: "La única forma de saber con seguridad si se tiene VIH es hacerse la prueba. Para ello, lo mejor es que lo consultes con tu médico 👩‍⚕️. \n\n Además, en muchos países se venden test de detección en las farmacias."
-  utter_faq/detectar_tras_contacto:
+  utter_periodo_ventana:
     - text: "Existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
   utter_faq/deberia_hacerme_prueba:
     - text: "La prueba del VIH se recomienda para todas las personas que tengan una vida sexualmente activa, sobre todo si tienen múltiples parejas sexuales. \n\n También esta recomendada para aquellas personas que hayan compartido agujas para el consumo de drogas."
@@ -290,11 +300,11 @@ responses:
   utter_faq/son_eficientes_espermicidas:
     - text: "No. Aunque los espermicidas pueden prevenir el embarazo, no protegen contra las enfermedades de transmisión sexual, incluido el VIH. \n\n Además, la irritación de la vagina (o del recto) que ocurre a veces con el uso de espermicidas puede aumentar el riesgo de transmisión sexual del VIH."
   utter_faq/son_eficientes_preservativos:
-    - text: "El preservativo, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados 🛡️☔. \n\n Existen tanto preservativos masculinos como femeninos."
+    - text: "El preservativo <i class='em em-condom'></i>, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados 🛡️☔. \n\n Existen tanto preservativos masculinos como femeninos."
   utter_faq/rompe_preservativo:
     - text: "Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. \n\n Si se ha roto en la vagina, puede que necesites recurrir a la 'píldora del día después' que debes tomar antes de 72 horas para evitar los embarazos no deseados."
   utter_como_prevenir:
-    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones (masculinos o femeninos) de manera correcta cada vez que tenga relaciones sexuales. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP)."
+    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones (masculinos o femeninos) de manera correcta cada vez que tenga relaciones sexuales <i class='em em-condom'></i>. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP)."
   utter_faq/sexo_con_vih:
     - text: "Se pueden mantener relaciones sexuales pero siempre recurriendo a medidas de protección para evitar contagiar a otras personas o contraer otras infecciones de transmisión sexual. \n\n La principal medida para evitar la trasnmisión del virus es estar recibiendo un tratamiento antirretroviral que haya logrado mantener una carga viral indetectable."
   utter_faq/duda_contagio:
@@ -304,9 +314,9 @@ responses:
   utter_compartir_cuchillas_jeringuillas:
     - text: "Compartir maquinillas o agujas es una práctica de alto riesgo y son conductas que deben evitarse."
   utter_faq/sexo_seguro:
-    - text: "Puedes utilizar preservativos, son altamente eficaces para prevenir la infección por el VIH, otras enfermedades de transmisión sexual (ETS) y evitar embarazos no deseados."
+    - text: "Puedes utilizar preservativos <i class='em em-condom'></i>, son altamente eficaces para prevenir la infección por el VIH, otras enfermedades de transmisión sexual (ETS) y evitar embarazos no deseados."
   utter_sexo_sin_proteccion:
-  - text: "Las relaciones sexuales sin protección pueden ser peligrosas debido al contagio de enfermedades infecciosas que se transmiten por esa vía. \n\n Por tanto, se recomienda que las relaciones sexuales se practiquen con protección."
+  - text: "Las relaciones sexuales sin protección pueden ser peligrosas debido al contagio de enfermedades infecciosas que se transmiten por esa vía. \n\n Por tanto, se recomienda que las relaciones sexuales se practiquen con protección <i class='em em-condom'></i>."
   utter_faq/evitar_vertical:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/concebir:
@@ -401,7 +411,7 @@ responses:
       text: Por ejemplo, en <a target='_blank' href='https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/homeCoronavirus.htm'>este link.</a>
   # Glosario
   utter_faq/que_es_ets:
-    - text: "Las enfermedades de transmisión sexual (ETS) son aquellas que se contagian por las relaciones sexuales, tanto a través del sexo vaginal, anal u oral. \n\n Para evitarlas es necesario adoptar medidas de prevención como el uso del preservativo."  
+    - text: "Las enfermedades de transmisión sexual (ETS) son aquellas que se contagian por las relaciones sexuales, tanto a través del sexo vaginal, anal u oral. \n\n Para evitarlas es necesario adoptar medidas de prevención como el uso del preservativo <i class='em em-condom'></i>."  
   utter_faq/que_es_viremia:
     - text: El término hace referencia a la presencia de un virus en la sangre 🩸🦠.
   utter_faq/que_es_nadir:
@@ -452,10 +462,12 @@ responses:
   utter_preguntar_sabe_usar_preservativo:
     - text: "La principal medida para tener relaciones sexuales seguras es usar preservativo. ¿Sabes utilizarlo?"
   utter_preguntar_vih_transmision_oral:
-    - text: "¿Crees se puede contraer el VIH a través del sexo oral?"
+    - text: "¿Crees se puede contraer el VIH a través del sexo oral? 👄"
   utter_responder_vih_transmision_oral:
     - text: "La verdad es que, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
   utter_responder_vih_sabe_transmision_oral:
     - text: "En efecto, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
   utter_recordar_ventana:
-    - text: "De todas maneras, ten en cuenta que existe el llamado período ventana, en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
+    - text: "De todas maneras, ten en cuenta que existe el llamado período ventana (de 2 a 12 semanas), en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n ¿Sabes en qué consiste el período ventana?"
+  utter_preguntar_explicar_fases:
+    - text: "¿Quieres que te explique más en detalle alguna fase?"
