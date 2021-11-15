@@ -18,6 +18,23 @@ stories:
     - ets
   - action: utter_transmision
 
+- story: Definir hepatitis + transmision + transmision vih
+  steps:
+  - intent: definir
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_definir
+  - intent: transmision
+  - action: utter_transmision
+  - intent: informar
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision
+
 - story: Transmisión sexual
   steps:
   - intent: transmision_sexual
