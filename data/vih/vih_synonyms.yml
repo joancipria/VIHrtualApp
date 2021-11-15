@@ -12,6 +12,11 @@ nlu:
     - síndrome de Inmunodeficiencia Adquirida
     - sindrome de la inmunodeficiencia Adquirida
     - inmunodeficiencia adquirida
+    - fase 3
+    - tercera fase
+    - ultima fase
+    - tercera etapa
+    - etapa 3
 - synonym: hepatitis
   examples: |
     - epatitis
@@ -119,3 +124,39 @@ nlu:
     - follan por el culo
     - follo por el culo
     - meten el pene por el culo
+- synonym: fase_vih_1
+  examples: |
+    - infecciona guda
+    - infecion aguda
+    - infección aguda
+    - infeccion aguda
+    - etapa aguda de infección
+    - etapa aguda
+    - etapa 1
+    - 1 etapa
+    - primera etapa
+    - primera fase
+    - fase primera
+    - fase 1
+    - 1 fase
+    - primer tramo
+    - fase de infección aguda
+    - fase aguda
+- synonym: fase_vih_2
+  examples: |
+    - infección crónica
+    - infecion cronica
+    - infeccion cronica
+    - etapa crónica de infecciónde
+    - etapa cronica
+    - 2 etapa
+    - segunda etapa
+    - etapa 2
+    - segunda fase
+    - fase segunda
+    - fase 2
+    - 2 fase
+    - segundo tramo
+    - fase por infección crónica
+    - fase de infección cronica
+    - fase cronica

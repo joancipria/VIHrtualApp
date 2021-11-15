@@ -102,3 +102,40 @@ nlu:
     - condon para vaginas
     - condon interno
     - condon externo
+- lookup: fase_vih
+  examples: |
+    - infecciona guda
+    - infección aguda
+    - infeccion aguda
+    - infección crónica
+    - infeccion cronica
+    - etapa aguda de infección
+    - etapa crónica de infecciónde
+    - etapa cronica
+    - etapa aguda
+    - etapa 1
+    - 1 etapa 
+    - 2 etapa
+    - primera etapa
+    - segunda etapa
+    - etapa 1
+    - etapa 2
+    - primera fase
+    - segunda fase
+    - fase primera
+    - fase segunda
+    - fase 1
+    - fase 2
+    - 1 fase
+    - 2 fase
+    - primer tramo
+    - segundo tramo
+    - fase por infección crónica
+    - fase de infección aguda
+    - fase de infección cronica
+    - fase por infección aguda
+    - fase aguda
+    - fase cronica
+    - etapa aguda
+    - infecion aguda
+    - infecion cronica
