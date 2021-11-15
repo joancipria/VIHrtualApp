@@ -43,7 +43,7 @@ nlu:
     - Cómo saber si tengo VIH
     - Tengo vih?
     - Tengo sida?
-- intent: faq/detectar_tras_contacto
+- intent: detectar_tras_contacto
   examples: |
     - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
     - cuando es posible detectar la presencia del vih despues de un contacto de riesgo?
