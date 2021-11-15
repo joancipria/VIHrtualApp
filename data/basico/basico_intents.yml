@@ -62,6 +62,7 @@ nlu:
     - hola wapa
     - hola guapa
     - ola guapo
+    - holla
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -164,6 +165,7 @@ nlu:
     - sep
     - seep
     - sepp
+    - yo creo que si
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien
@@ -286,6 +288,10 @@ nlu:
     - No necesito nada
     - No quiero nada
     - Hoy no
+    - que va
+    - que va no creo
+    - no creo que sea posible
+    - no creo que eso sea posible
 - intent: entender
   examples: |
     - entiendido
