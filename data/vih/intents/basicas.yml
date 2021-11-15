@@ -103,6 +103,7 @@ nlu:
     - que es?
     - que es el [sida](ets)?
     - que es el [vih](ets)?
+    - y que singifica [vih](ets)
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -450,84 +451,93 @@ nlu:
     - x q es importante saber si estoy infectado?
     - deberia saber si tengo vih?
     - debo saber si tengo vih?
-- intent: faq/infeccion_aguda_vih
+- intent: explicar_fase
   examples: |
-    - ¿Qué es la Infección aguda por el VIH?
-    - que es la infeccion aguda por el vih?
-    - que es una infeccion aguda de vih?
-    - que significa infeccion aguda de vih
-    - explicame infección aguda de vih
-    - que ocurre durante la infeccion aguda
-    - que fase es la de infeccion aguda
-    - que sucede en la infección aguda
-    - en que consiste la fase por infección aguda
-    - qué es la infeccion aguda por vih
-    - que pasa en la etapa aguda de infección
-    - existe una infecciona guda de vih?
-    - que ocurre en la infeccion aguda de vih
-    - explciame que sucede en una infeccion aguda de vih
-    - sabrias explciarme que sucede en la infeccion aguda por vih?
-    - etapa de la infeccion aguda
-    - fase de infeccion aguda
-    - cual es la fase de la infección aguda
-    - explicame la infeccion aguda
-    - ¿Qué es la etapa 1 de la infección por el VIH?
-    - que es la eatpa 1 del virus?
-    - q es la la primera etapa del vih?
-    - cual es la etapa 1 de la infeccion?
-    - ¿Qué es la etapa uno del VIH?
-    - ¿Qué es la etapa 1 del virus?
-    - ¿Cuál es la primera etapa del VIH?
-    - cual es la primera etapa del virus?
-    - q significa la etapa 1 del virus?
-    - como es la primera etapa de la enfermedad?
-    - cómo es la etapa uno del virus?
-    - que ocurre en la primera etapa?
-    - que caracteriza a la primera etapa?
-    - ¿Qué significa la etapa 1 de la infección?
-    - ¿Cuál es la 1 etapa de la infección de VIH?
-    - explciame la etapa 1
-    - explicame la primera etapa del vih
-    - en que consiste la primera etapa de la infección?
-    - como es la primera etapa del sida
-    - no se que es la primera etapa
-    - cua es la primera fase del vih
-    - q es la fase 1 de la infección
-    - explciame la fase uno del vih
-    - cómo es la primera fase del virus?
-    - como es el primer tramo de la enfermedad
-    - cual es la primera fase de la enfermedad
-    - cual es la primera fase del vih?
-- intent: faq/infeccion_cronica_vih
-  examples: |
-    - ¿Qué es la Infección crónica por el VIH?
-    - ¿Qué es la Infección cronica por el VIH?
-    - que es la infeccion cronica por el vih?
-    - que es una infeccion crónica de vih?
-    - que significa infeccion cronica de vih
-    - explicame infección cronica de vih
-    - que ocurre durante la infeccion crónica
-    - que fase es la de infeccion cronica
-    - que sucede en la infección cronica
-    - en que consiste la fase por infección crónica
-    - qué es la infeccion cronica por vih
-    - que pasa en la etapa cronica de infección
-    - existe una infecciona cronica de vih?
-    - que ocurre en la infeccion cronica de vih
-    - explciame que sucede en una infeccion cronica de vih
-    - sabrias explciarme que sucede en la infeccion cronica por vih?
-    - etapa de la infeccion cronica
-    - fase de infeccion cronica
-    - cual es la fase de la infección cronica
-    - explicame la infeccion cronica
-    - explicame la segunda etapa del vih
-    - cuentame que pasa en la segunda etapa
-    - que pasa en la segunda etapa de infeccion
-    - cual es la segunda etapa de infeccion
-    - en que consiste la segunda fase de la infeccion
-    - como es la segunda fase del vih
-    - explicame la etapa 2 de la infeccion
-    - cual es la fase 2 del vih
+    - ¿Qué es la [Infección aguda](fase_vih) por el VIH?
+    - que es la [infeccion aguda](fase_vih) por el vih?
+    - que es una [infeccion aguda](fase_vih) de vih?
+    - que significa [infeccion aguda](fase_vih) de vih
+    - explicame [infección aguda](fase_vih) de vih
+    - que ocurre durante la [infeccion aguda](fase_vih)
+    - que fase es la de [infeccion aguda](fase_vih)
+    - que sucede en la [infección aguda](fase_vih)
+    - en que consiste la fase por [infección aguda](fase_vih)
+    - qué es la [infeccion aguda](fase_vih) por vih
+    - que pasa en la [etapa aguda de infección](fase_vih)
+    - existe una [infecciona guda](fase_vih) de vih?
+    - que ocurre en la [infeccion aguda](fase_vih) de vih
+    - explciame que sucede en una [infeccion aguda](fase_vih) de vih
+    - sabrias explciarme que sucede en la [infeccion aguda](fase_vih) por vih?
+    - etapa de la [infeccion aguda](fase_vih)
+    - fase de [infeccion aguda](fase_vih)
+    - cual es la fase de la [infección aguda](fase_vih)
+    - explicame la [infeccion aguda](fase_vih)
+    - ¿Qué es la [etapa 1](fase_vih) de la infección por el VIH?
+    - que es la [eatpa 1](fase_vih) del virus?
+    - q es la la [primera etapa](fase_vih) del vih?
+    - cual es la [etapa 1](fase_vih) de la infeccion?
+    - ¿Qué es la [etapa uno](fase_vih) del VIH?
+    - ¿Qué es la [etapa 1](fase_vih) del virus?
+    - ¿Cuál es la [primera etapa](fase_vih) del VIH?
+    - cual es la [primera etapa](fase_vih) del virus?
+    - q significa la [etapa 1](fase_vih) del virus?
+    - como es la [primera etapa](fase_vih) de la enfermedad?
+    - cómo es la [etapa uno](fase_vih) del virus?
+    - que ocurre en la [primera etapa](fase_vih)?
+    - que caracteriza a la [primera etapa](fase_vih)?
+    - ¿Qué significa la [etapa 1](fase_vih) de la infección?
+    - ¿Cuál es la [1 etapa](fase_vih) de la infección de VIH?
+    - explciame la [etapa 1](fase_vih)
+    - explicame la [primera etapa](fase_vih) del vih
+    - en que consiste la [primera etapa](fase_vih) de la infección?
+    - como es la [primera etapa](fase_vih) del sida
+    - no se que es la [primera etapa](fase_vih)
+    - cua es la [primera fase](fase_vih) del vih
+    - q es la [fase 1](fase_vih) de la infección
+    - explciame la [fase uno](fase_vih) del vih
+    - cómo es la [primera fase](fase_vih) del virus?
+    - como es el [primer tramo](fase_vih) de la enfermedad
+    - cual es la [primera fase](fase_vih) de la enfermedad
+    - cual es la [primera fase](fase_vih) del vih?
+    - ¿Qué es la [Infección crónica](fase_vih) por el VIH?
+    - ¿Qué es la [Infección cronica](fase_vih) por el VIH?
+    - que es la [infeccion cronica](fase_vih) por el vih?
+    - que es una [infeccion crónica](fase_vih) de vih?
+    - que significa [infeccion cronica](fase_vih) de vih
+    - explicame [infección cronica](fase_vih) de vih
+    - que ocurre durante la [infeccion crónica](fase_vih)
+    - que fase es la de [infeccion cronica](fase_vih)
+    - que sucede en la [infección cronica](fase_vih)
+    - en que consiste la [fase por infección crónica](fase_vih)
+    - qué es la [infeccion cronica](fase_vih) por vih
+    - que pasa en la [etapa cronica](fase_vih) de infección
+    - existe una [infecciona cronica](fase_vih) de vih?
+    - que ocurre en la [infeccion cronica](fase_vih) de vih
+    - explciame que sucede en una [infeccion cronica](fase_vih) de vih
+    - sabrias explciarme que sucede en la [infeccion cronica](fase_vih) por vih?
+    - etapa de la [infeccion cronica](fase_vih)
+    - fase de [infeccion cronica](fase_vih)
+    - cual es la [fase de la infección cronica](fase_vih)
+    - explicame la [infeccion cronica](fase_vih)
+    - explicame la [segunda etapa](fase_vih) del vih
+    - cuentame que pasa en la [segunda etapa](fase_vih)
+    - que pasa en la [segunda etapa](fase_vih) de infeccion
+    - cual es la [segunda etapa](fase_vih) de infeccion
+    - en que consiste la [segunda fase](fase_vih) de la infeccion
+    - como es la [segunda fase](fase_vih) del vih
+    - explicame la [etapa 2](fase_vih) de la infeccion
+    - cual es la [fase 2](fase_vih) del vih
+    - que es la [infecion aguda](fase_vih)
+    - que es la [infección aguda]{"entity": "fase_vih", "value": "vih_fase_1"}
+    - cuentame sobre la [primera fase](fase_vih) del vih
+    - cuentame más sobre la [segunda fase](fase_vih) del vih
+    - cuentame mas sobre la [fase 1](fase_vih)
+    - me gustaria que me contaras mas sobre la [fase 1](fase_vih)
+    - me gustaria que me contaras mas sobre la [primera fase](fase_vih)
+    - quiero que me cuentes mas sobre la [infeccion cronica](fase_vih)
+    - quiero saber mas sobre la [infeccion aguda](fase_vih)
+    - cuentame acerca de la [infeccion aguda](fase_vih)
+    - hablame acerca de la [segunda fase](fase_vih)
 - intent: faq/tipos_vih
   examples: |
     - ¿Cuántos tipos de VIH hay?
@@ -784,7 +794,7 @@ nlu:
     - es posible para el virus?
     - se puede detener la enfermedad?
     - se puede pausar el vih?
-- intent: faq/fases_vih
+- intent: fases_vih
   examples: |
     - ¿Qué fases tiene el [vih](ets)?
     - que fases tiene el [vih](ets)?
@@ -819,6 +829,13 @@ nlu:
     - fases or las que suele pasar el [vih](ets)
     - cuales son las distintas fases del [vih](ets)
     - fases por las cuales suele pasar el [vih](ets)
+    - que fases tiene el [vih](ets)
+    - y cuantas fases tiene el [vih](ets)
+    - cuantas fases tiene
+    - cuantas fases hay de [vih](ets)
+    - de que fases consta
+    - por cuanats fases pasa el [vih](ets)
+    - de cuantas etapas consta el [vih](ets)
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?
@@ -925,3 +942,6 @@ nlu:
     - que servicios ofrece el gobierno para el vih?
     - qué servicio ofrece la sanidad publica para tratar el vih?
     - que atención proporciona la seguridad social para el vih?
+- synonym: vih_fase_1
+  examples: |
+    - infección aguda
