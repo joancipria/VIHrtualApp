@@ -535,6 +535,38 @@ nlu:
     - puedo coger el [vih](ets) si me [comen la polla]{"entity": "tipo_sexo", "value": "sexo_oral"}?
     - se puedoe transmitir el [vih](ets) al [comer un coño]?
     - se puede transmitir si le [comes el coño]{"entity": "tipo_sexo", "value": "sexo_oral"} a una pava?
+    - puedo coger el [vih](ets) al [darle por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} a un tio?
+    - el [vih](ets) se contagia por [darle por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} a alguien?
+    - puedo coger el [vih](ets) si le [doy por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} a mi novia?
+    - puedo coger el [vih](ets) si le [meto el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - puedo coger el [vih](ets) por [meterle el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - es peligroso [dar por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} a una mujer?
+    - el [vih](ets) se contagia al [meterle la polla por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}
+    - es peligroso [meterle el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} a un tio?
+    - el [vih](ets) se transmite al mantener [sexo por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - se transmite mediante el [sexo por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - el [vih](ets) se puede transmitir mediante el [sexo por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - puedo coger el [vih](ets) al [meterle el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - puedo coger el [vih](ets) al [dar por culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - se puede pegar el [vih](ets) al [dar por culo]{"entity": "tipo_sexo", "value": "sexo_anal"}
+    - al [meterle la polla por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} se puede transmitir el [vih](ets)?
+    - al [metersela por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} se puede transmitir el [vih](ets)?
+    - se puede coger el [vih](ets) al [metersela por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - el [vih](ets) se transmite mediante las [relaciones sexuales anales]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - el [vihs](ets) se puede transmitir si mantengo [relaciones sexuales anales]{"entity": "tipo_sexo", "value": "sexo_anal"}?
+    - esi solo mantengo [relaciones sexuales anales]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo coger el [vih](ets)?
+    - si le [meto una polla por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo infectarme de [vih](ets)?
+    - si le [meto la polla por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} me puede pasar el [vih](ets)?
+    - [follar por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} protege contra el [vih](ets)?
+    - [follar por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} evita que puedas coger [vih](ets)?
+    - si [follo por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo coger [vih](ets)?
+    - si me [follan por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo coger el [vih](ets)?
+    - si te [follan por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedes contagiarte de [vih](ets)?
+    - si te [follo por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo contagiarte de [vih](ets)?
+    - si te [follo por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo pasarte el [vih](ets)?
+    - al [follarte por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo pasarte el [vih](ets)?
+    - al [darte por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo pegarte el [vih](ets)?
+    - si te [meten el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} pueden contagiarte de [vih](ets)?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
