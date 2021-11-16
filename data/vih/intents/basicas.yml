@@ -104,6 +104,7 @@ nlu:
     - que es el [sida](ets)?
     - que es el [vih](ets)?
     - y que singifica [vih](ets)
+    - oye dime que es la [hepatitis](ets)
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
