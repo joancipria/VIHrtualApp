@@ -20,4 +20,20 @@ stories:
     - action: utter_compartir_vaso_cubierto
     - intent: protege_marcha_atras
     - action: utter_protege_marcha_atras
+    - intent: sida_vs_vih
+    - action: utter_sida_vs_vih
+    - intent: como_prevenir
+    - action: utter_como_prevenir
+    - intent: sintomas
+    - action: utter_sintomas
+    - intent: sexo_sin_proteccion
+    - action: utter_sexo_sin_proteccion
+    - intent: cura_vih
+    - action: utter_cura_vih
+    - intent: existe_tratamiento
+    - action: utter_existe_tratamiento
+    - intent: saber_si_tengo_vih
+    - action: utter_saber_si_tengo_vih
+    - intent: detectar_tras_contacto
+    - action: utter_periodo_ventana
 

@@ -1,0 +1,111 @@
+version: "2.0"
+stories:
+  #--------------------------
+  # --- STORIES GENÉRICAS ---
+  #--------------------------
+- story: Definir
+  steps:
+  - intent: definir
+  - action: utter_definir
+
+- story: Definir indirectamente
+  steps:
+  - intent: definir
+  - action: utter_definir
+  - intent: informar
+  - slot_was_set:
+    - ets
+  - action: utter_definir
+
+- story: Transmisión
+  steps:
+  - intent: transmision
+  - action: utter_transmision
+  #- action: utter_preguntar_vih_transmision_oral
+
+- story: Transmisión indirectamente
+  steps:
+  - intent: transmision
+  - action: utter_transmision
+  #- action: utter_preguntar_vih_transmision_oral
+  - intent: informar
+  - slot_was_set:
+    - ets
+  - action: utter_transmision
+  
+- story: Transmisión sexual + no sabe utilizar preservativo
+  steps:
+  - intent: transmision_sexual
+  - action: utter_transmision_sexual
+#  - intent: informar
+#  - slot_was_set:
+#    - ets
+#  - action: utter_transmision_sexual
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: negar
+  - action: action_como_usar_preservativo
+  
+- story: Transmisión sexual + sabe utilizar preservativo
+  steps:
+  - intent: transmision_sexual
+  - action: utter_transmision_sexual
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: afirmar
+  - action: utter_reaccionar_positivamente
+
+  #--------------------
+  # --- STORIES VIH ---
+  #--------------------
+- story: Fases del VIH + explicar fase
+  steps:
+  - intent: fases_vih
+  - action: utter_fases_vih
+  - action: utter_preguntar_explicar_fases
+  - intent: afirmar
+  - action: utter_preguntar_fase
+  - intent: explicar_fase
+  - action: utter_explicar_fase
+
+- story: Fases del VIH + no explicar ninguna fase
+  steps:
+  - intent: fases_vih
+  - action: utter_fases_vih
+  - action: utter_preguntar_explicar_fases
+  - intent: negar
+  - action: utter_reaccionar_positivamente
+  - action: utter_recordar_asistencia
+
+- story: Solicitar prueba + recordar acudir al médico + sabe período ventana
+  steps: 
+    - intent: solicitar_prueba
+    - action: utter_solicitar_prueba
+    - action: utter_recordar_acudir_medico 
+    - action: utter_recordar_ventana
+    - intent: negar
+    - action: utter_periodo_ventana
+
+- story: Solicitar prueba + recordar acudir al médico + no sabe período ventana
+  steps:
+    - intent: solicitar_prueba
+    - action: utter_solicitar_prueba
+    - action: utter_recordar_acudir_medico 
+    - action: utter_recordar_ventana
+    - intent: afirmar
+    - action: utter_reaccionar_positivamente
+    - action: utter_recordar_asistencia
+
+- story: Dónde ser atendido + recordar acudir al médico 
+  steps: 
+    - intent: donde_atendido_vih
+    - action: utter_donde_atendido_vih
+    - action: utter_recordar_acudir_medico 
+
+- story: Servicio público VIH + recordar acudir al médico
+  steps: 
+    - intent: servicio_publico
+    - action: utter_servicio_publico
+    - action: utter_recordar_acudir_medico 
+
+
+
+
