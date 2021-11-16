@@ -77,6 +77,7 @@ nlu:
     - como se transmite la [hepatitis](ets)?
     - y como se transmite?
     - ¿Cómo se transmite el [VIH](ets)?
+    - como se trabnsmite el [vih](ets)?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -531,6 +532,8 @@ nlu:
     - una persona puede contraer el [vih](ets) teniendo [sexo oral](tipo_sexo) con un hombre que tiene [vih](ets)
     - si practico [sexo oral](tipo_sexo) sin protección puedo infectarme de [vih](ets)?
     - si practico [sexo anal](tipo_sexo) sin condon puedo coger el [vih](ets)?
+    - puedo coger el [vih](ets) si me [comen la polla]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - [se](tipo_sexo) puedoe transmitir el [vih](ets) al [comer un coño]{"entity": "tipo_sexo", "value": "sexo_oral"}?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?

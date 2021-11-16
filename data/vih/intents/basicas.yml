@@ -166,6 +166,11 @@ nlu:
     - se puede eliminar completamente el virus?
     - es posible curar el vih?
     - se puede elimnar el virus completamente del cuerpo?
+    - el vih tiene cura
+    - rl vih tiene cura
+    - titne cura el vih?
+    - el vih se cura?
+    - el vih se puede curar?
 - intent: faq/como_actua_vih
   examples: |
     - ¿Cómo actúa el VIH?
@@ -528,7 +533,7 @@ nlu:
     - explicame la [etapa 2](fase_vih) de la infeccion
     - cual es la [fase 2](fase_vih) del vih
     - que es la [infecion aguda](fase_vih)
-    - que es la [infección aguda]{"entity": "fase_vih", "value": "vih_fase_1"}
+    - que es la [infección aguda](fase_vih)
     - cuentame sobre la [primera fase](fase_vih) del vih
     - cuentame más sobre la [segunda fase](fase_vih) del vih
     - cuentame mas sobre la [fase 1](fase_vih)
@@ -538,6 +543,7 @@ nlu:
     - quiero saber mas sobre la [infeccion aguda](fase_vih)
     - cuentame acerca de la [infeccion aguda](fase_vih)
     - hablame acerca de la [segunda fase](fase_vih)
+    - sobre la [infección aguda]{"entity": "fase_vih", "value": "fase_vih_1"}
 - intent: faq/tipos_vih
   examples: |
     - ¿Cuántos tipos de VIH hay?
@@ -836,6 +842,9 @@ nlu:
     - de que fases consta
     - por cuanats fases pasa el [vih](ets)
     - de cuantas etapas consta el [vih](ets)
+    - y que fases tiene?
+    - oye, por que fases pasa el [vih](ets)?
+    - de que fases consta el [vih](ets)?
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?
@@ -942,6 +951,4 @@ nlu:
     - que servicios ofrece el gobierno para el vih?
     - qué servicio ofrece la sanidad publica para tratar el vih?
     - que atención proporciona la seguridad social para el vih?
-- synonym: vih_fase_1
-  examples: |
-    - infección aguda
+    - que servicios presta la seguridad social contra el vih?

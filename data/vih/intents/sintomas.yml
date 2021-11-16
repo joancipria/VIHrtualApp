@@ -76,6 +76,8 @@ nlu:
     - cuales son los tipicos sintomas del [vih](ets)
     - cuales son los sintomas mas comunes del [vih](ets)
     - que sintomas tiene?
+    - y que sintomas tiene?
+    - q sintomas tiene el [vih](ets)?
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

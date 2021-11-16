@@ -43,6 +43,7 @@ nlu:
     - Existe diferencia entre el VIH y el SIDA?
     - noa cabod e entender la diferencia entre vih y sida
     - no acabo de entender en que se diferencian el vih y el sida
+    - en que se diferencian el vih y el sida?
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?
@@ -167,7 +168,6 @@ nlu:
     - Cual es la esperanza de vida?
     - ¿cuál es la esperanza de vida de una persona con sida?
     - Quantos años puede vivir un enfermo de VHI?
-    - Que eaperanza de vida me queda si tengo el sida?
     - Que eaperanza de vida me queda si tengo el sida?
     - Que esperanza de vida tiene el que contrae el sida?
     - Cual es la esperanza de vida de una persona con sida

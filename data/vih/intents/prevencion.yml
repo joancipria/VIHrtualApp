@@ -185,6 +185,7 @@ nlu:
     - Sacar el pene antes de que el hombre llegue al clímax evita que la mujer se contagie del VIH durante las relaciones sexuales?
     - sacar la polla antes de correrse evita que me pueda contagiar de vih
     - y la marcha atras protege contra el vih?
+    - la marcha atras protege?
 - intent: faq/protege_preservativo_femenino
   examples: |
     - ¿El preservativo femenino también protege de la infección por VIH?
@@ -329,9 +330,9 @@ nlu:
     - como se pone un [condon vaginal](tipo_condon)?
     - indícame como debo ponerme un preservativo
     - puedes darme instrucciones sobre como debo ponerme un condon?
-    - cual es la manera correcta de ponerse un preservativo?
     - y como se usa un preservativo?
     - utilizar de manera correcta los preservativos
+    - como se usa un condon?
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
@@ -391,6 +392,7 @@ nlu:
     - que técnicas de prevención hay?
     - que acciones puedo tomar para prevenir el vih
     - medidas de prevención frente al vih
+    - como puedo evitar contagiarme de vih?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -614,6 +616,8 @@ nlu:
     - hace dos semanas tuve relaciones sexuales sin proteccion
     - si tengo sexo sin proteccion puedo infectarme de vih?
     - si tengo sexo sin condon puedo coger el vih?
+    - es peligroso el sexo sin condon?
+    - es peligoroso mantener sexo sin proteccion?
 - intent: faq/evitar_vertical
   examples: |
     - ¿Puede evitarse la transmisión vertical?

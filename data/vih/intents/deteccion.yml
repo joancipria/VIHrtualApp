@@ -43,6 +43,8 @@ nlu:
     - Cómo saber si tengo VIH
     - Tengo vih?
     - Tengo sida?
+    - como se puede saber si una persona tiene vih?
+    - como se puede saber si alguien tiene vih?
 - intent: detectar_tras_contacto
   examples: |
     - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
@@ -84,6 +86,10 @@ nlu:
     - hacerse la prueba del vih una semana despues de una practica de riesgo es efectivo?
     - cuantos dias tengo que esperar para saber si me he infectado de vih?
     - si me hago la prueba la semana siguiente de haber tenido sexo, la prueba detectará el virus del vih?
+    - a partir de que momento puedo hacerme la prueba?
+    - cuanto tiempo tengo que esperar tras haber tenido un contacto de riesgo para hacerme la prueba?
+    - cuanto tiempo se debe esperar para hacerse la prueba delvih?
+    - cuanto tiempo se debe esperar para hacerse la prueba del vih?
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
@@ -209,6 +215,8 @@ nlu:
     - donde puedo hacerme una prueba del vih
     - como puedo realiarme una prueba de deteccion de vih
     - como puedo realizarme una prueba de vih?
+    - dode puedo hacerme una prueba para el vih?
+    - y como podría hacerme yo la prueba?
 - intent: faq/detectar_con_analitica
   examples: |
     - ¿Es posible detectar el VIH a través de una analítica?
