@@ -333,6 +333,10 @@ nlu:
     - y como se usa un preservativo?
     - utilizar de manera correcta los preservativos
     - como se usa un condon?
+    - no se utilizar un condon
+    - no se como utilizar un [condon vaginal]{"entity": "tipo_condon", "value": "female_condom"}
+    - tu me podrias explciar como puedo ponerme un condon?
+    - tu podrias explciarme como debo colocarme un [condon femenino]{"entity": "tipo_condon", "value": "female_condom"}?
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
