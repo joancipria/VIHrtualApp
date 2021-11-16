@@ -468,6 +468,6 @@ responses:
   utter_responder_vih_sabe_transmision_oral:
     - text: "En efecto, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
   utter_recordar_ventana:
-    - text: "De todas maneras, ten en cuenta que existe el llamado período ventana (de 2 a 12 semanas), en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n ¿Sabes en qué consiste el período ventana?"
+    - text: "Por otra parte, ten en cuenta que existe el llamado período ventana (de 2 a 12 semanas), en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n ¿Sabes en qué consiste el período ventana?"
   utter_preguntar_explicar_fases:
     - text: "¿Quieres que te explique más en detalle alguna fase?"
