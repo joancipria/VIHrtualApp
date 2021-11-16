@@ -140,7 +140,7 @@ slots:
     type: rasa.shared.core.slots.CategoricalSlot
     initial_value: null
     auto_fill: true
-    influence_conversation: true
+    influence_conversation: false
     values:
     - vih
     - sida
