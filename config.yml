@@ -25,6 +25,7 @@ pipeline:
     model_confidence: softmax
     epochs: 100
     constrain_similarities: true
+    batch_size: [128, 128]
   #- name: SpacyEntityExtractor
   #  dimensions: ["PER"]
   - name: EntitySynonymMapper
