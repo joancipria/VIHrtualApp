@@ -59,20 +59,20 @@ stories:
 - story: Transmisión VIH + preguntar oral + lo sabe
   steps:
   - intent: transmision
-  - slot_was_set:
-    - ets: vih
   - action: utter_transmision
-  #- action: utter_preguntar_vih_transmision_oral
+  - slot_was_set:
+    - ets: "vih"
+  - action: utter_preguntar_vih_transmision_oral
   - intent: afirmar
   - action: utter_responder_vih_sabe_transmision_oral
 
 - story: Transmisión VIH + preguntar oral + no lo sabe
   steps:
   - intent: transmision
-  - slot_was_set:
-    - ets: vih
   - action: utter_transmision
-  #- action: utter_preguntar_vih_transmision_oral
+  - slot_was_set:
+    - ets: "vih"
+  - action: utter_preguntar_vih_transmision_oral
   - intent: negar
   - action: utter_responder_vih_transmision_oral
 
@@ -95,16 +95,16 @@ stories:
   - action: utter_reaccionar_positivamente
   - action: utter_recordar_asistencia
 
-- story: Solicitar prueba + recordar acudir al médico + sabe período ventana
+- story: Solicitar prueba + recordar acudir al médico + no sabe período ventana
   steps: 
     - intent: solicitar_prueba
     - action: utter_solicitar_prueba
     - action: utter_recordar_acudir_medico 
     - action: utter_recordar_ventana
     - intent: negar
-    - action: utter_preguntar_explicar_fases
+    - action: utter_periodo_ventana_explicacion
 
-- story: Solicitar prueba + recordar acudir al médico + no sabe período ventana
+- story: Solicitar prueba + recordar acudir al médico + sabe período ventana
   steps:
     - intent: solicitar_prueba
     - action: utter_solicitar_prueba
@@ -126,6 +126,13 @@ stories:
     - action: utter_servicio_publico
     - action: utter_recordar_acudir_medico 
 
+- story: Como prevenir + preguntar si sabe utilizar preservativo
+  steps: 
+    - intent: como_prevenir
+    - action: utter_como_prevenir
+    - action: utter_preguntar_sabe_usar_preservativo
+    - intent: negar
+    - action: action_como_usar_preservativo
 
 
 
