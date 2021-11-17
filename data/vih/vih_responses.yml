@@ -122,6 +122,12 @@ responses:
         name: fase_vih
         value: "fase_vih_2"
       text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
+    # Fase 3 / SIDA
+    - condition:
+      - type: slot
+        name: fase_vih
+        value: "fase_vih_3"
+      text: "El SIDA (síndrome de inmunodeficiencia adquirida) es la fase más grave de la infección por el VIH. \n\n Las personas con SIDA tienen el sistema inmunitario tan dañado que comienzan a tener una cantidad cada vez mayor de enfermedades graves, las cuales se llaman infecciones oportunistas 😞."
     - text: "¿Sobre qué fase te gustaría saber más?"
   utter_preguntar_fase:
     - text: "¿Sobre qué fase te gustaría saber más?"

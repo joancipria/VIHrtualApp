@@ -12,11 +12,6 @@ nlu:
     - síndrome de Inmunodeficiencia Adquirida
     - sindrome de la inmunodeficiencia Adquirida
     - inmunodeficiencia adquirida
-    - fase 3
-    - tercera fase
-    - ultima fase
-    - tercera etapa
-    - etapa 3
 - synonym: hepatitis
   examples: |
     - epatitis
@@ -160,3 +155,17 @@ nlu:
     - fase por infección crónica
     - fase de infección cronica
     - fase cronica
+- synonym: fase_vih_3
+  examples: |
+    - fase 3
+    - tercera fase
+    - ultima fase
+    - última fase
+    - tercera etapa
+    - etapa 3
+    - 3 etapa
+    - 3 fase
+    - fase tercera
+    - tercer tramo
+    - fase sida
+    - etapa sida

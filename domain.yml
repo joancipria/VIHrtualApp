@@ -162,6 +162,7 @@ slots:
     values:
     - fase_vih_1
     - fase_vih_2
+    - fase_vih_3
 responses: {}
 actions:
 - action_dar_bienvenida
