@@ -111,6 +111,7 @@ nlu:
     - y que singifica [vih](ets)
     - oye dime que es la [hepatitis](ets)
     - dime que es [virus de la inmunodeficiecia humana](ets)
+    - q es el [ih](ets)
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
