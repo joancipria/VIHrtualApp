@@ -102,9 +102,15 @@ nlu:
     - explicame que es la [hepatitis](ets)
     - que es?
     - que es el [sida](ets)?
+    - qué es el [síndrome de Inmunodeficiencia Adquirida](ets)?
+    - q es el [sindrome de la inmunodeficiencia Adquirida](ets)?
+    - definición de [síndrome de Inmunodeficiencia Adquirida](ets)
+    - definición de [sindrome de la inmunodeficiencia Adquirida](ets)
+    - que es [inmunodeficiencia adquirida](ets)
     - que es el [vih](ets)?
     - y que singifica [vih](ets)
     - oye dime que es la [hepatitis](ets)
+    - dime que es [virus de la inmunodeficiecia humana](ets)
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -545,6 +551,20 @@ nlu:
     - cuentame acerca de la [infeccion aguda](fase_vih)
     - hablame acerca de la [segunda fase](fase_vih)
     - sobre la [infección aguda]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - que es la [fase 3]{"entity": "fase_vih", "value": "fase_vih_3"}?
+    - que es la [fase 3]{"entity": "fase_vih", "value": "fase_vih_3"} del virus?
+    - cual es la [tercera fase]{"entity": "fase_vih", "value": "fase_vih_3"} del vih?
+    - en qué consiste la [tercera fase]{"entity": "fase_vih", "value": "fase_vih_3"} del vih?
+    - cual es la [tercera etapa]{"entity": "fase_vih", "value": "fase_vih_3"} de infeccion
+    - cual es la [ultima etapa]{"entity": "fase_vih", "value": "fase_vih_3"} de la infeccion
+    - cual es la [ultima fase]{"entity": "fase_vih", "value": "fase_vih_3"} del vih?
+    - como es la [ultima fase]{"entity": "fase_vih", "value": "fase_vih_3"} del vih?
+    - como es la [etapa 3]{"entity": "fase_vih", "value": "fase_vih_3"} del vih?
+    - como es la [3 etapa]{"entity": "fase_vih", "value": "fase_vih_3"} del vih?
+    - que sucede en la [3 etapa]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - que sucede en la [etapa 3]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - que sucede en la [fase sida]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - en que consiste la [etapa sida]{"entity": "fase_vih", "value": "fase_vih_3"}
 - intent: faq/tipos_vih
   examples: |
     - ¿Cuántos tipos de VIH hay?
