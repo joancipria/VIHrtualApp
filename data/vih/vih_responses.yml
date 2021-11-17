@@ -327,6 +327,8 @@ responses:
   utter_instrucciones_preservativo_masculino:
     - text: "Aquí abajo te explico como utilizar correctamente un preservativo 👇."
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/male_condom.gif"
+  utter_faq/practicas_riesgo:
+    - text: "Ciertas conductas, como mantener relaciones sexuales con múltiples parejas, o tener sexo sin protección / utilizando la marcha atrás aumentan las probabilidades de contraer el VIH."
   # Sida
   utter_sida_vs_vih:
     - text: "El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado ❌🛡️. \n\n En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas 🦠 que suponen un grave riesgo para la persona que padece este síndrome."

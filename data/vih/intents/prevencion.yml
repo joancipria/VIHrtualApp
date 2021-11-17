@@ -698,3 +698,23 @@ nlu:
     - pueden surgir problemas al tener hijos si tienes vih?
     - pueden surgir problemas a la hora de tener hijos si tienes vih?
     - si a mi mujer le han dectectado vih podra tener hijos?
+- intent: faq/practicas_riesgo
+  examples: |
+    - ¿Qué es una práctica de riesgo?
+    - q es una practica de riesgo
+    - que es una practica de riesgo
+    - que es una praatica riesgosa?
+    - que es una práctica riesgosa
+    - qué son las prácticas de riesgo?
+    - que practicas son de riesgo
+    - que practicas son consideradas de riesgo
+    - que conductas pueden ser de riesgo en la transmisión del VIH
+    - qué conductas pueden ser peligrosas?
+    - que conductas se consideran peligrosas
+    - factores que aumentan el riesgo de contraer vih
+    - practicas que aumentas las probabilidades de infectarse de vih
+    - conductas peligrosas
+    - conductas que aumentan el riesgo de coger el vih
+    - que puede aumentar el riesgo de contraer el VIH?
+    - ¿Qué puede aumentar el riesgo de contraer o transmitir el VIH?
+    - Factores que aumentan el riesgo de contraer el VIH
