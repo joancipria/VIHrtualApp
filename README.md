@@ -59,4 +59,8 @@ Ejecuta `rasa run actions --cors "*"` para arrancar el servidor de acciones
 Siéntete libre de enviar una `pull request` a este repositorio con tus contribuciones.
 
 ## 📜 Licencia
-Licenciado bajo GNU General Public License v3.
+Licenciado bajo GNU General Public License v3. VIHrtual-App es un proyecto de investigación de la Universitat Politècnica de València, la Fundación FISABIO y la Unidad de Enfermedades Infecciosas del Hospital General de Elche para la prevención del VIH.
+<div align="center">
+<img style="width: 15%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/static/img/logos/upv.jpg">
+<img style="width: 15%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/static/img/logos/elche.jpg">
+</div>
