@@ -8,7 +8,6 @@ stories:
   - action: utter_faq
   - intent: mas_informacion
   - action: utter_dar_mas_informacion
-  - action: utter_dar_mas_informacion_enganche
 
 - story: faq + no le ha sido de ayuda + disculparse
   steps:
