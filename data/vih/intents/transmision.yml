@@ -78,6 +78,7 @@ nlu:
     - y como se transmite?
     - ¿Cómo se transmite el [VIH](ets)?
     - como se trabnsmite el [vih](ets)?
+    - y como se transmite
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -739,3 +740,27 @@ nlu:
     - puedo infectarme si mantengo relaciones sexuales con alguien que se inyecta drogas?
     - puedo coger el vih al mantener sexo con alguien que se inyecta droga?
     - se puede coger el vih si se tiene sexo con personas que se inyectan drogas
+- synonym: sexo_oral
+  examples: |
+    - comen la polla
+    - comes el coño
+- synonym: sexo_anal
+  examples: |
+    - darle por el culo
+    - doy por el culo
+    - meto el pene por el culo
+    - meterle el pene por el culo
+    - dar por el culo
+    - meterle la polla por el culo
+    - sexo por el culo
+    - dar por culo
+    - metersela por el culo
+    - relaciones sexuales anales
+    - meto una polla por el culo
+    - meto la polla por el culo
+    - follar por el culo
+    - follo por el culo
+    - follan por el culo
+    - follarte por el culo
+    - darte por el culo
+    - meten el pene por el culo
