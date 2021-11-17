@@ -56,6 +56,26 @@ stories:
   #--------------------
   # --- STORIES VIH ---
   #--------------------
+- story: Transmisión VIH + preguntar oral + lo sabe
+  steps:
+  - intent: transmision
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision
+  #- action: utter_preguntar_vih_transmision_oral
+  - intent: afirmar
+  - action: utter_responder_vih_sabe_transmision_oral
+
+- story: Transmisión VIH + preguntar oral + no lo sabe
+  steps:
+  - intent: transmision
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision
+  #- action: utter_preguntar_vih_transmision_oral
+  - intent: negar
+  - action: utter_responder_vih_transmision_oral
+
 - story: Fases del VIH + explicar fase
   steps:
   - intent: fases_vih
