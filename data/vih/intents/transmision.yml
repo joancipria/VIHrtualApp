@@ -79,6 +79,8 @@ nlu:
     - ¿Cómo se transmite el [VIH](ets)?
     - como se trabnsmite el [vih](ets)?
     - y como se transmite
+    - y cual es su transmision?
+    - y como es su transmision?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
