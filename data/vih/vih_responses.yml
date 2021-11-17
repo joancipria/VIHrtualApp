@@ -80,7 +80,7 @@ responses:
       - type: slot
         name: tipo_sexo
         value: "sexo_anal"
-      text: "Se puede contraer el VIH si tiene relaciones sexuales anales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo, ya que la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH." 
+      text: "Se puede contraer el VIH si tienes relaciones sexuales anales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo, ya que la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH." 
     # VIH (Sexo vaginal)
     - condition:
 #      - type: slot
@@ -89,7 +89,7 @@ responses:
       - type: slot
         name: tipo_sexo
         value: "sexo_vaginal"
-      text: "Se puede contraer el VIH si tiene relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas." 
+      text: "Se puede contraer el VIH si tienes relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas." 
     - text: "Eso depende del tipo de sexo. ¿Te refieres a sexo oral, anal o vaginal?" 
   utter_cura_vih:
     - text: "Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. \n\n Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
