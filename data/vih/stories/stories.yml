@@ -82,7 +82,7 @@ stories:
     - action: utter_recordar_acudir_medico 
     - action: utter_recordar_ventana
     - intent: negar
-    - action: utter_periodo_ventana
+    - action: utter_preguntar_explicar_fases
 
 - story: Solicitar prueba + recordar acudir al médico + no sabe período ventana
   steps:
