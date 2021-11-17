@@ -469,8 +469,18 @@ responses:
   # Experimental
   utter_preguntar_sabe_usar_preservativo:
     - text: "La principal medida para tener relaciones sexuales seguras es usar preservativo. ¿Sabes utilizarlo?"
+      buttons:
+      - payload: Sí
+        title: Sí
+      - payload: No
+        title: No
   utter_preguntar_vih_transmision_oral:
     - text: "¿Crees se puede contraer el VIH a través del sexo oral? 👄"
+      buttons:
+      - payload: Sí
+        title: Sí
+      - payload: No
+        title: No
   utter_responder_vih_transmision_oral:
     - text: "La verdad es que, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
   utter_responder_vih_sabe_transmision_oral:
@@ -481,3 +491,8 @@ responses:
     - text: "El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
   utter_preguntar_explicar_fases:
     - text: "¿Quieres que te explique más en detalle alguna fase?"
+      buttons:
+      - payload: Sí
+        title: Sí
+      - payload: No
+        title: No
