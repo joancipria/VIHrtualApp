@@ -28,6 +28,8 @@ nlu:
     - dime que son las enfermedades de transmisión sexuañ
     - dime qué son las enfermedades de transmisión sexual
     - me gustaria saber que son las enfermedades de transmision sexual
+    - Estaría interesado en saber qué son las enfermedades de transmisión sexual
+    - que es ets
 - intent: faq/que_es_viremia
   examples: |
     - ¿Qué es la viremia?

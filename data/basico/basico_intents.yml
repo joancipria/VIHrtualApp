@@ -660,6 +660,7 @@ nlu:
     - qué tal andas
     - ¿Qué pasa?
     - que pasa
+    - Cómo estás?
 - intent: animo_alto
   examples: |
     - Me siento genial
@@ -1054,3 +1055,12 @@ nlu:
     - sobre el [vih](ets)
     - al [sida](ets)
     - y la [heaptitis]{"entity": "ets", "value": "hepatitis"}?
+    - la [1]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - la [primera]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - la [primera fase]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - la [2]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - la [segunda]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - la [segunda fase]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - la [3]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - la [tercera]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - la [tercera fase]{"entity": "fase_vih", "value": "fase_vih_3"}

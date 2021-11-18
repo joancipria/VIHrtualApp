@@ -115,6 +115,7 @@ nlu:
     - que es la [hepatitis](ets)?
     - y que es el [vih](ets)?
     - que es el sindome de requiton?
+    - Y qué es el [VIH]{"entity": "ets", "value": "vih"}?
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -878,6 +879,7 @@ nlu:
     - de que fases consta el [vih](ets)?
     - tiene distintas fases el [vih](ets)?
     - cuales son las distintas fases por las que pasa el [vih](ets)
+    - Cuántas fases del [VIH]{"entity": "ets", "value": "vih"} hay?
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?

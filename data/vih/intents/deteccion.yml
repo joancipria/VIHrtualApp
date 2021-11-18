@@ -219,6 +219,13 @@ nlu:
     - y como podría hacerme yo la prueba?
     - si tengo vih como puedo hacerme una prueba?
     - como podría ahcerme yo una prueba del vih?
+    - Cómo realizar una prueba de detección de vih
+    - como realizarse una prueba de detección de vih
+    - como realizar una prueba de deteccion del vih
+    - como hacerse una prueba de vih
+    - cómo hacerse una prueba del vih
+    - Cómo me puedo hacer una prueba de detección del vih?
+    - como me puedo realizar una prueba de detección del vih?
 - intent: faq/detectar_con_analitica
   examples: |
     - ¿Es posible detectar el VIH a través de una analítica?

@@ -81,6 +81,7 @@ nlu:
     - y como se transmite
     - y cual es su transmision?
     - y como es su transmision?
+    - Cómo se transmite el [vih](ets)
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -167,6 +168,8 @@ nlu:
     - Explícame que es la transmisosn vertical
     - No sé lo que es la transmisión vertical
     - que significa transmision vertical?
+    - Qué es la transmisión vertical?
+    - que es transmisión vertical
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -571,6 +574,7 @@ nlu:
     - al [darte por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo pegarte el [vih](ets)?
     - si te [meten el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} pueden contagiarte de [vih](ets)?
     - se puede transmitir el [vih](ets) [haciendo una mamda]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - se puede transmitir al [hacer una mamda]{"entity": "tipo_sexo", "value": "sexo_oral"}?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -743,27 +747,3 @@ nlu:
     - puedo infectarme si mantengo relaciones sexuales con alguien que se inyecta drogas?
     - puedo coger el vih al mantener sexo con alguien que se inyecta droga?
     - se puede coger el vih si se tiene sexo con personas que se inyectan drogas
-- synonym: sexo_oral
-  examples: |
-    - comen la polla
-    - comes el coño
-- synonym: sexo_anal
-  examples: |
-    - darle por el culo
-    - doy por el culo
-    - meto el pene por el culo
-    - meterle el pene por el culo
-    - dar por el culo
-    - meterle la polla por el culo
-    - sexo por el culo
-    - dar por culo
-    - metersela por el culo
-    - relaciones sexuales anales
-    - meto una polla por el culo
-    - meto la polla por el culo
-    - follar por el culo
-    - follo por el culo
-    - follan por el culo
-    - follarte por el culo
-    - darte por el culo
-    - meten el pene por el culo

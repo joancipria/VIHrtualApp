@@ -58,13 +58,29 @@ nlu:
 - intent: faq/debo_tomar_prep
   examples: |
     - ¿Debería tomar la PrEP?
+    - deberia toamr la prep?
     - ¿Debo tomar PrEP?
+    - debo tomar prep?
     - ¿A quién se recomienda la PrEP?
+    - a qien se le recomienda tomar prep
     - ¿Quién debe tomar PreP?
+    - quien debe tomarse la prep?
     - ¿Para quién esta recomendada la PrEP?
+    - parra quien se recomienda la rpep?
+    - para quién se recomienda la prep?
+    - que persona deben tomarse la prep?
+    - la medicación prep es pàra todo el mundo?
+    - la prep es para todo el mundo?
+    - la prep la puede tomar cualquiera?
+    - la prep la puede tomar cualquier persona?
+    - a quien le esta recomendado tomar prep
     - ¿Me recomiendas tomar la PrEP?
     - ¿Es aconsejable tomar la PrEP?
     - ¿Me aconsejas tomar la PrEP?
+    - Los medicamentos de prevención del vih los puede tomar cualquier persona?
+    - la prep la puede tomar cualquiera
+    - quien puedo tomar la prep
+    - quién puede tomar los medicamentos de prevencion?
 - intent: faq/como_tomar_prep
   examples: |
     - ¿Cómo puedo tomar la PrEP?
@@ -398,6 +414,7 @@ nlu:
     - medidas de prevención frente al vih
     - como puedo evitar contagiarme de vih?
     - y como puedo prevenirlo?
+    - Cómo prevenir la infección de vih
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -719,3 +736,6 @@ nlu:
     - que puede aumentar el riesgo de contraer el VIH?
     - ¿Qué puede aumentar el riesgo de contraer o transmitir el VIH?
     - Factores que aumentan el riesgo de contraer el VIH
+    - que prácticas son de riesgo?
+    - Qué conductas pueden ser de riesgo a la hora de la transmisión del vih
+    - practicas de riesgo
