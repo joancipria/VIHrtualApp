@@ -166,6 +166,7 @@ nlu:
     - seep
     - sepp
     - yo creo que si
+    - Sí
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien

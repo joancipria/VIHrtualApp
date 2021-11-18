@@ -479,7 +479,7 @@ nlu:
     - es peligroso [hacer mamadas](tipo_sexo)?
     - es peligroso el [sexo anal](tipo_sexo)?
     - haciendo una [mamada](tipo_sexo) puedo coger el [vih](ets)?
-    - se puede coger el [vih](ets) [haciendo una mamada](tipo_sexo)?
+    - se puede coger el [vih](ets) [haciendo una mamada]{"entity": "tipo_sexo", "value": "sexo_oral"}?
     - se puede coger el [vih](ets) con una [mamada](tipo_sexo)?
     - infectar por [cunnilingus](tipo_sexo)
     - coger el [vih](ets) por hacer un [cunilingus](tipo_sexo)
@@ -570,6 +570,7 @@ nlu:
     - al [follarte por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo pasarte el [vih](ets)?
     - al [darte por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} puedo pegarte el [vih](ets)?
     - si te [meten el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} pueden contagiarte de [vih](ets)?
+    - se puede transmitir el [vih](ets) [haciendo una mamda]{"entity": "tipo_sexo", "value": "sexo_oral"}?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?

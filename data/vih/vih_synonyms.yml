@@ -6,6 +6,7 @@ nlu:
     - virus de la inmunodeficiecia humana
     - virus de la inmunodeficiencia humana
     - inmunodeficiencia humana
+    - ih
 - synonym: sida
   examples: |
     - SIDA

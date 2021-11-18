@@ -78,6 +78,7 @@ nlu:
     - que sintomas tiene?
     - y que sintomas tiene?
     - q sintomas tiene el [vih](ets)?
+    - dime que sintomas tiene
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?
