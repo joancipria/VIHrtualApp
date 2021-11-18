@@ -1052,3 +1052,5 @@ nlu:
     - que me cuentas sobre el [vih](ets)?
     - me refiero a [sexo anal](tipo_sexo)?
     - sobre el [vih](ets)
+    - al [sida](ets)
+    - y la [heaptitis]{"entity": "ets", "value": "hepatitis"}?

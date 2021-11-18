@@ -397,6 +397,7 @@ nlu:
     - que acciones puedo tomar para prevenir el vih
     - medidas de prevención frente al vih
     - como puedo evitar contagiarme de vih?
+    - y como puedo prevenirlo?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?

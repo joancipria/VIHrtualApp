@@ -114,6 +114,7 @@ nlu:
     - q es el [ih](ets)
     - que es la [hepatitis](ets)?
     - y que es el [vih](ets)?
+    - que es el sindome de requiton?
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -573,6 +574,7 @@ nlu:
     - cual es la fase de [infección crónica]{"entity": "fase_vih", "value": "fase_vih_2"}
     - cual es la [2 etapa]{"entity": "fase_vih", "value": "fase_vih_2"}
     - cuál es la [fase segunda]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - sobre la [infeccion aguda]{"entity": "fase_vih", "value": "fase_vih_1"}
 - intent: faq/tipos_vih
   examples: |
     - ¿Cuántos tipos de VIH hay?
