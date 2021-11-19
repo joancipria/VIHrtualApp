@@ -3,10 +3,6 @@ stories:
 #------------------
 # --- GENÉRICAS ---
 #------------------
-- story: Transmisión sexual
-  steps:
-  - intent: transmision_sexual
-  - action: utter_transmision_sexual
 
 #------------------
 # --- FASES VIH ---
