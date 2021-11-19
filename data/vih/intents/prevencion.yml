@@ -415,6 +415,7 @@ nlu:
     - como puedo evitar contagiarme de vih?
     - y como puedo prevenirlo?
     - Cómo prevenir la infección de vih
+    - y como puedo prevenir la infección por vih?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -739,3 +740,4 @@ nlu:
     - que prácticas son de riesgo?
     - Qué conductas pueden ser de riesgo a la hora de la transmisión del vih
     - practicas de riesgo
+    - que conductas se consideran con riesgo de infección

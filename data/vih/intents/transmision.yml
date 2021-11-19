@@ -170,6 +170,7 @@ nlu:
     - que significa transmision vertical?
     - Qué es la transmisión vertical?
     - que es transmisión vertical
+    - que es la transmisión vertical
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?

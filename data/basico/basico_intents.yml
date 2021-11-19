@@ -63,6 +63,8 @@ nlu:
     - hola guapa
     - ola guapo
     - holla
+    - hola holitaa
+    - Hola holitaa
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -661,6 +663,7 @@ nlu:
     - ¿Qué pasa?
     - que pasa
     - Cómo estás?
+    - como estas??
 - intent: animo_alto
   examples: |
     - Me siento genial
@@ -1052,6 +1055,11 @@ nlu:
     - sobre el [sida](ets)
     - que me cuentas sobre el [vih](ets)?
     - me refiero a [sexo anal](tipo_sexo)?
+    - me refiero a [sexo oral](tipo_sexo)?
+    - me refiero a una [mamada](tipo_sexo)?
+    - a [sexo oral](tipo_sexo)
+    - a [sexo anal](tipo_sexo)
+    - a [sexo vaginal](tipo_sexo)
     - sobre el [vih](ets)
     - al [sida](ets)
     - y la [heaptitis]{"entity": "ets", "value": "hepatitis"}?
@@ -1064,3 +1072,5 @@ nlu:
     - la [3]{"entity": "fase_vih", "value": "fase_vih_3"}
     - la [tercera]{"entity": "fase_vih", "value": "fase_vih_3"}
     - la [tercera fase]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - La [1]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - sobre la [1]{"entity": "fase_vih", "value": "fase_vih_1"}
