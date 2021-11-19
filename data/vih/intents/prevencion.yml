@@ -303,6 +303,8 @@ nlu:
     - cómo se utiliza un [condon para hombres](tipo_condon)?
     - como se utiliza el preservativo?
     - como se usa un [condón femenino](tipo_condon)?
+    - como se usa un [condón masculino](tipo_condon)?
+    - como se usa un [condon masculino](tipo_condon)?
     - cómo se usa el [condón para chicas](tipo_condon)
     - como se pone la gomita?
     - como debo ponerme la gomita?
@@ -353,6 +355,19 @@ nlu:
     - no se como utilizar un [condon vaginal]{"entity": "tipo_condon", "value": "female_condom"}
     - tu me podrias explciar como puedo ponerme un condon?
     - tu podrias explciarme como debo colocarme un [condon femenino]{"entity": "tipo_condon", "value": "female_condom"}?
+    - me puedes explicar como debo ponerme un [condon femenino]{"entity": "tipo_condon", "value": "female_condom"}?
+    - me podrías explicar como debo ponerme un [preservativo femenino]{"entity": "tipo_condon", "value": "female_condom"}
+    - por favor dame instrucciones sobre como ponerme un [condon femenino]{"entity": "tipo_condon", "value": "female_condom"}
+    - por favor dame instrucciones sobre como ponerme un [condon vaginal]{"entity": "tipo_condon", "value": "female_condom"}
+    - instrucciones para usar un preservativo
+    - instrucciones para usar un [preservativo femenino]{"entity": "tipo_condon", "value": "female_condom"}
+    - instrucciones de un [preservativo femenino]{"entity": "tipo_condon", "value": "female_condom"}
+    - instrucciones de un [condón vaginal]{"entity": "tipo_condon", "value": "female_condom"}
+    - como se usa un [preserativo masculino]{"entity": "tipo_condon", "value": "male_condom"}
+    - como se pone un [condón para hombres]{"entity": "tipo_condon", "value": "male_condom"}
+    - como ponerse [preservativo para hombres]{"entity": "tipo_condon", "value": "male_condom"}
+    - cómo se usa un [preservativo para hombre]{"entity": "tipo_condon", "value": "male_condom"}
+    - cómo se usa un [preservativo para pene]{"entity": "tipo_condon", "value": "male_condom"}
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH

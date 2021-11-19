@@ -1065,12 +1065,21 @@ nlu:
     - y la [heaptitis]{"entity": "ets", "value": "hepatitis"}?
     - la [1]{"entity": "fase_vih", "value": "fase_vih_1"}
     - la [primera]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - me refiero a la [primera]{"entity": "fase_vih", "value": "fase_vih_1"}
     - la [primera fase]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - digo la [primera fase]{"entity": "fase_vih", "value": "fase_vih_1"}
     - la [2]{"entity": "fase_vih", "value": "fase_vih_2"}
     - la [segunda]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - digo la [segunda]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - me refiero a la [segunda]{"entity": "fase_vih", "value": "fase_vih_2"}
     - la [segunda fase]{"entity": "fase_vih", "value": "fase_vih_2"}
     - la [3]{"entity": "fase_vih", "value": "fase_vih_3"}
     - la [tercera]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - me refiero a la [tercera]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - me refiero a la [ultima]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - digo la [última]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - me refiero a la [última fase]{"entity": "fase_vih", "value": "fase_vih_3"}
+    - digo la [ultima fase]{"entity": "fase_vih", "value": "fase_vih_3"}
     - la [tercera fase]{"entity": "fase_vih", "value": "fase_vih_3"}
     - La [1]{"entity": "fase_vih", "value": "fase_vih_1"}
     - sobre la [1]{"entity": "fase_vih", "value": "fase_vih_1"}
