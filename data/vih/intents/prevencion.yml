@@ -352,22 +352,22 @@ nlu:
     - utilizar de manera correcta los preservativos
     - como se usa un condon?
     - no se utilizar un condon
-    - no se como utilizar un [condon vaginal]{"entity": "tipo_condon", "value": "female_condom"}
+    - no se como utilizar un [condon vaginal]{"entity": "tipo_condon", "value": "condon_femenino"}
     - tu me podrias explciar como puedo ponerme un condon?
-    - tu podrias explciarme como debo colocarme un [condon femenino]{"entity": "tipo_condon", "value": "female_condom"}?
-    - me puedes explicar como debo ponerme un [condon femenino]{"entity": "tipo_condon", "value": "female_condom"}?
-    - me podrías explicar como debo ponerme un [preservativo femenino]{"entity": "tipo_condon", "value": "female_condom"}
-    - por favor dame instrucciones sobre como ponerme un [condon femenino]{"entity": "tipo_condon", "value": "female_condom"}
-    - por favor dame instrucciones sobre como ponerme un [condon vaginal]{"entity": "tipo_condon", "value": "female_condom"}
+    - tu podrias explciarme como debo colocarme un [condon femenino]{"entity": "tipo_condon", "value": "condon_femenino"}?
+    - me puedes explicar como debo ponerme un [condon femenino]{"entity": "tipo_condon", "value": "condon_femenino"}?
+    - me podrías explicar como debo ponerme un [preservativo femenino]{"entity": "tipo_condon", "value": "condon_femenino"}
+    - por favor dame instrucciones sobre como ponerme un [condon femenino]{"entity": "tipo_condon", "value": "condon_femenino"}
+    - por favor dame instrucciones sobre como ponerme un [condon vaginal]{"entity": "tipo_condon", "value": "condon_femenino"}
     - instrucciones para usar un preservativo
-    - instrucciones para usar un [preservativo femenino]{"entity": "tipo_condon", "value": "female_condom"}
-    - instrucciones de un [preservativo femenino]{"entity": "tipo_condon", "value": "female_condom"}
-    - instrucciones de un [condón vaginal]{"entity": "tipo_condon", "value": "female_condom"}
-    - como se usa un [preserativo masculino]{"entity": "tipo_condon", "value": "male_condom"}
-    - como se pone un [condón para hombres]{"entity": "tipo_condon", "value": "male_condom"}
-    - como ponerse [preservativo para hombres]{"entity": "tipo_condon", "value": "male_condom"}
-    - cómo se usa un [preservativo para hombre]{"entity": "tipo_condon", "value": "male_condom"}
-    - cómo se usa un [preservativo para pene]{"entity": "tipo_condon", "value": "male_condom"}
+    - instrucciones para usar un [preservativo femenino]{"entity": "tipo_condon", "value": "condon_femenino"}
+    - instrucciones de un [preservativo femenino]{"entity": "tipo_condon", "value": "condon_femenino"}
+    - instrucciones de un [condón vaginal]{"entity": "tipo_condon", "value": "condon_femenino"}
+    - como se usa un [preserativo masculino]{"entity": "tipo_condon", "value": "condon_masculino"}
+    - como se pone un [condón para hombres]{"entity": "tipo_condon", "value": "condon_masculino"}
+    - como ponerse [preservativo para hombres]{"entity": "tipo_condon", "value": "condon_masculino"}
+    - cómo se usa un [preservativo para hombre]{"entity": "tipo_condon", "value": "condon_masculino"}
+    - cómo se usa un [preservativo para pene]{"entity": "tipo_condon", "value": "condon_masculino"}
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH

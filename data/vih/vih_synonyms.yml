@@ -18,7 +18,7 @@ nlu:
     - epatitis
     - heaptitis
     - heapatitis
-- synonym: male_condom
+- synonym: condon_masculino
   examples: |
     - condón masculino
     - condon masculino
@@ -35,7 +35,7 @@ nlu:
     - condón en la polla
     - presrvativo en el pene
     - condon externo
-- synonym: female_condom
+- synonym: condon_femenino
   examples: |
     - condon femenino
     - condón femenino

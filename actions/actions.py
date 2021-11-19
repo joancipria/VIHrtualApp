@@ -63,10 +63,10 @@ class ActionComoUsarPreservativo(Action):
             dispatcher.utter_message(response="utter_instrucciones_preservativo_masculino")
         
         # If not, show requested condom
-        if tipo_condon == "female_condom":
+        if tipo_condon == "condon_femenino":
             dispatcher.utter_message(response="utter_instrucciones_preservativo_femenino")
         
-        if tipo_condon == "male_condom":
+        if tipo_condon == "condon_masculino":
             dispatcher.utter_message(response="utter_instrucciones_preservativo_masculino")
         
         return []
