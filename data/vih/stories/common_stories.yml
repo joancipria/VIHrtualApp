@@ -1,0 +1,47 @@
+version: "2.0"
+stories:
+- story: Test validación
+  steps:
+  - intent: faq/que_es_ets
+  - action: utter_faq
+  - intent: informar
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: sintomas
+  - action: utter_sintomas
+  - intent: fases_vih
+  - action: utter_fases_vih
+  - action: utter_preguntar_explicar_fases
+  - intent: afirmar
+  - action: utter_preguntar_fase
+  - intent: explicar_fase
+    entities:
+    - fase_vih: fase_vih_1
+  - slot_was_set:
+    - fase_vih: fase_vih_1
+  - action: utter_explicar_fase
+  - intent: transmision
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: negar
+  - action: utter_responder_transmision_oral_vih
+  - intent: faq/vertical
+  - action: utter_faq
+  - intent: faq/practicas_riesgo
+  - action: utter_faq
+  - intent: como_prevenir
+  - action: utter_como_prevenir
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: negar
+  - action: action_como_usar_preservativo
+  - intent: solicitar_prueba
+  - action: utter_solicitar_prueba
+  - action: utter_recordar_acudir_medico
+  - action: utter_recordar_ventana
+  - intent: negar
+  - action: utter_periodo_ventana_explicacion
+
+

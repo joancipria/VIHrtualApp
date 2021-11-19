@@ -1,81 +1,16 @@
 version: "2.0"
 stories:
-  #--------------------------
-  # --- STORIES GENÉRICAS ---
-  #--------------------------
-- story: Definir
-  steps:
-  - intent: definir
-  - action: utter_definir
-
-- story: Definir indirectamente
-  steps:
-  - intent: definir
-  - action: utter_definir
-  - intent: informar
-  - slot_was_set:
-    - ets
-  - action: utter_definir
-
-- story: Transmisión
-  steps:
-  - intent: transmision
-  - action: utter_transmision
-  #- action: utter_preguntar_vih_transmision_oral
-
-- story: Transmisión indirectamente
-  steps:
-  - intent: transmision
-  - action: utter_transmision
-  #- action: utter_preguntar_vih_transmision_oral
-  - intent: informar
-  - slot_was_set:
-    - ets
-  - action: utter_transmision
-  
-- story: Transmisión sexual + no sabe utilizar preservativo
+#------------------
+# --- GENÉRICAS ---
+#------------------
+- story: Transmisión sexual
   steps:
   - intent: transmision_sexual
   - action: utter_transmision_sexual
-#  - intent: informar
-#  - slot_was_set:
-#    - ets
-#  - action: utter_transmision_sexual
-  - action: utter_preguntar_sabe_usar_preservativo
-  - intent: negar
-  - action: action_como_usar_preservativo
-  
-- story: Transmisión sexual + sabe utilizar preservativo
-  steps:
-  - intent: transmision_sexual
-  - action: utter_transmision_sexual
-  - action: utter_preguntar_sabe_usar_preservativo
-  - intent: afirmar
-  - action: utter_reaccionar_positivamente
 
-  #--------------------
-  # --- STORIES VIH ---
-  #--------------------
-- story: Transmisión VIH + preguntar oral + lo sabe
-  steps:
-  - intent: transmision
-  - action: utter_transmision
-  - slot_was_set:
-    - ets: "vih"
-  - action: utter_preguntar_vih_transmision_oral
-  - intent: afirmar
-  - action: utter_responder_vih_sabe_transmision_oral
-
-- story: Transmisión VIH + preguntar oral + no lo sabe
-  steps:
-  - intent: transmision
-  - action: utter_transmision
-  - slot_was_set:
-    - ets: "vih"
-  - action: utter_preguntar_vih_transmision_oral
-  - intent: negar
-  - action: utter_responder_vih_transmision_oral
-
+#------------------
+# --- FASES VIH ---
+#------------------
 - story: Fases del VIH + explicar fase
   steps:
   - intent: fases_vih
@@ -83,7 +18,9 @@ stories:
   - action: utter_preguntar_explicar_fases
   - intent: afirmar
   - action: utter_preguntar_fase
-  - intent: explicar_fase
+  - or:
+    - intent: explicar_fase
+    - intent: informar
   - action: utter_explicar_fase
 
 - story: Fases del VIH + no explicar ninguna fase
@@ -94,6 +31,10 @@ stories:
   - intent: negar
   - action: utter_reaccionar_positivamente
   - action: utter_recordar_asistencia
+
+#--------------------
+# --- PRUEBAS VIH ---
+#--------------------
 
 - story: Solicitar prueba + recordar acudir al médico + no sabe período ventana
   steps: 
@@ -126,6 +67,9 @@ stories:
     - action: utter_servicio_publico
     - action: utter_recordar_acudir_medico 
 
+#------------------------------
+# --- UTILIZAR PRESERVATIVO ---
+#------------------------------
 - story: Como prevenir + preguntar si sabe utilizar preservativo
   steps: 
     - intent: como_prevenir
@@ -134,5 +78,243 @@ stories:
     - intent: negar
     - action: action_como_usar_preservativo
 
+- story: Transmisión sexual + no sabe utilizar preservativo
+  steps:
+  - intent: transmision_sexual
+  - action: utter_transmision_sexual
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: negar
+  - action: action_como_usar_preservativo
+  
+- story: Transmisión sexual + sabe utilizar preservativo
+  steps:
+  - intent: transmision_sexual
+  - action: utter_transmision_sexual
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: afirmar
+  - action: utter_reaccionar_positivamente
 
+#------------
+# --- MIX ---
+#------------
 
+- story: Definir VIH
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+
+- story: Definir Hepatitis
+  steps:
+  - intent: definir
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_definir_hepatitis
+
+- story: Definir SIDA
+  steps:
+  - intent: definir
+    entities:
+    - ets: sida
+  - slot_was_set:
+    - ets: sida
+  - action: utter_definir_sida
+
+- story: Definir VIH y SIDA (indirectamente)
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: informar
+    entities:
+    - ets: sida
+  - slot_was_set:
+    - ets: sida
+  - action: utter_definir_sida
+  - intent: informar
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_definir_hepatitis
+
+- story: Definir Hepatitis y VIH (indirectamente)
+  steps:
+  - intent: definir
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_definir_hepatitis
+  - intent: informar
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+
+- story: Definir (fallback) + informar vih + definir vih
+  steps:
+  - intent: definir
+  - action: utter_definir_fallback
+  - intent: informar
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+
+- story: Definir (fallback) + informar hepatitis + definir hepatitis
+  steps:
+  - intent: definir
+  - action: utter_definir_fallback
+  - intent: informar
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_definir_hepatitis
+
+- story: Definir (fallback) + informar sida + definir sida
+  steps:
+  - intent: definir
+  - action: utter_definir_fallback
+  - intent: informar
+    entities:
+    - ets: sida
+  - slot_was_set:
+    - ets: sida
+  - action: utter_definir_sida
+
+- story: Transmisión VIH + no sabe oral
+  steps:
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: negar
+  - action: utter_responder_transmision_oral_vih
+
+- story: Transmisión VIH + sabe oral
+  steps:
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: afirmar
+  - action: utter_responder_transmision_oral_vih_sabe
+
+- story: Transmisión Hepatitis
+  steps:
+  - intent: transmision
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_transmision_hepatitis
+
+- story: Story from Conversation ID a3aa8748822c4dc3a0fe7d604b78a6ed
+  steps:
+  - intent: transmision
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+
+- story: Transmisión Hepatitis + transmisión vih (indirecto)
+  steps:
+  - intent: transmision
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_transmision_hepatitis
+  - intent: informar
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+
+- story: Definir Hepatitis + transmision (sin entity)
+  steps:
+  - intent: definir
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_definir_hepatitis
+  - intent: transmision
+  - action: utter_transmision_hepatitis
+
+- story:  Definir VIH + transmision (sin entity)
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: transmision
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+
+- story:  Definir Hepatitis + transmision hepatitis (indirecto)
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: transmision
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: informar
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_transmision_hepatitis
+
+- story:  Definir Hepatitis + transmision (sin entity) + transmisión vih (indirecto) + transmision sexual
+  steps:
+  - intent: definir
+    entities:
+    - ets: hepatitis
+  - slot_was_set:
+    - ets: hepatitis
+  - action: utter_definir_hepatitis
+  - intent: transmision
+  - action: utter_transmision_hepatitis
+  - intent: informar
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: negar
+  - action: utter_responder_transmision_oral_vih
+  - intent: transmision_sexual
+    entities:
+    - tipo_sexo: sexo_oral
+  - slot_was_set:
+    - tipo_sexo: sexo_oral
+  - action: utter_transmision_sexual
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: afirmar
+  - action: utter_reaccionar_positivamente
