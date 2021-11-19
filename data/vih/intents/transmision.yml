@@ -576,6 +576,22 @@ nlu:
     - si te [meten el pene por el culo]{"entity": "tipo_sexo", "value": "sexo_anal"} pueden contagiarte de [vih](ets)?
     - se puede transmitir el [vih](ets) [haciendo una mamda]{"entity": "tipo_sexo", "value": "sexo_oral"}?
     - se puede transmitir al [hacer una mamda]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - se transmite si ahces una [mamada]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - hacer[ felaciones](tipo_sexo) se considera peligroso?
+    - si hago una [chupada](tipo_sexo) me puedo infectar?
+    - las [felaciones](tipo_sexo) son peligrosas?
+    - podria infectarme de [vih](ets) por hacer una [felación]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - podria infectarme de [vih](ets) por hacer una [felacion]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - si haces muchos [cunnilingus](tipo_sexo) podrias infectarte?
+    - por hacer un [cunilingus]{"entity": "tipo_sexo", "value": "sexo_oral"} puedes coger el [vih](ets)?
+    - por [chupar muchas pollas](tipo_sexo) puede coger el [vih](ets)?
+    - por [chupar una polla]{"entity": "tipo_sexo", "value": "sexo_oral"} podria pillar el [vih](ets)?
+    - por [chupar una pollar]{"entity": "tipo_sexo", "value": "sexo_oral"} podria pillar el [vih](ets)?
+    - [comer coños]{"entity": "tipo_sexo", "value": "sexo_oral"} es peligroso?
+    - si le [como el coño]{"entity": "tipo_sexo", "value": "sexo_oral"} podria contagiarle?
+    - si una tia me hace una [mamda]{"entity": "tipo_sexo", "value": "sexo_oral"} me puede pasar el [vih](ets)?
+    - por [comerte muchos coños]{"entity": "tipo_sexo", "value": "sexo_oral"} puedes infectarte de [ih](ets)?
+    - por [chupar la vagina]{"entity": "tipo_sexo", "value": "sexo_oral"} podria contraer el vih?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
