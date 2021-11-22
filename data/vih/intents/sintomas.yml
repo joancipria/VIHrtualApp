@@ -80,6 +80,9 @@ nlu:
     - q sintomas tiene el [vih](ets)?
     - dime que sintomas tiene
     - Qué síntomas presenta el [VIH]{"entity": "ets", "value": "vih"}?
+    - y qué sintomas presenta?
+    - y que sintomas suele mostrar?
+    - qué sintomas presenta?
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

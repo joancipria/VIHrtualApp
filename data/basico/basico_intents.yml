@@ -1083,3 +1083,4 @@ nlu:
     - la [tercera fase]{"entity": "fase_vih", "value": "fase_vih_3"}
     - La [1]{"entity": "fase_vih", "value": "fase_vih_1"}
     - sobre la [1]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - Y EL [VIH]{"entity": "ets", "value": "vih"}?

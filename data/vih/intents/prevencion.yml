@@ -431,6 +431,8 @@ nlu:
     - y como puedo prevenirlo?
     - Cómo prevenir la infección de vih
     - y como puedo prevenir la infección por vih?
+    - como puedo prevenirlo?
+    - cómo se puede prevenir la infección por VIH?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -756,3 +758,5 @@ nlu:
     - Qué conductas pueden ser de riesgo a la hora de la transmisión del vih
     - practicas de riesgo
     - que conductas se consideran con riesgo de infección
+    - que condsuctas se consideran de riesgo en la transmision del ih?
+    - que conductas pueden ser de riesgo en la transmisión del VIH?

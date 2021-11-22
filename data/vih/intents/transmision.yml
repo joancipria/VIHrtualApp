@@ -82,6 +82,7 @@ nlu:
     - y cual es su transmision?
     - y como es su transmision?
     - Cómo se transmite el [vih](ets)
+    - cómo se transmite el [vih](ets)?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -171,6 +172,8 @@ nlu:
     - Qué es la transmisión vertical?
     - que es transmisión vertical
     - que es la transmisión vertical
+    - que es la transmision vertical?
+    - qué es la transmisión vertical?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
