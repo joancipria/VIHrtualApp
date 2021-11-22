@@ -433,6 +433,16 @@ nlu:
     - y como puedo prevenir la infección por vih?
     - como puedo prevenirlo?
     - cómo se puede prevenir la infección por VIH?
+    - qué se puede hacer para evitar coger el virus
+    - como se puedo evitar infectarse
+    - que hacer para no coger el virus
+    - como evitar coger el virus
+    - cómo puedo prevenir la infecccion del vih?
+    - como evito coger el vig
+    - como se puede prevenir la infecsion
+    - Explicame como no contagiarme de VHI
+    - Como evitar contagiarme de VHI
+    - Que debo hacer para no contraer el SIDA?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -711,6 +721,8 @@ nlu:
     - qué medidas debe tomar una mujer embarazada para no infectar al feto?
     - prevenir transmitirle el VIH a mi bebé
     - prevenir la transmisión de madre a hijo
+    - Como evitar contagiar al bebe?
+    - cómo evito contagiar al bebe?
 - intent: faq/concebir
   examples: |
     - ¿Si tengo VIH tendré problemas para concebir?
@@ -760,3 +772,23 @@ nlu:
     - que conductas se consideran con riesgo de infección
     - que condsuctas se consideran de riesgo en la transmision del ih?
     - que conductas pueden ser de riesgo en la transmisión del VIH?
+    - que comportamientos o conductas se consideran de riesgo
+    - q comportamientos hacen mas probale coger el virus
+    - q conductas hacen que sea más probable coger el virus
+    - qué conductas facilitan la transmision del vih?
+    - conductas que favorecen la transmisión del virus
+    - actuaciones de riesgo
+    - comportamientos que facilitan ser infectado
+    - acciones que facilitan la infeccion
+    - comportamientos que hacen que sea mas facil infectarse
+    - comportamientos que facilitan la transmision
+    - que practicas se consideran de riesgo?
+    - que practicas o conductas favorecen la transmisión?
+    - que practicas se cobnsider<an de riesgo?
+    - hay comportamientos que hacen que sea mas facil coger el vih?
+    - que comportamientos hacen que sea mas probable le coger el vih?
+    - que actitudes hacen que sea mas probanb le coger el vih?
+    - que comportamientos favorecen la infeccion por vih?
+    - que conductas favorecen la transmison del vih?
+    - Que no debo hacer para contraer el SIDA?
+    - Que conductas son de riesgo para contraer el SIDA?

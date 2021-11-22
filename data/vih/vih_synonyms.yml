@@ -7,12 +7,16 @@ nlu:
     - virus de la inmunodeficiencia humana
     - inmunodeficiencia humana
     - ih
+    - vig
+    - VHI
 - synonym: sida
   examples: |
     - SIDA
     - síndrome de Inmunodeficiencia Adquirida
     - sindrome de la inmunodeficiencia Adquirida
     - inmunodeficiencia adquirida
+    - SISA
+    - SIFA
 - synonym: hepatitis
   examples: |
     - epatitis

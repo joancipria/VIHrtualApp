@@ -76,13 +76,20 @@ nlu:
     - como se transmite la [hepatitis](ets)
     - como se transmite la [hepatitis](ets)?
     - y como se transmite?
-    - ¿Cómo se transmite el [VIH](ets)?
+    - ¿Cómo se transmite el [VIH]{"entity": "ets", "value": "vih"}?
     - como se trabnsmite el [vih](ets)?
     - y como se transmite
     - y cual es su transmision?
     - y como es su transmision?
     - Cómo se transmite el [vih](ets)
     - cómo se transmite el [vih](ets)?
+    - coomo se transmite el virus del [vih](ets)?
+    - como se pega la [hepatitis](ets)
+    - como se èga la [hepatitis](ets)
+    - como se transfiere la [hepatitis](ets)
+    - como se propaga el [vih](ets)
+    - como se contagia el [vih](ets)
+    - Como me puedo contagiar de [VIH]{"entity": "ets", "value": "vih"}?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -174,6 +181,12 @@ nlu:
     - que es la transmisión vertical
     - que es la transmision vertical?
     - qué es la transmisión vertical?
+    - eplicame la transmision vertical
+    - en que consiste l transmision vertical
+    - que es la infeccion perinatal
+    - qué es la infección vertical?
+    - explicame la transmisión perinatal
+    - Que significa la transmision vertical?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -225,6 +238,7 @@ nlu:
     - si le doy un beso a alguien que tiene vih puedo infectarme de vih?
     - podria coger el vih por besar a alguien con vih?
     - si le doy un beso con lengua a alguien que tiene el vih me lo puede pegar?
+    - A traves de la saliva se puede contraer el SIDA?
 - intent: compartir_vaso_cubierto
   examples: |
     - se pede contagiar por comparir un vaso?
@@ -595,6 +609,10 @@ nlu:
     - si una tia me hace una [mamda]{"entity": "tipo_sexo", "value": "sexo_oral"} me puede pasar el [vih](ets)?
     - por [comerte muchos coños]{"entity": "tipo_sexo", "value": "sexo_oral"} puedes infectarte de [ih](ets)?
     - por [chupar la vagina]{"entity": "tipo_sexo", "value": "sexo_oral"} podria contraer el vih?
+    - el [vih](ets) se pega por [chupar una polla]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - se puede tranbsmitir al [chupar una polla]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - Puedo contraer el [SIDA](ets) con el [sexo oral]{"entity": "tipo_sexo", "value": "sexo_oral"}?
+    - Solo puedo contraer el [SIDA](ets) a traves del sexo?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?

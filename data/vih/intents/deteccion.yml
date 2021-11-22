@@ -90,6 +90,7 @@ nlu:
     - cuanto tiempo tengo que esperar tras haber tenido un contacto de riesgo para hacerme la prueba?
     - cuanto tiempo se debe esperar para hacerse la prueba delvih?
     - cuanto tiempo se debe esperar para hacerse la prueba del vih?
+    - Desde que creo que me he infectado, cuanto tiempo ha de pasar para poder hacerne la prueba del SISA?
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
@@ -229,6 +230,17 @@ nlu:
     - y como podria hacerme yo una prueba de deteccion?
     - si me infecto como podria solcitar que me hicieran la prueba?
     - cómo puedes realizarte una prueba de detección de VIH?
+    - que pasos debo seguir para solicitar una prueba diagnostica del vih?
+    - como puedo solictar que me realicen una prueba?
+    - como hago para que me hagan la prueba del vih
+    - como hago para que me hagfan la prueba dfel vih
+    - como hacerse la prueba
+    - como hacerme una prueba
+    - como hacerme un aprueba
+    - que debo de hacer para hacerme una prueba
+    - que tengo que hacer para hacerme la prueba
+    - como puedo hacerme un aprueba de vih
+    - Como se hace la prueba del SIDA?
 - intent: faq/detectar_con_analitica
   examples: |
     - ¿Es posible detectar el VIH a través de una analítica?

@@ -1,217 +1,217 @@
 version: "2.0"
-
 nlu:
-  - intent: faq/cuantas_personas_contraido_vih_historia
-    examples: |
-      - ¿Cuántas personas han contraído VIH en la Historia?
-      - ¿Cuánta gente ha contraído VIH en toda la historia? 
-      - ¿Cuántas personas han cogido VIH en la historia?
-      - ¿Cuántas personas han tenido VIH desde el principio de la historia?
-      - Desde que se descubrió, ¿cuánta gente ha cogido el VIH?
-      - ¿Cuánta gente ha cogido el VIH en toda la historia?
-      - En toda la historia cuánta gente ha contraído el VIH?
-      - En toda la historia cuánta se ha infectado de VIH?
-      - Números históricos VIH
-      - Total histórico de infecciones VIH
-      - Datos de cuántas personas han cogido VIH
-  - intent: faq/cuantas_personas_muertas_vih
-    examples: |
-      - ¿Cuántas personas han muerto de VIH?
-      - cuantas personas han muerto en toda la historia por vih?
-      - cuanta gente a muerto de vih en toda la historia?
-      - cuanta gente ha muerto por vih?
-      - ¿Cuánta gente ha muerto de VIH?
-      - ¿Cúantas personas han fallecido por VIH?
-      - cuantas personas han fallecio de vih?
-      - ¿Cúantos muertos ha causado el VIH?
-      - cuantos muertos ha provocado el vih?
-      - cuantos muertos ha causado el vih?
-      - cuantos muertos han habido por vih
-      - ¿Cuántas muertes ha producido el VIH?
-      - cuantas muertes ha producido el virus
-      - ¿Ha muerto mucha gente de VIH?
-      - ha muerto mucha gente por vih?
-      - cuantas personas han muerto por vih?
-      - Número de muertos total de VIH
-      - numero de muertos total por vih
-      - numero de personas muertas por vih
-      - Datos de muertos total de VIH
-      - datos de mortalidad vih
-      - Histórico de muertes VIH
-      - historico de muertes totales por vih
-      - ¿Cuánta gente ha muerto?
-      - cuanta gente ha muerto?
-      - cuanta gente ha muerto de vih en todo lo que llevamos de historia?
-      - cuantas personas han muerto de vih
-      - muertes totales por vih
-      - cuanta gente ha muerto de vih?
-      - numero de gente que ha muerto de vih
-      - numero de oersonas muertas por vih
-      - cuantas personas han muerto po vih
-      - cuantas victimas ha habido por vih?
-      - cuantas victimas mortales ha producido el vih?
-      - numero de víctimas del vih
-  - intent: faq/cuantas_personas_tienen_vih
-    examples: |
-      - ¿Cuántas personas tienen VIH hoy?
-      - cuantas personas tienen vih hoy en dia?
-      - cuantas personas han contraido el vih
-      - cuanta gente tiene vih
-      - cuantas personas viven con el virus?
-      - cuantas personas viven con vih?
-      - ¿Cuantas personas tienen?
-      - cuantas personas en el mundo tienen vih?
-      - cuantas personas hay en el mundo con vih?
-      - cuantas personas hay con vih?
-      - ¿Cuánta gente tiene VIH?
-      - cuánta gente tiene vih
-      - ¿Cuanta gente hay con VIH?
-      - cuanta gente hay con vih
-      - ¿Cuántas personas tienen actualmente VIH?
-      - cuantas personas hay actualmente con vih?
-      - actualmente cuantas personas hay con vih
-      - actualmente cuantas personas tienes vih
-      - cuantas personas tienen el virus ahora mismo
-      - actualmente cuanta gente vive con VIH?
-      - cuanta gente convive con el vih?
-      - cuanta gente convive con el virus?
-      - Actualmente cuantas personas en el mundo hay con VIH
-      - En todo el mundo cuántas personas hay con VIH?
-      - cuantos pacientes hay?
-      - ¿cuántos pacientes tienen sida?
-      - cuantos pacienets con vih hay?
-      - ¿cuántos pacientes hay?
-      - cuantos pacientes hay
-      - ¿cuántas personas están afectadas por el VIH?
-      - cuantas personas hay afectadas por el vih
-      - cuanta gente hay en el mundo con vih
-      - ¿Cuanto VIH hay en el mundo?
-  - intent: faq/cuantas_personas_tienen_vih_españa
-    examples: |
-      - ¿Cuántas personas tienen VIH en España?
-      - cuantas personas tienen sida en España?
-      - cuánta gente tiene vih en españa?
-      - en españa cuanta gente con vih hay?
-      - cuanta gente hay con vih en españa?
-      - cuanta gente con vih vive en españa?
-      - cuántas personas viven en españa con sida?
-      - cuántos pacientes hay actualmente en españa de vih?
-      - cuantos enfermos de vih hay actualmente en españa?
-      - en españa cuanta gente sufre el vih?
-      - en este pais cuanta gente tiene vih?
-      - cuata gente tiene vih en españa?
-      - en el estado español cuanta gente tiene vih?
-      - cuantos españoles hay con vih?
-      - cuantos españoles viven con el vih?
-      - cuantos españoles hay infectados de vih?
-      - cuantas personas españolas viven con vih?
-      - en españa cuantas personas viven con vih?
-  - intent: faq/cuantas_personas_contraido_vih_2019
-    examples: |
-      - ¿Cuántas personas contrajeron VIH en 2019?
-      - ¿Cuánta gente contrajo VIH en 2019?
-      - ¿Cuánta gente ha cogido el vih en 2019?
-      - ¿Cuántas personas se infectaron de VIH en 2019?
-      - Número de personas que se infectaron de VIH 2019
-  - intent: faq/cuantas_personas_muertas_sida_2019
-    examples: |
-      - ¿Cuántas personas murieron de sida en 2019?
-      - ¿Cuánta gente ha muerto de sida en 2019?
-      - ¿Cuanta gente muere por sida?
-      - ¿Cuántas muertes produce el sida al año?
-      - ¿Cuántas personas mueren al año de sida?
-      - ¿Murió mucha gente en el año 2019 de sida?
-      - ¿Cuantá gente ha muerto de SIDA en este año?
-  - intent: faq/casos_cura
-    examples: |
-      - ¿que casos se han recuperado?
-      - qué casos de recuperacion existosa existen?
-      - que casos de paciente que se hayan curado existen?
-      - que casos existen que se hayan curado?
-      - que casos ha habio de curación?
-      - quienes se han curado?
-      - que pacientes han podido curarse?
-      - quien se ha llegado a curar?
-      - que personas han llegado a curarse?
-      - quienes son esas personas que se han curado?
-      - cuales son los casos que se han curado de vih?
-      - cuales son los casos que se han recuperado?
-      - que personas se han curado?
-      - quienes son las personas que se han curado?
-      - existe alguien que se haya curado?
-      - existe alguna persona que se haya pidido curar?
-      - hay alguien que se haya curado?
-      - existe alguna persona que se haya podido curar?
-      - existe alguna persona que se haya curado totalmente?
-      - en que casos se han curado del vih?
-      - quien se ha curado de vih?
-      - Han curado alguna vez el VIH?
-      - se ha curado alguna vez alguien?
-      - han curado alguna vez a alguien el vih?
-      - le han curado alguna vez el vih ba alguien?
-  - intent: faq/paciente_berlin
-    examples: |
-      - ¿Quién es el paciente de Berlín?
-      - Quien es el paciente Berlin?
-      - quien es el paciente de berlin?
-      - qué es el paciente de berlin?
-      - que es el paciente berlín?
-      - quien era el paciente de berlin?
-      - sabes quien es el paciente de berlín?
-      - sabes quien era el paciente berlín?
-      - quien fue aquel hombre que se curó?
-      - quien fue aquella persona que se curo el vih?
-      - hombre de berlin
-      - persona de berlin
-      - enfermo de berlin
-      - Paciente de Berlín
-      - paciente berlin
-  - intent: faq/paciente_londres
-    examples: |
-      - ¿Quién es el paciente de Londres?
-      - quien es el paciente de londres?
-      - qué es el paciente de londres?
-      - que es el paciente londres?
-      - quien era el paciente de londres?
-      - sabes quien es el paciente de londres?
-      - sabes quien era el paciente londres?
-      - hombre de londres
-      - persona de londres
-      - enfermo de londres
-      - paciente londres
-      - Paciente de Londres
-  - intent: faq/paises_mas_afectados_vih
-    examples: |
-      - ¿Qué paises son los más afectados por el VIH?
-      - que paises sohn los mas afectados por el vih?
-      - qué regiones son las mas afectadas por el sida?
-      - qué región es la más afectada por el vih?
-      - que continente es el más afectado por el vih?
-      - cual es el pais con mayor indice de infectados por vih?
-      - que paises tienen mas VIH?
-      - que pais tiene mnas sida?
-      - que sitio de todo el mundo tienen mas vih?
-      - cuales son los paises mas afectados por el vih?
-      - qué sitios son los mas afectados por el vih?
-      - que paises tienen más incidencia de vih?
-      - cuál es el pais con más vih?
-      - cuál es el pais con mayor incidencia de vih?
-      - cuál es el continente con mayor incidencia de sida?
-      - que pais esta peor con el vih?
-      - cual es el peor pais del mundo con vih
-      - el pais que más vih tiene
-      - que paises tenen mas vih?
-      - que area tiene mayor carga de vih o sida en el mundo?
-      - qué zona geográfica tiene mayor incidencia de SIDA?
-      - que pais del mundo tiene la mayor tasa de vih?
-      - pais del mundo con más vih
-      - zona del mundo con mayor numero de personas con sida
-      - pais con mas personas con vih del mundo
-      - distribucion del vih por paises
-      - cuota de vih por paises
-      - que pais tiene mas personas con vih?
-      - vih por paises
-      - distribución del vih por paises
-      - mapa de vih en el mundo
-      - distribución del vih por el mundo
-      - mapa mundial del vih en el mundo
+- intent: faq/cuantas_personas_contraido_vih_historia
+  examples: |
+    - ¿Cuántas personas han contraído VIH en la Historia?
+    - ¿Cuánta gente ha contraído VIH en toda la historia?
+    - ¿Cuántas personas han cogido VIH en la historia?
+    - ¿Cuántas personas han tenido VIH desde el principio de la historia?
+    - Desde que se descubrió, ¿cuánta gente ha cogido el VIH?
+    - ¿Cuánta gente ha cogido el VIH en toda la historia?
+    - En toda la historia cuánta gente ha contraído el VIH?
+    - En toda la historia cuánta se ha infectado de VIH?
+    - Números históricos VIH
+    - Total histórico de infecciones VIH
+    - Datos de cuántas personas han cogido VIH
+    - cuantas personas han contraido el vih en toda la historia?
+- intent: faq/cuantas_personas_muertas_vih
+  examples: |
+    - ¿Cuántas personas han muerto de VIH?
+    - cuantas personas han muerto en toda la historia por vih?
+    - cuanta gente a muerto de vih en toda la historia?
+    - cuanta gente ha muerto por vih?
+    - ¿Cuánta gente ha muerto de VIH?
+    - ¿Cúantas personas han fallecido por VIH?
+    - cuantas personas han fallecio de vih?
+    - ¿Cúantos muertos ha causado el VIH?
+    - cuantos muertos ha provocado el vih?
+    - cuantos muertos ha causado el vih?
+    - cuantos muertos han habido por vih
+    - ¿Cuántas muertes ha producido el VIH?
+    - cuantas muertes ha producido el virus
+    - ¿Ha muerto mucha gente de VIH?
+    - ha muerto mucha gente por vih?
+    - cuantas personas han muerto por vih?
+    - Número de muertos total de VIH
+    - numero de muertos total por vih
+    - numero de personas muertas por vih
+    - Datos de muertos total de VIH
+    - datos de mortalidad vih
+    - Histórico de muertes VIH
+    - historico de muertes totales por vih
+    - ¿Cuánta gente ha muerto?
+    - cuanta gente ha muerto?
+    - cuanta gente ha muerto de vih en todo lo que llevamos de historia?
+    - cuantas personas han muerto de vih
+    - muertes totales por vih
+    - cuanta gente ha muerto de vih?
+    - numero de gente que ha muerto de vih
+    - numero de oersonas muertas por vih
+    - cuantas personas han muerto po vih
+    - cuantas victimas ha habido por vih?
+    - cuantas victimas mortales ha producido el vih?
+    - numero de víctimas del vih
+- intent: faq/cuantas_personas_tienen_vih
+  examples: |
+    - ¿Cuántas personas tienen VIH hoy?
+    - cuantas personas tienen vih hoy en dia?
+    - cuantas personas han contraido el vih
+    - cuanta gente tiene vih
+    - cuantas personas viven con el virus?
+    - cuantas personas viven con vih?
+    - ¿Cuantas personas tienen?
+    - cuantas personas en el mundo tienen vih?
+    - cuantas personas hay en el mundo con vih?
+    - cuantas personas hay con vih?
+    - ¿Cuánta gente tiene VIH?
+    - cuánta gente tiene vih
+    - ¿Cuanta gente hay con VIH?
+    - cuanta gente hay con vih
+    - ¿Cuántas personas tienen actualmente VIH?
+    - cuantas personas hay actualmente con vih?
+    - actualmente cuantas personas hay con vih
+    - actualmente cuantas personas tienes vih
+    - cuantas personas tienen el virus ahora mismo
+    - actualmente cuanta gente vive con VIH?
+    - cuanta gente convive con el vih?
+    - cuanta gente convive con el virus?
+    - Actualmente cuantas personas en el mundo hay con VIH
+    - En todo el mundo cuántas personas hay con VIH?
+    - cuantos pacientes hay?
+    - ¿cuántos pacientes tienen sida?
+    - cuantos pacienets con vih hay?
+    - ¿cuántos pacientes hay?
+    - cuantos pacientes hay
+    - ¿cuántas personas están afectadas por el VIH?
+    - cuantas personas hay afectadas por el vih
+    - cuanta gente hay en el mundo con vih
+    - ¿Cuanto VIH hay en el mundo?
+- intent: faq/cuantas_personas_tienen_vih_españa
+  examples: |
+    - ¿Cuántas personas tienen VIH en España?
+    - cuantas personas tienen sida en España?
+    - cuánta gente tiene vih en españa?
+    - en españa cuanta gente con vih hay?
+    - cuanta gente hay con vih en españa?
+    - cuanta gente con vih vive en españa?
+    - cuántas personas viven en españa con sida?
+    - cuántos pacientes hay actualmente en españa de vih?
+    - cuantos enfermos de vih hay actualmente en españa?
+    - en españa cuanta gente sufre el vih?
+    - en este pais cuanta gente tiene vih?
+    - cuata gente tiene vih en españa?
+    - en el estado español cuanta gente tiene vih?
+    - cuantos españoles hay con vih?
+    - cuantos españoles viven con el vih?
+    - cuantos españoles hay infectados de vih?
+    - cuantas personas españolas viven con vih?
+    - en españa cuantas personas viven con vih?
+- intent: faq/cuantas_personas_contraido_vih_2019
+  examples: |
+    - ¿Cuántas personas contrajeron VIH en 2019?
+    - ¿Cuánta gente contrajo VIH en 2019?
+    - ¿Cuánta gente ha cogido el vih en 2019?
+    - ¿Cuántas personas se infectaron de VIH en 2019?
+    - Número de personas que se infectaron de VIH 2019
+- intent: faq/cuantas_personas_muertas_sida_2019
+  examples: |
+    - ¿Cuántas personas murieron de sida en 2019?
+    - ¿Cuánta gente ha muerto de sida en 2019?
+    - ¿Cuanta gente muere por sida?
+    - ¿Cuántas muertes produce el sida al año?
+    - ¿Cuántas personas mueren al año de sida?
+    - ¿Murió mucha gente en el año 2019 de sida?
+    - ¿Cuantá gente ha muerto de SIDA en este año?
+- intent: faq/casos_cura
+  examples: |
+    - ¿que casos se han recuperado?
+    - qué casos de recuperacion existosa existen?
+    - que casos de paciente que se hayan curado existen?
+    - que casos existen que se hayan curado?
+    - que casos ha habio de curación?
+    - quienes se han curado?
+    - que pacientes han podido curarse?
+    - quien se ha llegado a curar?
+    - que personas han llegado a curarse?
+    - quienes son esas personas que se han curado?
+    - cuales son los casos que se han curado de vih?
+    - cuales son los casos que se han recuperado?
+    - que personas se han curado?
+    - quienes son las personas que se han curado?
+    - existe alguien que se haya curado?
+    - existe alguna persona que se haya pidido curar?
+    - hay alguien que se haya curado?
+    - existe alguna persona que se haya podido curar?
+    - existe alguna persona que se haya curado totalmente?
+    - en que casos se han curado del vih?
+    - quien se ha curado de vih?
+    - Han curado alguna vez el VIH?
+    - se ha curado alguna vez alguien?
+    - han curado alguna vez a alguien el vih?
+    - le han curado alguna vez el vih ba alguien?
+- intent: faq/paciente_berlin
+  examples: |
+    - ¿Quién es el paciente de Berlín?
+    - Quien es el paciente Berlin?
+    - quien es el paciente de berlin?
+    - qué es el paciente de berlin?
+    - que es el paciente berlín?
+    - quien era el paciente de berlin?
+    - sabes quien es el paciente de berlín?
+    - sabes quien era el paciente berlín?
+    - quien fue aquel hombre que se curó?
+    - quien fue aquella persona que se curo el vih?
+    - hombre de berlin
+    - persona de berlin
+    - enfermo de berlin
+    - Paciente de Berlín
+    - paciente berlin
+- intent: faq/paciente_londres
+  examples: |
+    - ¿Quién es el paciente de Londres?
+    - quien es el paciente de londres?
+    - qué es el paciente de londres?
+    - que es el paciente londres?
+    - quien era el paciente de londres?
+    - sabes quien es el paciente de londres?
+    - sabes quien era el paciente londres?
+    - hombre de londres
+    - persona de londres
+    - enfermo de londres
+    - paciente londres
+    - Paciente de Londres
+- intent: faq/paises_mas_afectados_vih
+  examples: |
+    - ¿Qué paises son los más afectados por el VIH?
+    - que paises sohn los mas afectados por el vih?
+    - qué regiones son las mas afectadas por el sida?
+    - qué región es la más afectada por el vih?
+    - que continente es el más afectado por el vih?
+    - cual es el pais con mayor indice de infectados por vih?
+    - que paises tienen mas VIH?
+    - que pais tiene mnas sida?
+    - que sitio de todo el mundo tienen mas vih?
+    - cuales son los paises mas afectados por el vih?
+    - qué sitios son los mas afectados por el vih?
+    - que paises tienen más incidencia de vih?
+    - cuál es el pais con más vih?
+    - cuál es el pais con mayor incidencia de vih?
+    - cuál es el continente con mayor incidencia de sida?
+    - que pais esta peor con el vih?
+    - cual es el peor pais del mundo con vih
+    - el pais que más vih tiene
+    - que paises tenen mas vih?
+    - que area tiene mayor carga de vih o sida en el mundo?
+    - qué zona geográfica tiene mayor incidencia de SIDA?
+    - que pais del mundo tiene la mayor tasa de vih?
+    - pais del mundo con más vih
+    - zona del mundo con mayor numero de personas con sida
+    - pais con mas personas con vih del mundo
+    - distribucion del vih por paises
+    - cuota de vih por paises
+    - que pais tiene mas personas con vih?
+    - vih por paises
+    - distribución del vih por paises
+    - mapa de vih en el mundo
+    - distribución del vih por el mundo
+    - mapa mundial del vih en el mundo

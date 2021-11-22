@@ -119,6 +119,8 @@ nlu:
     - Y qué es el [VIH]{"entity": "ets", "value": "vih"}?
     - y qué es el virus del [vih](ets)?
     - y que es?
+    - que sgnifican las letras [vih](ets)
+    - Dime lo basico sobre el VHI
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -286,6 +288,7 @@ nlu:
     - el sida empezo porque se comieron un chimpancé?
     - el vih pasó al hombre porque alguien se comió un animal?
     - el vih se transmitió a los hombres por la comida?
+    - cual es el origen del vih?
 - intent: faq/cuando
   examples: |
     - ¿Cuándo se originó el VIH?
@@ -318,6 +321,7 @@ nlu:
     - ¿cuándo surgió el VIH?
     - historia del vih
     - cual es la historia del vih
+    - y cuando se originó?
 - intent: faq/cuando_descubrimiento
   examples: |
     - ¿Cuándo se descubrió el VIH?
@@ -350,6 +354,7 @@ nlu:
     - ¿En qué momento se descubrió el VIH?
     - Cuando se descubrió esta enfermedad?
     - y cuando se descubrió?
+    - cuando se descubrió?
 - intent: faq/personas_famosas_vih
   examples: |
     - ¿Qué personas famosas han tenido o tienen VIH?
@@ -886,6 +891,13 @@ nlu:
     - cuántas fases de [vih](ets) hay?
     - cuáles son las distintas fases del [VIH]{"entity": "ets", "value": "vih"}?
     - que fases tiene?
+    - dime las distintas fases del [VIH]{"entity": "ets", "value": "vih"}
+    - estadios del [vih](ets)
+    - ciclo del vih
+    - etapas del [vih](ets)
+    - que estadios tiene el [vih](ets)?
+    - que ciclo sigue el vih?
+    - Cuales son las fases de la enfermedad del [VIH]{"entity": "ets", "value": "vih"}?
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?

@@ -373,6 +373,7 @@ nlu:
     - no lo entiendo, puedes decirlo de otra forma¿
     - no lo he entendido, puedes decirlo de otra manera?
     - no te entiendo, pudes decirlo de otra forma porfa?
+    - No he entendido lo ultimo que me has dicho, puedes explicarmelo de otra forma?
 - intent: ofenderse
   examples: |
     - me has ofendido
@@ -524,6 +525,13 @@ nlu:
     - Me tienes que echar una mano
     - Ayudame con una cosa
     - ayudame con esto
+    - ayudame por favor
+    - necesito que me ayudes
+    - te necesito
+    - necesito que me ayudes en una csoa
+    - necesito que me ayuides
+    - necesito ayuda
+    - necesito tu ayuda
 - intent: querer_preguntar
   examples: |
     - puedo ahcerte una preguna?
@@ -573,6 +581,11 @@ nlu:
     - Responde a la pregunta
     - quiero aprender sobre el vih
     - oye salva puedo hacerte una pregunta?
+    - tengo una pregunta
+    - tengo una pregunta que hacerte
+    - me surgen muchas dudas
+    - me surgen muchas preguntas
+    - tengo varias dudas
 - intent: mas_informacion
   examples: |
     - ¿Dónde puedo obtener más información?
@@ -1084,3 +1097,4 @@ nlu:
     - La [1]{"entity": "fase_vih", "value": "fase_vih_1"}
     - sobre la [1]{"entity": "fase_vih", "value": "fase_vih_1"}
     - Y EL [VIH]{"entity": "ets", "value": "vih"}?
+    - sobre la [primera]{"entity": "fase_vih", "value": "fase_vih_1"}
