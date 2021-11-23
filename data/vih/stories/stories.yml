@@ -28,6 +28,16 @@ stories:
   - action: utter_reaccionar_positivamente
   - action: utter_recordar_asistencia
 
+- story: Fases del VIH
+  steps:
+  - intent: fases_vih
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_fases_vih
+  - action: utter_preguntar_explicar_fases
+
 #--------------------
 # --- PRUEBAS VIH ---
 #--------------------

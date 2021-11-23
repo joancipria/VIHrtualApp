@@ -136,3 +136,42 @@ stories:
   - intent: negar
   - action: utter_periodo_ventana_explicacion
 
+- story: Test validación 4
+  steps:
+  - intent: sintomas
+  - action: utter_sintomas
+  - intent: fases_vih
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_fases_vih
+  - action: utter_preguntar_explicar_fases
+  - intent: afirmar
+  - action: utter_preguntar_fase
+  - intent: informar
+    entities:
+    - fase_vih: fase_vih_1
+  - slot_was_set:
+    - fase_vih: fase_vih_1
+  - action: utter_explicar_fase
+  - intent: sida_vs_vih
+  - action: utter_sida_vs_vih
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: afirmar
+  - action: utter_responder_transmision_oral_vih_sabe
+  - intent: transmision_sexual
+    entities:
+    - tipo_sexo: sexo_oral
+  - slot_was_set:
+    - tipo_sexo: sexo_oral
+  - action: utter_transmision_sexual
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: negar
+  - action: action_como_usar_preservativo
