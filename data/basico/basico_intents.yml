@@ -1098,3 +1098,7 @@ nlu:
     - sobre la [1]{"entity": "fase_vih", "value": "fase_vih_1"}
     - Y EL [VIH]{"entity": "ets", "value": "vih"}?
     - sobre la [primera]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - sobre la [aguda]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - sobre la [crónica]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - sobre la [cronica]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - sobre la [sida]{"entity": "fase_vih", "value": "fase_vih_3"}
