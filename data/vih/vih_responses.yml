@@ -10,8 +10,8 @@ responses:
           title: ¿Cómo se transmite el VIH?
         - payload: ¿Qué es el SIDA?
           title: ¿Qué es el SIDA?
-        - payload: ¿Cómo puedo saber si tengo VIH?
-          title: ¿Cómo puedo saber si tengo VIH?
+        - payload: ¿Qué síntomas tiene?
+          title: ¿Qué síntomas tiene?
   utter_definir_sida:
   - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.\n\n Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas."
     buttons:
@@ -138,7 +138,7 @@ responses:
   utter_faq/enfermas_mas_facilmente:
     - text: "Si no se trata, el VIH ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones oportunistas y ciertos tipos de cáncer relacionados con el VIH."
   utter_faq/se_continua_investigando:
-    - text: "Todavía quedan muchas cosas por saber sobre el VIH, incluido un tratamiento para curarlo o una vacuna para evitarlo. \n\n De ahí que se continúe haciendo muchísimas investigaciones contra este virus."
+    - text: "Todavía quedan muchas cosas por saber sobre el VIH y por ello se continúa investigando en un tratamiento para curarlo o una vacuna para evitarlo."
   utter_faq/es_mortal_vih:
     - text: "Tratado a tiempo el VIH no es mortal, pero sí crónico. \n\n Las personas con VIH pueden llevar una vida larga y saludable."
   utter_faq/portador:
@@ -282,7 +282,7 @@ responses:
   utter_faq/rompe_preservativo:
     - text: "Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. \n\n Si se ha roto en la vagina, puede que necesites recurrir a la 'píldora del día después' que debes tomar antes de 72 horas para evitar los embarazos no deseados."
   utter_como_prevenir:
-    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones (masculinos o femeninos) de manera correcta cada vez que tenga relaciones sexuales <i class='em em-condom'></i>. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP)."
+    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones (masculinos o femeninos) de manera correcta cada vez que tengas relaciones sexuales <i class='em em-condom'></i>. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP)."
   utter_faq/sexo_con_vih:
     - text: "Se pueden mantener relaciones sexuales pero siempre recurriendo a medidas de protección para evitar contagiar a otras personas o contraer otras infecciones de transmisión sexual. \n\n La principal medida para evitar la trasnmisión del virus es estar recibiendo un tratamiento antirretroviral que haya logrado mantener una carga viral indetectable."
   utter_faq/duda_contagio:
@@ -454,9 +454,9 @@ responses:
       - payload: No
         title: No
   utter_responder_transmision_oral_vih:
-    - text: "La verdad es que, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
+    - text: "La verdad es que, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio."
   utter_responder_transmision_oral_vih_sabe:
-    - text: "En efecto, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
+    - text: "En efecto, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio."
   utter_recordar_ventana:
     - text: "Por otra parte, ten en cuenta que existe el llamado período ventana (de 2 a 12 semanas), en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n ¿Sabes por qué ocurre esto?"
       buttons:
