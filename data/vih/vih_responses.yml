@@ -282,7 +282,7 @@ responses:
   utter_faq/rompe_preservativo:
     - text: "Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. \n\n Si se ha roto en la vagina, puede que necesites recurrir a la 'píldora del día después' que debes tomar antes de 72 horas para evitar los embarazos no deseados."
   utter_como_prevenir:
-    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones (masculinos o femeninos) de manera correcta cada vez que tengas relaciones sexuales <i class='em em-condom'></i>. \n\n También es posible aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP)."
+    - text: "Puedes usar estrategias como no compartir agujas nunca y usar condones (masculinos o femeninos) de manera correcta cada vez que tengas relaciones sexuales <i class='em em-condom'></i>."
   utter_faq/sexo_con_vih:
     - text: "Se pueden mantener relaciones sexuales pero siempre recurriendo a medidas de protección para evitar contagiar a otras personas o contraer otras infecciones de transmisión sexual. \n\n La principal medida para evitar la trasnmisión del virus es estar recibiendo un tratamiento antirretroviral que haya logrado mantener una carga viral indetectable."
   utter_faq/duda_contagio:
@@ -300,10 +300,10 @@ responses:
   utter_faq/concebir:
     - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada, ya que debe tomar algunas medidas específicas para evitar que el bebé se infecte. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
   utter_instrucciones_preservativo_femenino:
-    - text: "Aquí abajo te explico como utilizar correctamente un preservativo femenino 👇."
+    - text: "Aquí abajo te explico cómo utilizar correctamente un preservativo femenino 👇"
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/female_condom.gif"
   utter_instrucciones_preservativo_masculino:
-    - text: "Aquí abajo te explico como utilizar correctamente un preservativo 👇."
+    - text: "Aquí abajo te explico cómo utilizar correctamente un preservativo 👇"
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/male_condom.gif"
   utter_faq/practicas_riesgo:
     - text: "Ciertas conductas, como mantener relaciones sexuales con múltiples parejas, o tener sexo sin protección / utilizando la marcha atrás aumentan las probabilidades de contraer el VIH."
@@ -431,7 +431,7 @@ responses:
     - text: "Vivir y relacionarse con una persona con VIH es completamente seguro si no se tienen prácticas de riesgo (como compartir jeringuillas o tener relaciones sexuales sin protección)."
   # Info adicional
   utter_faq/documento_adicional_mujeres:
-    - text: "Puedes consultar esta guía orientada al VIH en las mujeres 👇."
+    - text: "Puedes consultar esta guía orientada al VIH en las mujeres 👇"
       custom: 
         payload: pdf_attachment
         title: "Las mujeres y el VIH"
