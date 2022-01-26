@@ -18,6 +18,9 @@ nlu:
       - vih guia para mujeres
       - guia vih mujeres 
       - busco una guia especifica para mujeres con vih
+      - guia para muejres
+      - guia par amujeres
+      - guia para mujeres
   - intent: faq/vih_covid_saber_mas
     examples: |
       - ¿Dónde puedo saber más sobre el VIH y el coronavirus?

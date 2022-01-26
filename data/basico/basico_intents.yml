@@ -14,6 +14,7 @@ nlu:
     - holaaaa
     - holiiii
     - holi
+    - holiii!
     - Buenos días
     - buen dia
     - buenos diias
@@ -586,6 +587,11 @@ nlu:
     - me surgen muchas dudas
     - me surgen muchas preguntas
     - tengo varias dudas
+    - quiero hacerte unas pregunntas
+    - y como estas?
+    - queria hacerte algunas preguntas
+    - tengo que preguntarte varias cosas
+    - quiero preguntarte cosas
 - intent: mas_informacion
   examples: |
     - ¿Dónde puedo obtener más información?
@@ -677,6 +683,7 @@ nlu:
     - que pasa
     - Cómo estás?
     - como estas??
+    - y como estas?
 - intent: animo_alto
   examples: |
     - Me siento genial
@@ -1101,4 +1108,3 @@ nlu:
     - sobre la [aguda]{"entity": "fase_vih", "value": "fase_vih_1"}
     - sobre la [crónica]{"entity": "fase_vih", "value": "fase_vih_2"}
     - sobre la [cronica]{"entity": "fase_vih", "value": "fase_vih_2"}
-    - sobre la [sida]{"entity": "fase_vih", "value": "fase_vih_3"}

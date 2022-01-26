@@ -121,6 +121,10 @@ nlu:
     - y que es?
     - que sgnifican las letras [vih](ets)
     - Dime lo basico sobre el VHI
+    - pero que es?
+    - ¿que es?
+    - qué es?
+    - tengo que averiguar que es el [vih]{"entity": "ets", "value": "vih"}
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -956,6 +960,12 @@ nlu:
     - los cientificos siguen buscando la cura para el vih?
     - Todavia se estudia el VIH en los laboratorios?
     - Aun se realizan estudios en los laboratorios?
+    - se continua estudiando el vih?
+    - hoy en dia aun se investiga el vih?
+    - aun se hacen estudios sobre el vih?
+    - aun se estudia el sida?
+    - se continua investigando el sida?
+    - se hacen estudios sobre el sida?
 - intent: faq/es_mortal_vih
   examples: |
     - ¿El VIH es mortal?

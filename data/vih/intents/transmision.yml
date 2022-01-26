@@ -90,6 +90,7 @@ nlu:
     - como se propaga el [vih](ets)
     - como se contagia el [vih](ets)
     - Como me puedo contagiar de [VIH]{"entity": "ets", "value": "vih"}?
+    - transmisión [VIH]{"entity": "ets", "value": "vih"}
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
