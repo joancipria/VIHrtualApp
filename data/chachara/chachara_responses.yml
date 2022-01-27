@@ -35,3 +35,5 @@ responses:
     - text: Mi objetivo es ayudarte con las dudas que tengas acerca del VIH.
     - text: Mi misión es ayudarte con cualquier duda que tengas sobre el VIH.
     - text: Me han creado para resolver tus dudas sobre temas relacionados con el VIH.
+  utter_chachara/conoce_companyero:
+    - text: No le conozco personalmente, pero tiene pinta de ser una buena persona.

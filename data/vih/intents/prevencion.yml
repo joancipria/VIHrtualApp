@@ -525,6 +525,7 @@ nlu:
     - puede que me hayan pasado el vih
     - creo que podría haberme infectado de vih
     - creo que podría haber contraido el vih
+    - a dónde puedo ir si creo que tengo vih?
 - intent: faq/contagio_pareja
   examples: |
     - ¿Si mi pareja tiene VIH, debo realizarme la prueba?

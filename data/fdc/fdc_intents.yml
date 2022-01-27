@@ -124,7 +124,9 @@ nlu:
       - juegas a habbo?
       - pon una alarma a las 9 am
       - Si un tren sale de Barcelona direccion Madrid
-      - quiero una tortilla 
+      - quiero una tortilla
+      - quién es el médico de UEI más guapo?
+      - ¿es javier el médico más guapo del mundo de las infecciosas?
 
   - intent: fuera_de_contexto/cumplidos
     examples: |

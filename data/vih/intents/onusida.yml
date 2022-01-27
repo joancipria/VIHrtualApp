@@ -4,6 +4,7 @@ nlu:
   - intent: faq/que_es_onusida
     examples: |
       - ¿Qué es ONUSIDA?
+      - que es onusida
       - ¿Qué es la ONU SIDA?
       - ¿Qué es UNAIDS?
       - No se que es ONUSIDA

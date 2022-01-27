@@ -123,8 +123,19 @@ nlu:
     - Dime lo basico sobre el VHI
     - pero que es?
     - ¿que es?
+    - ¿qué es?
     - qué es?
     - tengo que averiguar que es el [vih]{"entity": "ets", "value": "vih"}
+    - Hola Irene, ¿qué es el [VIH]{"entity": "ets", "value": "vih"}?
+    - ¿qué es el [VIH]{"entity": "ets", "value": "vih"}?
+    - ¿que es el [VIH]{"entity": "ets", "value": "vih"}?
+    - hola salva! ¿que es el [VIH]{"entity": "ets", "value": "vih"}?
+    - ¿Me puedes contar qué es el [VIH]{"entity": "ets", "value": "vih"}?
+    - cuentame qué es el [VIH]{"entity": "ets", "value": "vih"}
+    - podrias contar que es la [hepatitis](ets)?
+    - ¿podrias contarme qué es el [sida](ets)?
+    - Me gustaría saber qué es el [VIH]{"entity": "ets", "value": "vih"}
+    - me gustaria saber que es la [hepatitis](ets)
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -588,6 +599,8 @@ nlu:
     - cual es la [2 etapa]{"entity": "fase_vih", "value": "fase_vih_2"}
     - cuál es la [fase segunda]{"entity": "fase_vih", "value": "fase_vih_2"}
     - sobre la [infeccion aguda]{"entity": "fase_vih", "value": "fase_vih_1"}
+    - que sintomas aparecen en la infección de [vih crónica]{"entity": "fase_vih", "value": "fase_vih_2"}
+    - ¿qué sintomas aparecen en la infección de [vih crónico]{"entity": "fase_vih", "value": "fase_vih_2"}
 - intent: faq/tipos_vih
   examples: |
     - ¿Cuántos tipos de VIH hay?

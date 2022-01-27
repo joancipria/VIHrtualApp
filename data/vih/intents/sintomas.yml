@@ -87,6 +87,7 @@ nlu:
     - Cuales son los sintomas del [VIH]{"entity": "ets", "value": "vih"}?
     - Que me notaria si estuviera infectada?
     - que sinmtoasm tiene? 
+    - síntomas [vih](ets)
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

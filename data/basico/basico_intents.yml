@@ -66,6 +66,12 @@ nlu:
     - holla
     - hola holitaa
     - Hola holitaa
+    - ¡Hola salva!
+    - ¡Hola irene!
+    - ¡hola!
+    - Hola! Encantado de conocerte
+    - hola soy joan
+    - hola! soy joan
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -1066,6 +1072,7 @@ nlu:
     - el [sida](ets)
     - y el [sida](ets)
     - y el [sida](ets)?
+    - y elo [sida](ets)?
     - y la [hepatitis](ets)?
     - a la [hepatitis](ets)
     - y el [vih](ets)?

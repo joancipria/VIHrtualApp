@@ -91,6 +91,11 @@ nlu:
     - como se contagia el [vih](ets)
     - Como me puedo contagiar de [VIH]{"entity": "ets", "value": "vih"}?
     - transmisión [VIH]{"entity": "ets", "value": "vih"}
+    - Hola Salva, sabes cómo se podría contagiar el [VIH]{"entity": "ets", "value": "vih"}?
+    - cómo se podría contagiar el [VIH]{"entity": "ets", "value": "vih"}?
+    - cómo se puede contagiar el [VIH]{"entity": "ets", "value": "vih"}?
+    - ¿cómo se puede transmitir el [VIH]{"entity": "ets", "value": "vih"}?
+    - ¿como se puede transmitir la [hepatitis](ets)?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -240,6 +245,7 @@ nlu:
     - podria coger el vih por besar a alguien con vih?
     - si le doy un beso con lengua a alguien que tiene el vih me lo puede pegar?
     - A traves de la saliva se puede contraer el SIDA?
+    - me puedo contagiar de vih por la saliva?
 - intent: compartir_vaso_cubierto
   examples: |
     - se pede contagiar por comparir un vaso?

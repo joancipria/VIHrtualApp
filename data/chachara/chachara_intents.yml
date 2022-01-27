@@ -327,3 +327,11 @@ nlu:
     - cual es tu funcion aqui?
     - este es tu trabajo?
     - cual es tu tarea
+- intent: chachara/conoce_companyero
+  examples: |
+    - Irene, ¿conoces a Salva?
+    - Salva, ¿conoces a Irene?
+    - conoces a irene?
+    - conoces a salva?
+    - que sabes de salva?
+    - qué sabes de Irene

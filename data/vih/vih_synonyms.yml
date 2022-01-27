@@ -163,6 +163,10 @@ nlu:
     - fase por infección crónica
     - fase de infección cronica
     - fase cronica
+    - vih crónica
+    - vih cronica
+    - vih cronico
+    - vih crónico
 - synonym: fase_vih_3
   examples: |
     - fase 3

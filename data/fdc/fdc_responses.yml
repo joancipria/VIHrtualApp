@@ -7,4 +7,4 @@ responses:
   utter_fuera_de_contexto/cumplidos:
     - text: Muchas gracias! Vas a hacer que me sonroje 🤭.
   utter_fuera_de_contexto/otros:
-    - text: Lo siento, pero no creo que pueda ayudarte con eso.
+    - text: Lo siento, pero creo que no puedo ayudarte con eso 🤔.

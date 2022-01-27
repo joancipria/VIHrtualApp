@@ -36,6 +36,7 @@ nlu:
     - qué son las enfermedades de transmisión sexual ?
     - que son las etes
     - Que enfermedades se transmiten a traves del sexo?
+    - que eson las ets
 - intent: faq/que_es_viremia
   examples: |
     - ¿Qué es la viremia?
