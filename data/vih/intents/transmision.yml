@@ -611,7 +611,7 @@ nlu:
     - se puede transmitir el [vih](ets) [haciendo una mamda]{"entity": "tipo_sexo", "value": "sexo_oral"}?
     - se puede transmitir al [hacer una mamda]{"entity": "tipo_sexo", "value": "sexo_oral"}?
     - se transmite si ahces una [mamada]{"entity": "tipo_sexo", "value": "sexo_oral"}?
-    - hacer[ felaciones](tipo_sexo) se considera peligroso?
+    - hacer [felaciones](tipo_sexo) se considera peligroso?
     - si hago una [chupada](tipo_sexo) me puedo infectar?
     - las [felaciones](tipo_sexo) son peligrosas?
     - podria infectarme de [vih](ets) por hacer una [felación]{"entity": "tipo_sexo", "value": "sexo_oral"}?
