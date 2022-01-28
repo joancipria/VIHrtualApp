@@ -136,6 +136,21 @@ nlu:
     - ¿podrias contarme qué es el [sida](ets)?
     - Me gustaría saber qué es el [VIH]{"entity": "ets", "value": "vih"}
     - me gustaria saber que es la [hepatitis](ets)
+    - me puedes definir el [vih](ets)?
+    - defineme la [hepatitis](ets)
+    - defineme el [vih](ets)
+    - definir el [vih](ets)
+    - definir [vih](ets)
+    - define el [vih](ets)
+    - define [sida](ets)
+    - defíneme la [hepatitis](ets)
+    - dame una definición del [vih](ets)
+    - me podrías definir el [vih](ets)?
+    - [vih](ets) definición
+    - que significado tienen las letras [VIH](ets)
+    - que significado tienen las letras [SIDA](ets)
+    - que significado tienen las siglas [VIH](ets)
+    - dime que es el [sida](ets)
 - intent: cura_vih
   examples: |
     - ¿Existe cura para el VIH?
@@ -979,6 +994,15 @@ nlu:
     - aun se estudia el sida?
     - se continua investigando el sida?
     - se hacen estudios sobre el sida?
+    - hoy en dia se continua investigando el vih?
+    - y sabes si a dia de hoy se continua investigando sobre el vih?
+    - a dia de hoy hay gente que investiga el vih?
+    - todavia hay gernte que investigue el sida?
+    - hay gente investigando el vih?
+    - ciantinua habiendo gente que investiga el vih?
+    - continua trabajando gente en la investigación del vih?
+    - en que estado se encuentra la investigación del vih?
+    - y a estas alturas aun continuan investigando?
 - intent: faq/es_mortal_vih
   examples: |
     - ¿El VIH es mortal?

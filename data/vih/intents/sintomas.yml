@@ -88,6 +88,10 @@ nlu:
     - Que me notaria si estuviera infectada?
     - que sinmtoasm tiene? 
     - síntomas [vih](ets)
+    - y que sintomatología suele presentar?
+    - dime que sintomas tiene
+    - cuentame que sintomas tiene
+    - por favor dime que sintomas suele tener el [vih](ets)
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

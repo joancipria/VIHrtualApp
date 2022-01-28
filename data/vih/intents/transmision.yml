@@ -96,6 +96,10 @@ nlu:
     - cómo se puede contagiar el [VIH]{"entity": "ets", "value": "vih"}?
     - ¿cómo se puede transmitir el [VIH]{"entity": "ets", "value": "vih"}?
     - ¿como se puede transmitir la [hepatitis](ets)?
+    - y como se pega?
+    - ¿cómo se produce la transmisión?
+    - como se llega a transmitir??
+    - como se coge el vih?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -193,6 +197,12 @@ nlu:
     - qué es la infección vertical?
     - explicame la transmisión perinatal
     - Que significa la transmision vertical?
+    - sabrias decirme que es la trsmision vertical?
+    - sabes que es la transmisión vertical?
+    - qué es la trans vertical
+    - a que se le llama transmisión vertical?
+    - que significa transmisión vertical
+    - y que es la transmisión vertical
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -723,6 +733,8 @@ nlu:
     - El VIH se puede pasar de madre a hijos?
     - se puede transmitir el vih de padres a hijos?
     - se transmite verticalmente el vih?
+    - se transmite verticalmente?
+    - se puede transmitir verticalmente?
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?

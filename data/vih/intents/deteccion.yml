@@ -242,6 +242,10 @@ nlu:
     - como puedo hacerme un aprueba de vih
     - Como se hace la prueba del SIDA?
     - como puede uno hacerse un test?
+    - cómo puedes realizarte una prueba de detección de VIH
+    - como puede una persona hacedrse una prueba de deteccion?
+    - como puede una persona hacerse un test de ih?
+    - como podría hacerme una prueba de vih?
 - intent: faq/detectar_con_analitica
   examples: |
     - ¿Es posible detectar el VIH a través de una analítica?

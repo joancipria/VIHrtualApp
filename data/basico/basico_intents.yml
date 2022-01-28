@@ -58,6 +58,7 @@ nlu:
     - Hola me llamo [pepe](PER)
     - hola, me llamo [maría](PER)
     - buenas, me llamo [Irene](PER)
+    - hola soy [francisco](PER)
     - hola
     - olii
     - hola wapa
@@ -70,8 +71,14 @@ nlu:
     - ¡Hola irene!
     - ¡hola!
     - Hola! Encantado de conocerte
-    - hola soy joan
-    - hola! soy joan
+    - hola soy [joan](PER)
+    - hola! soy [joan](PER)
+    - hola salvador!
+    - hola guapo
+    - hola guapo!
+    - hola guapo!
+    - hola guapa
+    - buen dia!
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -542,11 +549,11 @@ nlu:
 - intent: querer_preguntar
   examples: |
     - puedo ahcerte una preguna?
-    - tengo dudas sobre el vih
+    - tengo dudas sobre el [vih](ets)
     - tengo dudas sobre la transmision
     - tengo varias preguntas que hacerte
     - tengo muchas dudas sobre el vih
-    - hay muchas cosas que no se sobre el vih
+    - hay muchas cosas que no se sobre el [vih](ets)
     - Quiero preguntarte algo
     - kiero preguntarte una cosa
     - quiero preguntar una cosa
@@ -586,7 +593,7 @@ nlu:
     - responde a lo que que pregunto
     - Has de responder mi pregunta
     - Responde a la pregunta
-    - quiero aprender sobre el vih
+    - quiero aprender sobre el [vih](ets)
     - oye salva puedo hacerte una pregunta?
     - tengo una pregunta
     - tengo una pregunta que hacerte
@@ -598,6 +605,21 @@ nlu:
     - queria hacerte algunas preguntas
     - tengo que preguntarte varias cosas
     - quiero preguntarte cosas
+    - tenqo que avregiuar unas preguntas
+    - tengo que averiguar unas preguntas
+    - tengo que hacerte unas preguntas
+    - tengo que hacerte varias preguntas para una encuesta
+    - tengo que hacerte varias preguntas
+    - una cosa que te queria preguntar
+    - oye una cosa que te queria yo preguntar
+    - oye una cosita que te queria preguntar
+    - hay una cosa que te quiero preguntar
+    - quiero saber unas cuantas cosas
+    - quiero averiguar unas cosas
+    - quiero hacerte una serie de preguntas
+    - quiero hacerte unas cuantas preguntas
+    - quiero hacerte varias preguntas
+    - quiero que me informes sobre el [vih](ets)
 - intent: mas_informacion
   examples: |
     - ¿Dónde puedo obtener más información?
@@ -690,6 +712,13 @@ nlu:
     - Cómo estás?
     - como estas??
     - y como estas?
+    - ¿como estas?
+    - ¿cómo estas?
+    - ¿como te encuentras?
+    - ¿qué tal te encuentras?
+    - qué tal va la cosa?
+    - cómo va la cosa?
+    - quiero saber como estas
 - intent: animo_alto
   examples: |
     - Me siento genial

@@ -48,6 +48,7 @@ nlu:
     - el sida y el vih no es la misma cosa?
     - el sida y el vih no son lo mismo?
     - Es lo mismo el VIH que el SIDA?
+    - y en que se el sida diferencia del vih?
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?
