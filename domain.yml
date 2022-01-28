@@ -41,8 +41,6 @@ intents:
     use_entities: true
 - querer_preguntar:
     use_entities: true
-- tener_duda:
-    use_entities: true
 - mas_informacion:
     use_entities: true
 - preguntar_estado:
