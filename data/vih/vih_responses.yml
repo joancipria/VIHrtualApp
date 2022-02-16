@@ -274,7 +274,7 @@ responses:
   utter_protege_marcha_atras:
     - text: No, es una práctica de riesgo que no previene de ser infectado por VIH.
   utter_faq/preservativo_femenino:
-    - text: "Aunque su uso está menos extendido, bien utilizados, los preservativos femeninos también sirven para prevenir ETS y los embarazos no deseados <i class='em em-condom'></i>."
+    - text: "Aunque su uso está menos extendido, existen preservativos femeninos que, bien utilizados, sirven también para prevenir ETS y los embarazos no deseados <i class='em em-condom'></i>."
   utter_faq/son_eficientes_espermicidas:
     - text: "No. Aunque los espermicidas pueden prevenir el embarazo, no protegen contra las enfermedades de transmisión sexual, incluido el VIH. \n\n Además, la irritación de la vagina (o del recto) que ocurre a veces con el uso de espermicidas puede aumentar el riesgo de transmisión sexual del VIH."
   utter_faq/son_eficientes_preservativos:
