@@ -310,7 +310,7 @@ responses:
   utter_faq/preservativo_piel:
     - text: "Los llamados preservativos de piel o de piel de cordero están hechos de una membrana delgada que forma parte del intestino de las ovejas. \n\n Aunque son efectivos para prevenir el embarazo, no protegen de las ETS."
   utter_faq/preservativo_piel_vs_latex:
-    - text: "Los preservativos fabricados con piel natural no protegen contra las enfermedades de transmisión sexual, pero, en cambio, sí son efectivos para prevenir embarazos no deseados."
+    - text: "Los preservativos fabricados con piel natural, aunque evitan embarazos no deseados, no protegen contra las enfermedades de transmisión sexual. \n\n En cambio, los de látex sí son efectivos para prevenir las ETS."
   utter_faq/multiples_parejas:
     - text: "Mantener relaciones sexuales con múltiples parejas aumenta las probabilidades de contraer el VIH, especialmente si no se utiliza protección <i class='em em-condom'></i>."
   utter_faq/protege_antibioticos:
