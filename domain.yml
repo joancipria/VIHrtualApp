@@ -117,6 +117,8 @@ intents:
     use_entities: true
 - detectar_tras_contacto:
     use_entities: true
+- tareas_encuesta:
+    use_entities: true
 entities:
 - PER
 - tipo_condon

@@ -8,5 +8,5 @@ responses:
     - text: Muchas gracias! Vas a hacer que me sonroje 🤭.
   utter_fuera_de_contexto/otros:
     - text: Lo siento, pero creo que no puedo ayudarte con eso 🤔.
-  utter_fuera_de_contexto/tareas_encuesta:
+  utter_tareas_encuesta:
     - text: "Si estás participando en un estudio para probar VIHrtual-App, por favor, vuelve a la página del formulario para consultar las tareas a realizar."

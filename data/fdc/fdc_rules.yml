@@ -6,3 +6,8 @@ rules:
       - intent: fuera_de_contexto
       - action: utter_fuera_de_contexto
       - action: utter_sugerir_tema
+  
+  - rule: Responder a preguntas sobre encuesta/tareas
+    steps:
+    - intent: tareas_encuesta
+    - action: utter_tareas_encuesta

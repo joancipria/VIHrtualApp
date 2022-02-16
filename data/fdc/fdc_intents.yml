@@ -199,7 +199,7 @@ nlu:
       - payaso
       - eres un payaso
 
-  - intent: fuera_de_contexto/tareas_encuesta
+  - intent: tareas_encuesta
     examples: |
       - No sé cuál es la siguiente tarea
       - Pasar a la siguiente tarea
