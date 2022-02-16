@@ -106,6 +106,7 @@ nlu:
     - cuantos españoles hay infectados de vih?
     - cuantas personas españolas viven con vih?
     - en españa cuantas personas viven con vih?
+    - cual es la incidencia del [sida](ets) en España?
 - intent: faq/cuantas_personas_contraido_vih_2019
   examples: |
     - ¿Cuántas personas contrajeron VIH en 2019?

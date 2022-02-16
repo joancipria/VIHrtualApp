@@ -107,6 +107,7 @@ nlu:
     - como se contagia el virus?
     - ¿Cómo se transmite?
     - como se transmite el virus
+    - como se transmite el [sida](ets)
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?

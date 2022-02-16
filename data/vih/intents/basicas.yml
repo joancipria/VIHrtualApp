@@ -1039,6 +1039,7 @@ nlu:
     - Puedes morir de vi
     - el vihb es mortal?
     - me puedo morir de sida?
+    - Es el [sida](ets) una enfermedad mortal
 - intent: faq/portador
   examples: |
     - ¿Se puede ser portador y no padecer la enfermedad del VIH?

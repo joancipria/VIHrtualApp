@@ -49,6 +49,7 @@ nlu:
     - ¿Como puedo saber si me he contagiado de [VIH](ets)?
     - cómo se puede detectar si tienes VIH
     - como se puede detectar si tengo VIH?
+    - es complicado averiguar si tienes [VIH](ets)?
 - intent: detectar_tras_contacto
   examples: |
     - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
@@ -183,6 +184,8 @@ nlu:
     - cómo es el test del vih?
     - como es el test para saber si tienes vih
     - Como es la prueba para saber si tienes [VIH](ets)?
+    - Que pruebas tienes que realizar para ver si tienes vih?
+    - en que consiste la prueba del vih?
 - intent: solicitar_prueba
   examples: |
     - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
@@ -280,6 +283,7 @@ nlu:
     - Cómo puedo realizarme una prueba de detección del [VIH](ets)?
     - Como me puedo realizar una prueba para saber si tengo el [VIH](ets)
     - ¿Cómo me puedo realizar una prueba del [VIH](ets)
+    - como puedo realizar una prueba para saber si tengo VIH?
 - intent: faq/detectar_con_analitica
   examples: |
     - ¿Es posible detectar el VIH a través de una analítica?

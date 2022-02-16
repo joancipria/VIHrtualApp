@@ -415,6 +415,7 @@ nlu:
     - como ponerse [preservativo para hombres]{"entity": "tipo_condon", "value": "condon_masculino"}
     - cómo se usa un [preservativo para hombre]{"entity": "tipo_condon", "value": "condon_masculino"}
     - cómo se usa un [preservativo para pene]{"entity": "tipo_condon", "value": "condon_masculino"}
+    - enseñame usar un preservativo
 - intent: como_prevenir
   examples: |
     - como pudo prevenir VIH
@@ -577,6 +578,7 @@ nlu:
     - creo que podría haber contraido el vih
     - a dónde puedo ir si creo que tengo vih?
     - si creo que me he podido infectar, como puedo hacerme la prueba?
+    - cuando debe surgirme la sospecha de que puedo estar infectado?
 - intent: faq/contagio_pareja
   examples: |
     - ¿Si mi pareja tiene VIH, debo realizarme la prueba?
@@ -859,6 +861,7 @@ nlu:
     - que conductas favorecen la transmison del vih?
     - Que no debo hacer para contraer el SIDA?
     - Que conductas son de riesgo para contraer el SIDA?
+    - Cuales son las prácticas de riesgo?
 - intent: faq/preservativo_piel
   examples: |
     - preservativo de piel de cordero 

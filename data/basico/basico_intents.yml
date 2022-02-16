@@ -350,6 +350,7 @@ nlu:
     - me has contestado perfectamente
     - Entiendo.
     - entendido.
+    - Entendido!
 - intent: no_entender
   examples: |
     - no lo he entiendido
