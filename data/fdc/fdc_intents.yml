@@ -198,3 +198,15 @@ nlu:
       - eres un cabrón
       - payaso
       - eres un payaso
+
+  - intent: fuera_de_contexto/tareas_encuesta
+    examples: |
+      - No sé cuál es la siguiente tarea
+      - Pasar a la siguiente tarea
+      - no recuerdo cuales eran las tareas
+      - tarea 1
+      - tarea 2
+      - siguiente tarea
+      - pasar a la tarea siguiente
+      - no recuerdo en que tarea estaba
+      - no recuerdo que tarea tenia que hacer
