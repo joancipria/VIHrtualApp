@@ -270,6 +270,14 @@ nlu:
     - A traves de la saliva se puede contraer el SIDA?
     - me puedo contagiar de vih por la saliva?
     - los besos con lengua transmiten el [sida](ets)
+    - el vih se transmite mediante besos profundos?
+    - me pueden pegar el vih mediante besos profundos?
+    - el vih se pega al dar besos profundos?
+    - los besos prifundos transmiten el vih?
+    - si doy besos profundos puedo contagiarme de vih?
+    - Las personas son más propensas a infectarse cuando se dan besos profundos?
+    - los besos profundos transmiten el [vih](ets)?
+    - Las personas son más propensas a infectarse cuando se dan besos profundos o colocan sus lenguas dentro de la boca de sus parejas que está infectada con VIH?
 - intent: compartir_vaso_cubierto
   examples: |
     - se pede contagiar por comparir un vaso?
@@ -278,6 +286,22 @@ nlu:
     - me puedo contagiawr de sida por compartir un vaso?
     - puedo contagiar el VIH si comparto cubiertos o vasos con otras personas?
     - puedo contagiar al copartir cubiertos?
+    - Una persona puede contagiarse con VIH si comparte un vaso de agua que ha utilizado una persona infectada de VIH?
+    - Una persona puede contagiarse por compartir un vaso que haya utilizado una persona infectada de VIH?
+    - Una persona puede contagiarse al compartir un vaso que ha utilizado una persona con [VIH](ets)?
+    - puedes contagiarte al compartir un vaso que ha utilizado una persona con [VIH](ets)?
+    - compartir vasos transmite el vih?
+    - el vih se puede transmitir si compartes vasos de agua?
+    - se contagia si compartes un vaso de agua?
+    - el vih se puede transmitir si compartes cubiertos?
+    - infectarse por compartir vaso
+    - infectarse por compartir cubiertos
+    - infectarse por beber del mismo vaso
+    - beber del mismo vaso que alguien con vih transmite el virus?
+    - beber del mismo vaso que alguien con vih es peligroso?
+    - se puede compartir vaso con alguien que tiene vih?
+    - se puede compartir cubiertos con las personas que tienen vih?
+    - se puede compartir utensilios de cocina con alguien que tiene vih?
 - intent: faq/escupir_aranyar
   examples: |
     - ¿Puedo contraer el VIH si una persona infectada me escupe o araña?
@@ -334,6 +358,8 @@ nlu:
     - puedo contagiarme por compartir el wc?
     - puedo contagiarme por compartir el mismo baño?
     - puedo contagiarme por compartir el mismo vater?
+    - puedo contagiarme por compartir el mismo jacuzzi?
+    - puedo contagiarme por compartir la mismo ducha?
     - si comparto el mismo váter que una persona infectada, puedo coger el virus?
     - podria contagiarme si uso el mismo vater o baño que alguien que tiene el virus?
     - ¿Puedo contagiarme si uso el mismo váter que una persona con infectada?
@@ -347,6 +373,8 @@ nlu:
     - se transmite el vih mediante el vater?
     - se transmite el vih mediante el wc?
     - se puede transmitir el vih al utilzar el mismo baño que una persona con vih?
+    - se puede transmitir el vih al utilzar la misma ducha que una persona con vih?
+    - se puede transmitir el vih al utilzar el mismo jacuzzi que una persona con vih?
     - una persona puede contraer el VIH por un asiento de inodoro?
     - una persona puede coger el vih por compartir un inodoro?
     - alguien puede contagiarse de vih por un vater publico
@@ -359,6 +387,15 @@ nlu:
     - por sentarme en el mismo wc que alguien con vih puedo contraerlo?
     - puedo contagiarme de vih por compartir el asiento del baño?
     - por sentarme en el mismo vater que alguien con vih puedo infectarme?
+    - me puedo contagiar en un jacuzzi
+    - si utilizo la misma ducha que alguien que tiene vih me puedo contagiar?
+    - al utilizar la misma ducha que alguien que tiene vih me lo puede pegar?
+    - me puedo si me meto en un jacuzzi con alguien que tiene vih?
+    - puedo coger el vih por compartir un jacuzzi?
+    - puedo infectarme por compartir la ducha?
+    - me puedo contagiar si comparto la ducha con un infectado
+    - me puedo contagiar por compartir la misma ducha?
+    - me puedo contagiar su uso la misma ducha que alguien con vih?
 - intent: faq/tatuajes
   examples: |
     - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
@@ -646,6 +683,7 @@ nlu:
     - Solo puedo contraer el [SIDA](ets) a traves del sexo?
     - el [sexo oral](tipo_sexo) puede transmitir el [sida](ets)?
     - Una mujer puede infectarse con el [VIH](ets) si tiene [relaciones sexuales anales]{"entity": "tipo_sexo", "value": "sexo_anal"} con un hombre
+    - una mujer podría infectarse de [VIH](ets) si tiene [sexo anal]{"entity": "tipo_sexo", "value": "sexo_anal"} con un hombre?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?

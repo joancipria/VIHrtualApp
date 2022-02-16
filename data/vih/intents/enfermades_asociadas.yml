@@ -22,6 +22,24 @@ nlu:
       - infecciones oportunas
       - enfermedades oportunistas
       - que son las infeccios oportunistas
+  - intent: faq/enfermedades_derivadas
+    examples: |
+      - ¿Además del SIDA que otros problemas puede desencadenar el VIH?
+      - además del sida que otras enfermedadees puede provocar el vih?
+      - que enfermedades provoca el vih?
+      - qué enfermedades provoca el sida?
+      - que otros problems puede provocar el vih?
+      - ¿qué enfermedades provoca el [sida](ets)?
+      - ¿qué enfermedades provoca el vih?
+      - que otras enfermedades puede desencadenar el vih?
+      - qué enfermedades pued eproducir el vih?
+      - que enfermedades puede producir el sida?
+      - ¿El VIH puede producir alguna otra enfermedad?
+      - el vih puede producir alguna otra enfermedad?
+      - que enfermedades derivadas del sida hay?
+      - qué enfermedades derivadas del vih suele haber?
+      - enfermedades derivadas del sida
+      - enfermedades derivadas del [vih](ets)
   - intent: faq/que_es_linfoma
     examples: |
       - ¿Qué es un linfoma?

@@ -197,6 +197,14 @@ nlu:
     - lavarse bien el coño despues de follar evita tener VIH?
     - lavar el pene despues de follar evita el vih?
     - lavarse bien despues de mantener relaciones sexuales evita que puedas coger el vih?
+    - Ducharse o lavarse los genitales después de mantener relaciones sexuales evita que la persona se infecte con [VIH](ets)
+    - Ducharse o lavarse las partes privadas después de mantener relaciones sexuales evita que la persona se infecte con [VIH](ets)
+    - ducharse despues de tener sexo evita coger el vih
+    - ducharse despues de follar evita previene el [sida](ets)
+    - lavarse los genitales despues de tener relaciones sexuales evita que puedas coger [vih](ets)?
+    - lavarse la polla despues de follar previene el vih
+    - limpirse las partes íntimas después de mantener relaciones sexuales evita que puedas coger la enfermedad
+    - limpirse las partes íntimas despues de tener sexo evita que cojas infecciones
 - intent: protege_marcha_atras
   examples: |
     - ¿Protege la marcha atrás del VIH?
@@ -213,7 +221,19 @@ nlu:
     - sacar la polla antes de correrse evita que me pueda contagiar de vih
     - y la marcha atras protege contra el vih?
     - la marcha atras protege?
-- intent: faq/protege_preservativo_femenino
+    - Sacar el pene antes de que el varón eyacule evita que la mujer se contagie con el virus VIH durante las relaciones sexuales
+    - Sacar el pene antes de que el varón eyacule evita que la mujer se contagie con el virus del VIH 
+    - sacar el pene antes de eyacular protege del vih?
+    - sacar el pene antes de eyacular previene?
+    - sacar el pene antes de eyacular previene que la mujer se infecte de [vih](ets)?
+    - sacar la polla antes de correrse previene el vih
+    - sacar la polla del coño antes de correrse evita que cojas vih
+    - no correrse dentro evita el vih
+    - si no te corres dentro estas a salvo del vih
+    - no correrse dentro evita que te infectes
+    - si saco el pene antes de correrme evitaré infectarme?
+    - si quito el pene antes de eyacular no puedo coger el sida
+- intent: faq/preservativo_femenino
   examples: |
     - ¿El preservativo femenino también protege de la infección por VIH?
     - ¿El preservativo femenino protege contra el VIH?
@@ -229,6 +249,22 @@ nlu:
     - ¿El condón femenino es efectivo?
     - son seguros los condones femeninos?
     - es seguro el condón femenino?
+    - Existe un condón femenino que ayuda a reducir el riesgo de infectarse con VIH?
+    - existen los condones femeninos?
+    - existe un condón femenino?
+    - existen los preserativos femeninos?
+    - existe algun condon para evitar la transmisión del VIH?
+    - Existen condones femeninos que ayudan a reducir el riesgo de infectarse con VIH?
+    - existe un condón femenino que reduce el riesgo de contraer vih?
+    - existe un condón femenino que reduce el riesgo?
+    - existen condones para mujeres?
+    - existen preservativos para las mujeres?
+    - hay preservativos femenios?
+    - hay condones femeninos?
+    - los condones femenisnos protegen contra el vih?
+    - los preservativos para mujeres previenen las ets?
+    - los condones femeninos protegen igual que los masculinos?
+    - los preservativos femeninos son igual de efectivos que los normales?
 - intent: faq/son_eficientes_espermicidas
   examples: |
     - ¿Son eficientes los espermicidas para evitar la infección por VIH?
@@ -454,6 +490,9 @@ nlu:
     - Explicame como no contagiarme de VHI
     - Como evitar contagiarme de VHI
     - Que debo hacer para no contraer el SIDA?
+    - que metodos de proteccion hay para prevenir el [vih](ets)?
+    - ¿qué métodos de protección hay para no infectarse de [vih](ets)?
+    - ¿qué métodos de prevención hay para evitar contagiarse de [vih](ets)?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -739,6 +778,7 @@ nlu:
     - ¿Cómo se puede evitar contagiar la madre al bebé?
     - como puede evitar la madre contagiar al bebe?
     - como puede evitar la madre contagiar a su hijo?
+    - como puede evitar la madre contagiar al hijo?
     - ¿Cómo evitar las teansmisión vertical?
     - como evitar la transmision vertical
     - se puede evitar que la madre contagie al feto?
@@ -811,7 +851,7 @@ nlu:
     - comportamientos que facilitan la transmision
     - que practicas se consideran de riesgo?
     - que practicas o conductas favorecen la transmisión?
-    - que practicas se cobnsider<an de riesgo?
+    - que practicas se cobnsideran de riesgo?
     - hay comportamientos que hacen que sea mas facil coger el vih?
     - que comportamientos hacen que sea mas probable le coger el vih?
     - que actitudes hacen que sea mas probanb le coger el vih?
@@ -819,3 +859,67 @@ nlu:
     - que conductas favorecen la transmison del vih?
     - Que no debo hacer para contraer el SIDA?
     - Que conductas son de riesgo para contraer el SIDA?
+- intent: faq/preservativo_piel
+  examples: |
+    - preservativo de piel de cordero 
+    - preservativo de piel de oveja 
+    - preservativo de piel natural
+    - condón de piel
+    - condon de piel
+    - preservativos de piel
+    - condon de piel de cordero
+    - que es un condon de piel?
+    - como es un preservativo de piel natural
+    - como es un condon de piel
+    - que es un condon de piel
+    - qué es un preservativo de piel de cordero
+    - que son los condones de piel de cordero
+    - que son los preservatrivos de piel
+    - no se que son los condones de piel
+    - explicame que son los condones de piel
+    - explicame qué son de preservativods de piel natural
+    - de qué estan hechos los condones de piel
+- intent: faq/preservativo_piel_vs_latex
+  examples: |
+    - Un condón de piel es mejor que uno de látex para prevenir el vih
+    - Un condón de piel es mejor para prevenir el contagio de VIH que un condón de látex
+    - uno de piel es mejor para prevenir que uno de látex?
+    - un preservativo de latex es mejor que uno de piel?
+    - un condon de latex es mejor que uno de piel?
+    - los condones de piel son mejores que los de latex?
+    - los preservativos de látex previenen mejor el vih que los de piel?
+    - los preservativos de piel son mejores?
+    - los preservativos de piel son mejores que los de látex?
+    - Que es mejor para prevenir el VIH, un condón de piel o de latex?
+    - Para prevenir el VIH, es mejor un condón de piel o de latex?
+    - Para prevenir el VIH, es mejor un preservativo de piel o de latex?
+    - es mejor el condón de piel?
+    - que es mejor, un condon de latex o uno de piel?
+    - que es mejor un preservativo de piel natural o uno de latex?
+- intent: faq/multiples_parejas
+  examples: |
+    - si tienes distintas parejas sexuales tienes más riesgo?
+    - si tienes multiples parejas tienes mas riesgo de coger vih?
+    - si tienes muchas parejas tienes más riesgo de infectarte de vih?
+    - Tener relaciones sexuales con más de una pareja sexual aumenta la probabilidad de que se infecte con VIH 
+    - Tener relaciones sexuales con múltiples parejas aumenta el riesgo de infecció por VIH 
+    - si tienes relaciones sexuales con muchas personas aumentas el riesgo de infectare por VIH? 
+    - al tener múltiples parejas aumentas el riesgo de infectarte?
+    - tener muchas parejas hace que tengas mas posibilidades de infectarte?
+    - follar con mucha gente es peligroso?
+    - es peligroso tener multiples parejas?
+    - que riesgo existe si tienes varias parejas sexuales
+    - es peligorso practicar sexo con multiples parejas?
+    - es peligroso practicar sexo habitualmente con muchas personas?
+    - es peligroso practicar sexo habitualmente con varias personas?
+    - las relaciones abiertas aumentan el riesgo de infectarte de vih?
+    - si follas con muchas personas te expones a coger el sida?
+    - si follas con mucha gente te expones a contraer el vih?
+- intent: faq/protege_antibioticos
+  examples: |
+    - ¿Los antibióticos tienen algún efecto en la transmisión del VIH?
+    - Una persona que esté tomando antibióticos no se contagiará con VIH si tiene relaciones sexuales?
+    - Una persona que toma antibioticos esta protegida contra el VIH?
+    - los antibioticos protegen del vih?
+    - los antibioticos protegen contra vih?
+    - los antibióticos evitan la transmision del vih?

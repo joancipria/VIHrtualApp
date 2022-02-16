@@ -157,7 +157,7 @@ responses:
   utter_transmision_insectos:
     - text: Los insectos chupadores de sangre 🦟 no pueden transmitir el VIH.
   utter_compartir_wc:
-    - text: "El VIH no se contagia por usar el mismo inodoro que una persona con VIH. \n\n Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
+    - text: "El VIH no se contagia por usar el mismo baño, ducha o jacuzzi que una persona con VIH. \n\n Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
   utter_faq/tatuajes:
     - text: "Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. \n\n Si quieres hacerte un tatuaje o una perforación corporal asegúrate de que la persona que lo haga cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados."
   utter_faq/alimentos:
@@ -270,11 +270,11 @@ responses:
   utter_faq/protegen_pildoras_anticonceptivas:
     - text: No, estas píldoras son para evitar los embarazos no deseados, pero no evitan la infección por VIH.
   utter_faq/protege_lavarse_genitales:
-    - text: "Lavarse los genitales después de mantener relaciones sexuales no protege contra el VIH."
+    - text: "Lavarse los genitales después de mantener relaciones sexuales no protege contra el VIH 🛀."
   utter_protege_marcha_atras:
     - text: No, es una práctica de riesgo que no previene de ser infectado por VIH.
-  utter_faq/protege_preservativo_femenino:
-    - text: Sí, aunque su uso está menos extendido, bien utilizado también sirve para prevenir el VIH y los embarazos no deseados.
+  utter_faq/preservativo_femenino:
+    - text: "Aunque su uso está menos extendido, bien utilizados, los preservativos femeninos también sirven para prevenir ETS y los embarazos no deseados <i class='em em-condom'></i>."
   utter_faq/son_eficientes_espermicidas:
     - text: "No. Aunque los espermicidas pueden prevenir el embarazo, no protegen contra las enfermedades de transmisión sexual, incluido el VIH. \n\n Además, la irritación de la vagina (o del recto) que ocurre a veces con el uso de espermicidas puede aumentar el riesgo de transmisión sexual del VIH."
   utter_faq/son_eficientes_preservativos:
@@ -307,6 +307,14 @@ responses:
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/male_condom.gif"
   utter_faq/practicas_riesgo:
     - text: "Ciertas conductas, como mantener relaciones sexuales con múltiples parejas, o tener sexo sin protección / utilizando la marcha atrás aumentan las probabilidades de contraer el VIH."
+  utter_faq/preservativo_piel:
+    - text: "Los llamados preservativos de piel o de piel de cordero están hechos de una membrana delgada que forma parte del intestino de las ovejas. \n\n Aunque pueden usarse para la prevención del embarazo, no son efectivos para protegerse de las ETS."
+  utter_faq/preservativo_piel_vs_latex:
+    - text: "Los preservativos fabricados con piel natural no protegen con las enfermedades de transmisión sexual, pero, en cambio, sí son efectivos para prevenir embarazos no deseados."
+  utter_faq/multiples_parejas:
+    - text: "Mantener relaciones sexuales con múltiples parejas aumenta las probabilidades de contraer el VIH, especialmente si no se utiliza protección <i class='em em-condom'></i>."
+  utter_faq/protege_antibioticos:
+    - text: "Los antibióticos no ofrecen ninguna protección contra el VIH."
   # Sida
   utter_sida_vs_vih:
     - text: "El SIDA es la última fase de la infección por VIH y se caracteriza porque el sistema inmune está muy debilitado ❌🛡️. \n\n En este estado ya no puede combatir de manera eficiente a otros patógenos oportunistas 🦠 que suponen un grave riesgo para la persona que padece este síndrome."
@@ -363,6 +371,8 @@ responses:
   # Enfermedades asociadas
   utter_faq/que_es_infeccion_oportunista:
     - text: "Es una infección que ocurre con más frecuencia, o que es más grave, en las personas inmunodeprimidas que en las personas con un sistema inmunitario sano. \n\n Estas infecciones pueden suponer un grave riesgo en las personas seropositivas."
+  utter_faq/enfermedades_derivadas:
+    - text: "Las personas con VIH que acaban desarrollando el SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas. \n\n Algunos ejemplos de estas enfermedades son la neumonía por Pneumocystis y la retinitis por citomegalovirus."
   utter_faq/que_es_linfoma:
     - text: "Es un tipo de cáncer relacionado con los tejidos del sistema linfático, como los ganglios linfáticos, el bazo y la médula ósea. \n\n En las personas con VIH, ciertos linfomas, como el de Burkitt o el linfoma no Hodgkin, son afecciones características del SIDA."
   utter_faq/que_es_neumonia_pneumocystis:
