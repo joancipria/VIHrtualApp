@@ -157,6 +157,17 @@ nlu:
     - hay una vacuna para adultos que evite los contagios de vih?
     - hay vacuna del vih que pueda prevewnir el contagio de adultos?
     - existe vacuna para el vih que haga que no te puedas infectar?
+    - Existe una vacuna que evita que la persona adulta se infecte con el VIH
+    - existe una vacuna para evitar que un adulto se infecte?
+    - existe alguna vacuna para el vih?
+    - hay algun tipo de vacuna para el vih?
+    - han inventado ya una vacuna pra el vih?
+    - han desarrollado ya una vacuna?
+    - ya han desarrollado una vacuna para el vih?
+    - ya han descubierto la vacuna para el vih?
+    - sabes si existe ya una vacuna para el vih?
+    - han descubierto ya una vacuna?
+    - han descubierto la vacuna para el [vih](ets)?
 - intent: faq/protegen_pildoras_anticonceptivas
   examples: |
     - ¿Protegen las píldoras anticonceptivas contra el VIH?
@@ -725,6 +736,20 @@ nlu:
     - prevenir la transmisión de madre a hijo
     - Como evitar contagiar al bebe?
     - cómo evito contagiar al bebe?
+    - ¿Cómo se puede evitar contagiar la madre al bebé?
+    - como puede evitar la madre contagiar al bebe?
+    - como puede evitar la madre contagiar a su hijo?
+    - ¿Cómo evitar las teansmisión vertical?
+    - como evitar la transmision vertical
+    - se puede evitar que la madre contagie al feto?
+    - se puede evitar que la madre contagie al bebe?
+    - es posible evitar que la madre le pase el vih al bebe?
+    - es posible evitar que la madre se lo pase a su hijo?
+    - evitar pasarselo al hijo
+    - evitar contagiar al bebé
+    - evitar el contagio madre hijo
+    - cómo evitar el contagio madre-hijo
+    - evitar la transmisión vertical
 - intent: faq/concebir
   examples: |
     - ¿Si tengo VIH tendré problemas para concebir?

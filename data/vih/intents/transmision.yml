@@ -100,6 +100,13 @@ nlu:
     - ¿cómo se produce la transmisión?
     - como se llega a transmitir??
     - como se coge el vih?
+    - Cómo se transmite el [VIH](ets)?
+    - como se transmite el [VIH](ets)?
+    - ¿Cómo se transmite el [VIH](ets)?
+    - ¿Como se contagia el [VIH](ets)?
+    - como se contagia el virus?
+    - ¿Cómo se transmite?
+    - como se transmite el virus
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -154,6 +161,7 @@ nlu:
     - pueden pasarme el vih si me estornudan encima?
     - si alguien me tose encima me puede contagiar el vih?
     - el vih se transmite a traves de los estornudos o tosiendo?
+    - ¿El toser o estornudar extiende el contagio de VIH?
 - intent: faq/vertical
   examples: |
     - ¿Qué es la transmisión vertical?
@@ -203,6 +211,11 @@ nlu:
     - a que se le llama transmisión vertical?
     - que significa transmisión vertical
     - y que es la transmisión vertical
+    - Transmisión vertical
+    - que es la transmision vetical
+    - que es la trasmisión vertical?
+    - De que trata la transmisión vertical?
+    - ¿Qués es la trnasmisión verctical del VIH?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -245,7 +258,7 @@ nlu:
     - se puede coger el vih por besar?
     - las personas son propensas a contraer el vih al besarse profundamente, metiendo la lengua en la boca de su pareja, si ésta tiene el vih
     - se puede contraer el vih dando besos con lengua
-    - los besos con lengua transmiten el vih
+    - los besos con lengua transmiten el [vih](ets)
     - los besos con lengua son peligrosos?
     - dar besos con lengua puede hacer que te contagies de vih?
     - al morrearse puedes coger VIH?
@@ -256,6 +269,7 @@ nlu:
     - si le doy un beso con lengua a alguien que tiene el vih me lo puede pegar?
     - A traves de la saliva se puede contraer el SIDA?
     - me puedo contagiar de vih por la saliva?
+    - los besos con lengua transmiten el [sida](ets)
 - intent: compartir_vaso_cubierto
   examples: |
     - se pede contagiar por comparir un vaso?
@@ -630,6 +644,8 @@ nlu:
     - se puede tranbsmitir al [chupar una polla]{"entity": "tipo_sexo", "value": "sexo_oral"}?
     - Puedo contraer el [SIDA](ets) con el [sexo oral]{"entity": "tipo_sexo", "value": "sexo_oral"}?
     - Solo puedo contraer el [SIDA](ets) a traves del sexo?
+    - el [sexo oral](tipo_sexo) puede transmitir el [sida](ets)?
+    - Una mujer puede infectarse con el [VIH](ets) si tiene [relaciones sexuales anales]{"entity": "tipo_sexo", "value": "sexo_anal"} con un hombre
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -735,6 +751,10 @@ nlu:
     - se transmite verticalmente el vih?
     - se transmite verticalmente?
     - se puede transmitir verticalmente?
+    - Puede una madre con [VIH](ets) transmitirlo a su hijo?
+    - puede una madre transmitirlo al bebe?
+    - puede una madre contagiar al bebé?
+    - puede una madre contagiar a su hijo?
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?

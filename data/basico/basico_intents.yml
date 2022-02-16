@@ -124,6 +124,15 @@ nlu:
     - hasta la otra!
     - asta la proxima vez
     - hasta la proxima ves
+    - Adios Irene
+    - adios salva
+    - adiós irene
+    - hasta la vista salva
+    - adios.
+    - adiós.
+    - ¿NOs despedimos?
+    - nos vemos irene
+    - nos vemos salva
 - intent: afirmar
   examples: |
     - Sí!
@@ -339,6 +348,8 @@ nlu:
     - has respondido a mi pregunta
     - has contestado a mi pregunta
     - me has contestado perfectamente
+    - Entiendo.
+    - entendido.
 - intent: no_entender
   examples: |
     - no lo he entiendido
@@ -466,6 +477,11 @@ nlu:
     - estaré siempre agradecido
     - siempre estare agradecido
     - gracias por tu aclaración
+    - Gracias.
+    - muchas gracias.
+    - muchisimas gracias
+    - muchisimas gracias!
+    - mil gracias, de verdad!
 - intent: esperar
   examples: |
     - Espera

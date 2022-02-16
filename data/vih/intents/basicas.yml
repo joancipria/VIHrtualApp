@@ -980,13 +980,13 @@ nlu:
     - se investiga maś sobre el vih?
     - se continuan realziando investigaciones sobre el vih?
     - se investiga sobre el sida?
-    - se sigue investigando sobre el vih?
+    - se sigue investigando sobre el [vih](ets)?
     - se investiga sobre el vih?
     - pero se continua investigando una cura?
     - aun se bsuca una cura para el Vih?
     - se continua buscando una cura para el vih?
     - los cientificos siguen buscando la cura para el vih?
-    - Todavia se estudia el VIH en los laboratorios?
+    - Todavia se estudia el [VIH](ets) en los laboratorios?
     - Aun se realizan estudios en los laboratorios?
     - se continua estudiando el vih?
     - hoy en dia aun se investiga el vih?
@@ -1003,6 +1003,15 @@ nlu:
     - continua trabajando gente en la investigación del vih?
     - en que estado se encuentra la investigación del vih?
     - y a estas alturas aun continuan investigando?
+    - se sigue investigando?
+    - se continúa investigando sobre el [VIH](ets)
+    - ¿Se sigue investigando sobre el [SIDA](ets)?
+    - ¿Se continúa investigando?
+    - todavia se investiga sobre el VIH?
+    - ¿Se esta investigando el VIH actualmente?
+    - se continua investigando?
+    - se investiga ahora sobre el vih?
+    - ¿Se continúa investigando en la actualidad sobre el [VIH](ets)?
 - intent: faq/es_mortal_vih
   examples: |
     - ¿El VIH es mortal?

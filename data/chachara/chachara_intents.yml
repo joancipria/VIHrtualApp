@@ -31,6 +31,8 @@ nlu:
     - dime tu nombre porfa
     - como te puedo llamar?
     - cual es tu nombre?
+    - ¿Cómo te lñlamas?
+    - ¿Como te llamas?
 - intent: chachara/preguntar_edad
   examples: |
     - ¿Qué edad tienes?

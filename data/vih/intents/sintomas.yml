@@ -92,6 +92,14 @@ nlu:
     - dime que sintomas tiene
     - cuentame que sintomas tiene
     - por favor dime que sintomas suele tener el [vih](ets)
+    - ¿Qué síntomas tiene?
+    - que sintomas tiene
+    - ¿Cuáles son sus síntomas?
+    - cuales son sus sintomas
+    - qué sintomas tiene el [vih](ets)?
+    - ¿que sintomas suele tener el [vih](ets)?
+    - cuáles son los sintomas
+    - cuales suelen ser los sintomas del [vih](ets)
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

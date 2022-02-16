@@ -45,6 +45,10 @@ nlu:
     - Tengo sida?
     - como se puede saber si una persona tiene vih?
     - como se puede saber si alguien tiene vih?
+    - ¿Cómo puedo saber si me he infectado de [VIH](ets)?
+    - ¿Como puedo saber si me he contagiado de [VIH](ets)?
+    - cómo se puede detectar si tienes VIH
+    - como se puede detectar si tengo VIH?
 - intent: detectar_tras_contacto
   examples: |
     - ¿Cuándo se puede detectar la presencia del virus después de un contacto de riesgo?
@@ -91,6 +95,16 @@ nlu:
     - cuanto tiempo se debe esperar para hacerse la prueba delvih?
     - cuanto tiempo se debe esperar para hacerse la prueba del vih?
     - Desde que creo que me he infectado, cuanto tiempo ha de pasar para poder hacerne la prueba del SISA?
+    - Cuando es mejor hacerse la prueba?
+    - Se puede hacer la prueba inmediatamente?
+    - Realizarse una prueba para determinar si se está infectado con VIH una semana después de haber tenido relaciones sexuales puede determinar si la persona está infectada o no
+    - que es el periodo de ventana?
+    - qué es el periodo ventana
+    - ¿qué es el periodo ventana?
+    - periodo ventana
+    - periodo de ventana
+    - periodo de ventana inmunológica
+    - q es el periodo ventana
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
@@ -163,7 +177,12 @@ nlu:
     - explciame como van las pruebas de vih
     - las pruebas de deteccion del vih como funcionan?
     - los tests para detectar el virus como funcionan?
-    - me podrias decir en q coniste la prueba del vih?
+    - me podrias decir en q coniste la prueba del [vih](ets)?
+    - en qué consiste la prueba del vih?
+    - cómo es la prueba de detección del vih?
+    - cómo es el test del vih?
+    - como es el test para saber si tienes vih
+    - Como es la prueba para saber si tienes [VIH](ets)?
 - intent: solicitar_prueba
   examples: |
     - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
@@ -223,13 +242,16 @@ nlu:
     - Cómo realizar una prueba de detección de vih
     - como realizarse una prueba de detección de vih
     - como realizar una prueba de deteccion del vih
-    - como hacerse una prueba de vih
+    - como hacerse una prueba de [vih](ets)
+    - como hacerse una prueba
+    - cómo realizarse una prueba
+    - cómo realizarse una prueba de detección
+    - cómo realizarse una prueba de deteccion de vih
     - cómo hacerse una prueba del vih
     - Cómo me puedo hacer una prueba de detección del vih?
     - como me puedo realizar una prueba de detección del vih?
     - y como podria hacerme yo una prueba de deteccion?
     - si me infecto como podria solcitar que me hicieran la prueba?
-    - cómo puedes realizarte una prueba de detección de VIH?
     - que pasos debo seguir para solicitar una prueba diagnostica del vih?
     - como puedo solictar que me realicen una prueba?
     - como hago para que me hagan la prueba del vih
@@ -242,10 +264,22 @@ nlu:
     - como puedo hacerme un aprueba de vih
     - Como se hace la prueba del SIDA?
     - como puede uno hacerse un test?
-    - cómo puedes realizarte una prueba de detección de VIH
     - como puede una persona hacedrse una prueba de deteccion?
     - como puede una persona hacerse un test de ih?
     - como podría hacerme una prueba de vih?
+    - ¿Cómo se realiza una prueba para detectarlo?
+    - como se hacen las pruebas?
+    - Cómo puedo hacerme un test?
+    - como puedo hacerme una prueba?
+    - ¿Cómo puedo hacerme una prueba de [VIH](ets)?
+    - como puedo hacerme una prueba para detectar el [VIH](ets)
+    - como se puede realizar una prueba de detección?
+    - Y como puedo realizarme una prueba para el [VIH](ets)?
+    - como puedo hacerme un test del [vih](ets)
+    - cómo puedes realizarte una prueba de detección de [VIH](ets)?
+    - Cómo puedo realizarme una prueba de detección del [VIH](ets)?
+    - Como me puedo realizar una prueba para saber si tengo el [VIH](ets)
+    - ¿Cómo me puedo realizar una prueba del [VIH](ets)
 - intent: faq/detectar_con_analitica
   examples: |
     - ¿Es posible detectar el VIH a través de una analítica?

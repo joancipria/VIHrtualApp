@@ -30,11 +30,12 @@ nlu:
     - Existe tratamiento contra el VIH?
     - Existe tratamiento contra el sida?
     - hay tratamiento contra el vih?
-    - existe algun tratamiento contra el vih?
-    - existe algun tratamiento para el sida?
+    - existe algun tratamiento contra el [vih](ets)?
+    - existe algun tratamiento para el [sida](ets)?
     - Hay algún tratamiento?
     - hyay algun tipo de tratamiento?
-    - existe tratamiento para el vih?
+    - existe tratamiento para el [vih](ets)?
+    - hay tratamiento?
 - intent: faq/en_que_consiste
   examples: |
     - ¿En qué consiste la terapia contra el virus?
