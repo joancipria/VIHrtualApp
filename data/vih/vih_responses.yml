@@ -347,7 +347,7 @@ responses:
     - text: "La región del África subsahariana tiene la mayor carga de VIH/SIDA en todo el mundo y representa el 61% de todas las infecciones nuevas por el VIH."
       image: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/img/worldmap.svg"
   utter_faq/cuantas_personas_tienen_vih_españa:
-    - text: "Se estima que alrededor de 160.000 personas, de las cuales unas 20.000 están infectadas sin saberlo."
+    - text: "Se estima que alrededor de 160.000 personas tienen VIH, de las cuales unas 20.000 están infectadas sin saberlo."
   # ONUSIDA
   utter_faq/que_es_onusida:
     - text: "ONUSIDA es el Programa Conjunto de las Naciones Unidas sobre el VIH/SIDA destinado a coordinar las actividades de los distintos organismos especializados de la ONU en su lucha contra el sida. \n\n También se le conoce por sus siglas en inglés UNAIDS."
