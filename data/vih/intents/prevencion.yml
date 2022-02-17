@@ -792,6 +792,10 @@ nlu:
     - evitar el contagio madre hijo
     - cómo evitar el contagio madre-hijo
     - evitar la transmisión vertical
+    - Si la enfermedad se transmite por relaciones sexuales, existen métodos para tener descendencia
+    - métodos para tener descendencia
+    - tener descendencia de manera segura
+    - metodo seguro para tener hijos
 - intent: faq/concebir
   examples: |
     - ¿Si tengo VIH tendré problemas para concebir?
@@ -815,6 +819,7 @@ nlu:
     - pueden surgir problemas al tener hijos si tienes vih?
     - pueden surgir problemas a la hora de tener hijos si tienes vih?
     - si a mi mujer le han dectectado vih podra tener hijos?
+    - o sea que no es posible ni aconsejable tener hijos
 - intent: faq/practicas_riesgo
   examples: |
     - ¿Qué es una práctica de riesgo?
