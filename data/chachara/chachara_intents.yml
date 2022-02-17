@@ -337,3 +337,11 @@ nlu:
     - conoces a salva?
     - que sabes de salva?
     - qué sabes de Irene
+- intent: chachara/tiene_vih
+  examples: |
+    - tu tienes sida¿
+    - tienes sida?
+    - tienes vih?
+    - tu tienes vih?
+    - tu estas infectado?
+    - tu estas infectada?
