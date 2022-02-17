@@ -368,6 +368,8 @@ responses:
     - text: En España no pueden hacerte la prueba sin tu consentimiento 📃🖊️.
   utter_faq/vih_ejercicio_fisico:
     - text: "El ejercicio físico es muy beneficioso y recomendable para todas las personas y de manera especial para las que tienen VIH. \n\n No sólo mejora nuestro estado de salud, sino que ayuda a prevenir algunas complicaciones asociadas a la infección o al tratamiento."
+  utter_faq/prueba_pareja_estable:
+    - text: "Si tienes una pareja estable y queréis dejar de usar preservativos en vuestras relaciones sexuales es recomendable realizarse previamente una prueba de VIH."
   # Enfermedades asociadas
   utter_faq/que_es_infeccion_oportunista:
     - text: "Es una infección que ocurre con más frecuencia, o que es más grave, en las personas inmunodeprimidas que en las personas con un sistema inmunitario sano. \n\n Estas infecciones pueden suponer un grave riesgo en las personas seropositivas."

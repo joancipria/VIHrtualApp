@@ -202,3 +202,10 @@ nlu:
       - me recomiendas hacer ejercico si tengo el vih?
       - es importante hacer deporte cuando tienes vih?
       - se les frecomienda hacer ejercico a als personas con vih?
+  - intent: faq/prueba_pareja_estable
+    examples: |
+      - Antes de iniciar una relación estable, ¿es conveniente realizar una prueba?
+      - es recomendable hacerse la prueba en una relación estable?
+      - es conveniente realizar una prueba de vih antes de iniciar una relacion de pareja? 
+      - yo y mi pareja debemos hacernos la prueba?
+      - si tengo una pareja estable deberia hacerme el test?
