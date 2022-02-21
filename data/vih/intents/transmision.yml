@@ -685,6 +685,7 @@ nlu:
     - el [sexo oral](tipo_sexo) puede transmitir el [sida](ets)?
     - Una mujer puede infectarse con el [VIH](ets) si tiene [relaciones sexuales anales]{"entity": "tipo_sexo", "value": "sexo_anal"} con un hombre
     - una mujer podría infectarse de [VIH](ets) si tiene [sexo anal]{"entity": "tipo_sexo", "value": "sexo_anal"} con un hombre?
+    - se puede contactar el [VIH](ets) teniendo [relaciones anales]{"entity": "tipo_sexo", "value": "sexo_anal"}
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -794,6 +795,7 @@ nlu:
     - puede una madre transmitirlo al bebe?
     - puede una madre contagiar al bebé?
     - puede una madre contagiar a su hijo?
+    - Toda mujer embarazada, infectada con VIH, tendrá niños infectados con VIH
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?

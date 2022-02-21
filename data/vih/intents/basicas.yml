@@ -319,6 +319,7 @@ nlu:
     - el vih pasó al hombre porque alguien se comió un animal?
     - el vih se transmitió a los hombres por la comida?
     - cual es el origen del vih?
+    - de dónde proviene el vih
 - intent: faq/cuando
   examples: |
     - ¿Cuándo se originó el VIH?
@@ -385,6 +386,7 @@ nlu:
     - Cuando se descubrió esta enfermedad?
     - y cuando se descubrió?
     - cuando se descubrió?
+    - cuando se descubrió el vih
 - intent: faq/personas_famosas_vih
   examples: |
     - ¿Qué personas famosas han tenido o tienen VIH?
@@ -842,6 +844,7 @@ nlu:
     - Afecta el VIH a la esperanza de vida?
     - cuanto tiempo se puede vivir con vih?
     - cuanto tiempo se vive si tienes vih?
+    - cuanto vive el vih fuera del cuerpo
 - intent: faq/es_posible_evitar_avance_vih
   examples: |
     - ¿Es inevitable el avance del VIH?

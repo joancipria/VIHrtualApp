@@ -185,6 +185,7 @@ nlu:
 - intent: faq/protege_lavarse_genitales
   examples: |
     - ¿Ducharse o lavarse los genitales después de mantener relaciones sexuales evita contraer el VIH?
+    - Ducharse o lavarse los genitales/ partes privadas después de mantener relaciones sexuales evita que la persona se infecte con VIH
     - lavarse los genitales despues del sexo evita el vih?
     - ducharse despues del sexo evita que cojas vih?
     - lavarse bien despues de follar puede vitar el vih?
@@ -783,6 +784,7 @@ nlu:
     - como puede evitar la madre contagiar al hijo?
     - ¿Cómo evitar las teansmisión vertical?
     - como evitar la transmision vertical
+    - como evitar la transimisón vertical
     - se puede evitar que la madre contagie al feto?
     - se puede evitar que la madre contagie al bebe?
     - es posible evitar que la madre le pase el vih al bebe?

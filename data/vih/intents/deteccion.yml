@@ -106,6 +106,13 @@ nlu:
     - periodo de ventana
     - periodo de ventana inmunológica
     - q es el periodo ventana
+    - cuando hacer la prueba de detección
+    - cuándo debo hacer la prueba?
+    - cuando debo hacerme la prueba
+    - cuando debo hacerme el test
+    - cuanto tiempo he de esperarme hasta poder hacerme la prueba
+    - cuándo se debe hacer la prueba de detección
+    - cuando deberia hacerme la prueba?
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
