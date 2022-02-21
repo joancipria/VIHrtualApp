@@ -175,3 +175,96 @@ stories:
   - action: utter_preguntar_sabe_usar_preservativo
   - intent: negar
   - action: action_como_usar_preservativo
+
+- story: Story from Conversation ID upv6w7zxhaqpzd
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: sintomas
+  - action: utter_sintomas
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: negar
+  - action: utter_responder_transmision_oral_vih
+  - intent: faq/vertical
+  - action: utter_faq
+  - intent: faq/se_continua_investigando
+  - action: utter_faq
+  - intent: faq/como_es_prueba
+  - action: utter_faq
+  - intent: solicitar_prueba
+  - action: utter_solicitar_prueba
+  - action: utter_recordar_acudir_medico
+  - action: utter_recordar_ventana
+  - intent: negar
+  - action: utter_periodo_ventana_explicacion
+  - intent: faq/protege_lavarse_genitales
+  - action: utter_faq
+  - intent: transmision_sexual
+    entities:
+    - ets: vih
+    - tipo_sexo: sexo_anal
+  - slot_was_set:
+    - ets: vih
+  - slot_was_set:
+    - tipo_sexo: sexo_anal
+  - action: utter_transmision_sexual
+  - intent: transmision_sexual
+    entities:
+    - ets: vih
+    - tipo_sexo: anales
+  - slot_was_set:
+    - ets: vih
+  - slot_was_set:
+    - tipo_sexo: anales
+  - action: utter_transmision_sexual
+  - intent: faq/puede_transmitir_hijos
+  - action: utter_faq
+  - intent: faq/evitar_vertical
+  - action: utter_faq
+  - intent: faq/como_es_prueba
+  - action: utter_faq
+  - intent: solicitar_prueba
+  - action: utter_solicitar_prueba
+  - action: utter_recordar_acudir_medico
+  - action: utter_recordar_ventana
+  - intent: afirmar
+  - action: utter_reaccionar_positivamente
+  - action: utter_recordar_asistencia
+  - intent: nlu_fallback
+  - action: utter_default
+  - intent: sida_vs_vih
+  - action: utter_sida_vs_vih
+  - intent: saludar
+  - action: utter_saludar
+  - action: utter_ofrecer_ayuda
+  - intent: preguntar_estado
+  - action: utter_estado
+  - intent: faq/alimentos
+  - action: utter_faq
+  - intent: faq/sobrevive_fuera_vih
+  - action: utter_faq
+  - intent: faq/vertical
+  - action: utter_faq
+  - intent: faq/cuando_descubrimiento
+  - action: utter_faq
+  - intent: faq/cual_es_el_origen
+  - action: utter_faq
+  - intent: agradecer
+  - action: utter_no_hay_de_que
+  - action: utter_algo_mas
+  - intent: negar
+  - action: utter_reaccionar_positivamente
+  - action: utter_recordar_asistencia
+  - intent: despedirse
+  - action: utter_despedirse
+  - action: utter_recordar_asistencia
