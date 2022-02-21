@@ -173,7 +173,7 @@ responses:
   utter_faq/riesgo_lesbianas:
     - text: "Los informes de casos de transmisión del VIH de mujer a mujer son muy infrecuentes. \n\n Sin embargo, no es imposible. Las secreciones vaginales y la sangre menstrual pueden contener el virus y la exposición a estos líquidos a través de las membranas mucosas (de la vagina o la boca) podría potencialmente causar la infección por el VIH."
   utter_faq/puede_transmitir_hijos:
-    - text: "Los bebés puede infectarse de VIH durante el embarazo, el parto o la lactancia. \n\n Si padeces el virus existen una serie de medidas que debes tomar para evitar contagiar al feto."
+    - text: "Los bebés pueden infectarse de VIH durante el embarazo, el parto o la lactancia. \n\n Si padeces el virus existen una serie de medidas que debes tomar para evitar contagiar al feto."
   utter_faq/objetos_contaminados_vih:
     - text: "Existe riesgo de contagio si compartes objetos que puedan entrar en contacto con la sangre, como maquinillas de afeitar o jeringuillas."
   utter_faq/pueden_contagiarse_niños:
