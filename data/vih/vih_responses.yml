@@ -309,8 +309,8 @@ responses:
     - text: "Ciertas conductas, como mantener relaciones sexuales con múltiples parejas, o tener sexo sin protección / utilizando la marcha atrás aumentan las probabilidades de contraer el VIH."
   utter_faq/preservativo_piel:
     - text: "Los llamados preservativos de piel o de piel de cordero están hechos de una membrana delgada que forma parte del intestino de las ovejas. \n\n Aunque son efectivos para prevenir el embarazo, no protegen de las ETS."
-  utter_faq/preservativo_piel_vs_latex:
-    - text: "Los preservativos fabricados con piel natural, aunque evitan embarazos no deseados, no protegen contra las enfermedades de transmisión sexual. \n\n En cambio, los de látex sí son efectivos para prevenir las ETS."
+  utter_faq/efectividad_preservativo_piel:
+    - text: "Los preservativos fabricados con membranas naturales (como piel de cordero) tienen pequeños agujeritos y no bloquean el VIH ni otras ETS. \n\n Aunque sí evitan embarazos no deseados, no deben usarse para prevenir enfermedades de transmisión sexual."
   utter_faq/multiples_parejas:
     - text: "Mantener relaciones sexuales con múltiples parejas aumenta las probabilidades de contraer el VIH, especialmente si no se utiliza protección <i class='em em-condom'></i>."
   utter_faq/protege_antibioticos:

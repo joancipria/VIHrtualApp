@@ -889,7 +889,7 @@ nlu:
     - explicame que son los condones de piel
     - explicame qué son de preservativods de piel natural
     - de qué estan hechos los condones de piel
-- intent: faq/preservativo_piel_vs_latex
+- intent: faq/efectividad_preservativo_piel
   examples: |
     - Un condón de piel es mejor que uno de látex para prevenir el vih
     - Un condón de piel es mejor para prevenir el contagio de VIH que un condón de látex
