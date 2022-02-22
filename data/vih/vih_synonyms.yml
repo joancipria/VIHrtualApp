@@ -127,6 +127,15 @@ nlu:
     - follan por el culo
     - follo por el culo
     - meten el pene por el culo
+- synonym: sexo_vaginal
+  examples: |
+    - sexo vaginal
+    - sexo por la vagina
+    - meter el pene en el coño
+    - meter la polla en el coño
+    - meter la polla en la vagina
+    - penetración vaginal
+    - relaciones sexuales vaginales
 - synonym: fase_vih_1
   examples: |
     - infecciona guda

@@ -324,3 +324,24 @@ stories:
   - action: utter_preguntar_sabe_usar_preservativo
   - intent: afirmar
   - action: utter_reaccionar_positivamente
+
+- story: Transmisión sexual vaginal (sin VIH)
+  steps:
+  - intent: transmision_sexual
+    entities:
+    - tipo_sexo: sexo_vaginal
+  - slot_was_set:
+    - tipo_sexo: sexo_vaginal
+  - action: utter_transmision_sexual
+
+- story: Transmisión sexual vaginal (con VIH)
+  steps:
+  - intent: transmision_sexual
+    entities:
+    - ets: vih
+    - tipo_sexo: sexo_vaginal
+  - slot_was_set:
+    - ets: vih
+  - slot_was_set:
+    - tipo_sexo: sexo_vaginal
+  - action: utter_transmision_sexual

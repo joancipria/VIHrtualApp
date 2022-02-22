@@ -539,6 +539,7 @@ nlu:
     - puedo contraer el virus si hago [sexo anal](tipo_sexo)?
     - si practico mucho [sexo oral](tipo_sexo) puedo coger [vih](ets)?
     - con el [sexo vaginal](tipo_sexo) puedo infectarme de [vih](ets)?
+    - ¿Qué riesgo de contagio hay en el [sexo vaginal]{"entity": "tipo_sexo", "value": "sexo_vaginal"}?
     - si hago mucho [sexo oral](tipo_sexo) puedo pillar el virus?
     - practico mucho [sexo anal](tipo_sexo), existe algun riesgo?
     - me gusta mucho el [sexo anal](tipo_sexo), tengo miedo de coger algo

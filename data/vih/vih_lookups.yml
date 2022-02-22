@@ -8,6 +8,7 @@ nlu:
 - lookup: tipo_sexo
   examples: |
     - sexo oral
+    - sexo vaginal
     - mamada
     - una mamada
     - haciendo una mamda
