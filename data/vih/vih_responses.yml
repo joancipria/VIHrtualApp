@@ -277,7 +277,7 @@ responses:
     - text: "Aunque su uso está menos extendido, existen preservativos femeninos que, bien utilizados, sirven también para prevenir ETS y los embarazos no deseados <i class='em em-condom'></i>."
   utter_faq/son_eficientes_espermicidas:
     - text: "No. Aunque los espermicidas pueden prevenir el embarazo, no protegen contra las enfermedades de transmisión sexual, incluido el VIH. \n\n Además, la irritación de la vagina (o del recto) que ocurre a veces con el uso de espermicidas puede aumentar el riesgo de transmisión sexual del VIH."
-  utter_faq/son_eficientes_preservativos:
+  utter_faq/efectividad_preservativos:
     - text: "El preservativo <i class='em em-condom'></i>, o condón, es el método más empleado para evitar tanto las enfermedades de transmisión sexual, incluyendo el VIH, como los embarazos no deseados 🛡️☔. \n\n Existen tanto preservativos masculinos como femeninos."
   utter_faq/rompe_preservativo:
     - text: "Sí la persona con la que estabas practicando sexo es seropositiva debes recurrir al tratamiento antirretroviral preventivo. \n\n Si se ha roto en la vagina, puede que necesites recurrir a la 'píldora del día después' que debes tomar antes de 72 horas para evitar los embarazos no deseados."
