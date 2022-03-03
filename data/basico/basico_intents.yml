@@ -1024,6 +1024,8 @@ nlu:
     - ¿qué información me puedes dar?
     - que info me puedes dar?
     - que informacion puedes darme?
+    - que te puedo preguntar
+    - qué te puedo preguntar
 - intent: pedir_tema
   examples: |
     - sugiereme un tema
