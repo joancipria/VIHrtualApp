@@ -979,7 +979,7 @@ nlu:
     - el vih provoca que enfermes cada dos por tres?
     - el vih hace que cada dos por tres estes malo?
     - las personas con vih estan cada 2 por 3 enfermas?
-- intent: faq/se_continua_investigando
+- intent: faq/estado_investigacion
   examples: |
     - ¿Se continua investigando sobre el VIH?
     - se continua investigando el Vih?

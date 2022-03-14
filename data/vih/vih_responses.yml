@@ -137,7 +137,7 @@ responses:
     - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otras infecciones y ciertos tipos de cáncer."
   utter_faq/enfermas_mas_facilmente:
     - text: "Si no se trata, el VIH ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones oportunistas y ciertos tipos de cáncer relacionados con el VIH."
-  utter_faq/se_continua_investigando:
+  utter_faq/estado_investigacion:
     - text: "Todavía quedan muchas cosas por saber sobre el VIH y por ello se continúa investigando en un tratamiento para curarlo o una vacuna para evitarlo."
   utter_faq/es_mortal_vih:
     - text: "Tratado a tiempo el VIH no es mortal, pero sí crónico. \n\n Las personas con VIH pueden llevar una vida larga y saludable."
