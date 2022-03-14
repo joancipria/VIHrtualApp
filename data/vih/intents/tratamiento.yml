@@ -37,6 +37,7 @@ nlu:
     - existe tratamiento para el [vih](ets)?
     - hay tratamiento?
     - existen fármacos efficaces para tratar el [vih](ets)?
+    - hay algun tratamiento?
 - intent: faq/en_que_consiste
   examples: |
     - ¿En qué consiste la terapia contra el virus?

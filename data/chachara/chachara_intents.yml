@@ -65,6 +65,7 @@ nlu:
     - ¿Cuándo celebras tu cumpleaños?
     - cuando vas a celebrar tu cumpleaños?
     - ¿Cuál es tu edad?
+    - que edad tienes?
 - intent: chachara/preguntar_de_donde_es
   examples: |
     - ¿De dónde eres?
@@ -97,6 +98,8 @@ nlu:
     - ¿En qué país vives?
     - en que ciudad vives?
     - de que ciudad eres?
+    - donde vives?
+    - en que zona vives?
 - intent: chachara/preguntar_hobbies
   examples: |
     - ¿Qué te gusta hacer?
@@ -183,6 +186,7 @@ nlu:
     - quiénes son los profesionales que te han creado?
     - ¿quién ha desarrollado esta app?
     - quien ha desarrollado esta aplicacion?
+    - quien te programa?
 - intent: chachara/preguntar_idiomas
   examples: |
     - ¿Qué idiomas hablas?
@@ -265,6 +269,7 @@ nlu:
     - Qué hora es en Polonia
     - Qué hora es en Alemania
     - Qué hora es en Belgica
+    - Que hora es
 - intent: chachara/preguntar_tiempo
   examples: |
     - ¿Qué tiempo hace?
@@ -310,6 +315,7 @@ nlu:
     - con que proposito te han hecho
     - con que propósito has sido creado
     - x k estas aquí?
+    - cual es tu finalidad?
 - intent: chachara/preguntar_trabajo
   examples: |
     - cual es tu funcion?
@@ -345,3 +351,4 @@ nlu:
     - tu tienes vih?
     - tu estas infectado?
     - tu estas infectada?
+    - tu tienes el vih?

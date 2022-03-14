@@ -46,6 +46,7 @@ nlu:
       - Hoe gaat het? 
       - Hoe heet u?
       - asshole
+      - do you speak english?
 
   - intent: fuera_de_contexto/otros
     examples: |
@@ -130,6 +131,12 @@ nlu:
       - como quedó el valencia ayer
       - como quedó el barça ayer
       - como quedó el madrid ayer
+      - Hazme un sandwich
+      - Cuando fue obama presidente
+      - pronostico para el valencia athletic?
+      - quien pasa a la final, el valencia o el athletic de bilbao?
+      - que pondrias en la quiniela?
+      - quien gana la guerra?
   - intent: fuera_de_contexto/cumplidos
     examples: |
       - guapo
