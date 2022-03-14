@@ -436,7 +436,7 @@ responses:
   utter_faq/estigma:
     - text: "Los estigmas son los prejuicios y actitudes negativas relacionadas con una determinada situación, característica, afección o persona. \n\n Por ejemplo, las creencias negativas sobre el VIH pueden crear un estigma contra las personas seropositivas. \n\n Este hecho puede tener efectos desfavorables para la salud y el bienestar de las personas con el VIH."
   utter_faq/sida_homosexuales:
-    - text: En absoluto, el VIH puede infectar a cualquier persona que no tome las medidas de prevención adecuadas sea cual sea su orientación sexual.
+    - text: El VIH puede infectar a cualquier persona que no tome las medidas de prevención adecuadas sea cual sea su orientación sexual.
   utter_faq/deporte_competicion:
     - text: "Dado que todavía existe mucho estigma en relación con el VIH, las personas que practican deporte a nivel profesional no suelen decirlo. \n\n Sin embargo, el deportista de triatlones de alto rendimiento, como el Titan Dessert, Jordi Sandor sí hizo pública su condición de persona seropositiva."
   utter_faq/convivir_persona_vih:
