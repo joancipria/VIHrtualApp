@@ -272,7 +272,7 @@ responses:
   utter_faq/protege_lavarse_genitales:
     - text: "Lavarse los genitales después de mantener relaciones sexuales no protege contra el VIH 🛀."
   utter_protege_marcha_atras:
-    - text: No, es una práctica de riesgo que no previene de ser infectado por VIH.
+    - text: La marcha atrás es una práctica de riesgo que no previene la infección por VIH.
   utter_faq/preservativo_femenino:
     - text: "Aunque su uso está menos extendido, existen preservativos femeninos que, bien utilizados, sirven también para prevenir ETS y los embarazos no deseados <i class='em em-condom'></i>."
   utter_faq/son_eficientes_espermicidas:
