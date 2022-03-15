@@ -197,7 +197,7 @@ stories:
   - action: utter_responder_transmision_oral_vih
   - intent: faq/vertical
   - action: utter_faq
-  - intent: faq/se_continua_investigando
+  - intent: faq/estado_investigacion
   - action: utter_faq
   - intent: faq/como_es_prueba
   - action: utter_faq
@@ -268,3 +268,125 @@ stories:
   - intent: despedirse
   - action: utter_despedirse
   - action: utter_recordar_asistencia
+
+- story: Story from Conversation ID upv2etki81dex4
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: sintomas
+  - action: utter_sintomas
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: afirmar
+  - action: utter_responder_transmision_oral_vih_sabe
+  - intent: faq/vertical
+  - action: utter_faq
+  - intent: faq/estado_investigacion
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_faq
+  - intent: solicitar_prueba
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_solicitar_prueba
+  - action: utter_recordar_acudir_medico
+  - action: utter_recordar_ventana
+
+- story: Sintomas
+  steps:
+  - intent: sintomas
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_sintomas
+
+
+- story: Story from Conversation ID upv2l42vbmknm6
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: sintomas
+  - action: utter_sintomas
+  - intent: transmision
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: afirmar
+  - action: utter_responder_transmision_oral_vih_sabe
+  - intent: faq/vertical
+  - action: utter_faq
+  - intent: solicitar_prueba
+  - action: utter_solicitar_prueba
+  - action: utter_recordar_acudir_medico
+  - action: utter_recordar_ventana
+  - intent: negar
+  - action: utter_periodo_ventana_explicacion
+  - intent: como_prevenir
+  - action: utter_como_prevenir
+  - action: utter_preguntar_sabe_usar_preservativo
+  - intent: negar
+  - action: action_como_usar_preservativo
+  - intent: agradecer
+  - action: utter_no_hay_de_que
+  - action: utter_algo_mas
+  - intent: negar
+  - action: utter_reaccionar_positivamente
+  - action: utter_recordar_asistencia
+  - intent: agradecer
+  - action: utter_no_hay_de_que
+  - action: utter_algo_mas
+  - intent: faq/efectividad_preservativo_piel
+  - action: utter_faq
+  - intent: faq/protege_antibioticos
+  - action: utter_faq
+  - intent: detectar_tras_contacto
+  - action: utter_periodo_ventana
+  - intent: chachara/preguntar_idiomas
+  - action: utter_chachara
+  - intent: chachara/preguntar_idiomas
+  - action: utter_chachara
+  - intent: compartir_wc
+  - action: utter_compartir_wc
+  - intent: faq/fluidos
+  - action: utter_faq
+
+- story: Story from Conversation ID 21fe3aef8ef94e31853e7e44b347a6e7
+  steps:
+  - intent: definir
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_definir_vih
+  - intent: transmision
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_transmision_vih
+  - action: utter_preguntar_transmision_oral_vih
+  - intent: afirmar
+  - action: utter_responder_transmision_oral_vih_sabe
+  - intent: sintomas
+    entities:
+    - ets: vih
+  - slot_was_set:
+    - ets: vih
+  - action: utter_sintomas

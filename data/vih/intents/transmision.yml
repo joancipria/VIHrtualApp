@@ -108,6 +108,7 @@ nlu:
     - ¿Cómo se transmite?
     - como se transmite el virus
     - como se transmite el [sida](ets)
+    - Cómo se trasnmite?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -208,6 +209,7 @@ nlu:
     - Que significa la transmision vertical?
     - sabrias decirme que es la trsmision vertical?
     - sabes que es la transmisión vertical?
+    - Que es la transmisión vertical?
     - qué es la trans vertical
     - a que se le llama transmisión vertical?
     - que significa transmisión vertical
@@ -217,6 +219,8 @@ nlu:
     - que es la trasmisión vertical?
     - De que trata la transmisión vertical?
     - ¿Qués es la trnasmisión verctical del VIH?
+    - ¿Qué es eso de la transmisión vertical?
+    - que es la trasmision vertical ?
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -279,9 +283,11 @@ nlu:
     - Las personas son más propensas a infectarse cuando se dan besos profundos?
     - los besos profundos transmiten el [vih](ets)?
     - Las personas son más propensas a infectarse cuando se dan besos profundos o colocan sus lenguas dentro de la boca de sus parejas que está infectada con VIH?
+    - Besos de boca abierta
 - intent: compartir_vaso_cubierto
   examples: |
     - se pede contagiar por comparir un vaso?
+    - compartir vaso de agua
     - por compartir un vaso me puedo infectar?
     - Una persona puede contraer el VIH al compartir un vaso de agua con alguien que tiene el VIH ?
     - me puedo contagiawr de sida por compartir un vaso?
@@ -397,6 +403,10 @@ nlu:
     - me puedo contagiar si comparto la ducha con un infectado
     - me puedo contagiar por compartir la misma ducha?
     - me puedo contagiar su uso la misma ducha que alguien con vih?
+    - Compartir baño pasa el vih
+    - Si me baño con una persona contagiada me puedo contagiar?
+    - ¿El VIH se puede transmitir si estamos en el agua?
+    - se puede contagiar compartiendo un baño termal o una piscina?
 - intent: faq/tatuajes
   examples: |
     - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
@@ -687,6 +697,8 @@ nlu:
     - Una mujer puede infectarse con el [VIH](ets) si tiene [relaciones sexuales anales]{"entity": "tipo_sexo", "value": "sexo_anal"} con un hombre
     - una mujer podría infectarse de [VIH](ets) si tiene [sexo anal]{"entity": "tipo_sexo", "value": "sexo_anal"} con un hombre?
     - se puede contactar el [VIH](ets) teniendo [relaciones anales]{"entity": "tipo_sexo", "value": "sexo_anal"}
+    - Una persona puede contagiarse con VIH cuando sostiene [relaciones sexuales de forma oral]{"entity": "tipo_sexo", "value": "sexo_oral"}
+    - el [sexo anal]{"entity": "tipo_sexo", "value": "sexo_anal"} tiene riesgo de contagio?
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?

@@ -7,6 +7,7 @@ nlu:
     - virus de la inmunodeficiencia humana
     - inmunodeficiencia humana
     - ih
+    - vi
     - vig
     - VHI
 - synonym: sida
@@ -110,6 +111,7 @@ nlu:
     - haciendo una mamada
     - lamer coño
     - mamadas
+    - relaciones sexuales de forma oral
 - synonym: sexo_anal
   examples: |
     - sexo anal
@@ -127,6 +129,7 @@ nlu:
     - follan por el culo
     - follo por el culo
     - meten el pene por el culo
+    -  relaciones sexuales de forma anal
 - synonym: sexo_vaginal
   examples: |
     - sexo vaginal
@@ -136,6 +139,7 @@ nlu:
     - meter la polla en la vagina
     - penetración vaginal
     - relaciones sexuales vaginales
+    - relaciones sexuales de forma vaginal
 - synonym: fase_vih_1
   examples: |
     - infecciona guda

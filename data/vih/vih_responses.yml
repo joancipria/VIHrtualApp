@@ -4,8 +4,8 @@ responses:
   # --- DEFINICIONES ---
   #---------------------
   utter_definir_vih:
-  - text: "El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo 🛡️. Si no se trata a tiempo, puede causar el SIDA. \n\n Si sabes lo básico sobre el VIH estarás protegido y podrás prevenir su transmisión. 💪"
-    buttons:
+    - text: "El VIH (Virus de la Inmunodeficiencia Humana) es un virus que ataca y debilita el sistema inmunitario del cuerpo 🛡️. Si no se trata a tiempo, puede causar el SIDA. \n\n Si sabes lo básico sobre el VIH estarás protegido y podrás prevenir su transmisión. 💪"
+      buttons:
         - payload: ¿Cómo se transmite el VIH?
           title: ¿Cómo se transmite el VIH?
         - payload: ¿Qué es el SIDA?
@@ -13,8 +13,8 @@ responses:
         - payload: ¿Qué síntomas tiene?
           title: ¿Qué síntomas tiene?
   utter_definir_sida:
-  - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.\n\n Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas."
-    buttons:
+    - text: "Son las siglas del Síndrome de Inmunodeficiencia Adquirida (SIDA) que es la enfermedad causada por el Virus de la Inmunodeficiencia Humana (VIH). \n\n Esta enfermedad ataca principalmente al sistema inmune y provoca que el organismo tenga muy bajas sus defensas ante otras enfermedades.\n\n Por esta razón, las personas con SIDA tienen el sistema inmunitario muy dañado y presentan una creciente cantidad de enfermedades graves, llamadas infecciones oportunistas."
+      buttons:
         - payload: ¿Qué es una infección oportunista?
           title: ¿Qué es una infección oportunista?
         - payload: ¿Cuándo se tiene SIDA?
@@ -22,47 +22,47 @@ responses:
         - payload: ¿Cuál es la diferencia entre VIH y SIDA?
           title: ¿Cuál es la diferencia entre VIH y SIDA?
   utter_definir_hepatitis:
-  - text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
+    - text: "Es una inflamación del hígado, generalmente de origen vírico. \n\n Existen diversos tipos (A , B, C, D y E), siendo las más habituales la A, B y C. \n\n Sus efectos si llegan a presentarse, pueden incluir inapetencia, náuseas, vómito e ictericia. \n\n La hepatitis puede causar lesión, cirrosis, insuficiencia o cáncer del hígado."
   utter_definir_fallback:
-  - text: "¿A qué enfermedad de transmisión sexual te refieres?" 
+    - text: "¿A qué enfermedad de transmisión sexual te refieres?"
   #---------------------
   # --- TRANSMISIONES --
   #---------------------
   utter_transmision_vih:
-  - text: "El VIH se transmite cuando existe un intercambio de fluidos como la sangre, el semen, el flujo vaginal y la leche materna, desde una persona con VIH a otra sin VIH. La saliva, las flemas, la orina y las heces no pueden transmitirlo. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
+    - text: "El VIH se transmite cuando existe un intercambio de fluidos como la sangre, el semen, el flujo vaginal y la leche materna, desde una persona con VIH a otra sin VIH. La saliva, las flemas, la orina y las heces no pueden transmitirlo. \n\n Por tanto, existe riesgo de contagio al mantener relaciones sexuales sin protección, al compartir jeringuillas 💉, cuchillas 🪒 u otros objetos que puedan entrar en contacto con la sangre y en el caso de los bebés, durante el embarazo, el parto o la lactancia."
   utter_transmision_hepatitis:
-  - text: "En general, la hepatitis A y la hepatitis E se transmiten a través del contacto con alimentos o agua contaminados con las heces de una persona infectada. \n\n También puede contraer hepatitis E al comer carne de cerdo, ciervo o mariscos poco cocidos."
+    - text: "En general, la hepatitis A y la hepatitis E se transmiten a través del contacto con alimentos o agua contaminados con las heces de una persona infectada. \n\n También puede contraer hepatitis E al comer carne de cerdo, ciervo o mariscos poco cocidos."
   utter_transmision_fallback:
-  - text: "¿Sobre qué enfermedad quieres saber cómo se transmite?" 
+    - text: "¿Sobre qué enfermedad quieres saber cómo se transmite?"
   utter_transmision_sexual:
     # VIH (Sexo oral)
     - condition:
-#      - type: slot
-#        name: ets
-#        value: "vih"
-      - type: slot
-        name: tipo_sexo
-        value: "sexo_oral"
-      text: "Aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."    
+        #      - type: slot
+        #        name: ets
+        #        value: "vih"
+        - type: slot
+          name: tipo_sexo
+          value: "sexo_oral"
+      text: "Aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio. \n\n Por otra parte, ten en cuenta que sí se pueden contraer otras muchas enfermedades de transmisión sexual."
     # VIH (Sexo anal)
     - condition:
-#      - type: slot
-#        name: ets
-#        value: "vih"
-      - type: slot
-        name: tipo_sexo
-        value: "sexo_anal"
-      text: "Se puede contraer el VIH si tienes relaciones sexuales anales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo, ya que la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH." 
+        #      - type: slot
+        #        name: ets
+        #        value: "vih"
+        - type: slot
+          name: tipo_sexo
+          value: "sexo_anal"
+      text: "Se puede contraer el VIH si tienes relaciones sexuales anales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo, ya que la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH."
     # VIH (Sexo vaginal)
     - condition:
-#      - type: slot
-#        name: ets
-#        value: "vih"
-      - type: slot
-        name: tipo_sexo
-        value: "sexo_vaginal"
-      text: "Se puede contraer el VIH si tienes relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas." 
-    - text: "Eso depende del tipo de sexo. ¿Te refieres a sexo oral, anal o vaginal?" 
+        #      - type: slot
+        #        name: ets
+        #        value: "vih"
+        - type: slot
+          name: tipo_sexo
+          value: "sexo_vaginal"
+      text: "Se puede contraer el VIH si tienes relaciones sexuales vaginales con alguien que tiene el VIH sin usar protección <i class='em em-condom'></i>. \n\n Las relaciones sexuales vaginales implican menor riesgo de contraer el VIH que las anales receptivas."
+    - text: "Eso depende del tipo de sexo. ¿Te refieres a sexo oral, anal o vaginal?"
   utter_cura_vih:
     - text: "Actualmente no existe una terapia que pueda eliminar completamente el VIH del organismo. \n\n Ha habido unos pocos casos donde se ha logrado, pero se trata de pacientes con unas características muy concretas y la forma en que se ha logrado no es, a día de hoy, extensible al resto de la población."
   utter_faq/como_actua_vih:
@@ -84,21 +84,21 @@ responses:
   utter_explicar_fase:
     # Fase 1 / Aguda
     - condition:
-      - type: slot
-        name: fase_vih
-        value: "fase_vih_1"
+        - type: slot
+          name: fase_vih
+          value: "fase_vih_1"
       text: "Aproximadamente de 2 a 4 semanas después de que una persona se infecte por VIH, el virus se replica con rapidez, ya que el organismo todavía no es capaz de sintetizar anticuerpos contra él. \n\n Durante esta etapa la falta de anticuerpos hace que el VIH sea sumamente contagioso e indetectable mediante la prueba. 🔬⚠️"
     # Fase 2 / Crónica
     - condition:
-      - type: slot
-        name: fase_vih
-        value: "fase_vih_2"
+        - type: slot
+          name: fase_vih
+          value: "fase_vih_2"
       text: "Es la etapa de la infección por el VIH entre la infección aguda y el momento de aparición del SIDA (última etapa). \n\n Durante la infección crónica, las concentraciones del VIH aumentan gradualmente y la cantidad de linfocitos (células) CD4 disminuye, lo que conlleva el daño del sistema inmunitario. \n\n El tratamiento antirretroviral puede prevenir que el VIH dañe el sistema inmunitario y acabe convirtiéndose en SIDA."
     # Fase 3 / SIDA
     - condition:
-      - type: slot
-        name: fase_vih
-        value: "fase_vih_3"
+        - type: slot
+          name: fase_vih
+          value: "fase_vih_3"
       text: "El SIDA (síndrome de inmunodeficiencia adquirida) es la fase más grave de la infección por el VIH. \n\n Las personas con SIDA tienen el sistema inmunitario tan dañado que comienzan a tener una cantidad cada vez mayor de enfermedades graves, las cuales se llaman infecciones oportunistas 😞."
     - text: "¿Sobre qué fase te gustaría saber más?"
   utter_preguntar_fase:
@@ -120,31 +120,31 @@ responses:
   utter_faq/es_posible_evitar_avance_vih:
     - text: "Los tratamientos actuales son muy efectivos y es posible detener el avance del virus durante décadas."
   utter_fases_vih:
-  - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y finalmente, SIDA."
-    custom:
-      payload: cardsCarousel
-      data:
-      - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa1.svg
-        name: Etapa 1
-        title: Etapa 1
-      - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa2.svg
-        name: Etapa 2
-        title: Etapa 2
-      - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa3.svg
-        name: Etapa 3
-        title: Etapa 3
+    - text: "Cuando las personas que tienen el VIH no reciben tratamiento, la infección generalmente pasa por 3 fases: infección aguda, infección crónica y finalmente, SIDA."
+      custom:
+        payload: cardsCarousel
+        data:
+          - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa1.svg
+            name: Etapa 1
+            title: Etapa 1
+          - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa2.svg
+            name: Etapa 2
+            title: Etapa 2
+          - image: https://github.com/joancipria/VihrtualApp/raw/master/resources/img/vih_etapa3.svg
+            name: Etapa 3
+            title: Etapa 3
   utter_faq/peligros_vih:
     - text: "Si no se trata, el VIH es peligoroso porque ataca y destruye a una de las células más importantes del sistema inmune: los linfocitos CD4. \n\n Esto hace cada vez más difícil que el cuerpo pueda combatir otras infecciones y ciertos tipos de cáncer."
   utter_faq/enfermas_mas_facilmente:
     - text: "Si no se trata, el VIH ataca y destruye las células CD4 del sistema inmunitario que combaten las infecciones. \n\n Cuantas menos células CD4 más difícil le resulta al sistema inmune combatir las infecciones oportunistas y ciertos tipos de cáncer relacionados con el VIH."
-  utter_faq/se_continua_investigando:
+  utter_faq/estado_investigacion:
     - text: "Todavía quedan muchas cosas por saber sobre el VIH y por ello se continúa investigando en un tratamiento para curarlo o una vacuna para evitarlo."
   utter_faq/es_mortal_vih:
     - text: "Tratado a tiempo el VIH no es mortal, pero sí crónico. \n\n Las personas con VIH pueden llevar una vida larga y saludable."
   utter_faq/portador:
     - text: "Sí, muchas personas tienen el virus y pueden pasar años sin desarrollar síntomas o estos son tan leves que pasan desapercibidos."
   utter_servicio_publico:
-    - text: "La atención sanitaria pública dispone de unidades especializadas para el diagnóstico y tratamiento del VIH 🧑‍⚕️🏥. Algunas incluso tienen asistencia psicológica si se necesita."  
+    - text: "La atención sanitaria pública dispone de unidades especializadas para el diagnóstico y tratamiento del VIH 🧑‍⚕️🏥. Algunas incluso tienen asistencia psicológica si se necesita."
   # Transmisión
   utter_transmite_aire:
     - text: El VIH no se puede contagiar por el aire. Únicamente puede hacerlo a través de la sangre, el esperma, el flujo vaginal o la leche materna.
@@ -243,7 +243,7 @@ responses:
   utter_donde_atendido_vih:
     - text: "La atención de las personas con VIH en España se presta principalmente en los centros sanitarios de la red pública."
   utter_faq/mismo_tratamiento:
-    - text: "Actualmente existen múltiples tratamientos contra el VIH y se elige el que más conviene a cada persona." 
+    - text: "Actualmente existen múltiples tratamientos contra el VIH y se elige el que más conviene a cada persona."
   # Prevención
   utter_faq/que_es_prep:
     - text: "La profilaxis preexposición (o PrEP) se basa en que es posible reducir mucho el riesgo de infección si se toman medicamentos diariamente 💊. \n\n Por tanto, la PrEP se administra a personas con un riesgo muy alto de contraer el VIH."
@@ -272,7 +272,7 @@ responses:
   utter_faq/protege_lavarse_genitales:
     - text: "Lavarse los genitales después de mantener relaciones sexuales no protege contra el VIH 🛀."
   utter_protege_marcha_atras:
-    - text: No, es una práctica de riesgo que no previene de ser infectado por VIH.
+    - text: La marcha atrás es una práctica de riesgo que no previene la infección por VIH.
   utter_faq/preservativo_femenino:
     - text: "Aunque su uso está menos extendido, existen preservativos femeninos que, bien utilizados, sirven también para prevenir ETS y los embarazos no deseados <i class='em em-condom'></i>."
   utter_faq/son_eficientes_espermicidas:
@@ -294,11 +294,11 @@ responses:
   utter_faq/sexo_seguro:
     - text: "Puedes utilizar preservativos <i class='em em-condom'></i>, son altamente eficaces para prevenir la infección por el VIH, otras enfermedades de transmisión sexual (ETS) y evitar embarazos no deseados."
   utter_sexo_sin_proteccion:
-  - text: "Las relaciones sexuales sin protección pueden ser peligrosas debido al contagio de enfermedades infecciosas que se transmiten por esa vía. \n\n Por tanto, se recomienda que las relaciones sexuales se practiquen con protección <i class='em em-condom'></i>."
+    - text: "Las relaciones sexuales sin protección pueden ser peligrosas debido al contagio de enfermedades infecciosas que se transmiten por esa vía. \n\n Por tanto, se recomienda que las relaciones sexuales se practiquen con protección <i class='em em-condom'></i>."
   utter_faq/evitar_vertical:
     - text: "Existen fármacos que evitan la transmisión durante el embarazo y el parto y a los bebés se les da medicación durante las primeras semanas de vida. \n\n Además, las madres con VIH no deben recurrir a su propia leche materna para evitar que el bebé se infecte."
   utter_faq/concebir:
-    - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada, ya que debe tomar algunas medidas específicas para evitar que el bebé se infecte. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."  
+    - text: "Una mujer con VIH puede quedarse embarazada, pero se aconseja que sea de manera planificada, ya que debe tomar algunas medidas específicas para evitar que el bebé se infecte. \n\n Si es el hombre el que está infectado por VIH también es posible la concepción."
   utter_instrucciones_preservativo_femenino:
     - text: "Aquí abajo te explico cómo utilizar correctamente un preservativo femenino 👇"
       image: "https://github.com/joancipria/VihrtualApp/raw/master/resources/img/female_condom.gif"
@@ -403,7 +403,7 @@ responses:
       text: Por ejemplo, en <a target='_blank' href='https://www.mscbs.gob.es/ciudadanos/enfLesiones/enfTransmisibles/sida/homeCoronavirus.htm'>este link.</a>
   # Glosario
   utter_faq/que_es_ets:
-    - text: "Las enfermedades de transmisión sexual (ETS) son aquellas que se contagian por las relaciones sexuales, tanto a través del sexo vaginal, anal u oral. \n\n Para evitarlas es necesario adoptar medidas de prevención como el uso del preservativo <i class='em em-condom'></i>."  
+    - text: "Las enfermedades de transmisión sexual (ETS) son aquellas que se contagian por las relaciones sexuales, tanto a través del sexo vaginal, anal u oral. \n\n Para evitarlas es necesario adoptar medidas de prevención como el uso del preservativo <i class='em em-condom'></i>."
   utter_faq/que_es_viremia:
     - text: El término hace referencia a la presencia de un virus en la sangre 🩸🦠.
   utter_faq/que_es_nadir:
@@ -436,7 +436,7 @@ responses:
   utter_faq/estigma:
     - text: "Los estigmas son los prejuicios y actitudes negativas relacionadas con una determinada situación, característica, afección o persona. \n\n Por ejemplo, las creencias negativas sobre el VIH pueden crear un estigma contra las personas seropositivas. \n\n Este hecho puede tener efectos desfavorables para la salud y el bienestar de las personas con el VIH."
   utter_faq/sida_homosexuales:
-    - text: En absoluto, el VIH puede infectar a cualquier persona que no tome las medidas de prevención adecuadas sea cual sea su orientación sexual.
+    - text: El VIH puede infectar a cualquier persona que no tome las medidas de prevención adecuadas sea cual sea su orientación sexual.
   utter_faq/deporte_competicion:
     - text: "Dado que todavía existe mucho estigma en relación con el VIH, las personas que practican deporte a nivel profesional no suelen decirlo. \n\n Sin embargo, el deportista de triatlones de alto rendimiento, como el Titan Dessert, Jordi Sandor sí hizo pública su condición de persona seropositiva."
   utter_faq/convivir_persona_vih:
@@ -444,7 +444,7 @@ responses:
   # Info adicional
   utter_faq/documento_adicional_mujeres:
     - text: "Puedes consultar esta guía orientada al VIH en las mujeres 👇"
-      custom: 
+      custom:
         payload: pdf_attachment
         title: "Las mujeres y el VIH"
         url: "https://raw.githubusercontent.com/joancipria/VihrtualApp/master/resources/pdf/gu%C3%ADa_vih_mujeres.pdf"
@@ -454,17 +454,17 @@ responses:
   utter_preguntar_sabe_usar_preservativo:
     - text: "La principal medida para tener relaciones sexuales seguras es usar preservativo. ¿Sabes utilizarlo?"
       buttons:
-      - payload: Sí
-        title: Sí
-      - payload: No
-        title: No
+        - payload: Sí
+          title: Sí
+        - payload: No
+          title: No
   utter_preguntar_transmision_oral_vih:
     - text: "¿Crees se puede contraer el VIH a través del sexo oral? 👄"
       buttons:
-      - payload: Sí
-        title: Sí
-      - payload: No
-        title: No
+        - payload: Sí
+          title: Sí
+        - payload: No
+          title: No
   utter_responder_transmision_oral_vih:
     - text: "La verdad es que, aunque las probabilidades de contraer el VIH a través de las relaciones sexuales orales son muy bajas, las exposiciones reiteradas y sin protección pueden aumentar el riesgo de contagio."
   utter_responder_transmision_oral_vih_sabe:
@@ -472,16 +472,16 @@ responses:
   utter_recordar_ventana:
     - text: "Por otra parte, ten en cuenta que existe el llamado período ventana (de 2 a 12 semanas), en el cual una persona está infectada del virus, pero las pruebas todavía no son capaces de detectarlo. \n\n ¿Sabes por qué ocurre esto?"
       buttons:
-      - payload: Sí
-        title: Sí
-      - payload: No
-        title: No
+        - payload: Sí
+          title: Sí
+        - payload: No
+          title: No
   utter_periodo_ventana_explicacion:
     - text: "El diagnóstico del virus se realiza generalmente por la detección de sus anticuerpos, que generalmente tardan en ser desarrollados entre 2 y 12 semanas tras la infección ⌛. \n\n Por tanto, para total seguridad, deberías realizarte la prueba tras la exposición y repetírtela tres meses después de la misma."
   utter_preguntar_explicar_fases:
     - text: "¿Quieres que te explique más en detalle alguna fase?"
       buttons:
-      - payload: Sí
-        title: Sí
-      - payload: No
-        title: No
+        - payload: Sí
+          title: Sí
+        - payload: No
+          title: No

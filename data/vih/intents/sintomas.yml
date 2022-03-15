@@ -101,6 +101,18 @@ nlu:
     - cuáles son los sintomas
     - cuales suelen ser los sintomas del [vih](ets)
     - como se manifiesta el [sida](ets)
+    - el vih muestra sintomas?
+    - Personas que están infectadas con el [VIH](ets) rápidamente muestran signos o síntomas
+    - Personas que están infectadas con el [VIH](ets) rápidamente muestran signos o síntomas de que está contagiados/as?
+    - ¿Todos los enfermos de [VIH](ets) tienen síntomas?
+    - Man, cuales son los sintomas
+    - ¿Cuáles son los principales síntomas de infección de [VIH](ets)?
+    - ¿Cuáles son los síntomas del [VIH](ets)?
+    - Síntomas del [VIH](ets)
+    - ¿Qué síntomas presenta el [VIH](ets)?
+    - ¿Cuáles son los síntomas?
+    - Síntomas del [VIH](ets)
+    - Qué síntomas tiene?
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?
@@ -139,6 +151,7 @@ nlu:
     - me puedo haber infectado y no enterarme?
     - haberme infectado y no notar nada
     - haberlo cogido hace años sin notarlo
+    - ¿Se puede tener VIH sin haberet enterado?
 - intent: faq/sintomas_externos
   examples: |
     - ¿Existen signos externos que nos hagan saber si una persona padece VIH?
@@ -167,3 +180,7 @@ nlu:
     - Si una persona tiene VIH, se ve?
     - Si una persona tiene VIH, se le nota?
     - saber por su aspecto si tiene vih
+    - signos externos vih
+    - sintomas externos vih
+    - se puede saber por la apriencia si alguien tiene vih?
+    - se puede por su apariencia saber si alguien tiene vih?

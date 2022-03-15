@@ -10,3 +10,9 @@ rules:
     steps:
       - intent: como_usa_preservativo
       - action: action_como_usar_preservativo
+ 
+  - rule: Animar a seguir cuando entienda
+    steps:
+    - intent: entender
+    - action: utter_reaccionar_positivamente
+    - action: utter_saber_mas 

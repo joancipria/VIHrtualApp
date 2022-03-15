@@ -113,6 +113,9 @@ nlu:
     - cuanto tiempo he de esperarme hasta poder hacerme la prueba
     - cuándo se debe hacer la prueba de detección
     - cuando deberia hacerme la prueba?
+    - ¿Cuanto tiempo se tarda en detectar un contagio desde que este se produce?
+    - Cuando te puedes hacer la prueba
+    - A partir de cuando te puedes hacer la prueba de una forma fiable
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?

@@ -79,6 +79,8 @@ nlu:
     - hola guapo!
     - hola guapa
     - buen dia!
+    - buenas soy [natxo](PER)
+    - buenas soy [paco](PER)
 - intent: despedirse
   examples: |
     - Nos vemos
@@ -351,6 +353,10 @@ nlu:
     - Entiendo.
     - entendido.
     - Entendido!
+    - Lo sé
+    - ya lo se
+    - ya lo sé
+    - lo se
 - intent: no_entender
   examples: |
     - no lo he entiendido
@@ -483,6 +489,7 @@ nlu:
     - muchisimas gracias
     - muchisimas gracias!
     - mil gracias, de verdad!
+    - gracias por tu ayuda
 - intent: esperar
   examples: |
     - Espera
@@ -736,6 +743,7 @@ nlu:
     - qué tal va la cosa?
     - cómo va la cosa?
     - quiero saber como estas
+    - como te sientes?
 - intent: animo_alto
   examples: |
     - Me siento genial
@@ -788,6 +796,7 @@ nlu:
 - intent: animo_bajo
   examples: |
     - Me siento mal
+    - estoy un poco mal
     - me siento un poco mal
     - me encuentro un poco mal
     - me encuentro un poquito mal
@@ -1024,6 +1033,9 @@ nlu:
     - ¿qué información me puedes dar?
     - que info me puedes dar?
     - que informacion puedes darme?
+    - que te puedo preguntar
+    - qué te puedo preguntar
+    - que te puedo preguntar?
 - intent: pedir_tema
   examples: |
     - sugiereme un tema

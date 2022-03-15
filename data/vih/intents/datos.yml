@@ -51,6 +51,7 @@ nlu:
     - cuantas victimas ha habido por vih?
     - cuantas victimas mortales ha producido el vih?
     - numero de víctimas del vih
+    - ¿Cuántas personas han muerto por VIH?
 - intent: faq/cuantas_personas_tienen_vih
   examples: |
     - ¿Cuántas personas tienen VIH hoy?
@@ -86,6 +87,7 @@ nlu:
     - cuantas personas hay afectadas por el vih
     - cuanta gente hay en el mundo con vih
     - ¿Cuanto VIH hay en el mundo?
+    - que porcentaje de la poblacion posee vih
 - intent: faq/cuantas_personas_tienen_vih_españa
   examples: |
     - ¿Cuántas personas tienen VIH en España?

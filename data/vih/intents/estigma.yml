@@ -31,6 +31,7 @@ nlu:
       - el vih es una enfermedad de gays?
       - el sida solo afecta a los maricas?
       - el vih es una enfermedad de maricones?
+      - los homosexuales pueden tener sida
   - intent: faq/deporte_competicion
     examples: |
       - ¿Puede una persona seropositiva hacer deporte de alta competición?

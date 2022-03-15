@@ -168,6 +168,9 @@ nlu:
     - sabes si existe ya una vacuna para el vih?
     - han descubierto ya una vacuna?
     - han descubierto la vacuna para el [vih](ets)?
+    - hay vacuna?
+    - hay ya una vacuna para el vih?
+    - En que fase se encuentra la vacuna?
 - intent: faq/protegen_pildoras_anticonceptivas
   examples: |
     - ¿Protegen las píldoras anticonceptivas contra el VIH?
@@ -206,6 +209,9 @@ nlu:
     - lavarse la polla despues de follar previene el vih
     - limpirse las partes íntimas después de mantener relaciones sexuales evita que puedas coger la enfermedad
     - limpirse las partes íntimas despues de tener sexo evita que cojas infecciones
+    - Lavarse evita el vih
+    - lavarse la polla evita que cojas el vih
+    - lavarse bien despues de tener relaciones sexuales evita el vih
 - intent: protege_marcha_atras
   examples: |
     - ¿Protege la marcha atrás del VIH?
@@ -311,6 +317,9 @@ nlu:
     - El uso de un preservativo de látex o de goma puede reducir la posibilidad de que una persona contraiga el VIH
     - usar preservativos protege contra el vih?
     - usar preservativos protege del vih?
+    - si uso condon puedo parar el VIH
+    - si uso preservativos puedo prevenir el VIH
+    - los condones detienen el VIH
 - intent: faq/rompe_preservativo
   examples: |
     - ¿Qué hago si se rompe el preservativo?
@@ -497,6 +506,8 @@ nlu:
     - ¿qué métodos de prevención hay para evitar contagiarse de [vih](ets)?
     - metodo mas eficaz de prevenir el vih 
     - método más eficaz para prevenir el vih
+    - que recomiendas hacer para estar bien?
+    - ¿Cómo puedo evitar contagiarme?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -800,6 +811,9 @@ nlu:
     - métodos para tener descendencia
     - tener descendencia de manera segura
     - metodo seguro para tener hijos
+    - Como evitar la transmisión vertical?
+    - Puede elfeto no infectarse si la madre tiene VIh ?
+    - es posible que el feto no se infecte si la madre tiene vih?
 - intent: faq/concebir
   examples: |
     - ¿Si tengo VIH tendré problemas para concebir?
