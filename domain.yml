@@ -129,18 +129,24 @@ slots:
   PER:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
-    auto_fill: true
+    mappings:
+    - type: from_entity
+      entity: PER
     influence_conversation: false
   tipo_condon:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
-    auto_fill: true
+    mappings:
+    - type: from_entity
+      entity: tipo_condon
     influence_conversation: false
   ets:
     type: rasa.shared.core.slots.CategoricalSlot
     initial_value: null
-    auto_fill: true
-    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: ets
+    influence_conversation: false
     values:
     - vih
     - sida
@@ -148,7 +154,9 @@ slots:
   tipo_sexo:
     type: rasa.shared.core.slots.CategoricalSlot
     initial_value: null
-    auto_fill: true
+    mappings:
+    - type: from_entity
+      entity: tipo_sexo
     influence_conversation: false
     values:
     - sexo_oral
@@ -157,7 +165,9 @@ slots:
   fase_vih:
     type: rasa.shared.core.slots.CategoricalSlot
     initial_value: null
-    auto_fill: true
+    mappings:
+    - type: from_entity
+      entity: fase_vih
     influence_conversation: false
     values:
     - fase_vih_1
