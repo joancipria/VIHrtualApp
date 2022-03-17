@@ -8,3 +8,4 @@ events.*
 actions/__pycache__
 results/
 train_test_split/
+.rasa
