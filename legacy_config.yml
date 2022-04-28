@@ -11,9 +11,9 @@ pipeline:
     model: "es_core_news_md"
     case_sensitive: False
   - name: SpacyTokenizer
-  #- name: LanguageModelFeaturizer
-  #  model_name: "bert"
-  #  model_weight: "rasa/LaBSE"
+  - name: LanguageModelFeaturizer
+    model_name: "bert"
+    model_weight: "rasa/LaBSE"
   - name: SpacyFeaturizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
