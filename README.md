@@ -1,10 +1,10 @@
 # VIHrtual-App (Servidor)
 VIHrtual-App es un chatbot de código libre para la divulgación médica del VIH. Este repositorio contiene el código fuente del servidor. Puedes acceder al repositorio del cliente web desde [aquí](https://github.com/joancipria/VIHrtualApp-app/).
 
-<img style="width: 60%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/screenshot.png">
+<img style="width: 60%" title="VIHrtul-App screenshot" alt="VIHrtul-App screenshot" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/screenshot.png">
 
 ## 📦 Instalación
-Testeado con `Python 3.7.11` y `pip 20.1.1`. Versión de Rasa: `Rasa: 2.8.10` `Rasa SDK: 2.8.2` y `Rasa X: 0.39.3`. Podría dar problemas en versiones posteriores.
+Testeado con `Python 3.7.11` y `pip 22.0.4`. Versión de Rasa: `Rasa: 3.0.9` `Rasa SDK: 3.0.6` y `Rasa X: 0.39.3`. Podría dar problemas en versiones posteriores.
 
 Clona el repositorio
 ```
@@ -19,10 +19,8 @@ source ./venv/bin/activate
 
 Descarga e instala los requisitos
 ```
-pip3 install rasa-x==0.39.3 --extra-index-url https://pypi.rasa.com/simple
-pip3 install SQLAlchemy==1.3.22
-pip3 install rasa[spacy] 
-python3 -m spacy download es_core_news_md
+Instala [rasactl](https://github.com/RasaHQ/rasactl#installation)
+...
 ```
 
 Si utilizas como terminal `zsh` utiliza `pip install -U "rasa[spacy]"`.
@@ -57,6 +55,10 @@ Ejecuta `rasa run actions --cors "*"` para arrancar el servidor de acciones
 
 ## 👨‍💻 Contribuciones
 Siéntete libre de enviar una `pull request` a este repositorio con tus contribuciones.
+
+## 📝 Publicaciones
+   
+- [VIHRTUAL-APP: Un chatbot para la divulgación médica del VIH](https://riunet.upv.es/handle/10251/171268?show=full)
 
 ## 📜 Licencia
 Licenciado bajo GNU General Public License v3. VIHrtual-App es un proyecto de investigación de la Universitat Politècnica de València, la Fundación FISABIO y la Unidad de Enfermedades Infecciosas del Hospital General de Elche para la prevención del VIH.
