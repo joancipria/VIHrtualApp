@@ -459,7 +459,7 @@ responses:
         - payload: No
           title: No
   utter_preguntar_transmision_oral_vih:
-    - text: "¿Crees se puede contraer el VIH a través del sexo oral? 👄"
+    - text: "¿Crees que se puede contraer el VIH a través del sexo oral? 👄"
       buttons:
         - payload: Sí
           title: Sí
