@@ -113,6 +113,9 @@ nlu:
     - ¿Cuáles son los síntomas?
     - Síntomas del [VIH](ets)
     - Qué síntomas tiene?
+    - ¿qué sintomas tiene el [VIH](ets) a parte del sindrope de primoinfeccón?
+    - que sintomas da el [vih](ets)
+    - que sintoams tiene el vih?
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

@@ -137,6 +137,7 @@ nlu:
       - quien pasa a la final, el valencia o el athletic de bilbao?
       - que pondrias en la quiniela?
       - quien gana la guerra?
+      - pronsotico para el atletico barça?
   - intent: fuera_de_contexto/cumplidos
     examples: |
       - guapo

@@ -10,6 +10,7 @@ nlu:
     - vi
     - vig
     - VHI
+    - vi8h
 - synonym: sida
   examples: |
     - SIDA

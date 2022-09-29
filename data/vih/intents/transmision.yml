@@ -3,6 +3,8 @@ nlu:
 - intent: transmision
   examples: |
     - ¿Cómo se contagia el [vih](ets)?
+    - y como se transamite
+    - y como se transamite?
     - ¿Cómo se transmite la infección por el [vih](ets)?
     - ¿Cómo se pasa el [vih](ets) de una persona a otra?
     - como se pasa el [vih](ets) de una persona a otra?
@@ -109,6 +111,7 @@ nlu:
     - como se transmite el virus
     - como se transmite el [sida](ets)
     - Cómo se trasnmite?
+    - como se pasa?
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -164,6 +167,7 @@ nlu:
     - si alguien me tose encima me puede contagiar el vih?
     - el vih se transmite a traves de los estornudos o tosiendo?
     - ¿El toser o estornudar extiende el contagio de VIH?
+    - estornudar esparce el vih?
 - intent: faq/vertical
   examples: |
     - ¿Qué es la transmisión vertical?
@@ -221,6 +225,8 @@ nlu:
     - ¿Qués es la trnasmisión verctical del VIH?
     - ¿Qué es eso de la transmisión vertical?
     - que es la trasmision vertical ?
+    - tranmicion vertical que es
+    - Qué es la trasmisión vertical
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -309,6 +315,7 @@ nlu:
     - se puede compartir vaso con alguien que tiene vih?
     - se puede compartir cubiertos con las personas que tienen vih?
     - se puede compartir utensilios de cocina con alguien que tiene vih?
+    - Una persona puede contagiarse con VIH si comparte un vaso de agua
 - intent: faq/escupir_aranyar
   examples: |
     - ¿Puedo contraer el VIH si una persona infectada me escupe o araña?
@@ -544,6 +551,7 @@ nlu:
   examples: |
     - ¿Puedo contraer el [vih](ets) mediante las [relaciones sexuales orales](tipo_sexo)?
     - es posible contagiarse con el [sexo anal](tipo_sexo)?
+    - Si tengo [sexo anal](tipo_sexo) puedo contraer una infección de transmisión sexual
     - ¿Puedo contraer el [vih](ets) a través del [sexo oral](tipo_sexo)?
     - puedi contraer el virus si mantengo relaciones [sexuales anales](tipo_sexo)?
     - puedo contraer el virus si hago [sexo anal](tipo_sexo)?
@@ -699,6 +707,7 @@ nlu:
     - se puede contactar el [VIH](ets) teniendo [relaciones anales]{"entity": "tipo_sexo", "value": "sexo_anal"}
     - Una persona puede contagiarse con VIH cuando sostiene [relaciones sexuales de forma oral]{"entity": "tipo_sexo", "value": "sexo_oral"}
     - el [sexo anal]{"entity": "tipo_sexo", "value": "sexo_anal"} tiene riesgo de contagio?
+    - se puede transmitir el vih mediante el [sexo oral]{"entity": "tipo_sexo", "value": "sexo_oral"}
 - intent: faq/carga_viral_indetectable
   examples: |
     - ¿Una persona con carga viral indetectable puede contagiar el VIH?
@@ -809,6 +818,7 @@ nlu:
     - puede una madre contagiar al bebé?
     - puede una madre contagiar a su hijo?
     - Toda mujer embarazada, infectada con VIH, tendrá niños infectados con VIH
+    - ¿El contagio de la madre al feto es en el 100 por 100 de los casos?
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?

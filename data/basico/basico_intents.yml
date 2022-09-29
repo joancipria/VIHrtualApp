@@ -575,6 +575,7 @@ nlu:
     - puedo ahcerte una preguna?
     - tengo dudas sobre el [vih](ets)
     - tengo dudas sobre la transmision
+    - tengo algunas dudas sobre el [vih](ets)
     - tengo varias preguntas que hacerte
     - tengo muchas dudas sobre el vih
     - hay muchas cosas que no se sobre el [vih](ets)
@@ -748,7 +749,9 @@ nlu:
   examples: |
     - Me siento genial
     - estoy muy bien gracias
-    - muy bien gracias
+    - estoy muy bien, gracias
+    - me encuentro muy bien gracias
+    - me siento muy bien, gracias
     - me encuentro mu bien gracias por preguntar
     - yo tambien estoy muy bien gracias
     - me ecuentro genial, gracias
@@ -1093,6 +1096,7 @@ nlu:
     - quiero que me cuentes cosas sobre el vih
     - dime algo
     - cuentame alguna cosa
+    - que mas me puedes contar
 - intent: reiniciar
   examples: |
     - reiniciate por favor

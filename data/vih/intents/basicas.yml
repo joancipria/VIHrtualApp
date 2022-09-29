@@ -15,6 +15,9 @@ nlu:
     - que es el [vih](ets)
     - dime que es el [vih](ets)!
     - que es [vih](ets)
+    - quiero saber que es el [vih](ets)
+    - que es el [vih](ets)'
+    - que es el [vi8h](ets)
     - que significa [vih](ets)
     - q es el [vih](ets)
     - qué es el [vih](ets)
@@ -219,6 +222,7 @@ nlu:
     - titne cura el vih?
     - el vih se cura?
     - el vih se puede curar?
+    - ¿puedo curarme de [vih](ets)?
 - intent: faq/como_actua_vih
   examples: |
     - ¿Cómo actúa el VIH?
@@ -937,6 +941,7 @@ nlu:
     - ¿Cuántas etapas tiene la inección?
     - cuantas etapas tiene la infección?
     - Cuales son las fases de la enfermedad del [VIH]{"entity": "ets", "value": "vih"}?
+    - etaps [vih](ets)
 - intent: faq/peligros_vih
   examples: |
     - ¿Por qué es peligroso el VIH?
@@ -1025,6 +1030,7 @@ nlu:
     - se sigue investigado sobre el sida
     - ¿Cuáles son los últimos avances en investigación sobre el VIH?
     - Se continua investigando sobre [VIH](ets) ?
+    - se sigue investigando sobre el [vih](ets)
 - intent: faq/es_mortal_vih
   examples: |
     - ¿El VIH es mortal?
@@ -1054,6 +1060,7 @@ nlu:
     - me puedo morir de sida?
     - Es el [sida](ets) una enfermedad mortal
     - puede morir un paciente con [vih](ets)?
+    - ¿puedo morir de él?
 - intent: faq/portador
   examples: |
     - ¿Se puede ser portador y no padecer la enfermedad del VIH?

@@ -240,6 +240,7 @@ nlu:
     - no correrse dentro evita que te infectes
     - si saco el pene antes de correrme evitaré infectarme?
     - si quito el pene antes de eyacular no puedo coger el sida
+    - La marcha atrás es un método de prevención seguro?
 - intent: faq/preservativo_femenino
   examples: |
     - ¿El preservativo femenino también protege de la infección por VIH?
@@ -352,6 +353,8 @@ nlu:
     - me puedes explicar como se pone un preservativo?
     - me podrías explciar como ponerme un preservativo?
     - explicame como me debo poner el condón
+    - como me pongo un condon?
+    - como se pone un condn
     - como debo poinerme el condon
     - como se deben poner los [condones masculinos](tipo_condon)
     - cual es la manera correcta de ponerse un preservativo?
@@ -428,8 +431,9 @@ nlu:
     - enseñame usar un preservativo
 - intent: como_prevenir
   examples: |
-    - como pudo prevenir VIH
-    - como puedo prevenir el vih?
+    - como pudo prevenir [VIH](ets)
+    - como puedo prevenir el [vih](ets)?
+    - ¿Cómo se pueden prevenir las infecciones de transmisión sexual?
     - cómo podria prevenir el vih?
     - como se puede prevenir el vih?
     - ¿como pudo prevenir VIH?
@@ -439,7 +443,7 @@ nlu:
     - quiero saber como puedo prevenir el vih
     - como puedo protegerme el vih
     - maneras de prevenir el vih?
-    - métodos de prevención del vih
+    - métodos de prevención del [vih](ets)
     - metodos para la prevencion del sida
     - dime maneras de prevenir el sida
     - dime de que manera puedo prevenir el vih
@@ -504,10 +508,12 @@ nlu:
     - que metodos de proteccion hay para prevenir el [vih](ets)?
     - ¿qué métodos de protección hay para no infectarse de [vih](ets)?
     - ¿qué métodos de prevención hay para evitar contagiarse de [vih](ets)?
-    - metodo mas eficaz de prevenir el vih 
+    - metodo mas eficaz de prevenir el [vih](ets) 
     - método más eficaz para prevenir el vih
     - que recomiendas hacer para estar bien?
     - ¿Cómo puedo evitar contagiarme?
+    - Que métodos hay para evitar tener [vih](ets)
+    - ¿cómo puedo prevenirlo?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -905,6 +911,8 @@ nlu:
     - explicame que son los condones de piel
     - explicame qué son de preservativods de piel natural
     - de qué estan hechos los condones de piel
+    - que es el presrvativo de piel natural
+    - Preservativos de piel natural
 - intent: faq/efectividad_preservativo_piel
   examples: |
     - Un condón de piel es mejor que uno de látex para prevenir el vih
@@ -925,7 +933,7 @@ nlu:
 - intent: faq/multiples_parejas
   examples: |
     - si tienes distintas parejas sexuales tienes más riesgo?
-    - si tienes multiples parejas tienes mas riesgo de coger vih?
+    - si tienes multiples parejas tienes mas riesgo de coger [vih](ets)?
     - si tienes muchas parejas tienes más riesgo de infectarte de vih?
     - Tener relaciones sexuales con más de una pareja sexual aumenta la probabilidad de que se infecte con VIH 
     - Tener relaciones sexuales con múltiples parejas aumenta el riesgo de infecció por VIH 
@@ -940,7 +948,8 @@ nlu:
     - es peligroso practicar sexo habitualmente con varias personas?
     - las relaciones abiertas aumentan el riesgo de infectarte de vih?
     - si follas con muchas personas te expones a coger el sida?
-    - si follas con mucha gente te expones a contraer el vih?
+    - si follas con mucha gente te expones a contraer el [vih](ets)?
+    - Tener relaciones con varias personas
 - intent: faq/protege_antibioticos
   examples: |
     - ¿Los antibióticos tienen algún efecto en la transmisión del VIH?
