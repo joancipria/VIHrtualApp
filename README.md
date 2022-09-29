@@ -56,9 +56,23 @@ Ejecuta `rasa run actions --cors "*"` para arrancar el servidor de acciones
 ## 👨‍💻 Contribuciones
 Siéntete libre de enviar una `pull request` a este repositorio con tus contribuciones.
 
-## 📝 Publicaciones
+## 📚 Publicaciones
    
-- [VIHRTUAL-APP: Un chatbot para la divulgación médica del VIH](https://riunet.upv.es/handle/10251/171268?show=full)
+- [A Conversational Agent for Medical Disclosure of Sexually Transmitted Infections](https://link.springer.com/chapter/10.1007/978-3-031-15471-3_37)
+
+## 📝 Citar
+Para citar este recurso en una publicación, utilice lo siguiente:
+
+```
+@inproceedings{moreno2022conversational,
+  title={A Conversational Agent for Medical Disclosure of Sexually Transmitted Infections},
+  author={Moreno, Joan C and S{\'a}nchez-Anguix, Victor and Alberola, Juan M and Juli{\'a}n, Vicente and Botti, Vicent},
+  booktitle={International Conference on Hybrid Artificial Intelligence Systems},
+  pages={431--442},
+  year={2022},
+  organization={Springer}
+}
+```
 
 ## 📜 Licencia
 Licenciado bajo GNU General Public License v3. VIHrtual-App es un proyecto de investigación de la Universitat Politècnica de València, la Fundación FISABIO y la Unidad de Enfermedades Infecciosas del Hospital General de Elche para la prevención del VIH.
