@@ -4,7 +4,7 @@ VIHrtual-App es un chatbot de código libre para la divulgación médica del VIH
 <img style="width: 60%" title="VIHrtul-App screenshot" alt="VIHrtul-App screenshot" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/screenshot.png">
 
 ## 📦 Instalación
-Testeado con `Python 3.7.11` y `pip 22.0.4`. Versión de Rasa: `Rasa: 3.0.9` `Rasa SDK: 3.0.6` y `Rasa X: 0.39.3`. Podría dar problemas en versiones posteriores.
+Requiere `Python 3.7 o 3.8`. Testeado con `Python 3.7.11` y `pip 22.2.2`. Versión de Rasa: `Rasa: 3.0.9` `Rasa SDK: 3.0.6` y `Rasa X: 0.39.3`. Podría dar problemas en versiones posteriores.
 
 Clona el repositorio
 ```
@@ -17,10 +17,9 @@ python3.7 -m venv ./venv
 source ./venv/bin/activate
 ```
 
-Descarga e instala los requisitos
+Descarga e instala los requisitos. Rasa recomienda utilizar `pip 21.3` o posterior. Las versiones anteriores tardan mucho tiempo en resolver las dependencias.
 ```
-Instala [rasactl](https://github.com/RasaHQ/rasactl#installation)
-...
+pip3 install -U --user pip && pip3 install rasa
 ```
 
 Si utilizas como terminal `zsh` utiliza `pip install -U "rasa[spacy]"`.
