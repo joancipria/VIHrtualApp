@@ -25,6 +25,7 @@ pipeline:
     epochs: 100
     constrain_similarities: true
   - name: EntitySynonymMapper
+  - name: custom_components.sentiment_analysis.SentimentAnalysis
   - name: ResponseSelector
     epochs: 100
     constrain_similarities: true

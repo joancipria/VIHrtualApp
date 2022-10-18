@@ -1,181 +1,198 @@
-version: '3.1'
+version: "3.1"
 config:
-  store_entities_as_slots: true
+    store_entities_as_slots: true
 session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
 intents:
-- saludar:
-    use_entities: true
-- despedirse:
-    use_entities: true
-- afirmar:
-    use_entities: true
-- negar:
-    use_entities: true
-- reaccionar_positivamente:
-    use_entities: true
-- reaccionar_negativamente:
-    use_entities: true
-- ofenderse:
-    use_entities: true
-- no_le_ha_ayudado:
-    use_entities: true
-- no_le_entiende:
-    use_entities: true
-- pedir_tema:
-    use_entities: true
-- que_puede_hacer:
-    use_entities: true
-- que_puede_preguntar:
-    use_entities: true
-- no_entender:
-    use_entities: true
-- entender:
-    use_entities: true
-- agradecer:
-    use_entities: true
-- esperar:
-    use_entities: true
-- pedir_ayuda:
-    use_entities: true
-- querer_preguntar:
-    use_entities: true
-- mas_informacion:
-    use_entities: true
-- preguntar_estado:
-    use_entities: true
-- animo_alto:
-    use_entities: true
-- animo_bajo:
-    use_entities: true
-- reiniciar:
-    use_entities: true
-- chachara:
-    use_entities: true
-- faq:
-    use_entities: true
-- fuera_de_contexto:
-    use_entities: true
-- nlu_fallback:
-    use_entities: true
-- definir:
-    use_entities: true
-- transmision:
-    use_entities: true
-- sida_vs_vih:
-    use_entities: true
-- saber_si_tengo_vih:
-    use_entities: true
-- sintomas:
-    use_entities: true
-- cura_vih:
-    use_entities: true
-- existe_tratamiento:
-    use_entities: true
-- como_prevenir:
-    use_entities: true
-- quien_riesgo:
-    use_entities: true
-- indicar_fallo:
-    use_entities: true
-- insultar:
-    use_entities: true
-- que_riesgo_tengo:
-    use_entities: true
-- como_usa_preservativo:
-    use_entities: true
-- solicitar_prueba:
-    use_entities: true
-- donde_atendido_vih:
-    use_entities: true
-- servicio_publico:
-    use_entities: true
-- compartir_wc:
-    use_entities: true
-- transmite_aire:
-    use_entities: true
-- compartir_cuchillas_jeringuillas:
-    use_entities: true
-- sexo_con_drogadictos:
-    use_entities: true
-- transmision_insectos:
-    use_entities: true
-- compartir_vaso_cubierto:
-    use_entities: true
-- protege_marcha_atras:
-    use_entities: true
-- transmision_sexual:
-    use_entities: true
-- informar:
-    use_entities: true
-- sexo_sin_proteccion:
-    use_entities: true
-- fases_vih:
-    use_entities: true
-- explicar_fase:
-    use_entities: true
-- detectar_tras_contacto:
-    use_entities: true
-- tareas_encuesta:
-    use_entities: true
+    - saludar:
+          use_entities: true
+    - despedirse:
+          use_entities: true
+    - afirmar:
+          use_entities: true
+    - negar:
+          use_entities: true
+    - reaccionar_positivamente:
+          use_entities: true
+    - reaccionar_negativamente:
+          use_entities: true
+    - ofenderse:
+          use_entities: true
+    - no_le_ha_ayudado:
+          use_entities: true
+    - no_le_entiende:
+          use_entities: true
+    - pedir_tema:
+          use_entities: true
+    - que_puede_hacer:
+          use_entities: true
+    - que_puede_preguntar:
+          use_entities: true
+    - no_entender:
+          use_entities: true
+    - entender:
+          use_entities: true
+    - agradecer:
+          use_entities: true
+    - esperar:
+          use_entities: true
+    - pedir_ayuda:
+          use_entities: true
+    - querer_preguntar:
+          use_entities: true
+    - mas_informacion:
+          use_entities: true
+    - preguntar_estado:
+          use_entities: true
+    - animo_alto:
+          use_entities: true
+    - animo_bajo:
+          use_entities: true
+    - reiniciar:
+          use_entities: true
+    - chachara:
+          use_entities: true
+    - faq:
+          use_entities: true
+    - fuera_de_contexto:
+          use_entities: true
+    - nlu_fallback:
+          use_entities: true
+    - definir:
+          use_entities: true
+    - transmision:
+          use_entities: true
+    - sida_vs_vih:
+          use_entities: true
+    - saber_si_tengo_vih:
+          use_entities: true
+    - sintomas:
+          use_entities: true
+    - cura_vih:
+          use_entities: true
+    - existe_tratamiento:
+          use_entities: true
+    - como_prevenir:
+          use_entities: true
+    - quien_riesgo:
+          use_entities: true
+    - indicar_fallo:
+          use_entities: true
+    - insultar:
+          use_entities: true
+    - que_riesgo_tengo:
+          use_entities: true
+    - como_usa_preservativo:
+          use_entities: true
+    - solicitar_prueba:
+          use_entities: true
+    - donde_atendido_vih:
+          use_entities: true
+    - servicio_publico:
+          use_entities: true
+    - compartir_wc:
+          use_entities: true
+    - transmite_aire:
+          use_entities: true
+    - compartir_cuchillas_jeringuillas:
+          use_entities: true
+    - sexo_con_drogadictos:
+          use_entities: true
+    - transmision_insectos:
+          use_entities: true
+    - compartir_vaso_cubierto:
+          use_entities: true
+    - protege_marcha_atras:
+          use_entities: true
+    - transmision_sexual:
+          use_entities: true
+    - informar:
+          use_entities: true
+    - sexo_sin_proteccion:
+          use_entities: true
+    - fases_vih:
+          use_entities: true
+    - explicar_fase:
+          use_entities: true
+    - detectar_tras_contacto:
+          use_entities: true
+    - tareas_encuesta:
+          use_entities: true
 entities:
-- PER
-- tipo_condon
-- ets
-- tipo_sexo
-- fase_vih
+    - PER
+    - tipo_condon
+    - ets
+    - tipo_sexo
+    - fase_vih
+    - sentimiento
 slots:
-  PER:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    mappings:
-    - type: from_entity
-      entity: PER
-    influence_conversation: false
-  tipo_condon:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    mappings:
-    - type: from_entity
-      entity: tipo_condon
-    influence_conversation: false
-  ets:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    mappings:
-    - type: from_entity
-      entity: ets
-    influence_conversation: false
-    values:
-    - vih
-    - sida
-    - hepatitis
-  tipo_sexo:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    mappings:
-    - type: from_entity
-      entity: tipo_sexo
-    influence_conversation: false
-    values:
-    - sexo_oral
-    - sexo_anal
-    - sexo_vaginal
-  fase_vih:
-    type: rasa.shared.core.slots.CategoricalSlot
-    initial_value: null
-    mappings:
-    - type: from_entity
-      entity: fase_vih
-    influence_conversation: false
-    values:
-    - fase_vih_1
-    - fase_vih_2
-    - fase_vih_3
+    PER:
+        type: rasa.shared.core.slots.TextSlot
+        initial_value: null
+        mappings:
+            - type: from_entity
+              entity: PER
+        influence_conversation: false
+    tipo_condon:
+        type: rasa.shared.core.slots.TextSlot
+        initial_value: null
+        mappings:
+            - type: from_entity
+              entity: tipo_condon
+        influence_conversation: false
+    ets:
+        type: rasa.shared.core.slots.CategoricalSlot
+        initial_value: null
+        mappings:
+            - type: from_entity
+              entity: ets
+        influence_conversation: false
+        values:
+            - vih
+            - sida
+            - hepatitis
+    tipo_sexo:
+        type: rasa.shared.core.slots.CategoricalSlot
+        initial_value: null
+        mappings:
+            - type: from_entity
+              entity: tipo_sexo
+        influence_conversation: false
+        values:
+            - sexo_oral
+            - sexo_anal
+            - sexo_vaginal
+    fase_vih:
+        type: rasa.shared.core.slots.CategoricalSlot
+        initial_value: null
+        mappings:
+            - type: from_entity
+              entity: fase_vih
+        influence_conversation: false
+        values:
+            - fase_vih_1
+            - fase_vih_2
+            - fase_vih_3
+    sentimiento:
+        type: rasa.shared.core.slots.CategoricalSlot
+        initial_value: null
+        mappings:
+            - type: from_entity
+              entity: sentimiento
+        influence_conversation: false
+        values:
+            - other
+            - surprise
+            - disgust
+            - joy
+            - sadness
+            - fear
+            - anger
+            - unknown
 responses: {}
 actions:
-- action_dar_bienvenida
-- action_como_usar_preservativo
+    - action_dar_bienvenida
+    - action_como_usar_preservativo
 forms: {}
 e2e_actions: []
