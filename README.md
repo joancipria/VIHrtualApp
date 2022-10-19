@@ -7,18 +7,16 @@ VIHrtual-App es un chatbot de código libre para la divulgación médica del VIH
 Requiere `Python 3.7 o 3.8`. Testeado con `Python 3.7.11` y `pip 22.2.2`. Versión de Rasa: `Rasa: 3.2.10` `Rasa SDK: 3.2.2` y `Rasa X: 1.1.0`. Podría dar problemas con otras versiones.
 
 Clona el repositorio
-```
-git clone https://github.com/joancipria/VIHrtualApp.git
-cd VIHrtualApp
+```shell
+git clone https://github.com/joancipria/vhihrtualapp.git && cd vihrtualapp
 ```
 Crea un entorno virtual de Python 3.7
-```
-python3.7 -m venv ./venv
-source ./venv/bin/activate
+```shell
+python3.7 -m venv ./venv && source ./venv/bin/activate
 ```
 
 Descarga e instala los requisitos. Rasa recomienda utilizar `pip 21.3` o posterior. Las versiones anteriores tardan mucho tiempo en resolver las dependencias.
-```
+```shell
 pip3 install -U pip && pip3 install rasa
 ```
 
