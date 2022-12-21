@@ -1,13 +1,15 @@
 <h1 align="center">
-    <br>
-    <img style="width: 50%" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/logo.png" alt="VIHrtual-App">
+    <br></br>
+    <a href="vihrtualapp.gti-ia.upv.es" target="_blank"><img style="width: 50%" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/logo.png" alt="VIHrtual-App"></a>
 </h1>
-A conversational agent which uses machine learning to offer an engaging sex educational tool to promote HIV/STI awareness and prevention. VIHrtual-App can identify more than 250 STI/HIV-related questions and respond accordingly, attractively providing reliable information. This repository contains the chatbot server source code. Access to the UI source code [from here](https://github.com/joancipria/VIHrtualApp-app/).
+A conversational agent which uses machine learning to offer an engaging sex educational tool to promote HIV/STI awareness and prevention. VIHrtual-App can identify more than 250 STI/HIV-related questions and respond accordingly, attractively providing reliable information. 
 
 <div align="center">
   <br>
   <img style="width: 60%" title="VIHrtul-App screenshot" alt="VIHrtual-App screenshot" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/screenshot.png">
 </div>
+
+This repository contains the chatbot server source code. Access to the UI source code [from here](https://github.com/joancipria/VIHrtualApp-app/).
 
 ## 📦 Install
 Requires `Python 3.7` and `pip 21.3` or higher. Lower versions of `pip` take too much to resolve dependencies. 
