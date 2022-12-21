@@ -1,65 +1,49 @@
-# VIHrtual-App (Servidor)
-VIHrtual-App es un chatbot de código libre para la divulgación médica del VIH. Este repositorio contiene el código fuente del servidor. Puedes acceder al repositorio del cliente web desde [aquí](https://github.com/joancipria/VIHrtualApp-app/).
+<h1 align="center">
+    <br>
+    <img style="width: 50%" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/logo.png" alt="VIHrtual-App">
+</h1>
+A conversational agent which uses machine learning to offer an engaging sex educational tool to promote HIV/STI awareness and prevention. VIHrtual-App can identify more than 250 STI/HIV-related questions and respond accordingly, attractively providing reliable information. This repository contains the chatbot server source code. Access to the UI source code [from here](https://github.com/joancipria/VIHrtualApp-app/).
 
-<img style="width: 60%" title="VIHrtul-App screenshot" alt="VIHrtul-App screenshot" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/screenshot.png">
+<div align="center">
+  <br>
+  <img style="width: 60%" title="VIHrtul-App screenshot" alt="VIHrtual-App screenshot" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/screenshot.png">
+</div>
 
-## 📦 Instalación
-Requiere `Python 3.7 o 3.8`. Testeado con `Python 3.7.11` y `pip 22.2.2`. Versión de Rasa: `Rasa: 3.2.10` `Rasa SDK: 3.2.2` y `Rasa X: 1.1.0`. Podría dar problemas con otras versiones.
+## 📦 Install
+Requires `Python 3.7` and `pip 21.3` or higher. Lower versions of `pip` take too much to resolve dependencies. 
+Tested with: `Python 3.7.11` and `pip 22.2.2`. Rasa version: `Rasa: 3.2.10` and `Rasa SDK: 3.2.2`. Newer versions of Rasa may not work.
 
-Clona el repositorio
+Clone repository
 ```shell
 git clone https://github.com/joancipria/vhihrtualapp.git && cd vihrtualapp
 ```
-Crea un entorno virtual de Python 3.7
+
+Create and activate a Python virtual environment
 ```shell
 python3.7 -m venv ./venv && source ./venv/bin/activate
 ```
 
-Descarga e instala los requisitos. Rasa recomienda utilizar `pip 21.3` o posterior. Las versiones anteriores tardan mucho tiempo en resolver las dependencias.
+Upgrade `pip` and install `rasa`
 ```shell
 pip3 install -U pip && pip3 install rasa
 ```
 
-Si utilizas como terminal `zsh` utiliza `pip install -U "rasa[spacy]"`.
+## 🤖 Run
 
-## 🤖 Ejecución
+Run `rasa train` to train a new model.
 
-Ejecuta `rasa train` para entrenar un modelo.
+Run `rasa shell` to chat with the agent using the terminal .
 
-Ejecuta `rasa shell` si deseas hablar con el asistente a través de la terminal
+Run `rasa run -m models --enable-api --cors "*" --debug` to start the conversational server .
 
-Ejecuta `rasa x --rasa-x-port 8080` para arrancar el servidor (con Rasa X)
+Run `rasa run actions --cors "*"` to start the actions server.
 
-Ejecuta `rasa run -m models --enable-api --cors "*" --debug` para arrancar el servidor (sin Rasa X)
-
-Ejecuta `rasa run actions --cors "*"` para arrancar el servidor de acciones
-
-## 🤔 Resumen
-
-`data/` - Contiene los datos de entrenamiento de NLU agrupados por temática. Cada carpeta puede contener los siguientes archivos:
-
-`*_intents.yml` - Contiene `intents`.
-
-`*_stories.yml` - Contiene historias
-
-`*_rules.yml` - Contiene reglas
-
-`actions/actions.py` - Contiene el código de las acciones personalizadas
-
-`domain.yml` - El archivo de dominio. Entre otros, contiene el registro de `intents`, `slots` y `entities`
-
-`config.yml` - Configuración del entrenamiento para `NLU pipeline` y `Policy` 
-
-## 👨‍💻 Contribuciones
-Siéntete libre de enviar una `pull request` a este repositorio con tus contribuciones.
-
-## 📚 Publicaciones
+## 📚 Articles
    
 - [A Conversational Agent for Medical Disclosure of Sexually Transmitted Infections](https://link.springer.com/chapter/10.1007/978-3-031-15471-3_37)
 
-## 📝 Citar
-Para citar este recurso en una publicación, utilice lo siguiente:
-
+## 📝 Cite
+To cite this resource in a publication, please use the following:
 ```
 @inproceedings{moreno2022conversational,
   title={A Conversational Agent for Medical Disclosure of Sexually Transmitted Infections},
@@ -71,8 +55,9 @@ Para citar este recurso en una publicación, utilice lo siguiente:
 }
 ```
 
-## 📜 Licencia
-Licenciado bajo GNU General Public License v3. VIHrtual-App es un proyecto de investigación de la Universitat Politècnica de València, la Fundación FISABIO y la Unidad de Enfermedades Infecciosas del Hospital General de Elche para la prevención del VIH.
+## 📜 License
+Licensed under GNU General Public License v3. VIHrtual-App is a research project of the Polytechnic University of Valencia, FISABIO Foundation and the Infectious Diseases Unit of the General Hospital of Elche for the prevention of HIV.
+
 <div align="center">
 <img style="width: 15%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/static/img/logos/upv.jpg">
 <img style="width: 15%" title="a title" alt="Alt text" src="https://raw.githubusercontent.com/joancipria/VIHrtualApp-app/master/static/img/logos/elche.jpg">
