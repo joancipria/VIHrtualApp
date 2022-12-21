@@ -112,6 +112,14 @@ nlu:
     - como se transmite el [sida](ets)
     - Cómo se trasnmite?
     - como se pasa?
+    - cual es la forma principal de transmision del vih
+    - ¿cómo te contagias?
+    - cómo te contagias?
+    - como te contagias
+    - como se contagia uno de vih
+    - como te puedes contagiar
+    - cómo se puede contagiar?
+    - Como se transmite el [vig](ets)
 - intent: transmite_aire
   examples: |
     - ¿Se contagia el VIH por el aire?
@@ -168,6 +176,7 @@ nlu:
     - el vih se transmite a traves de los estornudos o tosiendo?
     - ¿El toser o estornudar extiende el contagio de VIH?
     - estornudar esparce el vih?
+    - puede contagiarse el VHI al toser?
 - intent: faq/vertical
   examples: |
     - ¿Qué es la transmisión vertical?
@@ -227,6 +236,7 @@ nlu:
     - que es la trasmision vertical ?
     - tranmicion vertical que es
     - Qué es la trasmisión vertical
+    - Que es el contagio vertical
 - intent: faq/fluidos
   examples: |
     - ¿Se contagia el VIH por el sudor, la saliva o las lágrimas?
@@ -290,6 +300,9 @@ nlu:
     - los besos profundos transmiten el [vih](ets)?
     - Las personas son más propensas a infectarse cuando se dan besos profundos o colocan sus lenguas dentro de la boca de sus parejas que está infectada con VIH?
     - Besos de boca abierta
+    - se contagia al besar?
+    - se puede trasnmitir el vih por besos?
+    - Con besos profundes se transmite el VIH?
 - intent: compartir_vaso_cubierto
   examples: |
     - se pede contagiar por comparir un vaso?
@@ -414,6 +427,14 @@ nlu:
     - Si me baño con una persona contagiada me puedo contagiar?
     - ¿El VIH se puede transmitir si estamos en el agua?
     - se puede contagiar compartiendo un baño termal o una piscina?
+    - contagio en piscina
+    - contagiarse en un Yacuzzi
+    - pillarlo en un yacuzzi
+    - infectarse en un Baño termal
+    - contagiarse en un baño termal
+    - se contagia en piscinas?
+    - es posible el cotagio de vih si se comparte piscina
+    - Te puedes infectar si compartes yacuzzi
 - intent: faq/tatuajes
   examples: |
     - ¿Puedo contraer el VIH por hacerme un tatuaje o hacerme perforaciones en el cuerpo?
@@ -819,6 +840,8 @@ nlu:
     - puede una madre contagiar a su hijo?
     - Toda mujer embarazada, infectada con VIH, tendrá niños infectados con VIH
     - ¿El contagio de la madre al feto es en el 100 por 100 de los casos?
+    - Una embarazada puede contagiar a su hijo?
+    - una madre embarazada puede contagiar el VIH a su hijo?
 - intent: faq/objetos_contaminados_vih
   examples: |
     - ¿Puedo contagiarme por tocar objetos contaminados de VIH?
@@ -882,6 +905,7 @@ nlu:
     - que probabilidad existe de que me infecte de vih?
     - que probabiliadd existe de que coja el vih?
     - Probabilidad de infectarse por VIH
+    - Cual es la probabilidad de contagiarme?
 - intent: sexo_con_drogadictos
   examples: |
     - una persona puede infefctarse de vih si tiene sexo con alguien que se inyecta drogas?

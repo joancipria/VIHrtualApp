@@ -135,6 +135,7 @@ nlu:
     - ¿NOs despedimos?
     - nos vemos irene
     - nos vemos salva
+    - besos
 - intent: afirmar
   examples: |
     - Sí!
@@ -490,6 +491,10 @@ nlu:
     - muchisimas gracias!
     - mil gracias, de verdad!
     - gracias por tu ayuda
+    - Gracias Irene
+    - gracias salva
+    - Muchas gracias Salva
+    - Muchas gracias irene
 - intent: esperar
   examples: |
     - Espera
@@ -1097,6 +1102,7 @@ nlu:
     - dime algo
     - cuentame alguna cosa
     - que mas me puedes contar
+    - Y ahora que?
 - intent: reiniciar
   examples: |
     - reiniciate por favor

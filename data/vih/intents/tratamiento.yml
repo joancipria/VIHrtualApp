@@ -70,6 +70,7 @@ nlu:
     - que tratamientos hay contra esta enfermedad?
     - Qué medicamentos son?
     - Que es un tratamiento antirretroviral
+    - Como son los tratamientos del VIH?
 - intent: faq/cuando_empezar
   examples: |
     - ¿Cuándo es el momento de empezar a tomar los medicamentos contra el VIH?

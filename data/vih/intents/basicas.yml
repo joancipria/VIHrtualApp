@@ -1031,6 +1031,8 @@ nlu:
     - ¿Cuáles son los últimos avances en investigación sobre el VIH?
     - Se continua investigando sobre [VIH](ets) ?
     - se sigue investigando sobre el [vih](ets)
+    - Se investiga sobre el vih?
+    - Cuéntame más sobre las recientes investigaciones sobre VIH
 - intent: faq/es_mortal_vih
   examples: |
     - ¿El VIH es mortal?
@@ -1061,6 +1063,7 @@ nlu:
     - Es el [sida](ets) una enfermedad mortal
     - puede morir un paciente con [vih](ets)?
     - ¿puedo morir de él?
+    - Que probabilidad de morir hay?
 - intent: faq/portador
   examples: |
     - ¿Se puede ser portador y no padecer la enfermedad del VIH?

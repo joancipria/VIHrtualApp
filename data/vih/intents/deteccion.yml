@@ -116,6 +116,7 @@ nlu:
     - ¿Cuanto tiempo se tarda en detectar un contagio desde que este se produce?
     - Cuando te puedes hacer la prueba
     - A partir de cuando te puedes hacer la prueba de una forma fiable
+    - ¿cuánto se tarda en saber si estás infectado de vih?
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
@@ -196,6 +197,8 @@ nlu:
     - Como es la prueba para saber si tienes [VIH](ets)?
     - Que pruebas tienes que realizar para ver si tienes vih?
     - en que consiste la prueba del vih?
+    - ¿Cómo funciona un test de detección?
+    - ¿En qué consiste la prueba del VIH?
 - intent: solicitar_prueba
   examples: |
     - ¿Dónde puedo solicitar o pedir que me hagan la prueba del VIH?
@@ -299,6 +302,12 @@ nlu:
     - ¿donde puedo hacerme la prueba?
     - dónde podría hacerme la prueba
     - sabes dónde puedo hacerme la prueba
+    - como puede realizarse una prueba del [vih](ets)
+    - Como puedo hacerme una prueba de deteccion?
+    - Como me puedo hacer una prueba de detección de VIH?
+    - ¿Como puedo hacerme una prueba?
+    - ¿Como podria realizarme una prueba?
+    - Como realizar deteccion vih
 - intent: faq/detectar_con_analitica
   examples: |
     - ¿Es posible detectar el VIH a través de una analítica?

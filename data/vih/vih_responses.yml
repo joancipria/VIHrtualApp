@@ -157,7 +157,7 @@ responses:
   utter_transmision_insectos:
     - text: Los insectos chupadores de sangre 🦟 no pueden transmitir el VIH.
   utter_compartir_wc:
-    - text: "El VIH no se contagia por usar el mismo baño, ducha o jacuzzi que una persona con VIH. \n\n Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
+    - text: "El VIH no se contagia por usar el mismo baño, ducha o piscina que una persona con VIH. \n\n Ni al darle un abrazo, darle la mano, compartir platos o darle besos de boca cerrada (o “besos sociales”) a una persona que sea VIH positiva."
   utter_faq/tatuajes:
     - text: "Se puede contraer el VIH por hacerse tatuajes o perforaciones corporales si los equipos que se usan para ello contienen sangre de otra persona o si se comparte la tinta. \n\n Si quieres hacerte un tatuaje o una perforación corporal asegúrate de que la persona que lo haga cuente con la autorización debida y que solamente use agujas, tinta y demás artículos nuevos o esterilizados."
   utter_faq/alimentos:

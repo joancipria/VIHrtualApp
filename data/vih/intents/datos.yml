@@ -88,6 +88,7 @@ nlu:
     - cuanta gente hay en el mundo con vih
     - ¿Cuanto VIH hay en el mundo?
     - que porcentaje de la poblacion posee vih
+    - cuantas personas en el mundo sufren VIH?
 - intent: faq/cuantas_personas_tienen_vih_españa
   examples: |
     - ¿Cuántas personas tienen VIH en España?
@@ -218,3 +219,4 @@ nlu:
     - mapa de vih en el mundo
     - distribución del vih por el mundo
     - mapa mundial del vih en el mundo
+    - Cual es el pais con mas enfermos por VIH?

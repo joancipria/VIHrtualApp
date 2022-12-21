@@ -138,6 +138,7 @@ nlu:
       - que pondrias en la quiniela?
       - quien gana la guerra?
       - pronsotico para el atletico barça?
+      - donde puedo pedir una pizza?
   - intent: fuera_de_contexto/cumplidos
     examples: |
       - guapo

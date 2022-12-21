@@ -51,6 +51,7 @@ nlu:
     - y en que se el sida diferencia del vih?
     - y es lo mismo el vih que el sida?
     - ¿que diferencia a VIH de Sida?
+    - Es lo mismo estar infectado de VIH que tener SIDA?
 - intent: faq/cuando_se_tiene
   examples: |
     - ¿Cuándo se tiene SIDA?

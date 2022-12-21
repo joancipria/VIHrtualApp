@@ -514,6 +514,7 @@ nlu:
     - ¿Cómo puedo evitar contagiarme?
     - Que métodos hay para evitar tener [vih](ets)
     - ¿cómo puedo prevenirlo?
+    - que métodos existen para evitar el VIH?
 - intent: faq/sexo_con_vih
   examples: |
     - ¿Si tengo el VIH puedo mantener relaciones sexuales?
@@ -599,6 +600,7 @@ nlu:
     - a dónde puedo ir si creo que tengo vih?
     - si creo que me he podido infectar, como puedo hacerme la prueba?
     - cuando debe surgirme la sospecha de que puedo estar infectado?
+    - Que debería hacer en caso de tener VIH?
 - intent: faq/contagio_pareja
   examples: |
     - ¿Si mi pareja tiene VIH, debo realizarme la prueba?
@@ -820,6 +822,9 @@ nlu:
     - Como evitar la transmisión vertical?
     - Puede elfeto no infectarse si la madre tiene VIh ?
     - es posible que el feto no se infecte si la madre tiene vih?
+    - la trasmision vertical se produce siempre?ç
+    - La trasnmision vertical se produce siempre?
+    - como se evita que la madre contagie al bebe?
 - intent: faq/concebir
   examples: |
     - ¿Si tengo VIH tendré problemas para concebir?
@@ -891,6 +896,8 @@ nlu:
     - Que no debo hacer para contraer el SIDA?
     - Que conductas son de riesgo para contraer el SIDA?
     - Cuales son las prácticas de riesgo?
+    - Cuales son prácticas de riesgo?
+    - ¿cuales son los factores de riesgo?
 - intent: faq/preservativo_piel
   examples: |
     - preservativo de piel de cordero 
@@ -913,6 +920,7 @@ nlu:
     - de qué estan hechos los condones de piel
     - que es el presrvativo de piel natural
     - Preservativos de piel natural
+    - es más seguro usar un condón de piel natural?
 - intent: faq/efectividad_preservativo_piel
   examples: |
     - Un condón de piel es mejor que uno de látex para prevenir el vih
