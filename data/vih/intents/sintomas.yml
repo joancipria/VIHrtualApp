@@ -118,6 +118,7 @@ nlu:
     - que sintoams tiene el vih?
     - Cuáles son los síntomas del [VIH](ets)?
     - ¿Sintomas del VIH?
+    - los síntomas iniciales
 - intent: faq/vih_sin_sintomas
   examples: |
     - ¿Puedo tener VIH y no tener síntomas?

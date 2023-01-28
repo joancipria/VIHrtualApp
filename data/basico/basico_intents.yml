@@ -195,6 +195,7 @@ nlu:
     - sepp
     - yo creo que si
     - Sí
+    - de acuerdo ;)
 - intent: reaccionar_positivamente
   examples: |
     - Muy bien
@@ -231,6 +232,7 @@ nlu:
     - Estupendo
     - Chachi
     - Perfecto!
+    - perfecto
     - Me gusta!
     - muy bien, de verdad
 - intent: reaccionar_negativamente

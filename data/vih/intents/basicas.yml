@@ -1033,6 +1033,7 @@ nlu:
     - se sigue investigando sobre el [vih](ets)
     - Se investiga sobre el vih?
     - Cuéntame más sobre las recientes investigaciones sobre VIH
+    - ¿cuales son los últimos avances en el VIH?
 - intent: faq/es_mortal_vih
   examples: |
     - ¿El VIH es mortal?

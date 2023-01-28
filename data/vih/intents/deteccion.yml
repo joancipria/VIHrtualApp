@@ -117,6 +117,7 @@ nlu:
     - Cuando te puedes hacer la prueba
     - A partir de cuando te puedes hacer la prueba de una forma fiable
     - ¿cuánto se tarda en saber si estás infectado de vih?
+    - ¿cuánto tiempo debe pasar para hacerte un test de VIH si crees que te has podido contagiar?
 - intent: faq/deberia_hacerme_prueba
   examples: |
     - ¿Debería hacerme la prueba del VIH?
